@@ -15,6 +15,7 @@
 #include "config.hpp"
 #include "debug.hpp"
 #include "io.hpp"
+#include "utf8.hpp"
 #include "io_internal.hpp"
 #include "pos.hpp"
 #include "state.hpp"
@@ -293,6 +294,19 @@ static void handle_keyup_event()
 
 static void handle_textinput_event()
 {
+        const std::string entered = s_sdl_event.text.text;
+        if (utf8::has_unicode(entered)) {
+                for (size_t p = 0; p < entered.size();) {
+                        const auto g = utf8::next(entered, p);
+                        if (g.cp == 0xfffd || g.cp < 32) return;
+                        p = g.end;
+                }
+                io::clear_input();
+                s_input.key = -1;
+                s_input.text = entered;
+                s_is_done_reading_input = true;
+                return;
+        }
         const auto c = s_sdl_event.text.text[0];
 
         if (c == '+' || c == '-') {

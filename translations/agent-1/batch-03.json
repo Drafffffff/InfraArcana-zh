@@ -1,0 +1,1210 @@
+[
+  {
+    "source": "\"Vi-keys\" are also supported, and can be enabled in the options menu. If vi-mode is enabled, the following keys are used for movement instead:",
+    "target": "“Vi 键”也受支持，可在选项菜单中启用。启用 Vi 模式后，移动改用以下按键：",
+    "locations": [
+      "installed_files/manual.txt:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\"You light a dynamite stick. You throw a lit dynamite stick. (E)You hear an explosion. (E)You hear agonized screaming(x4)\"",
+    "target": "“你点燃了一根炸药棒。你扔出一根点燃的炸药棒。(E)你听到一声爆炸。(E)你听到痛苦的尖叫声（x4）”",
+    "locations": [
+      "installed_files/release_history.txt:1910"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% chance of success.",
+    "target": "成功率。",
+    "locations": [
+      "src/marker.cpp:965"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% health.",
+    "target": "% 生命值。",
+    "locations": [
+      "src/view_actor_descr.cpp:282"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% hit chance.",
+    "target": "% 命中率。",
+    "locations": [
+      "src/marker.cpp:505",
+      "src/marker.cpp:621",
+      "src/marker.cpp:737"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% insane",
+    "target": "% 疯狂",
+    "locations": [
+      "src/character_descr.cpp:82",
+      "src/game_over_summary.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% XP)",
+    "target": "% 经验值）",
+    "locations": [
+      "src/game.cpp:232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "%, derived from (rounded values):",
+    "target": "%，由以下数值（四舍五入）推导：",
+    "locations": [
+      "src/character_descr.cpp:110",
+      "src/game_over_summary.cpp:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "%{reset_color}",
+    "target": "%{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:324",
+      "src/view_actor_descr.cpp:332",
+      "src/view_actor_descr.cpp:335"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "%{reset_color}.",
+    "target": "%{reset_color}.",
+    "locations": [
+      "src/view_actor_descr.cpp:362"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' allowed monsters in narrow spawn range",
+    "target": "' 狭窄刷新范围内允许的怪物数量",
+    "locations": [
+      "src/terrain_door.cpp:592"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' allowed monsters in wide spawn range",
+    "target": "' 宽阔刷新范围内允许的怪物数量",
+    "locations": [
+      "src/terrain_door.cpp:606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' existing terrains ('",
+    "target": "' 个已有地形（'",
+    "locations": [
+      "src/mapgen_put_inscribed_terrain.cpp:210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' has a leader with name '",
+    "target": "' 有一名名叫 ' 的首领",
+    "locations": [
+      "src/actor_act.cpp:347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' left to try)",
+    "target": "' 次尝试机会）",
+    "locations": [
+      "src/mapgen_put_inscribed_terrain.cpp:212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' new inscribed terrains ",
+    "target": "' 个新刻字地形 ",
+    "locations": [
+      "src/mapgen_put_inscribed_terrain.cpp:225"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "' number of inscribed terrains on the map",
+    "target": "' 地图上的刻字地形数量",
+    "locations": [
+      "src/mapgen_put_inscribed_terrain.cpp:192"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' of length '",
+    "target": "'，长度为 '",
+    "locations": [
+      "src/property_data.cpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "' specified in ",
+    "target": "'，指定于 ",
+    "locations": [
+      "src/paths.cpp:109"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "' will not fit in panel of width '",
+    "target": "' 无法放入宽度为 ' 的面板",
+    "locations": [
+      "src/property_data.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "', not found in list of size '",
+    "target": "'，未在大小为 ' 的列表中找到",
+    "locations": [
+      "src/game_time.cpp:402"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "', which also has a leader (not allowed!), ",
+    "target": "'，它也有一名首领（不允许！）， ",
+    "locations": [
+      "src/actor_act.cpp:349"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "() [BEGIN]",
+    "target": "() [BEGIN]",
+    "locations": [
+      "include/debug.hpp:85"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "() [END]",
+    "target": "() [END]",
+    "locations": [
+      "include/debug.hpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(1) Hit Points (HP)",
+    "target": "(1) 生命点数（HP）",
+    "locations": [
+      "installed_files/manual.txt:179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(1) Pressing \"i\" opens a full view of your inventory",
+    "target": "(1) 按“i”打开完整物品栏视图",
+    "locations": [
+      "installed_files/manual.txt:153"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(2) Pressing \"a\" shows only items which you can \"activate\" or consume",
+    "target": "(2) 按“a”仅显示可“启用”或消耗的物品",
+    "locations": [
+      "installed_files/manual.txt:162"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(2) Wounds",
+    "target": "(2) 创伤",
+    "locations": [
+      "installed_files/manual.txt:182"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(3) Pressing \"d\" opens a list to select an item to drop",
+    "target": "(3) 按“d”打开物品列表以选择要丢弃的物品",
+    "locations": [
+      "installed_files/manual.txt:165"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(4) Pressing \"t\" opens a list to select an item to throw",
+    "target": "(4) 按“t”打开物品列表以选择要投掷的物品",
+    "locations": [
+      "installed_files/manual.txt:167"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(Background color is: ",
+    "target": "（背景颜色为： ",
+    "locations": [
+      "src/io.cpp:104"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(c) 2011-2025 Martin Tornqvist",
+    "target": "(c) 2011-2025 Martin Tornqvist",
+    "locations": [
+      "src/version.cpp:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(c) Close ",
+    "target": "(c) 关闭 ",
+    "locations": [
+      "src/marker.cpp:1163"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(c) Jam ",
+    "target": "(c) 卡住 ",
+    "locations": [
+      "src/marker.cpp:1214"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(d) Deactivate crystal",
+    "target": "(d) 停用水晶",
+    "locations": [
+      "src/marker.cpp:1261"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(D)escend",
+    "target": "(D)下楼",
+    "locations": [
+      "src/terrain.cpp:1739"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(Especially handy with Shotguns.)",
+    "target": "（霰弹枪尤其好用。）",
+    "locations": [
+      "installed_files/release_history.txt:1922"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(including skills affecting the damage)",
+    "target": "（包括影响伤害的技能）",
+    "locations": [
+      "installed_files/manual.txt:113"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(More - Page Down)",
+    "target": "（更多 - 下一页）",
+    "locations": [
+      "src/highscore.cpp:409"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(More - Page Up)",
+    "target": "（更多 - 上一页）",
+    "locations": [
+      "src/highscore.cpp:401"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(o) Open ",
+    "target": "(o) 打开 ",
+    "locations": [
+      "src/marker.cpp:1088"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(Q)uit",
+    "target": "(Q)退出",
+    "locations": [
+      "src/game_commands.cpp:253"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(S)ave and quit",
+    "target": "(S)保存并退出",
+    "locations": [
+      "src/terrain.cpp:1739"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(space, esc) Choose another position",
+    "target": "(空格，Esc) 选择其他位置",
+    "locations": [
+      "src/marker.cpp:1650"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(This also rearranges pistol magazines if possible, or feeds on a",
+    "target": "（这也会在可能时重新整理手枪弹匣，或从一",
+    "locations": [
+      "installed_files/manual.txt:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(To fire a ranged weapon or to aim a melee weapon at a specific",
+    "target": "（要开火使用远程武器，或瞄准特定位置使用近",
+    "locations": [
+      "installed_files/manual.txt:10"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(w) Destroy ",
+    "target": "(w) 摧毁 ",
+    "locations": [
+      "src/marker.cpp:1439"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(w) Strike ",
+    "target": "(w) 攻击 ",
+    "locations": [
+      "src/marker.cpp:1368"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(x",
+    "target": "(x",
+    "locations": [
+      "include/msg_log.hpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ") as leader",
+    "target": ") 作为首领",
+    "locations": [
+      "src/actor_std_turn.cpp:113"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "), and a path inside the game directory.",
+    "target": "），以及游戏目录中的路径。",
+    "locations": [
+      "src/paths.cpp:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "), discarding map",
+    "target": "），丢弃地图",
+    "locations": [
+      "src/mapgen_stairs.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* \"Insanity\" is long term, permanent madness",
+    "target": "*“疯狂”是长期且永久的精神失常",
+    "locations": [
+      "installed_files/manual.txt:212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* \"Shock\" is your level of stress and paranoia in the current situation",
+    "target": "*“震慑”是你在当前情境下的压力和偏执程度",
+    "locations": [
+      "installed_files/manual.txt:211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Body     - item worn on your body (e.g. an armor or a jacket)",
+    "target": "* 身体     - 穿在身上的物品（如护甲或夹克）",
+    "locations": [
+      "installed_files/manual.txt:159"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Distance",
+    "target": "* 距离",
+    "locations": [
+      "installed_files/manual.txt:236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Dungeon level reached",
+    "target": "* 到达的地城层数",
+    "locations": [
+      "installed_files/manual.txt:255"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Experience points gained",
+    "target": "* 获得的经验值",
+    "locations": [
+      "installed_files/manual.txt:254"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Fewer turns spent",
+    "target": "* 花费回合较少",
+    "locations": [
+      "installed_files/manual.txt:256"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Head     - item worn on your head (e.g. a gas mask)",
+    "target": "* 头部     - 戴在头上的物品（如防毒面具）",
+    "locations": [
+      "installed_files/manual.txt:160"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Insanity rises",
+    "target": "* 疯狂值上升",
+    "locations": [
+      "installed_files/manual.txt:217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Light and darkness",
+    "target": "* 光明与黑暗",
+    "locations": [
+      "installed_files/manual.txt:235"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Lower insanity",
+    "target": "* 降低疯狂值",
+    "locations": [
+      "installed_files/manual.txt:257"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Move into closed doors, chests, cabinets, etc to attempt to open them",
+    "target": "* 撞向关闭的门、箱子、柜子等以尝试打开它们",
+    "locations": [
+      "installed_files/manual.txt:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Move into fountains to drink from them",
+    "target": "* 撞向喷泉以饮用",
+    "locations": [
+      "installed_files/manual.txt:83"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Move into monsters to melee attack them",
+    "target": "* 撞向怪物以进行近战攻击",
+    "locations": [
+      "installed_files/manual.txt:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Move into opened chests, cabinets, etc to loot them",
+    "target": "* 撞向已打开的箱子、柜子等以搜刮物品",
+    "locations": [
+      "installed_files/manual.txt:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Move into stuck doors to attempt to bash them open",
+    "target": "* 撞向卡住的门以尝试撞开",
+    "locations": [
+      "installed_files/manual.txt:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Prepared - the weapon to switch to when pressing \"z\"",
+    "target": "* 备用 - 按“z”时切换到的武器",
+    "locations": [
+      "installed_files/manual.txt:158"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Search skill",
+    "target": "* 搜索技能",
+    "locations": [
+      "installed_files/manual.txt:233"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* The hidden actor's sneak skill",
+    "target": "* 隐藏行动者的潜行技能",
+    "locations": [
+      "installed_files/manual.txt:234"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* The shock value is restored",
+    "target": "* 震慑值已恢复",
+    "locations": [
+      "installed_files/manual.txt:216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* Wielded  - your currently used melee weapon or firearm",
+    "target": "* 手持 - 当前使用的近战武器或枪械",
+    "locations": [
+      "installed_files/manual.txt:157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "* You react somehow (scream, laugh, faint, babble, gain a phobia...)",
+    "target": "* 你会出现某种反应（尖叫、大笑、昏厥、胡言乱语、产生恐惧症……）",
+    "locations": [
+      "installed_files/manual.txt:215"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "*** ASSERTION FAILED! ***",
+    "target": "*** 断言失败！***",
+    "locations": [
+      "src/debug.cpp:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "*Chop!*",
+    "target": "*咔嚓！*",
+    "locations": [
+      "src/actor_hit.cpp:158"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "*Crack!*",
+    "target": "*咔！*",
+    "locations": [
+      "src/actor_hit.cpp:114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "*Thud!*",
+    "target": "*砰！*",
+    "locations": [
+      "src/actor_hit.cpp:155"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "*Whoosh!*",
+    "target": "*嗖！*",
+    "locations": [
+      "src/bash.cpp:456"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+1 armor point (physical damage reduced by 1 point)",
+    "target": "+1 点护甲（物理伤害减少 1 点）",
+    "locations": [
+      "src/player_bon.cpp:527"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+1 claw damage, when attacking with claws, vicious worms occasionally burst out from the corpses of your victims to attack your enemies",
+    "target": "+1 爪击伤害；用爪子攻击时，受害者尸体偶尔会冒出凶猛蠕虫来攻击你的敌人",
+    "locations": [
+      "src/player_bon.cpp:776"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+1 claw damage, you are immune to poison, and attacks with your claws often poisons your victims",
+    "target": "+1 爪击伤害，免疫毒素；爪击经常会使受害者中毒",
+    "locations": [
+      "src/player_bon.cpp:786"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+1 extra hit point regenerated per turn.",
+    "target": "每回合额外恢复 +1 生命值。",
+    "locations": [
+      "src/property_data.cpp:1115"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+10% chance to spot hidden monsters, doors, and traps.",
+    "target": "发现隐藏怪物、门和陷阱的几率提高 +10%。",
+    "locations": [
+      "src/player_bon.cpp:1195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+10% hit chance and +1 damage with melee attacks",
+    "target": "近战攻击命中率提高 +10%，伤害 +1",
+    "locations": [
+      "src/player_bon.cpp:158"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+10% hit chance and +1 minimum damage with firearms and thrown weapons (cannot raise maximum damage)",
+    "target": "枪械和投掷武器命中率提高 +10%，最低伤害 +1（无法提高最高伤害）",
+    "locations": [
+      "src/player_bon.cpp:181"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+10% to hit chance, evasion, stealth, and searching.",
+    "target": "命中率、闪避、潜行和搜索能力提高 +10%。",
+    "locations": [
+      "src/property_data.cpp:798",
+      "src/property_data.cpp:849"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+100% backstab damage",
+    "target": "背刺伤害 +100%",
+    "locations": [
+      "src/player_bon.cpp:836"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+100% backstab damage (in addition to the normal +50%)",
+    "target": "背刺伤害 +100%（在原有 +50% 之外额外增加）",
+    "locations": [
+      "src/player_bon.cpp:828"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+2 melee and ranged attack damage against all undead monsters, +50% hit chance against ethereal undead monsters",
+    "target": "对所有不死怪物的近战与远程攻击伤害 +2；对灵体不死怪物的命中率 +50%",
+    "locations": [
+      "src/player_bon.cpp:559"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+2 spirit points, increased spirit regeneration rate, it takes 25-50 turns to regain spell resistance after a spell is blocked",
+    "target": "精神值 +2，精神值恢复速度提高；法术被抵挡后，需 25-50 回合才能恢复法术抗性",
+    "locations": [
+      "src/player_bon.cpp:430"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+2 spirit points, increased spirit regeneration rate, it takes 75-100 turns to regain spell resistance after a spell is blocked",
+    "target": "精神值 +2，精神值恢复速度提高；法术被抵挡后，需 75-100 回合才能恢复法术抗性",
+    "locations": [
+      "src/player_bon.cpp:419"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+2 spirit points, increased spirit regeneration rate, you can defy harmful spells (it takes 125-150 turns to regain spell resistance after a spell is blocked)",
+    "target": "精神值 +2，精神值恢复速度提高，可抵御有害法术（法术被抵挡后，需 125-150 回合才能恢复法术抗性）",
+    "locations": [
+      "src/player_bon.cpp:382"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+20% mental shock resistance",
+    "target": "精神震慑抗性 +20%",
+    "locations": [
+      "src/player_bon.cpp:210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+25% chance to evade attacks",
+    "target": "闪避攻击的几率 +25%",
+    "locations": [
+      "src/player_bon.cpp:223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+25% chance to resist burning, poisoning and paralysis - and the duration of those effects is halved",
+    "target": "抵抗燃烧、中毒和麻痹的几率 +25%，且这些效果的持续时间减半",
+    "locations": [
+      "src/player_bon.cpp:543"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+3 armor points, +25% chance to resist burning.",
+    "target": "护甲 +3，抵抗燃烧的几率 +25%。",
+    "locations": [
+      "src/property_data.cpp:863"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+3 melee damage, +30% melee hit chance, +3 armor points.",
+    "target": "近战伤害 +3，近战命中率 +30%，护甲 +3。",
+    "locations": [
+      "src/property_data.cpp:1346"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+3 spirit points (in addition to \"Stout Spirit\").",
+    "target": "精神值 +3（在“坚韧精神”基础上额外增加）。",
+    "locations": [
+      "src/player_bon.cpp:1187"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+45% chance to avoid detection by sight",
+    "target": "避免被视觉发现的几率 +45%",
+    "locations": [
+      "src/player_bon.cpp:267"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+50% carry weight limit",
+    "target": "负重上限 +50%",
+    "locations": [
+      "src/player_bon.cpp:551"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+6 hit points, +10% chance to resist burning, poisoning and paralysis, less likely to sprain when kicking, more likely to succeed with object interactions requiring strength (e.g. bashing things open)",
+    "target": "生命值 +6，抵抗燃烧、中毒和麻痹的几率 +10%；踢击时较不易扭伤；力量相关物品互动（如撞开物体）更容易成功",
+    "locations": [
+      "src/player_bon.cpp:488"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+75% chance to evade attacks.",
+    "target": "闪避攻击的几率 +75%。",
+    "locations": [
+      "src/property_data.cpp:877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+8 hit points.",
+    "target": "生命值 +8。",
+    "locations": [
+      "src/player_bon.cpp:1152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", all spells belonging to the chosen domain are cast at a higher skill level. This choice also determines starting spells.",
+    "target": "，所选领域中的所有法术都会以更高技能等级施放。此选择也会决定开局法术。",
+    "locations": [
+      "src/player_bon.cpp:1175"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", all spells belonging to this domain are cast at a higher skill level.",
+    "target": "，此领域中的所有法术都会以更高技能等级施放。",
+    "locations": [
+      "src/player_bon.cpp:1133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", and ",
+    "target": "，以及 ",
+    "locations": [
+      "src/player_bon.cpp:1106"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ", and fail to close it.",
+    "target": "，却没能将其关上。",
+    "locations": [
+      "src/terrain_door.cpp:554"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", and fail to open it.",
+    "target": "，却没能将其打开。",
+    "locations": [
+      "src/terrain_door.cpp:462"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", and the chance to hit by kicking is{_}{COLOR_LIGHT_GREEN}",
+    "target": "，踢击命中率为{_}{COLOR_LIGHT_GREEN}",
+    "locations": [
+      "src/view_actor_descr.cpp:333"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ", but manage to close it.",
+    "target": "，但成功将其关上。",
+    "locations": [
+      "src/terrain_door.cpp:533"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", but manage to open it.",
+    "target": "，但成功将其打开。",
+    "locations": [
+      "src/terrain_door.cpp:398"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", decimal RGB values: ",
+    "target": "，十进制 RGB 数值： ",
+    "locations": [
+      "src/colors.cpp:177"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ", expected: ",
+    "target": "，预期值： ",
+    "locations": [
+      "src/io.cpp:225"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ", guide us!",
+    "target": "，指引我们！",
+    "locations": [
+      "src/actor_mon.cpp:210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", hexadecimal RGB string: \"",
+    "target": "，十六进制 RGB 字符串：“",
+    "locations": [
+      "src/colors.cpp:176"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", path retrieved from calling SDL_GetPrefPath (",
+    "target": "，调用 SDL_GetPrefPath 获取的路径（",
+    "locations": [
+      "src/paths.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", try casting spell anyway? ",
+    "target": "，仍要尝试施放法术吗？ ",
+    "locations": [
+      "src/player_spells.cpp:137"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "- \"Auto moving\" is used by holding shift and pressing direction keys, instead of repeatedly pressing \"e\" + direction (auto moving is not supported when using the arrow keys, where shift is used to move diagonally upwards instead)",
+    "target": "- 按住 Shift 并按方向键即可“自动移动”，无需反复按“e”再按方向键（使用方向键移动时不支持自动移动，因为 Shift 用于斜向上移动）。",
+    "locations": [
+      "installed_files/release_history.txt:570"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"C\" is the standard key for the character info screen, with \"@\" as alternative key",
+    "target": "-“C”是角色信息界面的标准按键，“@”是替代按键",
+    "locations": [
+      "installed_files/release_history.txt:464"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Cloud Minds\" is a Rod instead of a spell (the Rogue starts with this item, intead of the spell)",
+    "target": "-“云心术”现在是法杖而非法术（盗贼开局携带此物品，而非该法术）",
+    "locations": [
+      "installed_files/release_history.txt:815"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Infravision\" has been changed to the ability to see in darkness instead (this means Ghoul characters can fully see in dark rooms)",
+    "target": "-“红外视觉”改为在黑暗中视物的能力（这意味着食尸鬼角色可以看清黑暗房间）",
+    "locations": [
+      "installed_files/release_history.txt:715"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Ornate Tombs\" are now colored cyan instead (they were hard to distinguish from normal tombs)",
+    "target": "-“华丽陵墓”现在显示为青色（此前很难与普通陵墓区分）",
+    "locations": [
+      "installed_files/release_history.txt:763"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"SAN\" (sanity) changed to \"INS\" (insanity) in the interface. Counts up from 0%. The values are called \"insanity\" and \"shock\" (or stress)",
+    "target": "-界面中的“S​​AN”（理智）已改为“INS”（疯狂）。数值从 0% 开始累加。相关数值称为“疯狂”和“震慑”（或压力）。",
+    "locations": [
+      "installed_files/release_history.txt:1689"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Shock\" is referred to as \"mental shock\" when picking background and traits, since it could be confused with some type of shock damage (and this is probably often the first time a new player encounters this term in the game).",
+    "target": "-选择背景和特质时，“震慑”称为“精神震慑”，以免与某种震击伤害混淆（新玩家很可能会在游戏中首次遇到这个词）。",
+    "locations": [
+      "installed_files/release_history.txt:196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Slimy\" walls are now \"Moss-grown\" walls instead",
+    "target": "-“黏液墙”现改称“苔生墙”",
+    "locations": [
+      "installed_files/release_history.txt:1248"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Snake pit\" rooms now contains much fewer monsters (instead of filling the whole room)",
+    "target": "-“蛇坑”房间中的怪物大幅减少（不再填满整个房间）",
+    "locations": [
+      "installed_files/release_history.txt:708"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Throwing a Stick of Dynamite\" is no longer added to the message history.",
+    "target": "-不再将“投掷炸药棒”加入消息记录。",
+    "locations": [
+      "installed_files/release_history.txt:111"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- \"Treasure rooms\" with armor and ammo, or scrolls and potions, that are usually secret.",
+    "target": "-通常是隐藏区域的“宝藏室”，内有护甲和弹药，或卷轴和药水。",
+    "locations": [
+      "installed_files/release_history.txt:1558"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- +1 or 2 HP when levelling up (randomly)",
+    "target": "-升级时随机获得 +1 或 +2 生命值",
+    "locations": [
+      "installed_files/release_history.txt:1738"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- +2HP at level up instead of +1",
+    "target": "-升级时获得 +2 生命值，而非 +1",
+    "locations": [
+      "installed_files/release_history.txt:1817"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 2 new unique monsters",
+    "target": "-新增 2 种独特怪物",
+    "locations": [
+      "installed_files/release_history.txt:1612",
+      "installed_files/release_history.txt:1653"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 3 new monsters",
+    "target": "-新增 3 种怪物",
+    "locations": [
+      "installed_files/release_history.txt:1468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 4 new common monsters",
+    "target": "-新增 4 种普通怪物",
+    "locations": [
+      "installed_files/release_history.txt:1613"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 6 new potions",
+    "target": "-新增 6 种药水",
+    "locations": [
+      "installed_files/release_history.txt:1557"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 6 new scrolls (some old scroll effects are now potions instead)",
+    "target": "-新增 6 种卷轴（部分旧卷轴效果现改为药水）",
+    "locations": [
+      "installed_files/release_history.txt:1671"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- 7 new monsters",
+    "target": "-新增 7 种怪物",
+    "locations": [
+      "installed_files/release_history.txt:1556"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A bug caused monsters to cast spells even while unaware",
+    "target": "-修复怪物在尚未察觉时仍会施放法术的错误",
+    "locations": [
+      "installed_files/release_history.txt:1695"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A character screen (@) with info about skills and mental conditions",
+    "target": "-角色界面（@）显示技能和精神状态信息",
+    "locations": [
+      "installed_files/release_history.txt:1463"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A command to print the postmortem info to a memorial file",
+    "target": "-新增命令，可将死后信息写入纪念文件",
+    "locations": [
+      "installed_files/release_history.txt:1788"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A command to trigger known traps on purpose",
+    "target": "-新增命令，可主动触发已知陷阱",
+    "locations": [
+      "installed_files/release_history.txt:1871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A couple more spells that monsters can cast",
+    "target": "-新增数种怪物可施放的法术",
+    "locations": [
+      "installed_files/release_history.txt:1469"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A few monsters wait for a turn when they see the player and are aware of the player. This only happens once, until the monster loses awareness again. It is intended to avoid some unfair instant deaths by allowing the player a chance to act first (for example Cultists and White Spiders have this behavior).",
+    "target": "-部分怪物看到并察觉玩家后会等待一回合。每次怪物重新察觉玩家时只会触发一次。此设计旨在避免不公平的瞬间死亡，让玩家有机会先行动（例如邪教徒和白蜘蛛就会如此）。",
+    "locations": [
+      "installed_files/release_history.txt:172"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A few particularly powerful spells are \"tenebrous\", such spells are immediately \"forgotten\" when they are cast from memory, and cannot be cast until recalled again (by using a mirror, or casting the spell from a manuscript).",
+    "target": "-少数特别强大的法术属于“幽冥”法术；从记忆中施放后会立即被“遗忘”，必须重新回忆（使用镜子，或从手稿施放）才能再次施放。",
+    "locations": [
+      "installed_files/release_history.txt:236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A game summary text file is always stored after the game (there is no menu option for this)",
+    "target": "-游戏结束后始终会保存游戏总结文本文件（没有对应菜单选项）",
+    "locations": [
+      "installed_files/release_history.txt:770"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A generated description is now printed for all monsters - previously some monsters (such as Crawling Intestines) used to have the generated part of their description completely disabled",
+    "target": "-现在会为所有怪物生成描述；此前部分怪物（如爬行肠子）的生成描述完全被禁用",
+    "locations": [
+      "installed_files/release_history.txt:399"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A lot more terrain objects can be destroyed or lit on fire (for example altars or monoliths are destroyed by explosions, and wooden chests or bookshelves can be lit on fire)",
+    "target": "-更多地形物件可被摧毁或点燃（例如祭坛或巨石碑会被爆炸摧毁，木箱或书架可被点燃）",
+    "locations": [
+      "installed_files/release_history.txt:435"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A monster shot with a flare will take damage each turn, and may eventually catch fire (instead of exploding in flames on death)",
+    "target": "-被信号棒击中的怪物每回合都会受伤，最终可能着火（而非死亡时炸成一团火焰）",
+    "locations": [
+      "installed_files/release_history.txt:1343"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A monster's chance of spotting you is now affected by distance.",
+    "target": "-怪物发现你的几率现在会受距离影响。",
+    "locations": [
+      "installed_files/release_history.txt:1230"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A new font image added (11x19), edit config.txt to use it",
+    "target": "-新增一种字体图像（11x19），编辑 config.txt 即可使用",
+    "locations": [
+      "installed_files/release_history.txt:1576"
+    ],
+    "kind": "ui"
+  }
+]

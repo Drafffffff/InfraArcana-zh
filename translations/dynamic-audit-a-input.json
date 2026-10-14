@@ -1,0 +1,287 @@
+[
+  {
+    "source": " bewilders me.",
+    "locations": [
+      "src/property.cpp:3202"
+    ]
+  },
+  {
+    "source": " collapses!",
+    "locations": [
+      "src/property.cpp:3343"
+    ]
+  },
+  {
+    "source": " comes off and starts crawling around!",
+    "locations": [
+      "src/property.cpp:2937"
+    ]
+  },
+  {
+    "source": " is spawned.",
+    "locations": [
+      "src/property.cpp:3073"
+    ]
+  },
+  {
+    "source": " is taunting me!",
+    "locations": [
+      "src/property.cpp:3224"
+    ]
+  },
+  {
+    "source": " pulls me!",
+    "locations": [
+      "src/property.cpp:2540"
+    ]
+  },
+  {
+    "source": " rises again!!",
+    "locations": [
+      "src/property.cpp:2848"
+    ]
+  },
+  {
+    "source": " spews ooze.",
+    "locations": [
+      "src/property.cpp:3155"
+    ]
+  },
+  {
+    "source": " splits.",
+    "locations": [
+      "src/property.cpp:2623"
+    ]
+  },
+  {
+    "source": " starts crawling around!",
+    "locations": [
+      "src/property.cpp:2946"
+    ]
+  },
+  {
+    "source": " starts floating around!",
+    "locations": [
+      "src/property.cpp:2955"
+    ]
+  },
+  {
+    "source": " stops and gropes about.",
+    "locations": [
+      "src/property.cpp:1015"
+    ]
+  },
+  {
+    "source": " struggles in pain!",
+    "locations": [
+      "src/property.cpp:1191"
+    ]
+  },
+  {
+    "source": " suffers from poisoning!",
+    "locations": [
+      "src/property.cpp:1085"
+    ]
+  },
+  {
+    "source": " tears out a spike!",
+    "locations": [
+      "src/property.cpp:1213"
+    ]
+  },
+  {
+    "source": "A chasm lies in my way.",
+    "locations": [
+      "src/terrain_data.cpp:277"
+    ]
+  },
+  {
+    "source": "A powerful wind is pulling me!",
+    "locations": [
+      "src/property.cpp:2543"
+    ]
+  },
+  {
+    "source": "A voice is calling forth Tomb-Legions!",
+    "locations": [
+      "src/property.cpp:3375"
+    ]
+  },
+  {
+    "source": "A wound is healed.",
+    "locations": [
+      "src/property.cpp:1290"
+    ]
+  },
+  {
+    "source": "AAAARGH IT BURNS!!!",
+    "locations": [
+      "src/property.cpp:1986"
+    ]
+  },
+  {
+    "source": "All my wounds are healed!",
+    "locations": [
+      "src/property.cpp:1295"
+    ]
+  },
+  {
+    "source": "I am burning!",
+    "locations": [
+      "src/property.cpp:2049"
+    ]
+  },
+  {
+    "source": "I am decaying!",
+    "locations": [
+      "src/property.cpp:3361"
+    ]
+  },
+  {
+    "source": "I am suffering from the poison!",
+    "locations": [
+      "src/property.cpp:1075"
+    ]
+  },
+  {
+    "source": "I am too confused to concentrate!",
+    "locations": [
+      "src/property.cpp:1495",
+      "src/property.cpp:1504"
+    ]
+  },
+  {
+    "source": "I am too confused to read.",
+    "locations": [
+      "src/property.cpp:1485"
+    ]
+  },
+  {
+    "source": "I am too enraged to concentrate!",
+    "locations": [
+      "src/property.cpp:1954",
+      "src/property.cpp:1963"
+    ]
+  },
+  {
+    "source": "I am too enraged to read!",
+    "locations": [
+      "src/property.cpp:1944"
+    ]
+  },
+  {
+    "source": "I am too terrified to engage in close combat!",
+    "locations": [
+      "src/property.cpp:1135"
+    ]
+  },
+  {
+    "source": "I cannot read while blind.",
+    "locations": [
+      "src/property.cpp:2137"
+    ]
+  },
+  {
+    "source": "I crave Astral Opium!!",
+    "locations": [
+      "src/property.cpp:1753"
+    ]
+  },
+  {
+    "source": "I feel a faint tingle.",
+    "locations": [
+      "src/property.cpp:2223"
+    ]
+  },
+  {
+    "source": "I feel warm.",
+    "locations": [
+      "src/property.cpp:2324"
+    ]
+  },
+  {
+    "source": "I need more!!",
+    "locations": [
+      "src/property.cpp:1772"
+    ]
+  },
+  {
+    "source": "I realize I am standing on the edge of a chasm.",
+    "locations": [
+      "src/terrain_data.cpp:279"
+    ]
+  },
+  {
+    "source": "I resist harm.",
+    "locations": [
+      "src/property.cpp:2296"
+    ]
+  },
+  {
+    "source": "I rip out a spike from my flesh!",
+    "locations": [
+      "src/property.cpp:1206"
+    ]
+  },
+  {
+    "source": "I struggle to tear out the spike!",
+    "locations": [
+      "src/property.cpp:1180"
+    ]
+  },
+  {
+    "source": "I succumb to my wounds!",
+    "locations": [
+      "src/property.cpp:1337"
+    ]
+  },
+  {
+    "source": "I will not step away!",
+    "locations": [
+      "src/property.cpp:1895"
+    ]
+  },
+  {
+    "source": "Major Clapham Lee calls forth his Tomb-Legions!",
+    "locations": [
+      "src/property.cpp:3386"
+    ]
+  },
+  {
+    "source": "seems unaffected.",
+    "locations": [
+      "src/property.cpp:2225",
+      "src/property.cpp:2326"
+    ]
+  },
+  {
+    "source": "seems unharmed.",
+    "locations": [
+      "src/property.cpp:2298"
+    ]
+  },
+  {
+    "source": "The hand of ",
+    "locations": [
+      "src/property.cpp:2935"
+    ]
+  },
+  {
+    "source": "The head of ",
+    "locations": [
+      "src/property.cpp:2953"
+    ]
+  },
+  {
+    "source": "The intestines of ",
+    "locations": [
+      "src/property.cpp:2944"
+    ]
+  },
+  {
+    "source": "Wounded(",
+    "locations": [
+      "src/property.cpp:1249"
+    ]
+  }
+]

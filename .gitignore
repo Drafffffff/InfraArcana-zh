@@ -5,3 +5,10 @@ __pycache__/
 *.o
 *.d
 .DS_Store
+game/
+qa-*/
+installation-records/
+/steam-install.json
+/install_steam.py
+/qa_ui.py
+/qa-start.sh

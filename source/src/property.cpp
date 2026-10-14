@@ -478,7 +478,7 @@ PropEnded Entangled::affect_move_dir(Dir& dir)
         dir = Dir::center;
 
         if (actor::is_player(m_owner)) {
-                msg_log::add("I struggle to tear free!", colors::msg_bad());
+                msg_log::add("我拼命撕扯，想要脱身！", colors::msg_bad());
         }
         else {
                 // Is monster
@@ -488,7 +488,7 @@ PropEnded Entangled::affect_move_dir(Dir& dir)
                                         actor::name_the(*m_owner));
 
                         msg_log::add(
-                                actor_name_the + " struggles to tear free.",
+                                actor_name_the + " 挣扎着想撕开束缚。",
                                 colors::msg_good());
                 }
         }
@@ -517,7 +517,7 @@ bool Entangled::try_player_end_with_machete()
         item::Item* item = m_owner->m_inv.item_in_slot(SlotId::wpn);
 
         if (item && (item->id() == item::Id::machete)) {
-                msg_log::add("I cut myself free with my Machete.");
+                msg_log::add("我用砍刀割断束缚。");
 
                 m_owner->m_properties.end_prop(
                         id(),
@@ -561,7 +561,7 @@ PropEnded Stuck::affect_move_dir(Dir& dir)
         dir = Dir::center;
 
         if (actor::is_player(m_owner)) {
-                msg_log::add("I struggle to pull free!", colors::msg_bad());
+                msg_log::add("我努力挣脱！", colors::msg_bad());
         }
         else {
                 // Is monster
@@ -571,7 +571,7 @@ PropEnded Stuck::affect_move_dir(Dir& dir)
                                         actor::name_the(*m_owner));
 
                         msg_log::add(
-                                actor_name_the + " struggles to pull free.",
+                                actor_name_the + " 挣扎着想要挣脱。",
                                 colors::msg_good());
                 }
         }
@@ -639,7 +639,7 @@ PropEnded Infected::on_actor_turn()
                     !has_warned &&
                     rnd::coin_toss()) {
                         msg_log::add(
-                                "My infection is getting worse!",
+                                "我的感染恶化了！",
                                 colors::msg_note(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::yes);
@@ -762,7 +762,7 @@ void PossessedByZuul::on_death()
 
                 const std::string& name2 = actor::g_data["MON_ZUUL"].name_the;
 
-                msg_log::add(name1 + " was possessed by " + name2 + "!");
+                msg_log::add(name1 + " 被 " + name2 + "!");
         }
 
         m_owner->m_state = ActorState::destroyed;
@@ -928,7 +928,7 @@ void Shapeshifts::shapeshift(const Verbose verbose) const
         const bool can_player_see_mon = actor::can_player_see_actor(*m_owner);
 
         if ((verbose == Verbose::yes) && can_player_see_mon) {
-                msg_log::add("It changes shape!");
+                msg_log::add("它变形了！");
 
                 draw_blast_at_cells({m_owner->m_pos}, colors::yellow());
         }
@@ -1012,7 +1012,7 @@ PropEnded ZealotStop::affect_move_dir(Dir& dir)
         if (actor::can_player_see_actor(*m_owner)) {
                 const auto name = text_format::first_to_upper(actor::name_the(*m_owner));
 
-                msg_log::add(name + " stops and gropes about.");
+                msg_log::add(name + " 停下来摸索四周。");
         }
 
         dir = Dir::center;
@@ -1072,7 +1072,7 @@ PropEnded Poisoned::on_actor_turn()
 
         if (actor::is_player(m_owner)) {
                 msg_log::add(
-                        "I am suffering from the poison!",
+                        "我正在承受毒素侵袭!",
                         colors::msg_bad(),
                         MsgInterruptPlayer::yes);
         }
@@ -1082,7 +1082,7 @@ PropEnded Poisoned::on_actor_turn()
                         text_format::first_to_upper(
                                 actor::name_the(*m_owner));
 
-                msg_log::add(actor_name_the + " suffers from poisoning!");
+                msg_log::add(actor_name_the + " 中毒了!");
         }
 
         actor::hit(*m_owner, dmg, DmgType::pure, nullptr);
@@ -1132,7 +1132,7 @@ int Terrified::ability_mod(const AbilityId ability) const
 bool Terrified::allow_attack_melee(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && verbose == Verbose::yes) {
-                msg_log::add("I am too terrified to engage in close combat!");
+                msg_log::add("我恐惧得无法近战攻击!");
         }
 
         return false;
@@ -1177,7 +1177,7 @@ PropEnded Nailed::affect_move_dir(Dir& dir)
 
         if (actor::is_player(m_owner)) {
                 msg_log::add(
-                        "I struggle to tear out the spike!",
+                        "我努力拔出尖刺!",
                         colors::msg_bad());
         }
         else {
@@ -1188,7 +1188,7 @@ PropEnded Nailed::affect_move_dir(Dir& dir)
                                         actor::name_the(*m_owner));
 
                         msg_log::add(
-                                actor_name_the + " struggles in pain!",
+                                actor_name_the + " 痛苦地挣扎!",
                                 colors::msg_good());
                 }
         }
@@ -1203,14 +1203,14 @@ PropEnded Nailed::affect_move_dir(Dir& dir)
 
         if (m_nr_spikes > 0) {
                 if (actor::is_player(m_owner)) {
-                        msg_log::add("I rip out a spike from my flesh!");
+                        msg_log::add("我把一根尖刺从肉里拔了出来!");
                 }
                 else if (actor::can_player_see_actor(*m_owner)) {
                         const std::string actor_name_the =
                                 text_format::first_to_upper(
                                         actor::name_the(*m_owner));
 
-                        msg_log::add(actor_name_the + " tears out a spike!");
+                        msg_log::add(actor_name_the + " 拔出了一根尖刺!");
                 }
         }
 
@@ -1246,7 +1246,7 @@ void Wound::load()
 
 std::string Wound::name_short() const
 {
-        return "Wounded(" + std::to_string(m_nr_wounds) + ")";
+        return "受创(" + std::to_string(m_nr_wounds) + ")";
 }
 
 int Wound::ability_mod(const AbilityId ability) const
@@ -1287,12 +1287,12 @@ int Wound::max_hp_pct_mod() const
 
 std::string Wound::get_one_wound_heal_str() const
 {
-        return "A wound is healed.";
+        return "一处创伤愈合了。";
 }
 
 std::string Wound::get_all_wounds_heal_str() const
 {
-        return "All my wounds are healed!";
+        return "我的所有创伤都愈合了!";
 }
 
 std::string Wound::msg_end_player() const
@@ -1334,7 +1334,7 @@ void Wound::on_more(const Prop& new_prop)
 
         if (m_nr_wounds >= nr_wounds_fatal) {
                 if (actor::is_player(m_owner)) {
-                        msg_log::add("I succumb to my wounds!");
+                        msg_log::add("我还是没能挺过创伤!");
                 }
 
                 actor::kill(*m_owner, IsDestroyed::no, AllowGore::no, AllowDropItems::yes);
@@ -1482,7 +1482,7 @@ void MindSap::on_more(const Prop& new_prop)
 bool Confused::allow_read_absolute(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && verbose == Verbose::yes) {
-                msg_log::add("I am too confused to read.");
+                msg_log::add("我困惑得无法阅读。");
         }
 
         return false;
@@ -1492,7 +1492,7 @@ bool Confused::allow_cast_intr_spell_absolute(
         const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I am too confused to concentrate!");
+                msg_log::add("我困惑得无法集中精神!");
         }
 
         return false;
@@ -1501,7 +1501,7 @@ bool Confused::allow_cast_intr_spell_absolute(
 bool Confused::allow_pray(Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I am too confused to concentrate!");
+                msg_log::add("我困惑得无法集中精神!");
         }
 
         return false;
@@ -1750,7 +1750,7 @@ void AstralOpiumAddict::on_std_turn()
 
                 if (m_nr_turns_to_penalty == 0) {
                         msg_log::add(
-                                "I crave Astral Opium!!",
+                                "我渴望星界鸦片!!",
                                 colors::msg_note(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::yes);
@@ -1769,7 +1769,7 @@ void AstralOpiumAddict::on_more(const Prop& new_prop)
 {
         (void)new_prop;
 
-        msg_log::add("I need more!!");
+        msg_log::add("我还要更多!!");
 
         reset_penalty_countdown();
 
@@ -1892,7 +1892,7 @@ bool Frenzied::allow_move_dir(const Dir dir)
                 }
         }
 
-        msg_log::add("I will not step away!");
+        msg_log::add("我绝不后退!");
 
         return false;
 }
@@ -1941,7 +1941,7 @@ void Frenzied::on_end()
 bool Frenzied::allow_read_absolute(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && verbose == Verbose::yes) {
-                msg_log::add("I am too enraged to read!");
+                msg_log::add("我愤怒得无法阅读!");
         }
 
         return false;
@@ -1951,7 +1951,7 @@ bool Frenzied::allow_cast_intr_spell_absolute(
         const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I am too enraged to concentrate!");
+                msg_log::add("我愤怒得无法集中精神!");
         }
 
         return false;
@@ -1960,7 +1960,7 @@ bool Frenzied::allow_cast_intr_spell_absolute(
 bool Frenzied::allow_pray(Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I am too enraged to concentrate!");
+                msg_log::add("我愤怒得无法集中精神!");
         }
 
         return false;
@@ -1983,7 +1983,7 @@ int Burning::ability_mod(const AbilityId ability) const
 PropEnded Burning::on_actor_turn()
 {
         if (actor::is_player(m_owner)) {
-                msg_log::add("AAAARGH IT BURNS!!!", colors::light_red());
+                msg_log::add("啊啊啊，好烫!!!", colors::light_red());
         }
 
         actor::hit(*m_owner, rnd::range(1, 3), DmgType::fire, nullptr);
@@ -2046,7 +2046,7 @@ bool Burning::allow_cast_intr_spell_chance(const Verbose verbose) const
 bool Burning::allow_pray(Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I am burning!");
+                msg_log::add("我着火了!");
         }
 
         return false;
@@ -2055,7 +2055,7 @@ bool Burning::allow_pray(Verbose verbose) const
 bool Burning::allow_attack_ranged(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("Not while burning.");
+                msg_log::add("燃烧时不行。");
         }
 
         return false;
@@ -2134,7 +2134,7 @@ int Blind::ability_mod(const AbilityId ability) const
 bool Blind::allow_read_absolute(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && (verbose == Verbose::yes)) {
-                msg_log::add("I cannot read while blind.");
+                msg_log::add("我失明时无法阅读。");
         }
 
         return false;
@@ -2220,9 +2220,9 @@ DmgResistData RElec::is_resisting_dmg(const DmgType dmg_type) const
 
         d.is_resisted = (dmg_type == DmgType::electric);
 
-        d.msg_resist_player = "I feel a faint tingle.";
+        d.msg_resist_player = "我感到一阵微弱的刺痛。";
 
-        d.msg_resist_mon = "seems unaffected.";
+        d.msg_resist_mon = "似乎没有受到影响。";
 
         return d;
 }
@@ -2293,9 +2293,9 @@ DmgResistData RPhys::is_resisting_dmg(const DmgType dmg_type) const
 
         d.is_resisted = is_physical_dmg_type(dmg_type);
 
-        d.msg_resist_player = "I resist harm.";
+        d.msg_resist_player = "我抵御了伤害。";
 
-        d.msg_resist_mon = "seems unharmed.";
+        d.msg_resist_mon = "似乎毫发无损。";
 
         return d;
 }
@@ -2321,9 +2321,9 @@ DmgResistData RFire::is_resisting_dmg(const DmgType dmg_type) const
 
         d.is_resisted = (dmg_type == DmgType::fire);
 
-        d.msg_resist_player = "I feel warm.";
+        d.msg_resist_player = "我觉得暖洋洋的。";
 
-        d.msg_resist_mon = "seems unaffected.";
+        d.msg_resist_mon = "似乎没有受到影响。";
 
         return d;
 }
@@ -2537,10 +2537,10 @@ PropActResult Vortex::on_act()
                 const auto name_the = text_format::first_to_upper(
                         actor::name_the(*m_owner));
 
-                msg_log::add(name_the + " pulls me!");
+                msg_log::add(name_the + " 把我拉了过去!");
         }
         else {
-                msg_log::add("A powerful wind is pulling me!");
+                msg_log::add("一股强风正把我往前拉!");
         }
 
         TRACE << "Attempt pull (knockback)" << std::endl;
@@ -2620,7 +2620,7 @@ void SplitsOnDeath::on_death()
                         text_format::first_to_upper(
                                 actor::name_the(*m_owner));
 
-                msg_log::add(name + " splits.");
+                msg_log::add(name + " 分裂了。");
         }
 
         actor::Actor* const leader = m_owner->m_leader;
@@ -2845,7 +2845,7 @@ PropActResult CorpseRises::on_act()
                                 m_owner->m_data->corpse_name_the);
 
                 msg_log::add(
-                        name + " rises again!!",
+                        name + " 再次复活了!!",
                         colors::text(),
                         MsgInterruptPlayer::yes);
 
@@ -2932,27 +2932,27 @@ void SpawnsZombiePartsOnDestroyed::try_spawn_zombie_parts() const
                 id_to_spawn = "MON_CRAWLING_HAND";
 
                 spawn_msg =
-                        "The hand of " +
+                        "属于 " +
                         my_name +
-                        " comes off and starts crawling around!";
+                        " 的手脱落下来，开始四处爬行!";
                 break;
 
         case 1:
                 id_to_spawn = "MON_CRAWLING_INTESTINES";
 
                 spawn_msg =
-                        "The intestines of " +
+                        "属于 " +
                         my_name +
-                        " starts crawling around!";
+                        " 的肠子开始四处爬行!";
                 break;
 
         case 2:
                 id_to_spawn = "MON_FLOATING_SKULL";
 
                 spawn_msg =
-                        "The head of " +
+                        "属于 " +
                         my_name +
-                        " starts floating around!";
+                        " 的头颅开始四处漂浮!";
                 break;
 
         default:
@@ -3070,7 +3070,7 @@ void BreedsBase::on_std_turn()
                                         text_format::first_to_upper(
                                                 actor::name_a(*spawned_mon));
 
-                                msg_log::add(name + " is spawned.");
+                                msg_log::add(name + " 出现了。");
                         }
                 });
 
@@ -3152,7 +3152,7 @@ void VomitsOoze::on_std_turn()
                         text_format::first_to_upper(
                                 actor::name_the(*m_owner));
 
-                msg_log::add(parent_name + " spews ooze.");
+                msg_log::add(parent_name + " 喷出黏液。");
         }
 
         std::string id_to_spawn = rnd::element(id_bucket);
@@ -3199,7 +3199,7 @@ void ConfusesAdjacent::on_std_turn()
         if (!map::g_player->m_properties.has(prop::Id::confused)) {
                 const std::string msg =
                         text_format::first_to_upper(actor::name_the(*m_owner)) +
-                        " bewilders me.";
+                        " 使我陷入困惑。";
 
                 msg_log::add(msg);
         }
@@ -3221,7 +3221,7 @@ void FrenzyPlayerOnSeen::on_player_see()
             rnd::one_in(taunt_on_in_n)) {
                 const std::string name = text_format::first_to_upper(actor::name_the(*m_owner));
 
-                msg_log::add(name + " is taunting me!");
+                msg_log::add(name + " 在嘲弄我!");
 
                 Prop* const frenzy = prop::make(prop::Id::frenzied);
 
@@ -3340,7 +3340,7 @@ void AuraOfDecay::run_effect_on_env_at(const P& p) const
                                         text_format::first_to_upper(
                                                 terrain->name(Article::the));
 
-                                msg_log::add(name + " collapses!");
+                                msg_log::add(name + " 倒下了!");
 
                                 msg_log::more_prompt();
                         }
@@ -3358,7 +3358,7 @@ void AuraOfDecay::run_effect_on_env_at(const P& p) const
 void AuraOfDecay::print_msg_actor_hit(const actor::Actor& actor) const
 {
         if (actor::is_player(&actor)) {
-                msg_log::add("I am decaying!", colors::msg_bad());
+                msg_log::add("我正在腐朽!", colors::msg_bad());
         }
 }
 
@@ -3372,7 +3372,7 @@ PropActResult MajorClaphamSummon::on_act()
         }
 
         Snd snd(
-                "A voice is calling forth Tomb-Legions!",
+                "有个声音正在召唤墓穴军团!",
                 audio::SfxId::END,
                 IgnoreMsgIfOriginSeen::yes,
                 m_owner->m_pos,
@@ -3383,7 +3383,7 @@ PropActResult MajorClaphamSummon::on_act()
         snd.run();
 
         if (actor::can_player_see_actor(*m_owner)) {
-                msg_log::add("Major Clapham Lee calls forth his Tomb-Legions!");
+                msg_log::add("少校 Clapham Lee 召唤出他的墓穴军团!");
         }
 
         std::vector<std::string> ids_to_summon = {"MON_DEAN_HALSEY"};
@@ -3479,10 +3479,10 @@ PropActResult AlliesPlayerGhoul::on_act()
 
                         const std::string pronoun =
                                 actor->m_data->is_unique
-                                ? "their"
-                                : "its";
+                                ? "它们的"
+                                : "它的";
 
-                        msg_log::add(actor_name + " recognizes me as " + pronoun + " leader.");
+                        msg_log::add(actor_name + " 认我为 " + pronoun + " 首领。");
                 }
 
                 actor::unset_actor_as_leader_and_target_for_all_mon(actor);
@@ -3603,7 +3603,7 @@ PropEnded MagicSearching::on_actor_turn()
 bool CannotReadCurse::allow_read_absolute(const Verbose verbose) const
 {
         if (actor::is_player(m_owner) && verbose == Verbose::yes) {
-                msg_log::add("I cannot read it.");
+                msg_log::add("我无法阅读它。");
         }
 
         return false;
@@ -3684,7 +3684,7 @@ PropActResult FrenziesFollowers::on_act()
         actors_to_frenzy.push_back(m_owner);
 
         Snd snd(
-                "A voice is stirring up a great frenzy!",
+                "一个声音正在掀起一阵狂乱！",
                 audio::SfxId::END,
                 IgnoreMsgIfOriginSeen::yes,
                 m_owner->m_pos,
@@ -3697,7 +3697,7 @@ PropActResult FrenziesFollowers::on_act()
         if (actor::can_player_see_actor(*m_owner)) {
                 const std::string name = text_format::first_to_upper(actor::name_the(*m_owner));
 
-                msg_log::add(name + " stirs up a great frenzy!");
+                msg_log::add(name + " 掀起一阵狂乱！");
         }
 
         const int duration = rnd::range(10, 30);
@@ -3744,7 +3744,7 @@ PropActResult SummonsLocusts::on_act()
         if (actor::can_player_see_actor(*m_owner)) {
                 const std::string name = text_format::first_to_upper(actor::name_the(*m_owner));
 
-                msg_log::add(name + " calls a plague of Locusts!");
+                msg_log::add(name + " 召来蝗虫之灾！");
 
                 map::g_player->incr_shock(12.0, ShockSrc::misc);
         }
@@ -3831,12 +3831,12 @@ std::string SpectralWpn::get_weapon_name() const
 
 std::optional<std::string> SpectralWpn::override_actor_name_the() const
 {
-        return "The Spectral " + get_weapon_name();
+        return "幽灵 " + get_weapon_name();
 }
 
 std::optional<std::string> SpectralWpn::override_actor_name_a() const
 {
-        return "A Spectral " + get_weapon_name();
+        return "一把幽灵 " + get_weapon_name();
 }
 
 std::optional<char> SpectralWpn::override_actor_character() const
@@ -3871,7 +3871,7 @@ std::optional<std::string> SpectralWpn::override_actor_descr() const
 
         str = text_format::first_to_upper(str);
 
-        str += ", floating through the air as if wielded by an invisible hand.";
+        str += "，在空中飘荡，仿佛由一只无形之手挥舞着。";
 
         return str;
 }
@@ -3965,10 +3965,10 @@ void Thorns::print_msg_player_retaliate_mon(
                 target_name = actor::name_the(target);
         }
         else {
-                target_name = "it";
+                target_name = "它";
         }
 
-        const std::string msg = "I retaliate upon " + target_name + "!";
+        const std::string msg = "我反击 " + target_name + "!";
 
         msg_log::add(msg, colors::msg_good());
 }
@@ -3984,13 +3984,13 @@ void Thorns::print_msg_mon_retaliate_player() const
                 retaliator_name = actor::name_the(*m_owner);
         }
         else {
-                retaliator_name = "it";
+                retaliator_name = "它";
         }
 
         const std::string msg =
-                "My attack upon " +
+                "我对 " +
                 retaliator_name +
-                " is retaliated by a magic aura!";
+                " 的攻击遭到魔法光环反击！";
 
         msg_log::add(msg, colors::msg_bad());
 }
@@ -4013,21 +4013,21 @@ void Thorns::print_msg_mon_retaliate_mon(
                                 actor::name_the(*m_owner));
         }
         else {
-                retaliator_name = "It";
+                retaliator_name = "它";
         }
 
         if (player_see_target) {
                 target_name = actor::name_the(target);
         }
         else {
-                target_name = "it";
+                target_name = "它";
         }
 
         const std::string msg =
                 retaliator_name +
-                "retaliates upon " +
+                "反击 " +
                 target_name +
-                " by a magic aura!";
+                " 借助魔法光环！";
 
         msg_log::add(msg);
 }
@@ -4056,9 +4056,9 @@ std::string CrimsonPassage::name_short() const
         std::string nr_str =
                 (m_nr_steps_allowed >= 0)
                 ? std::to_string(m_nr_steps_allowed - m_nr_steps_taken)
-                : "INF";
+                : "无限";
 
-        return "Crims Psg(" + nr_str + ")";
+        return "猩红通道(" + nr_str + ")";
 }
 
 int CrimsonPassage::dmg_per_step()

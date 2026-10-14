@@ -118,7 +118,7 @@ static void scorch_actor(actor::Actor& actor)
 {
         if (actor::is_player(&actor)) {
                 msg_log::add(
-                        "I am scorched by flames.",
+                        "我被火焰灼伤了。",
                         colors::msg_bad());
         }
         else if (actor::can_player_see_actor(actor)) {
@@ -128,7 +128,7 @@ static void scorch_actor(actor::Actor& actor)
 
                 msg_log::add(
                         name_the +
-                                " is scorched by flames.",
+                                " 被火焰灼烧。",
                         colors::msg_good());
         }
 
@@ -153,7 +153,7 @@ static void spread_burning(const terrain::Terrain& terrain)
 
                 if (map::g_player->m_pos == p) {
                         msg_log::add(
-                                "Fire has spread here!",
+                                "火势蔓延到了这里！",
                                 colors::msg_note(),
                                 MsgInterruptPlayer::yes,
                                 MorePromptOnMsg::yes);
@@ -231,10 +231,10 @@ static void topple_object(
                 ? AlertsMon::yes
                 : AlertsMon::no;
 
-        std::string snd_msg = "I hear a crash.";
+        std::string snd_msg = "我听见一声巨响。";
 
         if (map::g_seen.at(terrain.pos())) {
-                msg_log::add("The " + name + " topples over.");
+                msg_log::add("这 " + name + " 倒下了。");
 
                 snd_msg = "";
         }
@@ -262,7 +262,7 @@ static void topple_object(
             actor::is_alive(*actor_behind) &&
             !actor_behind->m_properties.has(prop::Id::ethereal)) {
                 if (actor::is_player(actor_behind)) {
-                        msg_log::add("It falls on me!");
+                        msg_log::add("它落在我身上！");
                 }
                 else {
                         // Monster is hit
@@ -271,7 +271,7 @@ static void topple_object(
                                         *actor_behind);
 
                         if (is_player_seeing_actor) {
-                                msg_log::add("It falls on " + actor::name_a(*actor_behind) + ".");
+                                msg_log::add("它落在 " + actor::name_a(*actor_behind) + ".");
                         }
                 }
 
@@ -365,7 +365,7 @@ AllowAction Terrain::pre_bump(actor::Actor& actor_bumping)
             !props.has(prop::Id::tiny_flying) &&
             can_move(actor_bumping) &&
             map::g_seen.at(m_pos)) {
-                const std::string msg = "Step into the flames? " + common_text::g_yes_or_no_hint;
+                const std::string msg = "要走进火焰吗？ " + common_text::g_yes_or_no_hint;
 
                 msg_log::add(
                         msg,
@@ -415,7 +415,7 @@ void Terrain::try_start_burning(const Verbose verbose)
         if (is_not_burned || (has_burnt && rnd::one_in(3))) {
                 if (map::g_seen.at(m_pos) &&
                     (verbose == Verbose::yes)) {
-                        std::string str = name(Article::the) + " catches fire.";
+                        std::string str = name(Article::the) + " 着火了。";
 
                         str[0] = (char)std::toupper(str[0]);
 
@@ -674,31 +674,31 @@ gfx::TileId Floor::tile() const
 
 std::string Floor::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "" : "the ";
+        std::string str = (article == Article::a) ? "" : "这 ";
 
         if (m_burn_state == BurnState::burning) {
-                str += "flames";
+                str += "火焰";
         }
         else {
                 if (m_burn_state == BurnState::has_burned) {
-                        str += "scorched ";
+                        str += "焦灼的 ";
                 }
 
                 switch (m_type) {
                 case FloorType::common:
-                        str += "stone floor";
+                        str += "石地板";
                         break;
 
                 case FloorType::cave:
-                        str += "cavern floor";
+                        str += "洞窟地面";
                         break;
 
                 case FloorType::stone_path:
                         if (article == Article::a) {
-                                str.insert(0, "a ");
+                                str.insert(0, "一个 ");
                         }
 
-                        str += "stone path";
+                        str += "石径";
                         break;
                 }
         }
@@ -789,33 +789,33 @@ std::string Wall::name(const Article article) const
         case WallType::common_alt:
         case WallType::leng_monestary:
         case WallType::egypt:
-                article_str = "a";
-                name_str = "stone wall";
+                article_str = "一个";
+                name_str = "石墙";
                 break;
 
         case WallType::mi_go:
-                article_str = "an";
-                name_str = "alien wall";
+                article_str = "一个";
+                name_str = "外星墙壁";
                 break;
 
         case WallType::cave:
-                article_str = "a";
-                name_str = "cavern wall";
+                article_str = "一个";
+                name_str = "洞窟墙壁";
                 break;
 
         case WallType::cliff:
-                article_str = "a";
-                name_str = "cliff";
+                article_str = "一个";
+                name_str = "悬崖";
                 break;
         }
 
         if (m_is_mossy) {
-                article_str = "a";
-                name_str = "moss-grown " + name_str;
+                article_str = "一个";
+                name_str = "苔藓覆盖的 " + name_str;
         }
 
         if (article == Article::the) {
-                article_str = "the";
+                article_str = "这";
         }
 
         return article_str + " " + name_str;
@@ -980,20 +980,20 @@ std::string Pillar::name(const Article article) const
         std::string name_str;
 
         if (m_is_broken) {
-                article_str = "a";
-                name_str = "broken pillar";
+                article_str = "一个";
+                name_str = "断裂的石柱";
         }
         else if (m_is_inscribed) {
-                article_str = "an";
-                name_str = "inscribed pillar";
+                article_str = "一个";
+                name_str = "刻铭石柱";
         }
         else {
-                article_str = "a";
-                name_str = "pillar";
+                article_str = "一个";
+                name_str = "石柱";
         }
 
         if (article == Article::the) {
-                article_str = "the";
+                article_str = "这";
         }
 
         return article_str + " " + name_str;
@@ -1018,7 +1018,7 @@ std::optional<map::MinimapAppearance> Pillar::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Inscribed Object";
+        appearance.legend_text = "铭文物体";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -1104,9 +1104,9 @@ void Petroglyph::on_new_turn()
 
 std::string Petroglyph::name(const Article article) const
 {
-        const std::string article_str = (article == Article::a) ? "a" : "the";
+        const std::string article_str = (article == Article::a) ? "一个" : "这";
 
-        const std::string name_str = "petroglyph";
+        const std::string name_str = "岩刻";
 
         return article_str + " " + name_str;
 }
@@ -1130,7 +1130,7 @@ std::optional<map::MinimapAppearance> Petroglyph::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Inscribed Object";
+        appearance.legend_text = "铭文物体";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -1166,9 +1166,9 @@ void RubbleHigh::hit(
 
 std::string RubbleHigh::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "big pile of debris";
+        return a + "一大堆碎石";
 }
 
 Color RubbleHigh::color_default() const
@@ -1208,14 +1208,14 @@ std::string RubbleLow::name(const Article article) const
         std::string str;
 
         if (article == Article::the) {
-                str += "the ";
+                str += "这 ";
         }
 
         if (m_burn_state == BurnState::burning) {
-                str += "burning ";
+                str += "燃烧 ";
         }
 
-        return str + "rubble";
+        return str + "碎石";
 }
 
 Color RubbleLow::color_default() const
@@ -1247,10 +1247,10 @@ std::string Bones::name(const Article article) const
         std::string str;
 
         if (article == Article::the) {
-                str += "the ";
+                str += "这 ";
         }
 
-        return str + "bones";
+        return str + "骨头";
 }
 
 Color Bones::color_default() const
@@ -1285,9 +1285,9 @@ void GraveStone::bump(actor::Actor& actor_bumping)
 
 std::string GraveStone::name(const Article article) const
 {
-        const std::string a = (article == Article::a) ? "a " : "the ";
+        const std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "gravestone (\"" + m_inscr + "\")";
+        return a + "墓碑（“" + m_inscr + "\")";
 }
 
 Color GraveStone::color_default() const
@@ -1315,7 +1315,7 @@ void ChurchBench::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The church bench is destroyed.");
+                        msg_log::add("教堂长椅被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -1333,9 +1333,9 @@ void ChurchBench::hit(
 
 std::string ChurchBench::name(const Article article) const
 {
-        const std::string a = (article == Article::a) ? "a " : "the ";
+        const std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "church bench";
+        return a + "教堂长椅";
 }
 
 Color ChurchBench::color_default() const
@@ -1371,7 +1371,7 @@ void Statue::topple(
         const Dir direction,
         actor::Actor* const actor_toppling)
 {
-        topple_object(*this, "statue", direction, actor_toppling);
+        topple_object(*this, "雕像", direction, actor_toppling);
 }
 
 bool Statue::allow_player_melee_attack(
@@ -1407,7 +1407,7 @@ void Statue::hit(
 
                 if ((dmg_type == DmgType::kicking) &&
                     actor->m_properties.has(prop::Id::weakened)) {
-                        msg_log::add("It wiggles a bit.");
+                        msg_log::add("它扭动了一下。");
 
                         return;
                 }
@@ -1453,15 +1453,15 @@ void Statue::on_new_turn()
 
 std::string Statue::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
         switch (m_type) {
         case StatueType::common:
-                str += "statue";
+                str += "雕像";
                 break;
 
         case StatueType::ghoul:
-                str += "statue of a ghoulish creature";
+                str += "食尸鬼生物雕像";
                 break;
         }
 
@@ -1536,7 +1536,7 @@ void Urn::topple(
         const Dir direction,
         actor::Actor* const actor_toppling)
 {
-        topple_object(*this, "urn", direction, actor_toppling);
+        topple_object(*this, "骨灰瓮", direction, actor_toppling);
 }
 
 bool Urn::allow_player_melee_attack(
@@ -1572,7 +1572,7 @@ void Urn::hit(
 
                 if ((dmg_type == DmgType::kicking) &&
                     actor->m_properties.has(prop::Id::weakened)) {
-                        msg_log::add("It wiggles a bit.");
+                        msg_log::add("它扭动了一下。");
 
                         return;
                 }
@@ -1610,16 +1610,16 @@ std::string Urn::name(const Article article) const
         std::string name_str;
 
         if (m_is_inscribed) {
-                article_str = "an";
-                name_str = "inscribed urn";
+                article_str = "一个";
+                name_str = "刻铭骨灰瓮";
         }
         else {
-                article_str = "an";
-                name_str = "urn";
+                article_str = "一个";
+                name_str = "骨灰瓮";
         }
 
         if (article == Article::the) {
-                article_str = "the";
+                article_str = "这";
         }
 
         return article_str + " " + name_str;
@@ -1654,7 +1654,7 @@ std::optional<map::MinimapAppearance> Urn::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Inscribed Object";
+        appearance.legend_text = "铭文物体";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -1690,9 +1690,9 @@ void Stalagmite::hit(
 
 std::string Stalagmite::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "stalagmite";
+        return a + "石笋";
 }
 
 Color Stalagmite::color_default() const
@@ -1734,9 +1734,9 @@ void Stairs::bump(actor::Actor& actor_bumping)
         int choice = 0;
 
         popup::Popup(popup::AddToMsgHistory::no)
-                .set_title("A staircase leading downwards")
+                .set_title("一段通往下方的楼梯")
                 .setup_menu_mode(
-                        {"(D)escend", "(S)ave and quit"},
+                        {"(D)下楼", "(S)保存并退出"},
                         {'d', 's'},
                         popup::MenuModeShowCancelHint::yes,
                         &choice)
@@ -1755,7 +1755,7 @@ void Stairs::bump(actor::Actor& actor_bumping)
 
                 msg_log::clear();
 
-                msg_log::add("I descend the stairs.");
+                msg_log::add("我走下楼梯。");
 
                 // Always auto-save the game when descending
                 //
@@ -1790,10 +1790,7 @@ void Stairs::bump(actor::Actor& actor_bumping)
 void Stairs::player_use_fake_stairs()
 {
         const auto* const msg =
-                "As I descend the stairs and observe my surroundings, to my "
-                "great bewilderment I realize that I have stepped out into "
-                "the very same ground from which I started my downward climb! "
-                "Turning around, the stairs are nowhere to be found.";
+                "我走下楼梯观察四周，惊愕地发现自己竟踏在开始下行时的同一片地面上！转身一看，楼梯已无影无踪。";
 
         popup::Popup(popup::AddToMsgHistory::yes)
                 .set_msg(msg)
@@ -1812,9 +1809,9 @@ void Stairs::player_use_fake_stairs()
 
 std::string Stairs::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "downward staircase";
+        return a + "向下的楼梯";
 }
 
 Color Stairs::color_default() const
@@ -1827,7 +1824,7 @@ std::optional<map::MinimapAppearance> Stairs::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Stairs";
+        appearance.legend_text = "楼梯";
         appearance.symbol = map::MinimapSymbol::rectangle_filled;
 
         return appearance;
@@ -1870,9 +1867,9 @@ char Bridge::character() const
 
 std::string Bridge::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "bridge";
+        return a + "桥";
 }
 
 Color Bridge::color_default() const
@@ -1927,20 +1924,20 @@ void Liquid::bump(actor::Actor& actor_bumping)
                         switch (m_type) {
                         case LiquidType::water:
                         case LiquidType::magic_water:
-                                type_str = "water";
-                                verb_str = "wade";
+                                type_str = "水";
+                                verb_str = "涉水";
                                 break;
 
                         case LiquidType::mud:
-                                type_str = "mud";
-                                verb_str = "trudge";
+                                type_str = "泥";
+                                verb_str = "艰难前行";
                                 break;
                         }
 
                         msg_log::add(
-                                "I " +
+                                "我 " +
                                 verb_str +
-                                " slowly through the knee high " +
+                                " 缓慢穿过齐膝深的 " +
                                 type_str +
                                 ".");
                 }
@@ -1961,7 +1958,7 @@ void Liquid::bump(actor::Actor& actor_bumping)
                 const std::string msg =
                         actor::is_player(&actor_bumping)
                         ? ""
-                        : "I hear a splash.";
+                        : "我听见泼水声。";
 
                 const auto alerts_mon =
                         actor::is_player(&actor_bumping)
@@ -2013,7 +2010,7 @@ void Liquid::run_magic_pool_effects_on_player()
                                 ItemNameType::plain,
                                 ItemNameInfo::none);
 
-                msg_log::add("The " + name + " seems cleansed!");
+                msg_log::add("这 " + name + " 似乎已被净化！");
 
                 item->current_curse().on_curse_end();
 
@@ -2026,20 +2023,20 @@ std::string Liquid::name(const Article article) const
         std::string str;
 
         if (article == Article::the) {
-                str += "the ";
+                str += "这 ";
         }
 
         switch (m_type) {
         case LiquidType::water:
-                str += "water";
+                str += "水";
                 break;
 
         case LiquidType::mud:
-                str += "shallow mud";
+                str += "浅泥地";
                 break;
 
         case LiquidType::magic_water:
-                str += "gleaming pool";
+                str += "闪耀池";
                 break;
         }
 
@@ -2096,9 +2093,9 @@ void Chasm::hit(
 
 std::string Chasm::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "chasm";
+        return a + "深渊";
 }
 
 Color Chasm::color_default() const
@@ -2126,13 +2123,13 @@ void CrystalKey::hit(
 
 std::string CrystalKey::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a" : "the";
+        std::string str = (article == Article::a) ? "一个" : "这";
 
         str += " ";
 
-        str += m_is_active ? "gleaming" : "dead";
+        str += m_is_active ? "闪耀的" : "死亡";
 
-        str += " crystal";
+        str += " 水晶";
 
         return str;
 }
@@ -2151,7 +2148,7 @@ std::optional<map::MinimapAppearance> CrystalKey::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Gleaming Crystal";
+        appearance.legend_text = "闪耀水晶";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -2178,24 +2175,24 @@ void CrystalKey::bump(actor::Actor& actor_bumping)
         const std::string terrain_name = text_format::first_to_lower(name(Article::the));
 
         if (is_seen) {
-                msg_log::add("I touch " + terrain_name + ".");
+                msg_log::add("我触碰 " + terrain_name + ".");
         }
         else {
                 msg_log::clear();
 
-                msg_log::add("I touch some crystal object.");
+                msg_log::add("我摸到一个水晶物体。");
         }
 
         if (!m_is_active) {
                 if (is_seen) {
-                        msg_log::add("Nothing happens.");
+                        msg_log::add("什么也没发生。");
                 }
 
                 return;
         }
 
         if (is_seen) {
-                msg_log::add("The light inside fades.");
+                msg_log::add("内部的光芒渐渐暗去。");
         }
 
         player_deactivate();
@@ -2209,7 +2206,7 @@ void CrystalKey::player_deactivate()
 {
         audio::play(audio::SfxId::crystal_key_disable);
 
-        msg_log::add("I sense that a path has opened somewhere.");
+        msg_log::add("我感觉某处打开了一条路。");
 
         game::incr_player_xp(g_xp_on_deactivate_crystal_key, Verbose::yes);
 
@@ -2261,7 +2258,7 @@ void Altar::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The altar is destroyed.");
+                        msg_log::add("祭坛被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -2313,8 +2310,7 @@ void Altar::bump(actor::Actor& actor_bumping)
             map::g_seen.at(m_pos)) {
                 // Exorcist player is bumping a seen altar
                 msg_log::add(
-                        "A diabolic altar has been raised here, it must be "
-                        "destroyed!");
+                        "一座邪恶祭坛在此拔地而起，必须将其摧毁！");
 
                 return;
         }
@@ -2325,9 +2321,9 @@ void Altar::bump(actor::Actor& actor_bumping)
 
 std::string Altar::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "an " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
-        return str + "altar";
+        return str + "坛";
 }
 
 Color Altar::color_default() const
@@ -2340,7 +2336,7 @@ std::optional<map::MinimapAppearance> Altar::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Altar";
+        appearance.legend_text = "祭坛";
         appearance.symbol = map::MinimapSymbol::rectangle_filled;
 
         return appearance;
@@ -2386,9 +2382,9 @@ WasDestroyed Carpet::on_finished_burning()
 
 std::string Carpet::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "" : "the ";
+        std::string str = (article == Article::a) ? "" : "这 ";
 
-        return str + "carpet";
+        return str + "地毯";
 }
 
 Color Carpet::color_default() const
@@ -2443,25 +2439,25 @@ std::string Grass::name(const Article article) const
         std::string str;
 
         if (article == Article::the) {
-                str += "the ";
+                str += "这 ";
         }
 
         switch (m_burn_state) {
         case BurnState::not_burned:
                 switch (m_type) {
                 case GrassType::common:
-                        return str + "grass";
+                        return str + "草地";
 
                 case GrassType::withered:
-                        return str + "withered grass";
+                        return str + "枯草";
                 }
                 break;
 
         case BurnState::burning:
-                return str + "burning grass";
+                return str + "燃烧的草地";
 
         case BurnState::has_burned:
-                return str + "scorched ground";
+                return str + "焦土";
         }
 
         ASSERT("Failed to set name" && false);
@@ -2530,21 +2526,21 @@ WasDestroyed Bush::on_finished_burning()
 
 std::string Bush::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
         switch (m_burn_state) {
         case BurnState::not_burned:
                 switch (m_type) {
                 case GrassType::common:
-                        return str + "shrub";
+                        return str + "灌木";
 
                 case GrassType::withered:
-                        return str + "withered shrub";
+                        return str + "枯灌木";
                 }
                 break;
 
         case BurnState::burning:
-                return str + "burning shrub";
+                return str + "燃烧的灌木";
 
         case BurnState::has_burned:
                 // Should not happen
@@ -2617,14 +2613,14 @@ WasDestroyed Vines::on_finished_burning()
 
 std::string Vines::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "" : "the ";
+        std::string str = (article == Article::a) ? "" : "这 ";
 
         switch (m_burn_state) {
         case BurnState::not_burned:
-                return str + "hanging vines";
+                return str + "垂挂的藤蔓";
 
         case BurnState::burning:
-                return str + "burning vines";
+                return str + "燃烧的藤蔓";
 
         case BurnState::has_burned:
                 // Should not happen
@@ -2648,9 +2644,9 @@ Chains::Chains(const P& p, const TerrainData* const data) :
 
 std::string Chains::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "" : "the ";
+        std::string a = (article == Article::a) ? "" : "这 ";
 
-        return a + "rusty chains";
+        return a + "生锈的锁链";
 }
 
 Color Chains::color_default() const
@@ -2666,10 +2662,10 @@ void Chains::bump(actor::Actor& actor_bumping)
                 std::string msg;
 
                 if (map::g_seen.at(m_pos)) {
-                        msg = "The chains rattle.";
+                        msg = "锁链哗啦作响。";
                 }
                 else {
-                        msg = "I hear chains rattling.";
+                        msg = "我听见锁链哗啦作响。";
                 }
 
                 const auto alerts_mon =
@@ -2743,9 +2739,9 @@ void Grate::hit(
 
 std::string Grate::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "grate";
+        return a + "栅栏";
 }
 
 Color Grate::color_default() const
@@ -2835,26 +2831,26 @@ gfx::TileId Tree::tile() const
 
 std::string Tree::name(const Article article) const
 {
-        std::string result = (article == Article::a) ? "a " : "the ";
+        std::string result = (article == Article::a) ? "一个 " : "这 ";
 
         switch (m_burn_state) {
         case BurnState::not_burned:
                 break;
 
         case BurnState::burning:
-                result += "burning ";
+                result += "燃烧 ";
                 break;
 
         case BurnState::has_burned:
-                result += "scorched ";
+                result += "焦灼的 ";
                 break;
         }
 
         if (is_fungi()) {
-                result += "giant fungi";
+                result += "巨型真菌";
         }
         else {
-                result += "tree";
+                result += "树";
         }
 
         return result;
@@ -2875,9 +2871,9 @@ bool Tree::is_fungi() const
 // -----------------------------------------------------------------------------
 std::string Brazier::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "brazier";
+        return a + "火盆";
 }
 
 bool Brazier::allow_player_melee_attack(
@@ -2917,7 +2913,7 @@ void Brazier::hit(
 
                 if ((dmg_type == DmgType::kicking) &&
                     actor->m_properties.has(prop::Id::weakened)) {
-                        msg_log::add("It wiggles a bit.");
+                        msg_log::add("它扭动了一下。");
 
                         return;
                 }
@@ -2946,10 +2942,10 @@ void Brazier::topple(const Dir direction, actor::Actor& actor)
                 ? AlertsMon::yes
                 : AlertsMon::no;
 
-        std::string snd_msg = "I hear a crash.";
+        std::string snd_msg = "我听见一声巨响。";
 
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("It topples over.");
+                msg_log::add("它倒下了。");
 
                 snd_msg = "";
         }
@@ -3040,7 +3036,7 @@ std::optional<map::MinimapAppearance> Brazier::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = colors::dark_yellow();
-        appearance.legend_text = "Brazier";
+        appearance.legend_text = "火盆";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -3150,7 +3146,7 @@ void ItemContainer::open(
                 on_item_found(item, terrain_pos);
         }
 
-        msg_log::add("There are no more items of interest.");
+        msg_log::add("没有更多值得关注的物品了。");
 
         m_items.clear();
 }
@@ -3168,7 +3164,7 @@ void ItemContainer::on_item_found(
                         ItemNameAttackInfo::main_attack_mode);
 
         const std::string msg =
-                "Pick up " +
+                "拾取 " +
                 name +
                 "? " +
                 common_text::g_yes_or_no_hint;
@@ -3193,7 +3189,7 @@ void ItemContainer::on_item_found(
                 !data.ranged.has_infinite_ammo;
 
         if (is_unloadable_wpn) {
-                msg_log::add("Unload? [u]");
+                msg_log::add("卸下？[u]");
         }
 
         auto answer = BinaryAnswer::no;
@@ -3270,7 +3266,7 @@ void ItemContainer::destroy_single_fragile()
                     (d.id == item::Id::molotov)) {
                         delete item;
                         m_items.erase(it);
-                        msg_log::add("I hear a muffled shatter.");
+                        msg_log::add("我听见一声沉闷的碎裂声。");
                         break;
                 }
         }
@@ -3357,7 +3353,7 @@ void Tomb::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The tomb is destroyed.");
+                        msg_log::add("墓穴被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -3375,12 +3371,12 @@ std::string Tomb::name(const Article article) const
 
         const std::string empty_str =
                 is_empty
-                ? "empty "
+                ? "空 "
                 : "";
 
         const std::string open_str =
                 (m_is_open && !is_empty)
-                ? "open "
+                ? "打开 "
                 : "";
 
         std::string a;
@@ -3388,11 +3384,11 @@ std::string Tomb::name(const Article article) const
         if (article == Article::a) {
                 a =
                         (m_is_open || (m_appearance == TombAppearance::ornate))
-                        ? "an "
-                        : "a ";
+                        ? "一个 "
+                        : "一个 ";
         }
         else {
-                a = "the ";
+                a = "这 ";
         }
 
         std::string appear_str;
@@ -3404,16 +3400,16 @@ std::string Tomb::name(const Article article) const
                 } break;
 
                 case TombAppearance::ornate:
-                        appear_str = "ornate ";
+                        appear_str = "华丽的 ";
                         break;
 
                 case TombAppearance::marvelous:
-                        appear_str = "marvelous ";
+                        appear_str = "奇妙的 ";
                         break;
                 }
         }
 
-        return a + empty_str + open_str + appear_str + "tomb";
+        return a + empty_str + open_str + appear_str + "墓穴";
 }
 
 gfx::TileId Tomb::tile() const
@@ -3453,7 +3449,7 @@ std::optional<map::MinimapAppearance> Tomb::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = colors::gray();
-        appearance.legend_text = "Tomb";
+        appearance.legend_text = "墓穴";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -3469,13 +3465,13 @@ void Tomb::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (m_item_container.is_empty() && m_is_open) {
-                msg_log::add("The tomb is empty.");
+                msg_log::add("墓穴是空的。");
 
                 return;
         }
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is a stone box here.");
+                msg_log::add("这里有一个石箱。");
 
                 return;
         }
@@ -3491,10 +3487,10 @@ void Tomb::bump(actor::Actor& actor_bumping)
                 return;
         }
 
-        msg_log::add("I attempt to push the lid.");
+        msg_log::add("我试着推开棺盖。");
 
         if (actor_bumping.m_properties.has(prop::Id::weakened)) {
-                msg_log::add("It seems futile.");
+                msg_log::add("看来毫无希望。");
 
                 game_time::tick();
 
@@ -3528,13 +3524,13 @@ void Tomb::bump(actor::Actor& actor_bumping)
         bool is_success = false;
 
         if (roll_tot < (m_push_lid_one_in_n - 9)) {
-                msg_log::add("It does not yield at all.");
+                msg_log::add("它完全不肯让步。");
         }
         else if (roll_tot < (m_push_lid_one_in_n - 2)) {
-                msg_log::add("It resists.");
+                msg_log::add("它抵抗住了。");
         }
         else if (roll_tot == (m_push_lid_one_in_n - 2)) {
-                msg_log::add("It moves a little!");
+                msg_log::add("它稍微动了一下！");
                 --m_push_lid_one_in_n;
         }
         else {
@@ -3556,10 +3552,10 @@ void Tomb::bump(actor::Actor& actor_bumping)
 
 void Tomb::player_loot()
 {
-        msg_log::add("I peer inside the tomb.");
+        msg_log::add("我朝墓穴里窥视。");
 
         if (m_item_container.is_empty()) {
-                msg_log::add("There is nothing of value inside.");
+                msg_log::add("里面没有值钱的东西。");
         }
         else {
                 m_item_container.open(m_pos, map::g_player);
@@ -3576,7 +3572,7 @@ DidOpen Tomb::open(actor::Actor* const actor_opening)
                 m_is_open = true;
 
                 Snd snd(
-                        "I hear heavy stone sliding.",
+                        "我听见沉重的石头滑动声。",
                         audio::SfxId::tomb_open,
                         IgnoreMsgIfOriginSeen::yes,
                         m_pos,
@@ -3587,10 +3583,10 @@ DidOpen Tomb::open(actor::Actor* const actor_opening)
                 snd.run();
 
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The lid comes off.");
+                        msg_log::add("盖子脱落了。");
 
                         if (!m_item_container.is_empty()) {
-                                msg_log::add("There is something inside.");
+                                msg_log::add("里面有东西。");
                         }
                 }
 
@@ -3824,15 +3820,15 @@ std::string Tomb::get_mon_appear_msg(const std::string& mon_id) const
         // ...) if such an inheritance system is implemented.
 
         if (d.is_ghost) {
-                return "The air suddenly feels colder.";
+                return "空气骤然变冷。";
         }
 
         if (d.natural_props[(size_t)prop::Id::ooze]) {
-                return "Something repulsive creeps up from the tomb!";
+                return "有令人作呕的东西从墓穴里爬了出来！";
         }
 
         // Standard message.
-        return "Something rises from the tomb!";
+        return "有什么东西从墓穴里升起！";
 }
 
 void Tomb::trigger_trap_fumes() const
@@ -3841,14 +3837,14 @@ void Tomb::trigger_trap_fumes() const
 
         if (is_seen) {
                 msg_log::add(
-                        "Fumes burst out from the tomb!",
+                        "墓穴中喷出浓烟！",
                         colors::white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes);
         }
 
         Snd snd(
-                "I hear a burst of gas.",
+                "我听见一阵气体喷出的声音。",
                 audio::SfxId::gas,
                 IgnoreMsgIfOriginSeen::yes,
                 m_pos,
@@ -3944,25 +3940,25 @@ void Chest::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is a chest here.");
+                msg_log::add("这里有一个箱子。");
 
                 return;
         }
 
         if (m_burn_state == BurnState::burning) {
-                msg_log::add("The chest is on fire.");
+                msg_log::add("箱子着火了。");
 
                 return;
         }
 
         if (m_item_container.is_empty() && m_is_open) {
-                msg_log::add("The chest is empty.");
+                msg_log::add("箱子是空的。");
 
                 return;
         }
 
         if (m_is_locked) {
-                msg_log::add("The chest is locked.");
+                msg_log::add("箱子锁着。");
 
                 return;
         }
@@ -3983,10 +3979,10 @@ void Chest::bump(actor::Actor& actor_bumping)
 
 void Chest::player_loot()
 {
-        msg_log::add("I search the chest.");
+        msg_log::add("我搜索箱子。");
 
         if (m_item_container.is_empty()) {
-                msg_log::add("There is nothing of value inside.");
+                msg_log::add("里面没有值钱的东西。");
         }
         else {
                 // Not empty
@@ -4007,7 +4003,7 @@ DidOpen Chest::open(actor::Actor* const actor_opening)
                 m_is_open = true;
 
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The chest opens.");
+                        msg_log::add("箱子打开了。");
                 }
 
                 return DidOpen::yes;
@@ -4063,7 +4059,7 @@ void Chest::on_player_kick()
         }
 
         if (m_is_open) {
-                msg_log::add("It is already open.");
+                msg_log::add("已经打开。");
 
                 return;
         }
@@ -4080,7 +4076,7 @@ void Chest::on_player_kick()
         // Is seen and closed
 
         if (!m_is_locked) {
-                msg_log::add("The lid slams open, then falls shut.");
+                msg_log::add("盖子砰地弹开，随后又落下关上。");
 
                 snd.run();
 
@@ -4091,7 +4087,7 @@ void Chest::on_player_kick()
 
         if (map::g_player->m_properties.has(prop::Id::weakened) ||
             (m_material == ChestMaterial::iron)) {
-                msg_log::add("It seems futile.");
+                msg_log::add("看来毫无希望。");
 
                 snd.run();
 
@@ -4116,13 +4112,13 @@ void Chest::on_player_kick()
         }
 
         if (rnd::one_in(open_one_in_n)) {
-                msg_log::add("The lock breaks and the lid flies open!");
+                msg_log::add("锁断裂，盖子猛地弹开！");
 
                 m_is_locked = false;
                 m_is_open = true;
         }
         else {
-                msg_log::add("The lock resists.");
+                msg_log::add("锁纹丝不动。");
         }
 
         snd.run();
@@ -4137,35 +4133,35 @@ std::string Chest::name(const Article article) const
         std::string a;
 
         if (m_material == ChestMaterial::wood) {
-                material_str = "wooden ";
-                a = "a ";
+                material_str = "木制的 ";
+                a = "一个 ";
         }
         else {
-                material_str = "iron ";
-                a = "an ";
+                material_str = "铁制 ";
+                a = "一个 ";
         }
 
         if (m_is_open) {
                 if (m_item_container.is_empty()) {
-                        empty_str = "empty ";
+                        empty_str = "空 ";
                 }
                 else {
-                        open_str = "open ";
+                        open_str = "打开 ";
                 }
 
-                a = "an ";
+                a = "一个 ";
         }
         else if (m_is_locked) {
-                locked_str = "locked ";
+                locked_str = "已锁定 ";
 
-                a = "a ";
+                a = "一个 ";
         }
 
         if (article == Article::the) {
-                a = "the ";
+                a = "这 ";
         }
 
-        return a + locked_str + empty_str + open_str + material_str + "chest";
+        return a + locked_str + empty_str + open_str + material_str + "箱子";
 }
 
 gfx::TileId Chest::tile() const
@@ -4229,7 +4225,7 @@ void Fountain::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The fountain is destroyed.");
+                        msg_log::add("喷泉被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -4272,7 +4268,7 @@ std::optional<map::MinimapAppearance> Fountain::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Fountain";
+        appearance.legend_text = "喷泉";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -4282,7 +4278,7 @@ std::string Fountain::name(const Article article) const
 {
         std::string type_str;
 
-        std::string indefinite_article = "a";
+        std::string indefinite_article = "一个";
 
         if (m_has_drinks_left) {
                 if (m_is_tried) {
@@ -4292,19 +4288,19 @@ std::string Fountain::name(const Article article) const
                 }
         }
         else {
-                type_str = "dried-up";
+                type_str = "干涸的";
         }
 
         const std::string a =
                 (article == Article::a)
                 ? indefinite_article
-                : "the";
+                : "这";
 
         if (!type_str.empty()) {
                 type_str = " " + type_str;
         }
 
-        return a + type_str + " fountain";
+        return a + type_str + " 喷泉";
 }
 
 void Fountain::bump(actor::Actor& actor_bumping)
@@ -4320,12 +4316,11 @@ void Fountain::bump(actor::Actor& actor_bumping)
 
         if (!m_has_drinks_left) {
                 if (is_seen) {
-                        msg_log::add("The fountain is dried-up.");
+                        msg_log::add("喷泉已干涸。");
                 }
                 else {
                         msg_log::add(
-                                "There is a fountain here, "
-                                "but it's dried-up.");
+                                "这里有一座喷泉，不过已经干涸了。");
                 }
 
                 return;
@@ -4345,14 +4340,14 @@ void Fountain::bump(actor::Actor& actor_bumping)
                                 text_format::first_to_lower(
                                         name(Article::the));
 
-                        msg = "Drink from " + name_the + "?";
+                        msg = "从……饮用 " + name_the + "?";
                 }
                 else {
                         const std::string name_a =
                                 text_format::first_to_lower(
                                         name(Article::a));
 
-                        msg = "There is " + name_a + " here. Drink from it?";
+                        msg = "有 " + name_a + " 在这里。要喝一口吗？";
                 }
 
                 msg += " " + common_text::g_yes_or_no_hint;
@@ -4380,13 +4375,13 @@ void Fountain::bump(actor::Actor& actor_bumping)
         }
 
         msg_log::clear();
-        msg_log::add("I drink from the fountain...");
+        msg_log::add("我从喷泉饮水……");
 
         audio::play(audio::SfxId::fountain_drink);
 
         switch (m_fountain_effect) {
         case FountainEffect::refreshing: {
-                msg_log::add("It's very refreshing.");
+                msg_log::add("真是神清气爽。");
 
                 actor::restore_hp(
                         *map::g_player,
@@ -4404,7 +4399,7 @@ void Fountain::bump(actor::Actor& actor_bumping)
         } break;
 
         case FountainEffect::xp: {
-                msg_log::add("I feel more powerful!");
+                msg_log::add("我觉得自己更强大了！");
                 game::incr_player_xp(g_xp_on_drink_from_xp_fountain);
         } break;
 
@@ -4452,7 +4447,7 @@ void Fountain::bump(actor::Actor& actor_bumping)
         if (rnd::one_in(dry_one_in_n)) {
                 m_has_drinks_left = false;
 
-                msg_log::add("The fountain dries up.");
+                msg_log::add("喷泉干涸了。");
         }
 
         map::memorize_terrain_at(m_pos);
@@ -4493,8 +4488,8 @@ void Fountain::bless()
                                 name(Article::the));
 
                 msg_log::add(
-                        "The water in " + name_the +
-                        " seems clearer.");
+                        "……中的水 " + name_the +
+                        " 似乎更清澈了。");
         }
 }
 
@@ -4525,9 +4520,9 @@ void Fountain::curse()
                                 name(Article::the));
 
                 msg_log::add(
-                        "The water in " +
+                        "……中的水 " +
                         name_the +
-                        " seems murkier.");
+                        " 似乎更浑浊了。");
         }
 }
 
@@ -4535,39 +4530,39 @@ std::string Fountain::type_name() const
 {
         switch (m_fountain_effect) {
         case FountainEffect::refreshing:
-                return "refreshing";
+                return "令人神清气爽";
                 break;
 
         case FountainEffect::xp:
-                return "exalting";
+                return "振奋";
                 break;
 
         case FountainEffect::curse:
-                return "cursed";
+                return "被诅咒的";
                 break;
 
         case FountainEffect::disease:
-                return "diseased";
+                return "患病";
                 break;
 
         case FountainEffect::poison:
-                return "poisonous";
+                return "有毒的";
                 break;
 
         case FountainEffect::frenzy:
-                return "enraging";
+                return "激怒";
                 break;
 
         case FountainEffect::paralyze:
-                return "paralyzing";
+                return "致使麻痹";
                 break;
 
         case FountainEffect::blind:
-                return "blinding";
+                return "致盲";
                 break;
 
         case FountainEffect::faint:
-                return "sleep-inducing";
+                return "催眠的";
                 break;
 
         case FountainEffect::START_OF_BAD_EFFECTS:
@@ -4584,39 +4579,39 @@ std::string Fountain::type_indefinite_article() const
 {
         switch (m_fountain_effect) {
         case FountainEffect::refreshing:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::xp:
-                return "an";
+                return "一个";
                 break;
 
         case FountainEffect::curse:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::disease:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::poison:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::frenzy:
-                return "an";
+                return "一个";
                 break;
 
         case FountainEffect::paralyze:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::blind:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::faint:
-                return "a";
+                return "一个";
                 break;
 
         case FountainEffect::START_OF_BAD_EFFECTS:
@@ -4673,7 +4668,7 @@ void Cabinet::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The cabinet is destroyed.");
+                        msg_log::add("柜子被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -4693,7 +4688,7 @@ void Cabinet::hit(
 WasDestroyed Cabinet::on_finished_burning()
 {
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("The cabinet burns down.");
+                msg_log::add("柜子烧毁了。");
         }
 
         auto* const rubble = make(Id::rubble_low, m_pos);
@@ -4716,19 +4711,19 @@ void Cabinet::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is a cabinet here.");
+                msg_log::add("这里有一个柜子。");
 
                 return;
         }
 
         if (m_burn_state == BurnState::burning) {
-                msg_log::add("The cabinet is on fire.");
+                msg_log::add("柜子着火了。");
 
                 return;
         }
 
         if (m_item_container.is_empty() && m_is_open) {
-                msg_log::add("The cabinet is empty.");
+                msg_log::add("柜子是空的。");
 
                 return;
         }
@@ -4758,10 +4753,10 @@ void Cabinet::bump(actor::Actor& actor_bumping)
 
 void Cabinet::player_loot()
 {
-        msg_log::add("I search the cabinet.");
+        msg_log::add("我搜索柜子。");
 
         if (m_item_container.is_empty()) {
-                msg_log::add("There is nothing of value inside.");
+                msg_log::add("里面没有值钱的东西。");
         }
         else {
                 m_item_container.open(m_pos, map::g_player);
@@ -4790,7 +4785,7 @@ DidOpen Cabinet::open(actor::Actor* const actor_opening)
                 m_is_open = true;
 
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The cabinet opens.");
+                        msg_log::add("柜子打开了。");
                 }
 
                 return DidOpen::yes;
@@ -4799,13 +4794,13 @@ DidOpen Cabinet::open(actor::Actor* const actor_opening)
 
 std::string Cabinet::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
         if (m_burn_state == BurnState::burning) {
-                str += "burning ";
+                str += "燃烧 ";
         }
 
-        return str + "cabinet";
+        return str + "柜子";
 }
 
 gfx::TileId Cabinet::tile() const
@@ -4867,7 +4862,7 @@ void Bookshelf::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The bookshelf is destroyed.");
+                        msg_log::add("书架被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -4888,7 +4883,7 @@ void Bookshelf::hit(
 WasDestroyed Bookshelf::on_finished_burning()
 {
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("The bookshelf burns down.");
+                msg_log::add("书架烧毁了。");
         }
 
         auto* const rubble = make(Id::rubble_low, m_pos);
@@ -4912,19 +4907,19 @@ void Bookshelf::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is a bookshelf here.");
+                msg_log::add("这里有一个书架。");
 
                 return;
         }
 
         if (m_burn_state == BurnState::burning) {
-                msg_log::add("The bookshelf is on fire.");
+                msg_log::add("书架着火了。");
 
                 return;
         }
 
         if (m_item_container.is_empty() && m_is_looted) {
-                msg_log::add("The bookshelf is empty.");
+                msg_log::add("书架是空的。");
 
                 return;
         }
@@ -4952,7 +4947,7 @@ void Bookshelf::bump(actor::Actor& actor_bumping)
 void Bookshelf::player_loot()
 {
         msg_log::add(
-                "I search the bookshelf.",
+                "我搜索书架。",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -4960,7 +4955,7 @@ void Bookshelf::player_loot()
         m_is_looted = true;
 
         if (m_item_container.is_empty()) {
-                msg_log::add("There is nothing of interest.");
+                msg_log::add("没有什么值得关注。");
         }
         else {
                 m_item_container.open(m_pos, map::g_player);
@@ -4969,13 +4964,13 @@ void Bookshelf::player_loot()
 
 std::string Bookshelf::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
         if (m_burn_state == BurnState::burning) {
-                str += "burning ";
+                str += "燃烧 ";
         }
 
-        return str + "bookshelf";
+        return str + "书架";
 }
 
 gfx::TileId Bookshelf::tile() const
@@ -5035,7 +5030,7 @@ void AlchemistBench::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The alchemist's workbench is destroyed.");
+                        msg_log::add("炼金术士的工作台被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -5056,7 +5051,7 @@ void AlchemistBench::hit(
 WasDestroyed AlchemistBench::on_finished_burning()
 {
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("The alchemist's workbench burns down.");
+                msg_log::add("炼金术士的工作台烧毁了。");
         }
 
         auto* const rubble = make(Id::rubble_low, m_pos);
@@ -5080,19 +5075,19 @@ void AlchemistBench::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is an alchemist's workbench here.");
+                msg_log::add("这里有一张炼金术士的工作台。");
 
                 return;
         }
 
         if (m_burn_state == BurnState::burning) {
-                msg_log::add("The alchemist's workbench is on fire.");
+                msg_log::add("炼金术士的工作台着火了。");
 
                 return;
         }
 
         if (m_item_container.is_empty() && m_is_looted) {
-                msg_log::add("The alchemist's workbench is empty.");
+                msg_log::add("炼金术士的工作台是空的。");
 
                 return;
         }
@@ -5120,7 +5115,7 @@ void AlchemistBench::bump(actor::Actor& actor_bumping)
 void AlchemistBench::player_loot()
 {
         msg_log::add(
-                "I search the alchemist's workbench.",
+                "我搜索炼金术士的工作台。",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -5128,7 +5123,7 @@ void AlchemistBench::player_loot()
         m_is_looted = true;
 
         if (m_item_container.is_empty()) {
-                msg_log::add("There is nothing of interest.");
+                msg_log::add("没有什么值得关注。");
         }
         else {
                 m_item_container.open(m_pos, map::g_player);
@@ -5137,19 +5132,19 @@ void AlchemistBench::player_loot()
 
 std::string AlchemistBench::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "an " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
         std::string mod;
 
         if (m_burn_state == BurnState::burning) {
                 if (article == Article::a) {
-                        a = "a ";
+                        a = "一个 ";
                 }
 
-                mod = "burning ";
+                mod = "燃烧 ";
         }
 
-        return a + mod + "alchemist's workbench";
+        return a + mod + "炼金术士工作台";
 }
 
 gfx::TileId AlchemistBench::tile() const
@@ -5213,7 +5208,7 @@ void Cocoon::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The cocoon is destroyed.");
+                        msg_log::add("茧被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -5233,7 +5228,7 @@ void Cocoon::hit(
 WasDestroyed Cocoon::on_finished_burning()
 {
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("The cocoon burns down.");
+                msg_log::add("茧烧毁了。");
         }
 
         auto* const rubble = make(Id::rubble_low, m_pos);
@@ -5257,19 +5252,19 @@ void Cocoon::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_seen.at(m_pos)) {
-                msg_log::add("There is a cocoon here.");
+                msg_log::add("这里有一个茧。");
 
                 return;
         }
 
         if (m_burn_state == BurnState::burning) {
-                msg_log::add("The cocoon is on fire.");
+                msg_log::add("茧着火了。");
 
                 return;
         }
 
         if (m_item_container.is_empty() && m_is_open) {
-                msg_log::add("The cocoon is empty.");
+                msg_log::add("茧是空的。");
 
                 return;
         }
@@ -5310,7 +5305,7 @@ DidTriggerTrap Cocoon::trigger_trap(actor::Actor* const actor)
                         return DidTriggerTrap::no;
                 }
 
-                msg_log::add("There is a half-dissolved human body inside!");
+                msg_log::add("里面有一具半溶解的人体！");
 
                 map::g_player->incr_shock(12.0, ShockSrc::misc);
 
@@ -5340,7 +5335,7 @@ DidTriggerTrap Cocoon::trigger_trap(actor::Actor* const actor)
                         TRACE << "Spawn candidates found, attempting to place"
                               << std::endl;
 
-                        msg_log::add("There are spiders inside!");
+                        msg_log::add("里面有蜘蛛！");
 
                         const auto nr_spiders = (size_t)rnd::range(2, 5);
 
@@ -5362,10 +5357,10 @@ DidTriggerTrap Cocoon::trigger_trap(actor::Actor* const actor)
 
 void Cocoon::player_loot()
 {
-        msg_log::add("I search the Cocoon.");
+        msg_log::add("我搜索茧。");
 
         if (m_item_container.is_empty()) {
-                msg_log::add("It is empty.");
+                msg_log::add("里面是空的。");
         }
         else {
                 m_item_container.open(m_pos, map::g_player);
@@ -5382,7 +5377,7 @@ DidOpen Cocoon::open(actor::Actor* const actor_opening)
                 m_is_open = true;
 
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The cocoon opens.");
+                        msg_log::add("茧打开了。");
                 }
 
                 trigger_trap(actor_opening);
@@ -5393,13 +5388,13 @@ DidOpen Cocoon::open(actor::Actor* const actor_opening)
 
 std::string Cocoon::name(const Article article) const
 {
-        std::string str = (article == Article::a) ? "a " : "the ";
+        std::string str = (article == Article::a) ? "一个 " : "这 ";
 
         if (m_burn_state == BurnState::burning) {
-                str += "burning ";
+                str += "燃烧 ";
         }
 
-        return str + "cocoon";
+        return str + "茧";
 }
 
 gfx::TileId Cocoon::tile() const

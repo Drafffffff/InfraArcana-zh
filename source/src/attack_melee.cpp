@@ -49,7 +49,7 @@
 // -----------------------------------------------------------------------------
 static void print_player_melee_miss_actor_msg()
 {
-        msg_log::add("I miss.");
+        msg_log::add("我失手了。");
 }
 
 static void print_mon_melee_miss_actor_msg(const MeleeAttData& att_data)
@@ -86,26 +86,26 @@ static void print_mon_melee_miss_actor_msg(const MeleeAttData& att_data)
                                 actor::name_the(*att_data.attacker));
         }
         else {
-                attacker_name = "It";
+                attacker_name = "它";
         }
 
         std::string defender_name;
 
         if (actor::is_player(att_data.defender)) {
-                defender_name = "me";
+                defender_name = "我";
         }
         else {
                 if (is_player_seeing_defender) {
                         defender_name = actor::name_the(*att_data.defender);
                 }
                 else {
-                        defender_name = "it";
+                        defender_name = "它";
                 }
         }
 
         const std::string msg =
                 attacker_name +
-                " misses " +
+                " 未击中 " +
                 defender_name +
                 ".";
 
@@ -131,7 +131,7 @@ static void print_player_melee_hit_actor_msg(
         }
         else {
                 // Player cannot see defender
-                other_name = "it";
+                other_name = "它";
         }
 
         const std::string dmg_punct = hit_size_punctuation_str(attack::relative_hit_size(dmg));
@@ -139,12 +139,12 @@ static void print_player_melee_hit_actor_msg(
         if (att_data.is_intrinsic_att) {
                 const std::string att_mod_str =
                         att_data.is_weak_attack
-                        ? " feebly"
+                        ? " 有气无力地"
                         : "";
 
                 msg_log::add(
                         std::string(
-                                "I " +
+                                "我 " +
                                 wpn_verb +
                                 " " +
                                 other_name +
@@ -157,10 +157,10 @@ static void print_player_melee_hit_actor_msg(
                 std::string att_mod_str;
 
                 if (att_data.is_weak_attack) {
-                        att_mod_str = "feebly ";
+                        att_mod_str = "有气无力地 ";
                 }
                 else if (att_data.is_backstab) {
-                        att_mod_str = "covertly ";
+                        att_mod_str = "隐蔽 ";
                 }
 
                 const Color color =
@@ -175,13 +175,13 @@ static void print_player_melee_hit_actor_msg(
 
                 msg_log::add(
                         std::string(
-                                "I " +
+                                "我 " +
                                 wpn_verb +
                                 " " +
                                 other_name +
                                 " " +
                                 att_mod_str +
-                                "with " +
+                                "和 " +
                                 wpn_name_a +
                                 dmg_punct),
                         color);
@@ -222,7 +222,7 @@ static void print_mon_melee_hit_actor_msg(const int dmg, const MeleeAttData& att
                                 actor::name_the(*att_data.attacker));
         }
         else {
-                attacker_name = "It";
+                attacker_name = "它";
         }
 
         std::string wpn_verb =
@@ -231,14 +231,14 @@ static void print_mon_melee_hit_actor_msg(const int dmg, const MeleeAttData& att
         std::string defender_name;
 
         if (actor::is_player(att_data.defender)) {
-                defender_name = "me";
+                defender_name = "我";
         }
         else {
                 if (is_player_seeing_defender) {
                         defender_name = actor::name_the(*att_data.defender);
                 }
                 else {
-                        defender_name = "it";
+                        defender_name = "它";
                 }
         }
 
@@ -255,7 +255,7 @@ static void print_mon_melee_hit_actor_msg(const int dmg, const MeleeAttData& att
                                 ItemNameInfo::none,
                                 ItemNameAttackInfo::none);
 
-                used_wpn_str = " with " + wpn_name_a;
+                used_wpn_str = " 和 " + wpn_name_a;
         }
 
         const std::string msg =
@@ -283,7 +283,7 @@ static void print_no_attacker_hit_player_melee_msg(const int dmg)
 
         // NOTE: Interruption is not needed here since the player will be
         // interrupted by getting hit.
-        msg_log::add("I am hit" + dmg_punct, colors::msg_bad());
+        msg_log::add("我被击中了" + dmg_punct, colors::msg_bad());
 }
 
 static void print_no_attacker_hit_mon_melee_msg(
@@ -306,7 +306,7 @@ static void print_no_attacker_hit_mon_melee_msg(
         const std::string dmg_punct = hit_size_punctuation_str(attack::relative_hit_size(dmg));
 
         msg_log::add(
-                other_name + " is hit" + dmg_punct,
+                other_name + " 被击中" + dmg_punct,
                 msg_color,
                 MsgInterruptPlayer::yes);
 }
@@ -419,7 +419,7 @@ static std::string melee_snd_msg(const MeleeAttData& att_data)
         // Only print a message if player is not involved
         if (!actor::is_player(att_data.defender) &&
             !actor::is_player(att_data.attacker)) {
-                snd_msg = "I hear fighting.";
+                snd_msg = "我听到打斗声。";
         }
 
         return snd_msg;
@@ -688,11 +688,11 @@ static void print_attack_terrain_not_allowed_msg(
                         ItemNameAttackInfo::none);
 
         msg_log::add(
-                "Attacking " +
+                "进攻 " +
                 terrain_name +
-                " with " +
+                " 和 " +
                 wpn_name +
-                " would be useless.");
+                " 就没用了。");
 }
 
 static void attack_actor(

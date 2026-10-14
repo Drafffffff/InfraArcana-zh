@@ -1,0 +1,177 @@
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- cmake version >= 3.20, setting EXPORT_COMPILE_COMMANDSfortargetia-debug
+-- Finding installed system version of SDL.
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+-- Configuring done (0.0s)
+Running revision command with Git executable: '/usr/bin/git'
+Revision output path: '/work/build/data/git-sha1.txt'
+Revision command result: '128'
+Revision command errors: 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+'
+-- Generating done (0.0s)
+-- Build files have been written to: /work/build
+[  0%] Building CXX object CMakeFiles/ia.dir/src/actor.cpp.o
+[  0%] Building CXX object CMakeFiles/ia.dir/src/ability_values.cpp.o
+[  0%] Building CXX object CMakeFiles/ia.dir/src/actor_act.cpp.o
+[  0%] Building CXX object CMakeFiles/ia.dir/src/actor_common.cpp.o
+[  0%] Building CXX object CMakeFiles/ia.dir/src/actor_cycle_graphics.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/actor_data.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/actor_death.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/actor_eat.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/actor_factory.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/actor_hear_sound.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_hit.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_items.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_mon.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_move.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_player.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/actor_player_fov.cpp.o
+[  9%] Building CXX object CMakeFiles/ia.dir/src/actor_player_state.cpp.o
+[  9%] Building CXX object CMakeFiles/ia.dir/src/actor_see.cpp.o
+[  9%] Building CXX object CMakeFiles/ia.dir/src/actor_sneak.cpp.o
+[  9%] Building CXX object CMakeFiles/ia.dir/src/actor_start_turn.cpp.o
+[  9%] Building CXX object CMakeFiles/ia.dir/src/actor_std_turn.cpp.o
+[ 12%] Building CXX object CMakeFiles/ia.dir/src/ai.cpp.o
+[ 12%] Building CXX object CMakeFiles/ia.dir/src/attack.cpp.o
+[ 12%] Building CXX object CMakeFiles/ia.dir/src/attack_data.cpp.o
+[ 12%] Building CXX object CMakeFiles/ia.dir/src/attack_melee.cpp.o
+[ 12%] Building CXX object CMakeFiles/ia.dir/src/attack_ranged.cpp.o
+[ 15%] Building CXX object CMakeFiles/ia.dir/src/audio.cpp.o
+[ 18%] Building CXX object CMakeFiles/ia.dir/src/auto_interact.cpp.o
+[ 18%] Building CXX object CMakeFiles/ia.dir/src/bash.cpp.o
+[ 18%] Building CXX object CMakeFiles/ia.dir/src/bot.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/character_descr.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/close.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/colors.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/common_text.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/config.cpp.o
+[ 21%] Building CXX object CMakeFiles/ia.dir/src/create_character.cpp.o
+[ 25%] Building CXX object CMakeFiles/ia.dir/src/debug.cpp.o
+[ 25%] Building CXX object CMakeFiles/ia.dir/src/direction.cpp.o
+[ 25%] Building CXX object CMakeFiles/ia.dir/src/disarm.cpp.o
+[ 25%] Building CXX object CMakeFiles/ia.dir/src/draw_blast.cpp.o
+[ 28%] Building CXX object CMakeFiles/ia.dir/src/draw_health_bars.cpp.o
+[ 28%] Building CXX object CMakeFiles/ia.dir/src/draw_map.cpp.o
+[ 28%] Building CXX object CMakeFiles/ia.dir/src/drop.cpp.o
+[ 28%] Building CXX object CMakeFiles/ia.dir/src/explosion.cpp.o
+[ 31%] Building CXX object CMakeFiles/ia.dir/src/game.cpp.o
+[ 31%] Building CXX object CMakeFiles/ia.dir/src/game_commands.cpp.o
+[ 31%] Building CXX object CMakeFiles/ia.dir/src/game_over.cpp.o
+[ 31%] Building CXX object CMakeFiles/ia.dir/src/game_over_summary.cpp.o
+[ 31%] Building CXX object CMakeFiles/ia.dir/src/game_summary_data.cpp.o
+[ 34%] Building CXX object CMakeFiles/ia.dir/src/game_time.cpp.o
+[ 34%] Building CXX object CMakeFiles/ia.dir/src/gfx.cpp.o
+[ 34%] Building CXX object CMakeFiles/ia.dir/src/gods.cpp.o
+[ 34%] Building CXX object CMakeFiles/ia.dir/src/highscore.cpp.o
+[ 34%] Building CXX object CMakeFiles/ia.dir/src/hints.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/init.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/insanity.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/inventory.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/inventory_handling.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/io.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/io_animation.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/io_draw_obj.cpp.o
+[ 37%] Building CXX object CMakeFiles/ia.dir/src/item.cpp.o
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_ammo.cpp.o
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_armor.cpp.o
+/work/source/src/io.cpp: In function 'void verify_tile_colors(const SDL_Surface&, const std::string&)':
+/work/source/src/io.cpp:172:28: warning: unused parameter 'surface' [-Wunused-parameter]
+  172 |         const SDL_Surface& surface,
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~
+/work/source/src/io.cpp:173:28: warning: unused parameter 'img_path' [-Wunused-parameter]
+  173 |         const std::string& img_path)
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_curse.cpp.o
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_data.cpp.o
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_device.cpp.o
+[ 40%] Building CXX object CMakeFiles/ia.dir/src/item_explosive.cpp.o
+[ 43%] Building CXX object CMakeFiles/ia.dir/src/item_factory.cpp.o
+[ 43%] Building CXX object CMakeFiles/ia.dir/src/item_head.cpp.o
+[ 43%] Building CXX object CMakeFiles/ia.dir/src/item_misc.cpp.o
+[ 43%] Building CXX object CMakeFiles/ia.dir/src/item_potion.cpp.o
+[ 43%] Building CXX object CMakeFiles/ia.dir/src/item_rod.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/item_scroll.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/item_weapon.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/knockback.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/line_calc.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/main_menu.cpp.o
+[ 46%] Building CXX object CMakeFiles/ia.dir/src/manual.cpp.o
+[ 50%] Building CXX object CMakeFiles/ia.dir/src/map.cpp.o
+[ 50%] Building CXX object CMakeFiles/ia.dir/src/map_builder_special.cpp.o
+[ 50%] Building CXX object CMakeFiles/ia.dir/src/map_builder.cpp.o
+[ 50%] Building CXX object CMakeFiles/ia.dir/src/map_builder_std.cpp.o
+[ 50%] Building CXX object CMakeFiles/ia.dir/src/map_controller.cpp.o
+[ 53%] Building CXX object CMakeFiles/ia.dir/src/map_mode_gui.cpp.o
+[ 53%] Building CXX object CMakeFiles/ia.dir/src/map_parsing.cpp.o
+[ 53%] Building CXX object CMakeFiles/ia.dir/src/map_templates.cpp.o
+[ 53%] Building CXX object CMakeFiles/ia.dir/src/map_travel.cpp.o
+[ 53%] Building CXX object CMakeFiles/ia.dir/src/mapgen_aux_rooms.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_bsp_split_rooms.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_chokepoint_data.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_connect_rooms.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_corridor.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_decorate.cpp.o
+[ 56%] Building CXX object CMakeFiles/ia.dir/src/mapgen_doors.cpp.o
+[ 59%] Building CXX object CMakeFiles/ia.dir/src/mapgen_doors_and_keys.cpp.o
+[ 59%] Building CXX object CMakeFiles/ia.dir/src/mapgen_merge_regions.cpp.o
+[ 59%] Building CXX object CMakeFiles/ia.dir/src/mapgen_put_inscribed_terrain.cpp.o
+[ 59%] Building CXX object CMakeFiles/ia.dir/src/mapgen_pylon.cpp.o
+[ 59%] Building CXX object CMakeFiles/ia.dir/src/mapgen_region.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_river.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_room.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_stairs.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_sub_rooms.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_utils.cpp.o
+[ 62%] Building CXX object CMakeFiles/ia.dir/src/mapgen_valuable_terrain.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/marker.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/minimap.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/msg_log.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/paths.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/pickup.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/player_bon.cpp.o
+[ 65%] Building CXX object CMakeFiles/ia.dir/src/player_spells.cpp.o
+[ 68%] Building CXX object CMakeFiles/ia.dir/src/populate_items.cpp.o
+[ 68%] Building CXX object CMakeFiles/ia.dir/src/populate_monsters.cpp.o
+[ 68%] Building CXX object CMakeFiles/ia.dir/src/populate_traps.cpp.o
+[ 71%] Building CXX object CMakeFiles/ia.dir/src/property.cpp.o
+[ 71%] Building CXX object CMakeFiles/ia.dir/src/property_data.cpp.o
+[ 71%] Building CXX object CMakeFiles/ia.dir/src/property_factory.cpp.o
+[ 71%] Building CXX object CMakeFiles/ia.dir/src/property_handler.cpp.o
+[ 75%] Building CXX object CMakeFiles/ia.dir/src/reload.cpp.o
+[ 75%] Building CXX object CMakeFiles/ia.dir/src/room.cpp.o
+[ 75%] Building CXX object CMakeFiles/ia.dir/src/room_auto_spawn_terrain.cpp.o
+[ 75%] Building CXX object CMakeFiles/ia.dir/src/saving.cpp.o
+[ 75%] Building CXX object CMakeFiles/ia.dir/src/smell.cpp.o
+[ 78%] Building CXX object CMakeFiles/ia.dir/src/sound.cpp.o
+[ 78%] Building CXX object CMakeFiles/ia.dir/src/spells.cpp.o
+[ 78%] Building CXX object CMakeFiles/ia.dir/src/study_inscription.cpp.o
+[ 78%] Building CXX object CMakeFiles/ia.dir/src/teleport.cpp.o
+[ 78%] Building CXX object CMakeFiles/ia.dir/src/terrain.cpp.o
+[ 81%] Building CXX object CMakeFiles/ia.dir/src/terrain_data.cpp.o
+[ 81%] Building CXX object CMakeFiles/ia.dir/src/terrain_dmg.cpp.o
+[ 81%] Building CXX object CMakeFiles/ia.dir/src/terrain_door.cpp.o
+[ 81%] Building CXX object CMakeFiles/ia.dir/src/terrain_event.cpp.o
+[ 81%] Building CXX object CMakeFiles/ia.dir/src/terrain_factory.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_gong.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_mirror.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_mob.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_monolith.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_pylon.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/terrain_trap.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/throwing.cpp.o
+[ 84%] Building CXX object CMakeFiles/ia.dir/src/version.cpp.o
+[ 87%] Building CXX object CMakeFiles/ia.dir/src/view.cpp.o
+[ 87%] Building CXX object CMakeFiles/ia.dir/src/view_actor_descr.cpp.o
+[ 87%] Building CXX object CMakeFiles/ia.dir/src/xml.cpp.o
+[ 90%] Linking CXX executable ia
+[100%] Built target ia

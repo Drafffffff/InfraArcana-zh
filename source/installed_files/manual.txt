@@ -1,51 +1,51 @@
 --------------------------------------------------------------------------------
-Command list
+命令列表
 --------------------------------------------------------------------------------
-Gameplay commands:
-   a         INVENTORY, only showing items that can be CONSUMED or ACTIVATED
-   c         CLOSE DOOR, or jam closed door with an iron spike
-   C (@)     CHARACTER information
-   d         DROP item
-   f         AIM/FIRE weapon
-             (To fire a ranged weapon or to aim a melee weapon at a specific
-             position, e.g. to aim a melee weapon with long reach)
-   g (,)     PICK UP item
-   h (M)     MESSAGE history
-   i         INVENTORY (wield, equip, remove, consume, or activate items)
-   k (w)     KICK or strike objects, or DESTROY CORPSES
-   m         Show MAP (or close map)
-   n (o)     Make NOISE
-   p         DISARM trap
-   r         RELOAD
-   5 (.)     WAIT one turn (numpad '5' or the period key)
-             (This also rearranges pistol magazines if possible, or feeds on a
-             corpse if playing as the Ghoul character)
-   t         THROW item, throw lit EXPLOSIVE
-   u (G)     UNLOAD firearm on the ground, or pick up item
-   v         LOOK, VIEW descriptions of things on the map
-   x         CAST spell
-   z         SWAP to readied weapon
-   Q         QUIT
+游戏操作：
+   a         背包，只显示可消耗或可启动的物品
+   c         关门，或用铁钉卡住关上的门
+   C (@)     角色信息
+   d         丢弃物品
+   f         瞄准/开火
+             （要开火使用远程武器，或瞄准特定位置使用近
+             位置，例如用长柄近战武器瞄准时
+   g (,)     拾取物品
+   h (M)     消息记录
+   i         物品栏（持握、装备、移除、消耗或启动物品）
+   k (w)     踢击或击打物体，或摧毁尸体
+   m         显示地图（或关闭地图）
+   n (o)     制造噪音
+   p         解除陷阱
+   r         装弹
+   5 (.)     等待一回合（数字键盘‘5’或句点键）
+             （这也会在可能时重新整理手枪弹匣，或从一
+             （扮演食尸鬼角色时的尸体）
+   t         投掷物品，投掷已点燃的爆炸物
+   u (G)     将枪械卸到地上，或拾取物品
+   v         查看地图上物体的描述
+   x         施放法术
+   z         切换至预备武器
+   Q         退出
 
-Optional convenience commands and shortcuts:
-   b         Use MEDICAL BAG
-   l (e)     Toggle LANTERN
-   s         WAIT five turns, or until something happens
-   Shift     Hold while pressing a move key to move until interrupted
-   Tab       MELEE ATTACK adjacent monster (or further away if wielding a
-             melee weapon with long reach), or DISARM adjacent trap
-   Numpad 0 Open/close MAP
+可选的便捷操作与快捷键：
+   b         使用医疗包
+   l (e)     切换灯笼
+   s         等待五回合，或直到发生某事
+   Shift     按住 Shift 并按方向键，持续移动直到被打断
+   Tab       近战攻击相邻怪物（若持有长柄近战武器，也可攻击更远处）
+             长柄近战武器），或解除相邻陷阱
+   数字键盘0 打开/关闭地图
 
-General menu and window commands:
-   Esc       In-game menu, or cancel/proceed
-   ?, F1     This manual
-   =         Options
-   +/-       Change window width
-   Ctrl +/-  Change window height
-   Space     Cancel/proceed
-   Enter     Select something in a menu, confirm
+通用菜单与窗口操作：
+   Esc       游戏内菜单，或取消/继续
+   ?, F1     查看本手册
+   =         选项
+   +/-       调整窗口宽度
+   Ctrl +/-  调整窗口高度
+   空格      取消/继续
+   Enter     在菜单中选择项目并确认
 
-Move in eight directions with the numpad keys:
+使用数字小键盘向八个方向移动：
 
    7 8 9
     \|/
@@ -53,16 +53,16 @@ Move in eight directions with the numpad keys:
     /|\
    1 2 3
 
-Press '5' or '.' (period) to wait for one turn. This is also used for selecting your current position, for example when kicking (to destroy a corpse you are standing over) or when disarming traps.
+按“5”或“.”（句点）等待一个回合。也可用于选择当前位置，例如踢击（摧毁脚下的尸体）或解除陷阱时。
 
-As an alternative, for keyboards without a numpad (e.g. some laptop keyboards), the arrow keys can be used for moving. To move diagonally, hold shift or ctrl ("auto movement" is not supported in this context):
+对于没有数字键盘的键盘（例如某些笔记本键盘），也可以使用方向键移动。按住 Shift 或 Ctrl 可斜向移动（此情况下不支持“自动移动”）：
 
-   Shift + left  = up left
-   Shift + right = up right
-   Ctrl  + left  = down left
-   Ctrl  + right = down right
+   Shift + 左  = 左上
+   Shift + 右 = 右上
+   Ctrl  + 左  = 左下
+   Ctrl  + 右  = 右下
 
-"Vi-keys" are also supported, and can be enabled in the options menu. If vi-mode is enabled, the following keys are used for movement instead:
+“Vi 键”也受支持，可在选项菜单中启用。启用 Vi 模式后，移动改用以下按键：
 
    y k u
     \|/
@@ -70,190 +70,190 @@ As an alternative, for keyboards without a numpad (e.g. some laptop keyboards), 
     /|\
    b j n
 
-The "k" and "j" keys can be used to scroll up and down in menus, and "l" selects the currently marked entry (as an alternative to the enter key).
+菜单中可用“k”和“j”键上下滚动，“l”键选择当前标记的条目（也可按回车键）。
 
 --------------------------------------------------------------------------------
-Environment interaction
+环境交互
 --------------------------------------------------------------------------------
-Many things in the game can be interacted with by moving into them (i.e. by "bumping" them), for example:
-   * Move into monsters to melee attack them
-   * Move into closed doors, chests, cabinets, etc to attempt to open them
-   * Move into opened chests, cabinets, etc to loot them
-   * Move into stuck doors to attempt to bash them open
-   * Move into fountains to drink from them
+游戏中许多物件都能通过走向它们（也就是“撞上”它们）进行互动，例如：
+   * 撞向怪物以进行近战攻击
+   * 撞向关闭的门、箱子、柜子等以尝试打开它们
+   * 撞向已打开的箱子、柜子等以搜刮物品
+   * 撞向卡住的门以尝试撞开
+   * 撞向喷泉以饮用
 
 --------------------------------------------------------------------------------
-Information on the game screen
+游戏画面信息
 --------------------------------------------------------------------------------
-On the right hand side of the screen, information is listed about your character and your carried equipment. The following is an example of what these lines can look like:
+屏幕右侧列出了角色与携带装备的信息。这些行可能如下所示：
 
-   Level       1 (60%) : Character level, and progress towards next level
-                         This progress is called experience, or "XP"
+   等级       1 (60%)：角色等级，以及距离下一级的进度
+                         这种进度称为经验，或“XP”
 
-   Depth             2 : Current floor (or "dungeon level")
+   深度             2：当前层（或“地城层数”）
 
-   Health         9/16 : Current and maximum Hit Points
-                         See "Hit Points, Wounds and healing" for more info
+   生命值      9/16：当前及最大生命值
+                         更多信息请参见“生命值、创伤与治疗”
 
-   Spirit          8/8 : Current and maximum Spirit Points
-                         See "Spirit and spell casting" for more info
+   精神值       8/8：当前及最大精神值
+                         更多信息请参见“精神值与施法”
 
-   Shock           45% : Your level of shock or stress
-                         See "Insanity" for more info
+   震慑           45%：当前震慑或压力程度
+                         更多信息请参见“疯狂度”
 
-   Insanity        12% : Your level of insanity
-                         See "Insanity" for more info
+   疯狂度        12%：当前疯狂程度
+                         更多信息请参见“疯狂度”
 
-   Wpn    (+1) 8.0 +0% : Your currently wielded weapon
+   武器    (+1) 8.0 +0%：当前持握的武器
 
-                         "(+1)" means that this weapon does one extra point of
-                         damage compared to normal weapons of the same type
+                         “(+1)”表示这把武器的伤害额外增加一点
+                         与同类型普通武器相比的伤害
 
-                         "8.0" is your average damage with this weapon
-                         (including skills affecting the damage)
+                         “8.0”是你使用这把武器时的平均伤害
+                         （包括影响伤害的技能）
 
-                         "+0%" is this weapon's hit chance modifier (the total
-                         hit chance is affected by several other factors, such
-                         as your character's skill and the creature attacked)
+                         “+0%”是这把武器的命中率修正值（总
+                         命中率还会受到其他因素影响，例如
+                         取决于你角色的技能以及受攻击的生物）
 
-   Alt     8.5 +0% 4/7 : Your prepared (alternative) weapon
+   备用    8.5 +0% 4/7：已准备的备用武器
    
-                         The weapon in this example is a firearm, "5/6" is the
-                         weapon's loaded and maximum ammunition
+                         此例中的武器是枪械，“5/6”表示
+                         武器已装填弹药数及最大弹药量
 
-   Lantern         100 : Remaining number of turns that your Electric Lantern
-                         can be used for
+   灯笼         100：电灯笼剩余的回合数
+                         可用于
 
-   Med. Suppl.      24 : Remaining Medical Bag Supplies
-                         See "Hit Points, Wounds and healing" for more info
+   医疗补给      24：医疗包剩余补给数量
+                         更多信息请参见“生命值、创伤与治疗”
 
-   Armor             3 : Armor Points
-                         Each point reduces physical damage taken by 1
+   护甲             3：护甲点数
+                         每点使受到的物理伤害减少1点
 
-   Weight          40% : Encumbrance from carrying items
-                         From 100% you move at half speed, and from 125% you
-                         cannot move at all
+   重量          40%：携带物品造成的负重
+                         从100%开始，你的移动速度减半；达到125%时，你
+                         完全无法移动
 
-   Turn            123 : Current standard turn number
-                         Note that the player can sometimes act more or less
-                         often than these turns are ticking (e.g. if they have
-                         the "hasted" or "slowed" effects applied)
+   回合            123：当前标准回合数
+                         注意，玩家有时可以行动得更快或更慢
+                         比这些回合流逝得更频繁（例如，如果它们……
+                         施加“加速”或“减速”效果）
 
-   Blind               : You are currently blind
+   失明               ：你目前处于失明状态
 
-   Diseased            : You are currently diseased
+   患病            ：你目前身患疾病
 
-The properties at the bottom can be temporary properties (e.g. from spells), PERMANENT intrinsic properties (printed in capital letters, e.g. "CURSED"), or properties granted by wearing or wielding items.
-
---------------------------------------------------------------------------------
-Inventory handling
---------------------------------------------------------------------------------
-The inventory can be accessed in four ways:
-
-   (1) Pressing "i" opens a full view of your inventory
-Here, you can see all of your inventory slots (see below), and a complete list of your carried items. Selecting an inventory slot (with enter or a letter key), either puts away an existing item from the slot, or opens a list of items that you can equip in the slot.
-
-Items are equipped in different inventory slots:
-   * Wielded  - your currently used melee weapon or firearm
-   * Prepared - the weapon to switch to when pressing "z"
-   * Body     - item worn on your body (e.g. an armor or a jacket)
-   * Head     - item worn on your head (e.g. a gas mask)
-
-   (2) Pressing "a" shows only items which you can "activate" or consume
-This is merely a convenience feature - you can just as well use items by selecting them from the "i" screen, but with this method you get a nice filtered list so you can see at a glance which consumables you have.
-
-   (3) Pressing "d" opens a list to select an item to drop
-
-   (4) Pressing "t" opens a list to select an item to throw
-The item stack previously thrown from (if any) is shown at the top with the "t" key assigned (for convenience). If there is no stack previously thrown from, the "t" key is not assigned to any item. Selecting an item in this menu will show an aiming marker on the map, to select where to throw the chosen item.
-
-Note that explosives are not used like throwing weapons. Instead they are used by first igniting or priming the explosive, this is done by "activating" it (can be done from the "a" inventory screen, see above) - now you can see your character colored yellow as a warning that you are holding an ignited explosive. Press "t", and aim somewhere (in some cases the game will mark the area around your aim position to indicate the explosion size - be careful though, there may be unseen objects blocking the throw path). Press "t" again to throw the explosive toward the aim position.
-
-In any inventory screen, you can see percentage values to the far right of each item. This is how many percent of your total carried weight that each item takes (the numbers roughly adds up to 100%, but there will be rounding errors, since decimals are not shown). So if you are overburdened, an item with a high percentage value might be a good candidate to drop.
+底部列出的属性可能是临时属性（例如来自法术）、永久固有属性（以大写字母显示，例如“CURSED”），或穿戴、手持物品赋予的属性。
 
 --------------------------------------------------------------------------------
-Hit Points, Wounds and healing
+物品栏操作
 --------------------------------------------------------------------------------
-The state of your physical health is described in two ways:
+物品栏有四种打开方式：
 
-   (1) Hit Points (HP)
-This represents minor injuries such as bruises, sprains, or light bleeding - and also general combat morale, fatigue, stance, etc. If your Hit Points reach 0, it means you received a killing blow, or the circumstances are such that you can no longer fight back (you are fallen, pinned or completely exhausted). Hit Points usually regenerate automatically over time.
+   (1) 按“i”打开完整物品栏视图
+此处会显示所有装备栏位（见下文），以及你携带的物品清单。选择一个装备栏位（按回车或对应字母键），可以收起该栏已有物品，或打开可装备到该栏的物品列表。
 
-   (2) Wounds
-This represents more serious long-term damage. Wounds are received when you take a high amount of damage in one hit. Each Wound reduces your fighting abilities, maximum HP, and HP regeneration rate. Five concurrent wounds results in death.
+物品装备在不同的物品栏槽位中：
+   * 手持 - 当前使用的近战武器或枪械
+   * 备用 - 按“z”时切换到的武器
+   * 身体     - 穿在身上的物品（如护甲或夹克）
+   * 头部     - 戴在头上的物品（如防毒面具）
 
-There is an item called a "Medical Bag", which has a certain number of "supplies". When activated, it can be used to either sanitize an infection, treat a WOUND, or do a quick patch-up that restores some Hit Points. When bitten or clawed by certain monsters, you can become Infected; This should be treated before the infection turns into a disease! Treating infections or doing a quick patch-up only require a few supplies, while treating wounds requires more.
+   (2) 按“a”仅显示可“启用”或消耗的物品
+这只是方便功能——你也可以从“i”界面选择物品使用；但通过此方式会显示筛选后的列表，让你一眼看清自己有哪些消耗品。
 
---------------------------------------------------------------------------------
-Spirit and spell casting
---------------------------------------------------------------------------------
-In addition to your physical and mental health, you have an "essence" - or Spirit - to preserve. If you lose all your Spirit, you are dead.
+   (3) 按“d”打开物品列表以选择要丢弃的物品
 
-Your Spirit Points are shown like this:
-   Spirit   Current/Max
+   (4) 按“t”打开物品列表以选择要投掷的物品
+上次投掷的物品堆（如果有）会显示在顶部，并分配“t”键（方便使用）。若之前没有投掷过物品堆，则“t”键不会分配给任何物品。在此菜单中选择物品后，地图上会出现瞄准标记，供你选择投掷目标。
 
-You can learn spells by casting them from manuscripts. Casting spells "naturally" (without manuscripts) will drain some of your spirit.
+注意，爆炸物不能像投掷武器那样直接使用。你需要先点燃或启动爆炸物，也就是“激活”它（可在物品栏的“a”界面操作，见上文）。此时角色会显示为黄色，提醒你手持已点燃的爆炸物。按“t”并选择目标位置（有时游戏会标出瞄准点周围范围以提示爆炸半径——但要小心，投掷路径上可能有看不见的物体挡路）。再次按“t”，即可将爆炸物投向目标位置。
 
-To cast memorized spells, press "x" to open a menu for selecting which spell to cast. In this menu you can see the Spirit cost per spell (the cost is a range of values, and the spirit drained is a random value in this range), and your skill level for each spell (Occultist characters can learn to cast spells at higher levels by picking certain traits).
-
-When casting a spell, you will get a warning if the spell could potentially drain all your remaining Spirit. You can then press y/n to attempt casting or abort. Casting the spell in this situation is a gamble with death.
-
-There are also other ways you can lose Spirit, for example some monsters can drain your Spirit with their attacks.
+在物品栏界面中，每件物品最右侧都显示一个百分比，表示该物品占你携带总重量的比例（数字大致相加为100%，但由于不显示小数，会有舍入误差）。如果你负重过多，高百分比的物品或许适合丢弃。
 
 --------------------------------------------------------------------------------
-Insanity
+生命值、创伤与治疗
 --------------------------------------------------------------------------------
-"A few steps more, and our breaths were literally snatched from us by what we saw; so literally that Thornton, the psychic investigator, actually fainted in the arms of the dazed man who stood behind him. Norrys, his plump face utterly white and flabby, simply cried out inarticulately; whilst I think that what I did was to gasp or hiss, and cover my eyes. The man behind me - the only one of the party older than I - croaked the hackneyed "My God!" in the most cracked voice I ever heard. Of seven cultivated men, only Sir William Brinton retained his composure; a thing the more to his credit because he led the party and must have seen the sight first."-H.P. Lovecraft, "Rats in the Walls"
+你的身体健康状况通过两种方式描述：
 
-Certain events in this game affects the sanity and composure of your character. One of the main threats to your mental health are the various horrifying creatures that inhabit the game world. When inside your view, some creatures may cause a vague unease, while others are very disturbing to behold. Your mind also takes a hit when you use occult powers, carry weird artifacts, or stand in darkness, etc. Finally, there is a slow perpetual taxing of your mind from exploring and dwelling in this haunted dungeon.
+   (1) 生命点数（HP）
+这表示瘀伤、扭伤、轻微流血等小伤，以及总体战斗士气、疲劳、姿势等状态。如果生命值降至0，说明你受到了致命一击，或已经倒地、被压制、精疲力竭，无法继续战斗。生命值通常会随时间自动恢复。
 
-Your mental health is represented by two percentage values:
-   * "Shock" is your level of stress and paranoia in the current situation
-   * "Insanity" is long term, permanent madness
+   (2) 创伤
+这表示更严重的长期损伤。一次受到大量伤害时会产生创伤。每处创伤都会削弱战斗能力、降低生命值上限和生命值恢复速度。同时有五处创伤就会死亡。
 
-When various disturbing events occur, the shock value rises. When shock hits 100%, the following happens:
-   * You react somehow (scream, laugh, faint, babble, gain a phobia...)
-   * The shock value is restored
-   * Insanity rises
-
-Each time you travel to the next dungeon level, your shock is restored (you have escaped the horrors above, and are bestowed with a sense of progress). Also, standing in a lit area reduces your shock a bit (most characters start with an Electric Lantern, which can be useful to prevent shock from rising too high).
-
-If your Insanity reaches 100%, you are hopelessly lost, and the game is over.
+有一种叫作“医疗包”的物品，内含一定数量的“补给”。启动后可用于消毒感染、治疗创伤，或快速包扎以恢复一些生命值。被某些怪物咬伤或抓伤后可能会感染；必须在感染发展成疾病前进行治疗！治疗感染或快速包扎只需少量补给，治疗创伤则需要更多。
 
 --------------------------------------------------------------------------------
-Sneaking and backstabbing
+精神值与施法
 --------------------------------------------------------------------------------
-Monsters unaware of your presence have a blue background on their map icon. This is their default mode. While in this state they may roam the map, but they will not actively search for you or purposefully attack you. If you attack an unaware opponent in melee, the attack does +50% extra damage, and has a very high chance to hit.
+除了身体与精神健康，你还必须保全自己的“精华”——也就是精神值。精神值耗尽，你就会死亡。
 
-For each turn you spend in a monsters visual area (for monsters with sight - some monsters are naturally blind), there is a chance that it will either completely detect you, or become "suspicious". While suspicious, the monster has an increased chance of detecting you (watch out for messages about monsters looking "wary" or "disturbed").
+精神值显示如下：
+   精神值   当前/最大值
 
-Some monsters have the ability to sneak as well. You automatically attempt to detect them while they are in your visual area.
+你可以通过施放手稿中的法术来学习法术。无需手稿而“自然”施法会消耗一些精神值。
 
-The chances of one creature detecting another are affected by:
-   * Search skill
-   * The hidden actor's sneak skill
-   * Light and darkness
-   * Distance
+若要施放记忆中的法术，按“x”打开法术选择菜单。在菜单中可以查看每个法术消耗的精神值（消耗是一个范围，实际汲取量会在范围内随机决定）以及对应的技能等级（神秘学者角色可通过选择某些特质提升法术等级）。
 
-When you stay out of an aware monster's vision for a certain number of turns (and nothing else alerts it), it will "forget" about you. The number of turns this takes depends on the monster; A simple animal may only care for a couple of turns after it loses sight, while a human will remain aware longer.
+施法可能耗尽剩余精神值时，游戏会发出警告。此时你可以按 y/n 继续施法或取消；在这种情况下施法无异于赌命。
 
-Monsters also react to noise, and may disturb nearby monsters when becoming aware, alerting them to your presence. Medium and heavy melee weapons will make noise on attacks, so a light weapon might be more ideal for a stealthy combat approach. Some sounds are louder than others, for example firing a gun or kicking down a door is likely to attract some attention.
+你也可能因其他原因失去精神值，例如有些怪物的攻击会汲取精神力。
 
 --------------------------------------------------------------------------------
-High scores and memorial files
+疯狂度
 --------------------------------------------------------------------------------
-Winning is not necessarily the sole purpose of Infra Arcana - there is also challenge to be found in exploring further, gaining more abilities, discovering more items, or encountering stranger and more powerful monsters than in previous attempts.
+“再往前走几步，我们看到的景象几乎夺走了我们的呼吸；说是几乎夺走，因为那位通灵调查员桑顿竟真的昏倒在身后那名惊愕男子的怀里。诺里斯那张圆润的脸苍白而松弛，只会含糊地喊叫；我想我则是倒抽一口气，或是发出嘶声，并捂住双眼。我身后的那个人——一行人中唯一年长于我的——用我听过最嘶哑的声音，干巴巴地喊出那句陈词滥调：“天哪！”七位受过良好教育的男子中，只有威廉·布林顿爵士保持了镇定；这更值得称赞，因为他是队伍的领头人，也必定是第一个看到那景象的人。”——H·P·洛夫克רא夫特，《墙中之鼠》
 
-After each game is finished, information such as player name and dungeon level reached is stored in a "memorial file" on the disk, and a high score entry is added (unless you manually quit the game by pressing "Q"). The high score list can be viewed by selecting the main menu option "Graveyard". Selecting a high score entry on this screen will show the corresponding stored memorial file.
+游戏中的某些事件会影响角色的理智与镇定。精神健康面临的主要威胁之一，是游戏世界中各种骇人的生物。有些生物进入视野后会让你隐隐不安，另一些则令人极度恐惧。使用神秘力量、携带诡异圣物、身处黑暗等也会冲击心智。最后，在这座闹鬼地牢中探索和停留，也会持续缓慢地消磨你的心智。
 
-In addition to this, the top high score entries show up as gravestones on the first level of the game (in the forest). Bumping a gravestone shows a short summary of the high score entry.
+你的精神健康由两个百分比数值表示：
+   *“震慑”是你在当前情境下的压力和偏执程度
+   *“疯狂”是长期且永久的精神失常
 
-Score values are calculated based on your experience points (including points gained after the maximum character level is reached), which is then multiplied by several factors.
+发生各种令人不安的事件时，震慑值会升高。当震慑达到100%时，会发生以下情况：
+   * 你会出现某种反应（尖叫、大笑、昏厥、胡言乱语、产生恐惧症……）
+   * 震慑值已恢复
+   * 疯狂值上升
 
-The factors contributing to a higher score value are:
-   * Experience points gained
-   * Dungeon level reached
-   * Fewer turns spent
-   * Lower insanity
+每次前往下一地城层时，你的震慑值都会恢复（你逃离了上方的恐怖，并因此感到一丝进展）。身处明亮区域也能略微降低震慑值（大多数角色初始携带电灯笼，可用于防止震慑值过高）。
 
-Also, when winning the game, some large bonus factors are added. Every winning game is guaranteed to have a better score than any non-winning game.
+若疯狂度达到100%，你将彻底迷失，游戏也会结束。
+
+--------------------------------------------------------------------------------
+潜行与背刺
+--------------------------------------------------------------------------------
+尚未察觉你的怪物，其地图图标背景为蓝色，这是它们的默认状态。它们可能会在地图上游荡，但不会主动搜寻或刻意攻击你。如果你在近战中攻击未察觉你的敌人，伤害会额外提高50%，并且命中几率很高。
+
+每当你在怪物的视野范围内度过一个回合（能看见东西的怪物才算，有些怪物天生失明），它就有机会完全发现你，或变得“起疑”。处于起疑状态时，怪物发现你的几率会提高（留意怪物显得“警觉”或“受惊”的提示）。
+
+有些怪物也会潜行。它们进入你的视野范围时，你会自动尝试发现它们。
+
+生物之间相互发现的几率受以下因素影响：
+   * 搜索技能
+   * 隐藏行动者的潜行技能
+   * 光明与黑暗
+   * 距离
+
+当你连续若干回合不在已警觉怪物的视野中（且没有其他事情引起它注意），它就会“忘记”你。所需回合数取决于怪物；普通动物失去视野后可能只在意几回合，人类则会记得更久。
+
+怪物也会对噪音作出反应；它们察觉到动静时可能惊扰附近的怪物，暴露你的位置。中型与重型近战武器攻击时会发出声响，因此潜行作战时轻型武器可能更合适。不同声音的响度也不同，例如开枪或踢开一扇门很可能引来注意。
+
+--------------------------------------------------------------------------------
+高分记录与纪念文件
+--------------------------------------------------------------------------------
+《Infra Arcana》的目的不一定只有获胜——继续探索、获得更多能力、发现更多物品，或遇见比以往尝试中更奇异、更强大的怪物，也同样充满挑战。
+
+每局游戏结束后，玩家名称、抵达的地牢层数等信息都会写入磁盘上的“纪念档案”，并新增一条高分记录（手动按“Q”退出时除外）。可从主菜单选择“墓园”查看高分榜。在此界面选择一条记录，即可查看对应的纪念档案。
+
+除此之外，游戏第一层（森林）中还会出现代表高分榜前列的墓碑。撞上墓碑便可查看该条高分记录的简要总结。
+
+分数根据经验值计算（包括达到角色等级上限后获得的经验），再乘以若干系数。
+
+提高分数的因素包括：
+   * 获得的经验值
+   * 到达的地城层数
+   * 花费回合较少
+   * 降低疯狂值
+
+获胜时还会增加若干大型奖励系数。每局获胜游戏的得分都保证高于任何未获胜的游戏。

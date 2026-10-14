@@ -206,7 +206,7 @@ void ElectricGun::pre_ranged_attack()
 
         const auto wpn_name = name(ItemNameType::plain, ItemNameInfo::none);
 
-        const auto msg = "The " + wpn_name + " feeds on my energy!";
+        const auto msg = "这 " + wpn_name + " 以我的能量为食！";
 
         msg_log::add(msg, colors::msg_bad());
 
@@ -235,7 +235,7 @@ void MorphicBlaster::pre_ranged_attack()
 
         const auto wpn_name = name(ItemNameType::plain, ItemNameInfo::none);
 
-        const auto msg = "The " + wpn_name + " feeds on my energy!";
+        const auto msg = "这 " + wpn_name + " 以我的能量为食！";
 
         msg_log::add(msg, colors::msg_bad());
 
@@ -331,7 +331,7 @@ void MindLeechSting::on_melee_hit(actor::Actor& actor_hit, const int dmg)
                         const std::string mon_name_the =
                                 text_format::first_to_upper(actor::name_the(*mon));
 
-                        msg_log::add(mon_name_the + " looks shocked!");
+                        msg_log::add(mon_name_the + " 看起来很震慑！");
                 }
 
                 actor::hit(*mon, rnd::range(3, 15), DmgType::pure, &actor_hit);
@@ -524,7 +524,7 @@ void PharaohStaff::on_mon_see_player_carrying(actor::Actor& mon) const
                 if (actor::can_player_see_actor(mon)) {
                         const auto name_the = text_format::first_to_upper(actor::name_the(mon));
 
-                        msg_log::add(name_the + " bows before me.");
+                        msg_log::add(name_the + " 在我面前鞠躬。");
                 }
         }
 }
@@ -633,9 +633,9 @@ void ShadowDagger::hit_radiant_creature(actor::Actor& actor) const
                 const std::string target_name =
                         player_see_target
                         ? text_format::first_to_upper(actor::name_the(actor))
-                        : "It";
+                        : "它";
 
-                msg_log::add(target_name + " is assailed by dark energy.");
+                msg_log::add(target_name + " 受到暗能量的攻击。");
 
                 draw_blast_at_seen_actors({&actor}, colors::gray());
         }

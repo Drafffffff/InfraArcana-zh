@@ -1,0 +1,58 @@
+[
+  {
+    "source": "Alt",
+    "target": "备用"
+  },
+  {
+    "source": "[2/8, down/up, pgup/pgdown, home/end] to scroll",
+    "target": "[2/8、下/上、上页/下页、行首/行尾] 滚动"
+  },
+  {
+    "source": "[any key] to continue",
+    "target": "[任意键] 继续"
+  },
+  {
+    "source": "[enter, left, right] to set option",
+    "target": "[回车, 左, 右] 设置选项"
+  },
+  {
+    "source": "[enter] to confirm",
+    "target": "[回车] 确认"
+  },
+  {
+    "source": "[enter] to control ",
+    "target": "[回车] 控制 "
+  },
+  {
+    "source": "[enter] to try teleporting here",
+    "target": "[回车] 尝试传送到此处"
+  },
+  {
+    "source": "[page down, >] more",
+    "target": "[下页, >] 更多"
+  },
+  {
+    "source": "[page up, <] more",
+    "target": "[上页, <] 更多"
+  },
+  {
+    "source": "[space, esc, enter] to continue",
+    "target": "[空格, Esc, 回车] 继续"
+  },
+  {
+    "source": "[space, esc, m] to exit",
+    "target": "[空格, Esc, m] 退出"
+  },
+  {
+    "source": "[space, esc] to cancel",
+    "target": "[空格, Esc] 取消"
+  },
+  {
+    "source": "[space, esc] to exit",
+    "target": "[空格, Esc] 退出"
+  },
+  {
+    "source": "[space, esc] to show high scores",
+    "target": "[空格, Esc] 显示高分"
+  }
+]

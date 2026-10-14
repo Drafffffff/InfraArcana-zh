@@ -1,0 +1,1203 @@
+[
+  {
+    "source": "- Added the ability for displaying idle animations while the game is waiting for input, currently this is used for flickering the player color when holding an activated Electric Lantern, or randomizing the color of burning tiles or tiles corrupted by Strange Colors - and also for auto-scrolling item descriptions in the (rare) case that they do not fit in the window",
+    "target": "- 新增游戏等待输入时显示闲置动画的功能。目前用于玩家持有已启动的电灯笼时闪烁玩家颜色，以及随机改变燃烧格或被“奇异色彩”侵蚀格子的颜色；如果物品说明过长、不适合窗口显示，也会自动滚动（这种情况较少见）。",
+    "locations": [
+      "installed_files/release_history.txt:468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added tiles for Cultists wielding different firearms (see gameplay changes above)",
+    "target": "- 为使用不同枪支 (请参阅上面的游戏玩法更改) 的邪教徒添加了图块",
+    "locations": [
+      "installed_files/release_history.txt:472"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added titles to most popups",
+    "target": "- 为大多数弹出窗口添加了标题",
+    "locations": [
+      "installed_files/release_history.txt:1379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Absorption\" for Occultists - blocking a spell restores 1d6 Spirit",
+    "target": "- 为神秘主义者添加了“吸收”特性 - 阻挡法术可恢复 1d6 精神",
+    "locations": [
+      "installed_files/release_history.txt:704"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Crippling Strikes\" - melee attacks have 60% chance to Weaken the target for 2-3 turns",
+    "target": "- 新增特质“致残打击” - 近战攻击有 60% 几率削弱目标 2-3 回合",
+    "locations": [
+      "installed_files/release_history.txt:379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Electrically Inclined\" - gives bonus to using Rods, Devices, Electric Lanterns, and electricity weapons",
+    "target": "- 添加了“电动倾斜”特征 - 为使用棒、设备、电灯笼和电动武器提供奖励",
+    "locations": [
+      "installed_files/release_history.txt:821"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Elusive\" - A unique trait for Rogues, that makes creatures only remember you for half the normal duration.",
+    "target": "- 添加了“难以捉摸”的特征 - 盗贼的独特特征，使生物只记住你正常持续时间的一半。",
+    "locations": [
+      "installed_files/release_history.txt:20"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Magically Gifted\" - +20% skill with all spells",
+    "target": "- 添加了“魔法天赋”特征 - 所有法术技能+20%",
+    "locations": [
+      "installed_files/release_history.txt:823"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Meditative\" - applies a status effect which allows the next spell to be cast without spending a turn, and with the cost reduced by 1 spirit point - after casting a spell this state is reapplied again after some time has passed",
+    "target": "- 添加了“冥想”特征 - 应用一种状态效果，允许在不花费一回合的情况下施放下一个法术，并且成本减少1个精神点 - 施展法术后，此状态会在一段时间过去后再次应用",
+    "locations": [
+      "installed_files/release_history.txt:380"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Resistant\" - halved damage from fire and electricity",
+    "target": "- 增加了“抵抗”特性 - 火和电造成的伤害减半",
+    "locations": [
+      "installed_files/release_history.txt:705"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Ruthless\", which is an upgrade of \"Vicious\" with even more backstab damage",
+    "target": "- 新增特质“无情”，是“恶毒”的升级，背刺伤害更高",
+    "locations": [
+      "installed_files/release_history.txt:532"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Sage\" - This is an upgrade of the \"Meditative\" trait, spells are also cast at a higher skill level when \"Focused\", and the duration to regain the focused state is reduced.",
+    "target": "- 新增特质“贤者” - 这是“冥想”特质的升级，“专注”时也会以更高的技能等级施放法术，并且恢复专注状态的持续时间减少。",
+    "locations": [
+      "installed_files/release_history.txt:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Silent\" - all melee attacks are silent, opening and closing doors does not alert monsters",
+    "target": "- 添加了“沉默”特性 - 所有近战攻击都是沉默的，打开和关闭门不会惊动怪物",
+    "locations": [
+      "installed_files/release_history.txt:822"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Summoner\" - Reduced cost for summoning spells, and lower risk that called creatures are hostile",
+    "target": "- 添加了“召唤师”特质 - 降低了召唤法术的成本，并降低了被召唤生物敌对的风险",
+    "locations": [
+      "installed_files/release_history.txt:1045"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Thick Skinned\", which gives +1 Armor Point",
+    "target": "- 添加了“厚脸皮”特征，可提供+1护甲点",
+    "locations": [
+      "installed_files/release_history.txt:723"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added trait \"Vicious\" - +50% backstab damage",
+    "target": "- 添加特质“恶毒” - +50% 背刺伤害",
+    "locations": [
+      "installed_files/release_history.txt:1046"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added two common monsters (Flying Polyps, Chthonians), and one unique monster",
+    "target": "- 添加了两种常见怪物 (飞行息肉， Chthonians) 和一种独特怪物",
+    "locations": [
+      "installed_files/release_history.txt:1139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added unique Flagellant trait \"Memento Mori\", which raises the threshold of the moribund status to 8 hit points, and increases the duration of the effect by 50%.",
+    "target": "- 增加了独特的鞭打特质“死亡纪念”，将垂死状态的阈值提高到8点生命值，并将效果持续时间增加50%。",
+    "locations": [
+      "installed_files/release_history.txt:143"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added unique player tiles for each weapon that the player can wield (39 new tiles in total), thanks YARD and Hal from the IA Discord channel!",
+    "target": "- 每种玩家可持有的武器现在都有专属玩家图块（共新增 39 个图块），感谢 IA Discord 频道的 YARD 和 Hal！",
+    "locations": [
+      "installed_files/release_history.txt:203"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added weapons \"S&W Revolver\" and \"Winchester Rifle\"",
+    "target": "- 添加武器“S&W左轮手枪”和“温彻斯特步枪”",
+    "locations": [
+      "installed_files/release_history.txt:403"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Adjacent dark cells are now rendered darker than normal cells to make it easier to notice darkness",
+    "target": "- 相邻的暗细胞现在比正常细胞更暗，以便更容易注意到黑暗",
+    "locations": [
+      "installed_files/release_history.txt:1078"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Adjusted Potion of Poison duration so that it's guaranteed to be non-lethal for any non-diseased player character with full hit points",
+    "target": "- 调整了毒药药水的持续时间，以确保它对于任何具有完整生命值的未患病玩家角色来说都是非致命的",
+    "locations": [
+      "installed_files/release_history.txt:716"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- After a certain dungeon level, dart and spear traps can be poisoned",
+    "target": "- 达到一定的地牢等级后，飞镖和矛陷阱可能会中毒",
+    "locations": [
+      "installed_files/release_history.txt:1345"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Alarm traps now emit a sound with \"global\" range, instead of just a \"loud\" sound (although creatures with short hearing range such as Worm Masses still need to be very near to hear the sound).",
+    "target": "- 警报陷阱现在发出“全局”范围内的声音，而不仅仅是“响亮”的声音 (尽管蠕虫质量等听力范围较短的生物仍然需要非常接近才能听到声音)。",
+    "locations": [
+      "installed_files/release_history.txt:264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All active properties are printed with descriptions on the [@] character decsription page, and when [v]iewing monsters",
+    "target": "- 所有生效中的属性都会在 [@] 角色说明页中显示说明；按 [v] 查看怪物时也会显示。",
+    "locations": [
+      "installed_files/release_history.txt:850"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All backgrounds (classes) now have ranged attack bonus vs unaware targets (not just Rogues)",
+    "target": "- 所有背景（职业）现在对未察觉目标都有远程攻击加成（此前只有盗贼有此加成）。",
+    "locations": [
+      "installed_files/release_history.txt:881"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All backgrounds can learn spells, but the Occultist gains proficiency much faster (and as before, starts with a few spells and has access to unique spell casting traits)",
+    "target": "- 所有背景都可以学习法术，但神秘主义者的熟练程度要快得多 (和以前一样，从几个法术开始，可以获得独特的法术施法特质)",
+    "locations": [
+      "installed_files/release_history.txt:817"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All creatures have a certain amount of Spirit. If a creature's Spirit is depleted, it dies (monsters may sometimes attempt to cast a spell that could kill it, if it \"feels desperate\").",
+    "target": "- 所有生物都有一定数量的精神。如果生物的灵魂耗尽，它就会死亡 (怪物有时会尝试施放可以杀死它的咒语，如果它“感到绝望”)。",
+    "locations": [
+      "installed_files/release_history.txt:1204"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All fonts have been replaced with new ones (the reason for this is that the origins and license information of the previous ones was unknown - now this information is clearly listed in a font license text file distributed with the game)",
+    "target": "- 所有字体均已替换为新字体 (原因是以前的来源和许可证信息未知-现在这些信息清楚地列在随游戏分发的字体许可证文本文件中)",
+    "locations": [
+      "installed_files/release_history.txt:470"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All items which gave XP on identification now instead gives XP when that item is found for the first time (except \"Strange Devices\") - the reason for this is to reduce the pressure to identify consumables as soon as possible, and also to have a more \"natural\" continuous stream of XP, rather than occasional bursts",
+    "target": "- 所有在识别时给出 XP 的物品现在在第一次找到该物品时给出 XP (“奇怪的设备”除外) - 这样做的原因是为了减轻尽快识别消耗品的压力，并且也有一个更“自然”的连续 XP 流，而不是偶尔的爆发",
+    "locations": [
+      "installed_files/release_history.txt:604"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All magic traps now have an effect when triggered by a monster (previously most of them would not do anything at all).",
+    "target": "- 现在，所有魔法陷阱在被怪物 (以前，他们中的大多数根本不会做任何事情) 触发时都会产生效果。",
+    "locations": [
+      "installed_files/release_history.txt:261"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All Manuscripts are guaranteed to be identified when read (previously this only applied to potions)",
+    "target": "- 所有稿件在阅读时保证被识别 (以前这只适用于药水)",
+    "locations": [
+      "installed_files/release_history.txt:829"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All menus have shortcut keys (either with \"(Y)es (N)o\" style, or \"a) b) c) ...\")",
+    "target": "- 所有菜单都有快捷键（“(Y)es (N)o”样式，或“a）b）c）...”）",
+    "locations": [
+      "installed_files/release_history.txt:460"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All monsters have slightly higher hit chance",
+    "target": "- 所有怪物的命中率略高",
+    "locations": [
+      "installed_files/release_history.txt:1823"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All monsters of the \"Reanimated\" variety spawn a level earlier.",
+    "target": "- 所有“复活”类型的怪物都会提前一个等级生成。",
+    "locations": [
+      "installed_files/release_history.txt:1820"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- All Potions are now guaranteed to identify when you drink them",
+    "target": "- 现在保证所有药水都能在你喝下时被识别",
+    "locations": [
+      "installed_files/release_history.txt:968"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- And many more minor bug fixes...",
+    "target": "- 还有更多小错误修复...",
+    "locations": [
+      "installed_files/release_history.txt:335"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- And more bug fixes...",
+    "target": "- 还有更多错误修复...",
+    "locations": [
+      "installed_files/release_history.txt:113",
+      "installed_files/release_history.txt:221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- And much more...",
+    "target": "- 还有更多...",
+    "locations": [
+      "installed_files/release_history.txt:500"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Animals listen for sound",
+    "target": "- 动物聆听声音",
+    "locations": [
+      "installed_files/release_history.txt:1737"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Animated weapons are stronger, but are permanently destroyed when \"killed\"",
+    "target": "- 动画武器更强大，但在“被杀”时会被永久摧毁",
+    "locations": [
+      "installed_files/release_history.txt:619"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Any melee weapon can now be thrown",
+    "target": "- 现在可以投掷任何近战武器",
+    "locations": [
+      "installed_files/release_history.txt:983"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Armor (a bit crude so far)",
+    "target": "- 装甲 (到目前为止有点粗糙)",
+    "locations": [
+      "installed_files/release_history.txt:1877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Armor disappears when dropping to 0 protection value",
+    "target": "- 防护值降至0时护甲消失",
+    "locations": [
+      "installed_files/release_history.txt:1392"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Armor durability % is no longer shown in the interface (only the protection value)",
+    "target": "- 装甲耐久%不再显示在界面(仅保护值)中",
+    "locations": [
+      "installed_files/release_history.txt:1477"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Attacking a monster in melee with a ranged weapon causes a warning prompt (can be turned off in the options menu)",
+    "target": "- 使用远程武器攻击近战怪物会导致警告提示(可以在选项菜单中关闭)",
+    "locations": [
+      "installed_files/release_history.txt:1391"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Attacking a monster that is delayed by moving into liquid no longer allows them to act immediately.",
+    "target": "- 攻击因进入液体而延迟的怪物不再让他们立即行动。",
+    "locations": [
+      "installed_files/release_history.txt:329"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Attacking an unaware monster in melee makes it aware even if you miss",
+    "target": "- 在近战中攻击不知情的怪物，即使你失手，它也会意识到",
+    "locations": [
+      "installed_files/release_history.txt:1564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Attacking unarmed causes a punch-attack",
+    "target": "- 徒手攻击会导致拳击攻击",
+    "locations": [
+      "installed_files/release_history.txt:1346"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Available font images are no longer hard coded in the game, instead the gfx/fonts/ directory is searched for any .png file that starts with <width>x<height> (e.g. \"7x13_uushi.png\"). So new .png fonts can be added just by dropping them in the fonts directory.",
+    "target": "- 字体图像不再硬编码在游戏中，游戏会搜索 gfx/fonts/ 目录下以 <width>x<height> 开头的 .png 文件（例如 \"7x13_uushi.png\"）。因此，只要把新的 .png 字体放进该目录即可添加字体。",
+    "locations": [
+      "installed_files/release_history.txt:118"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "- Backstabbing (\"You stab the Cultist covertly with a dagger\")",
+    "target": "- 背刺 (“你用匕首偷偷地捅了邪教徒一刀”)",
+    "locations": [
+      "installed_files/release_history.txt:1724"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Becoming aware of the player by looking counts as an action for monsters (to give the monsters some reaction time instead of attacking instantly), though you may still be gunned down instantly if you alert the monsters beforehand (e.g. by making noise)",
+    "target": "- 通过观察来了解玩家对怪物来说算作一个动作 (给怪物一些反应时间，而不是立刻攻击)，尽管如果你事先提醒怪物，你仍然可能会立即被枪杀 (例如：制造噪音)",
+    "locations": [
+      "installed_files/release_history.txt:1368"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Being blind no longer immediately raises shock by 30% - instead the shock ramps up each turn up to 30%",
+    "target": "- 失明不再立即将震动提高 30% - 相反，震动会每回合提升至 30%",
+    "locations": [
+      "installed_files/release_history.txt:426"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Being Confused now prevents spell casting",
+    "target": "- 困惑现在会阻止施法",
+    "locations": [
+      "installed_files/release_history.txt:1203"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Being Frenzied allows waiting in place (with \"5\" or \".\")",
+    "target": "- 疯狂允许原地等待 (带有“5”或“。”)",
+    "locations": [
+      "installed_files/release_history.txt:749"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Better dodge chance from Agility",
+    "target": "- 敏捷性带来更好的闪避机会",
+    "locations": [
+      "installed_files/release_history.txt:1818"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Better formula for chances to study scrolls (smoother increase)",
+    "target": "- 更好的学习卷轴 (更平稳的增加) 机会的公式",
+    "locations": [
+      "installed_files/release_history.txt:1521"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Better rules for if player with phobia is considered to be in open or cramped spaces",
+    "target": "- 对于患有恐惧症的玩家是否被认为处于开放或狭窄空间的更好规则",
+    "locations": [
+      "installed_files/release_history.txt:1436"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Big rearrangement of the interface.",
+    "target": "- 界面的大重新排列。",
+    "locations": [
+      "installed_files/release_history.txt:1915"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Blindness affects messages - \"It bites you!\", \"You hear gunfire.\" et c",
+    "target": "- 失明会影响信息 - “它咬你！”，“你听到枪声。” ETC",
+    "locations": [
+      "installed_files/release_history.txt:1934"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Blindness affects skill rolls.",
+    "target": "- 失明会影响技能检定。",
+    "locations": [
+      "installed_files/release_history.txt:1935"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Bloated Corpse spit attack now does acid damage",
+    "target": "- 肿胀的尸体吐口水攻击现在会造成酸伤害",
+    "locations": [
+      "installed_files/release_history.txt:1220"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Blue colors are brighter for better visibility",
+    "target": "- 蓝色更明亮，能见度更好",
+    "locations": [
+      "installed_files/release_history.txt:1457"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Braziers have a subtle flicker effect, similar to the player when using the Electric Lantern.",
+    "target": "- 火盆有微妙的闪烁效果，类似于玩家使用电灯笼时的效果。",
+    "locations": [
+      "installed_files/release_history.txt:85"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Braziers light up cells around them, and can be kicked over to do fire damage in a small area (similar to a small molotov explosion)",
+    "target": "- 火盆会照亮周围的地图格，也可以踢翻，在小范围内造成火焰伤害（类似小型燃烧瓶爆炸）。",
+    "locations": [
+      "installed_files/release_history.txt:981"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Brighter interface color scheme (some menus could be difficult to read before)",
+    "target": "- 更明亮的界面配色方案(有些菜单之前可能很难阅读)",
+    "locations": [
+      "installed_files/release_history.txt:760"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Brown Jenkin now does more melee damage, has very high sneak skills, and knows the teleport spell",
+    "target": "- 布朗·詹金现在可以造成更多的近战伤害，具有非常高的潜行技能，并且知道传送咒语",
+    "locations": [
+      "installed_files/release_history.txt:1052"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Bumping a stuck door now automatically tries to bash it (no need to press \"w\" first)",
+    "target": "- 碰撞卡住的门现在会自动尝试撞击它 (无需先按“w”)",
+    "locations": [
+      "installed_files/release_history.txt:454"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Bumping an unseen monster (sneaking or invisible) that you are unaware of no longer performs a melee attack, instead it prints a message such as \"There is someone here!\", and makes you aware of the monster (you see it as a \"!\" on the map)",
+    "target": "- 撞上自己尚未察觉的怪物（潜行或隐形）时，不再发动近战攻击，而会显示“这里有人！”之类的消息，并让你察觉该怪物（地图上会显示“！”）。",
+    "locations": [
+      "installed_files/release_history.txt:955"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Burning features only hurt creatures on the same cell (not adjacent to it)",
+    "target": "- 燃烧功能只会伤害同一单元格 (不相邻) 上的生物",
+    "locations": [
+      "installed_files/release_history.txt:814"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Burning monsters lights up a small area of darkness around them",
+    "target": "- 燃烧的怪物照亮了它们周围的一小片黑暗区域",
+    "locations": [
+      "installed_files/release_history.txt:1334"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Burning no longer completely prevents reading manuscripts or casting spells - instead there is a 50% chance to fail (wasting the manuscript or spirit upon failure)",
+    "target": "- 燃烧不再完全阻止阅读手稿或施展法术 - 相反，有 50% 的机会失败 (在失败时浪费手稿或精神)",
+    "locations": [
+      "installed_files/release_history.txt:740"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- By default, selecting a menu entry with a letter key only jumps to that location, and a second press (or enter) is required to select it. This behavior only happens in menus that have descriptions for the different entries. Added an option to always immediately select entries when pressing letter keys (the old way).",
+    "target": "- 默认情况下，使用字母键选择菜单项只会跳转到该位置，需要再按 (或输入) 才能选择它。此行为仅发生在具有不同条目描述的菜单中。添加了一个选项，以便在按字母键 (传统方式) 时始终立即选择条目。",
+    "locations": [
+      "installed_files/release_history.txt:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- By default, the game runs in fullscreen, using the 7x13 font, and tries to set an appropriate video scale factor (e.g. 2x for 1920x1080).",
+    "target": "- 默认情况下，游戏以全屏运行，使用 7x13 字体，并尝试设置适当的视频比例因子 (例如， 1920x1080为2x)。",
+    "locations": [
+      "installed_files/release_history.txt:300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Byakhee spawn from level 8 instead of 6, and can only spawn in groups from level 10.",
+    "target": "- 拜亚基现在从第 8 层起生成（此前为第 6 层），并且只有从第 10 层起才会成群出现。",
+    "locations": [
+      "installed_files/release_history.txt:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Byakhees are slower",
+    "target": "- 拜亚基的速度降低。",
+    "locations": [
+      "installed_files/release_history.txt:713"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cancellation commands in some places where they were missing",
+    "target": "- 取消一些缺少的地方的命令",
+    "locations": [
+      "installed_files/release_history.txt:1774"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Carrying a lit flare lights up darkness around you, and you can walk around and fight while holding it",
+    "target": "- 携带照明弹可以照亮周围的黑暗，拿着它可以四处走动并进行战斗",
+    "locations": [
+      "installed_files/release_history.txt:1333"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Casting spells can occasionally trigger random chaotic side effects, typically affecting the surrounding area (for example walls may appear or disappear, statues knocked over, etc)",
+    "target": "- 施展法术偶尔会触发随机混乱的副作用，通常会影响周围区域(例如，墙壁可能会出现或消失，雕像可能会倒塌等)",
+    "locations": [
+      "installed_files/release_history.txt:413"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Casting spells from manuscripts drained spirit points",
+    "target": "- 从手稿中施放咒语会耗尽精神点",
+    "locations": [
+      "installed_files/release_history.txt:1533"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Casting spells while adjacent to an altar allows casting at one skill level higher (stacks with casting from manuscripts)",
+    "target": "- 在祭坛附近施展法术可以以高一级的技能等级施展 (手稿铸件堆栈)",
+    "locations": [
+      "installed_files/release_history.txt:528"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Chances for scrolls and potions spawning is a bit higher",
+    "target": "- 卷轴和药水生成的几率更高一些",
+    "locations": [
+      "installed_files/release_history.txt:1497"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed \"Manuscript of Clairvoyance\" to a Potion, and instead of continuously revealing monsters and dungeon layout around you, it now instantly reveals the layout of the whole level (including items, but not monsters)",
+    "target": "- 将“千里眼手稿”改为药水，不再是不断地揭示你周围的怪物和地下城布局，而是立即揭示整个关卡的布局(包括物品，但不包括怪物)",
+    "locations": [
+      "installed_files/release_history.txt:1133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed \"Manuscript of Descent\" to a potion",
+    "target": "- 将“降临手稿”改为药水",
+    "locations": [
+      "installed_files/release_history.txt:1213"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed \"Potion of Clairvoyance\" to a manuscript, and gave it a new effect",
+    "target": "- 将“千里眼药水”改为手稿，并赋予其新效果",
+    "locations": [
+      "installed_files/release_history.txt:1325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed API from SDL to SFML - The game should run much smoother on most systems",
+    "target": "- 将 API 从 SDL 更改为 SFML - 游戏应该在大多数系统上运行得更流畅",
+    "locations": [
+      "installed_files/release_history.txt:1305"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed color of grates to gray, to clarify that they are made of metal (and not wood)",
+    "target": "- 将格栅的颜色更改为灰色，以表明它们是由金属 (而不是木材) 制成的",
+    "locations": [
+      "installed_files/release_history.txt:306"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed command for viewing descriptions to [v] instead of [l] (lowercase L)",
+    "target": "- 将查看描述的命令更改为 [v] 而不是 [l] (小写L)",
+    "locations": [
+      "installed_files/release_history.txt:1179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed healing back so you spend a number of turns to apply first aid (instead of healing at stairs)",
+    "target": "- 改变治疗回来，这样你就可以花很多回合来进行急救 (而不是在楼梯上愈合)",
+    "locations": [
+      "installed_files/release_history.txt:1816"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed Inventory key to [i] instead of [w]",
+    "target": "- 物品栏快捷键改为 [i]，不再使用 [w]。",
+    "locations": [
+      "installed_files/release_history.txt:995"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed Potion of Antidote to Potion of Curing, which acts like a light version of Potion of Healing",
+    "target": "- 将解药药水更改为治疗药水，其作用类似于治疗药水的轻型版本",
+    "locations": [
+      "installed_files/release_history.txt:967"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed Potion of Invisibility into a \"tenebrous\" spell instead.",
+    "target": "- 将隐形药水改为“阴暗”法术。",
+    "locations": [
+      "installed_files/release_history.txt:245"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed some room templates that were annoying to explore, or created dead-end corridors that looked like they led to a secret door.",
+    "target": "- 更改了一些令人讨厌的房间模板，或者创建了看起来像通向秘密门的死胡同走廊。",
+    "locations": [
+      "installed_files/release_history.txt:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed texts in some screens (e.g. \"Enter character name\" -> \"What is your name?\")",
+    "target": "- 更改了某些屏幕中的文本 (例如“输入字符名称” - > “您叫什么名字？”)",
+    "locations": [
+      "installed_files/release_history.txt:1277"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the appearance of popups",
+    "target": "- 更改了弹出窗口的外观",
+    "locations": [
+      "installed_files/release_history.txt:476"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the appearance of the main menu and character creation screens",
+    "target": "- 更改了主菜单和角色创建屏幕的外观",
+    "locations": [
+      "installed_files/release_history.txt:1168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the Azathoth's Wrath spell to Azathoth's Gaze, which causes small damage and fainting (instead of acting like a \"mass Darkbolt\")",
+    "target": "- 将阿撒托斯之怒法术改为阿撒托斯凝视，造成少量伤害和昏厥 (而不是表现得像一个“质量暗螺栓”)",
+    "locations": [
+      "installed_files/release_history.txt:416"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the general color theme in the game - the \"blood red\" style has been changed to a teal style (inspired by how certain old black and white movies were tinted, e.g. Nosferatu)",
+    "target": "- 更改了游戏中的总体颜色主题 - “血红色”风格已更改为青色风格 (灵感来自某些古老的黑白电影是如何着色的，例如Nosferatu)",
+    "locations": [
+      "installed_files/release_history.txt:1288"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the general color theme of the game's interface",
+    "target": "- 更改了游戏界面的总体颜色主题",
+    "locations": [
+      "installed_files/release_history.txt:1073"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the message log command to [m] instead of [L]",
+    "target": "- 将消息日志命令更改为 [m] 而不是 [L]",
+    "locations": [
+      "installed_files/release_history.txt:1182"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the names of some weapons",
+    "target": "- 更改了一些武器的名称",
+    "locations": [
+      "installed_files/release_history.txt:1852"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the tile set size to 20x0 (from 24x24), most of the tiles are simply cropped since they had a lot of redundant black space around them, and a few tiles have been slightly reworked.",
+    "target": "- 将图块集大小更改为 20x0 (从24x24)，大多数图块都被简单地裁剪，因为它们周围有很多多余的黑色空间，并且一些图块已被稍微修改。",
+    "locations": [
+      "installed_files/release_history.txt:298"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Changed the way monsters cause shock. Previously you would take a big hit on the first turn that you see the monster, then smaller hits for each turn. Now the shock taken starts at 0 instead, and increases slowly. This gives more opportunity to retreat, or to take down the monsters swiftly before taking too much shock.",
+    "target": "- 改变了怪物造成冲击的方式。以前，你会在看到怪物的第一个回合受到很大的打击，然后每回合受到较小的打击。现在所承受的冲击从 0 开始，并缓慢增加。这提供了更多的机会撤退，或者在受到太大冲击之前迅速击倒怪物。",
+    "locations": [
+      "installed_files/release_history.txt:1314"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Character info screen (accessed with [@]) gives more info - combat stats, resistances, item knowledge",
+    "target": "- 角色信息屏幕 (通过[@]访问) 提供更多信息 - 战斗统计数据、阻力、物品知识",
+    "locations": [
+      "installed_files/release_history.txt:1380"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Characters have size data. Ranged attacks have rules for what character sizes can be hit - resulting in more intuitive behaviour such as:",
+    "target": "- 角色有尺寸数据。远程攻击对于可以击中的角色大小有规则 - 从而产生更直观的行为，例如：",
+    "locations": [
+      "installed_files/release_history.txt:1955"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Chasms are now drawn with a dark blue checkered rectangle instead of a blue dot (if using tiles).",
+    "target": "- 裂缝现在用深蓝色方格矩形而不是蓝点 (如果使用瓷砖) 绘制。",
+    "locations": [
+      "installed_files/release_history.txt:305"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Chests are never made of iron until at least dungeon level 3",
+    "target": "- 地城层数达到第 3 层之前，箱子绝不会由铁制成。",
+    "locations": [
+      "installed_files/release_history.txt:971"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Chests can no longer be trapped (it was awkward to deal with, and didn't really bring anything to the game) - chests are now interacted with merely by bumping them (if they are not locked), kicking them, or using an Opening spell",
+    "target": "- 箱子不再被困住 (处理起来很尴尬，并没有给比赛带来任何东西) - 箱子现在只需通过碰撞 (如果它们没有被锁定)、踢它们或使用开放咒语即可与之交互",
+    "locations": [
+      "installed_files/release_history.txt:833"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Clairvoyant Occultists also starts with the Premonition spell",
+    "target": "- 千里眼神秘主义者也从预感咒语开始",
+    "locations": [
+      "installed_files/release_history.txt:381"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Claustrophobia can not happen next to chasms",
+    "target": "- 幽闭恐惧症不会发生在裂缝旁边",
+    "locations": [
+      "installed_files/release_history.txt:1638"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Clear Oozes are somewhat easier to spot",
+    "target": "- 透明软泥怪更容易被发现",
+    "locations": [
+      "installed_files/release_history.txt:1268"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Command for unloading ammo from a gun on the ground ('u').",
+    "target": "- 从地面上的枪中卸载弹药的命令 ('u')。",
+    "locations": [
+      "installed_files/release_history.txt:1920"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Command to \"un-wield\" missile weapons (M)",
+    "target": "- 命令“解除”导弹武器 (M)",
+    "locations": [
+      "installed_files/release_history.txt:1624"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- command to wait for 10 turns (useful to search for hidden things)",
+    "target": "-命令等待10轮(对搜索隐藏的东西很有用)",
+    "locations": [
+      "installed_files/release_history.txt:1873"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Completely removed \"acid\" as a damage type and concept from the game. Bloated Corpse and Corpse Mound spit now do zero damage and apply infection instead, Strange Colors do pure damage.",
+    "target": "- 从游戏中完全删除“酸”作为伤害类型和概念。臃肿的尸体和尸丘吐口水现在造成零伤害并施加感染，奇怪的颜色造成纯粹的伤害。",
+    "locations": [
+      "installed_files/release_history.txt:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Completely removed the concept of dice rolls from the game, weapon damage is now specified as a range (e.g. 1-4) instead of dice rolls and sides (e.g. 1d4)",
+    "target": "- 从游戏中完全删除了掷骰子的概念，武器伤害现在指定为范围 (e.g. 1-4)，而不是掷骰子和边数 (e.g. 1d4)",
+    "locations": [
+      "installed_files/release_history.txt:553"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Completely reworked and renamed the Spirit Dagger",
+    "target": "- 彻底重新设计并更名为灵魂匕首",
+    "locations": [
+      "installed_files/release_history.txt:406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Confusion is less random",
+    "target": "- 混乱的随机性较小",
+    "locations": [
+      "installed_files/release_history.txt:1860"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Corpses blow up from explosions (can be used to prevent zombies from rising).",
+    "target": "- 尸体因爆炸 (可用于阻止僵尸崛起) 而爆炸。",
+    "locations": [
+      "installed_files/release_history.txt:1901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Corrected a misplaced word in a monster description",
+    "target": "- 修正了怪物描述中的错误单词",
+    "locations": [
+      "installed_files/release_history.txt:1296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Corrected a spelling error in an ability description",
+    "target": "- 修正了能力描述中的拼写错误",
+    "locations": [
+      "installed_files/release_history.txt:1295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Corrected various spelling mistakes",
+    "target": "- 修正了各种拼写错误",
+    "locations": [
+      "installed_files/release_history.txt:1191"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- CPU usage % should be much lower",
+    "target": "- CPU 使用率应该低得多",
+    "locations": [
+      "installed_files/release_history.txt:1711"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Crimson Passage also gave a free move when it ended due to hit points being too low (now it only gives a free move if it is possible to \"pay\" the hit point cost).",
+    "target": "- 猩红通道由于生命值太低而结束时还提供了自由移动(现在，只有在可以“支付”命中点成本的情况下，它才会给出一个免费的动作)。",
+    "locations": [
+      "installed_files/release_history.txt:220"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Critical misses for melee attacks (1% chance normally) now cause various bad things to happen, such as becoming exhausted, or dropping the weapon",
+    "target": "- 近战攻击严重失误（通常有 1% 几率）现在会引发各种负面结果，例如精疲力尽或掉落武器。",
+    "locations": [
+      "installed_files/release_history.txt:963"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Critically failing a melee attack can no longer result in dropping the weapon",
+    "target": "- 近战攻击严重失败不再导致武器掉落",
+    "locations": [
+      "installed_files/release_history.txt:888"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Crypt rooms (tomb rooms) and ritual rooms (rooms with altars) can also spawn in the late game caves.",
+    "target": "- 地穴房间 (墓室) 和仪式房间 (带祭坛的房间) 也可以在游戏后期的洞穴中生成。",
+    "locations": [
+      "installed_files/release_history.txt:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cultist anger phrases were too infrequent in the previous version",
+    "target": "- 邪教愤怒短语在之前的版本中太少见",
+    "locations": [
+      "installed_files/release_history.txt:1826"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cultist have a different tile depending on their wielded firearm, and their description states what weapon they are wielding",
+    "target": "- 邪教徒根据他们所使用的枪支拥有不同的图块，并且他们的描述说明了他们所使用的武器",
+    "locations": [
+      "installed_files/release_history.txt:392"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cultists can drop scrolls and potions",
+    "target": "- 邪教徒可以掉落卷轴和药剂",
+    "locations": [
+      "installed_files/release_history.txt:1630"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cultists fire their weapons more often",
+    "target": "- 邪教徒更频繁地使用武器",
+    "locations": [
+      "installed_files/release_history.txt:1822"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Cultists have a kick attack",
+    "target": "- 邪教分子有踢击攻击",
+    "locations": [
+      "installed_files/release_history.txt:393"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Current turn number is now displayed in the gui.",
+    "target": "- 现在会在 GUI 中显示当前回合数。",
+    "locations": [
+      "installed_files/release_history.txt:282"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Damage per turn from burning is reduced",
+    "target": "- 每回合燃烧造成的伤害减少",
+    "locations": [
+      "installed_files/release_history.txt:1440"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dark areas now have less permissive field of view for spotting walls, previously it was easy to explore the walls in dark areas, whereas now you need to be adjacent to it - for a more atmospheric and oppressive feeling",
+    "target": "- 黑暗区域现在对于发现墙壁的视野不太宽松，以前很容易探索黑暗区域的墙壁，而现在你需要靠近它 - 以获得更大气和压抑的感觉",
+    "locations": [
+      "installed_files/release_history.txt:1247"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Darkbolt and Azathoth's Wrath do random damage within a range, instead of a fixed number",
+    "target": "- 暗箭和阿撒托斯之怒在一定范围内造成随机伤害，而不是固定数量",
+    "locations": [
+      "installed_files/release_history.txt:691"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Darkness did not give a stealth bonus",
+    "target": "- 黑暗没有给予潜行奖励",
+    "locations": [
+      "installed_files/release_history.txt:495"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Darkness gives shock instead of the room (so lighting up a dark area with a flare removes the shock)",
+    "target": "- 黑暗代替房间给人震撼 (所以用耀斑照亮黑暗区域可以消除电击)",
+    "locations": [
+      "installed_files/release_history.txt:1475"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dart traps, spear traps, and alarm traps now always trigger instantly when a creature steps on them.",
+    "target": "- 飞镖陷阱、矛陷阱和警报陷阱现在总是在生物踩到它们时立即触发。",
+    "locations": [
+      "installed_files/release_history.txt:263"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Death Fiends now do a more sensible amount of damage (and the part of their description which said their attack \"means almost certain death\" has been removed)",
+    "target": "- 死亡恶魔现在造成更合理的伤害 (他们的描述中说他们的攻击“意味着几乎肯定的死亡”的部分已被删除)",
+    "locations": [
+      "installed_files/release_history.txt:542"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Death occurs on 0hp instead of -1",
+    "target": "- 死亡发生在 0hp 而不是 -1",
+    "locations": [
+      "installed_files/release_history.txt:1859"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Decreased the HP of all monsters",
+    "target": "- 减少了所有怪物的HP",
+    "locations": [
+      "installed_files/release_history.txt:1523"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Deep Ones are not delayed when moving through liquids",
+    "target": "- 深潜者在液体中移动时不会延迟",
+    "locations": [
+      "installed_files/release_history.txt:537"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Deep Ones can throw a net which entangles the victim (instead of throwing a spear)",
+    "target": "- 深潜者可以抛出一张网来缠住受害者 (而不是扔长矛)",
+    "locations": [
+      "installed_files/release_history.txt:535"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Deep Ones usually spawn in much smaller numbers than before",
+    "target": "- 深潜者的生成数量通常比以前少得多",
+    "locations": [
+      "installed_files/release_history.txt:536"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Default aim position is at last monster attacked",
+    "target": "- 默认目标位置是最后一个怪物受到攻击的位置",
+    "locations": [
+      "installed_files/release_history.txt:1660"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Different First Aid (not item based)",
+    "target": "- 不同的急救 (非基于项目)",
+    "locations": [
+      "installed_files/release_history.txt:1878"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Different monsters have different spell skill levels - spells cast by more powerful monsters will typically hurt more, last longer, summon nastier monsters, etc",
+    "target": "- 不同的怪物有不同的法术技能等级 - 更强大的怪物施放的法术通常会伤害更多，持续时间更长，召唤更可怕的怪物等",
+    "locations": [
+      "installed_files/release_history.txt:818"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Disarming traps gives a small amount of XP",
+    "target": "- 解除陷阱可获得少量XP",
+    "locations": [
+      "installed_files/release_history.txt:964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Disease last much longer (but there are two types of potions that removes disease)",
+    "target": "- 疾病持续时间更长 (但有两种类型的药水可以消除疾病)",
+    "locations": [
+      "installed_files/release_history.txt:1693"
+    ],
+    "kind": "ui"
+  }
+]

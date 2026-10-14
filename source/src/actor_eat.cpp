@@ -76,7 +76,7 @@ static bool roll_corpse_destroyed(const actor::Actor& corpse)
 static void run_feed_snd(actor::Actor& actor)
 {
         Snd snd(
-                "I hear ripping and chewing.",
+                "我听见撕扯和咀嚼声。",
                 audio::SfxId::bite,
                 IgnoreMsgIfOriginSeen::yes,
                 actor.m_pos,
@@ -94,7 +94,7 @@ static void print_feed_msg(
         const std::string corpse_name_the = corpse.m_data->corpse_name_the;
 
         if (actor::is_player(&actor)) {
-                msg_log::add("I feed on " + corpse_name_the + ".");
+                msg_log::add("我啃食 " + corpse_name_the + ".");
         }
         else {
                 if (can_player_see_actor(actor)) {
@@ -104,7 +104,7 @@ static void print_feed_msg(
 
                         msg_log::add(
                                 actor_name_the +
-                                " feeds on " +
+                                " 吸食了 " +
                                 corpse_name_the +
                                 ".");
                 }
@@ -117,7 +117,7 @@ static void print_corpse_destroyed_msg(const actor::Actor& corpse)
                 text_format::first_to_upper(
                         corpse.m_data->corpse_name_the);
 
-        msg_log::add(name + " is completely devoured.");
+        msg_log::add(name + " 被彻底吞噬。");
 }
 
 static void print_corpses_remaining(const P& p)

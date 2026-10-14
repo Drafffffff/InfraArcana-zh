@@ -90,7 +90,7 @@ public:
 private:
         std::string title() const override
         {
-                return "Game summary";
+                return "游戏总结";
         }
 
         InfoScreenType type() const override

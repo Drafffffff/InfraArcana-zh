@@ -1,0 +1,1123 @@
+[
+  {
+    "source": "+1 extra hit point regenerated per turn.",
+    "locations": [
+      "src/property_data.cpp:1115"
+    ]
+  },
+  {
+    "source": "+10% to hit chance, evasion, stealth, and searching.",
+    "locations": [
+      "src/property_data.cpp:798",
+      "src/property_data.cpp:849"
+    ]
+  },
+  {
+    "source": "+3 armor points, +25% chance to resist burning.",
+    "locations": [
+      "src/property_data.cpp:863"
+    ]
+  },
+  {
+    "source": "+3 melee damage, +30% melee hit chance, +3 armor points.",
+    "locations": [
+      "src/property_data.cpp:1346"
+    ]
+  },
+  {
+    "source": "+75% chance to evade attacks.",
+    "locations": [
+      "src/property_data.cpp:877"
+    ]
+  },
+  {
+    "source": "-10% to hit chance, evasion, stealth, and searching.",
+    "locations": [
+      "src/property_data.cpp:812"
+    ]
+  },
+  {
+    "source": "-20% to hit chance, evasion, stealth, and searching, 10% chance to fail when attempting to read or cast spells.",
+    "locations": [
+      "src/property_data.cpp:831"
+    ]
+  },
+  {
+    "source": "-50% maximum hit points.",
+    "locations": [
+      "src/property_data.cpp:731"
+    ]
+  },
+  {
+    "source": "-50% melee damage, cannot do backstab attacks, cannot bash doors or chests open, knock heavy objects over, etc.",
+    "locations": [
+      "src/property_data.cpp:761"
+    ]
+  },
+  {
+    "source": "A bright light shines around me.",
+    "locations": [
+      "src/property_data.cpp:959"
+    ]
+  },
+  {
+    "source": "A nasty infection that will get worse if left untreated.",
+    "locations": [
+      "src/property_data.cpp:715"
+    ]
+  },
+  {
+    "source": "A perpetual curse was put upon me",
+    "locations": [
+      "src/property_data.cpp:819"
+    ]
+  },
+  {
+    "source": "A protective carapace forms around me.",
+    "locations": [
+      "src/property_data.cpp:864"
+    ]
+  },
+  {
+    "source": "A terrible curse was lifted from me",
+    "locations": [
+      "src/property_data.cpp:820"
+    ]
+  },
+  {
+    "source": "Aiming",
+    "locations": [
+      "src/property_data.cpp:1046",
+      "src/property_data.cpp:1047"
+    ]
+  },
+  {
+    "source": "appears to exude death and decay.",
+    "locations": [
+      "src/property_data.cpp:1070"
+    ]
+  },
+  {
+    "source": "Aura of Decay",
+    "locations": [
+      "src/property_data.cpp:1066"
+    ]
+  },
+  {
+    "source": "Blessed",
+    "locations": [
+      "src/property_data.cpp:796",
+      "src/property_data.cpp:797"
+    ]
+  },
+  {
+    "source": "Burrowing",
+    "locations": [
+      "src/property_data.cpp:1212",
+      "src/property_data.cpp:1213"
+    ]
+  },
+  {
+    "source": "calms down a little.",
+    "locations": [
+      "src/property_data.cpp:787"
+    ]
+  },
+  {
+    "source": "Can burrow through walls and rubble.",
+    "locations": [
+      "src/property_data.cpp:1214"
+    ]
+  },
+  {
+    "source": "Can control teleport destination.",
+    "locations": [
+      "src/property_data.cpp:1029"
+    ]
+  },
+  {
+    "source": "can move through earth.",
+    "locations": [
+      "src/property_data.cpp:1216"
+    ]
+  },
+  {
+    "source": "can no longer move through earth.",
+    "locations": [
+      "src/property_data.cpp:1218"
+    ]
+  },
+  {
+    "source": "Can pass through solid objects, +50% chance to evade attacks.",
+    "locations": [
+      "src/property_data.cpp:1194"
+    ]
+  },
+  {
+    "source": "Can see invisible creatures, cannot be blinded.",
+    "locations": [
+      "src/property_data.cpp:1006"
+    ]
+  },
+  {
+    "source": "Cannot be detected by normal sight, ends if attacking or casting spells.",
+    "locations": [
+      "src/property_data.cpp:987"
+    ]
+  },
+  {
+    "source": "Cannot be detected by normal sight.",
+    "locations": [
+      "src/property_data.cpp:971"
+    ]
+  },
+  {
+    "source": "Cannot move away from seen enemies, moves faster, +1 melee damage, +10% melee hit chance, immune to confusion, fainting, fear, and weakening, cannot read or cast spells, becomes weakened when the frenzy ends.",
+    "locations": [
+      "src/property_data.cpp:780"
+    ]
+  },
+  {
+    "source": "Carapace",
+    "locations": [
+      "src/property_data.cpp:861",
+      "src/property_data.cpp:862"
+    ]
+  },
+  {
+    "source": "Caught a horrible disease",
+    "locations": [
+      "src/property_data.cpp:738"
+    ]
+  },
+  {
+    "source": "Cloaked",
+    "locations": [
+      "src/property_data.cpp:984",
+      "src/property_data.cpp:985"
+    ]
+  },
+  {
+    "source": "Conflicted",
+    "locations": [
+      "src/property_data.cpp:1054",
+      "src/property_data.cpp:1055"
+    ]
+  },
+  {
+    "source": "Considers every creature as an enemy.",
+    "locations": [
+      "src/property_data.cpp:1056"
+    ]
+  },
+  {
+    "source": "Creatures within a distance of two moves take damage each standard turn.",
+    "locations": [
+      "src/property_data.cpp:1068"
+    ]
+  },
+  {
+    "source": "Cursed",
+    "locations": [
+      "src/property_data.cpp:810",
+      "src/property_data.cpp:811"
+    ]
+  },
+  {
+    "source": "Decay Aura",
+    "locations": [
+      "src/property_data.cpp:1067"
+    ]
+  },
+  {
+    "source": "Descending",
+    "locations": [
+      "src/property_data.cpp:747",
+      "src/property_data.cpp:748"
+    ]
+  },
+  {
+    "source": "Diseased",
+    "locations": [
+      "src/property_data.cpp:729",
+      "src/property_data.cpp:730"
+    ]
+  },
+  {
+    "source": "Doomed",
+    "locations": [
+      "src/property_data.cpp:828",
+      "src/property_data.cpp:829"
+    ]
+  },
+  {
+    "source": "Earth and stone crumble away before me.",
+    "locations": [
+      "src/property_data.cpp:1215"
+    ]
+  },
+  {
+    "source": "Emanating a bright light.",
+    "locations": [
+      "src/property_data.cpp:958"
+    ]
+  },
+  {
+    "source": "Entangled",
+    "locations": [
+      "src/property_data.cpp:913",
+      "src/property_data.cpp:914"
+    ]
+  },
+  {
+    "source": "Entangled in something.",
+    "locations": [
+      "src/property_data.cpp:915"
+    ]
+  },
+  {
+    "source": "Erudition",
+    "locations": [
+      "src/property_data.cpp:888",
+      "src/property_data.cpp:889"
+    ]
+  },
+  {
+    "source": "Ethereal",
+    "locations": [
+      "src/property_data.cpp:1192",
+      "src/property_data.cpp:1193"
+    ]
+  },
+  {
+    "source": "Extra Skill",
+    "locations": [
+      "src/property_data.cpp:847"
+    ]
+  },
+  {
+    "source": "Fewer hit points.",
+    "locations": [
+      "src/property_data.cpp:674"
+    ]
+  },
+  {
+    "source": "Fewer spirit points.",
+    "locations": [
+      "src/property_data.cpp:688"
+    ]
+  },
+  {
+    "source": "For each wound: -5% melee hit chance, -5% chance to evade attacks, -10% hit points, and reduced hit point generation rate. With three concurrent wounds, walking takes extra turns. Five concurrent wounds is fatal.",
+    "locations": [
+      "src/property_data.cpp:658"
+    ]
+  },
+  {
+    "source": "Frenzied",
+    "locations": [
+      "src/property_data.cpp:777",
+      "src/property_data.cpp:778"
+    ]
+  },
+  {
+    "source": "Hidden secrets are revealed to me.",
+    "locations": [
+      "src/property_data.cpp:905"
+    ]
+  },
+  {
+    "source": "Hope returned again",
+    "locations": [
+      "src/property_data.cpp:839"
+    ]
+  },
+  {
+    "source": "I am cloaked!",
+    "locations": [
+      "src/property_data.cpp:989"
+    ]
+  },
+  {
+    "source": "I am diseased!",
+    "locations": [
+      "src/property_data.cpp:732"
+    ]
+  },
+  {
+    "source": "I am entangled!",
+    "locations": [
+      "src/property_data.cpp:916"
+    ]
+  },
+  {
+    "source": "I am infected!",
+    "locations": [
+      "src/property_data.cpp:716"
+    ]
+  },
+  {
+    "source": "I am no longer invisible.",
+    "locations": [
+      "src/property_data.cpp:974"
+    ]
+  },
+  {
+    "source": "I am out of sight!",
+    "locations": [
+      "src/property_data.cpp:972"
+    ]
+  },
+  {
+    "source": "I am stuck!",
+    "locations": [
+      "src/property_data.cpp:929"
+    ]
+  },
+  {
+    "source": "I am wounded!",
+    "locations": [
+      "src/property_data.cpp:665"
+    ]
+  },
+  {
+    "source": "I calm down.",
+    "locations": [
+      "src/property_data.cpp:786"
+    ]
+  },
+  {
+    "source": "I can no longer see hidden things.",
+    "locations": [
+      "src/property_data.cpp:906"
+    ]
+  },
+  {
+    "source": "I can read again.",
+    "locations": [
+      "src/property_data.cpp:1290"
+    ]
+  },
+  {
+    "source": "I feel a sinking sensation.",
+    "locations": [
+      "src/property_data.cpp:750"
+    ]
+  },
+  {
+    "source": "I feel doomed!",
+    "locations": [
+      "src/property_data.cpp:833"
+    ]
+  },
+  {
+    "source": "I feel ferocious!!!",
+    "locations": [
+      "src/property_data.cpp:784"
+    ]
+  },
+  {
+    "source": "I feel ignorant.",
+    "locations": [
+      "src/property_data.cpp:892"
+    ]
+  },
+  {
+    "source": "I feel illiterate!",
+    "locations": [
+      "src/property_data.cpp:1289"
+    ]
+  },
+  {
+    "source": "I feel in control.",
+    "locations": [
+      "src/property_data.cpp:1030"
+    ]
+  },
+  {
+    "source": "I feel less anxious.",
+    "locations": [
+      "src/property_data.cpp:1278"
+    ]
+  },
+  {
+    "source": "I feel less in control.",
+    "locations": [
+      "src/property_data.cpp:1031"
+    ]
+  },
+  {
+    "source": "I feel less skillful.",
+    "locations": [
+      "src/property_data.cpp:852"
+    ]
+  },
+  {
+    "source": "I feel luckier.",
+    "locations": [
+      "src/property_data.cpp:799"
+    ]
+  },
+  {
+    "source": "I feel misfortunate.",
+    "locations": [
+      "src/property_data.cpp:813"
+    ]
+  },
+  {
+    "source": "I feel more anxious!",
+    "locations": [
+      "src/property_data.cpp:1277"
+    ]
+  },
+  {
+    "source": "I feel more fortunate.",
+    "locations": [
+      "src/property_data.cpp:815"
+    ]
+  },
+  {
+    "source": "I feel more skillful.",
+    "locations": [
+      "src/property_data.cpp:850"
+    ]
+  },
+  {
+    "source": "I feel more vulnerable.",
+    "locations": [
+      "src/property_data.cpp:880"
+    ]
+  },
+  {
+    "source": "I feel much less secure.",
+    "locations": [
+      "src/property_data.cpp:1332"
+    ]
+  },
+  {
+    "source": "I feel stronger!",
+    "locations": [
+      "src/property_data.cpp:766"
+    ]
+  },
+  {
+    "source": "I feel unassailable.",
+    "locations": [
+      "src/property_data.cpp:878"
+    ]
+  },
+  {
+    "source": "I feel very secure.",
+    "locations": [
+      "src/property_data.cpp:1331"
+    ]
+  },
+  {
+    "source": "I feel weaker.",
+    "locations": [
+      "src/property_data.cpp:764"
+    ]
+  },
+  {
+    "source": "I have normal luck.",
+    "locations": [
+      "src/property_data.cpp:800"
+    ]
+  },
+  {
+    "source": "I pull myself free!",
+    "locations": [
+      "src/property_data.cpp:931"
+    ]
+  },
+  {
+    "source": "I resist a great misfortune.",
+    "locations": [
+      "src/property_data.cpp:837"
+    ]
+  },
+  {
+    "source": "I resist disease.",
+    "locations": [
+      "src/property_data.cpp:736"
+    ]
+  },
+  {
+    "source": "I resist misfortune.",
+    "locations": [
+      "src/property_data.cpp:817"
+    ]
+  },
+  {
+    "source": "I resist sapping.",
+    "locations": [
+      "src/property_data.cpp:679",
+      "src/property_data.cpp:693",
+      "src/property_data.cpp:705"
+    ]
+  },
+  {
+    "source": "I resist weakness.",
+    "locations": [
+      "src/property_data.cpp:768"
+    ]
+  },
+  {
+    "source": "I resist wounding!",
+    "locations": [
+      "src/property_data.cpp:666"
+    ]
+  },
+  {
+    "source": "Increased range attack effectiveness.",
+    "locations": [
+      "src/property_data.cpp:1048"
+    ]
+  },
+  {
+    "source": "Increased Shock.",
+    "locations": [
+      "src/property_data.cpp:702"
+    ]
+  },
+  {
+    "source": "Infected",
+    "locations": [
+      "src/property_data.cpp:713",
+      "src/property_data.cpp:714"
+    ]
+  },
+  {
+    "source": "Invisible",
+    "locations": [
+      "src/property_data.cpp:969",
+      "src/property_data.cpp:970"
+    ]
+  },
+  {
+    "source": "is cloaked!",
+    "locations": [
+      "src/property_data.cpp:990"
+    ]
+  },
+  {
+    "source": "is cursed.",
+    "locations": [
+      "src/property_data.cpp:814"
+    ]
+  },
+  {
+    "source": "is diseased.",
+    "locations": [
+      "src/property_data.cpp:733"
+    ]
+  },
+  {
+    "source": "is doomed!",
+    "locations": [
+      "src/property_data.cpp:834"
+    ]
+  },
+  {
+    "source": "is entangled.",
+    "locations": [
+      "src/property_data.cpp:917"
+    ]
+  },
+  {
+    "source": "is enveloped by a protective carapace.",
+    "locations": [
+      "src/property_data.cpp:865"
+    ]
+  },
+  {
+    "source": "Is ignored by all hostile creatures. The effect ends if moving or performing a melee or ranged attack.",
+    "locations": [
+      "src/property_data.cpp:1329"
+    ]
+  },
+  {
+    "source": "is infected.",
+    "locations": [
+      "src/property_data.cpp:717"
+    ]
+  },
+  {
+    "source": "is no longer cursed.",
+    "locations": [
+      "src/property_data.cpp:816"
+    ]
+  },
+  {
+    "source": "is no longer diseased.",
+    "locations": [
+      "src/property_data.cpp:735"
+    ]
+  },
+  {
+    "source": "is no longer doomed.",
+    "locations": [
+      "src/property_data.cpp:836"
+    ]
+  },
+  {
+    "source": "is no longer infected.",
+    "locations": [
+      "src/property_data.cpp:719"
+    ]
+  },
+  {
+    "source": "is out of sight!",
+    "locations": [
+      "src/property_data.cpp:973"
+    ]
+  },
+  {
+    "source": "is sapped of life.",
+    "locations": [
+      "src/property_data.cpp:676"
+    ]
+  },
+  {
+    "source": "is sapped of spirit.",
+    "locations": [
+      "src/property_data.cpp:690"
+    ]
+  },
+  {
+    "source": "is stuck.",
+    "locations": [
+      "src/property_data.cpp:930"
+    ]
+  },
+  {
+    "source": "It suddenly gets darker.",
+    "locations": [
+      "src/property_data.cpp:960"
+    ]
+  },
+  {
+    "source": "Life Sapped",
+    "locations": [
+      "src/property_data.cpp:673"
+    ]
+  },
+  {
+    "source": "Looks conflicted.",
+    "locations": [
+      "src/property_data.cpp:1058"
+    ]
+  },
+  {
+    "source": "looks ferocious!",
+    "locations": [
+      "src/property_data.cpp:785"
+    ]
+  },
+  {
+    "source": "looks less skillful.",
+    "locations": [
+      "src/property_data.cpp:853"
+    ]
+  },
+  {
+    "source": "looks like an easier target now.",
+    "locations": [
+      "src/property_data.cpp:881"
+    ]
+  },
+  {
+    "source": "Looks more determined.",
+    "locations": [
+      "src/property_data.cpp:1059"
+    ]
+  },
+  {
+    "source": "looks more skillful.",
+    "locations": [
+      "src/property_data.cpp:851"
+    ]
+  },
+  {
+    "source": "looks restored.",
+    "locations": [
+      "src/property_data.cpp:678",
+      "src/property_data.cpp:692"
+    ]
+  },
+  {
+    "source": "looks stronger!",
+    "locations": [
+      "src/property_data.cpp:767"
+    ]
+  },
+  {
+    "source": "looks unassailable.",
+    "locations": [
+      "src/property_data.cpp:879"
+    ]
+  },
+  {
+    "source": "looks weaker.",
+    "locations": [
+      "src/property_data.cpp:765"
+    ]
+  },
+  {
+    "source": "Magic Search",
+    "locations": [
+      "src/property_data.cpp:901"
+    ]
+  },
+  {
+    "source": "Magic Searching",
+    "locations": [
+      "src/property_data.cpp:900"
+    ]
+  },
+  {
+    "source": "Magically detects objects and creatures in the surrounding area.",
+    "locations": [
+      "src/property_data.cpp:903"
+    ]
+  },
+  {
+    "source": "Mind Sapped",
+    "locations": [
+      "src/property_data.cpp:701"
+    ]
+  },
+  {
+    "source": "Moribund",
+    "locations": [
+      "src/property_data.cpp:1347",
+      "src/property_data.cpp:1348"
+    ]
+  },
+  {
+    "source": "My aiming feels better.",
+    "locations": [
+      "src/property_data.cpp:1266"
+    ]
+  },
+  {
+    "source": "My aiming feels worse.",
+    "locations": [
+      "src/property_data.cpp:1265"
+    ]
+  },
+  {
+    "source": "My body heals itself slower now.",
+    "locations": [
+      "src/property_data.cpp:1118"
+    ]
+  },
+  {
+    "source": "My body starts healing itself much faster.",
+    "locations": [
+      "src/property_data.cpp:1116"
+    ]
+  },
+  {
+    "source": "My carapace cracks and crumbles away.",
+    "locations": [
+      "src/property_data.cpp:866"
+    ]
+  },
+  {
+    "source": "My cloak fades.",
+    "locations": [
+      "src/property_data.cpp:991"
+    ]
+  },
+  {
+    "source": "My disease is cured!",
+    "locations": [
+      "src/property_data.cpp:734"
+    ]
+  },
+  {
+    "source": "My doom does not feel so certain anymore.",
+    "locations": [
+      "src/property_data.cpp:835"
+    ]
+  },
+  {
+    "source": "My doom was written",
+    "locations": [
+      "src/property_data.cpp:838"
+    ]
+  },
+  {
+    "source": "My eyes can no longer perceive the invisible.",
+    "locations": [
+      "src/property_data.cpp:1009"
+    ]
+  },
+  {
+    "source": "My eyes perceive the invisible.",
+    "locations": [
+      "src/property_data.cpp:1007"
+    ]
+  },
+  {
+    "source": "My great blessing ceased",
+    "locations": [
+      "src/property_data.cpp:802"
+    ]
+  },
+  {
+    "source": "My infection is cured!",
+    "locations": [
+      "src/property_data.cpp:718"
+    ]
+  },
+  {
+    "source": "My life force is sapped!",
+    "locations": [
+      "src/property_data.cpp:675"
+    ]
+  },
+  {
+    "source": "My life force returns.",
+    "locations": [
+      "src/property_data.cpp:677"
+    ]
+  },
+  {
+    "source": "My mind is sapped!",
+    "locations": [
+      "src/property_data.cpp:703"
+    ]
+  },
+  {
+    "source": "My mind returns.",
+    "locations": [
+      "src/property_data.cpp:704"
+    ]
+  },
+  {
+    "source": "My spirit is sapped!",
+    "locations": [
+      "src/property_data.cpp:689"
+    ]
+  },
+  {
+    "source": "My spirit returns.",
+    "locations": [
+      "src/property_data.cpp:691"
+    ]
+  },
+  {
+    "source": "Mystic secrets are revealed to me!",
+    "locations": [
+      "src/property_data.cpp:891"
+    ]
+  },
+  {
+    "source": "no longer exudes decay.",
+    "locations": [
+      "src/property_data.cpp:1072"
+    ]
+  },
+  {
+    "source": "Premonition",
+    "locations": [
+      "src/property_data.cpp:875",
+      "src/property_data.cpp:876"
+    ]
+  },
+  {
+    "source": "pulls free!",
+    "locations": [
+      "src/property_data.cpp:932"
+    ]
+  },
+  {
+    "source": "Radiant",
+    "locations": [
+      "src/property_data.cpp:956",
+      "src/property_data.cpp:957"
+    ]
+  },
+  {
+    "source": "Received an everlasting blessing",
+    "locations": [
+      "src/property_data.cpp:801"
+    ]
+  },
+  {
+    "source": "Regenerating",
+    "locations": [
+      "src/property_data.cpp:1113",
+      "src/property_data.cpp:1114"
+    ]
+  },
+  {
+    "source": "resists disease.",
+    "locations": [
+      "src/property_data.cpp:737"
+    ]
+  },
+  {
+    "source": "resists misfortune.",
+    "locations": [
+      "src/property_data.cpp:818"
+    ]
+  },
+  {
+    "source": "resists sapping.",
+    "locations": [
+      "src/property_data.cpp:680",
+      "src/property_data.cpp:694"
+    ]
+  },
+  {
+    "source": "resists weakness.",
+    "locations": [
+      "src/property_data.cpp:769"
+    ]
+  },
+  {
+    "source": "Sanctuary",
+    "locations": [
+      "src/property_data.cpp:1326",
+      "src/property_data.cpp:1327"
+    ]
+  },
+  {
+    "source": "See Invis",
+    "locations": [
+      "src/property_data.cpp:1005"
+    ]
+  },
+  {
+    "source": "See Invisible",
+    "locations": [
+      "src/property_data.cpp:1004"
+    ]
+  },
+  {
+    "source": "seems less keen.",
+    "locations": [
+      "src/property_data.cpp:1010"
+    ]
+  },
+  {
+    "source": "seems very keen.",
+    "locations": [
+      "src/property_data.cpp:1008"
+    ]
+  },
+  {
+    "source": "sheds a carapace.",
+    "locations": [
+      "src/property_data.cpp:867"
+    ]
+  },
+  {
+    "source": "Skill",
+    "locations": [
+      "src/property_data.cpp:848"
+    ]
+  },
+  {
+    "source": "Soon moved to a deeper level.",
+    "locations": [
+      "src/property_data.cpp:749"
+    ]
+  },
+  {
+    "source": "Spell skill is improved by one level.",
+    "locations": [
+      "src/property_data.cpp:890"
+    ]
+  },
+  {
+    "source": "Spirit Sapped",
+    "locations": [
+      "src/property_data.cpp:687"
+    ]
+  },
+  {
+    "source": "starts regenerating damage very quickly.",
+    "locations": [
+      "src/property_data.cpp:1117"
+    ]
+  },
+  {
+    "source": "stops regenerating damage quickly.",
+    "locations": [
+      "src/property_data.cpp:1119"
+    ]
+  },
+  {
+    "source": "Stuck",
+    "locations": [
+      "src/property_data.cpp:926",
+      "src/property_data.cpp:927"
+    ]
+  },
+  {
+    "source": "Stuck in something.",
+    "locations": [
+      "src/property_data.cpp:928"
+    ]
+  },
+  {
+    "source": "tears free!",
+    "locations": [
+      "src/property_data.cpp:650",
+      "src/property_data.cpp:919"
+    ]
+  },
+  {
+    "source": "Tele Ctrl",
+    "locations": [
+      "src/property_data.cpp:1028"
+    ]
+  },
+  {
+    "source": "Teleport control",
+    "locations": [
+      "src/property_data.cpp:1027"
+    ]
+  },
+  {
+    "source": "The decay subsides.",
+    "locations": [
+      "src/property_data.cpp:1071"
+    ]
+  },
+  {
+    "source": "The earth is solid once more.",
+    "locations": [
+      "src/property_data.cpp:1217"
+    ]
+  },
+  {
+    "source": "Was cured from a horrible disease",
+    "locations": [
+      "src/property_data.cpp:739"
+    ]
+  },
+  {
+    "source": "Weakened",
+    "locations": [
+      "src/property_data.cpp:758",
+      "src/property_data.cpp:759"
+    ]
+  },
+  {
+    "source": "Withering surrounds me.",
+    "locations": [
+      "src/property_data.cpp:1069"
+    ]
+  },
+  {
+    "source": "Wounded",
+    "locations": [
+      "src/property_data.cpp:656"
+    ]
+  }
+]

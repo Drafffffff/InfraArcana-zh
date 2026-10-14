@@ -1,0 +1,16 @@
+{
+  "entry": "Infra Arcana 中文版",
+  "appid": 3030446481,
+  "steam_game_id": 13015668528206839808,
+  "installed": "/home/bazzite/Games/infra-arcana-zh",
+  "config": "/home/bazzite/.local/share/Steam/userdata/146975941/config/shortcuts.vdf",
+  "artwork": {
+    "grid": "3030446481.png",
+    "poster": "3030446481p.png",
+    "hero": "3030446481_hero.png",
+    "logo": "3030446481_logo.png",
+    "icon": "3030446481_icon.png"
+  },
+  "existing_shortcuts_preserved": 7,
+  "backup": "/home/bazzite/Games/infra-arcana-zh/installation-records/20261015-023643"
+}

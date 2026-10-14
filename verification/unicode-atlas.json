@@ -1,0 +1,16 @@
+{
+  "size": [
+    3072,
+    3072
+  ],
+  "glyph_cell": [
+    12,
+    12
+  ],
+  "bmp_glyph_count": 43302,
+  "fonts": [
+    "fusion-pixel-12px-monospaced-zh_hans.ttf",
+    "NotoSansSC-Regular.ttf",
+    "NotoSansHebrew.ttf"
+  ]
+}

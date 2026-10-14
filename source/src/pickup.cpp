@@ -36,7 +36,7 @@ void try_pick()
         item::Item* const item = map::g_items.at(pos);
 
         if (!item) {
-                msg_log::add("I see nothing to pick up here.");
+                msg_log::add("这里没有可拾取的东西。");
 
                 return;
         }
@@ -49,7 +49,7 @@ void try_pick()
 
                 const std::string item_name = item->name(ItemNameType::plural);
 
-                msg_log::add("I pick up " + item_name + ".");
+                msg_log::add("我拾起 " + item_name + ".");
 
                 // NOTE: This may destroy the item (e.g. combine with others)
                 map::g_player->m_inv.put_in_backpack(item);
@@ -123,7 +123,7 @@ void try_unload_or_pick()
                                         ItemNameType::a,
                                         ItemNameInfo::yes);
 
-                        msg_log::add("I unload " + name_a + ".");
+                        msg_log::add("我卸下 " + name_a + ".");
 
                         map::g_player->m_inv.put_in_backpack(spawned_ammo);
 

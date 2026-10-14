@@ -1,0 +1,1262 @@
+[
+  {
+    "source": "- You can now disarm traps by pressing [d] and choosing a direction (works both for traps on the ground and on chests)",
+    "target": "- 现在可以按 [d] 并选择方向来解除陷阱（地面和箱子上的陷阱都适用）",
+    "locations": [
+      "installed_files/release_history.txt:1152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You can now only accidentally drop your melee weapon during combat if you are Cursed",
+    "target": "- 现在只有受诅咒时，战斗中才会意外丢下近战武器",
+    "locations": [
+      "installed_files/release_history.txt:927"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You can throw potions",
+    "target": "- 现在可以投掷药剂",
+    "locations": [
+      "installed_files/release_history.txt:1618"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You lost iron spikes if you tried to jam an open door",
+    "target": "- 尝试卡住敞开的门时不再会丢失铁钉",
+    "locations": [
+      "installed_files/release_history.txt:1594"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You no longer automatically reload your weapon when attempting to fire an empty gun (though there is a setting in the options menu to enable this again). The reason is that it was too easy to reload by accident.",
+    "target": "- 尝试射击空枪时不再自动装填（不过可在选项菜单中重新启用此设置）。这样做是因为意外装填太容易发生。",
+    "locations": [
+      "installed_files/release_history.txt:1234"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You no longer choose Medical Bag actions through a popup menu, instead it first sanitizes an infection if you have one, otherwise it restores HP.",
+    "target": "- 医疗包操作不再通过弹出菜单选择；若有感染，会先消毒，否则恢复生命值。",
+    "locations": [
+      "installed_files/release_history.txt:1071"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You no longer drop your items when you die",
+    "target": "- 死亡时不再丢失物品",
+    "locations": [
+      "installed_files/release_history.txt:883"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You no longer gain XP from killing monsters - instead XP is raised by activities related to exploration and discovery, such as identifying items, drinking from some types of fountains, reading inscriptions on \"monoliths\", or seeing a new type of monster for the first time",
+    "target": "- 击杀怪物不再获得经验值；现在通过探索与发现相关的活动提升经验，例如鉴定物品、饮用某些喷泉、阅读“石碑”上的铭文，或首次见到某类怪物",
+    "locations": [
+      "installed_files/release_history.txt:794"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You no longer pick an ability when creating a new character",
+    "target": "- 创建新角色时不再选择能力",
+    "locations": [
+      "installed_files/release_history.txt:1261"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You now also go to the postmortem menu after winning the game, and a game summary file is written",
+    "target": "- 现在获胜后也会进入死后菜单，并写入一份游戏摘要文件",
+    "locations": [
+      "installed_files/release_history.txt:771"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You now gain half a monsters worth of experience when spotting it, and the other half when killing it (killing a monster without spotting it gives the full worth)",
+    "target": "- 现在发现怪物时可获得一半经验，击杀时获得另一半（未发现就击杀则获得全部经验）",
+    "locations": [
+      "installed_files/release_history.txt:1113"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You now gain the mythos spell at 15% MTH instead of 10%",
+    "target": "- 现在 MTH 达到 15% 时获得神话法术，而不是 10%",
+    "locations": [
+      "installed_files/release_history.txt:1264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You now pick traits when gaining character levels (as it was in v14) instead of only at the start. Many new traits have been added. You pick a trait each level, but the XP rate is roughly halved compared to older versions, and your character is limited to 10 levels.",
+    "target": "- 现在角色升级时选择特质（与 v14 相同），而不是只在游戏开始时选择。新增了许多特质。每级选择一个特质；经验获取速度约为旧版本的一半，角色最高升至 10 级。",
+    "locations": [
+      "installed_files/release_history.txt:1109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You now start with a fixed number of items (instead of a random range), and your starting items depend more on the chosen background (e.g. the Rogue always starts with a +1 Dagger).",
+    "target": "- 现在初始物品数量固定（不再随机浮动），且初始物品更取决于所选背景（例如，盗贼总会以一把 +1 匕首开始）。",
+    "locations": [
+      "installed_files/release_history.txt:1044"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- You search for secret doors and traps a bit further away, and your chance of finding them is affected by distance - for adjacent cells there is now a higher chance of detection than before (to avoid requiring hundreds of turns to detect an obvious hidden door)",
+    "target": "- 搜索秘密门和陷阱的范围稍远；发现几率受距离影响。相邻格现在更容易被发现（避免为了发现明显的隐藏门而搜索数百回合）。",
+    "locations": [
+      "installed_files/release_history.txt:830"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Your insanity no longer rises immediately when shock is at 100% or more, instead you now first have three turns with warning messages - during these turns you have a chance to reduce shock below 100% (e.g. by turning on a light in a dark room, drinking a Potion of Fortitude, descending the stairs, or stepping away from a ghoulish statue)",
+    "target": "- 理智错乱不再会在震慑达到 100% 或更高时立即上升；现在会先有三回合的警告信息，你可以趁机将震慑降到 100% 以下（例如在黑暗房间开灯、饮用坚韧药剂、下楼，或远离食尸鬼雕像）。",
+    "locations": [
+      "installed_files/release_history.txt:1123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Your inventory is no longer limited by the number of items (only by weight)",
+    "target": "- 背包不再受物品数量限制（只受重量限制）",
+    "locations": [
+      "installed_files/release_history.txt:1042"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Zombie-corpses can rise again.",
+    "target": "- 僵尸尸体可能再次站起来。",
+    "locations": [
+      "installed_files/release_history.txt:1932"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Zombie-type monsters occasionally drop \"Zombie Dust\" when they are destroyed - can be thrown at living, non-undead monsters to paralyze them",
+    "target": "- 僵尸类怪物被消灭时偶尔会掉落“僵尸粉尘”；可投向活着的非亡灵怪物，使其麻痹",
+    "locations": [
+      "installed_files/release_history.txt:839"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Zombies leave no corpse the second time they are killed",
+    "target": "- 僵尸第二次被杀死时不会留下尸体",
+    "locations": [
+      "installed_files/release_history.txt:1771"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "--bot",
+    "target": "--bot",
+    "locations": [
+      "src/main.cpp:33"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "--demo-mapgen",
+    "target": "--demo-mapgen",
+    "locations": [
+      "src/main.cpp:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "--gj",
+    "target": "--gj",
+    "locations": [
+      "src/main.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "--stress-test",
+    "target": "--stress-test",
+    "locations": [
+      "src/main.cpp:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-10% to hit chance, evasion, stealth, and searching.",
+    "target": "- 命中率、闪避、潜行和搜索能力降低 10%。",
+    "locations": [
+      "src/property_data.cpp:812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-15% hit chance with firearms and thrown weapons.",
+    "target": "- 使用枪械和投掷武器时命中率降低 15%。",
+    "locations": [
+      "src/player_bon.cpp:1164"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-20% to hit chance, evasion, stealth, and searching, 10% chance to fail when attempting to read or cast spells.",
+    "target": "- 命中率、闪避、潜行和搜索能力降低 20%；尝试阅读或施放法术时有 10% 几率失败。",
+    "locations": [
+      "src/property_data.cpp:831"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-25% mental shock taken from casting memorized spells from the Blood domain.",
+    "target": "- 施放已记忆的血之领域法术时，承受的精神震慑降低 25%。",
+    "locations": [
+      "src/player_bon.cpp:1136"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-50% maximum hit points.",
+    "target": "- 最大生命值降低 50%。",
+    "locations": [
+      "src/property_data.cpp:731"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-50% melee damage, cannot do backstab attacks, cannot bash doors or chests open, knock heavy objects over, etc.",
+    "target": "- 近战伤害降低 50%，无法进行背刺，也无法撞开门或箱子、推倒重物等。",
+    "locations": [
+      "src/property_data.cpp:761"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-50% mental shock taken from casting memorized spells, and from using or identifying strange items (e.g. drinking a potion, or casting a spell from a manuscript).",
+    "target": "- 施放已记忆的法术，以及使用或鉴定奇异物品（例如喝药剂或施放手稿法术）时，承受的精神震慑降低 50%。",
+    "locations": [
+      "src/player_bon.cpp:1179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-50% mental shock taken from seeing monsters and standing in darkness, but also halved shock reduction bonus from light.",
+    "target": "- 见到怪物和身处黑暗时，承受的精神震慑降低 50%；但光照带来的震慑减免加成也减半。",
+    "locations": [
+      "src/player_bon.cpp:1160"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-I AM DEAD!-",
+    "target": "- 我死了！-",
+    "locations": [
+      "src/game.cpp:621"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "-LOW HP WARNING!-",
+    "target": "- 生命值过低警告！-",
+    "locations": [
+      "src/actor_hit.cpp:258"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ".txt",
+    "target": ".txt",
+    "locations": [
+      "src/game_over.cpp:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "1-6 spirit points are restored each time a spell is resisted by spell resistance (granted by spirit traits, or the Spell Shield spell)",
+    "target": "- 法术抗性（来自精神特质或法术护盾）抵抗一次法术时，恢复 1–6 点精神值",
+    "locations": [
+      "src/player_bon.cpp:478"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "5 (.)     WAIT one turn (numpad '5' or the period key)",
+    "target": "5 (.)     等待一回合（数字键盘‘5’或句点键）",
+    "locations": [
+      "installed_files/manual.txt:20"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "<width>x<height>, and end with .png (e.g. \"7x13_uushi.png\").",
+    "target": "<width>x<height>，并以 .png 结尾（例如“7x13_uushi.png”）。",
+    "locations": [
+      "installed_files/gfx/fonts/README.txt:4"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "=         Options",
+    "target": "=         选项",
+    "locations": [
+      "installed_files/manual.txt:42"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v10.0 (November 19, 2011)",
+    "target": "= v10.0（2011年11月19日）",
+    "locations": [
+      "installed_files/release_history.txt:1536"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v10.1 (November 19, 2011)",
+    "target": "= v10.1（2011年11月19日）",
+    "locations": [
+      "installed_files/release_history.txt:1531"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v10.2 (November 20, 2011)",
+    "target": "= v10.2（2011年11月20日）",
+    "locations": [
+      "installed_files/release_history.txt:1526"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v11.0 (December 13, 2011)",
+    "target": "= v11.0（2011年12月13日）",
+    "locations": [
+      "installed_files/release_history.txt:1508"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v11.1 (December 14, 2011)",
+    "target": "= v11.1（2011年12月14日）",
+    "locations": [
+      "installed_files/release_history.txt:1501"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v11.2 (December 19, 2011)",
+    "target": "= v11.2（2011年12月19日）",
+    "locations": [
+      "installed_files/release_history.txt:1487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v12.0 (May 27, 2012)",
+    "target": "= v12.0（2012年5月27日）",
+    "locations": [
+      "installed_files/release_history.txt:1460"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v12.1 (June 9, 2012)",
+    "target": "= v12.1（2012年6月9日）",
+    "locations": [
+      "installed_files/release_history.txt:1452"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v12.2 (June 10, 2012)",
+    "target": "= v12.2（2012年6月10日）",
+    "locations": [
+      "installed_files/release_history.txt:1447"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v13.0 (September 15, 2012)",
+    "target": "= v13.0（2012年9月15日）",
+    "locations": [
+      "installed_files/release_history.txt:1419"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v13.1 (September 20, 2012)",
+    "target": "= v13.1（2012年9月20日）",
+    "locations": [
+      "installed_files/release_history.txt:1410"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v14.0 (April 23, 2013)",
+    "target": "= v14.0（2013年4月23日）",
+    "locations": [
+      "installed_files/release_history.txt:1299"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v14.1 (June 16, 2013)",
+    "target": "= v14.1（2013年6月16日）",
+    "locations": [
+      "installed_files/release_history.txt:1240"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v15.0 (November 26, 2013)",
+    "target": "= v15.0（2013年11月26日）",
+    "locations": [
+      "installed_files/release_history.txt:1196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v16.0 (April 17, 2014)",
+    "target": "= v16.0（2014年4月17日）",
+    "locations": [
+      "installed_files/release_history.txt:1103"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v17.0 (February 18, 2015)",
+    "target": "= v17.0（2015年2月18日）",
+    "locations": [
+      "installed_files/release_history.txt:1019"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v18.0 (January 28, 2016)",
+    "target": "= v18.0（2016年1月28日）",
+    "locations": [
+      "installed_files/release_history.txt:945"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v18.1 (Mars 17, 2016)",
+    "target": "= v18.1（2016年3月17日）",
+    "locations": [
+      "installed_files/release_history.txt:912"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v18.2 (July 2, 2016)",
+    "target": "= v18.2（2016年7月2日）",
+    "locations": [
+      "installed_files/release_history.txt:875"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v19.0 (July 20, 2017)",
+    "target": "= v19.0（2017年7月20日）",
+    "locations": [
+      "installed_files/release_history.txt:788"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v19.1 (August 20, 2017)",
+    "target": "= v19.1（2017年8月20日）",
+    "locations": [
+      "installed_files/release_history.txt:680"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v19.2 (November 6, 2017)",
+    "target": "= v19.2（2017年11月6日）",
+    "locations": [
+      "installed_files/release_history.txt:598"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v2.0 (June 23, 2011)",
+    "target": "= v2.0（2011年6月23日）",
+    "locations": [
+      "installed_files/release_history.txt:1864"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v20.0 (December 17, 2019)",
+    "target": "= v20.0（2019年12月17日）",
+    "locations": [
+      "installed_files/release_history.txt:503"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v21.0.0 (Mars 13, 2022)",
+    "target": "= v21.0.0（2022年3月13日）",
+    "locations": [
+      "installed_files/release_history.txt:370"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v21.0.1 (April 7, 2022)",
+    "target": "= v21.0.1（2022年4月7日）",
+    "locations": [
+      "installed_files/release_history.txt:338"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v22.0.0 (May 8, 2023)",
+    "target": "= v22.0.0（2023年5月8日）",
+    "locations": [
+      "installed_files/release_history.txt:224"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v22.1.0 (September 24, 2023)",
+    "target": "= v22.1.0（2023年9月24日）",
+    "locations": [
+      "installed_files/release_history.txt:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v23.0.0 (May 18, 2025)",
+    "target": "= v23.0.0（2025年5月18日）",
+    "locations": [
+      "installed_files/release_history.txt:2"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v3.0 (July 9, 2011)",
+    "target": "= v3.0（2011年7月9日）",
+    "locations": [
+      "installed_files/release_history.txt:1830"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v4.0 (July 12, 2011)",
+    "target": "= v4.0（2011年7月12日）",
+    "locations": [
+      "installed_files/release_history.txt:1804"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v5.0 (July 24, 2011)",
+    "target": "= v5.0（2011年7月24日）",
+    "locations": [
+      "installed_files/release_history.txt:1778"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v6.0 (August 5, 2011)",
+    "target": "= v6.0（2011年8月5日）",
+    "locations": [
+      "installed_files/release_history.txt:1748"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v7.0 (August 25, 2011)",
+    "target": "= v7.0（2011年8月25日）",
+    "locations": [
+      "installed_files/release_history.txt:1716"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v7.1 (August 29, 2011)",
+    "target": "= v7.1（2011年8月29日）",
+    "locations": [
+      "installed_files/release_history.txt:1703"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v8.0 (September 20, 2011)",
+    "target": "= v8.0（2011年9月20日）",
+    "locations": [
+      "installed_files/release_history.txt:1664"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v8.1 (September 24, 2011)",
+    "target": "= v8.1（2011年9月24日）",
+    "locations": [
+      "installed_files/release_history.txt:1647"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v9.0 (October 12, 2011)",
+    "target": "= v9.0（2011年10月12日）",
+    "locations": [
+      "installed_files/release_history.txt:1597"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v9.1 (October 13, 2011)",
+    "target": "= v9.1（2011年10月13日）",
+    "locations": [
+      "installed_files/release_history.txt:1587"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "= v9.2 (October 16, 2011)",
+    "target": "= v9.2（2011年10月16日）",
+    "locations": [
+      "installed_files/release_history.txt:1570"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> A rat can't block your shot when you aim at a human-sized target.",
+    "target": "> 瞄准人类大小的目标时，老鼠不会再挡住射击路线。",
+    "locations": [
+      "installed_files/release_history.txt:1956"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Acid (does damage)",
+    "target": "> 酸液（造成伤害）",
+    "locations": [
+      "installed_files/release_history.txt:1679"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> And a few more...",
+    "target": "> 以及其他改动……",
+    "locations": [
+      "installed_files/release_history.txt:1682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Arcana - gives better chances to cast spells from memory without failure",
+    "target": "> 奥术：提高不失败地施放记忆法术的几率",
+    "locations": [
+      "installed_files/release_history.txt:1553"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Armor stats are shown in the character info lines",
+    "target": "> 护甲属性显示在角色信息行中",
+    "locations": [
+      "installed_files/release_history.txt:1543"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Armors are named \"Name [D%, AP]\", where D=Durability, AP=Damage reduction (vs physical)",
+    "target": "> 护甲名称格式为“名称 [D%, AP]”，其中 D 为耐久度，AP 为伤害减免（对物理伤害）",
+    "locations": [
+      "installed_files/release_history.txt:1542"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Armors can be damaged, which makes it less effective",
+    "target": "> 护甲会受到损坏，导致防护效果降低",
+    "locations": [
+      "installed_files/release_history.txt:1541"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Armors provide different amount of protection from different damage types (physical, fire, electricity, etc)",
+    "target": "> 护甲对不同伤害类型（物理、火焰、电击等）提供不同程度的防护",
+    "locations": [
+      "installed_files/release_history.txt:1540"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Blood (slower walk speed, doge penalty, causes shock)",
+    "target": "> 血液（移动速度较慢、闪避受罚，并造成震慑）",
+    "locations": [
+      "installed_files/release_history.txt:1678"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Casting spells from memory drains Spirit Points, it can also cause miscasts with negative effects",
+    "target": "> 凭记忆施法会消耗精神值，也可能发生造成负面效果的施法失误",
+    "locations": [
+      "installed_files/release_history.txt:1548"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Chance to identify or memorize depends on the language ability",
+    "target": "> 鉴定或记忆法术的几率取决于语言能力",
+    "locations": [
+      "installed_files/release_history.txt:1547"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Chasm (only flying creatures can pass)",
+    "target": "> 裂隙（只有飞行生物能够通过）",
+    "locations": [
+      "installed_files/release_history.txt:1681"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Crypt that you climb out of.",
+    "target": "> 你爬出来的墓窖。",
+    "locations": [
+      "installed_files/release_history.txt:1937"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Graveyard.",
+    "target": "> 墓园。",
+    "locations": [
+      "installed_files/release_history.txt:1938"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Lore(Alchemy) - Used for identifying potions.",
+    "target": "> 学识（炼金术）——用于鉴定药剂。",
+    "locations": [
+      "installed_files/release_history.txt:1610"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Lore(Language) - Used for identifying scrolls.",
+    "target": "> 学识（语言）——用于鉴定卷轴。",
+    "locations": [
+      "installed_files/release_history.txt:1611"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Mud (much slower walk speed, heavy dodge penalty)",
+    "target": "> 泥地（移动速度大幅降低，闪避受到严重惩罚）",
+    "locations": [
+      "installed_files/release_history.txt:1680"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Projectiles can miss their target and hit someone behind it instead.",
+    "target": "> 投射物可能会射偏目标，击中其后方的人。",
+    "locations": [
+      "installed_files/release_history.txt:1957"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Putting points in one skill gives half the amount to all other skills in the same group",
+    "target": "> 将点数投入一项技能时，同组其他技能也会获得一半点数",
+    "locations": [
+      "installed_files/release_history.txt:1608"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Reloading - Chance to get a free turn when reloading firearms",
+    "target": "> 装填——装填枪械时获得免费回合的几率",
+    "locations": [
+      "installed_files/release_history.txt:1555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Scrolls (now called manuscripts) can be studied to be identified or memorized (to cast them at any time)",
+    "target": "> 卷轴（现称手稿）可通过研读来鉴定或记忆（以便随时施放）",
+    "locations": [
+      "installed_files/release_history.txt:1546"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Some monsters will search for you if they saw you.",
+    "target": "> 某些怪物看到你后会搜寻你。",
+    "locations": [
+      "installed_files/release_history.txt:1928"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Some skills have been split (e.g. Firearms->Shotguns, Pistols, Automatics)",
+    "target": "> 部分技能已拆分（例如枪械拆分为霰弹枪、手枪和自动武器）",
+    "locations": [
+      "installed_files/release_history.txt:1605"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Some will communicate about where to search.",
+    "target": "> 有些怪物会交流搜寻方向。",
+    "locations": [
+      "installed_files/release_history.txt:1930"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Some will listen for sounds.",
+    "target": "> 有些怪物会聆听声音。",
+    "locations": [
+      "installed_files/release_history.txt:1929"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Spirit - increases max Spirit Points",
+    "target": "> 精神：提高精神值上限",
+    "locations": [
+      "installed_files/release_history.txt:1552"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Technique (melee) - Chance to get free turn (light weapons), full damage (heavy), or random bonus (medium)",
+    "target": "> 技法（近战）——有几率获得免费回合（轻型武器）、造成全额伤害（重型武器）或随机加成（中型武器）",
+    "locations": [
+      "installed_files/release_history.txt:1554"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> The 'R'-key is used for studying texts, 'x' for casting from memory, and 'X' for casting from manuscripts",
+    "target": "> ‘R’键用于研读文本，‘x’键用于凭记忆施法，‘X’键用于施放手稿中的法术",
+    "locations": [
+      "installed_files/release_history.txt:1549"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> The skills are ordered in groups (e.g. Stealth = Sneaking and Backstabbing)",
+    "target": "> 技能按组排列（例如潜行组包括潜行和背刺）",
+    "locations": [
+      "installed_files/release_history.txt:1607"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> Water (slower walk speed, dodge penalty)",
+    "target": "> 水中（移动速度较慢，闪避受罚）",
+    "locations": [
+      "installed_files/release_history.txt:1677"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> You assign points instead of ranks",
+    "target": "> 分配点数，而不是选择等级",
+    "locations": [
+      "installed_files/release_history.txt:1606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "> You can aim the Napalm Launcher at the ground.",
+    "target": "> 可以将凝固汽油发射器瞄准地面。",
+    "locations": [
+      "installed_files/release_history.txt:1958"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "?, F1     This manual",
+    "target": "?, F1     查看本手册",
+    "locations": [
+      "installed_files/manual.txt:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[enter] to control ",
+    "target": "[enter] 控制 ",
+    "locations": [
+      "src/marker.cpp:1511"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "[enter] to try teleporting here",
+    "target": "[enter] 尝试传送到此处",
+    "locations": [
+      "src/marker.cpp:972"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[paths]",
+    "target": "[paths]",
+    "locations": [
+      "installed_files/user_data.ini:12"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space]",
+    "target": "[space]",
+    "locations": [
+      "include/msg_log.hpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "] for description",
+    "target": "] 查看说明",
+    "locations": [
+      "src/marker.cpp:434"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "] to attack ",
+    "target": "] 攻击 ",
+    "locations": [
+      "src/marker.cpp:632"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "] to fire ",
+    "target": "] 开火 ",
+    "locations": [
+      "src/marker.cpp:531"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "] to throw ",
+    "target": "] 投掷 ",
+    "locations": [
+      "src/marker.cpp:763",
+      "src/marker.cpp:887"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a",
+    "target": "一个",
+    "locations": [
+      "include/terrain_trap.hpp:266",
+      "include/terrain_trap.hpp:302",
+      "include/terrain_trap.hpp:339",
+      "include/terrain_trap.hpp:367",
+      "include/terrain_trap.hpp:395",
+      "include/terrain_trap.hpp:423",
+      "include/terrain_trap.hpp:486",
+      "include/terrain_trap.hpp:529",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/graphics/character",
+      "src/terrain.cpp:1107",
+      "src/terrain.cpp:2129",
+      "src/terrain.cpp:4285",
+      "src/terrain.cpp:4587",
+      "src/terrain.cpp:4595",
+      "src/terrain.cpp:4599",
+      "src/terrain.cpp:4603",
+      "src/terrain.cpp:4611",
+      "src/terrain.cpp:4615",
+      "src/terrain.cpp:4619",
+      "src/terrain.cpp:792",
+      "src/terrain.cpp:802",
+      "src/terrain.cpp:807",
+      "src/terrain.cpp:813",
+      "src/terrain.cpp:983",
+      "src/terrain.cpp:991",
+      "src/terrain_mob.cpp:287",
+      "src/terrain_mob.cpp:325",
+      "src/terrain_mob.cpp:385",
+      "src/terrain_pylon.cpp:243",
+      "src/terrain_pylon.cpp:284",
+      "src/terrain_pylon.cpp:364",
+      "src/terrain_pylon.cpp:427",
+      "src/terrain_pylon.cpp:472"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A ",
+    "target": "一个 ",
+    "locations": [
+      "src/terrain_door.cpp:243",
+      "src/terrain_door.cpp:283",
+      "src/terrain_door.cpp:777"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a ",
+    "target": "一个 ",
+    "locations": [
+      "src/terrain.cpp:1169",
+      "src/terrain.cpp:1288",
+      "src/terrain.cpp:1336",
+      "src/terrain.cpp:1456",
+      "src/terrain.cpp:1693",
+      "src/terrain.cpp:1815",
+      "src/terrain.cpp:1873",
+      "src/terrain.cpp:2099",
+      "src/terrain.cpp:2533",
+      "src/terrain.cpp:2746",
+      "src/terrain.cpp:2838",
+      "src/terrain.cpp:2878",
+      "src/terrain.cpp:3392",
+      "src/terrain.cpp:4141",
+      "src/terrain.cpp:4161",
+      "src/terrain.cpp:4802",
+      "src/terrain.cpp:4972",
+      "src/terrain.cpp:5146",
+      "src/terrain.cpp:5396",
+      "src/terrain.cpp:698",
+      "src/terrain_door.cpp:1115",
+      "src/terrain_door.cpp:1137",
+      "src/terrain_door.cpp:1537",
+      "src/terrain_gong.cpp:898",
+      "src/terrain_mirror.cpp:131",
+      "src/terrain_monolith.cpp:76"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a         INVENTORY, only showing items that can be CONSUMED or ACTIVATED",
+    "target": "a         背包，只显示可消耗或可启动的物品",
+    "locations": [
+      "installed_files/manual.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A beam of light shoots out from",
+    "target": "一道光束从此处射出",
+    "locations": [
+      "src/terrain_trap.cpp:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A beam of light shoots out under ",
+    "target": "一道光束从此处下方射出 ",
+    "locations": [
+      "src/terrain_trap.cpp:109"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a bit heavy",
+    "target": "稍重",
+    "locations": [
+      "src/item.cpp:359"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Black Mamba",
+    "target": "一条黑曼巴",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Black Mamba corpse",
+    "target": "一条黑曼巴尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Blinded Zealot",
+    "target": "一名失明的狂信徒",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Bloated Corpse",
+    "target": "一具肿胀的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Bog Tcher",
+    "target": "一名沼泽特切尔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Bog Tcher corpse",
+    "target": "一具沼泽特切尔尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A bright light shines around me.",
+    "target": "明亮的光芒在我周围闪耀。",
+    "locations": [
+      "src/property_data.cpp:959"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a broken Sentry Drone",
+    "target": "一架损坏的哨戒无人机",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A burst of smoke is released from a vent in the floor!",
+    "target": "一股烟雾从地板的通风口喷出！",
+    "locations": [
+      "src/terrain_trap.cpp:1123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Byakhee",
+    "target": "一只拜亚基",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Byakhee corpse",
+    "target": "一具拜亚基尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Carnivorous Ape",
+    "target": "一只食肉猿",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A chill runs down my spine.",
+    "target": "一股寒意顺着我的脊背窜下。",
+    "locations": [
+      "src/actor_player.cpp:666"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Chthonian",
+    "target": "一只克苏尼安",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Chthonian corpse",
+    "target": "一具克苏尼安尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Coiled Pylon",
+    "target": "一个盘绕柱",
+    "locations": [
+      "src/terrain_pylon.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A colossal white bat, spoken of in ancient traditions as \"Abaxu the Destroyer\" (or a variation thereof). It has eternal life, which it sustains by feeding on other creatures - allegedly including human sacrifice. This has surely given rise to certain vampire myths over the years.",
+    "target": "一只巨大的白蝙蝠，古老传说称它为“毁灭者阿巴克苏”（或类似名字）。它拥有永恒的生命，靠吞噬其他生物维持生机，据说甚至以人祭为食。这大概正是多年来某些吸血鬼传说的起源。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a corpse",
+    "target": "一具尸体",
+    "locations": [
+      "src/bash.cpp:365"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Corpse Mound",
+    "target": "一座尸骸堆",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a corpse of a Deep One",
+    "target": "一具深潜者尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Crawling Hand",
+    "target": "一只爬行之手",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a creature",
+    "target": "一只生物",
+    "locations": [
+      "src/actor_player.cpp:298"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Crocodile Head Mummy",
+    "target": "一具鳄首木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/name_a"
+    ],
+    "kind": "ui"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "source": "+/-       Change window width",
+    "target": "+/-       调整窗口宽度"
+  },
+  {
+    "source": "Alt     8.5 +0% 4/7 : Your prepared (alternative) weapon",
+    "target": "备用    8.5 +0% 4/7：已准备的备用武器"
+  },
+  {
+    "source": "Ctrl +/-  Change window height",
+    "target": "Ctrl +/-  调整窗口高度"
+  },
+  {
+    "source": "Esc       In-game menu, or cancel/proceed",
+    "target": "Esc       游戏内菜单，或取消/继续"
+  },
+  {
+    "source": "f         AIM/FIRE weapon",
+    "target": "f         瞄准/开火"
+  },
+  {
+    "source": "Health         9/16 : Current and maximum Hit Points",
+    "target": "生命值      9/16：当前及最大生命值"
+  },
+  {
+    "source": "Numpad 0 Open/close MAP",
+    "target": "数字键盘0 打开/关闭地图"
+  },
+  {
+    "source": "Space     Cancel/proceed",
+    "target": "空格      取消/继续"
+  },
+  {
+    "source": "Spirit          8/8 : Current and maximum Spirit Points",
+    "target": "精神值       8/8：当前及最大精神值"
+  },
+  {
+    "source": "Spirit   Current/Max",
+    "target": "精神值   当前/最大值"
+  },
+  {
+    "source": "The weapon in this example is a firearm, \"5/6\" is the",
+    "target": "此例中的武器是枪械，“5/6”表示"
+  },
+  {
+    "source": "When casting a spell, you will get a warning if the spell could potentially drain all your remaining Spirit. You can then press y/n to attempt casting or abort. Casting the spell in this situation is a gamble with death.",
+    "target": "施法可能耗尽剩余精神值时，游戏会发出警告。此时你可以按 y/n 继续施法或取消；在这种情况下施法无异于赌命。"
+  }
+]

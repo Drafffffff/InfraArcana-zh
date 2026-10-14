@@ -104,12 +104,11 @@ static std::string read_user_dir_from_ini_file()
 static void add_error_msg_user_dir_not_writable(const std::string& user_dir)
 {
         s_pending_error_messages.push(
-                "The user data directory '" +
+                "用户数据目录“" +
                 user_dir +
-                "' specified in " +
+                "'，指定于 " +
                 s_user_data_ini_file_name +
-                " is not writable, falling back to calling SDL_GetPrefPath or using the game "
-                "directory to store user data.");
+                " 不可写入，将改为调用 SDL_GetPrefPath，或使用游戏目录存储用户数据。");
 }
 
 static void add_error_msg_no_directory_writable()
@@ -117,11 +116,11 @@ static void add_error_msg_no_directory_writable()
         const std::string sdl_pref_path = io::sdl_pref_dir();
 
         s_pending_error_messages.push(
-                "Could not find any writable location. Tried path set in " +
+                "无法找到任何可写入的位置。已尝试使用此处设置的路径： " +
                 s_user_data_ini_file_name +
-                ", path retrieved from calling SDL_GetPrefPath (" +
+                "，调用 SDL_GetPrefPath 获取的路径（" +
                 sdl_pref_path +
-                "), and a path inside the game directory.");
+                "），以及游戏目录中的路径。");
 }
 
 // -----------------------------------------------------------------------------

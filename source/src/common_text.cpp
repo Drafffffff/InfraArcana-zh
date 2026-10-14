@@ -9,25 +9,25 @@
 namespace common_text
 {
 const std::string g_next_page_up_hint =
-        "[page up, <] more";
+        "[上页, <] 更多";
 
 const std::string g_next_page_down_hint =
-        "[page down, >] more";
+        "[下页, >] 更多";
 
 const std::string g_screen_exit_hint =
-        "[space, esc] to exit";
+        "[空格, Esc] 退出";
 
 const std::string g_minimap_exit_hint =
-        "[space, esc, m] to exit";
+        "[空格, Esc, m] 退出";
 
 const std::string g_game_over_summary_exit_hint =
-        "[space, esc] to show high scores";
+        "[空格, Esc] 显示高分";
 
 const std::string g_set_option_hint =
-        "[enter, left, right] to set option";
+        "[回车, 左, 右] 设置选项";
 
 const std::string g_scroll_hint =
-        "[2/8, down/up, pgup/pgdown, home/end] to scroll";
+        "[2/8, 下/上, 上页/下页, 首页/末页] 滚动";
 
 const std::string g_scrollable_info_screen_hint =
         g_scroll_hint +
@@ -35,51 +35,51 @@ const std::string g_scrollable_info_screen_hint =
         g_screen_exit_hint;
 
 const std::string g_cancel_hint =
-        "[space, esc] to cancel";
+        "[空格, Esc] 取消";
 
 const std::string g_confirm_hint =
-        "[space, esc, enter] to continue";
+        "[空格, Esc, 回车] 继续";
 
 const std::string g_confirm_drop_hint =
-        "[enter] to confirm";
+        "[回车] 确认";
 
 const std::string g_any_key_hint =
-        "[any key] to continue";
+        "[任意键] 继续";
 
 const std::string g_yes_or_no_hint =
         "[y/n]";
 
 const std::string g_direction_query =
-        "Which direction?";
+        "哪个方向？";
 
 const std::string g_disarm_no_trap =
-        "I find nothing there to disarm.";
+        "我发现那里没有什么可以解除武装的。";
 
 const std::string g_mon_prevent_cmd =
-        "Not while an enemy is near.";
+        "当敌人靠近时就不会。";
 
 const std::string g_shock_prevent_cmd =
-        "Not while insanity is near.";
+        "当疯狂临近时就不会了。";
 
 const std::string g_fire_prevent_cmd =
-        "Fire is spreading!";
+        "火势正在蔓延！";
 
 const std::string g_mon_disappear =
-        "suddenly disappears!";
+        "突然消失了！";
 
 const std::string g_mon_disappear_reappear =
-        "suddenly disappears and reappears!";
+        "突然消失又出现！";
 
 const std::string g_miscast_player =
-        "I fail to concentrate!";
+        "我无法集中注意力！";
 
 const std::string g_miscast_mon =
-        "fails to concentrate.";
+        "无法集中注意力。";
 
 const std::vector<std::string> g_exorcist_purge_phrases = {
-        "This place feels more serene now.",
-        "The sanctity of this place has been somewhat restored.",
-        "A great wickedness has been extinguished.",
-        "I sense a stillness permeating throughout the area."};
+        "这个地方现在感觉更加宁静了。",
+        "这个地方的神圣性已经有所恢复。",
+        "一大恶业已被消灭。",
+        "我感觉到整个区域弥漫着寂静。"};
 
 }  // namespace common_text

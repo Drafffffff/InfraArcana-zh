@@ -1,0 +1,1214 @@
+[
+  {
+    "source": "a Cultist",
+    "target": "一名邪教徒",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Cultist corpse",
+    "target": "一具邪教徒尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Cultist Priest",
+    "target": "一名邪教祭司",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Cultist Priest corpse",
+    "target": "一具邪教祭司尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A dart is launched from ",
+    "target": "一枚飞镖从此处射出 ",
+    "locations": [
+      "src/terrain_trap.cpp:811"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A deacon for the deep-sea folk, this damnable shaman commands sorcery that backs its kin and wracks its foes. It is coated in copper scales which boast of majesty, and disdain is innate to its cold glare.",
+    "target": "深海族的执事，这个可憎的萨满掌握着巫术，既能支援同族，也能折磨敌人。它覆有铜鳞，尽显威仪；冰冷的目光中则满是轻蔑。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a dead Polyp",
+    "target": "一只死去的多足体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a dead Primordial Worm",
+    "target": "一条死去的原初蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Death Fiend",
+    "target": "一只死亡恶魔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Deep One",
+    "target": "一名深潜者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A diabolic altar has been raised here, it must be destroyed!",
+    "target": "一座邪恶祭坛在此拔地而起，必须将其摧毁！",
+    "locations": [
+      "src/terrain.cpp:2316"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A disembodied hand, crawling around frantically on its fingertips like a spider.",
+    "target": "一只身首分离的手，正用指尖像蜘蛛一样慌乱爬行。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Dust Vortex",
+    "target": "一股尘埃漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Failed Reanimation",
+    "target": "复活失败的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A faint shadow of a huge spider, lurking in the periphery.",
+    "target": "一只潜伏在视野边缘的巨型蜘蛛淡影。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A fanatic cultist of the Arch Wizard rank, madly gibbering in some half-lost language.",
+    "target": "一名狂热的邪教徒，属于大法师阶级，正用某种几近失传的语言疯狂地喃喃自语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A fanatic cultist of the lowest rank, madly gibbering in some half-lost language. They may occasionally have learned to cast a spell or two, although never with any great skill. Therefore they tend to rely on mundane firearms to handle threats.",
+    "target": "一名最低阶的狂热邪教徒，正用某种几近失传的语言疯狂地喃喃自语。他们偶尔也学会一两个法术，但从来不太精通，因此通常依靠普通枪械来应对威胁。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A fanatic cultist of the Priest rank, madly gibbering in some half-lost language.",
+    "target": "一名狂热的邪教徒，属于祭司阶级，正用某种几近失传的语言疯狂地喃喃自语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A fanatic cultist of the Wizard rank, madly gibbering in some half-lost language.",
+    "target": "一名狂热的邪教徒，属于法师阶级，正用某种几近失传的语言疯狂地喃喃自语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A fierce predator. It hisses menacingly, and venom drips from its fangs.",
+    "target": "一只凶猛的掠食者。它威胁地嘶叫着，毒液从獠牙间滴落。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Fire Beast",
+    "target": "一只火焰野兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Fire Hound",
+    "target": "一只火焰猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Fire Vortex",
+    "target": "一股火焰漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Floating Skull",
+    "target": "一颗浮空骷髅",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Flying Polyp",
+    "target": "一只飞行多足体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Gas Spore",
+    "target": "一只毒气孢子",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A gaunt, bipedal predator bearing canine features. Dried blood mottles its snout and its claws are filthy with sodden earth and chunks of flesh.",
+    "target": "一只瘦削的双足掠食者，长着犬类特征。口鼻上沾着干涸的血，爪子上则满是湿泥和碎肉。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A gelatinous worm which contorts and mutates itself into different beings. Destroying the mutated form will revert the creature back to its original shape.",
+    "target": "一条胶状蠕虫，会扭曲并变形成不同生物。摧毁变异形态后，它会恢复原形。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Ghastly Light",
+    "target": "一团幽异之光",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHASTLY_LIGHT]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Ghost",
+    "target": "一个幽灵",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Ghoul",
+    "target": "一只食尸鬼",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Ghoul corpse",
+    "target": "一具食尸鬼尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Bat",
+    "target": "一只巨蝠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Bat corpse",
+    "target": "一具巨蝠尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Locust",
+    "target": "一只巨型蝗虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Locust corpse",
+    "target": "一具巨型蝗虫尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Mantis",
+    "target": "一只巨型螳螂",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Giant Mantis corpse",
+    "target": "一具巨型螳螂尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Gla'Suu",
+    "target": "一只格拉苏",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Gla'Suu corpse",
+    "target": "一具格拉苏尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Greater Polyp",
+    "target": "一只大多足体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Green Spider corpse",
+    "target": "一具绿蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A grotesque mummified hybrid creature, with the body of a human and the head of a crocodile. It is wielding a spear.",
+    "target": "一具怪诞的木乃伊混种生物，长着人身鳄首，手持长矛。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A gruesome discovery...",
+    "target": "一桩骇人的发现……",
+    "locations": [
+      "src/terrain_event.cpp:484"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A gruesome path lies ahead.",
+    "target": "前方有一条骇人的道路。",
+    "locations": [
+      "src/property_data.cpp:568"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Huge Green Spider",
+    "target": "一只巨型绿蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a huge gruesome corpse",
+    "target": "一具巨大的骇人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A huge predatory insect.",
+    "target": "一只巨型掠食昆虫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Huge Red Spider",
+    "target": "一只巨型红蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A huge swarming insect.",
+    "target": "一只巨型群居昆虫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Huge White Spider",
+    "target": "一只巨型白蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Hunting Horror",
+    "target": "一只狩猎恐怖",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Hunting Horror corpse",
+    "target": "一具狩猎恐怖尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Khaga",
+    "target": "一只卡哈加",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Khaga Offspring",
+    "target": "一只卡哈加幼体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A large aggressive rodent.",
+    "target": "一只体型庞大的攻击性啮齿动物。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A large wolf with eyes full of cunning.",
+    "target": "一头眼中透着狡黠的大狼。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Doomweaver",
+    "target": "一名冷之国厄运织者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Doomweaver corpse",
+    "target": "一具冷之国厄运织者尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Matriarch",
+    "target": "一名冷之国族母",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Matriarch corpse",
+    "target": "一具冷之国族母尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Spider",
+    "target": "一只冷之国蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leng Spider corpse",
+    "target": "一具冷之国蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a lifeless gruesome corpse",
+    "target": "一具毫无生气的骇人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a lifeless Mummy",
+    "target": "一具毫无生气的木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A living incarnation of death. With its goat-like features, it is eerily similar to the imagery of Devils and Demons seen in medieval woodcuts.",
+    "target": "死亡的化身。它长着山羊般的特征，与中世纪木刻版画中恶魔的形象惊人地相似。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A living shadow.",
+    "target": "一个活生生的影子。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A loathsome beast hauling around a great sagging body on strained legs. Through its translucent, stretched skin the vile content of the creature's husk is clearly visible: carrion, human remains in various states of decomposition, trash, and sewage - along with other less recognizable things. Its head droops to the ground, where a tentacled mouth devours whatever filth it happens upon. It occasionally spews forth half-solid chunks of ooze, which after fermenting in the remarkable conditions of the creature's bowels, takes on a form of life of it's own - hunting for biological matter to decompose in order to feed its creator.",
+    "target": "一头令人作呕的野兽，双腿吃力地撑起松垮庞大的身躯。透过它半透明、绷紧的皮肤，可以清楚看见躯壳里恶心的内容物：腐肉、不同腐烂程度的人体残骸、垃圾和污水，以及其他难以辨认的东西。它的头垂向地面，触手状的嘴巴吞噬着遇到的一切污物。它偶尔会喷出半固态的黏液块；这些黏液在它肠腔奇异的环境中发酵后，会自行形成生命，四处寻找可分解的生物质，以供养其造物主。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Lurking Ooze",
+    "target": "一团潜伏的黏液",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A malformed cross of rat and man, birthed from witchcraft. It has a warped human face and vestigial hands for forepaws.",
+    "target": "一只由巫术孕育、畸形的鼠人混种。它长着扭曲的人脸，前爪则是退化的手。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A marvel of biological and technological symbiosis. The Mi-Go Bio Engineer harnesses intricate anatomical knowledge to remotely mend the wounds of its kin - through an intricate network of unseen tendrils, it channels healing energies, fostering rejuvenation from a distance. Cloaked in ethereal veils, it maneuvers undetected, an invaluable asset to the covert operations of the enigmatic Mi-Go.",
+    "target": "生物与科技共生的奇迹。米戈生物工程师凭借精妙的解剖学知识，远距离修复同族的创伤；它通过一张看不见的触须网络传导疗愈能量，使远方的同族恢复生机。它披着幽灵般的薄纱，在不被察觉的情况下行动，是神秘米戈秘密行动中不可或缺的一员。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mi-Go",
+    "target": "一个米戈",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mi-Go Bio Engineer",
+    "target": "一名米戈生物工程师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mi-Go Commander",
+    "target": "一名米戈指挥官",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mi-Go corpse",
+    "target": "一具米戈尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mind Leech",
+    "target": "一只噬脑者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mind Leech corpse",
+    "target": "一具噬脑者尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mind Worm",
+    "target": "一条噬脑蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A misty haze surrounds ",
+    "target": "一片薄雾笼罩着 ",
+    "locations": [
+      "src/terrain_trap.cpp:1460"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A mummified human being, possibly dating back millennia.",
+    "target": "一具可能已有数千年历史的木乃伊。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mummy",
+    "target": "一具木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A mysterious humanoid figure stalking for prey. It is invisible to normal eyes.",
+    "target": "一个神秘的人形身影正在跟踪猎物，肉眼无法看见它。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A nasty infection that will get worse if left untreated.",
+    "target": "一种恶劣的感染，若不治疗会不断恶化。",
+    "locations": [
+      "src/property_data.cpp:715"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A nightmarish creature of humanoid shape. It has a hideous gangly physique and sickly pale skin. Its arms are as long as its body is tall, and it attacks with ripping claws. It can appear anywhere it desires at any time, and can also snatch teleporting creatures from their voyage and draw them to it.",
+    "target": "一个噩梦般的人形生物。它身形瘦长畸异，皮肤苍白病态，双臂长及全身。它用撕裂般的利爪攻击，可以随心所欲地在任何时间出现在任何地点；它还能从传送途中截住其他生物，将它们拖到自己身边。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A nightmarish creature of humanoid shape. It has a hideous gangly physique and sickly pale skin. Its arms are as long as its body is tall, and it attacks with ripping claws. It can appear anywhere it desires at any time, and can also snatch teleporting creatures from their voyage and draw them to it. This ancient individual has learned the art of spellcasting.",
+    "target": "一个噩梦般的人形生物。它身形瘦长畸异，皮肤苍白病态，双臂长及全身。它用撕裂般的利爪攻击，可以随心所欲地在任何时间出现在任何地点；它还能从传送途中截住其他生物，将它们拖到自己身边。这个古老个体已掌握施法之术。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A particularly nasty disembodied hand, crawling around frantically on its fingertips like a spider. Beware of the Thing.",
+    "target": "一只格外可怕的身首分离之手，正用指尖像蜘蛛一样慌乱爬行。小心那东西。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A peculiar floating speck of strange shifting colors. It is very confusing to look at. Wherever they pass, they corrupt the environment around them. They are invulnerable to attacks from common materials like iron or steel, but can be destroyed by other forms of damage, such as fire or electricity.",
+    "target": "一粒奇异的浮空斑点，颜色不断变幻，看久了会令人极度困惑。它经过之处，周围环境都会被腐化。普通的铁或钢制攻击无法伤害它，但火焰、电击等其他伤害可以摧毁它。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A perpetual curse was put upon me",
+    "target": "一道永恒的诅咒降临于我",
+    "locations": [
+      "src/property_data.cpp:819"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Pit Viper",
+    "target": "一条蝮蛇",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Pit Viper corpse",
+    "target": "一具蝮蛇尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A plea for mercy from realms beyond.",
+    "target": "一声来自异界的恳求，祈求怜悯。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Poison Ooze",
+    "target": "一团毒黏液",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A powerful spirit.",
+    "target": "一个强大的灵体。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A predacious worm about the size of an adult human's arm. Its bite causes heavy disorientation in the victim.",
+    "target": "一条掠食性蠕虫，粗细约有成年人的手臂那么大。它的咬击会令受害者严重迷乱。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Primordial Worm",
+    "target": "一条原初蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A product of all that has festered in forgotten vaults for untold ages. It exudes a mephitic cloud stemming from the unknown chemical processes that are constantly occurring within it. A malodorous broth of purulence bubbles about its nucleus, indicating it is ridden with disease.",
+    "target": "它是被遗忘的地窖中无数年代以来腐败之物的产物。它不断散发恶臭云雾，源自体内持续发生的未知化学反应。其核心周围翻滚着一锅恶臭的脓液，显然早已染病。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A product of all that has festered in forgotten vaults for untold ages. It exudes a mephitic cloud stemming from the unknown chemical processes that are constantly occurring within it. The alarmingly green hue of this particular specimen indicates its utter venomousness.",
+    "target": "它是被遗忘的地窖中无数年代以来腐败之物的产物。它不断散发恶臭云雾，源自体内持续发生的未知化学反应。这个个体令人不安的翠绿色，表明它具有极强毒性。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A product of all that has festered in forgotten vaults for untold ages. It exudes a mephitic cloud stemming from the unknown chemical processes that are constantly occurring within it. This species has developed a trait that allows it to mimic the colors of its surroundings, rendering it nearly invisible to its prey.",
+    "target": "它是被遗忘的地窖中无数年代以来腐败之物的产物。它不断散发恶臭云雾，源自体内持续发生的未知化学反应。这个物种进化出模仿周围颜色的特质，几乎能在猎物面前隐形。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A prophecy foretelling the end of all things.",
+    "target": "一则预言，预示万物终结。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:3"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A protective carapace forms around me.",
+    "target": "一道防护甲壳在我身上形成。",
+    "locations": [
+      "src/property_data.cpp:864"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Putrid Ooze",
+    "target": "一团腐臭黏液",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rat",
+    "target": "一只老鼠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rat corpse",
+    "target": "一具老鼠尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rat-thing",
+    "target": "一只鼠人",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rat-thing corpse",
+    "target": "一具鼠人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Raven",
+    "target": "一只渡鸦",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Raven carcass",
+    "target": "一具渡鸦尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Reanimated Corpse",
+    "target": "一具复活的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Red Spider corpse",
+    "target": "一具红蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A restless spirit.",
+    "target": "一个不安的灵体。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A ropy, winged worm of vast size and vaporous composition. Brought forth from another plane of existence it drifts in endless search of sustenance, its maw hanging so agape it could swallow an ox whole.",
+    "target": "一条巨大的绳状翼虫，身躯由雾气构成。它从另一个位面被召来，无休止地漂游觅食；张开的巨口足以吞下一整头牛。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A secret is revealed.",
+    "target": "一个秘密被揭开。",
+    "locations": [
+      "src/terrain_door.cpp:1457"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Sentry Drone",
+    "target": "一架哨戒无人机",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A Serrated Pylon",
+    "target": "一座锯齿柱",
+    "locations": [
+      "src/terrain_pylon.cpp:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Serrated Pylon",
+    "target": "一座锯齿柱",
+    "locations": [
+      "src/terrain_pylon.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A severed head floating through the air.",
+    "target": "一颗在空中漂浮的断头。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Shadow",
+    "target": "一个影子",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Shadow Spider",
+    "target": "一只影蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A shambling thing which could be taken for a man were it not for its briny whiff and scaly skin. Slits on its neck emit a labored inflection, marking its struggle to gulp at breathable air. It hoists a rust-eaten spear and a net through which the thrashing remains of its last feast can be seen.",
+    "target": "一个摇摇晃晃的东西，若不是那股咸腥味和鳞片皮肤，几乎可以当成人。它颈部的裂缝发出艰难的呼吸声，显出它努力汲取空气的挣扎。它扛着一支锈蚀的长矛和一张网，网中还挂着它上一顿猎物挣扎的残骸。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Shapeshifter",
+    "target": "一名变形者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Shapeshifter corpse",
+    "target": "一具变形者尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A shrivelled hag who croaks of deviltry and possesses knowledge beyond the ken of a sane mind. She reigns over the myriad man-rat hybrids crawling within the dungeon, humoring her most cherished like a child: not once does she deny it the black blood that flows inside her veins.",
+    "target": "一名干瘪的老巫婆，呱呱地谈论恶魔之事，掌握着常人无法理解的知识。她统治着地牢中无数鼠人混种，像宠爱孩子般纵容最珍爱的那一个：她从不吝惜那体内流淌的黑血。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A sickly growth thriving in damp areas. It produces toxic spores which it stores in its slimy heads.",
+    "target": "一种在潮湿处繁茂生长的病态菌类。它会产生毒孢子，并将其储存在黏滑的菌帽中。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A sickly growth thriving in damp areas. It produces toxic spores which it stores in its slimy heads. Almost invisible to the naked eye, it spreads like a creeping pestilence.",
+    "target": "一种在潮湿处繁茂生长的病态菌类。它会产生毒孢子，并将其储存在黏滑的菌帽中。它几乎肉眼难辨，像蔓延的瘟疫般扩散。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A sickly growth thriving in damp areas. The toxic spores of this particular species are strongly hallucinogenic.",
+    "target": "一种在潮湿处繁茂生长的病态菌类。这个物种的毒孢子具有极强的致幻性。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Skull",
+    "target": "一颗骷髅",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A slithering conglomeration of carnivorous worms.",
+    "target": "一团蠕动的食肉蠕虫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A small cave-dwelling humanoid. Their mouths are set with rows of serrated teeth, well-adapted for cutting through flesh. However, they are cowardly opportunistic creatures, preferring to stalk lonely prey that they perceive as an easy target - when met with violence, they will usually retreat, at least for a moment.",
+    "target": "一种栖居洞穴的小型人形生物。它们嘴里长着一排排锯齿状牙齿，适合撕开血肉。不过它们胆怯而投机，偏爱跟踪落单、看似容易下手的猎物；一旦遭遇暴力，通常会暂时撤退。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A spear shoots out from ",
+    "target": "一支长矛从此处射出 ",
+    "locations": [
+      "src/terrain_trap.cpp:903"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A spinning force of destruction.",
+    "target": "一股旋转的毁灭之力。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A spinning force of fire and destruction.",
+    "target": "一股旋转的火焰与毁灭之力。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A spinning force of pure energy.",
+    "target": "一股纯能量构成的旋转之力。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Spitting Cobra",
+    "target": "一条喷吐眼镜蛇",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Spitting Cobra corpse",
+    "target": "一具喷吐眼镜蛇尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A staircase leading downwards",
+    "target": "一段通往下方的楼梯",
+    "locations": [
+      "src/terrain.cpp:1737"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Star-crowned Pylon",
+    "target": "一座星冠柱",
+    "locations": [
+      "src/terrain_pylon.cpp:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A status effect has been applied. Status effects are various positive, negative or neutral effects applied on a creature. Some examples are confusion, burning, invisibility, or electricity resistance. A simple list of active status effects is shown in the normal game screen. \n\nIn the character screen (accessed by pressing [C] or [@]), a more detailed list can be seen, including a description of each effect. \n\nStatus effects shown with CAPITAL LETTERS are \"permanent\", and are only removed if some special action is taken, for example using the medical bag to treat a wound.",
+    "target": "已施加一种状态效果。状态效果是施加于生物身上的正面、负面或中性效果，例如困惑、燃烧、隐形或电击抗性。游戏主画面会简单列出当前生效的状态效果。\n\n在角色界面（按 [C] 或 [@] 打开）中，可以查看更详细的列表及每种效果的说明。\n\n以大写字母显示的状态效果属于“永久”效果，只有采取某些特殊行动才会移除，例如使用医疗包治疗创伤。",
+    "locations": [
+      "src/hints.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Strange Color",
+    "target": "一种奇异颜色",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Tentacle Cluster",
+    "target": "一团触手",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A tentacled alien creature, mysteriously floating through the air in a ghostly manner. They somehow sustain themselves on the brain activity of other beings. This will usually not kill the victim, but the experience is horrific beyond words. They only feed on sound minds however - a strange or chaotic mind will cause them great distress.",
+    "target": "一种长着触手、神秘地如幽灵般漂浮在空中的外星生物。它们靠其他生物的脑活动维生。这通常不会杀死受害者，但过程可怕得难以言喻。不过它们只以健全的心智为食；奇异或混乱的心智会令它们极度痛苦。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A terrible curse was lifted from me",
+    "target": "一道可怕的诅咒从我身上解除",
+    "locations": [
+      "src/property_data.cpp:820"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Troglodyte",
+    "target": "一只穴居人",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Troglodyte corpse",
+    "target": "一具穴居人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Two-pronged Pylon",
+    "target": "一座双叉柱",
+    "locations": [
+      "src/terrain_pylon.cpp:142"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A vaguely intelligent floating fungus-based organism. It contains a highly explosive gas and will detonate very easily, which it seems to desire.",
+    "target": "一种略有智能的浮空真菌生物。它体内含有极易引爆的气体，而且似乎很乐意引爆。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Vampire Bat",
+    "target": "一只吸血蝙蝠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Vampire Bat corpse",
+    "target": "一具吸血蝙蝠尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A vast, fully matured Khaga, the flight of this cryptic being conceals it from ordinary eyesight. It wails a disarmingly beautiful mantra which dissonates with the roar of the bolts it summons from its orb-like head.",
+    "target": "一只完全成熟的巨大卡哈加。这个神秘生物能飞行，普通视力无法看见它。它发出迷人而动听的咏唱，与它从球状头部召来的雷霆轰鸣格格不入。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A vicious black bird.",
+    "target": "一只凶恶的黑鸟。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A vile dwarfish creature, clad in coarse brown robes. It has a cruel grin on its pale face, and its eyes are gleaming with hatred. The Bog Tcher are mechanically inclined, which they put to use by crafting sadistic weapons and traps. Their favored weapon is their \"spike gun\", which can pin the target against solid objects for prolonged suffering.",
+    "target": "一只矮小邪恶的生物，身披粗糙的棕色长袍。它苍白的脸上挂着残忍的笑容，眼中闪烁着仇恨。沼泽特切尔擅长机械技艺，并将其用于制作残酷的武器和陷阱。它们最喜欢的武器是“尖刺枪”，能把目标钉在坚硬物体上，让其长期受苦。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/description"
+    ],
+    "kind": "ui"
+  }
+]

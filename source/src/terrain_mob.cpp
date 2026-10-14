@@ -129,7 +129,7 @@ void Smoke::on_new_turn()
                 // Blinded?
                 if (allow_blind && rnd::one_in(4)) {
                         if (is_player) {
-                                msg_log::add("I am getting smoke in my eyes.");
+                                msg_log::add("烟熏得我睁不开眼。");
                         }
 
                         auto* const prop = prop::make(prop::Id::blind);
@@ -144,12 +144,12 @@ void Smoke::on_new_turn()
                         std::string snd_msg;
 
                         if (is_player) {
-                                msg_log::add("I cough.");
+                                msg_log::add("我咳嗽起来。");
                         }
                         else {
                                 // Is monster
                                 if (actor->m_data->is_humanoid) {
-                                        snd_msg = "I hear coughing.";
+                                        snd_msg = "我听见咳嗽声。";
                                 }
                         }
 
@@ -183,10 +183,10 @@ std::string Smoke::name(const Article article) const
         std::string name;
 
         if (article == Article::the) {
-                name = "the ";
+                name = "这 ";
         }
 
-        return name + "smoke";
+        return name + "烟雾";
 }
 
 Color Smoke::color() const
@@ -252,10 +252,10 @@ std::string Mist::name(const Article article) const
         std::string name;
 
         if (article == Article::the) {
-                name = "the ";
+                name = "这 ";
         }
 
-        return name + "mist";
+        return name + "迷雾";
 }
 
 Color Mist::color() const
@@ -284,10 +284,10 @@ std::string ForceField::name(const Article article) const
 {
         std::string name =
                 (article == Article::a)
-                ? "a"
-                : "the";
+                ? "一个"
+                : "这";
 
-        name += " force field";
+        name += " 力场";
 
         return name;
 }
@@ -322,10 +322,10 @@ std::string LitDynamite::name(const Article article) const
 {
         std::string name =
                 (article == Article::a)
-                ? "a"
-                : "the";
+                ? "一个"
+                : "这";
 
-        return name + " lit stick of dynamite";
+        return name + " 点燃的炸药棒";
 }
 
 Color LitDynamite::color() const
@@ -382,10 +382,10 @@ std::string LitFlare::name(const Article article) const
 {
         std::string name =
                 (article == Article::a)
-                ? "a"
-                : "the";
+                ? "一个"
+                : "这";
 
-        name += " lit flare";
+        name += " 点燃的信号棒";
 
         return name;
 }

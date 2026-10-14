@@ -75,7 +75,7 @@ struct Projectile
                 const Projectile& p)
         {
                 os
-                        << "POS: "
+                        << "销售点： "
                         << "{"
                         << p.pos.x
                         << " ,"
@@ -88,8 +88,8 @@ struct Projectile
 
                 const std::string live_str =
                         p.is_dead
-                        ? " - DEAD"
-                        : " - LIVE";
+                        ? " - 死的"
+                        : " - 居住";
 
                 os << live_str;
 
@@ -129,9 +129,9 @@ struct ProjectileFireData
                 const ProjectileFireData& d)
         {
                 os
-                        << "PROJECTILE FIRE DATA:"
+                        << "射弹火力数据："
                         << std::endl
-                        << "ORIGIN: "
+                        << "起源： "
                         << "{"
                         << d.origin.x
                         << " ,"
@@ -149,7 +149,7 @@ struct ProjectileFireData
                         << (int)d.aim_lvl
                         << std::endl;
 
-                os << "PATH: ";
+                os << "小路： ";
 
                 for (const P& p : d.path) {
                         os
@@ -163,7 +163,7 @@ struct ProjectileFireData
                 os << std::endl;
 
                 os
-                        << "PROJECTILES:"
+                        << "射弹："
                         << std::endl;
 
                 for (const Projectile& proj : d.projectiles) {
@@ -190,7 +190,7 @@ static void print_player_fire_ranged_msg(const item::Wpn& wpn)
 {
         const std::string attack_verb = wpn.data().ranged.attack_msgs.player;
 
-        msg_log::add("I " + attack_verb + ".");
+        msg_log::add("我 " + attack_verb + ".");
 }
 
 static void print_mon_fire_ranged_msg(const RangedAttData& att_data)
@@ -259,12 +259,12 @@ static void print_projectile_hit_player_msg(const Projectile& projectile)
                                 projectile.att_data->dmg));
 
         // NOTE: Interruption is not needed here, the player will be interrupted by the hit.
-        msg_log::add("I am hit" + dmg_punct, colors::msg_bad());
+        msg_log::add("我被击中了" + dmg_punct, colors::msg_bad());
 }
 
 static void print_projectile_hit_mon_msg(const Projectile& projectile)
 {
-        std::string other_name = "It";
+        std::string other_name = "它";
 
         const actor::Actor& defender = *projectile.att_data->defender;
 
@@ -277,7 +277,7 @@ static void print_projectile_hit_mon_msg(const Projectile& projectile)
                         attack::relative_hit_size(
                                 projectile.att_data->dmg));
 
-        msg_log::add(other_name + " is hit" + dmg_punct, colors::msg_good());
+        msg_log::add(other_name + " 被击中" + dmg_punct, colors::msg_good());
 }
 
 static void print_projectile_hit_actor_msg(const Projectile& projectile)
@@ -337,7 +337,7 @@ static std::unique_ptr<Snd> ranged_fire_snd(
 static void emit_projectile_hit_actor_snd(const P& pos)
 {
         Snd snd(
-                "A creature is hit.",
+                "一个生物被击中。",
                 audio::SfxId::hit_small,
                 IgnoreMsgIfOriginSeen::yes,
                 pos,
@@ -356,7 +356,7 @@ static void emit_projectile_hit_terrain_snd(
                 // TODO: Check hit material, soft and wood should not cause
                 // a ricochet sound
                 Snd snd(
-                        "I hear a ricochet.",
+                        "我听到弹跳声。",
                         audio::SfxId::ricochet,
                         IgnoreMsgIfOriginSeen::yes,
                         pos,

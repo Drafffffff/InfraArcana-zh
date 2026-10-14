@@ -85,6 +85,7 @@ struct MapDrawObj
 struct InputData
 {
         int key {-1};
+        std::string text; // Complete UTF-8 SDL text event, for name entry.
         bool is_shift_held {false};
         bool is_ctrl_held {false};
         bool is_alt_held {false};

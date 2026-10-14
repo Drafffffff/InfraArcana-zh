@@ -1,0 +1,1266 @@
+[
+  {
+    "source": "Pretia Cruento",
+    "target": "普雷蒂娅·克鲁恩托",
+    "locations": [
+      "src/item_scroll.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PRETIACRUENTO",
+    "target": "普雷蒂亚克鲁恩托",
+    "locations": [
+      "src/item_curse.cpp:501"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Profanuxes",
+    "target": "普罗法努克斯",
+    "locations": [
+      "src/item_scroll.cpp:87"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Profanx",
+    "target": "普罗凡克斯",
+    "locations": [
+      "src/item_scroll.cpp:111"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PROJECTILE FIRE DATA:",
+    "target": "射弹火力数据：",
+    "locations": [
+      "src/attack_ranged.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PROJECTILES:",
+    "target": "射弹：",
+    "locations": [
+      "src/attack_ranged.cpp:166"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Protects the eyes, throat and lungs from smoke and fumes. It has a limited useful lifespan that is related to the absorbent capacity of the filter. ",
+    "target": "保护眼睛、喉咙和肺部免受烟雾和烟雾的侵害。它的使用寿命有限，与过滤器的吸收能力有关。 ",
+    "locations": [
+      "src/item_data.cpp:1526"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Pump Shotgun",
+    "target": "泵动霰弹枪",
+    "locations": [
+      "src/item_data.cpp:406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pump shotguns",
+    "target": "泵动霰弹枪",
+    "locations": [
+      "src/item_data.cpp:406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Punch",
+    "target": "冲床",
+    "locations": [
+      "src/item_data.cpp:1178"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "punch",
+    "target": "冲床",
+    "locations": [
+      "src/item_data.cpp:1179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "punches",
+    "target": "拳打",
+    "locations": [
+      "src/item_data.cpp:1226",
+      "src/item_data.cpp:1232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Purifies the caster by carving away all that is extraneous, revealing the essential core of their being.",
+    "target": "通过去除所有无关的东西来净化施法者，揭示他们存在的本质核心。",
+    "locations": [
+      "src/spells.cpp:5694"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Quodpipax",
+    "target": "曲皮派克斯",
+    "locations": [
+      "src/item_scroll.cpp:85"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ran out of medical supplies",
+    "target": "医疗用品告罄",
+    "locations": [
+      "src/item_misc.cpp:390"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rats appear!",
+    "target": "老鼠出现！",
+    "locations": [
+      "src/spells.cpp:2358"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "reaches for",
+    "target": "达到",
+    "locations": [
+      "src/item_data.cpp:1330"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ready",
+    "target": "准备好",
+    "locations": [
+      "src/inventory.cpp:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rejuvenator Device",
+    "target": "回春仪",
+    "locations": [
+      "src/item_data.cpp:1774"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rejuvenator Devices",
+    "target": "回春设备",
+    "locations": [
+      "src/item_data.cpp:1775"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "releases spores on",
+    "target": "释放孢子",
+    "locations": [
+      "src/item_data.cpp:1400"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Resistance",
+    "target": "反抗",
+    "locations": [
+      "src/item_potion.cpp:865"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Restores ",
+    "target": "恢复 ",
+    "locations": [
+      "src/spells.cpp:4902"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Restores 3 hit points, and cures blindness, deafness, poisoning, infections, disease, weakening, and life sapping.",
+    "target": "恢复 3 点生命值，并治愈失明、耳聋、中毒、感染、疾病、虚弱和生命削弱。",
+    "locations": [
+      "src/item_potion.cpp:803"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Restores the spirit, and cures spirit sapping.",
+    "target": "恢复精神，治疗精神衰弱。",
+    "locations": [
+      "src/item_potion.cpp:493"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Revolver .38 Bullet",
+    "target": "左轮手枪.38 子弹",
+    "locations": [
+      "src/item_data.cpp:563"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Revolver .38 Bullets",
+    "target": "左轮手枪 .38 子弹",
+    "locations": [
+      "src/item_data.cpp:564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rock",
+    "target": "岩石",
+    "locations": [
+      "src/item_data.cpp:851"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rocks",
+    "target": "岩石",
+    "locations": [
+      "src/item_data.cpp:851"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rod of ",
+    "target": "魔棒： ",
+    "locations": [
+      "src/item_rod.cpp:107"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Rods of ",
+    "target": "魔棒： ",
+    "locations": [
+      "src/item_rod.cpp:108"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Rudminuox",
+    "target": "红米诺克斯",
+    "locations": [
+      "src/item_scroll.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rudsceleratus",
+    "target": "红花属",
+    "locations": [
+      "src/item_scroll.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "RULER",
+    "target": "统治者",
+    "locations": [
+      "src/item_curse.cpp:539"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "S&W Revolver",
+    "target": "S&W 左轮手枪",
+    "locations": [
+      "src/item_data.cpp:537"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "S&W Revolvers",
+    "target": "S&W 左轮手枪",
+    "locations": [
+      "src/item_data.cpp:538"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SACRIFICE",
+    "target": "牺牲",
+    "locations": [
+      "src/item_curse.cpp:508"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sacrifices the life force of the caster in order to restore the spirit. The amount restored is proportional to the life lost. A maximum of 8 hit points may be sacrificed.",
+    "target": "牺牲施法者的生命力来恢复精神。恢复的数量与损失的生命成正比。最多可以牺牲 8 点生命值。",
+    "locations": [
+      "src/spells.cpp:5609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sawed-off Shotgun",
+    "target": "短截霰弹枪",
+    "locations": [
+      "src/item_data.cpp:375"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sawed-off shotguns",
+    "target": "锯短霰弹枪",
+    "locations": [
+      "src/item_data.cpp:376"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Scales grow over my eyes!",
+    "target": "我的眼睛上长出了鳞片！",
+    "locations": [
+      "src/spells.cpp:4564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Scales grow over the eyes of ",
+    "target": "眼睛上方长出鳞片 ",
+    "locations": [
+      "src/spells.cpp:4569"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Scourge",
+    "target": "天灾",
+    "locations": [
+      "src/item_data.cpp:1931"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SEE",
+    "target": "看",
+    "locations": [
+      "src/item_curse.cpp:551"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Select treatment",
+    "target": "选择治疗",
+    "locations": [
+      "src/item_misc.cpp:245"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sentry Drone Device",
+    "target": "哨兵无人机设备",
+    "locations": [
+      "src/item_data.cpp:1798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sentry Drone Devices",
+    "target": "哨兵无人机设备",
+    "locations": [
+      "src/item_data.cpp:1799"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SERPENT",
+    "target": "蛇",
+    "locations": [
+      "src/item_curse.cpp:549"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shaantitus",
+    "target": "沙安提图斯",
+    "locations": [
+      "src/item_scroll.cpp:88"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shining Trapezohedron",
+    "target": "闪亮的偏方体",
+    "locations": [
+      "src/item_data.cpp:360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shining Trapezohedrons",
+    "target": "闪亮的偏方体",
+    "locations": [
+      "src/item_data.cpp:361"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shockwave",
+    "target": "冲击波",
+    "locations": [
+      "src/item_rod.cpp:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "shoots a web bola",
+    "target": "射出网状波拉",
+    "locations": [
+      "src/item_data.cpp:1406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shotgun shell",
+    "target": "霰弹枪外壳",
+    "locations": [
+      "src/item_data.cpp:436"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shotgun shells",
+    "target": "霰弹枪弹壳",
+    "locations": [
+      "src/item_data.cpp:436"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SIGNS",
+    "target": "标志",
+    "locations": [
+      "src/item_curse.cpp:511"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Silver",
+    "target": "银",
+    "locations": [
+      "src/item_rod.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Skill",
+    "target": "技能",
+    "locations": [
+      "src/item_potion.cpp:945",
+      "src/property_data.cpp:848"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "slams into",
+    "target": "猛烈地撞入",
+    "locations": [
+      "src/item_data.cpp:1239"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sledgehammer",
+    "target": "大锤",
+    "locations": [
+      "src/item_data.cpp:1110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sledgehammers",
+    "target": "大锤",
+    "locations": [
+      "src/item_data.cpp:1110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sleep",
+    "target": "睡觉",
+    "locations": [
+      "src/item_rod.cpp:603"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slimy",
+    "target": "粘糊糊的",
+    "locations": [
+      "src/item_potion.cpp:126"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "smash",
+    "target": "粉碎",
+    "locations": [
+      "src/item_data.cpp:1116",
+      "src/item_data.cpp:964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "smashes",
+    "target": "粉碎",
+    "locations": [
+      "src/item_data.cpp:1116",
+      "src/item_data.cpp:964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Smoke Grenade",
+    "target": "烟雾弹",
+    "locations": [
+      "src/item_data.cpp:812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Smoke Grenades",
+    "target": "烟雾弹",
+    "locations": [
+      "src/item_data.cpp:812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Smoky",
+    "target": "烟",
+    "locations": [
+      "src/item_potion.cpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Snapping it in two grants protection against harmful spells for 6-12 turns, or until a spell is blocked.",
+    "target": "将其折成两半可以在 6-12 回合内提供针对有害法术的保护，或者直到法术被格挡为止。",
+    "locations": [
+      "src/item_data.cpp:2296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Some time must pass before the prayer is guaranteed to have an effect again, however it can be attempted before this time has passed (with 25% chance to succeed). If an early attempt fails, faith in the symbol is temporarily lost, and much time must pass before the symbol can be used again.",
+    "target": "祈祷必须经过一段时间才能保证再次产生效果，但是可以在这段时间过去之前尝试（有 25% c 成功的机会）。如果早期尝试失败，人们就会暂时失去对该符号的信心，并且必须经过很长时间才能再次使用该符号。",
+    "locations": [
+      "src/item_data.cpp:2066"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Someone",
+    "target": "有人",
+    "locations": [
+      "src/spells.cpp:749"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something",
+    "target": "某物",
+    "locations": [
+      "src/marker.cpp:1140",
+      "src/spells.cpp:749"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spear",
+    "target": "矛",
+    "locations": [
+      "src/item_data.cpp:1087"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spears",
+    "target": "斯皮尔斯",
+    "locations": [
+      "src/item_data.cpp:1087"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spews pus on",
+    "target": "喷出脓液",
+    "locations": [
+      "src/item_data.cpp:1370"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spike Gun",
+    "target": "长钉枪",
+    "locations": [
+      "src/item_data.cpp:658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spike Guns",
+    "target": "长钉枪",
+    "locations": [
+      "src/item_data.cpp:658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spiked Mace",
+    "target": "尖刺狼牙棒",
+    "locations": [
+      "src/item_data.cpp:1027"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spiked Maces",
+    "target": "尖刺狼牙棒",
+    "locations": [
+      "src/item_data.cpp:1027"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spirit",
+    "target": "精神",
+    "locations": [
+      "src/item_potion.cpp:488",
+      "src/map_mode_gui.cpp:201"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spits pus",
+    "target": "吐脓",
+    "locations": [
+      "src/item_data.cpp:1246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spits venom",
+    "target": "吐毒液",
+    "locations": [
+      "src/item_data.cpp:1255"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stab",
+    "target": "刺",
+    "locations": [
+      "src/item_data.cpp:2174",
+      "src/item_data.cpp:884"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stabs",
+    "target": "刺伤",
+    "locations": [
+      "src/item_data.cpp:2174",
+      "src/item_data.cpp:884"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Staff of the Pharaohs",
+    "target": "法老王的权杖",
+    "locations": [
+      "src/item_data.cpp:1897"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "STARS",
+    "target": "星星",
+    "locations": [
+      "src/item_curse.cpp:534"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sticks of Dynamite",
+    "target": "炸药棒",
+    "locations": [
+      "src/item_data.cpp:767"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stings",
+    "target": "蜇伤",
+    "locations": [
+      "src/item_data.cpp:1336",
+      "src/item_data.cpp:1342"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stomp",
+    "target": "跺脚",
+    "locations": [
+      "src/item_data.cpp:1165"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "STRAGARANA",
+    "target": "斯特拉加拉纳",
+    "locations": [
+      "src/item_curse.cpp:497"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strange Device",
+    "target": "奇怪的装置",
+    "locations": [
+      "src/item_data.cpp:271"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strange Devices",
+    "target": "奇怪的设备",
+    "locations": [
+      "src/item_data.cpp:272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "strangles",
+    "target": "勒死",
+    "locations": [
+      "src/item_data.cpp:1324"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "strike",
+    "target": "罢工",
+    "locations": [
+      "src/item_data.cpp:1011",
+      "src/item_data.cpp:1038",
+      "src/item_data.cpp:1069",
+      "src/item_data.cpp:1093",
+      "src/item_data.cpp:1913",
+      "src/item_data.cpp:1942",
+      "src/item_data.cpp:386",
+      "src/item_data.cpp:416",
+      "src/item_data.cpp:470",
+      "src/item_data.cpp:500",
+      "src/item_data.cpp:549",
+      "src/item_data.cpp:591",
+      "src/item_data.cpp:632",
+      "src/item_data.cpp:667",
+      "src/item_data.cpp:721",
+      "src/item_data.cpp:910",
+      "src/item_data.cpp:939"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "strikes",
+    "target": "罢工",
+    "locations": [
+      "src/item_data.cpp:1011",
+      "src/item_data.cpp:1038",
+      "src/item_data.cpp:1069",
+      "src/item_data.cpp:1093",
+      "src/item_data.cpp:1220",
+      "src/item_data.cpp:1348",
+      "src/item_data.cpp:1913",
+      "src/item_data.cpp:1942",
+      "src/item_data.cpp:386",
+      "src/item_data.cpp:416",
+      "src/item_data.cpp:470",
+      "src/item_data.cpp:500",
+      "src/item_data.cpp:549",
+      "src/item_data.cpp:591",
+      "src/item_data.cpp:632",
+      "src/item_data.cpp:667",
+      "src/item_data.cpp:721",
+      "src/item_data.cpp:910",
+      "src/item_data.cpp:939"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "suddenly disappears and reappears!",
+    "target": "突然消失又出现！",
+    "locations": [
+      "src/common_text.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "suddenly disappears!",
+    "target": "突然消失了！",
+    "locations": [
+      "src/common_text.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SUFFER",
+    "target": "遭受",
+    "locations": [
+      "src/item_curse.cpp:514"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Summons ",
+    "target": "传票 ",
+    "locations": [
+      "src/spells.cpp:2372"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "TAKE",
+    "target": "拿",
+    "locations": [
+      "src/item_curse.cpp:505"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Talisman of Reflection",
+    "target": "反射护符",
+    "locations": [
+      "src/item_data.cpp:1991"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Talisman of Resurrection",
+    "target": "复活护身符",
+    "locations": [
+      "src/item_data.cpp:2013"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Talisman of Teleportation Control",
+    "target": "传送控制符",
+    "locations": [
+      "src/item_data.cpp:2035"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Temporarily bestows the caster with an expanded understanding of the esoteric mechanisms behind magical practice. The caster's skill is improved by one level for all spells.",
+    "target": "暂时让施法者对魔法实践背后的深奥机制有更深入的了解。所有法术的施法者技能都会提高一级。",
+    "locations": [
+      "src/spells.cpp:3602"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tenebrous - this spell will be instantly forgotten if cast from memory. ",
+    "target": "昏暗 - 如果从记忆中施展该法术，该法术将立即被遗忘。 ",
+    "locations": [
+      "src/spells.cpp:1312"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "text",
+    "target": "文本",
+    "locations": [
+      "src/actor_data.cpp:653",
+      "src/item_scroll.cpp:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "texts",
+    "target": "文本",
+    "locations": [
+      "src/item_scroll.cpp:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The ",
+    "target": "这 ",
+    "locations": [
+      "src/inventory_handling.cpp:145",
+      "src/item_device.cpp:237",
+      "src/item_device.cpp:243",
+      "src/item_device.cpp:253",
+      "src/item_rod.cpp:189",
+      "src/item_rod.cpp:241",
+      "src/item_weapon.cpp:209",
+      "src/item_weapon.cpp:238",
+      "src/spells.cpp:5166",
+      "src/terrain.cpp:2016",
+      "src/terrain.cpp:237",
+      "src/terrain_door.cpp:1497",
+      "src/terrain_door.cpp:1620",
+      "src/terrain_door.cpp:1704",
+      "src/terrain_door.cpp:1817",
+      "src/terrain_door.cpp:1839",
+      "src/terrain_door.cpp:246",
+      "src/terrain_door.cpp:280",
+      "src/terrain_door.cpp:778",
+      "src/terrain_gong.cpp:560"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The air thickens around me.",
+    "target": "我周围的空气变得凝重。",
+    "locations": [
+      "src/item_device.cpp:406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Arcane Clockwork",
+    "target": "奥术发条装置",
+    "locations": [
+      "src/item_data.cpp:2087"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The armor joins with my skin!",
+    "target": "铠甲与我的皮肤融为一体！",
+    "locations": [
+      "src/item_armor.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bugs on the ground suddenly move very feebly.",
+    "target": "地面上的虫子突然动作非常无力。",
+    "locations": [
+      "src/spells.cpp:4104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bugs on the ground suddenly move very slowly.",
+    "target": "地面上的虫子突然移动得很慢。",
+    "locations": [
+      "src/spells.cpp:4232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bugs on the ground suddenly scatter away.",
+    "target": "地上的虫子顿时四散开来。",
+    "locations": [
+      "src/spells.cpp:4368"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The caster becomes more lucky (+10% to hit chance, evasion, stealth, and searching).",
+    "target": "施法者变得更加幸运（命中率、闪避、潜行和搜索+10%）。",
+    "locations": [
+      "src/spells.cpp:3025"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The caster exudes death and decay. Creatures within a distance of two moves take damage each standard turn.",
+    "target": "施法者散发着死亡和腐烂的气息。两步距离内的生物每标准回合都会受到伤害。",
+    "locations": [
+      "src/spells.cpp:1449"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The caster is ignored by all hostile creatures for the duration of the spell. The effect is interrupted if the caster moves or performs a melee or ranged attack.",
+    "target": "在法术持续时间内，所有敌对生物都会无视施法者。如果施法者移动或进行近战或远程攻击，效果就会中断。",
+    "locations": [
+      "src/spells.cpp:2823"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The caster is truly invisible for the duration of the the spell, and can freely attack or cast spells without breaking the invisibility.",
+    "target": "施法者在法术持续时间内真正隐形，并且可以自由攻击或施展法术而不打破隐形。",
+    "locations": [
+      "src/spells.cpp:3235"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The caster moves faster relative to the world around them.",
+    "target": "施法者相对于周围世界的移动速度更快。",
+    "locations": [
+      "src/spells.cpp:3435"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The consumer becomes more skillful (+10% to hit chance, evasion, stealth, and searching).",
+    "target": "消费者变得更加熟练（命中率、躲避、潜行和搜索+10%）。",
+    "locations": [
+      "src/item_potion.cpp:951"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The damage dealt with this weapon is ",
+    "target": "该武器造成的伤害为 ",
+    "locations": [
+      "src/inventory_handling.cpp:624"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The dynamite explodes in my hand!",
+    "target": "炸药在我手里爆炸了！",
+    "locations": [
+      "src/item_explosive.cpp:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The eye decomposes.",
+    "target": "眼睛会分解。",
+    "locations": [
+      "src/item_misc.cpp:1124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The eye of a powerful witch. Clutching it in one's hand will temporarily grant magical vision - doors, traps, stairs, and other locations of interest are detected in the surrounding area, and the presence of all items and creatures is revealed.",
+    "target": "强大魔女的眼睛。将其握在手中将暂时获得魔法视觉——在周围区域中检测到门、陷阱、楼梯和其他感兴趣的位置，并显示所有物品和生物的存在。",
+    "locations": [
+      "src/item_data.cpp:2270"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The flare is extinguished.",
+    "target": "耀斑熄灭。",
+    "locations": [
+      "src/item_explosive.cpp:306"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The flash is so intense that any victim caught in it will also burn for ",
+    "target": "闪光非常强烈，任何陷入其中的受害者也会被烧伤 ",
+    "locations": [
+      "src/spells.cpp:3151"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "the Horn of Banishment",
+    "target": "放逐的号角",
+    "locations": [
+      "src/item_data.cpp:2135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Horn of Banishment resounds!",
+    "target": "放逐的号角吹响！",
+    "locations": [
+      "src/item_misc.cpp:798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Horn of Malice",
+    "target": "恶意号角",
+    "locations": [
+      "src/item_data.cpp:2111"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Horn of Malice resounds!",
+    "target": "恶意号角响起！",
+    "locations": [
+      "src/item_misc.cpp:725"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The ignited smoke grenade falls from my hand!",
+    "target": "点燃的烟雾弹从我手中掉落！",
+    "locations": [
+      "src/item_explosive.cpp:379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The impact does ",
+    "target": "影响确实 ",
+    "locations": [
+      "src/spells.cpp:1554"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The lit Dynamite stick falls from my hand!",
+    "target": "点燃的炸药棒从我手中掉落！",
+    "locations": [
+      "src/item_explosive.cpp:162"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lit Flare falls from my hand!",
+    "target": "点燃的照明弹从我手中掉落！",
+    "locations": [
+      "src/item_explosive.cpp:325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lit Molotov Cocktail falls from my hand!",
+    "target": "点燃的燃烧弹从我手里掉下来了！",
+    "locations": [
+      "src/item_explosive.cpp:266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Manuscript crumbles to dust.",
+    "target": "手稿化为灰尘。",
+    "locations": [
+      "src/item_scroll.cpp:375"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Molotov Cocktail explodes in my hand!",
+    "target": "燃烧弹在我手里爆炸了！",
+    "locations": [
+      "src/item_explosive.cpp:213"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Molotov Cocktail is about to explode!",
+    "target": "燃烧弹即将爆炸！",
+    "locations": [
+      "src/item_explosive.cpp:206"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Molotov Cocktail will soon explode.",
+    "target": "燃烧弹很快就会爆炸。",
+    "locations": [
+      "src/item_explosive.cpp:198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Necronomicon",
+    "target": "死灵之书",
+    "locations": [
+      "src/item_data.cpp:2216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Onyx Drop",
+    "target": "玛瑙掉落",
+    "locations": [
+      "src/item_data.cpp:1972"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Orb of Life",
+    "target": "生命之球",
+    "locations": [
+      "src/item_data.cpp:2196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the owner is harmed by light.",
+    "target": "主人受到光的伤害。",
+    "locations": [
+      "src/item_curse.cpp:817"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The potion shatters on ",
+    "target": "药水碎裂在 ",
+    "locations": [
+      "src/item_potion.cpp:392",
+      "src/item_potion.cpp:405"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The rats are ethereal (much harder to hit with attacks, can move through solid objects), are immune to magic, can cast spells, and have +4 hit points and +3 maximum damage.",
+    "target": "老鼠是空灵的（更难被攻击击中，可以穿过固体物体移动），对魔法免疫，可以施法，并且有+4生命值和+3最大伤害。",
+    "locations": [
+      "src/spells.cpp:2383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The rats are Hasted (moves faster).",
+    "target": "老鼠是加速的（移动得更快）。",
+    "locations": [
+      "src/spells.cpp:2379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The sanctity of this place has been somewhat restored.",
+    "target": "这个地方的神圣性已经有所恢复。",
+    "locations": [
+      "src/common_text.cpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Sentry Drone awakens!",
+    "target": "哨兵无人机苏醒！",
+    "locations": [
+      "src/item_device.cpp:392"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Shining Trapezohedron",
+    "target": "闪亮的偏方体",
+    "locations": [
+      "src/item_data.cpp:362"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The smoke grenade is extinguished.",
+    "target": "烟雾弹被扑灭。",
+    "locations": [
+      "src/item_explosive.cpp:364"
+    ],
+    "kind": "ui"
+  }
+]

@@ -9,11 +9,13 @@ base=R/'fonts/fusion-pixel-12px-monospaced-zh_hans.ttf'
 fallback=R/'fonts/NotoSansSC-Regular.ttf'
 f=ImageFont.truetype(str(base),12); fb=ImageFont.truetype(str(fallback),12)
 cmap=TTFont(base).getBestCmap(); fcmap=TTFont(fallback).getBestCmap()
+hebrew=R/'fonts/NotoSansHebrew.ttf'
+hf=ImageFont.truetype(str(hebrew),12); hcmap=TTFont(hebrew).getBestCmap()
 img=Image.new('RGBA',(3072,3072));d=ImageDraw.Draw(img)
-for cp in sorted(set(cmap)|set(fcmap)):
+for cp in sorted(set(cmap)|set(fcmap)|set(hcmap)):
  if cp<128 or cp>65535:continue
  x=(cp%256)*12;y=(cp//256)*12
- font=f if cp in cmap else fb
+ font=f if cp in cmap else fb if cp in fcmap else hf
  # Use the bitmap font at its native 12 px. Noto fallback is aligned by its bbox.
  glyph=Image.new('L',(12,12));gd=ImageDraw.Draw(glyph)
  if cp in cmap:
@@ -24,5 +26,5 @@ for cp in sorted(set(cmap)|set(fcmap)):
  white=Image.new('RGBA',(12,12),(255,255,255,255));white.putalpha(glyph)
  img.paste(white,(x,y))
 out=R/'source/installed_files/gfx/images/unicode-atlas.png';img.save(out,optimize=True)
-(R/'verification/unicode-atlas.json').write_text(json.dumps({'size':[3072,3072],'glyph_cell':[12,12],'bmp_glyph_count':len((set(cmap)|set(fcmap))&set(range(128,65536))),'fonts':[base.name,fallback.name]},indent=2)+'\n')
+(R/'verification/unicode-atlas.json').write_text(json.dumps({'size':[3072,3072],'glyph_cell':[12,12],'bmp_glyph_count':len((set(cmap)|set(fcmap)|set(hcmap))&set(range(128,65536))),'fonts':[base.name,fallback.name,hebrew.name]},indent=2)+'\n')
 print(out)

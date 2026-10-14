@@ -125,19 +125,19 @@ static void find_stair_path()
         }
 
         if (stair_p.x == -1) {
-                show_map_and_freeze("Could not find stairs");
+                show_map_and_freeze("找不到楼梯");
         }
 
         const P& player_p = map::g_player->m_pos;
 
         if (blocked.at(player_p)) {
-                show_map_and_freeze("Player on blocked position");
+                show_map_and_freeze("玩家位于阻挡位置");
         }
 
         s_path = pathfind(player_p, stair_p, blocked);
 
         if (s_path.empty()) {
-                show_map_and_freeze("Could not find path to stairs");
+                show_map_and_freeze("无法找到通往楼梯的路径");
         }
 
         ASSERT(s_path.front() == stair_p);

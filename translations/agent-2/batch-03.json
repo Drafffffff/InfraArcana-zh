@@ -1,0 +1,1211 @@
+[
+  {
+    "source": "appear",
+    "target": "出现",
+    "locations": [
+      "src/spells.cpp:5301"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "appears",
+    "target": "出现",
+    "locations": [
+      "src/spells.cpp:5300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Arcane Clockwork",
+    "target": "奥术发条",
+    "locations": [
+      "src/item_data.cpp:2085"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Asbestos Suit",
+    "target": "石棉套装",
+    "locations": [
+      "src/item_data.cpp:1487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Astral Opium",
+    "target": "星辰鸦片",
+    "locations": [
+      "src/item_data.cpp:2354"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Astral Opium Doses",
+    "target": "星体鸦片剂量",
+    "locations": [
+      "src/item_data.cpp:2355"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Attack ",
+    "target": "攻击 ",
+    "locations": [
+      "src/attack.cpp:109"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Attacking ",
+    "target": "进攻 ",
+    "locations": [
+      "src/attack_melee.cpp:691"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Attacking an unaware opponent with a dagger does +200% damage (in addition to the normal +50% damage from stealth attacks).",
+    "target": "用匕首攻击不知情的对手会产生+200% d法力（除了隐形攻击的正常+50% d法力之外）。",
+    "locations": [
+      "src/item_data.cpp:2168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Attacking or casting spells reveals the caster.",
+    "target": "攻击或施展法术会暴露施法者。",
+    "locations": [
+      "src/spells.cpp:3231"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Attacks with this weapon have a 25% chance to stun the victim, rendering them unable to act for a brief time.",
+    "target": "使用此武器的攻击有 25% c 几率使受害者昏迷，使其短时间内无法行动。",
+    "locations": [
+      "src/item_data.cpp:1032"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Attempts to convert items (stand over an item when casting). On failure, the item is destroyed.",
+    "target": "尝试转换物品（施放时站在物品上方）。失败时，该物品将被销毁。",
+    "locations": [
+      "src/spells.cpp:5317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Available supplies: ",
+    "target": "可用供应： ",
+    "locations": [
+      "src/item_misc.cpp:249"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Axe",
+    "target": "斧头",
+    "locations": [
+      "src/item_data.cpp:1002"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Axes",
+    "target": "轴",
+    "locations": [
+      "src/item_data.cpp:1002"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Barada",
+    "target": "巴拉达",
+    "locations": [
+      "src/item_scroll.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BASATAN",
+    "target": "巴斯塔坦",
+    "locations": [
+      "src/item_curse.cpp:565"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "basic",
+    "target": "基本的",
+    "locations": [
+      "src/spells.cpp:1004"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Beheld The Shining Trapezohedron",
+    "target": "看到闪亮的偏方体",
+    "locations": [
+      "src/item_misc.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BEHOLD",
+    "target": "看哪",
+    "locations": [
+      "src/item_curse.cpp:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BELOW",
+    "target": "以下",
+    "locations": [
+      "src/item_curse.cpp:545"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BENEATH",
+    "target": "下面",
+    "locations": [
+      "src/item_curse.cpp:543"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Benign",
+    "target": "良性",
+    "locations": [
+      "src/item_potion.cpp:350"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BEWARE",
+    "target": "提防",
+    "locations": [
+      "src/item_curse.cpp:517"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BEYOND",
+    "target": "超过",
+    "locations": [
+      "src/item_curse.cpp:544"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BHAAVA",
+    "target": "巴哈瓦",
+    "locations": [
+      "src/item_curse.cpp:499"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BHUUDESCO",
+    "target": "布德斯科",
+    "locations": [
+      "src/item_curse.cpp:496"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bhuudesco",
+    "target": "布乌德斯科",
+    "locations": [
+      "src/item_scroll.cpp:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bhuuesco",
+    "target": "布埃斯科",
+    "locations": [
+      "src/item_scroll.cpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bibox",
+    "target": "比盒",
+    "locations": [
+      "src/item_scroll.cpp:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "bites",
+    "target": "咬伤",
+    "locations": [
+      "src/item_data.cpp:1208",
+      "src/item_data.cpp:1318"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Black",
+    "target": "黑色的",
+    "locations": [
+      "src/item_potion.cpp:123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blaster Device",
+    "target": "冲击波装置",
+    "locations": [
+      "src/item_data.cpp:1764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blaster Devices",
+    "target": "冲击波装置",
+    "locations": [
+      "src/item_data.cpp:1764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blasts the surrounding area with terrible force.",
+    "target": "以可怕的力量冲击周围。",
+    "locations": [
+      "src/spells.cpp:2200"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blindness",
+    "target": "失明",
+    "locations": [
+      "src/item_potion.cpp:531"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blinking",
+    "target": "闪烁",
+    "locations": [
+      "src/item_potion.cpp:1018"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BLOOD",
+    "target": "血",
+    "locations": [
+      "src/item_curse.cpp:506"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blood",
+    "target": "血",
+    "locations": [
+      "src/spells.cpp:989"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bloody",
+    "target": "血腥",
+    "locations": [
+      "src/item_potion.cpp:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Body",
+    "target": "身体",
+    "locations": [
+      "src/inventory.cpp:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bone Charm",
+    "target": "骨符",
+    "locations": [
+      "src/item_data.cpp:2292"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bone Charms",
+    "target": "骨头符咒",
+    "locations": [
+      "src/item_data.cpp:2292"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "BOUNDLESS",
+    "target": "无界",
+    "locations": [
+      "src/item_curse.cpp:526"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "breaching doors",
+    "target": "破门",
+    "locations": [
+      "src/inventory_handling.cpp:674"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "breathes fire",
+    "target": "喷火",
+    "locations": [
+      "src/item_data.cpp:1288"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "breathes forth a raging torrent",
+    "target": "喷吐着汹涌的洪流",
+    "locations": [
+      "src/item_data.cpp:1276"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "breathes forth immense density",
+    "target": "呼吸出巨大的密度",
+    "locations": [
+      "src/item_data.cpp:1264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "breathes lightning",
+    "target": "呼吸闪电",
+    "locations": [
+      "src/item_data.cpp:1300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Burrowing",
+    "target": "挖洞",
+    "locations": [
+      "src/item_potion.cpp:1060",
+      "src/property_data.cpp:1212",
+      "src/property_data.cpp:1213"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Caecux",
+    "target": "凯库克斯",
+    "locations": [
+      "src/item_scroll.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can be useful for wedging things closed.",
+    "target": "对于楔入封闭的物体很有用。",
+    "locations": [
+      "src/item_data.cpp:1132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Carapace",
+    "target": "甲壳",
+    "locations": [
+      "src/item_potion.cpp:980",
+      "src/property_data.cpp:861",
+      "src/property_data.cpp:862"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "caster ",
+    "target": "脚轮 ",
+    "locations": [
+      "src/spells.cpp:1200",
+      "src/spells.cpp:1219"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Casting the spell again while it is already active cancels the effect (this does not drain hit points or cause shock).",
+    "target": "在法术已生效时再次施放会取消效果（不会消耗生命值，也不会造成震慑）。",
+    "locations": [
+      "src/spells.cpp:5562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Casting this spell requires making sounds.",
+    "target": "施放此法术需要发出声音。",
+    "locations": [
+      "src/spells.cpp:649"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes a tough carapace to grow over the consumer's skin providing protection against physical attacks (+3 armor points), as well as some resistance against burning (+25% chance to resist burning).",
+    "target": "使消费者的皮肤上长出坚韧的甲壳，提供对物理攻击的保护（+3护甲点），以及一定程度的抗燃烧能力（+25% c抵抗燃烧的机会）。",
+    "locations": [
+      "src/item_potion.cpp:986"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes confusion.",
+    "target": "造成混乱。",
+    "locations": [
+      "src/item_potion.cpp:635"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes disease.",
+    "target": "引起疾病。",
+    "locations": [
+      "src/item_potion.cpp:602"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes paralysis.",
+    "target": "导致瘫痪。",
+    "locations": [
+      "src/item_potion.cpp:569"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes temporary loss of vision.",
+    "target": "导致暂时性视力丧失。",
+    "locations": [
+      "src/item_potion.cpp:536"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes the consumer to rapidly fade away from existence, and reappear again at a nearby position of their choosing.",
+    "target": "导致消费者迅速从存在中消失，并再次出现在他们选择的附近位置。",
+    "locations": [
+      "src/item_potion.cpp:1024"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes the spell's victims to burn for ",
+    "target": "使该法术的受害者燃烧 ",
+    "locations": [
+      "src/spells.cpp:2767"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Causes the spell's victims to move more slowly.",
+    "target": "使该法术的受害者移动得更慢。",
+    "locations": [
+      "src/spells.cpp:4290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Causes the victims to faint for ",
+    "target": "导致受害人昏厥 ",
+    "locations": [
+      "src/spells.cpp:1957"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Channels the chaos of Azathoth unto all visible enemies. The channel can only be opened for a fraction of a second, but even this is enough to cause great physical and mental devastation.",
+    "target": "将阿撒托斯的混乱引导至所有可见的敌人。通道开启的时间只有不到一秒，但即便如此，也足以造成巨大的身心摧残。",
+    "locations": [
+      "src/spells.cpp:1946"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chop",
+    "target": "劈",
+    "locations": [
+      "src/item_data.cpp:986"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chops",
+    "target": "排骨",
+    "locations": [
+      "src/item_data.cpp:986"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chromium",
+    "target": "铬",
+    "locations": [
+      "src/item_rod.cpp:66"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clairvoyance",
+    "target": "千里眼",
+    "locations": [
+      "src/spells.cpp:977"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Claw",
+    "target": "爪",
+    "locations": [
+      "src/item_data.cpp:1187"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "claw",
+    "target": "抓挠",
+    "locations": [
+      "src/item_data.cpp:1188"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "clawing",
+    "target": "抓挠",
+    "locations": [
+      "src/item_data.cpp:1187"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "claws",
+    "target": "抓挠",
+    "locations": [
+      "src/item_data.cpp:1214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clear",
+    "target": "清除",
+    "locations": [
+      "src/item_potion.cpp:135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clotted",
+    "target": "凝结的",
+    "locations": [
+      "src/item_potion.cpp:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cloud Minds",
+    "target": "云心",
+    "locations": [
+      "src/item_rod.cpp:330"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Club",
+    "target": "俱乐部",
+    "locations": [
+      "src/item_data.cpp:930"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clubs",
+    "target": "俱乐部",
+    "locations": [
+      "src/item_data.cpp:930"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cobalt",
+    "target": "钴",
+    "locations": [
+      "src/item_rod.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Colt .45ACP Magazine",
+    "target": "柯尔特 .45 ACP 弹匣",
+    "locations": [
+      "src/item_data.cpp:605"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Colt .45ACP Magazines",
+    "target": "柯尔特 .45 ACP 弹匣",
+    "locations": [
+      "src/item_data.cpp:606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Commonly associated with deception, stealth, and treachery. Many assassinations have been carried out with the use of a dagger.",
+    "target": "通常与欺骗、秘密行动和背叛有关。许多暗杀都是使用匕首进行的。",
+    "locations": [
+      "src/item_data.cpp:873"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Compared to a standard shotgun, the sawed-off has a shorter effective range - however, at close range it is more devastating. It holds two barrels, and needs to be reloaded after both are discharged.",
+    "target": "与标准霰弹枪相比，锯短型霰弹枪的有效射程较短，但在近距离时更具破坏性。它装有两个枪管，两个枪管都卸完后需要重新装弹。",
+    "locations": [
+      "src/item_data.cpp:379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Completely protects the consumer from electricity, fire and poison - and also prevents paralysis.",
+    "target": "完全保护消费者免受电、火和毒害 - 并防止瘫痪。",
+    "locations": [
+      "src/item_potion.cpp:871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Comprehended ",
+    "target": "领悟了 ",
+    "locations": [
+      "src/item_device.cpp:92"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Confusion",
+    "target": "困惑",
+    "locations": [
+      "src/item_potion.cpp:630"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Conjures ghostly copies of carried weapons, which will float through the air and protect their master. It is only possible to create copies of basic melee weapons - \"modern\" mechanisms such as pistols or machine guns are far too complex.",
+    "target": "召唤出携带武器的幽灵复制品，它们会漂浮在空中并保护它们的主人。只能制造基本近战武器的副本 - “现代”机制（例如手枪或机枪）过于复杂。",
+    "locations": [
+      "src/spells.cpp:2575"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Continue using ",
+    "target": "继续使用 ",
+    "locations": [
+      "src/item_misc.cpp:406"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Converts Manuscripts with ",
+    "target": "将手稿转换为 ",
+    "locations": [
+      "src/spells.cpp:5326"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Converts Potions with ",
+    "target": "将药水转换为 ",
+    "locations": [
+      "src/spells.cpp:5321"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Copper",
+    "target": "铜",
+    "locations": [
+      "src/item_rod.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "covertly ",
+    "target": "隐蔽 ",
+    "locations": [
+      "src/attack_melee.cpp:163"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Crudux",
+    "target": "克鲁杜克斯",
+    "locations": [
+      "src/item_scroll.cpp:117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruensseasrjit",
+    "target": "克鲁恩西斯吉特",
+    "locations": [
+      "src/item_scroll.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "CRUENTO",
+    "target": "克鲁恩托",
+    "locations": [
+      "src/item_curse.cpp:500"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruento Pestis",
+    "target": "鼠疫杆菌",
+    "locations": [
+      "src/item_scroll.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruentu",
+    "target": "克鲁恩图",
+    "locations": [
+      "src/item_scroll.cpp:102"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruo",
+    "target": "克鲁奥",
+    "locations": [
+      "src/item_scroll.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruo stragara-na",
+    "target": "杂草",
+    "locations": [
+      "src/item_scroll.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruonit",
+    "target": "克鲁尼特",
+    "locations": [
+      "src/item_scroll.cpp:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "CTHUGHA",
+    "target": "克图加",
+    "locations": [
+      "src/item_curse.cpp:566"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cures weakening, life sapping, and poisoning.",
+    "target": "治疗虚弱、生命消耗和中毒。",
+    "locations": [
+      "src/spells.cpp:4908"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cures weakening, life sapping, poisoning, infections, disease, blindness, and deafness.",
+    "target": "治愈虚弱、生命垂危、中毒、感染、疾病、失明和耳聋。",
+    "locations": [
+      "src/spells.cpp:4912"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Curing",
+    "target": "养护",
+    "locations": [
+      "src/item_potion.cpp:797"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Dagger",
+    "target": "匕首",
+    "locations": [
+      "src/item_data.cpp:871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Daggers",
+    "target": "匕首",
+    "locations": [
+      "src/item_data.cpp:871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DARK",
+    "target": "黑暗的",
+    "locations": [
+      "src/item_curse.cpp:520"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Dark",
+    "target": "黑暗的",
+    "locations": [
+      "src/item_potion.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Deafening",
+    "target": "震耳欲聋",
+    "locations": [
+      "src/item_rod.cpp:448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DEATH",
+    "target": "死亡",
+    "locations": [
+      "src/item_curse.cpp:503"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DECAY",
+    "target": "衰变",
+    "locations": [
+      "src/item_curse.cpp:523"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Descent",
+    "target": "血统",
+    "locations": [
+      "src/item_potion.cpp:905"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Desco",
+    "target": "德斯科",
+    "locations": [
+      "src/item_scroll.cpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "destroying corpses",
+    "target": "摧毁尸体",
+    "locations": [
+      "src/inventory_handling.cpp:682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Destroys any altars, monoliths, gongs, or mirrors adjacent to the caster.",
+    "target": "摧毁施法者附近的任何祭坛、巨石、锣或镜子。",
+    "locations": [
+      "src/spells.cpp:2924"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Destruction rages around ",
+    "target": "破坏肆虐四方 ",
+    "locations": [
+      "src/spells.cpp:2052"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "DIMENSIONS",
+    "target": "方面",
+    "locations": [
+      "src/item_curse.cpp:532"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DISAPPEAR",
+    "target": "消失",
+    "locations": [
+      "src/item_curse.cpp:521"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "disappear",
+    "target": "消失",
+    "locations": [
+      "src/spells.cpp:5184"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "disappears",
+    "target": "消失",
+    "locations": [
+      "src/spells.cpp:5183"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Disease",
+    "target": "疾病",
+    "locations": [
+      "include/spells.hpp:2360",
+      "src/item_potion.cpp:597"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Displacement",
+    "target": "排量",
+    "locations": [
+      "src/item_rod.cpp:647"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DOMINIONS",
+    "target": "领土",
+    "locations": [
+      "src/item_curse.cpp:538"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Domus",
+    "target": "多莫斯",
+    "locations": [
+      "src/item_scroll.cpp:104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Domus-bhaava",
+    "target": "多莫斯-巴瓦",
+    "locations": [
+      "src/item_scroll.cpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Drink ",
+    "target": "喝 ",
+    "locations": [
+      "src/item_potion.cpp:239"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Drinking a malign potion also applies its effect to all nearby creatures (maximum distance is 6).",
+    "target": "饮用邪恶药水也会对附近所有生物施加效果（最大距离为 6）。",
+    "locations": [
+      "src/item_data.cpp:1974"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Drum of .45 ACP",
+    "target": ".45 ACP 鼓",
+    "locations": [
+      "src/item_data.cpp:522"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Drums of .45 ACP",
+    "target": ".45 ACP 鼓",
+    "locations": [
+      "src/item_data.cpp:523"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Due to its quality, damage is ",
+    "target": "由于其质量原因，损坏是 ",
+    "locations": [
+      "src/inventory_handling.cpp:638"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Due to the small eye windows, aiming is slightly more difficult, and it is harder to detect sneaking enemies and hidden objects (-10% melee and ranged hit chance, -6% searching).",
+    "target": "由于眼睛窗口较小，瞄准稍微困难一些，并且更难发现潜行的敌人和隐藏的物体（-10% 近战和远程命中几率，-6% s 搜索）。",
+    "locations": [
+      "src/item_data.cpp:1530"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Durbentia",
+    "target": "杜本蒂亚",
+    "locations": [
+      "src/item_scroll.cpp:92"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "DYING",
+    "target": "垂死",
+    "locations": [
+      "src/item_curse.cpp:504"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Dynamite",
+    "target": "炸药",
+    "locations": [
+      "src/item_data.cpp:767"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Electric Gun",
+    "target": "电动枪",
+    "locations": [
+      "src/item_data.cpp:690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Electric Lantern",
+    "target": "电灯笼",
+    "locations": [
+      "src/item_data.cpp:1877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Electric Lanterns",
+    "target": "电灯笼",
+    "locations": [
+      "src/item_data.cpp:1877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Enchantment",
+    "target": "魅力",
+    "locations": [
+      "src/spells.cpp:980"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "END",
+    "target": "结尾",
+    "locations": [
+      "src/item_curse.cpp:507"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "engulfs",
+    "target": "吞没",
+    "locations": [
+      "src/item_data.cpp:1382",
+      "src/item_data.cpp:1388",
+      "src/item_data.cpp:1394"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "erudition",
+    "target": "博学",
+    "locations": [
+      "src/spells.cpp:677"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Esco",
+    "target": "埃斯科",
+    "locations": [
+      "src/item_scroll.cpp:119"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ETERNAL",
+    "target": "永恒",
+    "locations": [
+      "src/item_curse.cpp:527"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Eximha",
+    "target": "埃克西姆哈",
+    "locations": [
+      "src/item_scroll.cpp:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "expert",
+    "target": "专家",
+    "locations": [
+      "src/spells.cpp:1007"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "EYES",
+    "target": "眼睛",
+    "locations": [
+      "src/item_curse.cpp:533"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "fails to concentrate.",
+    "target": "无法集中注意力。",
+    "locations": [
+      "src/common_text.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "FATE",
+    "target": "命运",
+    "locations": [
+      "src/item_curse.cpp:513"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "feebly ",
+    "target": "有气无力地 ",
+    "locations": [
+      "src/attack_melee.cpp:160"
+    ],
+    "kind": "fragment"
+  }
+]

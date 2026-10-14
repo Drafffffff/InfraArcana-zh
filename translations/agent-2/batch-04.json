@@ -1,0 +1,1256 @@
+[
+  {
+    "source": "Fiery",
+    "target": "火热",
+    "locations": [
+      "src/item_potion.cpp:128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "fire",
+    "target": "火",
+    "locations": [
+      "src/item_data.cpp:393",
+      "src/item_data.cpp:423",
+      "src/item_data.cpp:476",
+      "src/item_data.cpp:507",
+      "src/item_data.cpp:550",
+      "src/item_data.cpp:592",
+      "src/item_data.cpp:633",
+      "src/item_data.cpp:675",
+      "src/item_data.cpp:722"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Fire is spreading!",
+    "target": "火势正在蔓延！",
+    "locations": [
+      "src/common_text.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "fires",
+    "target": "火灾",
+    "locations": [
+      "src/item_data.cpp:393",
+      "src/item_data.cpp:423",
+      "src/item_data.cpp:476",
+      "src/item_data.cpp:507",
+      "src/item_data.cpp:550",
+      "src/item_data.cpp:592",
+      "src/item_data.cpp:633",
+      "src/item_data.cpp:675",
+      "src/item_data.cpp:722"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Flak Jacket",
+    "target": "防弹夹克",
+    "locations": [
+      "src/item_data.cpp:1468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Flames are rising around ",
+    "target": "周围火焰升腾 ",
+    "locations": [
+      "src/spells.cpp:5029"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Flare",
+    "target": "耀斑",
+    "locations": [
+      "src/item_data.cpp:781"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Flares",
+    "target": "照明弹",
+    "locations": [
+      "src/item_data.cpp:781"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Fluctuating Material",
+    "target": "波动材料",
+    "locations": [
+      "src/item_data.cpp:2324"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "focused",
+    "target": "专注的",
+    "locations": [
+      "src/spells.cpp:682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "FOLLOW",
+    "target": "跟随",
+    "locations": [
+      "src/item_curse.cpp:537"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "For each hit point sacrificed, ",
+    "target": "对于每牺牲一个生命值， ",
+    "locations": [
+      "src/spells.cpp:5617",
+      "src/spells.cpp:5623"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "FORBIDDEN",
+    "target": "禁忌",
+    "locations": [
+      "src/item_curse.cpp:536"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Force Field Device",
+    "target": "力场装置",
+    "locations": [
+      "src/item_data.cpp:1810"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Force Field Devices",
+    "target": "力场设备",
+    "locations": [
+      "src/item_data.cpp:1811"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Forgotten - this spell can no longer be cast from memory. ",
+    "target": "遗忘 - 该法术无法再凭记忆施展。 ",
+    "locations": [
+      "src/spells.cpp:1306"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Fortitude",
+    "target": "刚毅",
+    "locations": [
+      "src/item_potion.cpp:663"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Frothy",
+    "target": "泡沫",
+    "locations": [
+      "src/item_potion.cpp:141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gahana, The Black Dagger",
+    "target": "黑匕首加哈纳",
+    "locations": [
+      "src/item_data.cpp:2155",
+      "src/item_data.cpp:2157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gallium",
+    "target": "镓",
+    "locations": [
+      "src/item_rod.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gas Mask",
+    "target": "防毒面具",
+    "locations": [
+      "src/item_data.cpp:1524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "GATE",
+    "target": "门",
+    "locations": [
+      "src/item_curse.cpp:548"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gateways",
+    "target": "网关",
+    "locations": [
+      "src/item_rod.cpp:485"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "GAZE",
+    "target": "目光",
+    "locations": [
+      "src/item_curse.cpp:535"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gero",
+    "target": "下吕",
+    "locations": [
+      "src/item_scroll.cpp:120"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Geropayati",
+    "target": "格罗帕亚蒂",
+    "locations": [
+      "src/item_scroll.cpp:89"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gives the consumer complete peace and clarity of mind, and cures mind sapping.",
+    "target": "给消费者带来完全的平静和清醒的头脑，并治愈精神衰弱。",
+    "locations": [
+      "src/item_potion.cpp:669"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glancing at the material is like looking into a kaleidoscope - and it feels like gazing too deep will transmute the very nature of the observer (choose one trait to remove, and then pick a new one).",
+    "target": "浏览这块材料就像看万花筒——仿佛看得太深会改变观察者的本质（选择一个特质将其移除，然后选择一个新特质）。",
+    "locations": [
+      "src/item_data.cpp:2332"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "GOL-GOROTH",
+    "target": "戈尔戈罗斯",
+    "locations": [
+      "src/item_curse.cpp:554"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Golden",
+    "target": "金的",
+    "locations": [
+      "src/item_potion.cpp:120",
+      "src/item_rod.cpp:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Grants foresight of attacks against the caster, making it extremely difficult for assailants to achieve a succesful hit.",
+    "target": "赋予对施法者攻击的先见之明，使攻击者很难成功击中。",
+    "locations": [
+      "src/spells.cpp:3513"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Grants protection against harmful spells. The effect lasts until a spell is blocked.",
+    "target": "提供针对有害法术的保护。该效果会持续到法术被阻挡为止。",
+    "locations": [
+      "src/spells.cpp:3366"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Grants the caster the ability to see the invisible.",
+    "target": "赋予施法者看到无形之物的能力。",
+    "locations": [
+      "src/spells.cpp:3307"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Grants the owner the ability to control the destination when teleporting.",
+    "target": "赋予所有者传送时控制目的地的能力。",
+    "locations": [
+      "src/item_data.cpp:2039"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Green",
+    "target": "绿色的",
+    "locations": [
+      "src/item_potion.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hammer",
+    "target": "锤",
+    "locations": [
+      "src/item_data.cpp:956"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hammers",
+    "target": "锤子",
+    "locations": [
+      "src/item_data.cpp:956"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Handfuls of Zombie Dust",
+    "target": "一把僵尸灰​​尘",
+    "locations": [
+      "src/item_data.cpp:2243"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "HASTUR",
+    "target": "哈斯塔",
+    "locations": [
+      "src/item_curse.cpp:556"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hatchet",
+    "target": "斧头",
+    "locations": [
+      "src/item_data.cpp:901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hatchets",
+    "target": "斧头",
+    "locations": [
+      "src/item_data.cpp:901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Head",
+    "target": "头",
+    "locations": [
+      "src/inventory.cpp:38"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Heals one wound.",
+    "target": "治愈一处创伤。",
+    "locations": [
+      "src/spells.cpp:4917"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "HEAR",
+    "target": "听到",
+    "locations": [
+      "src/item_curse.cpp:550"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Heavy Coat",
+    "target": "厚外套",
+    "locations": [
+      "src/item_data.cpp:1431"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Higher skill levels increases the magnitude of the destruction.",
+    "target": "更高的技能水平会增加破坏的程度。",
+    "locations": [
+      "src/spells.cpp:2203"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hit points are lowered to the limit where the Moribund effect is activated (bonuses for having low hit points). This limit is at ",
+    "target": "生命值降低到激活垂死效果的极限（生命值低的奖励）。这个限制是在 ",
+    "locations": [
+      "src/spells.cpp:5698"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Holy Symbol",
+    "target": "圣徽",
+    "locations": [
+      "src/item_data.cpp:2056"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Horn of Banishment",
+    "target": "放逐号角",
+    "locations": [
+      "src/item_data.cpp:2133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Horn of Malice",
+    "target": "恶意号角",
+    "locations": [
+      "src/item_data.cpp:2109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I ",
+    "target": "我 ",
+    "locations": [
+      "src/attack_melee.cpp:147",
+      "src/attack_melee.cpp:178",
+      "src/attack_ranged.cpp:193",
+      "src/bash.cpp:372",
+      "src/bash.cpp:79",
+      "src/bash.cpp:86",
+      "src/game_commands.cpp:311",
+      "src/game_commands.cpp:321",
+      "src/game_commands.cpp:330",
+      "src/terrain.cpp:1941"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I activate ",
+    "target": "我激活 ",
+    "locations": [
+      "src/item_device.cpp:211",
+      "src/item_rod.cpp:200"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am",
+    "target": "我是",
+    "locations": [
+      "src/spells.cpp:1685"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am already holding ",
+    "target": "我已经持有 ",
+    "locations": [
+      "src/item_explosive.cpp:64"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am being teleported...",
+    "target": "我正在被传送……",
+    "locations": [
+      "src/item_curse.cpp:659"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am growing very attached to ",
+    "target": "我越来越依恋 ",
+    "locations": [
+      "src/item_curse.cpp:291"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am hit",
+    "target": "我被击中了",
+    "locations": [
+      "src/attack_melee.cpp:286",
+      "src/attack_ranged.cpp:262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am not infected.",
+    "target": "我没有被感染。",
+    "locations": [
+      "src/item_misc.cpp:272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am now using ",
+    "target": "我现在正在使用 ",
+    "locations": [
+      "src/inventory.cpp:693"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am now wearing ",
+    "target": "我现在穿着 ",
+    "locations": [
+      "src/inventory.cpp:699",
+      "src/inventory.cpp:703"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am now wielding ",
+    "target": "我现在正在挥舞着 ",
+    "locations": [
+      "src/inventory.cpp:688"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am starting to think that I should hold on to ",
+    "target": "我开始觉得我应该坚持下去 ",
+    "locations": [
+      "src/item_curse.cpp:294"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I carry no armor.",
+    "target": "我没有携带盔甲。",
+    "locations": [
+      "src/inventory_handling.cpp:1481"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I carry no headwear.",
+    "target": "我没有带头饰。",
+    "locations": [
+      "src/inventory_handling.cpp:1488"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I carry no throwing weapons.",
+    "target": "我没有携带投掷武器。",
+    "locations": [
+      "src/inventory_handling.cpp:1670"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I carry no weapon to wield.",
+    "target": "我没有携带武器。",
+    "locations": [
+      "src/inventory_handling.cpp:1467",
+      "src/inventory_handling.cpp:1474"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I carry nothing to apply.",
+    "target": "我没有携带任何东西可以申请。",
+    "locations": [
+      "src/inventory_handling.cpp:1054"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I clutch the ",
+    "target": "我紧紧抓住 ",
+    "locations": [
+      "src/item_misc.cpp:1106"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I destroy the profane ",
+    "target": "我摧毁亵渎 ",
+    "locations": [
+      "src/item_scroll.cpp:319"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I destroy the profane text!",
+    "target": "我毁掉那些亵渎的文字！",
+    "locations": [
+      "src/item_misc.cpp:1076"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I do not have enough medical supplies.",
+    "target": "我没有足够的医疗用品。",
+    "locations": [
+      "src/item_misc.cpp:152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I drink ",
+    "target": "我喝 ",
+    "locations": [
+      "src/item_potion.cpp:268"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I drink an unknown ",
+    "target": "我喝着不知名的酒 ",
+    "locations": [
+      "src/item_potion.cpp:275"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I fade out of existence and reappear.",
+    "target": "我消失并重新出现。",
+    "locations": [
+      "src/item_potion.cpp:1037"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I fail to concentrate!",
+    "target": "我无法集中注意力！",
+    "locations": [
+      "src/common_text.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel a faint sinking sensation, but it soon disappears...",
+    "target": "我感觉到一种淡淡的下沉感，但很快就消失了……",
+    "locations": [
+      "src/item_potion.cpp:931"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel dizzy.",
+    "target": "我感觉头昏眼花。",
+    "locations": [
+      "src/spells.cpp:4972"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel fine.",
+    "target": "我感觉很好。",
+    "locations": [
+      "src/item_potion.cpp:843"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel insightful.",
+    "target": "我感觉很有洞察力。",
+    "locations": [
+      "src/item_potion.cpp:782"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel like ",
+    "target": "我觉得 ",
+    "locations": [
+      "src/item_potion.cpp:369",
+      "src/item_scroll.cpp:298"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I feel like I have very little to offer.",
+    "target": "我觉得我能提供的东西很少。",
+    "locations": [
+      "src/spells.cpp:5587"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel like praying over the ",
+    "target": "我想为 ",
+    "locations": [
+      "src/item_misc.cpp:904"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I feel more at ease.",
+    "target": "我感觉更安心了。",
+    "locations": [
+      "src/item_potion.cpp:701"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I find nothing there to disarm.",
+    "target": "我发现那里没有什么可以解除武装的。",
+    "locations": [
+      "src/common_text.cpp:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have identified ",
+    "target": "我已确定 ",
+    "locations": [
+      "src/item_device.cpp:88",
+      "src/item_potion.cpp:318",
+      "src/item_rod.cpp:267",
+      "src/item_scroll.cpp:436"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I have no faith that this would help me at the moment.",
+    "target": "我不相信这对我现在有帮助。",
+    "locations": [
+      "src/item_misc.cpp:830"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have no wounds to treat.",
+    "target": "我没有需要治疗的创伤。",
+    "locations": [
+      "src/item_misc.cpp:281"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have taken off my ",
+    "target": "我已经脱下我的 ",
+    "locations": [
+      "src/inventory.cpp:743",
+      "src/inventory.cpp:747"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I hear a bolt of electricity.",
+    "target": "我听到一道闪电声。",
+    "locations": [
+      "src/item_data.cpp:723"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a burst of flames.",
+    "target": "我听到一阵火焰的声音。",
+    "locations": [
+      "src/item_data.cpp:1289",
+      "src/terrain_trap.cpp:1152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a burst of lightning.",
+    "target": "我听到一阵闪电。",
+    "locations": [
+      "src/item_data.cpp:1301"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a clanking sound.",
+    "target": "我听到叮叮当当的声音。",
+    "locations": [
+      "src/item_data.cpp:1143",
+      "src/item_data.cpp:127",
+      "src/item_data.cpp:1887",
+      "src/item_data.cpp:2376",
+      "src/item_data.cpp:285",
+      "src/item_data.cpp:307",
+      "src/item_data.cpp:841"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a crashing sound.",
+    "target": "我听到一声撞击声。",
+    "locations": [
+      "src/item_data.cpp:1462"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a faint whistling sound coming nearer...",
+    "target": "我听到一阵微弱的呼啸声越来越近……",
+    "locations": [
+      "src/item_curse.cpp:702"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a gushing sound.",
+    "target": "我听到涌出的声音。",
+    "locations": [
+      "src/item_data.cpp:1277"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a hammering sound.",
+    "target": "我听到敲击声。",
+    "locations": [
+      "src/item_data.cpp:1265"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a pistol being fired.",
+    "target": "我听到手枪开火的声音。",
+    "locations": [
+      "src/item_data.cpp:593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a revolver being fired.",
+    "target": "我听到左轮手枪开火的声音。",
+    "locations": [
+      "src/item_data.cpp:551"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a ricochet.",
+    "target": "我听到弹跳声。",
+    "locations": [
+      "src/attack_ranged.cpp:359"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a rifle being fired.",
+    "target": "我听到步枪开火的声音。",
+    "locations": [
+      "src/item_data.cpp:634"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a shotgun blast.",
+    "target": "我听到霰弹枪爆炸声。",
+    "locations": [
+      "src/item_data.cpp:394",
+      "src/item_data.cpp:424"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a thud.",
+    "target": "我听到砰的一声。",
+    "locations": [
+      "src/item_data.cpp:2348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a thudding sound.",
+    "target": "我听到一声重击的声音。",
+    "locations": [
+      "src/item_data.cpp:1481",
+      "src/item_data.cpp:2516",
+      "src/item_data.cpp:950"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a very crude weapon being fired.",
+    "target": "我听到一种非常简陋的武器正在开火。",
+    "locations": [
+      "src/item_data.cpp:676"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a whooshing sound.",
+    "target": "我听到嘶嘶的声音。",
+    "locations": [
+      "src/item_data.cpp:1355"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear an explosion!",
+    "target": "我听到爆炸声！",
+    "locations": [
+      "src/explosion.cpp:398",
+      "src/item_explosive.cpp:222",
+      "src/item_explosive.cpp:245",
+      "src/item_explosive.cpp:275",
+      "src/spells.cpp:2114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear an impact.",
+    "target": "我听到了撞击声。",
+    "locations": [
+      "src/spells.cpp:1665"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear fighting.",
+    "target": "我听到打斗声。",
+    "locations": [
+      "src/attack_melee.cpp:422"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear hissing and spitting.",
+    "target": "我听到嘶嘶声和吐口水的声音。",
+    "locations": [
+      "src/item_data.cpp:1256"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear something rushing through the air.",
+    "target": "我听到有什么东西在空中呼啸而过。",
+    "locations": [
+      "src/spells.cpp:1628"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear spitting.",
+    "target": "我听到吐口水的声音。",
+    "locations": [
+      "src/item_data.cpp:1247"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear the blast of a launched projectile.",
+    "target": "我听到发射弹丸的爆炸声。",
+    "locations": [
+      "src/item_data.cpp:477"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear the burst of a machine gun.",
+    "target": "我听到机关枪的扫射声。",
+    "locations": [
+      "src/item_data.cpp:508"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear the launching of a projectile.",
+    "target": "我听到射弹发射的声音。",
+    "locations": [
+      "src/item_data.cpp:735"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I ignite a smoke grenade.",
+    "target": "我点燃了烟雾弹。",
+    "locations": [
+      "src/item_explosive.cpp:350"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I light a dynamite stick.",
+    "target": "我点燃了一根炸药棒。",
+    "locations": [
+      "src/item_explosive.cpp:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I light a Flare.",
+    "target": "我点亮了照明弹。",
+    "locations": [
+      "src/item_explosive.cpp:296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I light a Molotov Cocktail.",
+    "target": "我点了一杯燃烧弹。",
+    "locations": [
+      "src/item_explosive.cpp:187"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I make a prayer over the ",
+    "target": "我为 ",
+    "locations": [
+      "src/item_misc.cpp:845"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I miss.",
+    "target": "我失手了。",
+    "locations": [
+      "src/attack_melee.cpp:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I patch up some minor injuries.",
+    "target": "我包扎一些小伤。",
+    "locations": [
+      "src/item_misc.cpp:168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I put away my ",
+    "target": "我收起了我的 ",
+    "locations": [
+      "src/inventory.cpp:735",
+      "src/inventory.cpp:739"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I read ",
+    "target": "我读了 ",
+    "locations": [
+      "src/item_scroll.cpp:366"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I recite the forbidden incantations on the manuscript...",
+    "target": "我背诵手稿上的禁忌咒语……",
+    "locations": [
+      "src/item_scroll.cpp:371"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I refuse to drop the ",
+    "target": "我拒绝放弃 ",
+    "locations": [
+      "src/inventory_handling.cpp:1366"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I refuse to throw the ",
+    "target": "我拒绝扔 ",
+    "locations": [
+      "src/inventory_handling.cpp:1789"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I sense a stillness permeating throughout the area.",
+    "target": "我感觉到整个区域弥漫着寂静。",
+    "locations": [
+      "src/common_text.cpp:83"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I somehow sense that a burst of energy is discharged from ",
+    "target": "我隐约感觉到一股能量从体内释放出来 ",
+    "locations": [
+      "src/item_curse.cpp:653"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I stare into the ",
+    "target": "我凝视着 ",
+    "locations": [
+      "src/item_misc.cpp:1196"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I start to sanitize an infection",
+    "target": "我开始消毒感染",
+    "locations": [
+      "src/item_misc.cpp:176"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I start treating a wound",
+    "target": "我开始治疗创伤",
+    "locations": [
+      "src/item_misc.cpp:172"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I turn off",
+    "target": "我关掉",
+    "locations": [
+      "src/item_misc.cpp:588"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I turn on",
+    "target": "我打开",
+    "locations": [
+      "src/item_misc.cpp:589"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I use the ",
+    "target": "我用的是 ",
+    "locations": [
+      "src/item_misc.cpp:1234"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I vanish from the minds of my enemies.",
+    "target": "我从敌人的脑海中消失了。",
+    "locations": [
+      "src/item_rod.cpp:348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I wind up the clockwork.",
+    "target": "我给发条上发条。",
+    "locations": [
+      "src/item_misc.cpp:1006"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Identified ",
+    "target": "已鉴定 ",
+    "locations": [
+      "src/item_potion.cpp:320",
+      "src/item_rod.cpp:269",
+      "src/item_scroll.cpp:438"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Identifies one carried item.",
+    "target": "识别一件携带物品。",
+    "locations": [
+      "src/spells.cpp:3682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "If at least ",
+    "target": "如果至少 ",
+    "locations": [
+      "src/spells.cpp:5705"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Illuminates the area around the caster.",
+    "target": "照亮施法者周围的区域。",
+    "locations": [
+      "src/spells.cpp:3133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Immediately identifies all carried items.",
+    "target": "立即识别所有携带的物品。",
+    "locations": [
+      "src/spells.cpp:3677"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "IMMORTAL",
+    "target": "不朽",
+    "locations": [
+      "src/item_curse.cpp:524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Incites a great rage in the caster, who will charge their enemies with a terrible, uncontrollable fury.",
+    "target": "激起施法者的巨大愤怒，施法者将以可怕的、无法控制的愤怒冲向敌人。",
+    "locations": [
+      "src/spells.cpp:2961"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "INFIRMUX",
+    "target": "因菲尔穆克斯",
+    "locations": [
+      "src/item_curse.cpp:498"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infirmux",
+    "target": "因菲尔克斯",
+    "locations": [
+      "src/item_scroll.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infused with the alchemically treated blood of Chthonians, it grants the consumer the ability to burrow through earth and rock (can burrow through walls and rubble).",
+    "target": "它注入了经过炼金术处理的冥神之血，赋予使用者在泥土和岩石中挖掘的能力（可以挖掘墙壁和瓦砾）。",
+    "locations": [
+      "src/item_potion.cpp:1066"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Insight",
+    "target": "洞察力",
+    "locations": [
+      "src/item_potion.cpp:753"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Instantly moves the caster to a different position.",
+    "target": "立即将脚轮移动到不同的位置。",
+    "locations": [
+      "src/spells.cpp:3775"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Invisuu",
+    "target": "隐形",
+    "locations": [
+      "src/item_scroll.cpp:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Invisux",
+    "target": "隐形眼镜",
+    "locations": [
+      "src/item_scroll.cpp:113"
+    ],
+    "kind": "ui"
+  }
+]

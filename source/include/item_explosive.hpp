@@ -72,7 +72,7 @@ public:
 
         std::string str_on_player_throw() const override
         {
-                return "I throw a lit dynamite stick.";
+                return "我扔出一根点燃的炸药棒。";
         }
 
 protected:
@@ -101,7 +101,7 @@ public:
 
         std::string str_on_player_throw() const override
         {
-                return "I throw a lit Molotov Cocktail.";
+                return "我扔出一瓶点燃的燃烧瓶。";
         }
 
 protected:
@@ -129,7 +129,7 @@ public:
 
         std::string str_on_player_throw() const override
         {
-                return "I throw a lit flare.";
+                return "我扔出一支点燃的信号棒。";
         }
 
 protected:
@@ -154,7 +154,7 @@ public:
 
         std::string str_on_player_throw() const override
         {
-                return "I throw a smoke grenade.";
+                return "我扔出一枚烟雾弹。";
         }
 
 protected:

@@ -1,0 +1,874 @@
+[
+  {
+    "source": "' of length '",
+    "target": "' 的长度为 '"
+  },
+  {
+    "source": "' will not fit in panel of width '",
+    "target": "' 无法放入宽度为 '"
+  },
+  {
+    "source": "A gruesome path lies ahead.",
+    "target": "前方有一条骇人的道路。"
+  },
+  {
+    "source": "Addict",
+    "target": "成瘾者"
+  },
+  {
+    "source": "Addicted to Astral Opium - the addiction will cease eventually if Astral Opium is not used again, however the abstinence will soon cause withdrawal symptoms (increased minimum shock). The addiction is too powerful and otherwordly to be cured by a Potion of Fortitude.",
+    "target": "沉溺于星界鸦片——若不再使用星界鸦片，成瘾最终会消退；但戒断很快会引发症状（最低震慑值上升）。这种成瘾力量过于强大、过于异界，坚毅药水也无法治愈。"
+  },
+  {
+    "source": "Any time the caster is harmed by a melee attack, ranged attack or damaging spell, the attacker is struck by an irresistible force.",
+    "target": "施法者每次受到近战、远程或伤害性法术攻击时，攻击者都会遭到一股不可抗拒的力量反击。"
+  },
+  {
+    "source": "Astral Opium Addiction",
+    "target": "星界鸦片成瘾"
+  },
+  {
+    "source": "Became permanently blind",
+    "target": "永久失明"
+  },
+  {
+    "source": "Became permanently deaf",
+    "target": "永久失聪"
+  },
+  {
+    "source": "Became perpetually hasted",
+    "target": "永久获得加速"
+  },
+  {
+    "source": "Became perpetually slowed",
+    "target": "永久减速"
+  },
+  {
+    "source": "Blind",
+    "target": "失明"
+  },
+  {
+    "source": "Blind Res",
+    "target": "盲抗"
+  },
+  {
+    "source": "Blindness Resistance",
+    "target": "失明抗性"
+  },
+  {
+    "source": "Burning",
+    "target": "燃烧"
+  },
+  {
+    "source": "can breath without harm.",
+    "target": "可以安然呼吸。"
+  },
+  {
+    "source": "can move again.",
+    "target": "可以重新移动。"
+  },
+  {
+    "source": "can see again.",
+    "target": "可以重新看见。"
+  },
+  {
+    "source": "Cannot be affected by harmful spells.",
+    "target": "不会受到有害法术影响。"
+  },
+  {
+    "source": "Cannot be blinded.",
+    "target": "不会失明。"
+  },
+  {
+    "source": "Cannot be harmed by constricted breathing.",
+    "target": "不会因呼吸受阻而受伤。"
+  },
+  {
+    "source": "Cannot be harmed by electricity.",
+    "target": "不会受到电击伤害。"
+  },
+  {
+    "source": "Cannot be harmed by fire.",
+    "target": "不会受到火焰伤害。"
+  },
+  {
+    "source": "Cannot be harmed by physical attacks.",
+    "target": "不会受到物理攻击伤害。"
+  },
+  {
+    "source": "Cannot be harmed by poison.",
+    "target": "不会受到毒素伤害。"
+  },
+  {
+    "source": "Cannot be magically slowed.",
+    "target": "不会被魔法减速。"
+  },
+  {
+    "source": "Cannot be paralyzed.",
+    "target": "不会陷入麻痹。"
+  },
+  {
+    "source": "Cannot become confused.",
+    "target": "不会陷入困惑。"
+  },
+  {
+    "source": "Cannot become diseased.",
+    "target": "不会感染疾病。"
+  },
+  {
+    "source": "Cannot faint or become hypnotized.",
+    "target": "不会昏厥或被催眠。"
+  },
+  {
+    "source": "Cannot hear sounds.",
+    "target": "听不见声音。"
+  },
+  {
+    "source": "Cannot move.",
+    "target": "无法移动。"
+  },
+  {
+    "source": "Cannot perform melee attacks, -20% ranged hit chance, +20% chance to evade attacks.",
+    "target": "无法进行近战攻击，远程命中率 -20%，闪避攻击的几率 +20%。"
+  },
+  {
+    "source": "Cannot see, -20% hit chance, -50% chance to evade attacks.",
+    "target": "无法视物，命中率 -20%，闪避攻击的几率 -50%。"
+  },
+  {
+    "source": "Conf Res",
+    "target": "困抗"
+  },
+  {
+    "source": "Confused",
+    "target": "困惑"
+  },
+  {
+    "source": "Confusion Resistance",
+    "target": "困惑抗性"
+  },
+  {
+    "source": "Crims Psg",
+    "target": "绯红通道"
+  },
+  {
+    "source": "Crimson Passage",
+    "target": "绯红通道"
+  },
+  {
+    "source": "Deaf",
+    "target": "失聪"
+  },
+  {
+    "source": "Disease Res",
+    "target": "病抗"
+  },
+  {
+    "source": "Disease Resistance",
+    "target": "疾病抗性"
+  },
+  {
+    "source": "Elec Res",
+    "target": "电抗"
+  },
+  {
+    "source": "Electric Resistance",
+    "target": "电击抗性"
+  },
+  {
+    "source": "Everything around me seems to slow down.",
+    "target": "周围的一切似乎都慢了下来。"
+  },
+  {
+    "source": "Everything around me seems to speed up a lot.",
+    "target": "周围的一切似乎都快了许多。"
+  },
+  {
+    "source": "Everything around me seems to speed up.",
+    "target": "周围的一切似乎都快了起来。"
+  },
+  {
+    "source": "Everything around me suddenly seems very still.",
+    "target": "周围的一切突然静止不动了。"
+  },
+  {
+    "source": "Extra Hasted",
+    "target": "极度加速"
+  },
+  {
+    "source": "Fainted",
+    "target": "昏厥"
+  },
+  {
+    "source": "faints.",
+    "target": "昏厥。"
+  },
+  {
+    "source": "Fastened by a spike. Tearing it out will be rather painful.",
+    "target": "被尖刺钉住了。拔出来会相当痛苦。"
+  },
+  {
+    "source": "Fear Res",
+    "target": "恐抗"
+  },
+  {
+    "source": "Fear Resistance",
+    "target": "恐惧抗性"
+  },
+  {
+    "source": "Fire Res",
+    "target": "火抗"
+  },
+  {
+    "source": "Fire Resistance",
+    "target": "火焰抗性"
+  },
+  {
+    "source": "Focused",
+    "target": "专注"
+  },
+  {
+    "source": "Halluc",
+    "target": "幻觉"
+  },
+  {
+    "source": "Hallucinating",
+    "target": "产生幻觉"
+  },
+  {
+    "source": "Hasted",
+    "target": "加速"
+  },
+  {
+    "source": "I am awake.",
+    "target": "我醒着。"
+  },
+  {
+    "source": "I am blinded!",
+    "target": "我失明了！"
+  },
+  {
+    "source": "I am Burning!",
+    "target": "我着火了！"
+  },
+  {
+    "source": "I am confused!",
+    "target": "我困惑了！"
+  },
+  {
+    "source": "I am deaf!",
+    "target": "我失聪了！"
+  },
+  {
+    "source": "I am fastened by a spike!",
+    "target": "我被尖刺钉住了！"
+  },
+  {
+    "source": "I am no longer stunned.",
+    "target": "我不再眩晕了。"
+  },
+  {
+    "source": "I am no longer terrified!",
+    "target": "我不再恐惧了！"
+  },
+  {
+    "source": "I am paralyzed!",
+    "target": "我陷入麻痹了！"
+  },
+  {
+    "source": "I am poisoned!",
+    "target": "我中毒了！"
+  },
+  {
+    "source": "I am starting to doubt my senses.",
+    "target": "我开始怀疑自己的感官。"
+  },
+  {
+    "source": "I am stunned!",
+    "target": "我眩晕了！"
+  },
+  {
+    "source": "I am terrified!",
+    "target": "我吓坏了！"
+  },
+  {
+    "source": "I can breath without harm.",
+    "target": "我可以安然呼吸。"
+  },
+  {
+    "source": "I can hear again.",
+    "target": "我又能听见了。"
+  },
+  {
+    "source": "I can move again!",
+    "target": "我又能动了！"
+  },
+  {
+    "source": "I can see again!",
+    "target": "我又能看见了！"
+  },
+  {
+    "source": "I cannot be swayed by fear.",
+    "target": "我不会被恐惧动摇。"
+  },
+  {
+    "source": "I cease to return harm.",
+    "target": "我不再反击伤害。"
+  },
+  {
+    "source": "I come to my senses.",
+    "target": "我恢复清醒了。"
+  },
+  {
+    "source": "I defy harmful spells!",
+    "target": "我能抵御有害法术！"
+  },
+  {
+    "source": "I faint!",
+    "target": "我昏厥了！"
+  },
+  {
+    "source": "I feel impervious to physical attacks.",
+    "target": "我觉得自己能抵御物理攻击。"
+  },
+  {
+    "source": "I feel less awake.",
+    "target": "我没那么清醒了。"
+  },
+  {
+    "source": "I feel less focused.",
+    "target": "我不再那么专注了。"
+  },
+  {
+    "source": "I feel less steady.",
+    "target": "我觉得没那么稳了。"
+  },
+  {
+    "source": "I feel more steady.",
+    "target": "我觉得更稳了。"
+  },
+  {
+    "source": "I feel more sure of my senses.",
+    "target": "我觉得自己的感官更可靠了。"
+  },
+  {
+    "source": "I feel more susceptible to time.",
+    "target": "我觉得自己更容易受到时间影响。"
+  },
+  {
+    "source": "I feel resistant to confusion.",
+    "target": "我觉得自己对困惑有了抗性。"
+  },
+  {
+    "source": "I feel resistant to disease.",
+    "target": "我觉得自己对疾病有了抗性。"
+  },
+  {
+    "source": "I feel resistant to electricity.",
+    "target": "我觉得自己对电击有了抗性。"
+  },
+  {
+    "source": "I feel resistant to fire.",
+    "target": "我觉得自己对火焰有了抗性。"
+  },
+  {
+    "source": "I feel resistant to poison.",
+    "target": "我觉得自己对毒素有了抗性。"
+  },
+  {
+    "source": "I feel steadfast.",
+    "target": "我觉得自己坚定不移。"
+  },
+  {
+    "source": "I feel susceptible to the horrors of this place again.",
+    "target": "我又开始感受到此地的恐怖。"
+  },
+  {
+    "source": "I feel very focused.",
+    "target": "我感到十分专注。"
+  },
+  {
+    "source": "I feel vulnerable to confusion.",
+    "target": "我觉得自己容易陷入困惑。"
+  },
+  {
+    "source": "I feel vulnerable to disease.",
+    "target": "我觉得自己容易感染疾病。"
+  },
+  {
+    "source": "I feel vulnerable to electricity.",
+    "target": "我觉得自己容易受到电击伤害。"
+  },
+  {
+    "source": "I feel vulnerable to fear.",
+    "target": "我觉得自己容易受到恐惧影响。"
+  },
+  {
+    "source": "I feel vulnerable to fire.",
+    "target": "我觉得自己容易被火焰伤害。"
+  },
+  {
+    "source": "I feel vulnerable to light!",
+    "target": "我觉得自己容易受到光线影响！"
+  },
+  {
+    "source": "I feel vulnerable to physical attacks.",
+    "target": "我觉得自己容易受到物理攻击伤害。"
+  },
+  {
+    "source": "I feel vulnerable to poison.",
+    "target": "我觉得自己容易受到毒素伤害。"
+  },
+  {
+    "source": "I feel vulnerable to spells.",
+    "target": "我觉得自己容易受到法术影响。"
+  },
+  {
+    "source": "I feel wide awake.",
+    "target": "我精神抖擞。"
+  },
+  {
+    "source": "I manage to keep my head together.",
+    "target": "我设法保持头脑清醒。"
+  },
+  {
+    "source": "I manage to maintain a grip on what is real.",
+    "target": "我设法分清现实与幻象。"
+  },
+  {
+    "source": "I no longer feel vulnerable to light.",
+    "target": "我不再觉得自己容易受到光线影响。"
+  },
+  {
+    "source": "I resist burning.",
+    "target": "我抵抗住了燃烧。"
+  },
+  {
+    "source": "I resist fainting.",
+    "target": "我抵抗住了昏厥。"
+  },
+  {
+    "source": "I resist fear.",
+    "target": "我抵抗住了恐惧。"
+  },
+  {
+    "source": "I resist paralyzation.",
+    "target": "我抵抗住了麻痹。"
+  },
+  {
+    "source": "I resist poisoning.",
+    "target": "我抵抗住了中毒。"
+  },
+  {
+    "source": "I resist slowing.",
+    "target": "我抵抗住了减速。"
+  },
+  {
+    "source": "I resist stunning.",
+    "target": "我抵抗住了眩晕。"
+  },
+  {
+    "source": "I suddenly realize that I no longer crave Astral Opium.",
+    "target": "我突然意识到自己不再渴求星界鸦片。"
+  },
+  {
+    "source": "I tear free!",
+    "target": "我挣脱了！"
+  },
+  {
+    "source": "is blinded.",
+    "target": "失明了。"
+  },
+  {
+    "source": "is burning.",
+    "target": "着火了。"
+  },
+  {
+    "source": "is cleansed from poisoning.",
+    "target": "毒性已被清除。"
+  },
+  {
+    "source": "is defying harmful spells.",
+    "target": "正在抵御有害法术。"
+  },
+  {
+    "source": "is fastened by a spike.",
+    "target": "被尖刺钉住了。"
+  },
+  {
+    "source": "is less awake.",
+    "target": "没那么清醒了。"
+  },
+  {
+    "source": "is no longer burning.",
+    "target": "不再燃烧了。"
+  },
+  {
+    "source": "is no longer confused.",
+    "target": "不再困惑了。"
+  },
+  {
+    "source": "is no longer stunned.",
+    "target": "不再眩晕了。"
+  },
+  {
+    "source": "is no longer terrified.",
+    "target": "不再恐惧了。"
+  },
+  {
+    "source": "is paralyzed.",
+    "target": "陷入麻痹了。"
+  },
+  {
+    "source": "is poisoned.",
+    "target": "中毒了。"
+  },
+  {
+    "source": "is reacting to noise again",
+    "target": "又能对声音作出反应了。"
+  },
+  {
+    "source": "is resistant to confusion.",
+    "target": "对困惑有抗性。"
+  },
+  {
+    "source": "is resistant to disease.",
+    "target": "对疾病有抗性。"
+  },
+  {
+    "source": "is resistant to electricity.",
+    "target": "对电击有抗性。"
+  },
+  {
+    "source": "is resistant to fear.",
+    "target": "对恐惧有抗性。"
+  },
+  {
+    "source": "is resistant to fire.",
+    "target": "对火焰有抗性。"
+  },
+  {
+    "source": "is resistant to poison.",
+    "target": "对毒素有抗性。"
+  },
+  {
+    "source": "is stunned.",
+    "target": "眩晕了。"
+  },
+  {
+    "source": "is vulnerable to confusion.",
+    "target": "容易陷入困惑。"
+  },
+  {
+    "source": "is vulnerable to disease.",
+    "target": "容易感染疾病。"
+  },
+  {
+    "source": "is vulnerable to electricity.",
+    "target": "容易受到电击伤害。"
+  },
+  {
+    "source": "is vulnerable to fear.",
+    "target": "容易受到恐惧影响。"
+  },
+  {
+    "source": "is vulnerable to fire.",
+    "target": "容易被火焰伤害。"
+  },
+  {
+    "source": "Is vulnerable to light.",
+    "target": "容易受到光线影响。"
+  },
+  {
+    "source": "is vulnerable to light.",
+    "target": "容易受到光线影响。"
+  },
+  {
+    "source": "is vulnerable to poison.",
+    "target": "容易受到毒素伤害。"
+  },
+  {
+    "source": "is vulnerable to spells.",
+    "target": "容易受到法术影响。"
+  },
+  {
+    "source": "is wide awake.",
+    "target": "精神抖擞。"
+  },
+  {
+    "source": "Lgt Sens",
+    "target": "光敏"
+  },
+  {
+    "source": "Light Sensitive",
+    "target": "光敏感"
+  },
+  {
+    "source": "looks confused.",
+    "target": "看起来很困惑。"
+  },
+  {
+    "source": "looks less steady.",
+    "target": "看起来没那么稳了。"
+  },
+  {
+    "source": "looks less tough.",
+    "target": "看起来没那么强壮了。"
+  },
+  {
+    "source": "looks more steady.",
+    "target": "看起来更稳了。"
+  },
+  {
+    "source": "looks terrified.",
+    "target": "看起来很恐惧。"
+  },
+  {
+    "source": "looks tough as steel.",
+    "target": "看起来坚如钢铁。"
+  },
+  {
+    "source": "Moves faster.",
+    "target": "移动速度加快。"
+  },
+  {
+    "source": "Moves slower.",
+    "target": "移动速度减慢。"
+  },
+  {
+    "source": "Moves very fast.",
+    "target": "移动速度极快。"
+  },
+  {
+    "source": "My body is cleansed from poisoning!",
+    "target": "我的身体已从毒素中净化！"
+  },
+  {
+    "source": "My hastiness ceased",
+    "target": "我的加速效果消退了。"
+  },
+  {
+    "source": "My hearing came back",
+    "target": "我恢复听力了。"
+  },
+  {
+    "source": "My movement is normal again.",
+    "target": "我的行动恢复正常了。"
+  },
+  {
+    "source": "My sight came back",
+    "target": "我恢复视力了。"
+  },
+  {
+    "source": "My slowness ceased",
+    "target": "我的减速效果消退了。"
+  },
+  {
+    "source": "Nailed",
+    "target": "被钉住"
+  },
+  {
+    "source": "no longer is vulnerable to light.",
+    "target": "不再容易受到光线影响。"
+  },
+  {
+    "source": "Nothing can disturb my mind!",
+    "target": "没有什么能扰乱我的心智！"
+  },
+  {
+    "source": "Occasionally moving in random directions, cannot read or cast spells, cannot search for hidden doors or traps.",
+    "target": "偶尔会朝随机方向移动，无法阅读或施放法术，也无法搜寻隐藏门或陷阱。"
+  },
+  {
+    "source": "Paralys Res",
+    "target": "麻抗"
+  },
+  {
+    "source": "Paralysis Resistance",
+    "target": "麻痹抗性"
+  },
+  {
+    "source": "Paralyzed",
+    "target": "麻痹"
+  },
+  {
+    "source": "Phys Res",
+    "target": "物抗"
+  },
+  {
+    "source": "Physical Resistance",
+    "target": "物理抗性"
+  },
+  {
+    "source": "Poison Res",
+    "target": "毒抗"
+  },
+  {
+    "source": "Poison Resistance",
+    "target": "毒素抗性"
+  },
+  {
+    "source": "Poisoned",
+    "target": "中毒"
+  },
+  {
+    "source": "PROP_AURA OF DECAY",
+    "target": "腐朽光环"
+  },
+  {
+    "source": "Reprisal is sealed!",
+    "target": "反击效果被封印了！"
+  },
+  {
+    "source": "resists burning.",
+    "target": "抵抗燃烧。"
+  },
+  {
+    "source": "resists confusion.",
+    "target": "抵抗困惑。"
+  },
+  {
+    "source": "resists fainting.",
+    "target": "抵抗昏厥。"
+  },
+  {
+    "source": "resists fear.",
+    "target": "抵抗恐惧。"
+  },
+  {
+    "source": "resists paralyzation.",
+    "target": "抵抗麻痹。"
+  },
+  {
+    "source": "resists poisoning.",
+    "target": "抵抗中毒。"
+  },
+  {
+    "source": "resists slowing.",
+    "target": "抵抗减速。"
+  },
+  {
+    "source": "resists stunning.",
+    "target": "抵抗眩晕。"
+  },
+  {
+    "source": "Shock Res",
+    "target": "震抗"
+  },
+  {
+    "source": "Shock Resistance",
+    "target": "震慑抗性"
+  },
+  {
+    "source": "Sleep Res",
+    "target": "睡抗"
+  },
+  {
+    "source": "Sleep Resistance",
+    "target": "睡眠抗性"
+  },
+  {
+    "source": "Slow Res",
+    "target": "缓抗"
+  },
+  {
+    "source": "Slow Resistance",
+    "target": "减速抗性"
+  },
+  {
+    "source": "Slowed",
+    "target": "减速"
+  },
+  {
+    "source": "Slowly takes damage while health is above 50% of maximum hit points, hit points do not regenerate naturally, -25% melee damage, -10% melee hit chance, -10% evasion. Poison duration stacks if more is applied.",
+    "target": "生命值高于最大生命值的 50% 时，会缓慢受到伤害；生命值不会自然恢复；近战伤害 -25%，近战命中率 -10%，闪避 -10%。再次施加毒素时，毒素持续时间会叠加。"
+  },
+  {
+    "source": "slows down.",
+    "target": "速度减慢了。"
+  },
+  {
+    "source": "speeds up.",
+    "target": "速度加快了。"
+  },
+  {
+    "source": "Spell Res",
+    "target": "法抗"
+  },
+  {
+    "source": "Spell Resistance",
+    "target": "法术抗性"
+  },
+  {
+    "source": "stops reacting to any noise",
+    "target": "不再对任何声音作出反应"
+  },
+  {
+    "source": "Stunned",
+    "target": "眩晕"
+  },
+  {
+    "source": "suddenly disappears.",
+    "target": "突然消失了。"
+  },
+  {
+    "source": "Summoned",
+    "target": "被召唤"
+  },
+  {
+    "source": "Takes damage each turn, 50% chance to fail when attempting to read or cast spells.",
+    "target": "每回合受到伤害；尝试阅读或施放法术时有 50% 几率失败。"
+  },
+  {
+    "source": "Temporarily lost consciousness, will wake up if any damage is taken or enough time passes.",
+    "target": "暂时失去意识；受到任何伤害或经过足够时间后就会醒来。"
+  },
+  {
+    "source": "Terrified",
+    "target": "恐惧"
+  },
+  {
+    "source": "That felt amazing!",
+    "target": "那感觉太棒了！"
+  },
+  {
+    "source": "The flames are put out.",
+    "target": "火焰熄灭了。"
+  },
+  {
+    "source": "The next spell is cast without spending a turn, and the cost is reduced by 1 point.",
+    "target": "下一个法术无需消耗一个回合即可施放，且消耗减少 1 点。"
+  },
+  {
+    "source": "The senses cannot always be trusted.",
+    "target": "感官并不总是可信。"
+  },
+  {
+    "source": "The string '",
+    "target": "字符串 '"
+  },
+  {
+    "source": "Thorns",
+    "target": "荆棘"
+  },
+  {
+    "source": "Unaffected by fear.",
+    "target": "不受恐惧影响。"
+  },
+  {
+    "source": "Unaffected by shocking events.",
+    "target": "不受震慑事件影响。"
+  },
+  {
+    "source": "wakes up.",
+    "target": "醒来了。"
+  },
+  {
+    "source": "Walking does not spend any time, but every step taken drains 2 hit points (waiting in place can still be done as normal). The effect ends after a certain number of steps have been taken, or if there is not enough hit points to drain.",
+    "target": "行走不消耗时间，但每走一步都会消耗 2 点生命值（原地等待仍照常进行）。走过一定步数后，或生命值不足以继续扣除时，效果结束。"
+  },
+  {
+    "source": "Was magically summoned here.",
+    "target": "曾被魔法召唤至此。"
+  }
+]

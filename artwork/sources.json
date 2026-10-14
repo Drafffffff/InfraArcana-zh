@@ -1,0 +1,43 @@
+{
+  "generator": "built-in image_gen",
+  "fan_art": true,
+  "prompt_file": "prompts.json",
+  "icon": "official v23.0.0 icon/icon.ico",
+  "slots": {
+    "poster": {
+      "size": [
+        600,
+        900
+      ],
+      "sha256": "71a6882b91ac843abfec7e3476c8542917497898a50da144459c4a29043024c1"
+    },
+    "grid": {
+      "size": [
+        920,
+        430
+      ],
+      "sha256": "4135eea2ed768296667e8c7332fb4f659a76efecdd458f58b4630c4eaf636e94"
+    },
+    "hero": {
+      "size": [
+        1920,
+        620
+      ],
+      "sha256": "22baa739c6486039f05d98ec0ce05bbab0dd61dc2bde96fc1144a16081ccdc46"
+    },
+    "logo": {
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ae280eda15baf5c6ce24fe480f470f31d3b1c7265c08f16a9ee0f3be1f4acbde"
+    },
+    "icon": {
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "fa1728cd21c37df6655cd0ccb27c8af4b234471be07d6303fdbe8f0be1f15126"
+    }
+  }
+}

@@ -172,18 +172,18 @@ bool is_player_aware_of_me(const actor::Actor& actor)
 std::string get_cultist_phrase()
 {
         std::vector<std::string> phrase_bucket = {
-                "Apigami!",
-                "Bhuudesco invisuu!",
-                "Bhuuesco marana!",
-                "Crudux cruo!",
-                "Cruento paashaeximus!",
-                "Cruento pestis shatruex!",
-                "Cruo crunatus durbe!",
-                "Cruo lokemundux!",
-                "Cruo stragara-na!",
+                "阿皮伽米！",
+                "布胡德斯科·隐秘！",
+                "布胡埃斯科·玛拉纳！",
+                "克鲁杜克斯·克鲁奥！",
+                "克鲁恩托·帕沙埃克西穆斯！",
+                "克鲁恩托·佩斯蒂斯·沙特鲁克斯！",
+                "克鲁奥·克鲁纳图斯·杜尔贝！",
+                "克鲁奥·洛克蒙杜克斯！",
+                "克鲁奥·斯特拉加拉-纳！",
                 "Gero shay cruo!",
                 "In marana domus-bhaava crunatus!",
-                "Caecux infirmux!",
+                "卡埃库斯·因菲尔穆克斯！",
                 "Malax sayti!",
                 "Marana pallex!",
                 "Marana malax!",
@@ -194,28 +194,28 @@ std::string get_cultist_phrase()
                 "Pretaanluxis cruonit!",
                 "Pretiacruento!",
                 "Stragar-Naya!",
-                "Vorox esco marana!",
-                "Vilomaxus!",
+                "沃罗克·埃斯科·马拉纳！",
+                "维洛马克苏！",
                 "Prostragaranar malachtose!",
-                "Apigami!"};
+                "阿皮伽米！"};
 
         if (rnd::one_in(4)) {
                 const God& god = gods::current_god();
 
                 const std::vector<std::string> god_phrases = {
-                        god.name + " save us!",
-                        god.descr + " will save us!",
-                        god.name + " watches over us!",
-                        god.descr + " watches over us!",
-                        god.name + ", guide us!",
-                        god.descr + " guides us!",
-                        "For " + god.name + "!",
-                        "For " + god.descr + "!",
-                        "Blood for " + god.name + "!",
-                        "Blood for " + god.descr + "!",
-                        "Perish for " + god.name + "!",
-                        "Perish for " + god.descr + "!",
-                        "In the name of " + god.name + "!",
+                        god.name + " 拯救我们！",
+                        god.descr + " 会拯救我们！",
+                        god.name + " 守护我们！",
+                        god.descr + " 守护我们！",
+                        god.name + "，指引我们！",
+                        god.descr + " 指引我们！",
+                        "对于 " + god.name + "!",
+                        "对于 " + god.descr + "!",
+                        "为了……的血 " + god.name + "!",
+                        "为了……的血 " + god.descr + "!",
+                        "为……而死 " + god.name + "!",
+                        "为……而死 " + god.descr + "!",
+                        "以……之名 " + god.name + "!",
                 };
 
                 phrase_bucket.insert(
@@ -236,7 +236,7 @@ std::string get_cultist_aware_msg_seen(const Actor& actor)
 
 std::string get_cultist_aware_msg_hidden()
 {
-        return "Voice: " + get_cultist_phrase();
+        return "声音： " + get_cultist_phrase();
 }
 
 // -----------------------------------------------------------------------------
@@ -457,7 +457,7 @@ void Actor::become_wary_player()
 
 void Actor::print_player_see_mon_become_aware_msg() const
 {
-        std::string msg = text_format::first_to_upper(name_the(*this)) + " sees me!";
+        std::string msg = text_format::first_to_upper(name_the(*this)) + " 看见我了！";
 
         const std::string dir_str =
                 dir_utils::compass_dir_name(map::g_player->m_pos, m_pos);

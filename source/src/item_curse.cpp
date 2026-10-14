@@ -266,7 +266,7 @@ void Curse::print_trigger_msg(const item::Item& item) const
                         ItemNameInfo::none);
 
         msg_log::add(
-                "A curse lies upon " + item_name + "!",
+                "诅咒降临 " + item_name + "!",
                 colors::msg_note(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -288,12 +288,12 @@ void Curse::print_warning_msg(const item::Item& item) const
                         ItemNameInfo::none);
 
         const std::vector<std::string> msg_bucket = {
-                {"I am growing very attached to " +
+                {"我越来越依恋 " +
                  item_name +
                  "."},
-                {"I am starting to think that I should hold on to " +
+                {"我开始觉得我应该坚持下去 " +
                  item_name +
-                 ", forever..."},
+                 "， 永远..."},
         };
 
         const auto msg = rnd::element(msg_bucket);
@@ -397,7 +397,7 @@ std::string Curse::descr() const
                 return "";
         }
 
-        return "This item is cursed, " + m_curse_impl->descr();
+        return "这个物品被诅咒了， " + m_curse_impl->descr();
 }
 
 // -----------------------------------------------------------------------------
@@ -423,8 +423,7 @@ void HitChancePenalty::on_stop()
 
 std::string HitChancePenalty::descr() const
 {
-        return "it makes the owner less accurate (-10% hit chance with melee "
-               "and ranged attacks).";
+        return "它使所有者的准确度降低（近战和远程攻击的命中率-10%）。";
 }
 
 // -----------------------------------------------------------------------------
@@ -450,7 +449,7 @@ void IncreasedShock::on_stop()
 
 std::string IncreasedShock::descr() const
 {
-        return "it is a burden on the mind of the owner (+10% minimum shock).";
+        return "它会成为持有者精神上的负担（最低震慑 +10%）。";
 }
 
 // -----------------------------------------------------------------------------
@@ -463,7 +462,7 @@ int Heavy::affect_weight(const int weight)
 
 std::string Heavy::descr() const
 {
-        return "it is inexplicably heavy for its size.";
+        return "就其尺寸而言，它的重量令人难以理解。";
 }
 
 std::string Heavy::curse_msg(const item::Item& item) const
@@ -476,7 +475,7 @@ std::string Heavy::curse_msg(const item::Item& item) const
                                 ItemNameType::a,
                                 ItemNameInfo::none));
 
-        return name + " suddenly feels much heavier to carry.";
+        return name + " 突然感觉身上的担子重了很多。";
 }
 
 // -----------------------------------------------------------------------------
@@ -493,77 +492,77 @@ Shriek::Shriek()
                 player_name,
                 player_name,
                 player_name,
-                "BHUUDESCO",
-                "STRAGARANA",
-                "INFIRMUX",
-                "BHAAVA",
-                "CRUENTO",
-                "PRETIACRUENTO",
-                "VILOMAXUS",
-                "DEATH",
-                "DYING",
-                "TAKE",
-                "BLOOD",
-                "END",
-                "SACRIFICE",
-                "POSSESSED",
-                "PROPHECY",
-                "SIGNS",
-                "OATH",
-                "FATE",
-                "SUFFER",
-                "BEHOLD",
-                "MANIFEST",
-                "BEWARE",
-                "WATCHES",
-                "LIGHT",
-                "DARK",
-                "DISAPPEAR",
-                "APPEAR",
-                "DECAY",
-                "IMMORTAL",
-                "ALL",
-                "BOUNDLESS",
-                "ETERNAL",
-                "ANCIENT",
-                "TIME",
-                "NEVER-ENDING",
-                "NEVER",
-                "DIMENSIONS",
-                "EYES",
-                "STARS",
-                "GAZE",
-                "FORBIDDEN",
-                "FOLLOW",
-                "DOMINIONS",
-                "RULER",
-                "KING",
-                "UNKNOWN",
-                "ABYSS",
-                "BENEATH",
-                "BEYOND",
-                "BELOW",
-                "PASSAGE",
-                "PATH",
-                "GATE",
-                "SERPENT",
-                "HEAR",
-                "SEE",
-                "UNSEEN",
-                "NYARLATHOTEP",
-                "GOL-GOROTH",
-                "ABHOLOS",
-                "HASTUR",
-                "ISTASHA",
-                "ITHAQUA",
-                "THOG",
-                "TSATHOGGUA",
-                "YMNAR",
-                "XCTHOL",
-                "ZATHOG",
-                "ZINDARAK",
-                "BASATAN",
-                "CTHUGHA"};
+                "布德斯科",
+                "斯特拉加拉纳",
+                "因菲尔穆克斯",
+                "巴哈瓦",
+                "克鲁恩托",
+                "普雷蒂亚克鲁恩托",
+                "维洛玛萨斯",
+                "死亡",
+                "垂死",
+                "拿",
+                "血",
+                "结尾",
+                "牺牲",
+                "着魔了",
+                "预言",
+                "标志",
+                "誓言",
+                "命运",
+                "遭受",
+                "看哪",
+                "显现",
+                "提防",
+                "手表",
+                "光",
+                "黑暗的",
+                "消失",
+                "出现",
+                "衰变",
+                "不朽",
+                "全部",
+                "无界",
+                "永恒",
+                "古老的",
+                "时间",
+                "永无止境",
+                "绝不",
+                "方面",
+                "眼睛",
+                "星星",
+                "目光",
+                "禁忌",
+                "跟随",
+                "领土",
+                "统治者",
+                "国王",
+                "未知",
+                "深渊",
+                "下面",
+                "超过",
+                "以下",
+                "通道",
+                "小路",
+                "门",
+                "蛇",
+                "听到",
+                "看",
+                "看不见",
+                "尼亚拉托提普",
+                "戈尔戈罗斯",
+                "阿布霍洛斯",
+                "哈斯塔",
+                "伊斯塔沙",
+                "伊塔夸",
+                "托格",
+                "查托瓜",
+                "亚玛纳",
+                "克斯托尔",
+                "扎托格",
+                "辛达拉克",
+                "巴斯塔坦",
+                "克图加"};
 }
 
 void Shriek::on_start(const item::Item& item)
@@ -589,7 +588,7 @@ void Shriek::shriek(const item::Item& item) const
                                 ItemNameInfo::none));
 
         msg_log::add(
-                name + " shrieks...",
+                name + " 尖叫……",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -624,8 +623,7 @@ void Shriek::shriek(const item::Item& item) const
 
 std::string Shriek::descr() const
 {
-        return "it occasionally emits a disembodied voice in a horrible "
-               "shrieking tone.";
+        return "它偶尔会发出一种空洞的声音，带有可怕的尖叫声。";
 }
 
 // -----------------------------------------------------------------------------
@@ -650,13 +648,12 @@ void Teleport::teleport(const item::Item& item) const
         const auto name = item.name(ItemNameType::a, ItemNameInfo::none);
 
         msg_log::add(
-                "I somehow sense that a burst of energy is discharged "
-                "from " +
+                "我隐约感觉到一股能量从体内释放出来 " +
                 name +
                 ".");
 
         msg_log::add(
-                "I am being teleported...",
+                "我正在被传送……",
                 colors::text(),
                 MsgInterruptPlayer::yes,
                 MorePromptOnMsg::yes);
@@ -666,7 +663,7 @@ void Teleport::teleport(const item::Item& item) const
 
 std::string Teleport::descr() const
 {
-        return "it occasionally teleports the wearer.";
+        return "它偶尔会传送佩戴者。";
 }
 
 // -----------------------------------------------------------------------------
@@ -686,7 +683,7 @@ void Summon::summon(const item::Item& item) const
         (void)item;
 
         msg_log::add(
-                "There is a loud whistling sound.",
+                "有一声响亮的呼啸声。",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -699,13 +696,12 @@ std::string Summon::curse_msg(const item::Item& item) const
 {
         (void)item;
 
-        return "I hear a faint whistling sound coming nearer...";
+        return "我听到一阵微弱的呼啸声越来越近……";
 }
 
 std::string Summon::descr() const
 {
-        return "it calls deadly interdimensional beings into the existence of "
-               "the owner.";
+        return "它召唤致命的跨维度生物进入其主人的存在。";
 }
 
 // -----------------------------------------------------------------------------
@@ -730,7 +726,7 @@ void Fire::run_fire(const item::Item& item) const
         (void)item;
 
         msg_log::add(
-                "The surrounding area suddenly burst into flames!",
+                "周围顿时熊熊燃烧起来！",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -762,7 +758,7 @@ void Fire::run_fire(const item::Item& item) const
 
 std::string Fire::descr() const
 {
-        return "it spontaneously sets objects around the caster on fire.";
+        return "它会自发地使施法者周围的物体着火。";
 }
 
 // -----------------------------------------------------------------------------
@@ -788,7 +784,7 @@ void CannotRead::on_stop()
 
 std::string CannotRead::descr() const
 {
-        return "it prevents the owner from comprehending written language.";
+        return "它阻止所有者理解书面语言。";
 }
 
 // -----------------------------------------------------------------------------
@@ -814,7 +810,7 @@ void LightSensitive::on_stop()
 
 std::string LightSensitive::descr() const
 {
-        return "the owner is harmed by light.";
+        return "主人受到光的伤害。";
 }
 
 }  // namespace item_curse

@@ -1,0 +1,1238 @@
+[
+  {
+    "source": "I hear a snarl.",
+    "target": "我听见一声低吼。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a splash.",
+    "target": "我听见泼水声。",
+    "locations": [
+      "src/terrain.cpp:1964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear agonized screaming.",
+    "target": "我听见痛苦的尖叫。",
+    "locations": [
+      "src/actor_death.cpp:157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear an otherworldly blaze.",
+    "target": "我听见一阵异界烈焰燃烧的声音。",
+    "locations": [
+      "src/terrain_trap.cpp:114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear chains rattling.",
+    "target": "我听见锁链哗啦作响。",
+    "locations": [
+      "src/terrain.cpp:2672"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear coughing.",
+    "target": "我听见咳嗽声。",
+    "locations": [
+      "src/terrain_mob.cpp:152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear faint echoes in the distance. Every sound here seems to carry further - I'll need to tread carefully.",
+    "target": "我听见远处传来微弱的回声。这里的声音似乎都传得更远——我得小心行事。",
+    "locations": [
+      "src/map_controller.cpp:70"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear heavy stone sliding.",
+    "target": "我听见沉重的石头滑动声。",
+    "locations": [
+      "src/terrain.cpp:3579"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear hissing.",
+    "target": "我听见嘶嘶声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear ripping and chewing.",
+    "target": "我听见撕扯和咀嚼声。",
+    "locations": [
+      "src/actor_eat.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear shrieking.",
+    "target": "我听见尖叫声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear snarling.",
+    "target": "我听见咆哮声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear something attempting to open a door.",
+    "target": "我听见有什么东西试图开门。",
+    "locations": [
+      "src/terrain_door.cpp:471"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear something open a door awkwardly.",
+    "target": "我听见有什么东西笨拙地打开了一扇门。",
+    "locations": [
+      "src/terrain_door.cpp:413"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear the flapping of great wings.",
+    "target": "我听见巨大的翅膀拍动声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear the flapping of wings.",
+    "target": "我听见翅膀拍动声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear walls collapsing!",
+    "target": "我听见墙壁轰然倒塌！",
+    "locations": [
+      "src/terrain_event.cpp:120"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I jam ",
+    "target": "我卡住了 ",
+    "locations": [
+      "src/terrain_door.cpp:1539"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I laugh maniacally.",
+    "target": "我发出疯狂的笑声。",
+    "locations": [
+      "include/insanity.hpp:316"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I let out a chilling howl.",
+    "target": "我发出令人胆寒的长嚎。",
+    "locations": [
+      "src/game_commands.cpp:991"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I let out a terrified shriek.",
+    "target": "我吓得尖叫起来。",
+    "locations": [
+      "src/insanity.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I LIVE AGAIN!",
+    "target": "我复活了！",
+    "locations": [
+      "src/actor_death.cpp:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I load ",
+    "target": "我装填 ",
+    "locations": [
+      "src/reload.cpp:102"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I make some noise.",
+    "target": "我弄出了些声响。",
+    "locations": [
+      "src/game_commands.cpp:994"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I manage to keep my head together.",
+    "target": "我设法保持了清醒。",
+    "locations": [
+      "src/property_data.cpp:486"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I manage to maintain a grip on what is real.",
+    "target": "我设法把握住现实。",
+    "locations": [
+      "src/property_data.cpp:502"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I move a round from a magazine to my ",
+    "target": "我把弹匣里的一发子弹装进 ",
+    "locations": [
+      "src/reload.cpp:362"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I move a round from one magazine to another.",
+    "target": "我把一发子弹从一个弹匣转到另一个弹匣。",
+    "locations": [
+      "src/reload.cpp:371"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I no longer feel vulnerable to light.",
+    "target": "我不再畏惧光线。",
+    "locations": [
+      "src/property_data.cpp:336"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I no longer recall how to cast ",
+    "target": "我再也想不起如何施放 ",
+    "locations": [
+      "src/player_spells.cpp:467"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I now harness the shadows that stride from world to world to sow death and madness. The destinies of all things on earth, living and dead, are mine.",
+    "target": "我如今驾驭着穿梭于世界之间、播撒死亡与疯狂的阴影。世间万物，无论生死，其命运都归我掌控。",
+    "locations": [
+      "src/game.cpp:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I now know that ",
+    "target": "我现在知道了 ",
+    "locations": [
+      "src/terrain_pylon.cpp:230"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I open the ",
+    "target": "我打开 ",
+    "locations": [
+      "src/terrain_door.cpp:340"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I panic. Why is it I find myself here, stumbling around in darkness? Is this all part of a plan? The being beckons me to gaze into the stone.",
+    "target": "我慌了。为什么我会在这里，跌跌撞撞地摸索黑暗？这都是计划的一部分吗？那个存在正召唤我凝视石头。",
+    "locations": [
+      "src/game.cpp:97"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I peer inside the tomb.",
+    "target": "我朝墓穴里窥视。",
+    "locations": [
+      "src/terrain.cpp:3559"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I perish in the depths!",
+    "target": "我葬身于深渊！",
+    "locations": [
+      "src/knockback.cpp:129"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I pick up ",
+    "target": "我拾起 ",
+    "locations": [
+      "src/pickup.cpp:52"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I pull myself free!",
+    "target": "我挣脱出来了！",
+    "locations": [
+      "src/property_data.cpp:931"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I recite the inscriptions on the Monolith...",
+    "target": "我吟诵方尖碑上的铭文……",
+    "locations": [
+      "src/terrain_monolith.cpp:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I reload my ",
+    "target": "我给……重新装弹 ",
+    "locations": [
+      "src/reload.cpp:88"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I remember here:",
+    "target": "我记得这里：",
+    "locations": [
+      "src/view.cpp:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I remember how to cast ",
+    "target": "我又想起如何施放 ",
+    "locations": [
+      "src/player_spells.cpp:492"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I resist a great misfortune.",
+    "target": "我抵挡住了巨大的厄运。",
+    "locations": [
+      "src/property_data.cpp:837"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist burning.",
+    "target": "我抵挡住了燃烧。",
+    "locations": [
+      "src/property_data.cpp:404"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist disease.",
+    "target": "我抵挡住了疾病。",
+    "locations": [
+      "src/property_data.cpp:736"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist fainting.",
+    "target": "我抵挡住了昏厥。",
+    "locations": [
+      "src/property_data.cpp:385"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist fear.",
+    "target": "我抵挡住了恐惧。",
+    "locations": [
+      "src/property_data.cpp:468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist misfortune.",
+    "target": "我抵挡住了厄运。",
+    "locations": [
+      "src/property_data.cpp:817"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist paralyzation.",
+    "target": "我抵挡住了瘫痪。",
+    "locations": [
+      "src/property_data.cpp:443"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist poisoning.",
+    "target": "我抵挡住了中毒。",
+    "locations": [
+      "src/property_data.cpp:426"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist sapping.",
+    "target": "我抵挡住了生命汲取。",
+    "locations": [
+      "src/property_data.cpp:679",
+      "src/property_data.cpp:693",
+      "src/property_data.cpp:705"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist slowing.",
+    "target": "我抵挡住了减速。",
+    "locations": [
+      "src/property_data.cpp:598"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist stunning.",
+    "target": "我抵挡住了震晕。",
+    "locations": [
+      "src/property_data.cpp:582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist weakness.",
+    "target": "我抵挡住了虚弱。",
+    "locations": [
+      "src/property_data.cpp:768"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I resist wounding!",
+    "target": "我抵挡住了创伤！",
+    "locations": [
+      "src/property_data.cpp:666"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I scream in terror.",
+    "target": "我惊恐地尖叫。",
+    "locations": [
+      "src/insanity.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I search the alchemist's workbench.",
+    "target": "我搜索炼金术士的工作台。",
+    "locations": [
+      "src/terrain.cpp:5123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I search the bookshelf.",
+    "target": "我搜索书架。",
+    "locations": [
+      "src/terrain.cpp:4955"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I search the cabinet.",
+    "target": "我搜索柜子。",
+    "locations": [
+      "src/terrain.cpp:4761"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I search the chest.",
+    "target": "我搜索箱子。",
+    "locations": [
+      "src/terrain.cpp:3986"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I search the Cocoon.",
+    "target": "我搜索茧。",
+    "locations": [
+      "src/terrain.cpp:5365"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I see a ",
+    "target": "我看见一 ",
+    "locations": [
+      "src/terrain_door.cpp:376",
+      "src/terrain_door.cpp:438"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I see nothing there to close or jam shut.",
+    "target": "我看不到那里有什么可以关上或卡住的东西。",
+    "locations": [
+      "src/close.cpp:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I see nothing there to close.",
+    "target": "我看不到那里有什么可以关上的东西。",
+    "locations": [
+      "src/terrain_door.cpp:1555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I see nothing to pick up here.",
+    "target": "这里没有可拾取的东西。",
+    "locations": [
+      "src/pickup.cpp:39"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I sense a great danger.",
+    "target": "我感觉到巨大的危险。",
+    "locations": [
+      "src/actor_player.cpp:667"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I sense an object of great power here.",
+    "target": "我感觉这里有一件力量强大的物品。",
+    "locations": [
+      "src/actor_player.cpp:66"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I sense that a path has opened somewhere.",
+    "target": "我感觉某处打开了一条路。",
+    "locations": [
+      "src/terrain.cpp:2212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I sink downwards!",
+    "target": "我沉了下去！",
+    "locations": [
+      "src/game_time.cpp:168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I spot ",
+    "target": "我发现了 ",
+    "locations": [
+      "src/actor_start_turn.cpp:226",
+      "src/terrain_trap.cpp:639"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I sprain myself.",
+    "target": "我把自己扭伤了。",
+    "locations": [
+      "src/bash.cpp:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I stagger under the weight of my carried load.",
+    "target": "我被身上的重物压得步履蹒跚。",
+    "locations": [
+      "src/actor_move.cpp:330"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I stand at the end of a cobbled forest path, before me lies a shunned and decrepit old church building. This is the access point to the domains of the abhorred \"Cult of Starry Wisdom\". I am determined to enter these sprawling catacombs and purge them of the corruption that dwells within. Somewhere below lies an artifact of non-human origin referred to as {COLOR_YELLOW}\"The shining Trapezohedron\"{reset_color} - rumored to be a window to all the secrets of the universe. This must be destroyed, so that none more may be tempted by its deceitful promises!",
+    "target": "我站在一条铺着鹅卵石的森林小径尽头，面前是一座遭人唾弃、年久失修的古老教堂。这里是可憎的“星辰智慧教团”领地入口。我决心进入这片广阔的地下墓穴，净化其中的腐化。下方某处藏着一件非人造物，名为{COLOR_YELLOW}“闪耀的梯形晶体”{reset_color}——据说它是窥见宇宙一切秘密的窗口。必须摧毁它，免得更多人被它欺骗性的承诺诱惑！",
+    "locations": [
+      "src/game.cpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I stand at the end of a cobbled forest path, before me lies a shunned and decrepit old church building. This is the access point to the domains of the abhorred \"Cult of Starry Wisdom\". I am determined to enter these sprawling catacombs and rob them of treasures and knowledge. Somewhere below lies my true destiny, an artifact of non-human origin referred to as {COLOR_YELLOW}\"The shining Trapezohedron\"{reset_color} - a window to all the secrets of the universe!",
+    "target": "我站在一条铺着鹅卵石的森林小径尽头，面前是一座遭人唾弃、年久失修的古老教堂。这里是可憎的“星辰智慧教团”领地入口。我决心进入这片广阔的地下墓穴，夺取其中的财宝与知识。下方某处藏着我的真正命运：一件非人造物，名为{COLOR_YELLOW}“闪耀的梯形晶体”{reset_color}——那是窥见宇宙一切秘密的窗口！",
+    "locations": [
+      "src/game.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I stare deep into the ",
+    "target": "我凝视着 ",
+    "locations": [
+      "src/terrain_mirror.cpp:184"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I strike the temple gong!",
+    "target": "我敲响了神殿铜锣！",
+    "locations": [
+      "src/terrain_gong.cpp:819"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I struggle to pull free!",
+    "target": "我努力挣脱！",
+    "locations": [
+      "src/property.cpp:564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I struggle to tear free!",
+    "target": "我拼命撕扯，想要脱身！",
+    "locations": [
+      "src/property.cpp:481"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I suddenly find myself in a different location!",
+    "target": "我突然发现自己身处另一个地方！",
+    "locations": [
+      "src/teleport.cpp:247"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I suddenly realize that I no longer crave Astral Opium.",
+    "target": "我突然意识到自己不再渴求星界鸦片。",
+    "locations": [
+      "src/property_data.cpp:524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I tear down a spider web.",
+    "target": "我扯破了蜘蛛网。",
+    "locations": [
+      "include/terrain_trap.hpp:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I tear free!",
+    "target": "我挣脱了！",
+    "locations": [
+      "src/property_data.cpp:649",
+      "src/property_data.cpp:918"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I throw ",
+    "target": "我投掷 ",
+    "locations": [
+      "src/throwing.cpp:240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I throw a lit dynamite stick.",
+    "target": "我扔出一根点燃的炸药棒。",
+    "locations": [
+      "include/item_explosive.hpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I throw a lit flare.",
+    "target": "我扔出一支点燃的信号棒。",
+    "locations": [
+      "include/item_explosive.hpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I throw a lit Molotov Cocktail.",
+    "target": "我扔出一瓶点燃的燃烧瓶。",
+    "locations": [
+      "include/item_explosive.hpp:104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I throw a smoke grenade.",
+    "target": "我扔出一枚烟雾弹。",
+    "locations": [
+      "include/item_explosive.hpp:157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I touch ",
+    "target": "我触碰 ",
+    "locations": [
+      "src/terrain.cpp:2181"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I touch some crystal object.",
+    "target": "我摸到一个水晶物体。",
+    "locations": [
+      "src/terrain.cpp:2186"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I unload ",
+    "target": "我卸下 ",
+    "locations": [
+      "src/pickup.cpp:126"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "id",
+    "target": "id",
+    "locations": [
+      "src/actor_data.cpp:405",
+      "src/actor_data.cpp:611",
+      "src/actor_data.cpp:643"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ID: \"",
+    "target": "ID: \"",
+    "locations": [
+      "src/colors.cpp:175",
+      "src/colors.cpp:211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Identify",
+    "target": "鉴定",
+    "locations": [
+      "include/spells.hpp:1996"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "If health is reduced to 6 hit points or below when taking damage, the moribund status is applied for 5-7 turns (+3 melee damage, +30% melee hit chance, +3 armor points).",
+    "target": "若受到伤害时生命值降至6点或以下，就会陷入濒死状态，持续5至7回合（近战伤害+3、近战命中率+30%、护甲+3）。",
+    "locations": [
+      "src/player_bon.cpp:1118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "If your Insanity reaches 100%, you are hopelessly lost, and the game is over.",
+    "target": "若疯狂度达到100%，你将彻底迷失，游戏也会结束。",
+    "locations": [
+      "installed_files/manual.txt:221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "III",
+    "target": "III",
+    "locations": [
+      "src/player_spells.cpp:286"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Immolation",
+    "target": "自焚",
+    "locations": [
+      "include/spells.hpp:2791"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Imperceptible",
+    "target": "难以察觉",
+    "locations": [
+      "src/player_bon.cpp:273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "improvements.",
+    "target": "改进。",
+    "locations": [
+      "installed_files/credits.txt:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In addition to this, the top high score entries show up as gravestones on the first level of the game (in the forest). Bumping a gravestone shows a short summary of the high score entry.",
+    "target": "除此之外，游戏第一层（森林）中还会出现代表高分榜前列的墓碑。撞上墓碑便可查看该条高分记录的简要总结。",
+    "locations": [
+      "installed_files/manual.txt:249"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In addition to your physical and mental health, you have an \"essence\" - or Spirit - to preserve. If you lose all your Spirit, you are dead.",
+    "target": "除了身体与精神健康，你还必须保全自己的“精华”——也就是精神值。精神值耗尽，你就会死亡。",
+    "locations": [
+      "installed_files/manual.txt:190"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In any inventory screen, you can see percentage values to the far right of each item. This is how many percent of your total carried weight that each item takes (the numbers roughly adds up to 100%, but there will be rounding errors, since decimals are not shown). So if you are overburdened, an item with a high percentage value might be a good candidate to drop.",
+    "target": "在物品栏界面中，每件物品最右侧都显示一个百分比，表示该物品占你携带总重量的比例（数字大致相加为100%，但由于不显示小数，会有舍入误差）。如果你负重过多，高百分比的物品或许适合丢弃。",
+    "locations": [
+      "installed_files/manual.txt:172"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In his house at R'lyeh dead Cthulhu waits dreaming.",
+    "target": "在R’lyeh的居所中，死去的克苏鲁仍在梦中等待。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In marana domus-bhaava crunatus!",
+    "target": "In marana domus-bhaava crunatus!",
+    "locations": [
+      "src/actor_mon.cpp:185"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "In the name of ",
+    "target": "以……之名 ",
+    "locations": [
+      "src/actor_mon.cpp:218"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "In the radiance I see visions beyond eternity, visions of unreal reality, visions of the brightest light of day and the darkest night of madness. There is only onward now, I have to see, I have to KNOW.",
+    "target": "在这片光辉中，我看见超越永恒的幻象：不真实的现实、白昼最耀眼的光芒，以及疯狂最深沉的黑夜。如今我只能继续前行；我必须看见，我必须知晓。",
+    "locations": [
+      "src/game.cpp:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Incite Frenzy",
+    "target": "煽动狂乱",
+    "locations": [
+      "include/spells.hpp:1273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Increased range attack effectiveness.",
+    "target": "提高远程攻击效果。",
+    "locations": [
+      "src/property_data.cpp:1048"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Increased Shock.",
+    "target": "震慑提高。",
+    "locations": [
+      "src/property_data.cpp:702"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "indefinite",
+    "target": "无限时长",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/attacks/attack[@id=ITEMINTR_NET_THROW]/property_applied/@duration",
+      "src/actor_data.cpp:360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Indomitable Fury",
+    "target": "不屈之怒",
+    "locations": [
+      "src/player_bon.cpp:808"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infected",
+    "target": "已感染",
+    "locations": [
+      "src/hints.cpp:68",
+      "src/property_data.cpp:713",
+      "src/property_data.cpp:714"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infections should be treated as soon as possible. The common way of doing this is by using the Medical Bag. It only requires a small number of turns and resources, but if the work is interrupted, the effort is wasted (no medical resources are lost on interruption however).\n\nAn untreated infection will eventually turn into a disease (50% maximum hit points), which can only be removed through special means such as drinking certain potions.",
+    "target": "感染应尽早治疗。常见的处理方法是使用医疗包。治疗只需少量回合和资源，但若过程中被打断，之前的努力就会白费（不过中断时不会消耗医疗资源）。\n\n感染若不治疗，最终会发展为疾病（生命值上限降低50%），只能通过特殊方式清除，例如饮用某些药水。",
+    "locations": [
+      "src/hints.cpp:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Information on the game screen",
+    "target": "游戏画面信息",
+    "locations": [
+      "installed_files/manual.txt:86"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infra Arcana ",
+    "target": "英弗拉·阿卡纳 ",
+    "locations": [
+      "src/io_window.cpp:32"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Infra Arcana is free software, see LICENSE.txt.",
+    "target": "Infra Arcana 是自由软件，详见 LICENSE.txt。",
+    "locations": [
+      "src/version.cpp:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Infra Arcana was created by:",
+    "target": "Infra Arcana 的创作者：",
+    "locations": [
+      "installed_files/contact.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "infra_arcana",
+    "target": "infra_arcana",
+    "locations": [
+      "src/io.cpp:887"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inpesca",
+    "target": "因佩斯卡",
+    "locations": [
+      "src/gods.cpp:50"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ins",
+    "target": "疯狂",
+    "locations": [
+      "src/highscore.cpp:327"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Insane!",
+    "target": "疯狂了！",
+    "locations": [
+      "src/actor_player.cpp:548"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Insanity",
+    "target": "疯狂度",
+    "locations": [
+      "installed_files/manual.txt:204",
+      "src/map_mode_gui.cpp:296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Insanity        12% : Your level of insanity",
+    "target": "疯狂度        12%：当前疯狂程度",
+    "locations": [
+      "installed_files/manual.txt:104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Insanity draws nearer... ",
+    "target": "疯狂步步逼近…… ",
+    "locations": [
+      "src/insanity.cpp:48"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Inscribed Object",
+    "target": "铭文物体",
+    "locations": [
+      "src/terrain.cpp:1021",
+      "src/terrain.cpp:1133",
+      "src/terrain.cpp:1657"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "inscribed pillar",
+    "target": "刻铭石柱",
+    "locations": [
+      "src/terrain.cpp:988"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "inscribed urn",
+    "target": "刻铭骨灰瓮",
+    "locations": [
+      "src/terrain.cpp:1614"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inscriptions",
+    "target": "铭文",
+    "locations": [
+      "src/hints.cpp:117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inscriptions granting a deeper understanding of magical lore.",
+    "target": "赋予更深魔法知识的铭文。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inscriptions imparting a deeper knowledge of ancient alchemical arts.",
+    "target": "揭示古代炼金术奥秘的铭文。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inventory",
+    "target": "物品栏",
+    "locations": [
+      "src/game_over_summary.cpp:221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Inventory handling",
+    "target": "物品栏操作",
+    "locations": [
+      "installed_files/manual.txt:149"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Invisibility",
+    "target": "隐形",
+    "locations": [
+      "include/spells.hpp:1658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Invisible",
+    "target": "隐形",
+    "locations": [
+      "src/property_data.cpp:969",
+      "src/property_data.cpp:970"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Invoker",
+    "target": "召咒者",
+    "locations": [
+      "src/player_bon.cpp:1026"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Iod",
+    "target": "伊欧德",
+    "locations": [
+      "src/gods.cpp:51"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "iron ",
+    "target": "铁制 ",
+    "locations": [
+      "src/terrain.cpp:4144"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "is blinded.",
+    "target": "失明了。",
+    "locations": [
+      "src/property_data.cpp:348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is burning.",
+    "target": "着火了。",
+    "locations": [
+      "src/property_data.cpp:401"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is cleansed from poisoning.",
+    "target": "从中毒状态痊愈了。",
+    "locations": [
+      "src/property_data.cpp:425"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is cloaked!",
+    "target": "隐身了！",
+    "locations": [
+      "src/property_data.cpp:990"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is cursed.",
+    "target": "被诅咒了。",
+    "locations": [
+      "src/property_data.cpp:814"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is defying harmful spells.",
+    "target": "抵御有害法术。",
+    "locations": [
+      "src/property_data.cpp:308"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is destroyed.",
+    "target": "被摧毁了。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/death_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is diseased.",
+    "target": "患病了。",
+    "locations": [
+      "src/property_data.cpp:733"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is doomed!",
+    "target": "大祸临头！",
+    "locations": [
+      "src/property_data.cpp:834"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is entangled.",
+    "target": "被缠住了。",
+    "locations": [
+      "src/property_data.cpp:917"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is enveloped by a protective carapace.",
+    "target": "被防护甲壳包裹。",
+    "locations": [
+      "src/property_data.cpp:865"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is fastened by a spike.",
+    "target": "被尖刺钉住了。",
+    "locations": [
+      "src/property_data.cpp:648"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Is ignored by all hostile creatures. The effect ends if moving or performing a melee or ranged attack.",
+    "target": "所有敌对生物都会忽略它。移动或进行近战、远程攻击后，效果就会结束。",
+    "locations": [
+      "src/property_data.cpp:1329"
+    ],
+    "kind": "ui"
+  }
+]

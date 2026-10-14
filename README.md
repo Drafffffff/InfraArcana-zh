@@ -22,11 +22,12 @@ Steam 素材包含横封面、竖封面、Hero、透明 Logo 和图标。素材�
 
 ## 复现
 
-本仓库保存完整源码、素材、翻译词库、应用工具与验证记录。标签 `upstream-v23.0.0` 为原版，`unicode-baseline` 为翻译前 Unicode 支持版本。
+本仓库保存完整源码、素材、翻译词库、应用工具与验证记录，Bazzite 的 `~/Games/infra-arcana-zh/` 同步保留 Git 仓库。标签 `upstream-v23.0.0` 为原版，`unicode-baseline` 为翻译前 Unicode 支持版本。
 
 ```sh
 python3 tools/apply_catalog.py
 sh scripts/build-bazzite.sh
+sh scripts/deploy-bazzite.sh
 ```
 
 构建脚本默认通过 SSH 别名 `bazzite` 使用专用 Podman 容器 `infra-arcana-zh-builder`。未修改 Bazzite 系统软件包。运行时附带 SDL2_image / SDL2_mixer 库。
@@ -35,3 +36,7 @@ Steam 安装器 `tools/install_steam.py` 在 Steam 退出后执行，保持其�
 ## 覆盖率与验证边界
 
 覆盖率应结合源码提取、位置分类、字形检查和实际游戏检查判断。`verification/apply-catalog.json` 记录应用次数；词库中保留原文的伪咒语、专名、字母快捷键及机器解析键有明确分类。文本词库无空译文不代表穷举运行中的全部随机情境；残留审计记录随交付更新。
+
+最终词库共 6,870 个源字符串：4,968 项中文译文全部应用（5,797 次替换）、15 项有意保留的咒语/引文/快捷键、1,887 项技术字符串；无空译文和未应用译文。最终测试通过 88 项 / 6,504 条断言；完整数字见 `verification/coverage-summary.json`。
+
+测试中的英文消息预期由 Luna 按中文输出更新，原有断言和游戏逻辑保留，新增了 UTF-8 字符宽度、退格和换行验证。

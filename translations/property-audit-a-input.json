@@ -1,0 +1,1329 @@
+[
+  {
+    "source": "' of length '",
+    "locations": [
+      "src/property_data.cpp:125"
+    ]
+  },
+  {
+    "source": "' will not fit in panel of width '",
+    "locations": [
+      "src/property_data.cpp:127"
+    ]
+  },
+  {
+    "source": "A gruesome path lies ahead.",
+    "locations": [
+      "src/property_data.cpp:568"
+    ]
+  },
+  {
+    "source": "Addict",
+    "locations": [
+      "src/property_data.cpp:513"
+    ]
+  },
+  {
+    "source": "Addicted to Astral Opium - the addiction will cease eventually if Astral Opium is not used again, however the abstinence will soon cause withdrawal symptoms (increased minimum shock). The addiction is too powerful and otherwordly to be cured by a Potion of Fortitude.",
+    "locations": [
+      "src/property_data.cpp:515"
+    ]
+  },
+  {
+    "source": "Any time the caster is harmed by a melee attack, ranged attack or damaging spell, the attacker is struck by an irresistible force.",
+    "locations": [
+      "src/property_data.cpp:549"
+    ]
+  },
+  {
+    "source": "Astral Opium Addiction",
+    "locations": [
+      "src/property_data.cpp:512"
+    ]
+  },
+  {
+    "source": "Became permanently blind",
+    "locations": [
+      "src/property_data.cpp:351"
+    ]
+  },
+  {
+    "source": "Became permanently deaf",
+    "locations": [
+      "src/property_data.cpp:367"
+    ]
+  },
+  {
+    "source": "Became perpetually hasted",
+    "locations": [
+      "src/property_data.cpp:616"
+    ]
+  },
+  {
+    "source": "Became perpetually slowed",
+    "locations": [
+      "src/property_data.cpp:600"
+    ]
+  },
+  {
+    "source": "Blind",
+    "locations": [
+      "src/property_data.cpp:344",
+      "src/property_data.cpp:345"
+    ]
+  },
+  {
+    "source": "Blind Res",
+    "locations": [
+      "src/property_data.cpp:272"
+    ]
+  },
+  {
+    "source": "Blindness Resistance",
+    "locations": [
+      "src/property_data.cpp:271"
+    ]
+  },
+  {
+    "source": "Burning",
+    "locations": [
+      "src/property_data.cpp:395",
+      "src/property_data.cpp:396"
+    ]
+  },
+  {
+    "source": "can breath without harm.",
+    "locations": [
+      "src/property_data.cpp:297"
+    ]
+  },
+  {
+    "source": "can move again.",
+    "locations": [
+      "src/property_data.cpp:442"
+    ]
+  },
+  {
+    "source": "can see again.",
+    "locations": [
+      "src/property_data.cpp:350"
+    ]
+  },
+  {
+    "source": "Cannot be affected by harmful spells.",
+    "locations": [
+      "src/property_data.cpp:306"
+    ]
+  },
+  {
+    "source": "Cannot be blinded.",
+    "locations": [
+      "src/property_data.cpp:273"
+    ]
+  },
+  {
+    "source": "Cannot be harmed by constricted breathing.",
+    "locations": [
+      "src/property_data.cpp:295"
+    ]
+  },
+  {
+    "source": "Cannot be harmed by electricity.",
+    "locations": [
+      "src/property_data.cpp:192"
+    ]
+  },
+  {
+    "source": "Cannot be harmed by fire.",
+    "locations": [
+      "src/property_data.cpp:164"
+    ]
+  },
+  {
+    "source": "Cannot be harmed by physical attacks.",
+    "locations": [
+      "src/property_data.cpp:150"
+    ]
+  },
+  {
+    "source": "Cannot be harmed by poison.",
+    "locations": [
+      "src/property_data.cpp:178"
+    ]
+  },
+  {
+    "source": "Cannot be magically slowed.",
+    "locations": [
+      "src/property_data.cpp:234"
+    ]
+  },
+  {
+    "source": "Cannot be paralyzed.",
+    "locations": [
+      "src/property_data.cpp:283"
+    ]
+  },
+  {
+    "source": "Cannot become confused.",
+    "locations": [
+      "src/property_data.cpp:246"
+    ]
+  },
+  {
+    "source": "Cannot become diseased.",
+    "locations": [
+      "src/property_data.cpp:260"
+    ]
+  },
+  {
+    "source": "Cannot faint or become hypnotized.",
+    "locations": [
+      "src/property_data.cpp:206"
+    ]
+  },
+  {
+    "source": "Cannot hear sounds.",
+    "locations": [
+      "src/property_data.cpp:362"
+    ]
+  },
+  {
+    "source": "Cannot move.",
+    "locations": [
+      "src/property_data.cpp:438"
+    ]
+  },
+  {
+    "source": "Cannot perform melee attacks, -20% ranged hit chance, +20% chance to evade attacks.",
+    "locations": [
+      "src/property_data.cpp:462"
+    ]
+  },
+  {
+    "source": "Cannot see, -20% hit chance, -50% chance to evade attacks.",
+    "locations": [
+      "src/property_data.cpp:346"
+    ]
+  },
+  {
+    "source": "Conf Res",
+    "locations": [
+      "src/property_data.cpp:245"
+    ]
+  },
+  {
+    "source": "Confused",
+    "locations": [
+      "src/property_data.cpp:477",
+      "src/property_data.cpp:478"
+    ]
+  },
+  {
+    "source": "Confusion Resistance",
+    "locations": [
+      "src/property_data.cpp:244"
+    ]
+  },
+  {
+    "source": "Crims Psg",
+    "locations": [
+      "src/property_data.cpp:560"
+    ]
+  },
+  {
+    "source": "Crimson Passage",
+    "locations": [
+      "src/property_data.cpp:559"
+    ]
+  },
+  {
+    "source": "Deaf",
+    "locations": [
+      "src/property_data.cpp:360",
+      "src/property_data.cpp:361"
+    ]
+  },
+  {
+    "source": "Disease Res",
+    "locations": [
+      "src/property_data.cpp:259"
+    ]
+  },
+  {
+    "source": "Disease Resistance",
+    "locations": [
+      "src/property_data.cpp:258"
+    ]
+  },
+  {
+    "source": "Elec Res",
+    "locations": [
+      "src/property_data.cpp:191"
+    ]
+  },
+  {
+    "source": "Electric Resistance",
+    "locations": [
+      "src/property_data.cpp:190"
+    ]
+  },
+  {
+    "source": "Everything around me seems to slow down.",
+    "locations": [
+      "src/property_data.cpp:596",
+      "src/property_data.cpp:612"
+    ]
+  },
+  {
+    "source": "Everything around me seems to speed up a lot.",
+    "locations": [
+      "src/property_data.cpp:629"
+    ]
+  },
+  {
+    "source": "Everything around me seems to speed up.",
+    "locations": [
+      "src/property_data.cpp:594",
+      "src/property_data.cpp:614"
+    ]
+  },
+  {
+    "source": "Everything around me suddenly seems very still.",
+    "locations": [
+      "src/property_data.cpp:628"
+    ]
+  },
+  {
+    "source": "Extra Hasted",
+    "locations": [
+      "src/property_data.cpp:625",
+      "src/property_data.cpp:626"
+    ]
+  },
+  {
+    "source": "Fainted",
+    "locations": [
+      "src/property_data.cpp:376",
+      "src/property_data.cpp:377"
+    ]
+  },
+  {
+    "source": "faints.",
+    "locations": [
+      "src/property_data.cpp:382"
+    ]
+  },
+  {
+    "source": "Fastened by a spike. Tearing it out will be rather painful.",
+    "locations": [
+      "src/property_data.cpp:646"
+    ]
+  },
+  {
+    "source": "Fear Res",
+    "locations": [
+      "src/property_data.cpp:219"
+    ]
+  },
+  {
+    "source": "Fear Resistance",
+    "locations": [
+      "src/property_data.cpp:218"
+    ]
+  },
+  {
+    "source": "Fire Res",
+    "locations": [
+      "src/property_data.cpp:163"
+    ]
+  },
+  {
+    "source": "Fire Resistance",
+    "locations": [
+      "src/property_data.cpp:162"
+    ]
+  },
+  {
+    "source": "Focused",
+    "locations": [
+      "src/property_data.cpp:534",
+      "src/property_data.cpp:535"
+    ]
+  },
+  {
+    "source": "Halluc",
+    "locations": [
+      "src/property_data.cpp:496"
+    ]
+  },
+  {
+    "source": "Hallucinating",
+    "locations": [
+      "src/property_data.cpp:495"
+    ]
+  },
+  {
+    "source": "Hasted",
+    "locations": [
+      "src/property_data.cpp:609",
+      "src/property_data.cpp:610"
+    ]
+  },
+  {
+    "source": "I am awake.",
+    "locations": [
+      "src/property_data.cpp:383"
+    ]
+  },
+  {
+    "source": "I am blinded!",
+    "locations": [
+      "src/property_data.cpp:347"
+    ]
+  },
+  {
+    "source": "I am Burning!",
+    "locations": [
+      "src/property_data.cpp:400"
+    ]
+  },
+  {
+    "source": "I am confused!",
+    "locations": [
+      "src/property_data.cpp:482"
+    ]
+  },
+  {
+    "source": "I am deaf!",
+    "locations": [
+      "src/property_data.cpp:363"
+    ]
+  },
+  {
+    "source": "I am fastened by a spike!",
+    "locations": [
+      "src/property_data.cpp:647"
+    ]
+  },
+  {
+    "source": "I am no longer stunned.",
+    "locations": [
+      "src/property_data.cpp:580"
+    ]
+  },
+  {
+    "source": "I am no longer terrified!",
+    "locations": [
+      "src/property_data.cpp:466"
+    ]
+  },
+  {
+    "source": "I am paralyzed!",
+    "locations": [
+      "src/property_data.cpp:439"
+    ]
+  },
+  {
+    "source": "I am poisoned!",
+    "locations": [
+      "src/property_data.cpp:422"
+    ]
+  },
+  {
+    "source": "I am starting to doubt my senses.",
+    "locations": [
+      "src/property_data.cpp:498"
+    ]
+  },
+  {
+    "source": "I am stunned!",
+    "locations": [
+      "src/property_data.cpp:578"
+    ]
+  },
+  {
+    "source": "I am terrified!",
+    "locations": [
+      "src/property_data.cpp:464"
+    ]
+  },
+  {
+    "source": "I can breath without harm.",
+    "locations": [
+      "src/property_data.cpp:296"
+    ]
+  },
+  {
+    "source": "I can hear again.",
+    "locations": [
+      "src/property_data.cpp:365"
+    ]
+  },
+  {
+    "source": "I can move again!",
+    "locations": [
+      "src/property_data.cpp:441"
+    ]
+  },
+  {
+    "source": "I can see again!",
+    "locations": [
+      "src/property_data.cpp:349"
+    ]
+  },
+  {
+    "source": "I cannot be swayed by fear.",
+    "locations": [
+      "src/property_data.cpp:221"
+    ]
+  },
+  {
+    "source": "I cease to return harm.",
+    "locations": [
+      "src/property_data.cpp:553"
+    ]
+  },
+  {
+    "source": "I come to my senses.",
+    "locations": [
+      "src/property_data.cpp:484"
+    ]
+  },
+  {
+    "source": "I defy harmful spells!",
+    "locations": [
+      "src/property_data.cpp:307"
+    ]
+  },
+  {
+    "source": "I faint!",
+    "locations": [
+      "src/property_data.cpp:381"
+    ]
+  },
+  {
+    "source": "I feel impervious to physical attacks.",
+    "locations": [
+      "src/property_data.cpp:151"
+    ]
+  },
+  {
+    "source": "I feel less awake.",
+    "locations": [
+      "src/property_data.cpp:209"
+    ]
+  },
+  {
+    "source": "I feel less focused.",
+    "locations": [
+      "src/property_data.cpp:540"
+    ]
+  },
+  {
+    "source": "I feel less steady.",
+    "locations": [
+      "src/property_data.cpp:286"
+    ]
+  },
+  {
+    "source": "I feel more steady.",
+    "locations": [
+      "src/property_data.cpp:284"
+    ]
+  },
+  {
+    "source": "I feel more sure of my senses.",
+    "locations": [
+      "src/property_data.cpp:500"
+    ]
+  },
+  {
+    "source": "I feel more susceptible to time.",
+    "locations": [
+      "src/property_data.cpp:236"
+    ]
+  },
+  {
+    "source": "I feel resistant to confusion.",
+    "locations": [
+      "src/property_data.cpp:247"
+    ]
+  },
+  {
+    "source": "I feel resistant to disease.",
+    "locations": [
+      "src/property_data.cpp:261"
+    ]
+  },
+  {
+    "source": "I feel resistant to electricity.",
+    "locations": [
+      "src/property_data.cpp:193"
+    ]
+  },
+  {
+    "source": "I feel resistant to fire.",
+    "locations": [
+      "src/property_data.cpp:165"
+    ]
+  },
+  {
+    "source": "I feel resistant to poison.",
+    "locations": [
+      "src/property_data.cpp:179"
+    ]
+  },
+  {
+    "source": "I feel steadfast.",
+    "locations": [
+      "src/property_data.cpp:235"
+    ]
+  },
+  {
+    "source": "I feel susceptible to the horrors of this place again.",
+    "locations": [
+      "src/property_data.cpp:322"
+    ]
+  },
+  {
+    "source": "I feel very focused.",
+    "locations": [
+      "src/property_data.cpp:539"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to confusion.",
+    "locations": [
+      "src/property_data.cpp:249"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to disease.",
+    "locations": [
+      "src/property_data.cpp:263"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to electricity.",
+    "locations": [
+      "src/property_data.cpp:195"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to fear.",
+    "locations": [
+      "src/property_data.cpp:223"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to fire.",
+    "locations": [
+      "src/property_data.cpp:167"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to light!",
+    "locations": [
+      "src/property_data.cpp:334"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to physical attacks.",
+    "locations": [
+      "src/property_data.cpp:153"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to poison.",
+    "locations": [
+      "src/property_data.cpp:181"
+    ]
+  },
+  {
+    "source": "I feel vulnerable to spells.",
+    "locations": [
+      "src/property_data.cpp:309"
+    ]
+  },
+  {
+    "source": "I feel wide awake.",
+    "locations": [
+      "src/property_data.cpp:207"
+    ]
+  },
+  {
+    "source": "I manage to keep my head together.",
+    "locations": [
+      "src/property_data.cpp:486"
+    ]
+  },
+  {
+    "source": "I manage to maintain a grip on what is real.",
+    "locations": [
+      "src/property_data.cpp:502"
+    ]
+  },
+  {
+    "source": "I no longer feel vulnerable to light.",
+    "locations": [
+      "src/property_data.cpp:336"
+    ]
+  },
+  {
+    "source": "I resist burning.",
+    "locations": [
+      "src/property_data.cpp:404"
+    ]
+  },
+  {
+    "source": "I resist fainting.",
+    "locations": [
+      "src/property_data.cpp:385"
+    ]
+  },
+  {
+    "source": "I resist fear.",
+    "locations": [
+      "src/property_data.cpp:468"
+    ]
+  },
+  {
+    "source": "I resist paralyzation.",
+    "locations": [
+      "src/property_data.cpp:443"
+    ]
+  },
+  {
+    "source": "I resist poisoning.",
+    "locations": [
+      "src/property_data.cpp:426"
+    ]
+  },
+  {
+    "source": "I resist slowing.",
+    "locations": [
+      "src/property_data.cpp:598"
+    ]
+  },
+  {
+    "source": "I resist stunning.",
+    "locations": [
+      "src/property_data.cpp:582"
+    ]
+  },
+  {
+    "source": "I suddenly realize that I no longer crave Astral Opium.",
+    "locations": [
+      "src/property_data.cpp:524"
+    ]
+  },
+  {
+    "source": "I tear free!",
+    "locations": [
+      "src/property_data.cpp:649",
+      "src/property_data.cpp:918"
+    ]
+  },
+  {
+    "source": "is blinded.",
+    "locations": [
+      "src/property_data.cpp:348"
+    ]
+  },
+  {
+    "source": "is burning.",
+    "locations": [
+      "src/property_data.cpp:401"
+    ]
+  },
+  {
+    "source": "is cleansed from poisoning.",
+    "locations": [
+      "src/property_data.cpp:425"
+    ]
+  },
+  {
+    "source": "is defying harmful spells.",
+    "locations": [
+      "src/property_data.cpp:308"
+    ]
+  },
+  {
+    "source": "is fastened by a spike.",
+    "locations": [
+      "src/property_data.cpp:648"
+    ]
+  },
+  {
+    "source": "is less awake.",
+    "locations": [
+      "src/property_data.cpp:210"
+    ]
+  },
+  {
+    "source": "is no longer burning.",
+    "locations": [
+      "src/property_data.cpp:403"
+    ]
+  },
+  {
+    "source": "is no longer confused.",
+    "locations": [
+      "src/property_data.cpp:485"
+    ]
+  },
+  {
+    "source": "is no longer stunned.",
+    "locations": [
+      "src/property_data.cpp:581"
+    ]
+  },
+  {
+    "source": "is no longer terrified.",
+    "locations": [
+      "src/property_data.cpp:467"
+    ]
+  },
+  {
+    "source": "is paralyzed.",
+    "locations": [
+      "src/property_data.cpp:440"
+    ]
+  },
+  {
+    "source": "is poisoned.",
+    "locations": [
+      "src/property_data.cpp:423"
+    ]
+  },
+  {
+    "source": "is reacting to noise again",
+    "locations": [
+      "src/property_data.cpp:366"
+    ]
+  },
+  {
+    "source": "is resistant to confusion.",
+    "locations": [
+      "src/property_data.cpp:248"
+    ]
+  },
+  {
+    "source": "is resistant to disease.",
+    "locations": [
+      "src/property_data.cpp:262"
+    ]
+  },
+  {
+    "source": "is resistant to electricity.",
+    "locations": [
+      "src/property_data.cpp:194"
+    ]
+  },
+  {
+    "source": "is resistant to fear.",
+    "locations": [
+      "src/property_data.cpp:222"
+    ]
+  },
+  {
+    "source": "is resistant to fire.",
+    "locations": [
+      "src/property_data.cpp:166"
+    ]
+  },
+  {
+    "source": "is resistant to poison.",
+    "locations": [
+      "src/property_data.cpp:180"
+    ]
+  },
+  {
+    "source": "is stunned.",
+    "locations": [
+      "src/property_data.cpp:579"
+    ]
+  },
+  {
+    "source": "is vulnerable to confusion.",
+    "locations": [
+      "src/property_data.cpp:250"
+    ]
+  },
+  {
+    "source": "is vulnerable to disease.",
+    "locations": [
+      "src/property_data.cpp:264"
+    ]
+  },
+  {
+    "source": "is vulnerable to electricity.",
+    "locations": [
+      "src/property_data.cpp:196"
+    ]
+  },
+  {
+    "source": "is vulnerable to fear.",
+    "locations": [
+      "src/property_data.cpp:224"
+    ]
+  },
+  {
+    "source": "is vulnerable to fire.",
+    "locations": [
+      "src/property_data.cpp:168"
+    ]
+  },
+  {
+    "source": "Is vulnerable to light.",
+    "locations": [
+      "src/property_data.cpp:333"
+    ]
+  },
+  {
+    "source": "is vulnerable to light.",
+    "locations": [
+      "src/property_data.cpp:335"
+    ]
+  },
+  {
+    "source": "is vulnerable to poison.",
+    "locations": [
+      "src/property_data.cpp:182"
+    ]
+  },
+  {
+    "source": "is vulnerable to spells.",
+    "locations": [
+      "src/property_data.cpp:310"
+    ]
+  },
+  {
+    "source": "is wide awake.",
+    "locations": [
+      "src/property_data.cpp:208"
+    ]
+  },
+  {
+    "source": "Lgt Sens",
+    "locations": [
+      "src/property_data.cpp:332"
+    ]
+  },
+  {
+    "source": "Light Sensitive",
+    "locations": [
+      "src/property_data.cpp:331"
+    ]
+  },
+  {
+    "source": "looks confused.",
+    "locations": [
+      "src/property_data.cpp:483"
+    ]
+  },
+  {
+    "source": "looks less steady.",
+    "locations": [
+      "src/property_data.cpp:287"
+    ]
+  },
+  {
+    "source": "looks less tough.",
+    "locations": [
+      "src/property_data.cpp:154"
+    ]
+  },
+  {
+    "source": "looks more steady.",
+    "locations": [
+      "src/property_data.cpp:285"
+    ]
+  },
+  {
+    "source": "looks terrified.",
+    "locations": [
+      "src/property_data.cpp:465"
+    ]
+  },
+  {
+    "source": "looks tough as steel.",
+    "locations": [
+      "src/property_data.cpp:152"
+    ]
+  },
+  {
+    "source": "Moves faster.",
+    "locations": [
+      "src/property_data.cpp:611"
+    ]
+  },
+  {
+    "source": "Moves slower.",
+    "locations": [
+      "src/property_data.cpp:593"
+    ]
+  },
+  {
+    "source": "Moves very fast.",
+    "locations": [
+      "src/property_data.cpp:627"
+    ]
+  },
+  {
+    "source": "My body is cleansed from poisoning!",
+    "locations": [
+      "src/property_data.cpp:424"
+    ]
+  },
+  {
+    "source": "My hastiness ceased",
+    "locations": [
+      "src/property_data.cpp:617"
+    ]
+  },
+  {
+    "source": "My hearing came back",
+    "locations": [
+      "src/property_data.cpp:368"
+    ]
+  },
+  {
+    "source": "My movement is normal again.",
+    "locations": [
+      "src/property_data.cpp:569"
+    ]
+  },
+  {
+    "source": "My sight came back",
+    "locations": [
+      "src/property_data.cpp:352"
+    ]
+  },
+  {
+    "source": "My slowness ceased",
+    "locations": [
+      "src/property_data.cpp:601"
+    ]
+  },
+  {
+    "source": "Nailed",
+    "locations": [
+      "src/property_data.cpp:644"
+    ]
+  },
+  {
+    "source": "no longer is vulnerable to light.",
+    "locations": [
+      "src/property_data.cpp:337"
+    ]
+  },
+  {
+    "source": "Nothing can disturb my mind!",
+    "locations": [
+      "src/property_data.cpp:320"
+    ]
+  },
+  {
+    "source": "Occasionally moving in random directions, cannot read or cast spells, cannot search for hidden doors or traps.",
+    "locations": [
+      "src/property_data.cpp:480"
+    ]
+  },
+  {
+    "source": "Paralys Res",
+    "locations": [
+      "src/property_data.cpp:282"
+    ]
+  },
+  {
+    "source": "Paralysis Resistance",
+    "locations": [
+      "src/property_data.cpp:281"
+    ]
+  },
+  {
+    "source": "Paralyzed",
+    "locations": [
+      "src/property_data.cpp:436",
+      "src/property_data.cpp:437"
+    ]
+  },
+  {
+    "source": "Phys Res",
+    "locations": [
+      "src/property_data.cpp:149"
+    ]
+  },
+  {
+    "source": "Physical Resistance",
+    "locations": [
+      "src/property_data.cpp:148"
+    ]
+  },
+  {
+    "source": "Poison Res",
+    "locations": [
+      "src/property_data.cpp:177"
+    ]
+  },
+  {
+    "source": "Poison Resistance",
+    "locations": [
+      "src/property_data.cpp:176"
+    ]
+  },
+  {
+    "source": "Poisoned",
+    "locations": [
+      "src/property_data.cpp:415",
+      "src/property_data.cpp:416"
+    ]
+  },
+  {
+    "source": "PROP_AURA OF DECAY",
+    "locations": [
+      "src/property_data.cpp:23"
+    ]
+  },
+  {
+    "source": "Reprisal is sealed!",
+    "locations": [
+      "src/property_data.cpp:552"
+    ]
+  },
+  {
+    "source": "resists burning.",
+    "locations": [
+      "src/property_data.cpp:405"
+    ]
+  },
+  {
+    "source": "resists confusion.",
+    "locations": [
+      "src/property_data.cpp:487"
+    ]
+  },
+  {
+    "source": "resists fainting.",
+    "locations": [
+      "src/property_data.cpp:386"
+    ]
+  },
+  {
+    "source": "resists fear.",
+    "locations": [
+      "src/property_data.cpp:469"
+    ]
+  },
+  {
+    "source": "resists paralyzation.",
+    "locations": [
+      "src/property_data.cpp:444"
+    ]
+  },
+  {
+    "source": "resists poisoning.",
+    "locations": [
+      "src/property_data.cpp:427"
+    ]
+  },
+  {
+    "source": "resists slowing.",
+    "locations": [
+      "src/property_data.cpp:599"
+    ]
+  },
+  {
+    "source": "resists stunning.",
+    "locations": [
+      "src/property_data.cpp:583"
+    ]
+  },
+  {
+    "source": "Shock Res",
+    "locations": [
+      "src/property_data.cpp:318"
+    ]
+  },
+  {
+    "source": "Shock Resistance",
+    "locations": [
+      "src/property_data.cpp:317"
+    ]
+  },
+  {
+    "source": "Sleep Res",
+    "locations": [
+      "src/property_data.cpp:205"
+    ]
+  },
+  {
+    "source": "Sleep Resistance",
+    "locations": [
+      "src/property_data.cpp:204"
+    ]
+  },
+  {
+    "source": "Slow Res",
+    "locations": [
+      "src/property_data.cpp:233"
+    ]
+  },
+  {
+    "source": "Slow Resistance",
+    "locations": [
+      "src/property_data.cpp:232"
+    ]
+  },
+  {
+    "source": "Slowed",
+    "locations": [
+      "src/property_data.cpp:591",
+      "src/property_data.cpp:592"
+    ]
+  },
+  {
+    "source": "Slowly takes damage while health is above 50% of maximum hit points, hit points do not regenerate naturally, -25% melee damage, -10% melee hit chance, -10% evasion. Poison duration stacks if more is applied.",
+    "locations": [
+      "src/property_data.cpp:418"
+    ]
+  },
+  {
+    "source": "slows down.",
+    "locations": [
+      "src/property_data.cpp:595",
+      "src/property_data.cpp:615"
+    ]
+  },
+  {
+    "source": "speeds up.",
+    "locations": [
+      "src/property_data.cpp:597",
+      "src/property_data.cpp:613"
+    ]
+  },
+  {
+    "source": "Spell Res",
+    "locations": [
+      "src/property_data.cpp:305"
+    ]
+  },
+  {
+    "source": "Spell Resistance",
+    "locations": [
+      "src/property_data.cpp:304"
+    ]
+  },
+  {
+    "source": "stops reacting to any noise",
+    "locations": [
+      "src/property_data.cpp:364"
+    ]
+  },
+  {
+    "source": "Stunned",
+    "locations": [
+      "src/property_data.cpp:576",
+      "src/property_data.cpp:577"
+    ]
+  },
+  {
+    "source": "suddenly disappears.",
+    "locations": [
+      "src/property_data.cpp:637"
+    ]
+  },
+  {
+    "source": "Summoned",
+    "locations": [
+      "src/property_data.cpp:638"
+    ]
+  },
+  {
+    "source": "Takes damage each turn, 50% chance to fail when attempting to read or cast spells.",
+    "locations": [
+      "src/property_data.cpp:398"
+    ]
+  },
+  {
+    "source": "Temporarily lost consciousness, will wake up if any damage is taken or enough time passes.",
+    "locations": [
+      "src/property_data.cpp:379"
+    ]
+  },
+  {
+    "source": "Terrified",
+    "locations": [
+      "src/property_data.cpp:459",
+      "src/property_data.cpp:460"
+    ]
+  },
+  {
+    "source": "That felt amazing!",
+    "locations": [
+      "src/property_data.cpp:521"
+    ]
+  },
+  {
+    "source": "The flames are put out.",
+    "locations": [
+      "src/property_data.cpp:402"
+    ]
+  },
+  {
+    "source": "The next spell is cast without spending a turn, and the cost is reduced by 1 point.",
+    "locations": [
+      "src/property_data.cpp:537"
+    ]
+  },
+  {
+    "source": "The senses cannot always be trusted.",
+    "locations": [
+      "src/property_data.cpp:497"
+    ]
+  },
+  {
+    "source": "The string '",
+    "locations": [
+      "src/property_data.cpp:123"
+    ]
+  },
+  {
+    "source": "Thorns",
+    "locations": [
+      "src/property_data.cpp:546",
+      "src/property_data.cpp:547"
+    ]
+  },
+  {
+    "source": "Unaffected by fear.",
+    "locations": [
+      "src/property_data.cpp:220"
+    ]
+  },
+  {
+    "source": "Unaffected by shocking events.",
+    "locations": [
+      "src/property_data.cpp:319"
+    ]
+  },
+  {
+    "source": "wakes up.",
+    "locations": [
+      "src/property_data.cpp:384"
+    ]
+  },
+  {
+    "source": "Walking does not spend any time, but every step taken drains 2 hit points (waiting in place can still be done as normal). The effect ends after a certain number of steps have been taken, or if there is not enough hit points to drain.",
+    "locations": [
+      "src/property_data.cpp:562"
+    ]
+  },
+  {
+    "source": "Was magically summoned here.",
+    "locations": [
+      "src/property_data.cpp:639"
+    ]
+  }
+]

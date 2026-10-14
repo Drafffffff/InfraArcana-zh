@@ -419,7 +419,7 @@ bool GainXp::is_allowed() const
 
 void GainXp::run_effect()
 {
-        msg_log::add("I feel more experienced.");
+        msg_log::add("我感觉经验增加了。");
 
         game::incr_player_xp(50, Verbose::no);
 }
@@ -434,7 +434,7 @@ bool RemoveInsanity::is_allowed() const
 
 void RemoveInsanity::run_effect()
 {
-        msg_log::add("I feel more sane.");
+        msg_log::add("我觉得自己更加理智了。");
 
         actor::player_state::g_insanity -= 25;
 }
@@ -466,7 +466,7 @@ void GainItem::run_effect()
 
         const std::string name_a = item->name(ItemNameType::a);
 
-        msg_log::add("I have received " + name_a + ".");
+        msg_log::add("我收到了 " + name_a + ".");
 
         map::g_player->m_inv.put_in_backpack(item);
 }
@@ -557,7 +557,7 @@ void Blessed::run_effect()
                                 ItemNameType::plain,
                                 ItemNameInfo::none);
 
-                msg_log::add("The " + name + " seems cleansed!");
+                msg_log::add("这 " + name + " 似乎已被净化！");
 
                 cursed_item->current_curse().on_curse_end();
 
@@ -606,7 +606,7 @@ std::vector<BonusId> XpReduced::bonuses_not_allowed_with() const
 
 void XpReduced::run_effect()
 {
-        msg_log::add("I feel less experienced.");
+        msg_log::add("我感觉经验变少了。");
 
         game::decr_player_xp(50);
 }
@@ -693,7 +693,7 @@ void SpawnMonsters::run_effect()
                 return;
         }
 
-        msg_log::add("Something approaches...");
+        msg_log::add("有什么东西靠近了……");
 
         const size_t nr_mon = rnd::range(3, 4);
 
@@ -790,11 +790,11 @@ void Gong::bump(actor::Actor& actor_bumping)
         if (!map::g_seen.at(m_pos)) {
                 msg_log::clear();
 
-                msg_log::add("There is a temple gong here.");
+                msg_log::add("这里有一面神殿铜锣。");
 
                 if (!player_bon::is_bg(Bg::exorcist)) {
                         msg_log::add(
-                                "Strike it? " + common_text::g_yes_or_no_hint,
+                                "要攻击它吗？ " + common_text::g_yes_or_no_hint,
                                 colors::light_white(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -811,15 +811,15 @@ void Gong::bump(actor::Actor& actor_bumping)
         }
 
         if (player_bon::is_bg(Bg::exorcist)) {
-                msg_log::add("This unholy instrument must be destroyed!");
+                msg_log::add("必须摧毁这件亵渎圣物！");
 
                 return;
         }
 
-        msg_log::add("I strike the temple gong!");
+        msg_log::add("我敲响了神殿铜锣！");
 
         Snd snd(
-                "The crash resonates through the air!",
+                "撞击声在空中回荡！",
                 audio::SfxId::gong,
                 IgnoreMsgIfOriginSeen::no,
                 m_pos,
@@ -830,7 +830,7 @@ void Gong::bump(actor::Actor& actor_bumping)
         snd.run();
 
         if (m_is_used) {
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
         }
         else {
                 msg_log::more_prompt();
@@ -862,7 +862,7 @@ void Gong::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The gong is destroyed.");
+                        msg_log::add("铜锣被摧毁了。");
                 }
 
                 map::update_terrain(terrain::make(terrain::Id::rubble_low, m_pos));
@@ -895,9 +895,9 @@ void Gong::hit(
 
 std::string Gong::name(const Article article) const
 {
-        std::string a = (article == Article::a) ? "a " : "the ";
+        std::string a = (article == Article::a) ? "一个 " : "这 ";
 
-        return a + "temple gong";
+        return a + "神殿铜锣";
 }
 
 Color Gong::color_default() const
@@ -914,7 +914,7 @@ std::optional<map::MinimapAppearance> Gong::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Temple Gong";
+        appearance.legend_text = "神殿铜锣";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;

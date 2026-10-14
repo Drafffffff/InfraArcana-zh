@@ -117,28 +117,28 @@ void init()
 
         // Init possible potion colors and fake names
         s_potion_appearances.assign(
-                {{"Golden", "a Golden", colors::yellow()},
-                 {"Yellow", "a Yellow", colors::yellow()},
-                 {"Dark", "a Dark", colors::gray()},
-                 {"Black", "a Black", colors::gray()},
-                 {"Oily", "an Oily", colors::gray()},
-                 {"Smoky", "a Smoky", colors::white()},
-                 {"Slimy", "a Slimy", colors::green()},
-                 {"Green", "a Green", colors::light_green()},
-                 {"Fiery", "a Fiery", colors::light_red()},
-                 {"Murky", "a Murky", colors::dark_brown()},
-                 {"Muddy", "a Muddy", colors::brown()},
-                 {"Violet", "a Violet", colors::violet()},
-                 {"Orange", "an Orange", colors::orange()},
-                 {"Watery", "a Watery", colors::light_blue()},
-                 {"Metallic", "a Metallic", colors::gray()},
-                 {"Clear", "a Clear", colors::light_white()},
-                 {"Misty", "a Misty", colors::light_white()},
-                 {"Bloody", "a Bloody", colors::red()},
-                 {"Magenta", "a Magenta", colors::magenta()},
-                 {"Clotted", "a Clotted", colors::green()},
-                 {"Moldy", "a Moldy", colors::brown()},
-                 {"Frothy", "a Frothy", colors::white()}});
+                {{"金的", "一个金色的", colors::yellow()},
+                 {"黄色的", "黄色", colors::yellow()},
+                 {"黑暗的", "一个黑暗", colors::gray()},
+                 {"黑色的", "一个黑色", colors::gray()},
+                 {"油性", "油腻的", colors::gray()},
+                 {"烟", "烟熏的", colors::white()},
+                 {"粘糊糊的", "一个粘糊糊的", colors::green()},
+                 {"绿色的", "一个绿色", colors::light_green()},
+                 {"火热", "火热的", colors::light_red()},
+                 {"阴暗的", "阴暗的", colors::dark_brown()},
+                 {"浑", "泥泞的", colors::brown()},
+                 {"紫色", "一朵紫罗兰", colors::violet()},
+                 {"橙子", "一个橙子", colors::orange()},
+                 {"水汪汪的", "水汪汪的", colors::light_blue()},
+                 {"金属色", "金属色", colors::gray()},
+                 {"清除", "清晰的", colors::light_white()},
+                 {"蒙蒙", "一片迷蒙", colors::light_white()},
+                 {"血腥", "血腥的", colors::red()},
+                 {"品红", "洋红色", colors::magenta()},
+                 {"凝结的", "凝结的", colors::green()},
+                 {"发霉", "发霉的", colors::brown()},
+                 {"泡沫", "泡沫状", colors::white()}});
 
         for (auto& d : item::g_data) {
                 if (d.type != ItemType::potion) {
@@ -151,12 +151,12 @@ void init()
                 auto& look = s_potion_appearances[idx];
 
                 d.base_name_un_id.names[(size_t)ItemNameType::plain] =
-                        look.name_plain + " Potion";
+                        look.name_plain + " 药水";
 
                 d.base_name_un_id.names[(size_t)ItemNameType::plural] =
-                        look.name_plain + " Potions";
+                        look.name_plain + " 药水";
 
-                d.base_name_un_id.names[(size_t)ItemNameType::a] = look.name_a + " Potion";
+                d.base_name_un_id.names[(size_t)ItemNameType::a] = look.name_a + " 药水";
 
                 d.color = look.color;
 
@@ -171,9 +171,9 @@ void init()
 
                 delete potion;
 
-                const std::string real_name = "Potion of " + real_type_name;
-                const std::string real_name_plural = "Potions of " + real_type_name;
-                const std::string real_name_a = "a Potion of " + real_type_name;
+                const std::string real_name = "药水 " + real_type_name;
+                const std::string real_name_plural = "药水 " + real_type_name;
+                const std::string real_name_a = "一剂药水 " + real_type_name;
 
                 d.base_name.names[(size_t)ItemNameType::plain] = real_name;
                 d.base_name.names[(size_t)ItemNameType::plural] = real_name_plural;
@@ -236,7 +236,7 @@ ConsumeItem Potion::activate(actor::Actor* const actor)
                         const std::string name = this->name(ItemNameType::a);
 
                         const std::string msg =
-                                "Drink " +
+                                "喝 " +
                                 name +
                                 "? " +
                                 common_text::g_yes_or_no_hint;
@@ -265,14 +265,14 @@ ConsumeItem Potion::activate(actor::Actor* const actor)
                         const std::string potion_name =
                                 name(ItemNameType::a, ItemNameInfo::none);
 
-                        msg_log::add("I drink " + potion_name + "...");
+                        msg_log::add("我喝 " + potion_name + "...");
                 }
                 else {
                         // Not identified
                         const std::string potion_name =
                                 name(ItemNameType::plain, ItemNameInfo::none);
 
-                        msg_log::add("I drink an unknown " + potion_name + "...");
+                        msg_log::add("我喝着不知名的酒 " + potion_name + "...");
                 }
 
                 map::g_player->incr_shock(12.0, ShockSrc::use_strange_item);
@@ -315,9 +315,9 @@ void Potion::identify(const Verbose verbose)
                 const std::string name_after =
                         name(ItemNameType::a, ItemNameInfo::none);
 
-                msg_log::add("I have identified " + name_after + ".");
+                msg_log::add("我已确定 " + name_after + ".");
 
-                game::add_history_event("Identified " + name_after);
+                game::add_history_event("已鉴定 " + name_after);
         }
 }
 
@@ -331,14 +331,13 @@ std::vector<std::string> Potion::descr_hook() const
 
                 if (m_data->is_alignment_known) {
                         lines.push_back(
-                                "This potion is " +
+                                "这药水是 " +
                                 text_format::first_to_lower(alignment_str()) +
                                 ".");
                 }
                 else {
                         lines.emplace_back(
-                                "Perhaps keeping it for a while will reveal "
-                                "something about it.");
+                                "也许保留一段时间会揭示一些关于它的信息。");
                 }
 
                 return lines;
@@ -347,7 +346,7 @@ std::vector<std::string> Potion::descr_hook() const
 
 std::string Potion::alignment_str() const
 {
-        return ((alignment() == PotionAlignment::good) ? "Benign" : "Malign");
+        return ((alignment() == PotionAlignment::good) ? "良性" : "诽谤");
 }
 
 void Potion::reveal_alignment() const
@@ -366,9 +365,9 @@ void Potion::reveal_alignment() const
 
         msg_log::add(
                 std::string(
-                        "I feel like " +
+                        "我觉得 " +
                         name_plural +
-                        " are " +
+                        " 是 " +
                         align_str +
                         "."));
 
@@ -387,9 +386,9 @@ void Potion::on_collide(const P& pos, actor::Actor* const actor)
                         const std::string actor_name =
                                 actor::can_player_see_actor(*actor)
                                 ? actor::name_the(*actor)
-                                : "it";
+                                : "它";
 
-                        msg_log::add("The potion shatters on " + actor_name + ".");
+                        msg_log::add("药水碎裂在 " + actor_name + ".");
 
                         actor->make_player_aware_of_me();
                 }
@@ -402,7 +401,7 @@ void Potion::on_collide(const P& pos, actor::Actor* const actor)
 
                 if (!map_parsers::IsAnyOfTerrains(deep_terrains).run(pos)) {
                         msg_log::add(
-                                "The potion shatters on " +
+                                "药水碎裂在 " +
                                 terrain->name(Article::the) +
                                 ".");
                 }
@@ -430,18 +429,13 @@ Color Potion::interface_color() const
 
 std::string Vitality::real_name() const
 {
-        return "Vitality";
+        return "活力";
 }
 
 std::string Vitality::descr_identified() const
 {
         return (
-                "This elixir fully restores all hit points, heals all "
-                "wounds, and cures blindness, deafness, poisoning, "
-                "infections, disease, weakening, and life sapping. "
-                "Also, for some duration after consuming the potion, "
-                "+1 extra hit point is healed per turn, and there is "
-                "10% chance per turn to heal one wound.");
+                "这种灵药可完全恢复生命值、治愈所有创伤，并治愈失明、失聪、中毒、感染、疾病、虚弱和生命流失。此外，服用后的一段时间内，每回合额外恢复 1 点生命值，而且每回合有 10% 几率治愈一处创伤。");
 }
 
 PotionAlignment Vitality::alignment() const
@@ -485,12 +479,12 @@ void Vitality::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Spirit::real_name() const
 {
-        return "Spirit";
+        return "精神";
 }
 
 std::string Spirit::descr_identified() const
 {
-        return "Restores the spirit, and cures spirit sapping.";
+        return "恢复精神，治疗精神衰弱。";
 }
 
 PotionAlignment Spirit::alignment() const
@@ -528,12 +522,12 @@ void Spirit::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Blindness::real_name() const
 {
-        return "Blindness";
+        return "失明";
 }
 
 std::string Blindness::descr_identified() const
 {
-        return "Causes temporary loss of vision.";
+        return "导致暂时性视力丧失。";
 }
 
 PotionAlignment Blindness::alignment() const
@@ -561,12 +555,12 @@ void Blindness::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Paral::real_name() const
 {
-        return "Paralyzation";
+        return "瘫痪";
 }
 
 std::string Paral::descr_identified() const
 {
-        return "Causes paralysis.";
+        return "导致瘫痪。";
 }
 
 PotionAlignment Paral::alignment() const
@@ -594,12 +588,12 @@ void Paral::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Disease::real_name() const
 {
-        return "Disease";
+        return "疾病";
 }
 
 std::string Disease::descr_identified() const
 {
-        return "Causes disease.";
+        return "引起疾病。";
 }
 
 PotionAlignment Disease::alignment() const
@@ -627,12 +621,12 @@ void Disease::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Conf::real_name() const
 {
-        return "Confusion";
+        return "困惑";
 }
 
 std::string Conf::descr_identified() const
 {
-        return "Causes confusion.";
+        return "造成混乱。";
 }
 
 PotionAlignment Conf::alignment() const
@@ -660,14 +654,13 @@ void Conf::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Fortitude::real_name() const
 {
-        return "Fortitude";
+        return "刚毅";
 }
 
 std::string Fortitude::descr_identified() const
 {
         return (
-                "Gives the consumer complete peace and clarity of "
-                "mind, and cures mind sapping.");
+                "给消费者带来完全的平静和清醒的头脑，并治愈精神衰弱。");
 }
 
 PotionAlignment Fortitude::alignment() const
@@ -698,7 +691,7 @@ void Fortitude::quaff_impl(actor::Actor& actor)
 
                 map::g_player->restore_shock(999, false);
 
-                msg_log::add("I feel more at ease.");
+                msg_log::add("我感觉更安心了。");
         }
 
         if (actor::can_player_see_actor(actor)) {
@@ -717,12 +710,12 @@ void Fortitude::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Poison::real_name() const
 {
-        return "Poison";
+        return "毒";
 }
 
 std::string Poison::descr_identified() const
 {
-        return "A sinister brew.";
+        return "一种险恶的酿造。";
 }
 
 PotionAlignment Poison::alignment() const
@@ -750,13 +743,13 @@ void Poison::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Insight::real_name() const
 {
-        return "Insight";
+        return "洞察力";
 }
 
 std::string Insight::descr_identified() const
 {
         return (
-                "This strange concoction causes a sudden flash of intuition.");
+                "这种奇怪的混合物引起了直觉的突然闪现。");
 }
 
 PotionAlignment Insight::alignment() const
@@ -779,7 +772,7 @@ void Insight::quaff_impl(actor::Actor& actor)
 
         // Insight gives some extra XP, to avoid making the potion worthless if
         // the player identifies all items)
-        msg_log::add("I feel insightful.");
+        msg_log::add("我感觉很有洞察力。");
 
         game::incr_player_xp(g_xp_on_drink_insight_potion);
 
@@ -794,15 +787,13 @@ void Insight::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Curing::real_name() const
 {
-        return "Curing";
+        return "养护";
 }
 
 std::string Curing::descr_identified() const
 {
         return (
-                "Restores 3 hit points, and cures blindness, deafness, "
-                "poisoning, infections, disease, weakening, and "
-                "life sapping.");
+                "恢复 3 点生命值，并治愈失明、耳聋、中毒、感染、疾病、虚弱和生命削弱。");
 }
 
 PotionAlignment Curing::alignment() const
@@ -840,7 +831,7 @@ void Curing::quaff_impl(actor::Actor& actor)
         }
 
         if (!is_noticable && actor::is_player(&actor)) {
-                msg_log::add("I feel fine.");
+                msg_log::add("我感觉很好。");
 
                 is_noticable = true;
         }
@@ -862,14 +853,13 @@ void Curing::collide_hook(const P& pos, actor::Actor* actor)
 
 std::string Resistance::real_name() const
 {
-        return "Resistance";
+        return "反抗";
 }
 
 std::string Resistance::descr_identified() const
 {
         return (
-                "Completely protects the consumer from electricity, fire and poison - "
-                "and also prevents paralysis.");
+                "完全保护消费者免受电、火和毒害 - 并防止瘫痪。");
 }
 
 PotionAlignment Resistance::alignment() const
@@ -902,14 +892,13 @@ void Resistance::collide_hook(const P& pos, actor::Actor* actor)
 
 std::string Descent::real_name() const
 {
-        return "Descent";
+        return "血统";
 }
 
 std::string Descent::descr_identified() const
 {
         return (
-                "A bizarre liquid that causes the consumer to "
-                "dematerialize and sink through the ground.");
+                "一种奇怪的液体，会导致消费者非物质化并沉入地下。");
 }
 
 PotionAlignment Descent::alignment() const
@@ -928,7 +917,7 @@ void Descent::quaff_impl(actor::Actor& actor)
         }
         else {
                 // Cannot bypass the boss level.
-                msg_log::add("I feel a faint sinking sensation, but it soon disappears...");
+                msg_log::add("我感觉到一种淡淡的下沉感，但很快就消失了……");
         }
 
         identify(Verbose::yes);
@@ -942,14 +931,13 @@ void Descent::collide_hook(const P& pos, actor::Actor* const actor)
 
 std::string Skill::real_name() const
 {
-        return "Skill";
+        return "技能";
 }
 
 std::string Skill::descr_identified() const
 {
         return (
-                "The consumer becomes more skillful "
-                "(+10% to hit chance, evasion, stealth, and searching).");
+                "消费者变得更加熟练（命中率、躲避、潜行和搜索+10%）。");
 }
 
 PotionAlignment Skill::alignment() const
@@ -977,17 +965,13 @@ void Skill::collide_hook(const P& pos, actor::Actor* actor)
 
 std::string Carapace::real_name() const
 {
-        return "Carapace";
+        return "甲壳";
 }
 
 std::string Carapace::descr_identified() const
 {
         return (
-                "Causes a tough carapace to grow over the consumer's skin "
-                "providing protection against physical attacks "
-                "(+3 armor points), "
-                "as well as some resistance against burning "
-                "(+25% chance to resist burning).");
+                "使消费者的皮肤上长出坚韧的甲壳，提供对物理攻击的保护（+3护甲点），以及一定程度的抗燃烧能力（+25% c抵抗燃烧的机会）。");
 }
 
 PotionAlignment Carapace::alignment() const
@@ -1015,15 +999,13 @@ void Carapace::collide_hook(const P& pos, actor::Actor* actor)
 
 std::string Blinking::real_name() const
 {
-        return "Blinking";
+        return "闪烁";
 }
 
 std::string Blinking::descr_identified() const
 {
         return (
-                "Causes the consumer to rapidly fade away from existence, "
-                "and reappear again at a nearby position "
-                "of their choosing.");
+                "导致消费者迅速从存在中消失，并再次出现在他们选择的附近位置。");
 }
 
 PotionAlignment Blinking::alignment() const
@@ -1034,7 +1016,7 @@ PotionAlignment Blinking::alignment() const
 void Blinking::quaff_impl(actor::Actor& actor)
 {
         if (actor::is_player(&actor)) {
-                msg_log::add("I fade out of existence and reappear.");
+                msg_log::add("我消失并重新出现。");
         }
 
         const int max_dist = 4;
@@ -1057,15 +1039,13 @@ void Blinking::collide_hook(const P& pos, actor::Actor* actor)
 
 std::string Burrowing::real_name() const
 {
-        return "Burrowing";
+        return "掘地";
 }
 
 std::string Burrowing::descr_identified() const
 {
         return (
-                "Infused with the alchemically treated blood of Chthonians, "
-                "it grants the consumer the ability to burrow through earth and rock "
-                "(can burrow through walls and rubble).");
+                "它注入了经过炼金术处理的冥神之血，赋予使用者在泥土和岩石中挖掘的能力（可以挖掘墙壁和瓦砾）。");
 }
 
 PotionAlignment Burrowing::alignment() const

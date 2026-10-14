@@ -1,0 +1,1228 @@
+[
+  {
+    "source": "a Void Traveler",
+    "target": "一名虚空旅者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A walking cadaver of towering proportions, it seems to have had the skin of countless other bodies poorly sewn over that of its own. Festering wounds on its hulk continually disgorge a putrid liquid.",
+    "target": "一具高大得惊人的行尸，似乎有人把无数其他尸体的皮肤胡乱缝在它身上。它庞大的身躯上遍布溃烂创口，不断涌出腐臭液体。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Warping Aberrance",
+    "target": "一只扭曲异变体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Water Beast",
+    "target": "一只水兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Water Hound",
+    "target": "一只水猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a White Spider corpse",
+    "target": "一具白蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Winged Corpse",
+    "target": "一具飞翼尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Wizard",
+    "target": "一名巫师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Wizard corpse",
+    "target": "一具巫师尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Wolf",
+    "target": "一头狼",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Wolf carcass",
+    "target": "一具狼尸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Worm Mass",
+    "target": "一团蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Wraith",
+    "target": "一个怨灵",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A writhing mass of crawling intestines.",
+    "target": "一团扭动爬行的肠子。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Zealot corpse",
+    "target": "一具狂信徒尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Abaxu the Destroyer",
+    "target": "毁灭者阿巴克苏",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Abholos",
+    "target": "阿布霍洛斯",
+    "locations": [
+      "src/gods.cpp:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Absorption",
+    "target": "吸收",
+    "locations": [
+      "src/player_bon.cpp:476"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "accelerates creatures",
+    "target": "加速生物",
+    "locations": [
+      "src/terrain_pylon.cpp:335"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Addict",
+    "target": "成瘾者",
+    "locations": [
+      "src/property_data.cpp:513"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Addicted to Astral Opium - the addiction will cease eventually if Astral Opium is not used again, however the abstinence will soon cause withdrawal symptoms (increased minimum shock). The addiction is too powerful and otherwordly to be cured by a Potion of Fortitude.",
+    "target": "已对星界鸦片上瘾——只要不再服用星界鸦片，成瘾最终会消退，但戒断很快会引发症状（最低震慑值提高）。这种成瘾力量过于强大且超凡，坚韧药剂也无法治愈。",
+    "locations": [
+      "src/property_data.cpp:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Adept Marksman",
+    "target": "神射手",
+    "locations": [
+      "src/player_bon.cpp:179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Adept Melee Fighter",
+    "target": "近战行家",
+    "locations": [
+      "src/player_bon.cpp:157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "After each game is finished, information such as player name and dungeon level reached is stored in a \"memorial file\" on the disk, and a high score entry is added (unless you manually quit the game by pressing \"Q\"). The high score list can be viewed by selecting the main menu option \"Graveyard\". Selecting a high score entry on this screen will show the corresponding stored memorial file.",
+    "target": "每局游戏结束后，玩家名称、抵达的地牢层数等信息都会写入磁盘上的“纪念档案”，并新增一条高分记录（手动按“Q”退出时除外）。可从主菜单选择“墓园”查看高分榜。在此界面选择一条记录，即可查看对应的纪念档案。",
+    "locations": [
+      "installed_files/manual.txt:247"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Agata Skrzypczyk - Contributed a gorgeous logo and icon.",
+    "target": "Agata Skrzypczyk——贡献了精美的标志和图标。",
+    "locations": [
+      "installed_files/credits.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ai",
+    "target": "ai",
+    "locations": [
+      "src/actor_data.cpp:682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aiming",
+    "target": "瞄准",
+    "locations": [
+      "src/property_data.cpp:1046",
+      "src/property_data.cpp:1047"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aiming outside effective weapon range (50% damage).",
+    "target": "瞄准超出武器有效射程（伤害减半）。",
+    "locations": [
+      "src/marker.cpp:519",
+      "src/marker.cpp:751"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Alala",
+    "target": "阿拉拉",
+    "locations": [
+      "src/gods.cpp:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "alchemist's workbench",
+    "target": "炼金术士工作台",
+    "locations": [
+      "src/terrain.cpp:5152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "alien wall",
+    "target": "外星墙壁",
+    "locations": [
+      "src/terrain.cpp:798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All ghouls are allied.",
+    "target": "所有食尸鬼都与你结盟。",
+    "locations": [
+      "src/player_bon.cpp:1166"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All my spirit is depleted, I am devoid of life!",
+    "target": "我的精神值已耗尽，生命也已枯竭！",
+    "locations": [
+      "src/actor_hit.cpp:513"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All spells are cast at a higher level when standing at an altar - this includes both spells cast from manuscripts and from memory.",
+    "target": "站在祭坛旁时，所有法术的施放等级都会提高，包括从手稿和记忆中施放的法术。",
+    "locations": [
+      "src/hints.cpp:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All your melee attacks are silent (regardless of the weapon), and creatures are not alerted when you open or close doors, or wade through water",
+    "target": "你的所有近战攻击都不会发出声音（无论使用何种武器）；打开或关上门、涉水时也不会惊动生物",
+    "locations": [
+      "src/player_bon.cpp:282"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "allow_speed_description",
+    "target": "allow_speed_description",
+    "locations": [
+      "src/actor_data.cpp:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "allow_wielded_weapon_description",
+    "target": "allow_wielded_weapon_description",
+    "locations": [
+      "src/actor_data.cpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "also continued to support and maintain the graphics long after the first",
+    "target": "也在第一版之后继续支持并维护图像",
+    "locations": [
+      "installed_files/credits.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Also, when winning the game, some large bonus factors are added. Every winning game is guaranteed to have a better score than any non-winning game.",
+    "target": "获胜时还会增加若干大型奖励系数。每局获胜游戏的得分都保证高于任何未获胜的游戏。",
+    "locations": [
+      "installed_files/manual.txt:259"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Alt",
+    "target": "备用",
+    "locations": [
+      "src/map_mode_gui.cpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Altar",
+    "target": "祭坛",
+    "locations": [
+      "src/terrain.cpp:2343"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Altars",
+    "target": "祭坛",
+    "locations": [
+      "src/hints.cpp:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "always_prevent_knockback",
+    "target": "always_prevent_knockback",
+    "locations": [
+      "src/actor_data.cpp:290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammunition can be unloaded from firearms on the ground by pressing [u] or [G].",
+    "target": "可以按 [u] 或 [G] 卸下地面枪械中的弹药。",
+    "locations": [
+      "src/hints.cpp:63"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammutseba",
+    "target": "阿姆穆特塞巴",
+    "locations": [
+      "src/gods.cpp:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "amphibian",
+    "target": "两栖动物",
+    "locations": [
+      "src/actor_data.cpp:301"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "amphibians",
+    "target": "两栖动物",
+    "locations": [
+      "src/insanity.cpp:287"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an",
+    "target": "一个",
+    "locations": [
+      "include/terrain_trap.hpp:451",
+      "src/terrain.cpp:1613",
+      "src/terrain.cpp:1617",
+      "src/terrain.cpp:4591",
+      "src/terrain.cpp:4607",
+      "src/terrain.cpp:797",
+      "src/terrain.cpp:987",
+      "src/terrain_pylon.cpp:324"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an ",
+    "target": "一个 ",
+    "locations": [
+      "src/terrain.cpp:2328",
+      "src/terrain.cpp:3391",
+      "src/terrain.cpp:4145",
+      "src/terrain.cpp:4156",
+      "src/terrain.cpp:5140",
+      "src/terrain_door.cpp:1122",
+      "src/terrain_door.cpp:1134"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "an Abyssal Troglodyte",
+    "target": "一只深渊穴居人",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Abyssal Troglodyte corpse",
+    "target": "一具深渊穴居人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Air Beast",
+    "target": "一只空气野兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Air Hound",
+    "target": "一只空气猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An amalgam of crustacean, insect and fungi whose droning voice resembles a swarm of maddened hornets. It employs an irregular set of appendages as limbs and is capable of making use of advanced technology.",
+    "target": "甲壳类、昆虫和真菌的融合体，嗡鸣声仿佛一群发狂的黄蜂。它以形态不规则的附肢充当肢体，还能使用先进技术。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An ancient prophecy foretelling cosmic upheaval.",
+    "target": "一则预示宇宙剧变的古老预言。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Angled Pylon",
+    "target": "一座斜角柱",
+    "locations": [
+      "src/terrain_pylon.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Ape corpse",
+    "target": "一具猿尸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Arch Wizard",
+    "target": "一名大法师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Arch Wizard corpse",
+    "target": "一具大法师尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/corpse_name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Arched Pylon",
+    "target": "一座拱形柱",
+    "locations": [
+      "src/terrain_pylon.cpp:126"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An array of writhing tentacles sprouting up from the ground.",
+    "target": "一簇从地面长出的扭动触手。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Earth Beast",
+    "target": "一只土兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Earth Hound",
+    "target": "一只土猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Elder Void Traveler",
+    "target": "一名长老级虚空旅者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Energy Vortex",
+    "target": "一个能量漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An enormous green spider.",
+    "target": "一只巨大的绿蜘蛛。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An enormous red spider.",
+    "target": "一只巨大的红蜘蛛。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An enormous white spider.",
+    "target": "一只巨大的白蜘蛛。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An extremely aggressive species of great ape. Their pale skin and excellent night vision indicates that they adapted to subterranean life a very long time ago.",
+    "target": "一种极具攻击性的大型猿类。它们肤色苍白，夜视能力出众，说明它们很早便适应了地下生活。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An infernal piece of technology, seemingly designed to serve as a sort of guard. It hovers around, searching the area for interlopers to blast on sight. It appears to have some organic parts, and may even be a conscious living being.",
+    "target": "一件地狱般的科技造物，似乎是作为守卫设计的。它在空中盘旋搜索闯入者，一发现目标便立即开火。它似乎带有一些有机部件，甚至可能是有意识的活物。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Invisible Stalker",
+    "target": "一名隐形潜猎者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An otherworldly life form, akin to a macroscopic amoeba. It disrupts physical space around it, likely an effect of its dissonance with any other cosmos than its own.",
+    "target": "一种外星生命形式，类似宏观变形虫。它会扰乱周围的物理空间，这可能是由于它与自身所在宇宙之外的宇宙格格不入。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An unknown barrier blocks me. Perhaps it's for the best.",
+    "target": "一道未知屏障挡住了我。也许这样反倒更好。",
+    "locations": [
+      "src/actor_move.cpp:348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An unknown species, perhaps stemming from some hidden bowels of the earth. It is about as tall as a full-grown human.",
+    "target": "一个未知物种，或许来自地底某处隐秘的深处。身高约与成年人大致相当。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An unknown species, perhaps stemming from some hidden bowels of the earth. It is about as tall as a full-grown human. Its attack drains health from the victim.",
+    "target": "一个未知物种，或许来自地底某处隐秘的深处。身高约与成年人大致相当。它的攻击会吸取受害者的生命值。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An unseen creature",
+    "target": "一只看不见的生物",
+    "locations": [
+      "src/throwing.cpp:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "And where Nyarlathotep went, rest vanished, for the small hours were rent with the screams of nightmare.",
+    "target": "奈亚拉托提普所到之处，安眠便不复存在；夜半时分，噩梦的尖叫撕裂长空。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:57"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Angled Pylon",
+    "target": "斜角柱",
+    "locations": [
+      "src/terrain_pylon.cpp:121"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Any fatal damage received is instead drained fom your fervor points",
+    "target": "受到的任何致命伤害都会改为扣除你的狂热值",
+    "locations": [
+      "src/player_bon.cpp:757"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Any time the caster is harmed by a melee attack, ranged attack or damaging spell, the attacker is struck by an irresistible force.",
+    "target": "施法者每次受到近战攻击、远程攻击或伤害性法术伤害时，攻击者都会遭到无法抵抗的力量袭击。",
+    "locations": [
+      "src/property_data.cpp:549"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aphoom-Zhah",
+    "target": "阿弗姆·扎",
+    "locations": [
+      "src/gods.cpp:20"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Apigami!",
+    "target": "阿皮伽米！",
+    "locations": [
+      "src/actor_mon.cpp:175",
+      "src/actor_mon.cpp:200"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Apocolothoth",
+    "target": "阿波科洛托斯",
+    "locations": [
+      "src/gods.cpp:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "appears to exude death and decay.",
+    "target": "似乎散发着死亡与腐朽的气息。",
+    "locations": [
+      "src/property_data.cpp:1070"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Applies a focused state which allows the next spell to be cast without spending a turn, and with the casting cost reduced by 1 point - it takes 125-150 turns to regain this state after a spell is cast",
+    "target": "进入专注状态，使下一次施法无需消耗回合，施法费用减少 1 点；施法后需要 125–150 回合才能重新恢复此状态",
+    "locations": [
+      "src/player_bon.cpp:440"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Apply property",
+    "target": "应用属性",
+    "locations": [
+      "src/game_commands.cpp:1046"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Arachnophobia!",
+    "target": "蜘蛛恐惧症！",
+    "locations": [
+      "include/insanity.hpp:439"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Arched Pylon",
+    "target": "拱形柱",
+    "locations": [
+      "src/terrain_pylon.cpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Armor",
+    "target": "护甲",
+    "locations": [
+      "src/map_mode_gui.cpp:369"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Armor             3 : Armor Points",
+    "target": "护甲             3：护甲点数",
+    "locations": [
+      "installed_files/manual.txt:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "As an alternative, for keyboards without a numpad (e.g. some laptop keyboards), the arrow keys can be used for moving. To move diagonally, hold shift or ctrl (\"auto movement\" is not supported in this context):",
+    "target": "对于没有数字键盘的键盘（例如某些笔记本键盘），也可以使用方向键移动。按住 Shift 或 Ctrl 可斜向移动（此情况下不支持“自动移动”）：",
+    "locations": [
+      "installed_files/manual.txt:58"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "As I approach the crystal, an eerie glow illuminates the area. I notice a figure observing me from the edge of the light. There is no doubt in my mind concerning the nature of this entity.",
+    "target": "我走近水晶时，诡异的光辉照亮了周围。我注意到有个人影在光线边缘观察着我。对于这个存在的本质，我心中毫无疑问。",
+    "locations": [
+      "src/game.cpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "As I descend the stairs and observe my surroundings, to my great bewilderment I realize that I have stepped out into the very same ground from which I started my downward climb! Turning around, the stairs are nowhere to be found.",
+    "target": "我走下楼梯观察四周，惊愕地发现自己竟踏在开始下行时的同一片地面上！转身一看，楼梯已无影无踪。",
+    "locations": [
+      "src/terrain.cpp:1793"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "As I make my way into the depths, I'm taken aback by the sudden change in surroundings. The ancient architecture of this chamber is unlike anything I've seen before, with intricate hieroglyphs carved into the stone walls.\n\nThe air is thick with the scent of sand and an unfamiliar incense, giving the impression of being transported to another time and place. The silence is oppressive, broken only by the sound of my footsteps echoing on the stone floor.\n\nAs I look closer at the carvings, I can't help but wonder about the civilization that created them. Who were they, and how did they manage to build something like this deep underground?",
+    "target": "我继续深入，却被周围环境的骤变惊住了。这间石室的古老建筑风格前所未见，石墙上刻着精美的象形文字。\n\n空气中弥漫着沙土和陌生熏香的气味，仿佛置身于另一个时空。沉闷的寂静令人窒息，只有我的脚步声在石地上回荡。\n\n我凑近观察那些刻纹，不禁好奇究竟是哪个文明创造了它们。他们是谁？又如何在如此深的地下建造出这种地方？",
+    "locations": [
+      "src/map_controller.cpp:198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "As I touch it, I am chilled to the bone.",
+    "target": "我一碰到它，寒意便直透骨髓。",
+    "locations": [
+      "src/terrain_mirror.cpp:171"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "as your character's skill and the creature attacked)",
+    "target": "取决于你角色的技能以及受攻击的生物）",
+    "locations": [
+      "installed_files/manual.txt:117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Astral Opium Addiction",
+    "target": "星界鸦片成瘾",
+    "locations": [
+      "src/property_data.cpp:512"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Atlach-Nacha",
+    "target": "阿特拉克·纳克亚",
+    "locations": [
+      "src/gods.cpp:22"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "attacks",
+    "target": "攻击",
+    "locations": [
+      "src/actor_data.cpp:664",
+      "src/actor_data.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Attempt to open it?",
+    "target": "尝试打开它？",
+    "locations": [
+      "src/terrain_door.cpp:1408"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "attributes",
+    "target": "属性",
+    "locations": [
+      "src/actor_data.cpp:656"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "audio",
+    "target": "音频",
+    "locations": [
+      "src/actor_data.cpp:655"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aug 25, 2010",
+    "target": "2010年8月25日",
+    "locations": [
+      "installed_files/release_history.txt:1960"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aura of Decay",
+    "target": "腐朽光环",
+    "locations": [
+      "include/spells.hpp:498",
+      "src/property_data.cpp:1066"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "auto_spawn",
+    "target": "auto_spawn",
+    "locations": [
+      "src/actor_data.cpp:565"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "avoids_blocking_friend",
+    "target": "avoids_blocking_friend",
+    "locations": [
+      "src/actor_data.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "aware_message_hidden",
+    "target": "aware_message_hidden",
+    "locations": [
+      "src/actor_data.cpp:154"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "aware_message_seen",
+    "target": "aware_message_seen",
+    "locations": [
+      "src/actor_data.cpp:141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "aware_sfx_hidden",
+    "target": "aware_sfx_hidden",
+    "locations": [
+      "src/actor_data.cpp:215"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "aware_sfx_seen",
+    "target": "aware_sfx_seen",
+    "locations": [
+      "src/actor_data.cpp:209"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ayiig",
+    "target": "阿伊伊格",
+    "locations": [
+      "src/gods.cpp:23"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Aylith",
+    "target": "艾利斯",
+    "locations": [
+      "src/gods.cpp:24"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Azathoth's Gaze",
+    "target": "阿撒托斯之凝视",
+    "locations": [
+      "include/spells.hpp:775"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "b         Use MEDICAL BAG",
+    "target": "b         使用医疗包",
+    "locations": [
+      "installed_files/manual.txt:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "b j n",
+    "target": "b j n",
+    "locations": [
+      "installed_files/manual.txt:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Babbling",
+    "target": "胡言乱语",
+    "locations": [
+      "include/insanity.hpp:211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Babbling!",
+    "target": "胡言乱语！",
+    "locations": [
+      "include/insanity.hpp:231"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Balastha",
+    "target": "巴拉斯塔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Balastha is an undead master of arms and warfare, bound to guard the High Priest for all eternity. He is wielding a Tommy Gun.",
+    "target": "巴拉斯塔是不死的武器与战争大师，受命永远守卫大祭司。他手持汤普森冲锋枪。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bane of the Undead",
+    "target": "亡灵克星",
+    "locations": [
+      "src/player_bon.cpp:557"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Baoht Zuqqa-Mogg",
+    "target": "包赫特·祖卡-莫格",
+    "locations": [
+      "src/gods.cpp:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "barred gate",
+    "target": "栅栏门",
+    "locations": [
+      "src/terrain_door.cpp:1074",
+      "src/terrain_door.cpp:1095"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Basatan",
+    "target": "巴萨坦",
+    "locations": [
+      "src/gods.cpp:26"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bathophobia!",
+    "target": "幽闭恐惧症！",
+    "locations": [
+      "include/insanity.hpp:695"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Became permanently blind",
+    "target": "永久失明",
+    "locations": [
+      "src/property_data.cpp:351"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Became permanently deaf",
+    "target": "永久失聪",
+    "locations": [
+      "src/property_data.cpp:367"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Became perpetually hasted",
+    "target": "永久加速",
+    "locations": [
+      "src/property_data.cpp:616"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Became perpetually slowed",
+    "target": "永久减速",
+    "locations": [
+      "src/property_data.cpp:600"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Beckoned by The Thousand-Faced Moon into laying its mind bare for the occult, the psyche of this hierophant was ravaged by scores of entities from fiendish realities. They had it gouge out its eyes and tongue, and left it a husk of former humanity. Now it lumbers about aimlessly, brandishing a spiked mace with which it flays itself in mockery of physical anguish.",
+    "target": "这名圣职者受到千面之月的召唤，将心智暴露给神秘学力量，随后被来自恶魔现实的无数存在撕碎了精神。它们命令他挖去双眼与舌头，只留下昔日人性的空壳。如今他漫无目的地蹒跚前行，挥舞着一柄尖刺狼牙棒，仿佛以剥皮自虐来嘲弄肉体的痛苦。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Before me lies a twilit grotto of enormous height. An insane tangle of human bones extends for yards like a foamy sea - invariably in postures of demoniac frenzy, either fighting off some menace or clutching other forms with cannibal intent.",
+    "target": "暮色笼罩的巨大洞窟展现在我眼前。疯狂纠缠的人骨绵延数码，宛如泡沫翻涌的海洋——它们无不保持着恶魔般狂乱的姿势，有的抵御某种威胁，有的则怀着食人的意图紧抱着其他骸骨。",
+    "locations": [
+      "src/terrain_event.cpp:477"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Before: You are hit. You are hit. You are hit.",
+    "target": "之前：你被击中。你被击中。你被击中。",
+    "locations": [
+      "installed_files/release_history.txt:1906"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Being in a state of extreme mental shock (stress, paranoia) will cause a sanity hit. One way to reduce shock, and thereby avoiding or prolonging the sanity hit, is to find a source of light - for example through activating an Electric Lantern or igniting a Flare.",
+    "target": "处于极度精神震慑（压力、偏执）状态会损害理智。降低震慑、从而避免或推迟理智受损的一种方法是寻找光源，例如开启电灯笼或点燃照明棒。",
+    "locations": [
+      "src/hints.cpp:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bgnu-Thun",
+    "target": "比格努-图恩",
+    "locations": [
+      "src/gods.cpp:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bhuudesco invisuu!",
+    "target": "布胡德斯科·隐秘！",
+    "locations": [
+      "src/actor_mon.cpp:176"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bhuuesco marana!",
+    "target": "布胡埃斯科·玛拉纳！",
+    "locations": [
+      "src/actor_mon.cpp:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "big pile of debris",
+    "target": "一大堆碎石",
+    "locations": [
+      "src/terrain.cpp:1171"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Black Phillip",
+    "target": "黑菲利普",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Black Phillip is a malevolent goat of immense size, exuding a sinister aura. Its fur is as dark as coal, and its eyes shimmer with an eerie, otherworldly light. Despite its large size, Black Phillip's movements are quick and fluid, enabling it to lunge at its prey with deadly accuracy. The creature seems to take pleasure in using its formidable horns to bludgeon unsuspecting victims. Black Phillip is believed to be a manifestation of the devil himself.",
+    "target": "黑菲利普是一只体型巨大的邪恶山羊，散发着不祥气息。它的毛皮漆黑如煤，双眼闪烁着诡异而超凡的光芒。尽管身躯庞大，它行动敏捷流畅，能以致命的精准扑向猎物。这只生物似乎乐于用强壮的角将毫无防备的受害者撞倒。据说黑菲利普是魔鬼本人的化身。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bless",
+    "target": "祝福",
+    "locations": [
+      "include/spells.hpp:1334"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blessed",
+    "target": "受祝福",
+    "locations": [
+      "src/property_data.cpp:796",
+      "src/property_data.cpp:797"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blind",
+    "target": "失明",
+    "locations": [
+      "include/spells.hpp:2427",
+      "src/property_data.cpp:344",
+      "src/property_data.cpp:345"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blind               : You are currently blind",
+    "target": "失明               ：你目前处于失明状态",
+    "locations": [
+      "installed_files/manual.txt:142"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blind Res",
+    "target": "失明抗性",
+    "locations": [
+      "src/property_data.cpp:272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "blinding",
+    "target": "致盲",
+    "locations": [
+      "src/terrain.cpp:4566"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blindness Resistance",
+    "target": "失明抗性",
+    "locations": [
+      "src/property_data.cpp:271"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Blood for ",
+    "target": "为了……的血 ",
+    "locations": [
+      "src/actor_mon.cpp:214",
+      "src/actor_mon.cpp:215"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Blood Tempering",
+    "target": "血之淬炼",
+    "locations": [
+      "include/spells.hpp:2051"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bokrug",
+    "target": "博克鲁格",
+    "locations": [
+      "src/gods.cpp:28"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "bones",
+    "target": "骨头",
+    "locations": [
+      "src/terrain.cpp:1253"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "bookshelf",
+    "target": "书架",
+    "locations": [
+      "src/terrain.cpp:4978"
+    ],
+    "kind": "ui"
+  }
+]

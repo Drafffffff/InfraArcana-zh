@@ -1,0 +1,414 @@
+[
+  {
+    "source": "<empty>",
+    "target": "<空>"
+  },
+  {
+    "source": "AIM LVL: ",
+    "target": "瞄准等级： "
+  },
+  {
+    "source": "AIM POS: ",
+    "target": "瞄准位置： "
+  },
+  {
+    "source": "Could not find any writable location. Tried path set in ",
+    "target": "无法找到任何可写入的位置。已尝试使用此处设置的路径： "
+  },
+  {
+    "source": "Cyaegha",
+    "target": "赛耶加"
+  },
+  {
+    "source": "Dygra",
+    "target": "戴格拉"
+  },
+  {
+    "source": "Dythalla",
+    "target": "戴萨拉"
+  },
+  {
+    "source": "Eihort",
+    "target": "艾霍特"
+  },
+  {
+    "source": "Ghisguth",
+    "target": "吉斯古斯"
+  },
+  {
+    "source": "GJ MODE ENABLED",
+    "target": "GJ 模式已启用"
+  },
+  {
+    "source": "Glaaki",
+    "target": "格拉基"
+  },
+  {
+    "source": "Gleeth",
+    "target": "格利斯"
+  },
+  {
+    "source": "Gloon",
+    "target": "格隆"
+  },
+  {
+    "source": "Gog-Hoor",
+    "target": "戈格-胡尔"
+  },
+  {
+    "source": "Gol-goroth",
+    "target": "戈尔-戈罗特"
+  },
+  {
+    "source": "Gozer",
+    "target": "戈泽尔"
+  },
+  {
+    "source": "Groth-Golka",
+    "target": "格罗思-戈尔卡"
+  },
+  {
+    "source": "Gurathnaka",
+    "target": "古拉斯纳卡"
+  },
+  {
+    "source": "h- -l",
+    "target": "h- -l"
+  },
+  {
+    "source": "Han",
+    "target": "汉"
+  },
+  {
+    "source": "Hastur",
+    "target": "哈斯塔"
+  },
+  {
+    "source": "Hchtelegoth",
+    "target": "赫特勒戈斯"
+  },
+  {
+    "source": "Hziulquoigmnzhah",
+    "target": "希乌尔奎格姆扎"
+  },
+  {
+    "source": "I n f r a   A r c a n a",
+    "target": "英 弗 拉   阿 卡 纳"
+  },
+  {
+    "source": "Infra Arcana ",
+    "target": "英弗拉·阿卡纳 "
+  },
+  {
+    "source": "Inpesca",
+    "target": "因佩斯卡"
+  },
+  {
+    "source": "Ins",
+    "target": "疯狂"
+  },
+  {
+    "source": "Iod",
+    "target": "伊欧德"
+  },
+  {
+    "source": "Istasha",
+    "target": "伊斯塔莎"
+  },
+  {
+    "source": "Ithaqua",
+    "target": "伊塔夸"
+  },
+  {
+    "source": "Janaingo",
+    "target": "贾奈因戈"
+  },
+  {
+    "source": "Kaalut",
+    "target": "卡鲁特"
+  },
+  {
+    "source": "Kassogtha",
+    "target": "卡索格萨"
+  },
+  {
+    "source": "Kaunuzoth",
+    "target": "卡努佐斯"
+  },
+  {
+    "source": "Keziah Mason",
+    "target": "凯齐亚·梅森"
+  },
+  {
+    "source": "Khephren",
+    "target": "克弗伦"
+  },
+  {
+    "source": "l=",
+    "target": "l="
+  },
+  {
+    "source": "Lam",
+    "target": "拉姆"
+  },
+  {
+    "source": "Leviathan",
+    "target": "利维坦"
+  },
+  {
+    "source": "Lythalia",
+    "target": "莉萨莉亚"
+  },
+  {
+    "source": "Mnomquah",
+    "target": "姆诺姆夸"
+  },
+  {
+    "source": "Mordiggian",
+    "target": "莫迪吉安"
+  },
+  {
+    "source": "Mynoghra",
+    "target": "米诺格拉"
+  },
+  {
+    "source": "Ngirrthlu",
+    "target": "恩吉尔斯卢"
+  },
+  {
+    "source": "Niduza",
+    "target": "尼杜扎"
+  },
+  {
+    "source": "Nitokris",
+    "target": "尼托克丽丝"
+  },
+  {
+    "source": "Northot",
+    "target": "诺索特"
+  },
+  {
+    "source": "Nssu-Ghahnb",
+    "target": "恩苏-加恩布"
+  },
+  {
+    "source": "Nycrama",
+    "target": "尼克拉玛"
+  },
+  {
+    "source": "Nyogtha",
+    "target": "尼奥格塔"
+  },
+  {
+    "source": "Obmbu",
+    "target": "奥姆布"
+  },
+  {
+    "source": "Othuum",
+    "target": "奥图姆"
+  },
+  {
+    "source": "Othuyeg",
+    "target": "奥图耶格"
+  },
+  {
+    "source": "Path: \"",
+    "target": "路径: \""
+  },
+  {
+    "source": "Psuchawrl",
+    "target": "苏查沃尔"
+  },
+  {
+    "source": "Quyagen",
+    "target": "奎亚根"
+  },
+  {
+    "source": "Rhan-Tegoth",
+    "target": "兰-特戈斯"
+  },
+  {
+    "source": "Richard Upton Pickman",
+    "target": "理查德·厄普顿·皮克曼"
+  },
+  {
+    "source": "Rlim Shaikorth",
+    "target": "利姆-沙伊科斯"
+  },
+  {
+    "source": "Ruhtra Dyoll",
+    "target": "鲁特拉·戴奥尔"
+  },
+  {
+    "source": "Sebek",
+    "target": "塞贝克"
+  },
+  {
+    "source": "Sedmelluq",
+    "target": "塞德梅卢克"
+  },
+  {
+    "source": "Sfatlicllp",
+    "target": "斯法特利克尔普"
+  },
+  {
+    "source": "Shaklatal",
+    "target": "沙克拉塔尔"
+  },
+  {
+    "source": "Sheb-Teth",
+    "target": "舍布-特斯"
+  },
+  {
+    "source": "Shterot",
+    "target": "什特洛特"
+  },
+  {
+    "source": "Shudde M'ell",
+    "target": "舒德·梅尔"
+  },
+  {
+    "source": "Shuy-Nihl",
+    "target": "舒伊-尼尔"
+  },
+  {
+    "source": "Sthanee",
+    "target": "斯萨尼"
+  },
+  {
+    "source": "Summanus",
+    "target": "苏马努斯"
+  },
+  {
+    "source": "Thanaroa",
+    "target": "塔纳罗阿"
+  },
+  {
+    "source": "Tharapithia",
+    "target": "塔拉皮西亚"
+  },
+  {
+    "source": "THOG",
+    "target": "托格"
+  },
+  {
+    "source": "Thog",
+    "target": "托格"
+  },
+  {
+    "source": "Thrygh",
+    "target": "瑟里格"
+  },
+  {
+    "source": "Tsathoggua",
+    "target": "撒托古亚"
+  },
+  {
+    "source": "Tulushuggua",
+    "target": "图卢舒古亚"
+  },
+  {
+    "source": "Uraga",
+    "target": "乌拉加"
+  },
+  {
+    "source": "Vibur",
+    "target": "维布尔"
+  },
+  {
+    "source": "Vilomaxus!",
+    "target": "维洛马克苏！"
+  },
+  {
+    "source": "Volgna-Gath",
+    "target": "沃尔格纳-加斯"
+  },
+  {
+    "source": "Vorox esco marana!",
+    "target": "沃罗克·埃斯科·马拉纳！"
+  },
+  {
+    "source": "Vrka",
+    "target": "沃卡"
+  },
+  {
+    "source": "Vthyarilops",
+    "target": "维萨里洛普斯"
+  },
+  {
+    "source": "Xalafu",
+    "target": "夏拉夫"
+  },
+  {
+    "source": "XCTHOL",
+    "target": "克斯托尔"
+  },
+  {
+    "source": "Xcthol",
+    "target": "克斯托尔"
+  },
+  {
+    "source": "Xinlurgash",
+    "target": "辛卢尔加什"
+  },
+  {
+    "source": "Xirdneth",
+    "target": "希尔德涅斯"
+  },
+  {
+    "source": "Xotli",
+    "target": "索特利"
+  },
+  {
+    "source": "y k u",
+    "target": "y k u"
+  },
+  {
+    "source": "Yegg-Ha",
+    "target": "耶格-哈"
+  },
+  {
+    "source": "Ygolonac",
+    "target": "伊戈罗纳克"
+  },
+  {
+    "source": "Yig",
+    "target": "伊格"
+  },
+  {
+    "source": "Ymnar",
+    "target": "伊姆纳尔"
+  },
+  {
+    "source": "Yog-Sapha",
+    "target": "约格-萨法"
+  },
+  {
+    "source": "Yorith",
+    "target": "约里斯"
+  },
+  {
+    "source": "Ythogtha",
+    "target": "伊索格塔"
+  },
+  {
+    "source": "Yug-Siturath",
+    "target": "尤格-西图拉斯"
+  },
+  {
+    "source": "Zathog",
+    "target": "扎托格"
+  },
+  {
+    "source": "Zindarak",
+    "target": "津达拉克"
+  },
+  {
+    "source": "Zushakon",
+    "target": "祖沙孔"
+  },
+  {
+    "source": "Zvilpogghua",
+    "target": "兹维尔波格胡阿"
+  }
+]

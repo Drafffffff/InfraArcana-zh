@@ -41,64 +41,62 @@
 // NOTE: This is the order that the properties will show up in the description.
 
 static const std::string s_cannot_be_harmed_by_start =
-        "They cannot be harmed by";
+        "它们不会受到……伤害";
 
 static const std::pair<prop::Id, std::string> s_cannot_be_harmed_by_props[] = {
-        {prop::Id::r_phys, "{COLOR_GRAY}physical damage{reset_color}"},
-        {prop::Id::r_fire, "{COLOR_LIGHT_RED}fire{reset_color}"},
-        {prop::Id::r_elec, "{COLOR_YELLOW}electricity{reset_color}"},
-        {prop::Id::r_poison, "{COLOR_LIGHT_GREEN}poison{reset_color}"},
-        {prop::Id::r_disease, "{COLOR_GREEN}disease{reset_color}"},
-        {prop::Id::r_spell, "{COLOR_MAGENTA}magic{reset_color}"},
+        {prop::Id::r_phys, "{COLOR_GRAY}物理伤害{reset_color}"},
+        {prop::Id::r_fire, "{COLOR_LIGHT_RED}火焰{reset_color}"},
+        {prop::Id::r_elec, "{COLOR_YELLOW}电击{reset_color}"},
+        {prop::Id::r_poison, "{COLOR_LIGHT_GREEN}毒素{reset_color}"},
+        {prop::Id::r_disease, "{COLOR_GREEN}疾病{reset_color}"},
+        {prop::Id::r_spell, "{COLOR_MAGENTA}魔法{reset_color}"},
 };
 
 static const std::string s_unaffected_by_start =
-        "They are unaffected by";
+        "它们不受影响：";
 
 static const std::pair<prop::Id, std::string> s_unaffected_by_props[] = {
-        {prop::Id::r_fear, "fear"},
-        {prop::Id::r_conf, "confusion"},
+        {prop::Id::r_fear, "恐惧"},
+        {prop::Id::r_conf, "困惑"},
 };
 
 static const std::string s_cannot_be_start =
-        "They cannot be";
+        "它们无法被";
 
 static const std::pair<prop::Id, std::string> s_cannot_be_props[] = {
-        {prop::Id::r_slow, "slowed"},
-        {prop::Id::r_para, "paralyzed"},
+        {prop::Id::r_slow, "被减速"},
+        {prop::Id::r_para, "麻痹"},
 };
 
 static const std::string s_cannot_start =
-        "They cannot";
+        "它们无法";
 
 static const std::pair<prop::Id, std::string> s_cannot_props[] = {
-        {prop::Id::r_sleep, "faint"},
+        {prop::Id::r_sleep, "微弱"},
 };
 
 static const std::string s_can_start =
-        "They can";
+        "它们可以";
 
 static const std::pair<prop::Id, std::string> s_can_props[] = {
-        {prop::Id::darkvision, "see in darkness"},
+        {prop::Id::darkvision, "在黑暗中视物"},
 };
 
 static const std::pair<prop::Id, std::string> s_custom_props[] = {
         {prop::Id::reduced_pierce_dmg,
-         "Piercing attacks such as pistol shots or dagger strikes are "
-         "very ineffective against them"},
+         "穿刺攻击，例如手枪射击或匕首刺击，对它们几乎无效"},
         {prop::Id::radiant_self,
-         "They emit light and can be seen in darkness"},
+         "它们会发光，即使在黑暗中也能被看见"},
         {prop::Id::radiant_adjacent,
-         "They emit light and can be seen in darkness"},
+         "它们会发光，即使在黑暗中也能被看见"},
         {prop::Id::radiant_fov,
-         "They emit light and can be seen in darkness"},
+         "它们会发光，即使在黑暗中也能被看见"},
         {prop::Id::regenerating,
-         "They regenerate health over time"},
+         "它们会随时间恢复生命值"},
         {prop::Id::explodes_on_death,
-         "They explode on death"},
+         "它们死后会爆炸"},
         {prop::Id::flammable,
-         "They are very flammable, and will quickly ignite other nearby "
-         "flammable creatures"},
+         "它们极易燃烧，也会迅速点燃附近其他可燃生物"},
 };
 
 struct MonShockStrings
@@ -125,17 +123,15 @@ static std::string get_mon_memory_turns_descr(
                         std::to_string(nr_turns_aware);
 
                 return name_a +
-                        " will remember hostile creatures for at least "
-                        "{COLOR_DARK_YELLOW}" +
+                        " 至少会记住敌对生物{COLOR_DARK_YELLOW}" +
                         nr_turns_aware_str +
-                        "{_}turns{reset_color}.";
+                        "{_}回合{reset_color}。";
         }
         else {
                 // Very high number of turns awareness
                 return (
                         name_a +
-                        " remembers hostile creatures for a "
-                        "{COLOR_DARK_YELLOW}very long time{reset_color}.");
+                        " 能将敌对生物记忆{COLOR_DARK_YELLOW}很长时间{reset_color}。");
         }
 }
 
@@ -143,16 +139,16 @@ static std::string mon_speed_type_to_str(const actor::Speed speed)
 {
         switch (speed) {
         case actor::Speed::slow:
-                return "slowly";
+                return "缓慢地";
 
         case actor::Speed::normal:
                 return "";
 
         case actor::Speed::fast:
-                return "fast";
+                return "快速";
 
         case actor::Speed::very_fast:
-                return "very swiftly";
+                return "飞快地";
         }
 
         ASSERT(false);
@@ -173,13 +169,13 @@ static std::string get_mon_speed_descr(
         if (actor_data.is_unique) {
                 return (
                         actor::name_the(actor) +
-                        " appears to move{_}" +
+                        " 似乎在移动{_}" +
                         speed_type_str +
                         ".");
         }
         else {
                 return (
-                        "They appear to move{_}" +
+                        "它们看起来会移动{_}" +
                         speed_type_str +
                         ".");
         }
@@ -192,25 +188,25 @@ static MonShockStrings mon_shock_lvl_to_strings(const MonShockLvl shock_lvl)
         switch (shock_lvl) {
         case MonShockLvl::unsettling:
                 result.color_fmt_str = "{COLOR_DARK_BROWN}";
-                result.shock_str = "unsettling";
+                result.shock_str = "令人不安的";
                 result.punct_str = ".";
                 break;
 
         case MonShockLvl::frightening:
                 result.color_fmt_str = "{COLOR_GRAY}";
-                result.shock_str = "frightening";
+                result.shock_str = "令人恐惧的";
                 result.punct_str = ".";
                 break;
 
         case MonShockLvl::terrifying:
                 result.color_fmt_str = "{COLOR_RED}";
-                result.shock_str = "terrifying";
+                result.shock_str = "令人恐惧的";
                 result.punct_str = "!";
                 break;
 
         case MonShockLvl::mind_shattering:
                 result.color_fmt_str = "{COLOR_LIGHT_RED}";
-                result.shock_str = "mind shattering";
+                result.shock_str = "心智崩溃";
                 result.punct_str = "!";
                 break;
 
@@ -234,14 +230,14 @@ static std::string get_mon_shock_descr(
 
         const std::string prefix_str =
                 actor_data.is_unique
-                ? (actor::name_the(actor) + " is ")
-                : ("They are ");
+                ? (actor::name_the(actor) + " 是 ")
+                : ("他们是 ");
 
         return (
                 shock_strings.color_fmt_str +
                 prefix_str +
                 shock_strings.shock_str +
-                " to behold" +
+                " 令人叹为观止" +
                 shock_strings.punct_str +
                 "{reset_color}");
 }
@@ -259,7 +255,7 @@ static std::string get_mon_wielded_wpn_str(
         const std::string pronoun_str =
                 actor_data.is_unique
                 ? actor::name_the(actor)
-                : "It";
+                : "它";
 
         const std::string wpn_name_a =
                 wpn->name(
@@ -267,7 +263,7 @@ static std::string get_mon_wielded_wpn_str(
                         ItemNameInfo::none,
                         ItemNameAttackInfo::none);
 
-        return pronoun_str + " is wielding " + wpn_name_a + ".";
+        return pronoun_str + " 手持着 " + wpn_name_a + ".";
 }
 
 static std::string get_mon_current_health_descr(const actor::Actor& actor)
@@ -278,8 +274,8 @@ static std::string get_mon_current_health_descr(const actor::Actor& actor)
 
         std::string str =
                 (hp_pct >= 100)
-                ? "They are at full health."
-                : ("They are at " + std::to_string(hp_pct) + "% health.");
+                ? "它们的生命值全满。"
+                : ("它们位于 " + std::to_string(hp_pct) + "% 生命值。");
 
         return str;
 }
@@ -317,26 +313,26 @@ static std::string get_melee_hit_chance_descr(actor::Actor& actor)
 
         if (wpn_hit_chance == kick_hit_chance) {
                 descr =
-                        "The chance to hit " +
+                        "命中几率 " +
                         actor::name_the(actor) +
-                        " with a melee attack or kicking is currently{_}{COLOR_LIGHT_GREEN}" +
+                        " 近战攻击或踢击当前状态为{_}{COLOR_LIGHT_GREEN}" +
                         std::to_string(wpn_hit_chance) +
                         "%{reset_color}";
         }
         else {
                 descr =
-                        "The chance to hit " +
+                        "命中几率 " +
                         actor::name_the(actor) +
-                        " with a melee attack is currently{_}{COLOR_LIGHT_GREEN}" +
+                        " 近战攻击当前状态为{_}{COLOR_LIGHT_GREEN}" +
                         std::to_string(wpn_hit_chance) +
                         "%{reset_color}" +
-                        ", and the chance to hit by kicking is{_}{COLOR_LIGHT_GREEN}" +
+                        "，踢击命中率为{_}{COLOR_LIGHT_GREEN}" +
                         std::to_string(kick_hit_chance) +
                         "%{reset_color}";
         }
 
         if (wpn_att_data.is_backstab) {
-                descr += " (because they are unaware)";
+                descr += " （因为它们尚未察觉）";
         }
 
         descr += ".";
@@ -355,9 +351,9 @@ static std::string get_sneak_chance_descr(actor::Actor& actor)
                         actor::calc_total_sneak_ability(p));
 
         std::string descr =
-                "The chance to remain undetected by " +
+                "未被……发现的几率 " +
                 actor::name_the(actor) +
-                " is currently{_}{COLOR_LIGHT_GREEN}" +
+                " 当前状态为{_}{COLOR_LIGHT_GREEN}" +
                 std::to_string(tot_value) +
                 "%{reset_color}.";
 
@@ -385,7 +381,7 @@ static void add_or_list_to_sentence(
                 base_str += " ";
 
                 if ((nr_names >= 2) && (i == (nr_names - 1))) {
-                        base_str += "or ";
+                        base_str += "或 ";
                 }
 
                 base_str += names[i];
@@ -538,14 +534,14 @@ static std::string auto_description_str(actor::Actor& actor)
         if (!looks) {
                 text_format::append_with_space(
                         str,
-                        "They cannot visually detect other creatures");
+                        "它们无法通过视觉发现其他生物");
 
                 const bool pursues =
                         ai[(size_t)actor::AiId::moves_to_target_when_los] ||
                         ai[(size_t)actor::AiId::paths_to_target_when_aware];
 
                 if (pursues) {
-                        str += " (but will pursue any threat once aware)";
+                        str += " （但一旦察觉就会追击任何威胁）";
                 }
 
                 str += ".";
@@ -554,7 +550,7 @@ static std::string auto_description_str(actor::Actor& actor)
         if (actor_data.is_undead) {
                 text_format::append_with_space(
                         str,
-                        "{COLOR_MAGENTA}This creature is undead.{reset_color}");
+                        "{COLOR_MAGENTA}该生物是不死者。{reset_color}");
         }
 
         if (!actor.is_actor_my_leader(map::g_player)) {
@@ -646,7 +642,7 @@ static std::string temporary_properties_str(actor::Actor& actor)
                 }
 
                 str += entry.title.str;
-                str += "{color_reset}: ";
+                str += "{color_reset}： ";
                 str += entry.descr;
         }
 

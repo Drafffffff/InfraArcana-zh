@@ -1,0 +1,7 @@
+{
+  "cause": "Upstream io::read_input calls SDL_StartTextInput for every command; SDL defaults to enabling screen keyboard requests",
+  "launcher_setting": "SDL_ENABLE_SCREEN_KEYBOARD=0",
+  "checked_process": {"SteamAppId": "3030446481", "SDL_ENABLE_SCREEN_KEYBOARD": "0"},
+  "validation": "Relaunched from Steam; navigated menu with directional keys; native X11 window dimensions 3840x2160",
+  "scope": "Infra Arcana launcher only"
+}

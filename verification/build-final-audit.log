@@ -1,0 +1,25 @@
+-- cmake version >= 3.20, setting EXPORT_COMPILE_COMMANDSfortargetia-debug
+-- Finding installed system version of SDL.
+-- Configuring done (0.0s)
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+Running revision command with Git executable: '/usr/bin/git'
+Revision output path: '/work/build/data/git-sha1.txt'
+Revision command result: '128'
+Revision command errors: 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+'
+-- Generating done (0.0s)
+-- Build files have been written to: /work/build
+[  0%] Building CXX object CMakeFiles/ia.dir/src/create_character.cpp.o
+[  3%] Linking CXX executable ia
+[100%] Built target ia

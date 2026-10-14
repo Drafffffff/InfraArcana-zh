@@ -288,7 +288,7 @@ void BrowseHighscore::draw()
         draw_box(panels::area(Panel::screen));
 
         io::draw_text_center(
-                " Browsing high scores ",
+                " 浏览高分榜 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title(),
@@ -298,7 +298,7 @@ void BrowseHighscore::draw()
 
         io::draw_text_center(
                 std::string(
-                        " [select] to view game summary " +
+                        " [select] 查看游戏总结 " +
                         common_text::g_screen_exit_hint +
                         " "),
                 Panel::screen,
@@ -321,12 +321,12 @@ void BrowseHighscore::draw()
         const int x_score = x_win + 5;
 
         const std::vector<std::pair<std::string, int>> labels {
-                {"Level", x_lvl},
-                {"Depth", x_dlvl},
-                {"Turns", x_turns},
-                {"Ins", x_ins},
-                {"Win", x_win},
-                {"Score", x_score}};
+                {"等级", x_lvl},
+                {"深度", x_dlvl},
+                {"回合", x_turns},
+                {"疯狂", x_ins},
+                {"胜利", x_win},
+                {"分数", x_score}};
 
         for (const auto& label : labels) {
                 io::draw_text(
@@ -360,7 +360,7 @@ void BrowseHighscore::draw()
                 const auto dlvl = std::to_string(entry.dlvl);
                 const auto turns = std::to_string(entry.turn_count);
                 const auto ins = std::to_string(entry.ins);
-                const auto* const win = (entry.is_win == IsWin::yes) ? "Yes" : "No";
+                const auto* const win = (entry.is_win == IsWin::yes) ? "是" : "否";
                 const auto score = std::to_string(entry.calculate_score());
 
                 const bool is_marked = m_browser.is_at_idx(i);
@@ -398,7 +398,7 @@ void BrowseHighscore::draw()
         // Draw "more" labels
         if (!m_browser.is_on_top_page()) {
                 io::draw_text(
-                        "(More - Page Up)",
+                        "（更多 - 上一页）",
                         Panel::screen,
                         {0, 1},
                         colors::light_white());
@@ -406,7 +406,7 @@ void BrowseHighscore::draw()
 
         if (!m_browser.is_on_btm_page()) {
                 io::draw_text(
-                        "(More - Page Down)",
+                        "（更多 - 下一页）",
                         Panel::screen,
                         {0, panels::y1(Panel::screen)},
                         colors::light_white());
@@ -417,7 +417,7 @@ void BrowseHighscore::update()
 {
         if (m_entries.empty()) {
                 popup::Popup(popup::AddToMsgHistory::no)
-                        .set_msg("No high score entries found.")
+                        .set_msg("未找到高分记录。")
                         .run();
 
                 // Exit screen
@@ -512,8 +512,8 @@ void BrowseHighscoreEntry::read_file()
 
         if (!file.is_open()) {
                 popup::Popup(popup::AddToMsgHistory::no)
-                        .set_title("Game summary file could not be opened")
-                        .set_msg("Path: \"" + m_file_path + "\"")
+                        .set_title("无法打开游戏总结文件")
+                        .set_msg("路径: \"" + m_file_path + "\"")
                         .run();
 
                 states::pop();

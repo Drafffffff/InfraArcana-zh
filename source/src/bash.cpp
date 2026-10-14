@@ -76,14 +76,14 @@ static void print_player_attack_seen_terrain_msg(
         const std::string terrain_name = terrain.name(Article::the);
         const std::string melee_att_msg = wpn.data().melee.attack_msgs.player;
 
-        msg_log::add("I " + melee_att_msg + " " + terrain_name + "!");
+        msg_log::add("我 " + melee_att_msg + " " + terrain_name + "!");
 }
 
 static void print_player_attack_unseen_terrain_msg(const item::Item& wpn)
 {
         const std::string melee_att_msg = wpn.data().melee.attack_msgs.player;
 
-        msg_log::add("I " + melee_att_msg + " something!");
+        msg_log::add("我 " + melee_att_msg + " 什么东西！");
 }
 
 static void print_player_attack_terrain_msg(
@@ -218,7 +218,7 @@ static void bash_something_at_pos(const P& pos)
         }
 
         if (is_player_pos) {
-                msg_log::add("I cannot find anything there to bash.");
+                msg_log::add("我找不到可以砸开的东西。");
 
                 return;
         }
@@ -237,7 +237,7 @@ static void bash_something_at_pos(const P& pos)
                 // not possible to attack the terrain itself).
                 const std::string terrain_name = terrain->name(Article::the);
 
-                msg_log::add("Kicking " + terrain_name + " would be useless.");
+                msg_log::add("踢击 " + terrain_name + " 就没用了。");
 
                 return;
         }
@@ -314,7 +314,7 @@ void try_sprain_player()
         }
 
         if (rnd::one_in(sprain_one_in_n)) {
-                msg_log::add("I sprain myself.", colors::msg_bad());
+                msg_log::add("我把自己扭伤了。", colors::msg_bad());
 
                 const int dmg = rnd::range(1, 2);
 
@@ -362,14 +362,14 @@ void attack_corpse(actor::Actor& mon, const item::Item& wpn)
         std::string corpse_name =
                 map::g_seen.at(mon.m_pos)
                 ? mon.m_data->corpse_name_the
-                : "a corpse";
+                : "一具尸体";
 
         corpse_name = text_format::first_to_lower(corpse_name);
 
         const std::string melee_att_msg = wpn.data().melee.attack_msgs.player;
 
         const std::string msg =
-                "I " +
+                "我 " +
                 melee_att_msg + " " +
                 corpse_name + ".";
 
@@ -453,7 +453,7 @@ void do_fake_attack_on_unseen_terrain(const P& pos, const item::Item& wpn)
 
 void attack_air()
 {
-        msg_log::add("*Whoosh!*");
+        msg_log::add("*嗖！*");
 
         audio::play(audio::SfxId::miss_medium);
 

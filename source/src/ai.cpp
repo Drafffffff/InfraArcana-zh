@@ -119,7 +119,7 @@ static void print_mon_desperate_cast_msg(const actor::Actor& mon)
                 text_format::first_to_upper(
                         actor::name_the(mon));
 
-        msg_log::add(mon_name_the + " looks desperate.");
+        msg_log::add(mon_name_the + " 看起来很绝望。");
 }
 
 static DidAction try_cast_spell(
@@ -285,7 +285,7 @@ DidAction handle_closed_blocking_door(actor::Actor& mon, std::vector<P>& path)
 
                         msg_log::add(
                                 mon_name_the +
-                                " bashes at the " +
+                                " 猛击 " +
                                 door_name +
                                 "!");
                 }

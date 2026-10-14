@@ -73,7 +73,7 @@ static void handle_warn_player_encumbered()
         msg_log::more_prompt();
 
         msg_log::add(
-                "I am carrying too much weight, walking will be slower.",
+                "我带的东西太重了，走路会变慢。",
                 colors::msg_note(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -223,7 +223,7 @@ static void on_player_spot_sneaking_mon(actor::Actor& mon)
         const std::string mon_name = actor::name_a(mon);
 
         msg_log::add(
-                "I spot " + mon_name + "!",
+                "我发现了 " + mon_name + "!",
                 colors::msg_note(),
                 MsgInterruptPlayer::yes,
                 MorePromptOnMsg::yes);
@@ -283,7 +283,7 @@ static void warn_player_about_mon(const actor::Actor& actor)
                         : MorePromptOnMsg::yes;
 
                 msg_log::add(
-                        name_a + " is in my view.",
+                        name_a + " 在我的视野内。",
                         colors::text(),
                         MsgInterruptPlayer::yes,
                         add_more_prompt);
@@ -392,7 +392,7 @@ static void on_player_shock_over_limit()
 
         if (actor::player_state::g_nr_turns_until_insanity > 0) {
                 msg_log::add(
-                        "I feel my sanity slipping...",
+                        "我觉得自己的理智正在流失……",
                         colors::msg_note(),
                         MsgInterruptPlayer::yes,
                         MorePromptOnMsg::yes);

@@ -61,9 +61,9 @@
 // Private
 // -----------------------------------------------------------------------------
 static const std::vector<std::string> m_item_feeling_messages = {
-        "I feel like I should examine this place thoroughly.",
-        "I feel like there is something of great interest here.",
-        "I sense an object of great power here."};
+        "我觉得应该彻底搜查这个地方。",
+        "我感觉这里有什么很有意思的东西。",
+        "我感觉这里有一件力量强大的物品。"};
 
 static double shock_taken_for_mon_shock_lvl(const MonShockLvl shock_lvl)
 {
@@ -113,11 +113,11 @@ static std::string make_continue_remove_armor_query_msg()
                         ItemNameInfo::yes);
 
         return (
-                "Continue taking off " +
+                "继续脱下 " +
                 armor_name +
                 " (" +
                 turns_left_str +
-                " turns left)? " +
+                " 向左转）？ " +
                 common_text::g_yes_or_no_hint);
 }
 
@@ -133,11 +133,11 @@ static std::string make_continue_equip_armor_query_msg()
                         ItemNameInfo::yes);
 
         return (
-                "Continue putting on " +
+                "继续穿上 " +
                 armor_name +
                 " (" +
                 turns_left_str +
-                " turns left)? " +
+                " 向左转）？ " +
                 common_text::g_yes_or_no_hint);
 }
 
@@ -214,7 +214,7 @@ static void interrupt_equip_other_item(const ForceInterruptActions is_forced)
                                 ItemNameInfo::yes);
 
                 const std::string msg =
-                        "Continue equipping " +
+                        "继续装备 " +
                         wpn_name +
                         "? " +
                         common_text::g_yes_or_no_hint;
@@ -289,17 +289,17 @@ void print_player_aware_invis_mon_msg(const Actor& mon)
         std::string mon_ref;
 
         if (mon.m_data->is_ghost) {
-                mon_ref = "some foul entity";
+                mon_ref = "某种邪恶存在";
         }
         else if (mon.m_data->is_humanoid) {
-                mon_ref = "someone";
+                mon_ref = "某人";
         }
         else {
-                mon_ref = "a creature";
+                mon_ref = "一只生物";
         }
 
         msg_log::add(
-                "There is " + mon_ref + " here!",
+                "有 " + mon_ref + " 在这里！",
                 colors::msg_note(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -327,7 +327,7 @@ bool restore_exorcist_fervor(int fervor_restored, Verbose verbose)
         const bool is_fervor_gained = player_state::g_exorcist_fervor > fervor_before;
 
         if ((verbose == Verbose::yes) && is_fervor_gained) {
-                msg_log::add("I feel more fervent!", colors::msg_good());
+                msg_log::add("我变得更加狂热！", colors::msg_good());
         }
 
         return is_fervor_gained;
@@ -540,12 +540,11 @@ void Actor::incr_insanity()
 
         if (insanity() >= 100) {
                 const std::string msg =
-                        "My mind can no longer withstand what it has grasped. "
-                        "I am hopelessly lost.";
+                        "我的心智再也无法承受所领悟的一切。我已无可救药地迷失了。";
 
                 popup::Popup(popup::AddToMsgHistory::yes)
                         .set_msg(msg)
-                        .set_title("Insane!")
+                        .set_title("疯狂了！")
                         .run();
 
                 kill(
@@ -663,14 +662,14 @@ void Actor::mon_feeling() const
 
         if (print_unique_mon_feeling && rnd::percent(80)) {
                 std::vector<std::string> msg_bucket {
-                        "A chill runs down my spine.",
-                        "I sense a great danger.",
+                        "一股寒意顺着我的脊背窜下。",
+                        "我感觉到巨大的危险。",
                 };
 
                 // This message only makes sense if the player is fearful
                 if (!player_bon::has_trait(Trait::fearless) &&
                     !m_properties.has(prop::Id::frenzied)) {
-                        msg_bucket.emplace_back("I feel anxious.");
+                        msg_bucket.emplace_back("我感到焦虑。");
                 }
 
                 const auto msg = rnd::element(msg_bucket);

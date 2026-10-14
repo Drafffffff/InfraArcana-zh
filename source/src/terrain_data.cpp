@@ -274,9 +274,9 @@ static void init_data_list()
         d.can_have_gore = false;
         d.can_have_corpse = false;
         d.msg_on_player_blocked =
-                "A chasm lies in my way.";
+                "一道深渊横在我面前。";
         d.msg_on_player_blocked_blind =
-                "I realize I am standing on the edge of a chasm.";
+                "我意识到自己正站在深渊边缘。";
         d.material_type = Material::empty;
         d.shock_when_adjacent = 3;
         add_to_list_and_reset(d);

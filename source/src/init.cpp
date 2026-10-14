@@ -75,7 +75,7 @@ void init_io()
 
         // TODO: Use more creative loading messages
         io::draw_text_center(
-                "Loading...",
+                "正在载入……",
                 Panel::screen,
                 panels::center(Panel::screen),
                 colors::menu_dark());
@@ -92,7 +92,7 @@ void init_io()
 
                 popup::Popup popup(popup::AddToMsgHistory::no);
 
-                popup.set_title("Warning");
+                popup.set_title("警告");
 
                 popup.set_msg(msg);
 

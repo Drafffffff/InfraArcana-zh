@@ -103,12 +103,12 @@ BinaryAnswer query_player_attack_mon_with_ranged_wpn(
 
         const bool can_see_mon = can_player_see_actor(mon);
 
-        const std::string mon_name = can_see_mon ? actor::name_the(mon) : "it";
+        const std::string mon_name = can_see_mon ? actor::name_the(mon) : "它";
 
         const std::string msg =
-                "Attack " +
+                "攻击 " +
                 mon_name +
-                " with " +
+                " 和 " +
                 wpn_name +
                 "? " +
                 common_text::g_yes_or_no_hint;

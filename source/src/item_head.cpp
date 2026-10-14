@@ -28,7 +28,7 @@ void GasMask::decr_turns_left(Inventory& carrier_inv)
                 const std::string item_name = name(ItemNameType::plain, ItemNameInfo::none);
 
                 msg_log::add(
-                        "My " + item_name + " expires.",
+                        "我的 " + item_name + " 过期。",
                         colors::msg_note(),
                         MsgInterruptPlayer::yes,
                         MorePromptOnMsg::yes);
@@ -41,7 +41,7 @@ std::string GasMask::name_info_str(const ItemNameIdentified id_type) const
 {
         (void)id_type;
 
-        return "(" + std::to_string(m_nr_turns_left) + " turns)";
+        return "(" + std::to_string(m_nr_turns_left) + " 转）";
 }
 
 void GasMask::save_hook() const

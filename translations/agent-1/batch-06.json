@@ -1,0 +1,1203 @@
+[
+  {
+    "source": "- Disease temporarily lowers your maximum HP, instead of making you rapidly lose HP down to a certain limit (with the old method it was always possible to heal yourself, even though it was useless)",
+    "target": "- 疾病现在会暂时降低你的生命值上限，而不是迅速扣除生命值直至某个阈值（旧机制下即使治疗毫无用处，你仍然可以继续治疗）。",
+    "locations": [
+      "installed_files/release_history.txt:1393"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dispelling magic traps grants spirit points",
+    "target": "- 消除魔法陷阱可获得精神点",
+    "locations": [
+      "installed_files/release_history.txt:521"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dodging also applies to ranged attacks",
+    "target": "- 躲避也适用于远程攻击",
+    "locations": [
+      "installed_files/release_history.txt:811"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Doors can be jammed with iron spikes (j)",
+    "target": "- 门可以用铁钉(j)卡住",
+    "locations": [
+      "installed_files/release_history.txt:1615"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Doors no longer have a \"broken\" state - instead, breaking them simply converts them to \"rubble\"",
+    "target": "- 门不再具有“破碎”状态 - 相反，打破它们只会将它们转换为“碎石”",
+    "locations": [
+      "installed_files/release_history.txt:1051"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dropping items is now done from a separate inventory screen, accessed by pressing \"d\" (which is a more conventional method than the old way of pressing shift+enter)",
+    "target": "- 现在通过单独的物品栏界面丢弃物品，按“d”进入（这比旧版按 Shift+Enter 的方式更常见）。",
+    "locations": [
+      "installed_files/release_history.txt:566"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Due to the above change, the Flagellant trait \"Fervor\" has been renamed to \"Enthusiasm\".",
+    "target": "- 由于上述变化，鞭打者特质“热情”已更名为“热情”。",
+    "locations": [
+      "installed_files/release_history.txt:16"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dynamite",
+    "target": "- 炸药",
+    "locations": [
+      "installed_files/release_history.txt:1961"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Dynamite explodes in your hands if you hold it too long.",
+    "target": "- 如果你握得太久，炸药就会在你手中爆炸。",
+    "locations": [
+      "installed_files/release_history.txt:1900"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Each melee trait gives +5% chance to evade melee attacks",
+    "target": "- 每个近战特性都有+5%的几率躲避近战攻击",
+    "locations": [
+      "installed_files/release_history.txt:724"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Each section of the manual is shown on a separate screen, accessed from a menu",
+    "target": "- 手册的每个部分都显示在单独的屏幕上，可通过菜单访问",
+    "locations": [
+      "installed_files/release_history.txt:664"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Energy Vortex attacks has a paralyzing effect as they were supposed to have, instead of burning",
+    "target": "- 能量漩涡攻击具有麻痹效果，因为它们应该具有，而不是燃烧",
+    "locations": [
+      "installed_files/release_history.txt:498"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Energy Vortexes were not resistant to electricity",
+    "target": "- 能量漩涡不耐电",
+    "locations": [
+      "installed_files/release_history.txt:675"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Entry for sneaking and backstabbing in the manual",
+    "target": "- 手册中关于潜行和背后刺伤的条目",
+    "locations": [
+      "installed_files/release_history.txt:1725"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Equippable items (armor, weapons, head-wear) can now be equipped by selecting them directly in the backpack, automatically swapping out any existing item in the target equipment slot (which of course takes more turns to perform)",
+    "target": "- 现在可以直接在背包中选择可装备物品（护甲、武器、头部装备）来穿戴，并自动替换对应装备栏中的物品（当然，这样做需要更多回合）。",
+    "locations": [
+      "installed_files/release_history.txt:573"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Esc works as alternative quit command (same as [Q])",
+    "target": "- 按退出键也可作为替代退出命令（与 [Q] 相同）。",
+    "locations": [
+      "installed_files/release_history.txt:1390"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Every melee attack was presented like a back-stab (only the message was bugged though)",
+    "target": "- 所有近战攻击看起来都像背刺（实际上出错的只有提示消息）。",
+    "locations": [
+      "installed_files/release_history.txt:1709"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Exorcists can no longer store spirit points above max level indefinitely, instead they gain fervor points for destroying manuscripts, altars, etc. Fervor can be used for casting spells, and is used automatically when there is not enough spirit points to cast from. The \"Prolonged Life\" trait also uses fervor instead of spirit.",
+    "target": "- 驱魔师不再可以无限期地存储高于最高等级的精神点，而是通过摧毁手稿、祭坛等获得热情点。热情可以用于施法，当没有足够的精神点可以施法时会自动使用。 “长寿”特质也用的是热情而不是精神。",
+    "locations": [
+      "installed_files/release_history.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Exorcists picking a stack of Manuscripts destroyed the whole stack, but only gave bonuses for one Manuscript.",
+    "target": "- 拾取一堆手稿的驱魔师摧毁了整堆手稿，但只为一份手稿提供奖励。",
+    "locations": [
+      "installed_files/release_history.txt:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Expanded the command list screen to a brief manual",
+    "target": "- 将命令列表屏幕扩展为简短的手册",
+    "locations": [
+      "installed_files/release_history.txt:1880"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Explosions destroy walls and doors (destroyed walls may leave rocks)",
+    "target": "- 爆炸会摧毁墙壁和门（被摧毁的墙壁可能留下石块）。",
+    "locations": [
+      "installed_files/release_history.txt:1758"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Explosions leave smoke",
+    "target": "- 爆炸留下烟雾",
+    "locations": [
+      "installed_files/release_history.txt:1845"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fewer monsters are spawned on the map overall, and many monster types now tend to spawn in smaller groups, but are individually stronger - they also generally follow and remember you for a shorter time than before",
+    "target": "- 总体而言，地图上生成的怪物较少，许多怪物类型现在倾向于以较小的群体生成，但个体更强大 - 它们通常跟随并记住你的时间也比以前更短",
+    "locations": [
+      "installed_files/release_history.txt:795"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fire Hound bites now also causes Burning (like their ranged attacks)",
+    "target": "- 火焰猎犬的撕咬现在也会造成燃烧（与它们的远程攻击相同）。",
+    "locations": [
+      "installed_files/release_history.txt:886"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Firearms and thrown weapons have limited effective ranges, beyond which their damage is halved. When selecting target, the marker is colored orange beyond the effective range.",
+    "target": "- 枪械和投掷武器的有效射程有限，超出范围后伤害减半。选择目标时，超出有效范围的标记将显示为橙色。",
+    "locations": [
+      "installed_files/release_history.txt:1061"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Firearms have effective range limits (half damage beyond it), the line drawn while aiming is green inside the limit and yellow beyond it",
+    "target": "- 枪械现在有有效射程限制（超出射程时伤害减半）。瞄准时，射程内的瞄准线为绿色，超出射程则为黄色。",
+    "locations": [
+      "installed_files/release_history.txt:1843"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Firearms on the ground have white symbol if they have ammo loaded, otherwise gray.",
+    "target": "- 地面上的枪支如果装有弹药，则有白色符号，否则呈灰色。",
+    "locations": [
+      "installed_files/release_history.txt:1903"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- First aid can not be started if a monster is seen, and is automatically aborted if one appears",
+    "target": "- 如果看到怪物则无法开始急救，如果出现则自动中止",
+    "locations": [
+      "installed_files/release_history.txt:1559"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that (in some rare specific cases) allowed monsters to move into the position already occupied by another monster",
+    "target": "- 修复了一个错误：在少数特定情况下，怪物可能移动到已被另一只怪物占据的位置。",
+    "locations": [
+      "installed_files/release_history.txt:908"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that allowed explosion graphics to be rendered in unseen cells",
+    "target": "- 修复了允许在看不见的单元中渲染爆炸图形的错误",
+    "locations": [
+      "installed_files/release_history.txt:1483"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that allowed saving anywhere",
+    "target": "- 修复了允许在任何地方保存的错误",
+    "locations": [
+      "installed_files/release_history.txt:1491"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused enemies to spawn inside your field of view",
+    "target": "- 修复了导致敌人在您的视野内生成的错误",
+    "locations": [
+      "installed_files/release_history.txt:1824"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused Expert Marksman go give a double upgrade, and Master Marksman to give no upgrade at all (this bug has existed since v20.0).",
+    "target": "- 修复了神射手专家会获得双重升级、神射手大师却完全无法升级的问题（该错误自 v20.0 起就存在）。",
+    "locations": [
+      "installed_files/release_history.txt:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused interruptions of longer player actions (handling armor or using the medical bag). The problem was that status effects that interrupt the player (fainting, burning, entangled, stuck, etc) would interrupt regardless of which creature it was applied to. The effect of this was probably most often noticeable when monsters outside view got stuck in mud.",
+    "target": "- 修复了较长玩家操作（穿戴护甲或使用医疗包）会被中断的问题。此前，昏厥、燃烧、缠绕、受困等打断玩家的状态效果，无论施加给哪个生物都会中断玩家操作；当视野外的怪物陷入泥中时，这个问题尤其明显。",
+    "locations": [
+      "installed_files/release_history.txt:212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused monsters with Fear Resistance to end all player phobias when they spawned (this was mistakenly reported to the insanity system as a \"player gaining permanent rFear\" event)",
+    "target": "- 修复了具有恐惧抗性的怪物生成时会结束玩家所有恐惧症的问题（此前系统误将此情况记录为“玩家永久获得恐惧抗性”事件）。",
+    "locations": [
+      "installed_files/release_history.txt:904"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused properties to \"stick\" on an item if it was dropped while wearing it (if the item was picked up again, the properties were enabled on the player even when the item was just carried in the backpack)",
+    "target": "- 修复了穿戴物品时将其丢下会导致属性“粘”在物品上的错误（重新拾取后，即使只把物品放在背包里，这些属性也会作用于玩家）。",
+    "locations": [
+      "installed_files/release_history.txt:1096"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused the 'get' command to crash the game after loading a save file",
+    "target": "- 修复了加载保存文件后导致“get”命令崩溃游戏的错误",
+    "locations": [
+      "installed_files/release_history.txt:1522"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused the player's dodge chance to be calculated the wrong way when Ghosts attempted to \"touch\" you",
+    "target": "- 修复了当幽灵试图“触摸”你时导致玩家的闪避几率计算错误的错误",
+    "locations": [
+      "installed_files/release_history.txt:1013"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that caused unique monsters to sometimes spawn more than once",
+    "target": "- 修复了导致独特怪物有时多次生成的错误",
+    "locations": [
+      "installed_files/release_history.txt:1797"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that could crash the game, especially during map generation (thanks \"stevebob\"!)",
+    "target": "- 修复了一个可能导致游戏崩溃的错误，尤其是地图生成期间。（感谢 “stevebob”！）",
+    "locations": [
+      "installed_files/release_history.txt:1012"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented backstabs from giving hit chance bonus in many cases",
+    "target": "- 修复了在许多情况下阻止背刺给予命中机会奖励的错误",
+    "locations": [
+      "installed_files/release_history.txt:1093"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented Flare Guns from burning the target",
+    "target": "- 修复了信号枪无法燃烧目标的错误",
+    "locations": [
+      "installed_files/release_history.txt:1015"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented hit chance bonus against unaware targets for ranged attacks",
+    "target": "- 修正了一个错误，该错误导致对不知情的目标进行远程攻击时无法获得命中率奖励",
+    "locations": [
+      "installed_files/release_history.txt:872"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented hit chance bonus vs unaware monsters",
+    "target": "- 修正了一个错误，该错误阻止了对不知情的怪物的命中机会奖励",
+    "locations": [
+      "installed_files/release_history.txt:1480"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented messages for Rogues sensing artifacts on the dungeon floor (there were only messages for sensing artifacts in item containers, such as tombs)",
+    "target": "- 修复了盗贼无法获得在地城地面感知遗物的提示的问题（此前只有感知物品容器中的遗物时才会显示提示，例如墓穴中的遗物）。",
+    "locations": [
+      "installed_files/release_history.txt:494"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented monsters from stepping on corpses",
+    "target": "- 修复了怪物无法踩到尸体的错误",
+    "locations": [
+      "installed_files/release_history.txt:1490"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented Ooze-type monsters from passing through closed doors (they should be able to do this)",
+    "target": "- 修复了软泥类怪物无法穿过关闭的门的错误（它们本来就应该能穿过）。",
+    "locations": [
+      "installed_files/release_history.txt:1192"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug that prevented you from using melee attacks on a turn that you had a free move from the \"Dextrous\" bonus, and walked in liquid",
+    "target": "- 修复了一个错误，该错误会阻止您在拥有“灵巧”奖励的自由移动并在液体中行走的回合中使用近战攻击",
+    "locations": [
+      "installed_files/release_history.txt:1236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug were teleporting or being knocked back while held by a spider web, caused the web to be able to hold any creature that walked into it, regardless of monster type (e.g. ethereal monsters or spiders could then also be held)",
+    "target": "- 修复了一个错误：生物被蛛网困住时传送或被击退后，蛛网会错误地困住任何走入其中的生物，而不再检查怪物类型（例如，以太怪物或蜘蛛也会被困住）。",
+    "locations": [
+      "installed_files/release_history.txt:909"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug where bumping a hidden door would print a different message than bumping a wall (and thus indicating the presence of the door)",
+    "target": "- 修复了撞击隐藏门时显示的消息与撞击墙壁不同的错误（这会暴露门的位置）。",
+    "locations": [
+      "installed_files/release_history.txt:1016"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug where carrying multiple electric lanterns prevented you from using any other than the top one",
+    "target": "- 修复了携带多个电灯笼导致您无法使用除顶部电灯笼之外的任何灯笼的错误",
+    "locations": [
+      "installed_files/release_history.txt:1237"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug where creatures (e.g. the player) could get knocked into impassable terrain (such as walls), if they had physical damage resistance.",
+    "target": "- 修复了具有物理伤害抗性的生物可能被击入不可通行地形（例如墙壁）的问题。",
+    "locations": [
+      "installed_files/release_history.txt:211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug where dropping the Staff of the Pharaohs would cause the spell to be permanently lost, even if the staff was picked up again",
+    "target": "- 修复了掉落法老王之杖会导致法术永久丢失的错误，即使再次拾取法老之杖也会导致法术永久丢失",
+    "locations": [
+      "installed_files/release_history.txt:871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug where the player killing themselves with an Incinerator would freeze the game.",
+    "target": "- 修正了玩家用焚化炉自杀会冻结游戏的错误。",
+    "locations": [
+      "installed_files/release_history.txt:333"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug which prevented accessing the manual (\"Tome of Wisdom\") from the esc-menu during a game",
+    "target": "- 修复了游戏过程中无法从 Esc 菜单打开手册（“智慧之书”）的问题。",
+    "locations": [
+      "installed_files/release_history.txt:780"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug which removed the Sentry Drone monster from the game - preventing both usage of the Sentry Drone device, and hostile Sentry Drones from spawning on the map",
+    "target": "- 修复了从游戏中移除哨兵无人机怪物的错误 - 阻止哨兵无人机设备的使用以及敌对哨兵无人机在地图上生成",
+    "locations": [
+      "installed_files/release_history.txt:781"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a bug with machine gun weapons (killing a monster caused the following bullets to hit the floor where he stood. Now machine guns are more effective against rows of monsters)",
+    "target": "- 修复了机枪类武器的一个错误：击杀怪物后，后续子弹会射向它原来站立位置的地面。现在机枪对付成排的怪物更加有效。",
+    "locations": [
+      "installed_files/release_history.txt:1853"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a crash bug for the Incinerator weapon (the game could crash when the projectile reached its max range)",
+    "target": "- 修复了焚化炉武器的崩溃问题（弹体飞到最大射程时可能导致游戏崩溃）。",
+    "locations": [
+      "installed_files/release_history.txt:674"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a crash that occurred if enter was pressed while equipping a slot with no available items",
+    "target": "- 修复了尝试装备没有可用物品的槽位时按回车键导致游戏崩溃的问题。",
+    "locations": [
+      "installed_files/release_history.txt:1094"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a crash that occurred if shift + enter (drop item) was pressed while a slot with no item was selected",
+    "target": "- 修复了选中空槽位时按 Shift + 回车键（丢弃物品）导致游戏崩溃的问题。",
+    "locations": [
+      "installed_files/release_history.txt:1095"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a faulty message when pressing \"t\" with no item selected for throwing (the message adviced to press \"w\" to wield a throwing weapon, but the actual key should be \"i\")",
+    "target": "- 修复了未选择投掷物品时按“t”显示错误提示的问题（提示要求按“w”装备投掷武器，但正确按键应为“i”）。",
+    "locations": [
+      "installed_files/release_history.txt:941"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a faulty message when throwing potions on monsters (\"it had no apparent effect...\" even when the effect was obvious. Only the message was wrong though, not the actual identification)",
+    "target": "- 修复了向怪物投掷药水时的一条错误消息：即使效果很明显，消息仍会显示“似乎没有效果……”。只有提示文字有误，实际鉴定结果不受影响。",
+    "locations": [
+      "installed_files/release_history.txt:1593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a graphical bug with gas traps",
+    "target": "- 修复了气体陷阱的图形错误",
+    "locations": [
+      "installed_files/release_history.txt:1855"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a graphical bug with smoke",
+    "target": "- 修复了烟雾的图形错误",
+    "locations": [
+      "installed_files/release_history.txt:1856"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a graphical glitch with Tommy Gun and Tesla Cannon.",
+    "target": "- 修复了汤米枪和特斯拉大炮的图形故障。",
+    "locations": [
+      "installed_files/release_history.txt:1941"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a horrible horrible bug that prevented the player from dodging melee attacks",
+    "target": "- 修复了一个可怕的错误，该错误使玩家无法躲避近战攻击",
+    "locations": [
+      "installed_files/release_history.txt:1710"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a minor problem with the field of view (too many wall cells were revealed in some circumstances)",
+    "target": "- 修复了视野系统的一个小问题：某些情况下会揭示过多墙壁格子。",
+    "locations": [
+      "installed_files/release_history.txt:1825"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a problem with save files messing up identified potions",
+    "target": "- 修复了保存文件弄乱已识别药水的问题",
+    "locations": [
+      "installed_files/release_history.txt:1632"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a timing issue when the player controls teleportation (e.g. when casting teleport, game time would pass between casting the spell and getting to control the teleport location). Now the control happens instantly.",
+    "target": "- 修复了玩家控制传送时的计时问题（例如，施放传送法术后，到玩家开始选择传送位置之间，游戏时间原本仍会流逝）。现在可以立即控制传送位置。",
+    "locations": [
+      "installed_files/release_history.txt:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a typo that said \"Press 'v'\" when you tried to throw a missile with empty missile slot. Changed it to say \"Press 'w'\", which is the actual command to equip items.",
+    "target": "- 修复了当你试图投掷空导弹槽的导弹时显示“按‘v’”的拼写错误。将其更改为“按'w'”，这是装备物品的实际命令。",
+    "locations": [
+      "installed_files/release_history.txt:1235"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed a typo when reading scrolls",
+    "target": "- 修复了阅读卷轴时的拼写错误",
+    "locations": [
+      "installed_files/release_history.txt:1700"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed an issue where activating a \"Blaster\" Strange Device would tick game time twice.",
+    "target": "- 修复了激活“爆破者”奇异装置会使游戏时间推进两次的问题。",
+    "locations": [
+      "installed_files/release_history.txt:367"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed Fire Hound projectile animation in tiles mode (a small \"blast\" tile instead of a bunch of forward slashes)",
+    "target": "- 修复了图块模式下的火焰猎犬弹体动画（现在显示一个小型“爆炸”图块，而非一串斜线）。",
+    "locations": [
+      "installed_files/release_history.txt:765"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed many bugs related to properties (especially concerning properties which were supposed to be permanent, but would time out - e.g. confusion resistance gained from picking the trait \"Self-aware\")",
+    "target": "- 修复了许多与属性有关的错误，尤其是本应永久生效却会超时的属性（例如选择“自我觉察”特质获得的困惑抗性）。",
+    "locations": [
+      "installed_files/release_history.txt:1190"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed problem with popups not being re-drawn correctly when alt-tabbing back to the game",
+    "target": "- 修复了从其他窗口切回游戏后，弹窗没有正确重绘的问题。",
+    "locations": [
+      "installed_files/release_history.txt:499"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some buggy item drop code (which may have caused crashes)",
+    "target": "- 修复了一些有问题的物品掉落代码，这些问题可能导致游戏崩溃。",
+    "locations": [
+      "installed_files/release_history.txt:905"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some bugs in the monster movement AI (it wasn't anything critical, but it made them act a bit weird in a few specific situations)",
+    "target": "- 修复了怪物移动 AI 中的一些问题（并非严重问题，但在少数特定情况下会让怪物行动得有些奇怪）。",
+    "locations": [
+      "installed_files/release_history.txt:940"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some cases where redundant sound messages were printed when handling doors (\"I hear a door open. I see a door opening.\")",
+    "target": "- 修复了处理门时重复显示声音消息的情况（“我听见门打开了。”“我看见一扇门正在打开。”）。",
+    "locations": [
+      "installed_files/release_history.txt:217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some code that may have made the game less stable",
+    "target": "- 修复了一些可能导致游戏不稳定的代码",
+    "locations": [
+      "installed_files/release_history.txt:1644"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some errors in Manuscript names (underscores had snuck into a few names for some reason)",
+    "target": "- 修正了部分手稿名称中的错误（不知为何，有些名称里混入了下划线）。",
+    "locations": [
+      "installed_files/release_history.txt:907"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some grammatical errors",
+    "target": "- 修正了一些语法错误",
+    "locations": [
+      "installed_files/release_history.txt:1583",
+      "installed_files/release_history.txt:1890"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some minor bugs in the map generator (the map generator can also do a few new things now, although it's probably subtle)",
+    "target": "- 修复了地图生成器中的一些小问题（地图生成器现在也新增了一些功能，不过变化可能不太明显）。",
+    "locations": [
+      "installed_files/release_history.txt:906"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some problems with keyboard input and the game directory",
+    "target": "- 修复了键盘输入和游戏目录的一些问题",
+    "locations": [
+      "installed_files/release_history.txt:1943"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed some typos",
+    "target": "- 修正了一些错别字",
+    "locations": [
+      "installed_files/release_history.txt:785"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: \"High ceiling rooms\" could spawn monsters outside the room",
+    "target": "- 修正：“高天花板房间”可能会在房间外产生怪物",
+    "locations": [
+      "installed_files/release_history.txt:1443"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: Armor durability and clip ammo count were not stored in save files",
+    "target": "- 修正：装甲耐久度和弹药夹数量未存储在保存文件中",
+    "locations": [
+      "installed_files/release_history.txt:1444"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: Explosions crashed the game in certain situations",
+    "target": "- 修正：爆炸在某些情况下导致游戏崩溃",
+    "locations": [
+      "installed_files/release_history.txt:1441"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: Status effect countdown did not occur on some turns",
+    "target": "- 修正：某些回合没有发生状态效果倒计时",
+    "locations": [
+      "installed_files/release_history.txt:1442"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: The player color updates immediately after healing (instead of the turn after)",
+    "target": "- 修复：治疗后玩家的颜色现在会立即更新（而不是等到下一个回合）。",
+    "locations": [
+      "installed_files/release_history.txt:1416"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fixed: There was a situation that put the game in an infinite loop (not responding)",
+    "target": "- 修复：某些情况下游戏会陷入无限循环并停止响应。",
+    "locations": [
+      "installed_files/release_history.txt:1415"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Flagellants also start with a potion of vitality.",
+    "target": "- 鞭打者也从一瓶活力药水开始。",
+    "locations": [
+      "installed_files/release_history.txt:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Flares light up a circular area of darkness (the flare's field of view), instead of lighting up the whole room",
+    "target": "- 信号棒现在会照亮一片圆形区域（信号棒的视野范围），而不是照亮整个房间。",
+    "locations": [
+      "installed_files/release_history.txt:1332"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Floor cells lit by an Electric lantern, flare, burning creature, etc are now marked with yellow color",
+    "target": "- 由电灯、照明弹、燃烧生物等照亮的地板单元现在标记为黄色",
+    "locations": [
+      "installed_files/release_history.txt:1273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Flying creatures actually fly (can fly over chasms, acid, etc)",
+    "target": "- 飞行生物现在会真正飞行（可飞越裂隙、酸液等）。",
+    "locations": [
+      "installed_files/release_history.txt:1675"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Flying monsters can no longer be killed by kicking them into chasms",
+    "target": "- 飞行怪物不再可以通过将它们踢入裂缝来杀死",
+    "locations": [
+      "installed_files/release_history.txt:1099"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- For Exorcist spell traits, available spirit info is no longer printed in the character info screen, only when picking a trait (also the character info screen could show wrong numbers).",
+    "target": "- 驱魔师选择法术特质时才会显示可用精神值；角色信息界面不再显示这项信息（此前该界面显示的数值也可能有误）。",
+    "locations": [
+      "installed_files/release_history.txt:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- For Flagellant characters, the number of turns spent is adjusted to a lower value (55% of the original value) when calculating score (Flagellants tend to spend a lot more turns, especially since they must wait every time they walk, so this is a compensation for a more comparable score).",
+    "target": "- 计算分数时，鞭打者角色消耗的回合数会按较低数值计算（原数值的 55%）。鞭打者通常会消耗更多回合，尤其是每次行走都必须等待，因此此调整是为了让分数更可比。",
+    "locations": [
+      "installed_files/release_history.txt:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Forcing a metal door open (e.g. with a Rod of Opening or the Control Object spell) also toggles all connected switches (this would previously leave the switches \"inverted\", so that it was hard to know if pulling the switch would open or close a door)",
+    "target": "- 强行打开金属门（例如使用“开启法杖”或“控制物体”法术）也会切换所有相连的开关（此前开关会因此处于“反转”状态，让玩家难以判断拉动开关会打开还是关闭门）。",
+    "locations": [
+      "installed_files/release_history.txt:434"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fortitude reduces shock by a fixed percent (instead of randomly blocking it completely)",
+    "target": "- 坚毅现在会按固定比例降低震慑，而不是随机完全抵挡震慑。",
+    "locations": [
+      "installed_files/release_history.txt:1430"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fountains and Monoliths are now marked on the minimap.",
+    "target": "- 喷泉和巨石现在标记在小地图上。",
+    "locations": [
+      "installed_files/release_history.txt:283"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fountains are now either blue (common) or yellow (golden), then turns to gray when they are dried up",
+    "target": "- 喷泉现在要么是蓝色的(common)，要么是黄色的(golden)，然后在干涸时变成灰色",
+    "locations": [
+      "installed_files/release_history.txt:1080"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fountains now have different names and colors when tried, and they are no longer guaranteed to dry up immediately if bad",
+    "target": "- 喷泉现在在尝试时有不同的名称和颜色，并且不再保证如果坏了它们会立即干涸",
+    "locations": [
+      "installed_files/release_history.txt:519"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fountains with bad effects always dry up on the first quaff",
+    "target": "- 效果不好的喷泉总是在第一口就干了",
+    "locations": [
+      "installed_files/release_history.txt:633"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Frenzied monsters are now drawn with a red background, and this status is shown in the monster description page.",
+    "target": "- 疯狂的怪物现在以红色背景绘制，并且此状态显示在怪物描述页面中。",
+    "locations": [
+      "installed_files/release_history.txt:242"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Frenzy no longer prevents melee attacking an adjacent known unseen monster while there is a seen monster in a different direction.",
+    "target": "- 当不同方向有一个可见的怪物时，狂乱不再阻止近战攻击相邻的已知的看不见的怪物。",
+    "locations": [
+      "installed_files/release_history.txt:365"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Fullscreen can be toggled in the options menu, or by pressing alt-enter (fullscreen mode is highly experimental, it may or may not work for you)",
+    "target": "- 可在选项菜单中切换全屏，也可按 alt-enter（全屏模式仍处于高度实验阶段，可能无法正常运行）。",
+    "locations": [
+      "installed_files/release_history.txt:1290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Game crashed when loading a game while \"blessed\" or \"cursed\"",
+    "target": "- 在“祝福”或“诅咒”时加载游戏时游戏崩溃",
+    "locations": [
+      "installed_files/release_history.txt:1449"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Gargoyle - I'm happy with the behaviour of this one. It's much faster than you when moving, but when it swoops down to claw at you it must pause for a short while. The gargoyle can also fling bones.",
+    "target": "- 石像鬼 - 我对这个人的行为很满意。它移动时比你快得多，但当它俯冲下来抓你时，它必须暂停一小会儿。石像鬼还可以扔骨头。",
+    "locations": [
+      "installed_files/release_history.txt:1952"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Gas Mask and Asbestos Suit now protects against blindness from Ravens, Spitting Cobras, and Dust Vortexes",
+    "target": "- 防毒面具和石棉服现在可以防止乌鸦、眼镜蛇和尘旋风造成的失明。",
+    "locations": [
+      "installed_files/release_history.txt:919"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Gas masks now also protects against gas explosion traps",
+    "target": "- 防毒面具现在还可以防止气体爆炸陷阱",
+    "locations": [
+      "installed_files/release_history.txt:743"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- General messages for events outside of the player performing an action are drawn gray instead of white, and a newline is always forced after a player action",
+    "target": "- 玩家执行操作之外的事件的一般消息被绘制为灰色而不是白色，并且在玩家操作之后总是强制换行",
+    "locations": [
+      "installed_files/release_history.txt:482"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghost-type monsters and Polyps are invisible.",
+    "target": "- 幽灵型怪物和水螅体是隐形的。",
+    "locations": [
+      "installed_files/release_history.txt:953"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghosts can no longer use their touch attack while unaware of the player",
+    "target": "- 幽灵无法再在不知道玩家的情况下使用触摸攻击",
+    "locations": [
+      "installed_files/release_history.txt:1494"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul characters are no longer shocked by Ghoul statues",
+    "target": "- 食尸鬼角色不再被食尸鬼雕像震惊",
+    "locations": [
+      "installed_files/release_history.txt:882"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul characters can use their claws for destroying corpses (and cannot get sprains from this)",
+    "target": "- 食尸鬼角色可以用爪子摧毁尸体，而且不会因此扭伤。",
+    "locations": [
+      "installed_files/release_history.txt:649"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul characters have +10% speed and +1 natural Armor Point",
+    "target": "- 食尸鬼角色有 +10% 速度和 +1 自然护甲点",
+    "locations": [
+      "installed_files/release_history.txt:714"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul characters never gets sprains from breaking down doors, destroying corpses, etc",
+    "target": "- 食尸鬼角色永远不会因破门、毁坏尸体等而扭伤",
+    "locations": [
+      "installed_files/release_history.txt:653"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul characters start with +8 hit points, instead of +6",
+    "target": "- 食尸鬼角色的生命值开始时为 +8，而不是 +6",
+    "locations": [
+      "installed_files/release_history.txt:383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul monsters become allied to a player Ghoul when they see the player, instead of starting allied on the map (to avoid the player missing out on joining the Ghouls in combat and just finding the remains of a battle)",
+    "target": "- 食尸鬼怪物现在会在看见玩家后与玩家食尸鬼结盟；此前它们从出现在地图上起就已结盟（这样玩家就不会错过与食尸鬼并肩作战、只找到战斗遗迹的机会）。",
+    "locations": [
+      "installed_files/release_history.txt:400"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghoul player characters opening a cocoon can no longer receive the event \"there is a half-dissolved human body inside!\" (Ghouls are not afraid of such things).",
+    "target": "- 食尸鬼玩家角色打开茧时，不再触发“里面有一具半溶解的人体！”事件（食尸鬼并不害怕这类东西）。",
+    "locations": [
+      "installed_files/release_history.txt:347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Ghouls do not have access to any ranged weapon traits",
+    "target": "- 食尸鬼无法获得任何远程武器特性",
+    "locations": [
+      "installed_files/release_history.txt:651"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Good properties no longer interrupt player actions when they are applied (e.g. using medical equipment is not interrupted by regaining spell resistance)",
+    "target": "- 良性属性生效时，不再中断玩家行动（例如，恢复法术抗性时不会打断医疗用品的使用）。",
+    "locations": [
+      "installed_files/release_history.txt:754"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Graves are no longer placed in the forest intro level for winning characters",
+    "target": "- 获胜角色的坟墓不再放置在森林介绍关卡中",
+    "locations": [
+      "installed_files/release_history.txt:1060"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Greatly reduced duration of confusion caused by knockback",
+    "target": "- 大大减少了击退造成的混乱持续时间",
+    "locations": [
+      "installed_files/release_history.txt:1266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Greatly reduced duration of Disease when received from fountains, tombs, and spells (disease will only last a very long time when received from infections)",
+    "target": "- 大幅缩短了通过喷泉、坟墓和法术感染疾病后的持续时间（只有通过感染获得的疾病才会持续很久）。",
+    "locations": [
+      "installed_files/release_history.txt:1128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Greatly reduced duration of Weakening",
+    "target": "- 大大减少了弱化的持续时间",
+    "locations": [
+      "installed_files/release_history.txt:1127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Greatly reduced the ability penalties for wearing Iron Suit, and slightly reduced the penalties for the other armors",
+    "target": "- 大大减少了穿着钢铁套装的能力惩罚，并略微减少了其他盔甲的惩罚",
+    "locations": [
+      "installed_files/release_history.txt:733"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hallucinogenic Mold always start together with regular mold.",
+    "target": "- 致幻霉菌总是与普通霉菌一起开始。",
+    "locations": [
+      "installed_files/release_history.txt:50"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hardware acceleration is now used for rendering (if possible), also added an option to force software rendering.",
+    "target": "- 现在会尽可能使用硬件加速渲染；此外还新增了强制使用软件渲染的选项。",
+    "locations": [
+      "installed_files/release_history.txt:289"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hazy Mirrors are now also detected by the magic searching effect (the Clairvoyant ability).",
+    "target": "- 魔法搜索效果（“千里眼”能力）现在也能发现朦胧镜。",
+    "locations": [
+      "installed_files/release_history.txt:156"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hazy Mirrors are now colored gray on the minimap when they have been activated.",
+    "target": "- 雾镜现在在激活后在小地图上呈灰色。",
+    "locations": [
+      "installed_files/release_history.txt:155"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hazy Mirrors no longer recall forgotten spells, instead they identify all carried items. They are also much rarer than before.",
+    "target": "- 朦胧镜子不再回忆被遗忘的咒语，而是识别所有携带的物品。它们也比以前稀有得多。",
+    "locations": [
+      "installed_files/release_history.txt:9"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Heal now also cures poisoning when cast at expert level (previously only cured from master level).",
+    "target": "- “治愈”法术达到专家级时也会治愈中毒（此前只有大师级才能治愈中毒）。",
+    "locations": [
+      "installed_files/release_history.txt:354"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Healer is no longer a prerequisite for Survivalist.",
+    "target": "- 治疗师不再是生存主义者的先决条件。",
+    "locations": [
+      "installed_files/release_history.txt:147"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hearing sounds no longer aborts multi-turn actions (such as healing)",
+    "target": "- 听到声音不再会中断需要多个回合的动作（例如治疗）。",
+    "locations": [
+      "installed_files/release_history.txt:1141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hidden doors are always detected from adjacent positions (except if blind or confused)",
+    "target": "- 除非处于失明或困惑状态，否则总能从相邻位置发现隐藏门。",
+    "locations": [
+      "installed_files/release_history.txt:432"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- High Score",
+    "target": "- 高分",
+    "locations": [
+      "installed_files/release_history.txt:1755"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hit chance with ranged weapons is now affected by the size, speed and proximity of the target creature",
+    "target": "- 远程武器的命中率现在受到目标生物的大小、速度和距离的影响",
+    "locations": [
+      "installed_files/release_history.txt:1254"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hit points are restored only when climbing the stairs (except for rare methods such as scrolls and potions)",
+    "target": "- 生命值只会在爬楼梯时恢复（卷轴、药水等少数特殊方式除外）。",
+    "locations": [
+      "installed_files/release_history.txt:1839"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hit points now automatically regenerates over time, although you can receive wounds that need many turns of active healing (similar to how HP were healed in previous versions, but more elaborate - see below). Each wound reduces your fighting abilities (especially melee) and your HP regeneration rate. If you have more than four wounds, you die.",
+    "target": "- 生命值现在会随时间自动恢复，但你仍可能受伤，需要主动治疗多个回合（类似旧版本的生命值恢复方式，但机制更复杂，详见下文）。每处创伤都会削弱战斗能力（尤其是近战能力）并降低生命值恢复速度。创伤超过四处就会死亡。",
+    "locations": [
+      "installed_files/release_history.txt:1222"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hitting a monster with a medium or heavy melee weapon now makes noise (alerting other monsters)",
+    "target": "- 使用中型或重型近战武器击中怪物时现在会发出声音（会惊动其他怪物）。",
+    "locations": [
+      "installed_files/release_history.txt:1338"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Holding shift while moving markers (e.g. \"look\" or \"aim\") jumps five steps",
+    "target": "- 按住 Shift 移动标记（例如“查看”或“瞄准”）时，每次会跳过五格。",
+    "locations": [
+      "installed_files/release_history.txt:572"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hound bites cause physical damage instead of elemental",
+    "target": "- 猎犬咬伤会造成物理伤害而不是元素伤害",
+    "locations": [
+      "installed_files/release_history.txt:609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hounds can no longer bash doors",
+    "target": "- 猎犬不能再撞门",
+    "locations": [
+      "installed_files/release_history.txt:607"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- HP bonus per level is fixed instead of random",
+    "target": "- HP 每级奖励是固定的而不是随机的",
+    "locations": [
+      "installed_files/release_history.txt:1476"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- HP is raised more when gaining new levels, and starts a bit higher",
+    "target": "- HP在获得新级别时会提高更多，并且开始会更高一些",
+    "locations": [
+      "installed_files/release_history.txt:1634"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Hunting horrors (deepest monsters) are somewhat weaker",
+    "target": "- 猎狩恐怖（地牢最深处的怪物）现在稍弱一些。",
+    "locations": [
+      "installed_files/release_history.txt:1479"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Identical log messages show number of repeats, instead of repeating the message itself.",
+    "target": "- 相同的日志消息显示重复次数，而不是重复消息本身。",
+    "locations": [
+      "installed_files/release_history.txt:1905"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If becoming paralyzed while holding a lit Dynamite, Molotov cocktail or Flare, it will be dropped (if it's a Molotov, it will explode when it hits the ground)",
+    "target": "- 如果手持已点燃的炸药、燃烧瓶或信号棒时陷入麻痹，物品会掉落（若掉落的是燃烧瓶，则会在落地时爆炸）。",
+    "locations": [
+      "installed_files/release_history.txt:1336"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If healing is aborted, you are partially healed (if a minimum number of turns have passed)",
+    "target": "- 如果治疗至少持续了规定回合数后被中止，你仍会获得部分治疗效果。",
+    "locations": [
+      "installed_files/release_history.txt:1340"
+    ],
+    "kind": "ui"
+  }
+]

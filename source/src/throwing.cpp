@@ -56,9 +56,9 @@ static void print_creature_hit_msg(const actor::Actor& actor)
         const std::string name =
                 actor::can_player_see_actor(actor)
                 ? text_format::first_to_upper(actor::name_the(actor))
-                : "An unseen creature";
+                : "一只看不见的生物";
 
-        msg_log::add(name + " is hit.", colors::msg_good());
+        msg_log::add(name + " 被击中了。", colors::msg_good());
 }
 
 static void apply_potion_on_actor(item::Item& item, actor::Actor& actor)
@@ -237,7 +237,7 @@ void throw_item(
         if (actor::is_player(&actor_throwing)) {
                 msg_log::clear();
 
-                msg_log::add("I throw " + item_name_a + ".");
+                msg_log::add("我投掷 " + item_name_a + ".");
         }
         else {
                 // Monster throwing
@@ -249,7 +249,7 @@ void throw_item(
                                         actor::name_the(
                                                 actor_throwing));
 
-                        msg_log::add(name_the + " throws " + item_name_a + ".");
+                        msg_log::add(name_the + " 投掷了 " + item_name_a + ".");
                 }
         }
 
@@ -312,7 +312,7 @@ void throw_item(
                                 actor_here->make_player_aware_of_me();
 
                                 Snd snd(
-                                        "A creature is hit.",
+                                        "一个生物被击中。",
                                         audio::SfxId::hit_small,
                                         IgnoreMsgIfOriginSeen::yes,
                                         pos,

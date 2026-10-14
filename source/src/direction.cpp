@@ -49,9 +49,9 @@ const std::vector<P> g_dir_list_w_center {
         {1, 1}};
 
 static const std::string g_compass_dir_names[3][3] = {
-        {"NW", "N", "NE"},
-        {"W", "", "E"},
-        {"SW", "S", "SE"}};
+        {"西北", "北", "东北"},
+        {"西", "", "东"},
+        {"西南", "南", "东南"}};
 
 static const double s_pi_db = 3.14159265;
 static const double s_angle_45_db = 2 * s_pi_db / 8;
@@ -212,28 +212,28 @@ std::string compass_dir_name(const P& from_pos, const P& to_pos)
         const double angle_db = atan2(-offset.y, offset.x);
 
         if (angle_db < -edge[2] && angle_db > -edge[3]) {
-                name = "SW";
+                name = "西南";
         }
         else if (angle_db <= -edge[1] && angle_db >= -edge[2]) {
-                name = "S";
+                name = "南";
         }
         else if (angle_db < -edge[0] && angle_db > -edge[1]) {
-                name = "SE";
+                name = "东南";
         }
         else if (angle_db >= -edge[0] && angle_db <= edge[0]) {
-                name = "E";
+                name = "东";
         }
         else if (angle_db > edge[0] && angle_db < edge[1]) {
-                name = "NE";
+                name = "东北";
         }
         else if (angle_db >= edge[1] && angle_db <= edge[2]) {
-                name = "N";
+                name = "北";
         }
         else if (angle_db > edge[2] && angle_db < edge[3]) {
-                name = "NW";
+                name = "西北";
         }
         else {
-                name = "W";
+                name = "西";
         }
 
         return name;

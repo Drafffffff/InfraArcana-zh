@@ -127,9 +127,9 @@ static const std::unordered_map<SpellDomain, ShockSrc> s_spell_domain_to_shock_t
         // NOTE: Not all spells belong to a domain:
         {SpellDomain::END, ShockSrc::cast_intr_spell_general}};
 
-static const std::string s_spell_resist_msg = "The spell is resisted!";
+static const std::string s_spell_resist_msg = "咒语被抵抗了！";
 
-static const std::string s_spell_reflect_msg = "The spell is reflected!";
+static const std::string s_spell_reflect_msg = "咒语被反射了！";
 
 static DmgType s_bolt_dmg_type = DmgType::blunt;
 
@@ -148,7 +148,7 @@ struct Context
 
 static void print_side_effect_trigger_message()
 {
-        msg_log::add("An unexpected effect was induced by the spell.");
+        msg_log::add("这个咒语引发了意想不到的效果。");
 }
 
 static void side_effect_spawn_monsters(const Context& context)
@@ -400,7 +400,7 @@ static void side_effect_flay_human(const Context& context)
                         text_format::first_to_upper(
                                 actor::name_the(*target_actor));
 
-                msg_log::add(name + " is suddenly flayed alive!");
+                msg_log::add(name + " 突然被活活剥皮了！");
         }
 
         actor::kill(
@@ -646,8 +646,8 @@ static std::string get_noise_descr(const bool is_noisy)
 {
         std::string str =
                 is_noisy
-                ? "Casting this spell requires making sounds."
-                : "This spell can be cast silently.";
+                ? "施放此法术需要发出声音。"
+                : "这个咒语可以无声地施展。";
 
         return str;
 }
@@ -657,33 +657,33 @@ static std::string get_skill_descr(
         const SpellSrc source)
 {
         std::string str =
-                "The spell can be cast at " +
+                "该咒语可以施展于 " +
                 spells::skill_to_str(skill) +
-                " level";
+                " 等级";
 
         std::vector<std::string> bon_words;
 
         const prop::PropHandler& properties = map::g_player->m_properties;
 
         if (source == SpellSrc::manuscript) {
-                bon_words.emplace_back("manuscript");
+                bon_words.emplace_back("手稿");
         }
 
         if (player_spells::is_getting_altar_bonus()) {
-                bon_words.emplace_back("altar");
+                bon_words.emplace_back("坛");
         }
 
         if (properties.has(prop::Id::erudition)) {
-                bon_words.emplace_back("erudition");
+                bon_words.emplace_back("博学");
         }
 
         if (properties.has(prop::Id::meditative_focused) &&
             player_bon::has_trait(Trait::sage)) {
-                bon_words.emplace_back("focused");
+                bon_words.emplace_back("专注的");
         }
 
         if (map::g_player->m_inv.has_item_in_backpack(item::Id::necronomicon)) {
-                bon_words.emplace_back("necronomicon");
+                bon_words.emplace_back("死灵之书");
         }
 
         for (size_t i = 0; i < bon_words.size(); ++i) {
@@ -746,7 +746,7 @@ static std::string generate_mon_cast_msg(const actor::Actor& caster)
         const std::string mon_name =
                 is_mon_seen
                 ? text_format::first_to_upper(actor::name_the(caster))
-                : (caster.m_data->is_humanoid ? "Someone" : "Something");
+                : (caster.m_data->is_humanoid ? "有人" : "某物");
 
         spell_msg = mon_name + " " + spell_msg;
 
@@ -974,19 +974,19 @@ std::string spell_domain_title(const SpellDomain domain)
 {
         switch (domain) {
         case SpellDomain::clairvoyance:
-                return "Clairvoyance";
+                return "千里眼";
 
         case SpellDomain::enchantment:
-                return "Enchantment";
+                return "魅力";
 
         case SpellDomain::invocation:
-                return "Invocation";
+                return "祈求";
 
         case SpellDomain::transmutation:
-                return "Transmutation";
+                return "嬗变";
 
         case SpellDomain::blood:
-                return "Blood";
+                return "血";
 
         case SpellDomain::END:
                 break;
@@ -1001,16 +1001,16 @@ std::string skill_to_str(const SpellSkill skill)
 {
         switch (skill) {
         case SpellSkill::basic:
-                return "basic";
+                return "基本的";
 
         case SpellSkill::expert:
-                return "expert";
+                return "专家";
 
         case SpellSkill::master:
-                return "master";
+                return "掌握";
 
         case SpellSkill::transcendent:
-                return "transcendent";
+                return "超越的";
         }
 
         ASSERT(false);
@@ -1297,20 +1297,16 @@ std::vector<std::string> Spell::descr(
 
         if (spell_src == SpellSrc::learned) {
                 const std::string forgotten_hint_str =
-                        "A forgotten spell can be recalled again by "
-                        "gazing into a magic mirror, "
-                        "or by casting the spell from a manuscript.";
+                        "一个被遗忘的咒语可以通过凝视魔镜或从手稿中施展咒语来再次回忆起来。";
 
                 if (player_spells::is_spell_forgotten(id())) {
                         lines.emplace_back(
-                                "Forgotten - this spell can no longer be "
-                                "cast from memory. " +
+                                "遗忘 - 该法术无法再凭记忆施展。 " +
                                 forgotten_hint_str);
                 }
                 else if (is_tenebrous()) {
                         lines.emplace_back(
-                                "Tenebrous - this spell will be instantly "
-                                "forgotten if cast from memory. " +
+                                "昏暗 - 如果从记忆中施展该法术，该法术将立即被遗忘。 " +
                                 forgotten_hint_str);
                 }
         }
@@ -1344,7 +1340,7 @@ std::string Spell::domain_descr() const
                 text_format::first_to_upper(
                         spells::spell_domain_title(domain()));
 
-        return "It belongs to the \"" + domain_title + "\" domain.";
+        return "它属于“" + domain_title + "“ 领域。";
 }
 
 int Spell::shock_value() const
@@ -1446,24 +1442,22 @@ std::vector<std::string> SpellAuraOfDecay::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "The caster exudes death and decay. Creatures within a "
-                "distance of two moves take damage each standard turn.");
+                "施法者散发着死亡和腐烂的气息。两步距离内的生物每标准回合都会受到伤害。");
 
         descr.push_back(
-                "The spell does " +
+                "该咒语确实 " +
                 dmg_range(skill).str() +
-                " damage to each creature.");
+                " 对每个生物造成伤害。");
 
         if (skill == SpellSkill::transcendent) {
                 descr.emplace_back(
-                        "Any time a creature takes damage from the spell, "
-                        "they may be destroyed immediately (2% chance).");
+                        "该法术造成的每次伤害都有可能立即消灭目标（2% 几率）。");
         }
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -1541,32 +1535,26 @@ std::vector<std::string> Darkbolt::descr_specific(const SpellSkill skill) const
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "A bolt of siphoned energy is hurled towards a target "
-                "with great force. "
-                "The conjured bolt has some will on its own - "
-                "once released it launches itself towards any creature "
-                "sensed as a threat, "
-                "precise control is therefore not possible.");
+                "一束虹吸能量以巨大的力量投向目标。召唤出的闪电有自己的意志——一旦释放，它就会向任何被感知为威胁的生物发射，因此不可能进行精确控制。");
 
         const auto dmg_range = damage(skill, *map::g_player);
 
         std::string effect_str =
-                "The impact does " +
+                "影响确实 " +
                 dmg_range.str() +
-                " damage.";
+                " 损害。";
 
         if (skill >= SpellSkill::master) {
-                effect_str += " The target is paralyzed and set aflame.";
+                effect_str += " 目标陷入瘫痪并着火。";
 
                 if (skill == SpellSkill::transcendent) {
                         effect_str +=
-                                " If the target is sufficiently far away from "
-                                "the caster, the bolt explodes on impact.";
+                                " 如果目标距离施法者足够远，螺栓就会在撞击时爆炸。";
                 }
         }
         else {
                 // <= Expert
-                effect_str += " The target is paralyzed.";
+                effect_str += " 目标陷入瘫痪。";
         }
 
         descr.push_back(effect_str);
@@ -1616,8 +1604,7 @@ void SpellBolt::run_effect(
         if (seen_targets.empty()) {
                 if (actor::is_player(caster)) {
                         msg_log::add(
-                                "A dark sphere materializes, but quickly "
-                                "fizzles out.");
+                                "一个黑暗的球体出现，但很快就消失了。");
                 }
 
                 return;
@@ -1625,7 +1612,7 @@ void SpellBolt::run_effect(
 
         {
                 Snd snd(
-                        "I hear something rushing through the air.",
+                        "我听到有什么东西在空中呼啸而过。",
                         audio::SfxId::darkbolt_release,
                         IgnoreMsgIfOriginSeen::yes,
                         caster->m_pos,
@@ -1662,7 +1649,7 @@ void SpellBolt::run_effect(
 
         {
                 Snd snd(
-                        "I hear an impact.",
+                        "我听到了撞击声。",
                         audio::SfxId::darkbolt_impact,
                         IgnoreMsgIfOriginSeen::yes,
                         target->m_pos,
@@ -1682,7 +1669,7 @@ void SpellBolt::run_effect(
 
                 Color msg_clr = colors::msg_good();
 
-                std::string str_begin = "I am";
+                std::string str_begin = "我是";
 
                 if (actor::is_player(target)) {
                         msg_clr = colors::msg_bad();
@@ -1692,9 +1679,9 @@ void SpellBolt::run_effect(
                         const std::string name_the =
                                 player_see_tgt
                                 ? text_format::first_to_upper(actor::name_the(*target))
-                                : "It";
+                                : "它";
 
-                        str_begin = name_the + " is";
+                        str_begin = name_the + " 是";
 
                         if (map::g_player->is_leader_of(target)) {
                                 msg_clr = colors::white();
@@ -1920,7 +1907,7 @@ void SpellAzaGaze::run_effect(
         const std::vector<actor::Actor*>& seen_targets) const
 {
         Snd snd(
-                "An insane cacophony resounds through the air!",
+                "空气中响起了疯狂的刺耳声音！",
                 audio::SfxId::aza_gaze,
                 IgnoreMsgIfOriginSeen::no,
                 caster->m_pos,
@@ -1943,27 +1930,24 @@ std::vector<std::string> SpellAzaGaze::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Channels the chaos of Azathoth unto all visible enemies. "
-                "The channel can only be opened for a fraction of a second, "
-                "but even this is enough to cause great physical and mental "
-                "devastation.");
+                "将阿撒托斯的混乱引导至所有可见的敌人。通道开启的时间只有不到一秒，但即便如此，也足以造成巨大的身心摧残。");
 
         descr.push_back(
-                "The spell does " +
+                "该咒语确实 " +
                 dmg_range(skill).str() +
-                " damage to each creature.");
+                " 对每个生物造成伤害。");
 
         descr.push_back(
-                "Causes the victims to faint for " +
+                "导致受害人昏厥 " +
                 faint_duration_range(skill).str() +
-                " turns, if they are susceptible.");
+                " 轮流，如果他们易受影响的话。");
 
         if (skill == SpellSkill::transcendent) {
                 descr.push_back(
-                        "The victims become conflicted for " +
+                        "受害者陷入矛盾 " +
                         conflict_duration_range(skill).str() +
-                        " turns, causing them to view any creature as " +
-                        "their enemy.");
+                        " 回合，使它们将任何生物都视为 " +
+                        "他们的敌人。");
         }
 
         return descr;
@@ -2046,10 +2030,10 @@ void SpellCataclysm::run_effect(
         if (actor::can_player_see_actor(*caster)) {
                 std::string caster_name =
                         is_player
-                        ? "me"
+                        ? "我"
                         : actor::name_the(*caster);
 
-                msg_log::add("Destruction rages around " + caster_name + "!");
+                msg_log::add("破坏肆虐四方 " + caster_name + "!");
         }
 
         const auto& caster_pos = caster->m_pos;
@@ -2111,7 +2095,7 @@ void SpellCataclysm::run_effect(
 
                 if (terrain_id == terrain::Id::brazier) {
                         Snd snd(
-                                "I hear an explosion!",
+                                "我听到爆炸声！",
                                 audio::SfxId::explosion_molotov,
                                 IgnoreMsgIfOriginSeen::yes,
                                 p,
@@ -2197,11 +2181,10 @@ std::vector<std::string> SpellCataclysm::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Blasts the surrounding area with terrible force.");
+                "以可怕的力量冲击周围。");
 
         descr.emplace_back(
-                "Higher skill levels increases the magnitude of the "
-                "destruction.");
+                "更高的技能水平会增加破坏的程度。");
 
         return descr;
 }
@@ -2355,7 +2338,7 @@ void SpellPestilence::run_effect(
         }
 
         if (actor::is_player(caster) || is_any_seen_by_player) {
-                msg_log::add("Rats appear!");
+                msg_log::add("老鼠出现！");
         }
 }
 
@@ -2364,26 +2347,23 @@ std::vector<std::string> SpellPestilence::descr_specific(
 {
         std::vector<std::string> descr;
 
-        descr.emplace_back("A pack of rats appear around the caster.");
+        descr.emplace_back("一群老鼠出现在施法者周围。");
 
         const size_t nr_mon = nr_rats_summoned(skill);
 
         const std::string nr_and_duration_str =
-                "Summons " + std::to_string(nr_mon) + " rats. The rats exist for " +
+                "传票 " + std::to_string(nr_mon) + " 老鼠。老鼠的存在是为了 " +
                 duration_range(skill).str() +
-                " turns (their turns).";
+                " 轮流（他们的轮流）。";
 
         descr.push_back(nr_and_duration_str);
 
         if (skill == SpellSkill::master) {
-                descr.emplace_back("The rats are Hasted (moves faster).");
+                descr.emplace_back("老鼠是加速的（移动得更快）。");
         }
         else if (skill == SpellSkill::transcendent) {
                 descr.emplace_back(
-                        "The rats are ethereal (much harder to hit "
-                        "with attacks, can move through solid objects), "
-                        "are immune to magic, can cast spells, and have "
-                        "+4 hit points and +3 maximum damage.");
+                        "老鼠是空灵的（更难被攻击击中，可以穿过固体物体移动），对魔法免疫，可以施法，并且有+4生命值和+3最大伤害。");
         }
 
         return descr;
@@ -2498,7 +2478,7 @@ void SpellSpectralWeapons::on_mon_summoned(
         }
 
         if (actor::can_player_see_actor(*mon)) {
-                msg_log::add(actor::name_a(*mon) + " appears!");
+                msg_log::add(actor::name_a(*mon) + " 出现！");
         }
 }
 
@@ -2572,43 +2552,39 @@ std::vector<std::string> SpellSpectralWeapons::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Conjures ghostly copies of carried weapons, which will float "
-                "through the air and protect their master. It is only "
-                "possible to create copies of basic melee weapons - "
-                "\"modern\" mechanisms such as pistols or machine guns are "
-                "far too complex.");
+                "召唤出携带武器的幽灵复制品，它们会漂浮在空中并保护它们的主人。只能制造基本近战武器的副本 - “现代”机制（例如手枪或机枪）过于复杂。");
 
         const auto nr_max = (size_t)max_nr_weapons(skill);
 
         std::string nr_and_duration_str =
-                "A maximum of " +
+                "最多为 " +
                 std::to_string(nr_max) +
                 " ";
 
         if (nr_max == 1) {
-                nr_and_duration_str += "weapon";
+                nr_and_duration_str += "武器";
         }
         else {
-                nr_and_duration_str += "weapons";
+                nr_and_duration_str += "武器";
         }
 
-        nr_and_duration_str += " may be spawned on casting the spell.";
+        nr_and_duration_str += " 可能会在施放该法术时生成。";
 
         nr_and_duration_str +=
-                " The weapons exist for " +
+                " 这些武器的存在是为了 " +
                 duration_range(skill).str() +
-                " turns.";
+                " 轮流。";
 
         descr.push_back(nr_and_duration_str);
 
         if (skill >= SpellSkill::master) {
                 descr.emplace_back(
-                        "The weapons can see invisible creatures.");
+                        "这些武器可以看到隐形生物。");
         }
 
         if (skill == SpellSkill::transcendent) {
                 descr.emplace_back(
-                        "The weapons cannot be harmed by physical damage.");
+                        "这些武器不会受到物理伤害。");
         }
 
         return descr;
@@ -2662,25 +2638,22 @@ std::vector<std::string> SpellControlObject::descr_specific(
         std::vector<std::string> descr;
 
         std::string control_descr =
-                "Opens doors, chests, tombs, or cabinets. "
-                "Closes or jams doors. "
-                "Strikes doors, braziers, or statues.";
+                "打开门、箱子、坟墓或橱柜。关闭或堵塞门。撞击门、火盆或雕像。";
 
         if (skill == SpellSkill::transcendent) {
                 control_descr +=
-                        " Walls can be destroyed.";
+                        " 墙壁可以被摧毁。";
         }
 
         descr.emplace_back(control_descr);
 
         descr.emplace_back(
-                "Maximum control distance is " +
+                "最大控制距离为 " +
                 std::to_string(max_dist(skill)) +
                 ".");
 
         descr.emplace_back(
-                "When casting the spell, select a seen object to control "
-                "within the maximum distance.");
+                "施法时，选择一个可见的物体来控制在最大距离内。");
 
         return descr;
 }
@@ -2764,18 +2737,17 @@ std::vector<std::string> SpellCleansingFire::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Causes the spell's victims to burn for " +
+                "使该法术的受害者燃烧 " +
                 burn_duration_range().str() +
-                " turns, and scorches the ground around them with fire "
-                "(be careful with hitting adjacent creatures).");
+                " 回合，并用火焰灼烧它们周围的地面（小心别击中相邻生物）。");
 
         if (skill == SpellSkill::basic) {
                 descr.emplace_back(
-                        "Affects one random visible hostile creature.");
+                        "影响一名随机可见的敌对生物。");
         }
         else {
                 descr.emplace_back(
-                        "Affects all visible hostile creatures.");
+                        "影响所有可见的敌对生物。");
         }
 
         return descr;
@@ -2820,14 +2792,12 @@ std::vector<std::string> SpellSanctuary::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "The caster is ignored by all hostile creatures for the "
-                "duration of the spell. The effect is interrupted if the "
-                "caster moves or performs a melee or ranged attack.");
+                "在法术持续时间内，所有敌对生物都会无视施法者。如果施法者移动或进行近战或远程攻击，效果就会中断。");
 
         descr.emplace_back(
-                "The spell lasts for " +
+                "该咒语持续时间为 " +
                 duration(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -2892,7 +2862,7 @@ void SpellPurge::run_effect(
                 if (actor::can_player_see_actor(*actor)) {
                         const auto name = text_format::first_to_upper(actor::name_the(*actor));
 
-                        msg_log::add(name + " is struck.", colors::msg_good());
+                        msg_log::add(name + " 被击中。", colors::msg_good());
 
                         draw_blast_at_cells({actor->m_pos}, colors::light_white());
                 }
@@ -2921,15 +2891,14 @@ std::vector<std::string> SpellPurge::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Destroys any altars, monoliths, gongs, or mirrors adjacent to the caster.");
+                "摧毁施法者附近的任何祭坛、巨石、锣或镜子。");
 
         descr.emplace_back(
-                "All undead creatures adjacent to the caster (seen or not) are "
-                "struck with " +
+                "所有与施法者相邻的不死生物（无论是否可见）都会受到 " +
                 dmg_range().str() +
-                " damage, and become terrified for " +
+                " 损坏，并变得害怕 " +
                 fear_duration_range().str() +
-                " turns (unless they resist fear).");
+                " 回合（除非它们抵抗恐惧）。");
 
         return descr;
 }
@@ -2958,8 +2927,7 @@ std::vector<std::string> SpellFrenzy::descr_specific(
         (void)skill;
 
         return {
-                "Incites a great rage in the caster, who will charge their "
-                "enemies with a terrible, uncontrollable fury."};
+                "激起施法者的巨大愤怒，施法者将以可怕的、无法控制的愤怒冲向敌人。"};
 }
 
 // -----------------------------------------------------------------------------
@@ -3022,14 +2990,13 @@ std::vector<std::string> SpellBless::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "The caster becomes more lucky "
-                "(+10% to hit chance, evasion, stealth, and searching).");
+                "施法者变得更加幸运（命中率、闪避、潜行和搜索+10%）。");
 
         if (skill == SpellSkill::transcendent) {
-                descr.emplace_back("The spell lasts indefinitely.");
+                descr.emplace_back("该咒语无限期地持续。");
         }
         else {
-                descr.push_back("The spell lasts " + duration_range(skill).str() + " turns.");
+                descr.push_back("咒语持续 " + duration_range(skill).str() + " 轮流。");
         }
 
         return descr;
@@ -3130,28 +3097,25 @@ std::vector<std::string> SpellLight::descr_specific(
 {
         std::vector<std::string> descr;
 
-        descr.emplace_back("Illuminates the area around the caster.");
+        descr.emplace_back("照亮施法者周围的区域。");
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 light_duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         if (skill >= SpellSkill::master) {
                 descr.push_back(
-                        "On casting, causes a blinding flash centered on the "
-                        "caster (but not affecting the caster itself). "
-                        "The blinding effect lasts for " +
+                        "施法时，会产生以施法者为中心的眩目闪光（但不会影响施法者本身）。致盲效果持续 " +
                         blind_duration_range(skill).str() +
-                        " turns.");
+                        " 轮流。");
         }
 
         if (skill == SpellSkill::transcendent) {
                 descr.push_back(
-                        "The flash is so intense that any victim caught in it "
-                        "will also burn for " +
+                        "闪光非常强烈，任何陷入其中的受害者也会被烧伤 " +
                         burning_duration_range().str() +
-                        " turns.");
+                        " 轮流。");
         }
 
         return descr;
@@ -3223,24 +3187,21 @@ std::vector<std::string> SpellInvis::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Makes the caster invisible to normal vision for a "
-                "brief time.");
+                "使施法者在正常视力下短时间内隐形。");
 
         if (skill == SpellSkill::basic) {
                 descr.emplace_back(
-                        "Attacking or casting spells reveals the caster.");
+                        "攻击或施展法术会暴露施法者。");
         }
         else {
                 descr.emplace_back(
-                        "The caster is truly invisible for the duration of "
-                        "the the spell, and can freely attack or cast "
-                        "spells without breaking the invisibility.");
+                        "施法者在法术持续时间内真正隐形，并且可以自由攻击或施展法术而不打破隐形。");
         }
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -3304,13 +3265,13 @@ std::vector<std::string> SpellSeeInvis::descr_specific(
 {
         std::vector<std::string> descr;
 
-        descr.emplace_back("Grants the caster the ability to see the invisible.");
+        descr.emplace_back("赋予施法者看到无形之物的能力。");
 
         if (skill == SpellSkill::transcendent) {
-                descr.emplace_back("The spell lasts indefinitely.");
+                descr.emplace_back("该咒语无限期地持续。");
         }
         else {
-                descr.push_back("The spell lasts " + duration_range(skill).str() + " turns.");
+                descr.push_back("咒语持续 " + duration_range(skill).str() + " 轮流。");
         }
 
         return descr;
@@ -3363,8 +3324,7 @@ std::vector<std::string> SpellSpellShield::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Grants protection against harmful spells. The effect lasts "
-                "until a spell is blocked.");
+                "提供针对有害法术的保护。该效果会持续到法术被阻挡为止。");
 
         return descr;
 }
@@ -3432,12 +3392,12 @@ std::vector<std::string> SpellHaste::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "The caster moves faster relative to the world around them.");
+                "施法者相对于周围世界的移动速度更快。");
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -3510,14 +3470,12 @@ std::vector<std::string> SpellPremonition::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Grants foresight of attacks against the caster, "
-                "making it extremely difficult for assailants to achieve a "
-                "succesful hit.");
+                "赋予对施法者攻击的先见之明，使攻击者很难成功击中。");
 
         descr.emplace_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -3599,24 +3557,20 @@ std::vector<std::string> SpellErudition::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Temporarily bestows the caster with an expanded understanding "
-                "of the esoteric mechanisms behind magical practice. "
-                "The caster's skill is improved by one level for all spells.");
+                "暂时让施法者对魔法实践背后的深奥机制有更深入的了解。所有法术的施法者技能都会提高一级。");
 
         std::string duration_descr =
-                "The spell lasts " +
+                "咒语持续 " +
                 get_duration_range(skill).str() +
-                " turns";
+                " 轮流";
 
         if (skill == SpellSkill::transcendent) {
                 duration_descr +=
-                        ". The effect does not end when casting spells, "
-                        "only when the duration expires.";
+                        "。施法时效果不会结束，只有持续时间结束时才会结束。";
         }
         else {
                 duration_descr +=
-                        ", or until a spell is cast (either from a Manuscript "
-                        "or from memory).";
+                        "，或直到施展咒语（来自手稿或记忆）。";
         }
 
         descr.push_back(duration_descr);
@@ -3674,26 +3628,26 @@ std::vector<std::string> SpellIdentify::descr_specific(
         const SpellSkill skill) const
 {
         if (skill == SpellSkill::transcendent) {
-                return {"Immediately identifies all carried items."};
+                return {"立即识别所有携带的物品。"};
         }
 
         std::vector<std::string> descr;
 
-        descr.emplace_back("Identifies one carried item.");
+        descr.emplace_back("识别一件携带物品。");
 
-        std::string identifies_str = "The spell can identify ";
+        std::string identifies_str = "咒语可以识别 ";
 
         switch (skill) {
         case SpellSkill::basic:
-                identifies_str += "Manuscripts";
+                identifies_str += "手稿";
                 break;
 
         case SpellSkill::expert:
-                identifies_str += "Manuscripts and Potions";
+                identifies_str += "手稿和药剂";
                 break;
 
         case SpellSkill::master:
-                identifies_str += "all items";
+                identifies_str += "所有项目";
                 break;
 
         case SpellSkill::transcendent:
@@ -3772,18 +3726,18 @@ std::vector<std::string> SpellTeleport::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Instantly moves the caster to a different position.");
+                "立即将脚轮移动到不同的位置。");
 
         descr.emplace_back(
-                "Maximum teleport distance is " +
+                "最大传送距离为 " +
                 std::to_string(max_dist(skill)) +
                 ".");
 
         if (skill >= SpellSkill::master) {
                 descr.push_back(
-                        "On teleporting, the caster is invisible for " +
+                        "传送时，施法者是隐形的 " +
                         std::to_string(invis_duration(skill)) +
-                        " turns.");
+                        " 轮流。");
         }
 
         return descr;
@@ -3828,7 +3782,7 @@ void SpellKnockBack::run_effect(
         Color msg_clr;
 
         if (actor::is_player(target)) {
-                target_str = "me";
+                target_str = "我";
 
                 msg_clr = colors::msg_bad();
         }
@@ -3843,7 +3797,7 @@ void SpellKnockBack::run_effect(
         }
 
         if (actor::can_player_see_actor(*target)) {
-                msg_log::add("A force pushes " + target_str + "!", msg_clr);
+                msg_log::add("有一股力量在推动 " + target_str + "!", msg_clr);
         }
 
         knockback::run(
@@ -4101,7 +4055,7 @@ void SpellEnfeeble::run_effect(
         const int duration = duration_range(skill).roll();
 
         if (seen_targets.empty()) {
-                msg_log::add("The bugs on the ground suddenly move very feebly.");
+                msg_log::add("地面上的虫子突然动作非常无力。");
 
                 return;
         }
@@ -4158,22 +4112,21 @@ std::vector<std::string> SpellEnfeeble::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Physically enfeebles the spell's victims, causing them to "
-                "only do half damage in melee combat.");
+                "使该法术的受害者身体虚弱，使他们在近战中只能造成一半的伤害。");
 
         if (skill == SpellSkill::basic) {
                 descr.emplace_back(
-                        "Affects one random visible hostile creature.");
+                        "影响一名随机可见的敌对生物。");
         }
         else {
                 descr.emplace_back(
-                        "Affects all visible hostile creatures.");
+                        "影响所有可见的敌对生物。");
         }
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -4229,7 +4182,7 @@ void SpellSlow::run_effect(
         const int duration = duration_range(skill).roll();
 
         if (seen_targets.empty()) {
-                msg_log::add("The bugs on the ground suddenly move very slowly.");
+                msg_log::add("地面上的虫子突然移动得很慢。");
 
                 return;
         }
@@ -4287,21 +4240,21 @@ std::vector<std::string> SpellSlow::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Causes the spell's victims to move more slowly.");
+                "使该法术的受害者移动得更慢。");
 
         if (skill == SpellSkill::basic) {
                 descr.emplace_back(
-                        "Affects one random visible hostile creature.");
+                        "影响一名随机可见的敌对生物。");
         }
         else {
                 descr.emplace_back(
-                        "Affects all visible hostile creatures.");
+                        "影响所有可见的敌对生物。");
         }
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -4365,7 +4318,7 @@ void SpellTerrify::run_effect(
         const std::vector<actor::Actor*>& seen_targets) const
 {
         if (seen_targets.empty()) {
-                msg_log::add("The bugs on the ground suddenly scatter away.");
+                msg_log::add("地上的虫子顿时四散开来。");
 
                 return;
         }
@@ -4423,22 +4376,21 @@ std::vector<std::string> SpellTerrify::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Manifests an overpowering feeling of dread in the spell's "
-                "victims.");
+                "使该法术的受害者表现出一种压倒性的恐惧感。");
 
         if (skill == SpellSkill::basic) {
                 descr.emplace_back(
-                        "Affects one random visible hostile creature.");
+                        "影响一名随机可见的敌对生物。");
         }
         else {
                 descr.emplace_back(
-                        "Affects all visible hostile creatures.");
+                        "影响所有可见的敌对生物。");
         }
 
         descr.push_back(
-                "The spell lasts " +
+                "咒语持续 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -4488,11 +4440,11 @@ void SpellDisease::run_effect(
         if (actor::can_player_see_actor(*target)) {
                 const std::string actor_name =
                         actor::is_player(target)
-                        ? "me"
+                        ? "我"
                         : actor::name_the(*target);
 
                 msg_log::add(
-                        "A horrible disease is starting to afflict " +
+                        "一种可怕的疾病开始侵袭 " +
                         actor_name +
                         "!");
         }
@@ -4561,12 +4513,12 @@ void SpellBlind::run_effect(
         }
 
         if (actor::is_player(target)) {
-                msg_log::add("Scales grow over my eyes!");
+                msg_log::add("我的眼睛上长出了鳞片！");
         }
         else if (actor::can_player_see_actor(*target)) {
                 const std::string actor_name = actor::name_the(*target);
 
-                msg_log::add("Scales grow over the eyes of " + actor_name + ".");
+                msg_log::add("眼睛上方长出鳞片 " + actor_name + ".");
         }
 
         prop::Prop* prop = prop::make(prop::Id::blind);
@@ -4639,7 +4591,7 @@ std::vector<std::string> SummonTentacles::filter_allowed_ids(
 
 std::string SummonTentacles::appear_msg_override() const
 {
-        return "Monstrous tentacles rise up from the ground!";
+        return "巨大的触手从地面升起！";
 }
 
 void SpellSummon::run_effect(
@@ -4795,7 +4747,7 @@ void SpellSummon::summon(const std::string& id, actor::Actor* caster) const
                                 text_format::first_to_upper(
                                         actor::name_a(*mon));
 
-                        appear_msg = mon_name_a + " appears!";
+                        appear_msg = mon_name_a + " 出现！";
                 }
 
                 msg_log::add(appear_msg);
@@ -4899,27 +4851,26 @@ std::vector<std::string> SpellHeal::descr_specific(
         std::vector<std::string> descr;
 
         descr.push_back(
-                "Restores " +
+                "恢复 " +
                 std::to_string(nr_hp_restored(skill)) +
-                " hit points.");
+                " 生命值。");
 
         if (skill == SpellSkill::expert) {
                 descr.emplace_back(
-                        "Cures weakening, life sapping, and poisoning.");
+                        "治疗虚弱、生命消耗和中毒。");
         }
         else if (skill >= SpellSkill::master) {
                 descr.emplace_back(
-                        "Cures weakening, life sapping, poisoning, "
-                        "infections, disease, blindness, and deafness.");
+                        "治愈虚弱、生命垂危、中毒、感染、疾病、失明和耳聋。");
         }
 
         if (skill == SpellSkill::transcendent) {
-                descr.emplace_back("Heals one wound.");
+                descr.emplace_back("治愈一处创伤。");
 
                 descr.emplace_back(
-                        "+1 hit point regenerated per turn, for " +
+                        "每回合恢复 +1 点生命值，持续 " +
                         regen_duration().str() +
-                        " turns.");
+                        " 轮流。");
         }
 
         return descr;
@@ -4961,7 +4912,7 @@ void SpellMiGoHypno::run_effect(
         }
 
         if (actor::is_player(target)) {
-                msg_log::add("There is a sharp droning in my head!");
+                msg_log::add("我的脑袋里传来尖锐的嗡嗡声！");
         }
 
         if (rnd::coin_toss()) {
@@ -4969,7 +4920,7 @@ void SpellMiGoHypno::run_effect(
         }
         else {
                 if (actor::is_player(target)) {
-                        msg_log::add("I feel dizzy.");
+                        msg_log::add("我感觉头昏眼花。");
                 }
         }
 
@@ -5023,10 +4974,10 @@ void SpellBurn::run_effect(
         if (actor::can_player_see_actor(*target)) {
                 const std::string actor_name =
                         actor::is_player(target)
-                        ? "me"
+                        ? "我"
                         : actor::name_the(*target);
 
-                msg_log::add("Flames are rising around " + actor_name + "!");
+                msg_log::add("周围火焰升腾 " + actor_name + "!");
         }
 
         prop::Prop* prop = prop::make(prop::Id::burning);
@@ -5142,7 +5093,7 @@ void SpellTransmut::run_effect(
         auto* item_before = map::g_items.at(p);
 
         if (!item_before) {
-                msg_log::add("There is a vague change in the air.");
+                msg_log::add("空气中出现了隐约的变化。");
 
                 return;
         }
@@ -5163,7 +5114,7 @@ void SpellTransmut::run_effect(
 
         const auto id_before = item_before->id();
 
-        std::string item_name_before = "The ";
+        std::string item_name_before = "这 ";
 
         if (nr_items_before > 1) {
                 item_name_before += item_before->name(ItemNameType::plural);
@@ -5180,8 +5131,8 @@ void SpellTransmut::run_effect(
         if (map::g_seen.at(p)) {
                 std::string disappear_str =
                         (nr_items_before == 1)
-                        ? "disappears"
-                        : "disappear";
+                        ? "消失"
+                        : "消失";
 
                 msg_log::add(
                         item_name_before + " " + disappear_str + ".",
@@ -5275,7 +5226,7 @@ void SpellTransmut::run_effect(
         }
 
         if ((id_new == item::Id::END) || (nr_items_new < 1)) {
-                msg_log::add("Nothing appears.");
+                msg_log::add("什么也没有出现。");
 
                 return;
         }
@@ -5297,8 +5248,8 @@ void SpellTransmut::run_effect(
         if (map::g_seen.at(p)) {
                 std::string appear_str =
                         (nr_items_new == 1)
-                        ? "appears"
-                        : "appear";
+                        ? "出现"
+                        : "出现";
 
                 msg_log::add(item_name_new + " " + appear_str + ".");
         }
@@ -5314,29 +5265,26 @@ std::vector<std::string> SpellTransmut::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Attempts to convert items (stand over an item when casting). "
-                "On failure, the item is destroyed.");
+                "尝试转换物品（施放时站在物品上方）。失败时，该物品将被销毁。");
 
         descr.push_back(
-                "Converts Potions with " +
+                "将药水转换为 " +
                 std::to_string(chance_potion(skill)) +
-                "% chance.");
+                "% c机会。");
 
         descr.push_back(
-                "Converts Manuscripts with " +
+                "将手稿转换为 " +
                 std::to_string(chance_scroll(skill)) +
-                "% chance.");
+                "% c机会。");
 
         descr.push_back(
-                "Melee weapons with at least +1 damage (not counting any "
-                "damage bonus from skills) are converted to a Potion or "
-                "Manuscript, with " +
+                "至少具有 +1 伤害的近战武器（不计算技能造成的任何伤害加成）将转换为药水或手稿，其中 " +
                 std::to_string(chance_weapon(skill, 1)) +
-                "% chance for a +1 weapon, " +
+                "% 几率获得 +1 武器， " +
                 std::to_string(chance_weapon(skill, 2)) +
-                "% chance for a +2 weapon, " +
+                "% 几率获得 +2 武器， " +
                 std::to_string(chance_weapon(skill, 3)) +
-                "% chance for a +3 weapon, etc.");
+                "% 几率获得 +3 武器，等等。");
 
         return descr;
 }
@@ -5386,15 +5334,12 @@ std::vector<std::string> SpellBloodTempering::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Through ardous suffering, the caster tempers their body to "
-                "resist physical force (cannot be harmed by normal attacks, "
-                "however other forms of damage such as fire is still "
-                "harmful).");
+                "施法者通过艰苦的痛苦磨练自己的身体以抵抗物理力量（普通攻击不会受到伤害，但其他形式的伤害（例如火焰）仍然会造成伤害）。");
 
         descr.emplace_back(
-                "The spell lasts for " +
+                "该咒语持续时间为 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -5458,14 +5403,14 @@ std::vector<std::string> SpellThorns::descr_specific(
         descr.push_back(prop::g_data[(size_t)prop::Id::thorns].descr);
 
         descr.push_back(
-                "The spell returns " +
+                "咒语回归 " +
                 dmg_range(skill).str() +
-                " damage to the attacker.");
+                " 对攻击者造成伤害。");
 
         descr.emplace_back(
-                "The spell lasts for " +
+                "该咒语持续时间为 " +
                 duration_range(skill).str() +
-                " turns.");
+                " 轮流。");
 
         return descr;
 }
@@ -5549,18 +5494,16 @@ std::vector<std::string> SpellCrimsonPassage::descr_specific(
 
         if (nr_steps == -1) {
                 descr.emplace_back(
-                        "An infinite number of steps may be taken, the spell "
-                        "is only limited by the number of hit points.");
+                        "可以采取无限数量的步骤，该法术仅受生命值的限制。");
         }
         else {
                 descr.emplace_back(
                         std::to_string(nr_steps_allowed(skill)) +
-                        " steps may be taken before the effect ends.");
+                        " 在效果结束之前可以采取一些步骤。");
         }
 
         descr.emplace_back(
-                "Casting the spell again while it is already active cancels "
-                "the effect (this does not drain hit points or cause shock).");
+                "在法术已生效时再次施放会取消效果（不会消耗生命值，也不会造成震慑）。");
 
         return descr;
 }
@@ -5584,7 +5527,7 @@ void SpellSacrificeLife::run_effect(
 
         if (hp <= 2) {
                 // Not enough HP.
-                msg_log::add("I feel like I have very little to offer.");
+                msg_log::add("我觉得我能提供的东西很少。");
 
                 return;
         }
@@ -5606,23 +5549,21 @@ std::vector<std::string> SpellSacrificeLife::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Sacrifices the life force of the caster in order to restore "
-                "the spirit. The amount restored is proportional to the life "
-                "lost. A maximum of 8 hit points may be sacrificed.");
+                "牺牲施法者的生命力来恢复精神。恢复的数量与损失的生命成正比。最多可以牺牲 8 点生命值。");
 
         const int k = nr_sp_per_hp(skill);
 
         if (k == 1) {
                 descr.emplace_back(
-                        "For each hit point sacrificed, " +
+                        "对于每牺牲一个生命值， " +
                         std::to_string(k) +
-                        " spirit point is gained.");
+                        " 获得精神值。");
         }
         else {
                 descr.emplace_back(
-                        "For each hit point sacrificed, " +
+                        "对于每牺牲一个生命值， " +
                         std::to_string(k) +
-                        " spirit points are gained.");
+                        " 获得精神值。");
         }
 
         return descr;
@@ -5657,7 +5598,7 @@ void SpellShedImpurity::run_effect(
 
         if (hp_removed <= 0) {
                 // Not enough HP.
-                msg_log::add("There is nothing more to shed.");
+                msg_log::add("没有什么可以流掉的了。");
 
                 return;
         }
@@ -5691,35 +5632,32 @@ std::vector<std::string> SpellShedImpurity::descr_specific(
         std::vector<std::string> descr;
 
         descr.emplace_back(
-                "Purifies the caster by carving away all that is extraneous, "
-                "revealing the essential core of their being.");
+                "通过去除所有无关的东西来净化施法者，揭示他们存在的本质核心。");
 
         descr.emplace_back(
-                "Hit points are lowered to the limit where the Moribund effect is activated "
-                "(bonuses for having low hit points). "
-                "This limit is at " +
+                "生命值降低到激活垂死效果的极限（生命值低的奖励）。这个限制是在 " +
                 std::to_string(get_moribund_hp_limit()) +
-                " hit points.");
+                " 生命值。");
 
         std::string bonus_effect_descr =
-                "If at least " +
+                "如果至少 " +
                 std::to_string(get_min_hp_removed_for_bonus_effects()) +
-                " hit points are lost, then ";
+                " 生命值会丢失，然后 ";
 
         switch (skill) {
         case SpellSkill::basic: {
                 bonus_effect_descr +=
-                        "weakening and poisoning are cured.";
+                        "虚弱和中毒被治愈。";
         } break;
 
         case SpellSkill::expert: {
                 bonus_effect_descr +=
-                        "weakening, poisoning, infection and disease are cured.";
+                        "虚弱、中毒、感染和疾病得到治愈。";
         } break;
 
         case SpellSkill::master: {
                 bonus_effect_descr +=
-                        "weakening, poisoning, infection, disease and slowing are cured.";
+                        "虚弱、中毒、感染、疾病和减速被治愈。";
         } break;
 
         case SpellSkill::transcendent: {
@@ -5727,17 +5665,16 @@ std::vector<std::string> SpellShedImpurity::descr_specific(
                         static_cast<SpellBless*>(spells::make(SpellId::bless)));
 
                 bonus_effect_descr +=
-                        "weakening, poisoning, infection, disease and slowing are cured. "
-                        "The caster is also blessed for " +
+                        "虚弱、中毒、感染、疾病和减速被治愈。施法者也受到祝福 " +
                         bless_spell->duration_range(SpellSkill::basic).str() +
-                        " turns.";
+                        " 轮流。";
         } break;
         }
 
         bonus_effect_descr +=
-                " Currently " +
+                " 现在 " +
                 std::to_string(calc_nr_hp_removed(map::g_player)) +
-                " hit points would be removed.";
+                " 生命值将被删除。";
 
         descr.push_back(bonus_effect_descr);
 

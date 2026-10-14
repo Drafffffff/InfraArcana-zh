@@ -1,0 +1,1062 @@
+[
+  {
+    "source": "under",
+    "target": "下方",
+    "locations": [
+      "src/actor_move.cpp:189"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "unique",
+    "target": "unique",
+    "locations": [
+      "src/actor_data.cpp:582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unique monsters killed",
+    "target": "击杀的独特怪物数",
+    "locations": [
+      "src/game_over_summary.cpp:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unload? [u]",
+    "target": "卸下？[u]",
+    "locations": [
+      "src/terrain.cpp:3196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unloading weapons",
+    "target": "卸载武器",
+    "locations": [
+      "src/hints.cpp:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "unsettling",
+    "target": "令人不安的",
+    "locations": [
+      "src/view_actor_descr.cpp:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "unwarded door",
+    "target": "未设结界的门",
+    "locations": [
+      "src/terrain_door.cpp:1064"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Uraga",
+    "target": "乌拉加",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Uraga is an undead master of deception and assassination, bound to guard the High Priest for all eternity.",
+    "target": "乌拉加是不死的欺诈与刺杀大师，受命永恒守卫大祭司。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "URN",
+    "target": "骨灰瓮",
+    "locations": [
+      "src/gfx.cpp:265"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "urn",
+    "target": "骨灰瓮",
+    "locations": [
+      "src/terrain.cpp:1539",
+      "src/terrain.cpp:1618"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "use_cultist_messages",
+    "target": "use_cultist_messages",
+    "locations": [
+      "src/actor_data.cpp:148",
+      "src/actor_data.cpp:160"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "user_data=",
+    "target": "user_data=",
+    "locations": [
+      "installed_files/user_data.ini:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Using medical equipment requires only half the normal time and resources",
+    "target": "使用医疗器材只需一半时间与补给",
+    "locations": [
+      "src/player_bon.cpp:337"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "v         LOOK, VIEW descriptions of things on the map",
+    "target": "v         查看地图上物体的描述",
+    "locations": [
+      "installed_files/manual.txt:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "vanishes...",
+    "target": "消失了……",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/death_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "very light",
+    "target": "极轻",
+    "locations": [
+      "src/item.cpp:351"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "very swiftly",
+    "target": "飞快地",
+    "locations": [
+      "src/view_actor_descr.cpp:155"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vibur",
+    "target": "维布尔",
+    "locations": [
+      "src/gods.cpp:92"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vicious",
+    "target": "凶狠的",
+    "locations": [
+      "src/player_bon.cpp:827"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vigilant",
+    "target": "警觉的",
+    "locations": [
+      "src/player_bon.cpp:290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vilomaxus!",
+    "target": "维洛马克苏！",
+    "locations": [
+      "src/actor_mon.cpp:198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Visions of alchemical symbols glowing with the promise of arcane revelations.",
+    "target": "炼金符号闪烁，许诺揭示奥术奥秘的幻象。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:3"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Voice: ",
+    "target": "声音： ",
+    "locations": [
+      "src/actor_mon.cpp:239"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Volgna-Gath",
+    "target": "沃尔格纳-加斯",
+    "locations": [
+      "src/gods.cpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vorox esco marana!",
+    "target": "沃罗克·埃斯科·马拉纳！",
+    "locations": [
+      "src/actor_mon.cpp:197"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vrka",
+    "target": "沃卡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vrka is a monstrous wolf-like creature dwelling in the High Priest's chambers, serving as a guardian.",
+    "target": "弗尔卡是栖居于大祭司房间中的巨狼般怪物，担任守卫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vthyarilops",
+    "target": "维萨里洛普斯",
+    "locations": [
+      "src/gods.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "wade",
+    "target": "涉水",
+    "locations": [
+      "src/terrain.cpp:1931"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "wakes up.",
+    "target": "醒了。",
+    "locations": [
+      "src/property_data.cpp:384"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Walking does not spend any time, but every step taken drains 2 hit points (waiting in place can still be done as normal). The effect ends after a certain number of steps have been taken, or if there is not enough hit points to drain.",
+    "target": "行走不会消耗时间，但每走一步都会损失2点生命值（原地等待仍照常进行）。走过一定步数后，或生命值不足以继续扣除时，效果结束。",
+    "locations": [
+      "src/property_data.cpp:562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "War Veteran",
+    "target": "老兵",
+    "locations": [
+      "src/player_bon.cpp:1005"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "warded door",
+    "target": "结界门",
+    "locations": [
+      "src/terrain_door.cpp:1060"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warning",
+    "target": "警告",
+    "locations": [
+      "src/init.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "wary_message",
+    "target": "wary_message",
+    "locations": [
+      "src/actor_data.cpp:136"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Was ",
+    "target": "曾经是 ",
+    "locations": [
+      "src/game_over_summary.cpp:60"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Was brought back from the dead",
+    "target": "死而复生",
+    "locations": [
+      "src/actor_death.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Was cured from a horrible disease",
+    "target": "从可怕的疾病中痊愈",
+    "locations": [
+      "src/property_data.cpp:739"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Was haunted by shadows",
+    "target": "被阴影纠缠",
+    "locations": [
+      "include/insanity.hpp:875"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Was magically summoned here.",
+    "target": "被魔法召唤至此。",
+    "locations": [
+      "src/property_data.cpp:639"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "water",
+    "target": "水",
+    "locations": [
+      "src/terrain.cpp:1930",
+      "src/terrain.cpp:2034"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.",
+    "target": "我们生活在一座宁静的无知小岛上，四周是无边黑暗的海洋；我们本不该远航。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:45"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Weakened",
+    "target": "虚弱",
+    "locations": [
+      "src/property_data.cpp:758",
+      "src/property_data.cpp:759"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weapon's loaded and maximum ammunition",
+    "target": "武器已装填弹药数及最大弹药量",
+    "locations": [
+      "installed_files/manual.txt:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wears a torture collar which cannot be taken off; walking requires extra turns, and stealth and evasion are reduced by 20%. However, wearing the collar hardens the Flagellant against physical suffering, armor is increased by 3 points.",
+    "target": "戴着无法取下的刑具项圈；行走需要额外回合，潜行与闪避降低20%。然而，项圈令苦修者更能忍受肉体痛苦，护甲提高3点。",
+    "locations": [
+      "src/player_bon.cpp:1122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Weight",
+    "target": "重量",
+    "locations": [
+      "src/map_mode_gui.cpp:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weight",
+    "target": "重量",
+    "locations": [
+      "src/actor_data.cpp:507"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Weight          40% : Encumbrance from carrying items",
+    "target": "重量          40%：携带物品造成的负重",
+    "locations": [
+      "installed_files/manual.txt:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Welcome to level ",
+    "target": "欢迎来到第 ",
+    "locations": [
+      "src/game.cpp:245"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "What I learned and saw in those hours of impious exploration can never be told, for want of symbols or suggestions in any language.",
+    "target": "那些亵渎探索时光中我学到和见到的一切，永远无法用任何语言中的符号或暗示讲述出来。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device will \"come alive\" and guard the user.",
+    "target": "启动后，这件装置会“活过来”，保护使用者。",
+    "locations": [
+      "include/item_device.hpp:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When focused, spells are also cast at a higher skill level, and the duration to regain the focused state is reduced to 75-100 turns.",
+    "target": "专注时，法术也会以更高技能等级施放；恢复专注状态所需时间缩短至75至100回合。",
+    "locations": [
+      "src/player_bon.cpp:463"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When it goes ethereal you can't attack it, and vice versa. It can slice you with its sickle. It can also use the sickle to project evil spirits at you, though it prefers melee.",
+    "target": "它化为以太形态时你无法攻击它，反之亦然。它能用镰刀砍你，也会挥动镰刀将恶灵投向你，但更偏好近战。",
+    "locations": [
+      "installed_files/release_history.txt:1966"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When various disturbing events occur, the shock value rises. When shock hits 100%, the following happens:",
+    "target": "发生各种令人不安的事件时，震慑值会升高。当震慑达到100%时，会发生以下情况：",
+    "locations": [
+      "installed_files/manual.txt:214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When you stay out of an aware monster's vision for a certain number of turns (and nothing else alerts it), it will \"forget\" about you. The number of turns this takes depends on the monster; A simple animal may only care for a couple of turns after it loses sight, while a human will remain aware longer.",
+    "target": "当你连续若干回合不在已警觉怪物的视野中（且没有其他事情引起它注意），它就会“忘记”你。所需回合数取决于怪物；普通动物失去视野后可能只在意几回合，人类则会记得更久。",
+    "locations": [
+      "installed_files/manual.txt:238"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "While frenzied, you are immune to wounds, and your claw attacks cause fear",
+    "target": "狂乱期间，你免疫创伤，爪击还会造成恐惧",
+    "locations": [
+      "src/player_bon.cpp:810"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Whispers of a lost civilization.",
+    "target": "失落文明的低语。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Whispers of an ancient curse.",
+    "target": "古老诅咒的低语。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Whispers of arcane incantations revealing hidden lore.",
+    "target": "揭示隐秘传说的奥术咒语低语。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Whispers of unearthly technologies hidden beneath the Earth's surface.",
+    "target": "地表之下藏着非人科技的低语。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:55"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "wield ",
+    "target": "持握 ",
+    "locations": [
+      "src/game_commands.cpp:332"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Win",
+    "target": "胜利",
+    "locations": [
+      "src/highscore.cpp:328"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Winning is not necessarily the sole purpose of Infra Arcana - there is also challenge to be found in exploring further, gaining more abilities, discovering more items, or encountering stranger and more powerful monsters than in previous attempts.",
+    "target": "《Infra Arcana》的目的不一定只有获胜——继续探索、获得更多能力、发现更多物品，或遇见比以往尝试中更奇异、更强大的怪物，也同样充满挑战。",
+    "locations": [
+      "installed_files/manual.txt:245"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "With five feeble senses we pretend to comprehend the boundlessly complex cosmos, yet other beings might not only see very differently, but might see and study whole worlds of matter, energy, and life which lie close at hand yet can never be detected with the senses we have.",
+    "target": "我们凭借五种孱弱的感官，妄图理解无边无际而复杂至极的宇宙；然而其他存在或许不仅拥有截然不同的视觉，还能看见并研究近在咫尺的整个物质、能量与生命世界，而这些都超出了我们感官所能探测的范围。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:51"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "with name '",
+    "target": "名称为“",
+    "locations": [
+      "src/actor_act.cpp:350"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "with trap implementation id ",
+    "target": "陷阱实现 id 为 ",
+    "locations": [
+      "src/terrain_trap.cpp:424"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "with vision in position",
+    "target": "位置有视野",
+    "locations": [
+      "src/terrain_door.cpp:1325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "withered grass",
+    "target": "枯草",
+    "locations": [
+      "src/terrain.cpp:2456"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "withered shrub",
+    "target": "枯灌木",
+    "locations": [
+      "src/terrain.cpp:2542"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Withering surrounds me.",
+    "target": "枯萎笼罩着我。",
+    "locations": [
+      "src/property_data.cpp:1069"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "without vision in position",
+    "target": "位置无视野",
+    "locations": [
+      "src/terrain_door.cpp:1336"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "wooden ",
+    "target": "木制的 ",
+    "locations": [
+      "src/terrain.cpp:4140"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "wooden door",
+    "target": "木门",
+    "locations": [
+      "src/terrain_door.cpp:1056"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wounded",
+    "target": "受伤",
+    "locations": [
+      "src/property_data.cpp:656"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wpn",
+    "target": "武器",
+    "locations": [
+      "src/map_mode_gui.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wpn    (+1) 8.0 +0% : Your currently wielded weapon",
+    "target": "武器    (+1) 8.0 +0%：当前持握的武器",
+    "locations": [
+      "installed_files/manual.txt:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "x         CAST spell",
+    "target": "x         施放法术",
+    "locations": [
+      "installed_files/manual.txt:26"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Xalafu",
+    "target": "夏拉夫",
+    "locations": [
+      "src/gods.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Xcthol",
+    "target": "克斯托尔",
+    "locations": [
+      "src/gods.cpp:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Xinlurgash",
+    "target": "辛卢尔加什",
+    "locations": [
+      "src/gods.cpp:97"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Xirdneth",
+    "target": "希尔德涅斯",
+    "locations": [
+      "src/gods.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "xml element \"",
+    "target": "xml element \"",
+    "locations": [
+      "src/xml.cpp:111",
+      "src/xml.cpp:136",
+      "src/xml.cpp:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Xotli",
+    "target": "索特利",
+    "locations": [
+      "src/gods.cpp:99"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "y k u",
+    "target": "y k u",
+    "locations": [
+      "installed_files/manual.txt:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yegg-Ha",
+    "target": "耶格-哈",
+    "locations": [
+      "src/gods.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ygolonac",
+    "target": "伊戈罗纳克",
+    "locations": [
+      "src/gods.cpp:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yig",
+    "target": "伊格",
+    "locations": [
+      "src/gods.cpp:102"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ymnar",
+    "target": "伊姆纳尔",
+    "locations": [
+      "src/gods.cpp:103"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yog-Sapha",
+    "target": "约格-萨法",
+    "locations": [
+      "src/gods.cpp:104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yog-Sothoth knows the gate. Yog-Sothoth is the gate. Yog-Sothoth is the key and guardian of the gate. Past, present, future, all are one in Yog-Sothoth. He knows where the Old Ones broke through of old, and where They shall break through again.",
+    "target": "犹格·索托斯知晓门。犹格·索托斯即是门。犹格·索托斯是门的钥匙与守护者。过去、现在与未来，在犹格·索托斯身上合而为一。祂知道古神昔日从何处破界而出，也知道祂们将再次从何处降临。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yorith",
+    "target": "约里斯",
+    "locations": [
+      "src/gods.cpp:105"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You are always aware of nearby creatures",
+    "target": "你总能察觉附近的生物",
+    "locations": [
+      "src/player_bon.cpp:291"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You can learn spells by casting them from manuscripts. Casting spells \"naturally\" (without manuscripts) will drain some of your spirit.",
+    "target": "你可以通过施放手稿中的法术来学习法术。无需手稿而“自然”施法会消耗一些精神值。",
+    "locations": [
+      "installed_files/manual.txt:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You can light the fuse, and you can wait with the lit dynamite in hands if you want. When you throw it, it can bounce off walls. When the fuse runs out the dynamite explodes for massive area damage.",
+    "target": "你可以点燃引线，也可以手持点燃的炸药等待。投出后，炸药可能会从墙上弹开。引线燃尽时，炸药会爆炸并造成大范围高额伤害。",
+    "locations": [
+      "installed_files/release_history.txt:1962"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You cannot become confused, the number of remaining turns for status effects are displayed",
+    "target": "你不会陷入困惑；状态效果剩余回合数会显示出来",
+    "locations": [
+      "src/player_bon.cpp:314"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You cannot become diseased, only half your wounds count, rounded down (i.e. number of wounds are halved when calculating combat, hit point and regeneration penalties, slower walking speed happens at 6 wounds instead of 3, and you die from 10 wounds instead of 5)",
+    "target": "你不会患病，创伤计数减半并向下取整（也就是说，计算战斗、生命值和恢复惩罚时创伤数量减半；达到6处创伤而非3处时行走速度才会变慢；受到10处而非5处创伤才会死亡）",
+    "locations": [
+      "src/player_bon.cpp:354"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You cannot become terrified, +10% mental shock resistance",
+    "target": "你不会陷入恐惧，精神震慑抗性提高10%",
+    "locations": [
+      "src/player_bon.cpp:246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You currently have ",
+    "target": "你目前有 ",
+    "locations": [
+      "src/player_bon.cpp:117"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "You gain an extra trait!",
+    "target": "你获得了一个额外特质！",
+    "locations": [
+      "src/player_bon.cpp:1651"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You occasionally feed on living victims when attacking with claws",
+    "target": "用爪攻击时，偶尔会吞食活的受害者",
+    "locations": [
+      "src/player_bon.cpp:766"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You regenerate 1 hit point every third turn",
+    "target": "每三回合恢复1点生命值",
+    "locations": [
+      "src/player_bon.cpp:345"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "You tend to find more items",
+    "target": "你通常能找到更多物品",
+    "locations": [
+      "src/player_bon.cpp:298"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Your melee attacks have 60% chance to weaken the target creature for 2-3 turns (reducing their melee damage by half)",
+    "target": "近战攻击有60%几率令目标生物虚弱2至3回合（近战伤害减半）",
+    "locations": [
+      "src/player_bon.cpp:237"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Your mental health is represented by two percentage values:",
+    "target": "你的精神健康由两个百分比数值表示：",
+    "locations": [
+      "installed_files/manual.txt:210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Your Spirit Points are shown like this:",
+    "target": "精神值显示如下：",
+    "locations": [
+      "installed_files/manual.txt:192"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ythogtha",
+    "target": "伊索格塔",
+    "locations": [
+      "src/gods.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yug-Siturath",
+    "target": "尤格-西图拉斯",
+    "locations": [
+      "src/gods.cpp:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "z         SWAP to readied weapon",
+    "target": "z         切换至预备武器",
+    "locations": [
+      "installed_files/manual.txt:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zathog",
+    "target": "扎托格",
+    "locations": [
+      "src/gods.cpp:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zindarak",
+    "target": "津达拉克",
+    "locations": [
+      "src/gods.cpp:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zushakon",
+    "target": "祖沙孔",
+    "locations": [
+      "src/gods.cpp:110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zuul the Gatekeeper",
+    "target": "守门人祖尔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zuul the Gatekeeper of Gozer is a demigod and minion of Gozer. It was worshiped by the Sumerians and Hittites in 6000 BC, along with Gozer.",
+    "target": "戈泽的守门人祖尔是戈泽的半神与仆从。公元前6000年，苏美尔人与赫梯人曾与戈泽一同崇拜它。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zvilpogghua",
+    "target": "兹维尔波格胡阿",
+    "locations": [
+      "src/gods.cpp:111"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{_}turns{reset_color}.",
+    "target": "{_}回合{reset_color}。",
+    "locations": [
+      "src/view_actor_descr.cpp:131"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_DARK_BROWN}",
+    "target": "{COLOR_DARK_BROWN}",
+    "locations": [
+      "src/view_actor_descr.cpp:194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_GRAY}",
+    "target": "{COLOR_GRAY}",
+    "locations": [
+      "src/view_actor_descr.cpp:200"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_GRAY}physical damage{reset_color}",
+    "target": "{COLOR_GRAY}物理伤害{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:47"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_GREEN}disease{reset_color}",
+    "target": "{COLOR_GREEN}疾病{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:51"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_LIGHT_GREEN}",
+    "target": "{COLOR_LIGHT_GREEN}",
+    "locations": [
+      "src/view_actor_descr.cpp:639"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_LIGHT_GREEN}poison{reset_color}",
+    "target": "{COLOR_LIGHT_GREEN}毒素{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:50"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_LIGHT_RED}",
+    "target": "{COLOR_LIGHT_RED}",
+    "locations": [
+      "src/view_actor_descr.cpp:212",
+      "src/view_actor_descr.cpp:642"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_LIGHT_RED}fire{reset_color}",
+    "target": "{COLOR_LIGHT_RED}火焰{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:48"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_MAGENTA}magic{reset_color}",
+    "target": "{COLOR_MAGENTA}魔法{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:52"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_MAGENTA}This creature is undead.{reset_color}",
+    "target": "{COLOR_MAGENTA}该生物是不死者。{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:557"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_RED}",
+    "target": "{COLOR_RED}",
+    "locations": [
+      "src/view_actor_descr.cpp:206"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{color_reset}: ",
+    "target": "{color_reset}： ",
+    "locations": [
+      "src/player_bon.cpp:1085",
+      "src/view_actor_descr.cpp:649"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{COLOR_WHITE}",
+    "target": "{COLOR_WHITE}",
+    "locations": [
+      "src/player_bon.cpp:1085",
+      "src/view_actor_descr.cpp:645"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "{COLOR_YELLOW}electricity{reset_color}",
+    "target": "{COLOR_YELLOW}电击{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:49"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "{reset_color}",
+    "target": "{reset_color}",
+    "locations": [
+      "src/view_actor_descr.cpp:246"
+    ],
+    "kind": "ui"
+  }
+]

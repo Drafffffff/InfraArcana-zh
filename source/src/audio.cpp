@@ -38,7 +38,7 @@ using namespace std::chrono_literals;
 // -----------------------------------------------------------------------------
 static_assert(
         std::is_integral<std::chrono::system_clock::rep>::value,
-        "Representation of ticks isn't an integral value.");
+        "tick的表示值并非整数。");
 
 static std::vector<Mix_Chunk*> s_audio_chunks;
 static std::vector<Mix_Music*> s_mus_chunks;

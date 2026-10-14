@@ -1,0 +1,834 @@
+[
+  {
+    "source": "- Some terrain objects are now \"inscribed\" and can be studied by bumping them. This gives XP, can recall forgotten spells, and gives a \"feeling\" regarding carried items (e.g. if a potion is benign or malign). Item \"feelings\" no longer happen passively over time.",
+    "target": "- 一些地形物体现在会留下“铭文”，玩家可以通过撞上它们来研究。研究可获得 XP、找回遗忘的法术，并对携带物品产生“感觉”（例如判断药水是有益还是有害）。物品“感觉”不再随时间被动出现。"
+  },
+  {
+    "source": "- If the player has a cursed item, gongs have a high chance of giving the \"bless\" bonus (which also removes one curse).",
+    "target": "- 如果玩家携带被诅咒的物品，敲锣很可能会获得“祝福”奖励（同时移除一项诅咒）。"
+  },
+  {
+    "source": "- Magic traps (\"strange shape\") starts hidden again just like mechanical traps, however traps are no longer spawned in corridors.",
+    "target": "- 魔法陷阱（“奇异形状”）会像机械陷阱一样重新隐藏起来，但陷阱不再生成于走廊中。"
+  },
+  {
+    "source": "- The type of monsters that can appear from tombs is now limited based on the current dungeon level (previously mid/late game monsters could spawn from tombs early in the game).",
+    "target": "- 墓穴中出现的怪物种类现在会根据当前地城层数受到限制（此前，中后期怪物可能在游戏早期就从墓穴中出现）。"
+  },
+  {
+    "source": "- Added a \"Heavy Coat\" armor, with 2 armor points and -5% stealth/dodging (actually this existed a long time ago, but was a very different item).",
+    "target": "- 新增“厚重外套”护甲，提供 2 点护甲，并使潜行和闪避降低 5%（这个物品很久以前就存在过，但当时的效果截然不同）。"
+  },
+  {
+    "source": "- Various weapon rebalancing, especially to make medium/heavy weapons more relevant compared to daggers.",
+    "target": "- 调整多种武器的平衡，尤其是让中型和重型武器相较匕首更有用。"
+  },
+  {
+    "source": "- Removed the Resistance spell (this is now a potion instead, see above).",
+    "target": "- 移除“抗性”法术（现在改为药水，见上文）。"
+  },
+  {
+    "source": "- Poison now stacks, i.e. the duration of the new poison effect is added to the old (normally the duration is set to the longest duration of the old or new effect).",
+    "target": "- 毒素现在可以叠加，也就是说，新毒素效果的持续时间会加到旧效果上（通常取新旧效果中较长的持续时间）。"
+  },
+  {
+    "source": "- Some creatures are now \"flammable\" (e.g. mold, worm masses). If ignited, these burn permanently and will also ignite any other adjacent flammable creatures.",
+    "target": "- 部分生物现在会“易燃”（例如霉菌和蠕虫群）。点燃后，它们会一直燃烧，也会点燃相邻的其他易燃生物。"
+  },
+  {
+    "source": "- Mold do zero direct damage (only poison).",
+    "target": "- 霉菌不再造成直接伤害（只造成毒素伤害）。"
+  },
+  {
+    "source": "- More monsters now take reduced damage from piercing attacks (e.g. Ooze, Mummies).",
+    "target": "- 更多怪物受到穿刺攻击时的伤害会降低（例如软泥怪和木乃伊）。"
+  },
+  {
+    "source": "- Misc monster balancing (a lot of balancing of stats, group sizes, properties, etc)",
+    "target": "- 调整了多种怪物的平衡，包括属性、群体规模和特性等。"
+  },
+  {
+    "source": "- Some rooms can now spread terrain outside of themselves (e.g. spider rooms can create webs in nearby areas outside of the room).",
+    "target": "- 一些房间现在会把地形扩展到房间之外（例如，蜘蛛房间可以在附近区域织出蛛网）。"
+  },
+  {
+    "source": "- Misc improvements to corridor generation (limited max corridor length, corridors occasionally connect to other corridors, and corridors are randomly made wider in the late game for a more cavernous look).",
+    "target": "- 改进了走廊生成：限制走廊最大长度、让走廊偶尔彼此连通，并在后期随机拓宽走廊，使其更像洞窟。"
+  },
+  {
+    "source": "- Monsters spawning over time happens a certain duration after entering a new level, instead of at fixed global intervals - this prevents manipulating the counter for example by waiting at the stairs.",
+    "target": "- 怪物随时间生成的计时现在从进入新关卡后开始，而非按固定的全局间隔计算；这样可以避免玩家例如在楼梯旁等待来操纵计数器。"
+  },
+  {
+    "source": "- Reworked and unified how dodging penalties are calculated for melee and ranged attacks. This should not have much effect on how the game plays, but hit chances may be affected in some cases (for example being stuck now also gives a dodging penalty against ranged attacks, and confusion no longer gives a dodging penalty at all).",
+    "target": "- 重新设计并统一了近战和远程攻击的闪避惩罚计算方式。这通常不会明显改变游戏体验，但部分情况下命中率会受影响（例如，被困住现在也会降低对远程攻击的闪避率，而困惑不再造成闪避惩罚）。"
+  },
+  {
+    "source": "- Removed many cases where the game \"paused\" (i.e. \"[space]\" is shown), for example revealing hidden doors no longer pause the game.",
+    "target": "- 移除了许多会让游戏“暂停”（即显示“[空格]”提示）的情况；例如，发现隐藏门时不再暂停游戏。"
+  },
+  {
+    "source": "- More types of things are now marked on the minimap (e.g. Tombs, Braziers, ...).",
+    "target": "- 小地图现在会标记更多种类的地点和物体（例如墓穴、火盆等）。"
+  },
+  {
+    "source": "- In the \"apply\" menu, \"a\" is always reserved for the Electric Lantern and 'b' for the Medical Bag (and 's' for the Holy Symbol if Exorcist). On the first screen of the \"apply\" menu, these items will always appear on top and their keys will never be used for any other item.",
+    "target": "- 在“使用”菜单中，电灯笼固定使用快捷键“a”，医疗包固定使用“b”（驱魔师的圣徽使用“s”）。在“使用”菜单的第一页，这些物品始终置顶，其他物品不会占用这些快捷键。"
+  },
+  {
+    "source": "- Double clicking anywhere toggles fullscreen. Also added an option to enable/disable this feature.",
+    "target": "- 在任意位置双击都可切换全屏；此外还新增了启用或禁用此功能的选项。"
+  },
+  {
+    "source": "- A bunch of screens now also support pgup/pgdown/home/end for scrolling.",
+    "target": "- 现在，多个界面还支持使用 PgUp、PgDn、Home 和 End 滚动。"
+  },
+  {
+    "source": "- Fixed a bug that caused Expert Marksman go give a double upgrade, and Master Marksman to give no upgrade at all (this bug has existed since v20.0).",
+    "target": "- 修复了神射手专家会获得双重升级、神射手大师却完全无法升级的问题（该错误自 v20.0 起就存在）。"
+  },
+  {
+    "source": "- For Exorcist spell traits, available spirit info is no longer printed in the character info screen, only when picking a trait (also the character info screen could show wrong numbers).",
+    "target": "- 驱魔师选择法术特质时才会显示可用精神值；角色信息界面不再显示这项信息（此前该界面显示的数值也可能有误）。"
+  },
+  {
+    "source": "- Being stuck in mud had a limited time duration - it now has indefinite duration (the player/creature has to actively pull themselves free).",
+    "target": "- 陷在泥中的持续时间原本有限，现在改为无限；玩家或生物必须主动挣脱。"
+  },
+  {
+    "source": "- Fixed a timing issue when the player controls teleportation (e.g. when casting teleport, game time would pass between casting the spell and getting to control the teleport location). Now the control happens instantly.",
+    "target": "- 修复了玩家控制传送时的计时问题（例如，施放传送法术后，到玩家开始选择传送位置之间，游戏时间原本仍会流逝）。现在可以立即控制传送位置。"
+  },
+  {
+    "source": "- Available font images are no longer hard coded in the game, instead the gfx/fonts/ directory is searched for any .png file that starts with <width>x<height> (e.g. \"7x13_uushi.png\"). So new .png fonts can be added just by dropping them in the fonts directory.",
+    "target": "- 字体图像不再硬编码在游戏中，游戏会搜索 gfx/fonts/ 目录下以 <width>x<height> 开头的 .png 文件（例如 \"7x13_uushi.png\"）。因此，只要把新的 .png 字体放进该目录即可添加字体。"
+  },
+  {
+    "source": "- The required dungeon level for monster group sizes in monsters.xml can now also be specified relative to the minimum dungeon level of the monster (with format \"+N\" levels). For example if a monster has min_dungeon_level \"4\", then a group_size entry with required_dungeon_level=\"+2\" will cause the monster to start spawning with that group size on dungeon level 6.",
+    "target": "- 现在可以按怪物最低地城层数的相对值指定 monsters.xml 中怪物群体规模所需的地城层数（格式为“+N 层”）。例如，若怪物的 min_dungeon_level 为 \"4\"，则 required_dungeon_level=\"+2\" 的 group_size 条目会让该怪物从地城第 6 层起以该群体规模生成。"
+  },
+  {
+    "source": "- Added an option to build and link SDL statically into the game binary (the source code is included in the Git repo), with this method there is no need to install SDL dependencies to play the game (or when building the game). By the default the installed system version of SDL is found and used on Linux, and the prebuilt SDL version is used on Windows. Building and linking SDL statically is enabled via the CMake option \"IA_BUILD_STATIC_SDL\" (use -DIA_BUILD_STATIC_SDL=ON when running cmake to configure this mode). \"Official\" releases of the game are built with a statically linked SDL, so there is no need to install SDL dependencies to play these versions.",
+    "target": "- 新增选项，可将 SDL 静态编译并链接到游戏二进制文件中（源代码包含在 Git 仓库中）。这样游玩或构建游戏都无需安装 SDL 依赖。默认情况下，Linux 会查找并使用系统安装的 SDL，Windows 则使用预编译版本。可通过 CMake 选项 \"IA_BUILD_STATIC_SDL\" 启用静态编译和链接（配置此模式时运行 cmake 并传入 -DIA_BUILD_STATIC_SDL=ON）。游戏的“官方”发行版均以静态链接 SDL 的方式构建，因此游玩这些版本无需安装 SDL 依赖。"
+  },
+  {
+    "source": "- The released version of the game is now built on Debian Bullseye with gcc 10.2.1 - glibc 2.31 or newer is required to play the game on Linux.",
+    "target": "- 游戏发行版现在基于 Debian Bullseye 和 gcc 10.2.1 构建；在 Linux 上运行游戏需要 glibc 2.31 或更新版本。"
+  },
+  {
+    "source": "- A user_data.ini file is placed inside the game directory, where it is possible to specify the directory where user data (highscores, options, etc) shall be stored. If left blank, the default locations will be used.",
+    "target": "- 游戏目录中会放置 user_data.ini 文件，可在其中指定用户数据（高分记录、选项等）的存储目录。若留空，则使用默认位置。"
+  },
+  {
+    "source": "- On startup, the game tests if several locations are writable (the user_data.ini location, calling SDL_GetPrefPath, and inside the game directory itself), to find a place where it is possible to write user data.",
+    "target": "- 启动时，游戏会检查多个位置是否可写（user_data.ini 所在位置、SDL_GetPrefPath 的返回位置，以及游戏目录本身），以寻找可写入用户数据的位置。"
+  },
+  {
+    "source": "- For Flagellant characters, the number of turns spent is adjusted to a lower value (55% of the original value) when calculating score (Flagellants tend to spend a lot more turns, especially since they must wait every time they walk, so this is a compensation for a more comparable score).",
+    "target": "- 计算分数时，鞭打者角色消耗的回合数会按较低数值计算（原数值的 55%）。鞭打者通常会消耗更多回合，尤其是每次行走都必须等待，因此此调整是为了让分数更可比。"
+  },
+  {
+    "source": "- The Galvanization trait only applies regeneration if hit points are lost from casting the spell (mostly/only applicable to the Shed Impurity spell, see below).",
+    "target": "- “镀化”特质只有在施法会损失生命值时才会触发生命恢复（主要或仅适用于“剥除杂质”法术，见下文）。"
+  },
+  {
+    "source": "- Improved the Survivalist trait: \"You cannot become diseased, only half your wounds count, rounded down (i.e. number of wounds are halved when calculating combat, hit point and regeneration penalties, slower walking speed happens at 6 wounds instead of 3, and you die from 10 wounds instead of 5)\".",
+    "target": "- 改进了“生存主义者”特质：你不会感染，创伤数按半数向下取整计算（也就是说，计算战斗、生命值和恢复惩罚时创伤减半；创伤达到 6 处而非 3 处时行走速度才会降低；达到 10 处而非 5 处时才会死亡）。"
+  },
+  {
+    "source": "- On the Egypt level, when the player is within a certain distance of Khephren, all monsters on the map become aware of the player. A message is printed when this happens.",
+    "target": "- 在埃及关卡中，玩家进入距 Khephren 一定范围后，地图上的所有怪物都会察觉玩家。触发时会显示一条消息。"
+  },
+  {
+    "source": "- Hazy Mirrors are now also detected by the magic searching effect (the Clairvoyant ability).",
+    "target": "- 魔法搜索效果（“千里眼”能力）现在也能发现朦胧镜。"
+  },
+  {
+    "source": "- Potion of Descent can now be used on all levels until \"the end\" (no spoilers), previously it only worked until a few levels before the end of the game.",
+    "target": "- 下降药水现在可在所有关卡使用，直到“终点”（不剧透）；此前它只能在游戏结束前几层使用。"
+  },
+  {
+    "source": "- Reduced hit points of Ghosts (mainly to allow Flagellant players a better chance to counter them with the Thorns spell)",
+    "target": "- 降低了幽灵的生命值（主要是为了让鞭打者玩家更有机会用“荆棘”法术对付它们）。"
+  },
+  {
+    "source": "- Byakhee spawn from level 8 instead of 6, and can only spawn in groups from level 10.",
+    "target": "- 拜亚基现在从第 8 层起生成（此前为第 6 层），并且只有从第 10 层起才会成群出现。"
+  },
+  {
+    "source": "- Many updates to the \"hound\" monsters (Fire Hound, Energy Hound): added more types, added sound effects, changed a lot of their stats.",
+    "target": "- 大幅调整了“猎犬”类怪物（火焰猎犬、能量猎犬）：新增种类、音效，并调整了许多属性。"
+  },
+  {
+    "source": "- Monsters that \"breed\" (i.e. mold) will not spawn new monsters if the group size is above a certain limit.",
+    "target": "- 对于会“繁殖”的怪物（即霉菌），若群体规模超过一定上限，就不会再生成新的怪物。"
+  },
+  {
+    "source": "- Reduced XP gained from seeing \"terrifying\" monsters from 10 to 8, and reduced XP for \"mind shattering\" monsters from 20 to 15 (rationale: there are more monsters now).",
+    "target": "- 看到“骇人”怪物获得的 XP 从 10 降至 8；看到“心智粉碎”怪物获得的 XP 从 20 降至 15（原因：现在怪物更多了）。"
+  },
+  {
+    "source": "- Added unique player tiles for each weapon that the player can wield (39 new tiles in total), thanks YARD and Hal from the IA Discord channel!",
+    "target": "- 每种玩家可持有的武器现在都有专属玩家图块（共新增 39 个图块），感谢 IA Discord 频道的 YARD 和 Hal！"
+  },
+  {
+    "source": "- Fixed a bug where creatures (e.g. the player) could get knocked into impassable terrain (such as walls), if they had physical damage resistance.",
+    "target": "- 修复了具有物理伤害抗性的生物可能被击入不可通行地形（例如墙壁）的问题。"
+  },
+  {
+    "source": "- Fixed a bug that caused interruptions of longer player actions (handling armor or using the medical bag). The problem was that status effects that interrupt the player (fainting, burning, entangled, stuck, etc) would interrupt regardless of which creature it was applied to. The effect of this was probably most often noticeable when monsters outside view got stuck in mud.",
+    "target": "- 修复了较长玩家操作（穿戴护甲或使用医疗包）会被中断的问题。此前，昏厥、燃烧、缠绕、受困等打断玩家的状态效果，无论施加给哪个生物都会中断玩家操作；当视野外的怪物陷入泥中时，这个问题尤其明显。"
+  },
+  {
+    "source": "- In the inventory section of the game over summary screen, only the plain, single item, names were used (e.g. \"Throwing Knife\"). Now plural names are used correctly (e.g. \"6 Throwing Knives\").",
+    "target": "- 游戏结束摘要的物品栏部分此前只显示单数物品名称（例如“投掷飞刀”）；现在会正确显示复数名称（例如“6 把投掷飞刀”）。"
+  },
+  {
+    "source": "- Shock from casting domainless spells (Exorcist unique spells) was not included when showing cost from casting learned spells in the character screen and game over summary screen.",
+    "target": "- 在角色界面和游戏结束摘要中显示已学法术的施放消耗时，遗漏了施放无领域法术（驱魔师专属法术）所消耗的精神震慑值。"
+  },
+  {
+    "source": "- Fixed some cases where redundant sound messages were printed when handling doors (\"I hear a door open. I see a door opening.\")",
+    "target": "- 修复了处理门时重复显示声音消息的情况（“我听见门打开了。”“我看见一扇门正在打开。”）。"
+  },
+  {
+    "source": "- Spells are no longer removed from the spell list when forgotten due to triggering magic traps or using gongs, instead they are marked as \"forgotten\". Forgotten spells can be recalled by using a \"hazy mirror\" (new terrain object), or by casting the spell from a manuscript.",
+    "target": "- 因触发魔法陷阱或敲锣而遗忘的法术，不再从法术列表中移除，而会标记为“已遗忘”。使用“朦胧镜”（新的地形物体）或从手稿中施放该法术，即可找回遗忘的法术。"
+  },
+  {
+    "source": "- Status effects that will end immediately after the next action are shown as e.g. \"Premonition (ending)\" in the gui, so that it is possible to know whether it will last until the next player turn or not (previously seeing an active status effect listed could be misleading since it could end before any monster acts).",
+    "target": "- 下一个行动后会立即结束的状态效果，现在会在界面中显示为“预感（即将结束）”等形式，让玩家知道效果是否会持续到下个玩家回合（此前，即使列表中显示着状态效果，它也可能在任何怪物行动前就结束，容易造成误解）。"
+  },
+  {
+    "source": "- Some weapons have \"long reach\" (has a range of 2 instead of 1), attacking positions further away can be done by pressing \"f\".",
+    "target": "- 部分武器具有“长触及”属性（攻击距离为 2，而非 1）；按“f”即可攻击更远的位置。"
+  },
+  {
+    "source": "- Pitchforks and the Staff of the Pharaohs now have long reach (pitchforks no longer give a bonus to evasion). A new unique weapon for the Flagellant also has long reach.",
+    "target": "- 干草叉和法老之杖现在具有长触及（干草叉不再提供闪避加成）。鞭打者也新增了一把具有长触及的专属武器。"
+  },
+  {
+    "source": "- It is no longer possible to disarm a trap that has started triggering (\"I hear a click...\").",
+    "target": "- 陷阱开始触发后便无法再拆除（“我听见咔哒一声……”）。"
+  },
+  {
+    "source": "- Magic traps (strange shape on the ground) may now spawn anywhere, previously they were not allowed to spawn next to blocking terrain, which made these trap types rare to encounter.",
+    "target": "- 魔法陷阱（地面上的奇异形状）现在可以在任何位置生成；此前它们不能生成在阻挡地形旁，因此很少遇到。"
+  },
+  {
+    "source": "- Removed all gas trap types (confusion gas etc)",
+    "target": "- 移除了所有气体陷阱类型（例如困惑气体）。"
+  },
+  {
+    "source": "- Metal doors can now be opened and closed regularly (there are no levers). This is an advantage for the player, as metal doors can never be bashed open.",
+    "target": "- 金属门现在可以正常开关（不再需要拉杆）。这对玩家有利，因为金属门无法被撞开。"
+  },
+  {
+    "source": "- In the character info screen, knowledge about rods and devices is now also shown (not just potions and manuscripts), and there is information about how much shock the player has received from different sources (seeing monsters, using items, etc).",
+    "target": "- 角色信息界面现在也会显示法杖和装置的识别信息（此前仅显示药水和手稿），并会列出玩家因不同来源（看见怪物、使用物品等）累积的震慑值。"
+  },
+  {
+    "source": "- Current turn number is now displayed in the gui.",
+    "target": "- 现在会在 GUI 中显示当前回合数。"
+  },
+  {
+    "source": "- Hardware acceleration is now used for rendering (if possible), also added an option to force software rendering.",
+    "target": "- 现在会尽可能使用硬件加速渲染；此外还新增了强制使用软件渲染的选项。"
+  },
+  {
+    "source": "- It is now possible to set video scaling higher than 2x (3x and 4x are possible as well).",
+    "target": "- 现在可以将视频缩放倍率设为 2 倍以上，也支持 3 倍和 4 倍。"
+  },
+  {
+    "source": "- Improved the tiles for stairs down (thanks to Andy Walker) and magic traps.",
+    "target": "- 改进了下行楼梯和魔法陷阱的图块，感谢 Andy Walker。"
+  },
+  {
+    "source": "- Added more sound effects (thanks Andy Walker for various gate sounds, item container opening sounds, and a horn sound).",
+    "target": "- 新增更多音效，感谢 Andy Walker 提供多种闸门声、物品容器开启声和号角声。"
+  },
+  {
+    "source": "- The warning when aiming firearms outside effective range is now printed (with warning color) inline with the aiming info, instead of a y/n question when firing the weapon.",
+    "target": "- 瞄准枪械时，若目标超出有效射程，警告现在会以警告颜色直接显示在瞄准信息中；此前开火时会弹出是/否确认问题。"
+  },
+  {
+    "source": "- Split the options menu into several sub-menus (Video, Audio, Input, Gameplay).",
+    "target": "- 将选项菜单拆分为多个子菜单（视频、音频、输入、玩法）。"
+  },
+  {
+    "source": "- Made some changes to reduce the risk of registering key presses when the game window regains focus (e.g. accidentally doing a melee attack due to the game registering a tab press when alt-tabbing back to the game)",
+    "target": "- 调整了游戏窗口重新获得焦点时注册按键的机制，降低误触风险（例如从其他窗口切回游戏时，误把系统注册的 Tab 按键当作近战攻击）。"
+  },
+  {
+    "source": "- Monster definitions are now to a large extent data driven - it is now possible to add new monsters purely by updating monsters.xml (removed monster ID enum values from the source code).",
+    "target": "- 怪物定义现在大多由数据驱动，因此只需修改 monsters.xml 就能添加怪物（源码中已移除怪物 ID 枚举值）。"
+  },
+  {
+    "source": "- Kicking chests caused extra rolls for sprains in some cases (so the risk of a sprain was doubled, and player could get double sprains).",
+    "target": "- 在某些情况下，踢箱子会额外触发扭伤判定，导致扭伤风险翻倍，甚至让玩家一次扭伤两次。"
+  },
+  {
+    "source": "- Ghoul player characters opening a cocoon can no longer receive the event \"there is a half-dissolved human body inside!\" (Ghouls are not afraid of such things).",
+    "target": "- 食尸鬼玩家角色打开茧时，不再触发“里面有一具半溶解的人体！”事件（食尸鬼并不害怕这类东西）。"
+  },
+  {
+    "source": "- Heal now also cures poisoning when cast at expert level (previously only cured from master level).",
+    "target": "- “治愈”法术达到专家级时也会治愈中毒（此前只有大师级才能治愈中毒）。"
+  },
+  {
+    "source": "- Fixed an issue where activating a \"Blaster\" Strange Device would tick game time twice.",
+    "target": "- 修复了激活“爆破者”奇异装置会使游戏时间推进两次的问题。"
+  },
+  {
+    "source": "- Reworked the \"Resistant trait\", it now gives +25% chance to resist paralysis, burning, and poison, and the duration of those effects is halved (also Tough and Rugged each give +10% chance to resist)",
+    "target": "- 重做了“抗性”特质：现在有 25% 几率抵抗麻痹、燃烧和中毒，且这些效果的持续时间减半（“坚韧”和“强健”各自还会提供 10% 抵抗几率）。"
+  },
+  {
+    "source": "- Monsters no longer become aware of the player from negative properties (burning, etc) or from taking damage (they are alerted by direct attacks or by attack noises) - so now it is possible to for example throw a Molotov Cocktail at a monster, and escape with Cloud Minds while it is burning",
+    "target": "- 怪物不再因负面属性（燃烧等）或受到伤害而察觉玩家；它们会被直接攻击或攻击声惊动。因此现在可以向怪物投掷燃烧弹，并趁它燃烧时使用“云雾心智”逃走。"
+  },
+  {
+    "source": "- Small crawling creatures (rats, snakes, crawling hands, etc) can pass through some terrain types such as gates and piles of debris",
+    "target": "- 老鼠、蛇、爬行手等小型爬行生物可以穿过某些地形，例如闸门和瓦砾堆。"
+  },
+  {
+    "source": "- Removed the spawn level part of monster descriptions (\"they usually dwell beneath level...\")",
+    "target": "- 从怪物描述中移除了生成层数信息（“它们通常栖息于……层以下”）。"
+  },
+  {
+    "source": "- Ghoul monsters become allied to a player Ghoul when they see the player, instead of starting allied on the map (to avoid the player missing out on joining the Ghouls in combat and just finding the remains of a battle)",
+    "target": "- 食尸鬼怪物现在会在看见玩家后与玩家食尸鬼结盟；此前它们从出现在地图上起就已结盟（这样玩家就不会错过与食尸鬼并肩作战、只找到战斗遗迹的机会）。"
+  },
+  {
+    "source": "- Changed the \"Opening\" spell to \"Control Object\", which can do more things (e.g. open/close/jam/strike doors, or strike statues/braziers, etc)",
+    "target": "- 将“开启”法术改名为“控制物体”，并扩展其功能，例如开门、关门、卡住或击打门，以及击打雕像和火盆等。"
+  },
+  {
+    "source": "- Removed the Searching spell - instead this is a permanent ability for the Clairvoyant Occultist (upgraded at levels 4 and 8)",
+    "target": "- 移除了“搜索”法术；现在它是千里眼秘学者的一项永久能力，并会在 4 级和 8 级升级。"
+  },
+  {
+    "source": "- Reworked the \"Frenzied\" property - instead of changing the player's movement direction on a move command, moves away from monsters are now simply prevented (not an action)",
+    "target": "- 重做了“狂乱”属性：移动命令不再改变玩家的移动方向，现在会直接阻止玩家朝远离怪物的方向移动（且不会消耗行动）。"
+  },
+  {
+    "source": "- Players can melee attack monsters while nailed by a Spike Gun (but still not while entangled)",
+    "target": "- 玩家被尖刺枪钉住时仍可近战攻击怪物，但被缠绕时不行。"
+  },
+  {
+    "source": "- Hidden doors are always detected from adjacent positions (except if blind or confused)",
+    "target": "- 除非处于失明或困惑状态，否则总能从相邻位置发现隐藏门。"
+  },
+  {
+    "source": "- Forcing a metal door open (e.g. with a Rod of Opening or the Control Object spell) also toggles all connected switches (this would previously leave the switches \"inverted\", so that it was hard to know if pulling the switch would open or close a door)",
+    "target": "- 强行打开金属门（例如使用“开启法杖”或“控制物体”法术）也会切换所有相连的开关（此前开关会因此处于“反转”状态，让玩家难以判断拉动开关会打开还是关闭门）。"
+  },
+  {
+    "source": "- Added a warning when the player attempts to fire/throw outside the effective range, informing the player that the attack will do 50% damage",
+    "target": "- 玩家尝试向有效射程以外开火或投掷时，游戏会警告玩家此次攻击只能造成 50% 伤害。"
+  },
+  {
+    "source": "- When standing in a dark position, \"DARK AREA\" is displayed in the status lines",
+    "target": "- 玩家站在黑暗区域时，状态栏会显示“黑暗区域”。"
+  },
+  {
+    "source": "- Added the ability for displaying idle animations while the game is waiting for input, currently this is used for flickering the player color when holding an activated Electric Lantern, or randomizing the color of burning tiles or tiles corrupted by Strange Colors - and also for auto-scrolling item descriptions in the (rare) case that they do not fit in the window",
+    "target": "- 新增游戏等待输入时显示闲置动画的功能。目前用于玩家持有已启动的电灯笼时闪烁玩家颜色，以及随机改变燃烧格或被“奇异色彩”侵蚀格子的颜色；如果物品说明过长、不适合窗口显示，也会自动滚动（这种情况较少见）。"
+  },
+  {
+    "source": "- Instead of the \"stretched\" fullscreen mode option, there is now an option for attempting to scale the graphics to 2x size when running fullscreen (if the graphics can be scaled depends on the user's resolution, and the current font)",
+    "target": "- 移除了“拉伸”全屏模式选项，改为新增选项：全屏运行时尝试将画面缩放至 2 倍（能否缩放取决于用户的屏幕分辨率和当前字体）。"
+  },
+  {
+    "source": "- Fixed a bug that prevented messages for Rogues sensing artifacts on the dungeon floor (there were only messages for sensing artifacts in item containers, such as tombs)",
+    "target": "- 修复了盗贼无法获得在地城地面感知遗物的提示的问题（此前只有感知物品容器中的遗物时才会显示提示，例如墓穴中的遗物）。"
+  },
+  {
+    "source": "- Fixed problem with popups not being re-drawn correctly when alt-tabbing back to the game",
+    "target": "- 修复了从其他窗口切回游戏后，弹窗没有正确重绘的问题。"
+  },
+  {
+    "source": "- Some maps built from templates (such as the \"Egypt\" level)  are randomly flipped and rotated for more variety",
+    "target": "- 部分由模板构建的地图（例如“埃及”关卡）现在会随机翻转和旋转，增加变化。"
+  },
+  {
+    "source": "- Spotting hidden doors or traps now gives a small amount of XP (except when traps are revealed by triggering them)",
+    "target": "- 发现隐藏门或陷阱现在可获得少量 XP（触发陷阱而发现它时除外）。"
+  },
+  {
+    "source": "- The spell \"Enfeeble\" now only causes Weakening (instead of a bunch of different things)",
+    "target": "- “削弱”法术现在只会施加虚弱效果，不再产生多种不同效果。"
+  },
+  {
+    "source": "- Ravens only have 50% chance to cause blindness on a melee hit (instead of 100% chance)",
+    "target": "- 乌鸦近战命中时造成失明的几率降为 50%（此前为 100%）。"
+  },
+  {
+    "source": "- Some monsters are now rarer than others (previously all monsters which could spawn on a certain level had equal chance of spawning)",
+    "target": "- 有些怪物现在比其他怪物更稀有；此前，某一层中所有可能生成的怪物出现几率都相同。"
+  },
+  {
+    "source": "- Many monster descriptions have been completely rewritten (thanks Renan Nunes!)",
+    "target": "- 许多怪物描述已彻底改写，感谢 Renan Nunes！"
+  },
+  {
+    "source": "- The time system is more predictable and simple - creatures can only have 50%/100%/200%/300% speed (never something like 110%), and all types of actions take the same time to perform for a creature (no +10% melee attack speed for example)",
+    "target": "- 时间系统现在更容易预测，也更简单：生物速度只能为 50%、100%、200% 或 300%（不再出现 110% 之类的数值），且同一种生物执行各类行动所需时间相同（例如不再有 10% 的近战攻击速度加成）。"
+  },
+  {
+    "source": "- Improved check for if phobia of open places should trigger (for example it no longer triggers while standing in smoke)",
+    "target": "- 改进了开放空间恐惧症的触发判定（例如，站在烟雾中时不再触发）。"
+  },
+  {
+    "source": "- Added option for input mode - default keys (numpad/arrows) or vi-mode (h j k l y u b n)",
+    "target": "- 新增输入模式选项：默认按键（数字键盘/方向键）或 vi 模式（h j k l y u b n）。"
+  },
+  {
+    "source": "- Dropping items is now done from a separate inventory screen, accessed by pressing \"d\" (which is a more conventional method than the old way of pressing shift+enter)",
+    "target": "- 现在通过单独的物品栏界面丢弃物品，按“d”进入（这比旧版按 Shift+Enter 的方式更常见）。"
+  },
+  {
+    "source": "- \">\" and \"<\" can also be used in inventory screens to jump between pages (in addition to page up/page down)",
+    "target": "- 在物品栏界面中，也可以用“>”和“<”切换页面（除 Page Up/Page Down 外）。"
+  },
+  {
+    "source": "- All menus can now be scrolled with vi keys (\"j\"/\"k\"), and the currently marked menu entry can be selected with \"l\" (these three keys never occur as letter indexes in menus)",
+    "target": "- 所有菜单现在都可用 vi 键（“j”/“k”）滚动，并可按“l”选择当前标记的条目（这三个按键不会用作菜单条目的字母索引）。"
+  },
+  {
+    "source": "- \"Auto moving\" is used by holding shift and pressing direction keys, instead of repeatedly pressing \"e\" + direction (auto moving is not supported when using the arrow keys, where shift is used to move diagonally upwards instead)",
+    "target": "- 按住 Shift 并按方向键即可“自动移动”，无需反复按“e”再按方向键（使用方向键移动时不支持自动移动，因为 Shift 用于斜向上移动）。"
+  },
+  {
+    "source": "- Holding shift while moving markers (e.g. \"look\" or \"aim\") jumps five steps",
+    "target": "- 按住 Shift 移动标记（例如“查看”或“瞄准”）时，每次会跳过五格。"
+  },
+  {
+    "source": "- Equippable items (armor, weapons, head-wear) can now be equipped by selecting them directly in the backpack, automatically swapping out any existing item in the target equipment slot (which of course takes more turns to perform)",
+    "target": "- 现在可以直接在背包中选择可装备物品（护甲、武器、头部装备）来穿戴，并自动替换对应装备栏中的物品（当然，这样做需要更多回合）。"
+  },
+  {
+    "source": "- Removed the (ugly) hit chance tables from the monster description pages - only player melee hit chance is shown now, which is part of the description text instead",
+    "target": "- 从怪物描述页面中移除了（难看的）命中率表；现在只在描述文字中显示玩家近战命中率。"
+  },
+  {
+    "source": "- Reworked the tile for Deep Ones",
+    "target": "- 重做了深潜者的图块。"
+  },
+  {
+    "source": "- Many types of messages are no longer added to the message history, such as messages printed when moving around the marker (\"[f] to fire\") or when asking for a direction (\"Which direction? [space, esc] to cancel\") - this keeps the message history more clean and focused on game events",
+    "target": "- 许多类型的消息不再加入消息历史，例如移动标记时显示的消息（“按 [f] 开火”）或询问方向时显示的消息（“选择方向？按 [空格] 或 [Esc] 取消”）。这样消息历史会更简洁，也更聚焦于游戏事件。"
+  },
+  {
+    "source": "- Many properties now have longer and more descriptive names on the map screen (e.g. \"Fear Res.\" instead of rFear\", or \"LIFE SAPPED(4)\" instead of \"HP(4)\")",
+    "target": "- 地图界面中许多属性现在会显示更长、更清楚的名称（例如显示“抗恐惧”而非“rFear”，显示“生命汲取(4)”而非“HP(4)”）。"
+  },
+  {
+    "source": "- Save files are no longer erased when loading a saved game (only when dying, winning the game, or when actively quitting), this allows players to resume from a previous save file if the game has crashed",
+    "target": "- 加载存档时不再删除存档文件；只有死亡、胜利或主动退出时才会删除。这样游戏崩溃后，玩家仍可从之前的存档继续游戏。"
+  },
+  {
+    "source": "- Switched license to GNU Affero General Public License v3.0 or later, and added a reference to this license at the top of each Infra Arcana source code file, and a reference from the main menu",
+    "target": "- 许可证改为 GNU Affero 通用公共许可证 v3.0 或更高版本，并在每个 Infra Arcana 源文件顶部及主菜单中添加了许可证引用。"
+  },
+  {
+    "source": "- Increased minimum distance from player when spawning monsters (when entering a new map, or spawning over time)",
+    "target": "- 怪物生成时，与玩家之间的最小距离有所增加（包括进入新地图时生成和随时间生成的情况）。"
+  },
+  {
+    "source": "- Leech type monsters apply indefinite properties (which can be cured) instead of directly affecting stats",
+    "target": "- 水蛭类怪物现在会施加可治愈的无限时长属性，而非直接改变属性数值。"
+  },
+  {
+    "source": "- Some monsters now have more specialized spell selections (too many monsters could cast too many different spells)",
+    "target": "- 部分怪物现在会选择更专精的法术（此前有太多怪物能够施放过多种类的法术）。"
+  },
+  {
+    "source": "- Monsters cannot summon other monsters near the player from a distance (summoned monsters always appear as near the summoner as possible)",
+    "target": "- 怪物不能再从远处召唤其他怪物到玩家附近（被召唤的怪物总会尽可能靠近召唤者出现）。"
+  },
+  {
+    "source": "- Removed the \"Observant\" trait (the effects are Rogue background bonuses instead)",
+    "target": "- 移除了“观察者”特质；其效果现在改为盗贼背景加成。"
+  },
+  {
+    "source": "- Room templates (loaded from file) are now considered unique, each type may only appear once per game",
+    "target": "- 从文件加载的房间模板现在视为唯一模板，每种模板在一局游戏中最多出现一次。"
+  },
+  {
+    "source": "- Some monsters such as Molds or common Rats have negative dodging ability (i.e. they are extra easy to hit)",
+    "target": "- 霉菌、普通老鼠等怪物的闪避能力现在可以为负值（也就是说，它们特别容易被击中）。"
+  },
+  {
+    "source": "- Polyp monsters can be knocked back (e.g. by kicking)",
+    "target": "- 息肉怪物现在可以被击退（例如用脚踢）。"
+  },
+  {
+    "source": "- Invisible monsters causes shock (with a fixed amount), provided that the monster cannot be seen, and the player is aware of the monster (\"!\" sign on the map), and their map cell is seen",
+    "target": "- 隐形怪物会造成固定数值的震慑，前提是玩家看不见怪物、已察觉到它（地图上显示“！”），并且看到了怪物所在的地图格。"
+  },
+  {
+    "source": "- The Spirit Dagger does 300% extra backstab damage (just like normal daggers)",
+    "target": "- 灵魂匕首的背刺伤害额外提高 300%（与普通匕首相同）。"
+  },
+  {
+    "source": "- Nicer tombs are guaranteed to contain better items (and common tomes MAY contain better items)",
+    "target": "- 品质较好的墓穴保证会有更好的物品（普通墓穴也有可能出现更好的物品）。"
+  },
+  {
+    "source": "- Ghoul characters can use their claws for destroying corpses (and cannot get sprains from this)",
+    "target": "- 食尸鬼角色可以用爪子摧毁尸体，而且不会因此扭伤。"
+  },
+  {
+    "source": "- Monsters are drawn with magenta background when they have temporary negative properties (such as paralyzation)",
+    "target": "- 怪物具有临时负面属性（例如麻痹）时，会以洋红色背景显示。"
+  },
+  {
+    "source": "- When playing in text mode, the old ascii art graveyard is shown in the postmortem menu screen again",
+    "target": "- 文本模式下，游戏结束后的菜单中再次显示旧版 ASCII 艺术墓园。"
+  },
+  {
+    "source": "- Fixed a crash bug for the Incinerator weapon (the game could crash when the projectile reached its max range)",
+    "target": "- 修复了焚化炉武器的崩溃问题（弹体飞到最大射程时可能导致游戏崩溃）。"
+  },
+  {
+    "source": "- In the game summary, insanity symptoms were written in the wrong format (e.g. \"Phobia of spiders\", instead of \"Had a phobia of spiders\")",
+    "target": "- 游戏摘要中的精神错乱症状此前格式有误（例如显示“蜘蛛恐惧症”，而不是“曾患有蜘蛛恐惧症”）。"
+  },
+  {
+    "source": "- Monsters no longer spawn over time on special levels (e.g. the \"Egypt\" level)",
+    "target": "- 特殊关卡不再随时间生成怪物（例如“埃及”关卡）。"
+  },
+  {
+    "source": "- Spells have basic/expert/master tiers instead of a skill percentage - higher tiers can be achieved by picking traits for various spell domains (e.g. \"Lesser Invocation\" to cast all attack spells at expert level)",
+    "target": "- 法术现在分为基础、专家和大师等级，不再使用技能百分比；选择不同法术领域的特质即可提升等级（例如选择“低阶祈唤”，所有攻击法术都能以专家级施放）。"
+  },
+  {
+    "source": "- Spellcasting is now generally more powerful than before, and scales to be more useful by mid/late game",
+    "target": "- 施法整体上比以前更强，并且成长曲线能让法术在游戏中后期更有用。"
+  },
+  {
+    "source": "- Being Blessed/Cursed affects the shock cost of casting spells, instead of the spirit cost",
+    "target": "- 受祝福或诅咒现在会影响施法的震慑消耗，而非精神值消耗。"
+  },
+  {
+    "source": "- Added trait \"Stout Spirit\" (before \"Strong\"/\"Mighty Spirit\")",
+    "target": "- 新增“坚实精神”特质（此前名为“强韧精神”/“强大精神”）。"
+  },
+  {
+    "source": "- Mind Eaters (now called Mind Leeches) can no longer paralyze the player",
+    "target": "- 食心者（现改名为心智水蛭）不再能麻痹玩家。"
+  },
+  {
+    "source": "- Keziah Mason starts together with Brown Jenkin, instead of spending a turn to summon it when she sees the player",
+    "target": "- Keziah Mason 现在与 Brown Jenkin 同时出现，不再等她看见玩家后才花费一个回合召唤它。"
+  },
+  {
+    "source": "- Monsters now attempt to detect the player by vision on standard turns, instead of on their own turns (to prevent very fast monsters from detecting the player too easily)",
+    "target": "- 怪物现在会在标准回合中尝试通过视线发现玩家，而非在自己的回合中检查（防止速度极快的怪物过于容易发现玩家）。"
+  },
+  {
+    "source": "- Byakhees are slower",
+    "target": "- 拜亚基的速度降低。"
+  },
+  {
+    "source": "- Rod of Cloud Minds (which the Rogue starts with) now only requires 90 turns to recharge (or 45 with the Electrically Inclined trait)",
+    "target": "- 盗贼初始携带的“云心法杖”现在只需 90 回合即可充能（拥有“电气倾向”特质时只需 45 回合）。"
+  },
+  {
+    "source": "- Removed the damage bonuses from the Marksman traits (it made ranged combat very overpowered)",
+    "target": "- 移除了射手特质提供的伤害加成（它让远程战斗过于强势）。"
+  },
+  {
+    "source": "- Properties applied from monster attacks (such as paralyzation or blindness) have a certain percent chance to get applied - many attacks still have 100% chance to apply their effect, but some now have a lower chance (such as paralyzation from White Spider bites)",
+    "target": "- 怪物攻击施加的属性（例如麻痹或失明）现在有一定几率生效。许多攻击仍有 100% 几率，但部分攻击的生效几率已降低（例如白蜘蛛咬伤造成麻痹）。"
+  },
+  {
+    "source": "- Paralyzed actors always have 100% speed, so that very fast monsters (such as  Bats) does not immediately start moving again",
+    "target": "- 麻痹状态下的角色速度固定为 100%，因此蝙蝠等速度极快的怪物不会立刻恢复行动。"
+  },
+  {
+    "source": "- Shock from carrying disturbing items reduced to 0.05% shock per turn (from 0.1%)",
+    "target": "- 携带令人不安的物品所造成的震慑降低为每回合 0.05%（此前为 0.1%）。"
+  },
+  {
+    "source": "- Reduced the penalty for each wound to -5% melee hit chance (instead of -10%), -5% dodging (instead of -10%), and no penalty to ranged attacks (instead of -5%)",
+    "target": "- 每处创伤造成的惩罚改为：近战命中率 -5%（此前 -10%）、闪避 -5%（此前 -10%），远程攻击不再受惩罚（此前为 -5%）。"
+  },
+  {
+    "source": "- Added some new mid/late game monsters",
+    "target": "- 新增一些游戏中期和后期的怪物。"
+  },
+  {
+    "source": "- Good properties no longer interrupt player actions when they are applied (e.g. using medical equipment is not interrupted by regaining spell resistance)",
+    "target": "- 良性属性生效时，不再中断玩家行动（例如，恢复法术抗性时不会打断医疗用品的使用）。"
+  },
+  {
+    "source": "- Weapon names show average damage instead of dice rolls - melee weapons also show their \"plus\" damage bonus (not including any damage bonus from traits), e.g. \"Machete 9.0 {+2} +0%\" - the exact dice rolls can be seen in the detailed item description when viewing the item in the inventory",
+    "target": "- 武器名称现在显示平均伤害而非骰子结果；近战武器还会显示“加值”伤害奖励（不包括特质提供的伤害奖励），例如“Machete 9.0 {+2} +0%”。查看物品栏中的详细说明仍可查看确切的骰子结果。"
+  },
+  {
+    "source": "- Fixed Fire Hound projectile animation in tiles mode (a small \"blast\" tile instead of a bunch of forward slashes)",
+    "target": "- 修复了图块模式下的火焰猎犬弹体动画（现在显示一个小型“爆炸”图块，而非一串斜线）。"
+  },
+  {
+    "source": "- Ravens are brighter (they could be hard to see)",
+    "target": "- 乌鸦的颜色变亮了（此前不容易看清）。"
+  },
+  {
+    "source": "- On some machines, the random number generator would have a fixed seed (apparently, the C++ std::random_device can silently fall back on this method if it cannot find a source of randomness...), resulting in deterministic map generation, etc - the RNG is now seeded with the current time instead",
+    "target": "- 某些机器上的随机数生成器会使用固定种子（显然，如果 C++ 的 std::random_device 找不到随机源，可能会悄悄回退到这种方式……），导致地图等内容以确定方式生成。现在随机数生成器改用当前时间设定种子。"
+  },
+  {
+    "source": "- Fixed a bug which prevented accessing the manual (\"Tome of Wisdom\") from the esc-menu during a game",
+    "target": "- 修复了游戏过程中无法从 Esc 菜单打开手册（“智慧之书”）的问题。"
+  },
+  {
+    "source": "- Monsters may become \"suspicious\" (typically with a message about them looking \"wary\" or \"disturbed\"), which gives them an increased chance of detecting you - they may still detect you immediately, but the chance for this is slightly lower than before",
+    "target": "- 怪物可能会变得“起疑”（通常会显示它们看起来“警惕”或“受惊”的消息），此时发现玩家的几率会提高。它们仍可能立即发现玩家，但几率比以前略低。"
+  },
+  {
+    "source": "- If you are Observant, you now get \"level feelings\" when there are unique monsters or artifacts (when entering a new level, or when monsters appear on the map), such as \"I feel like I should examine this place thoroughly\"",
+    "target": "- 如果角色具有“观察者”特质，当进入新关卡或怪物出现在地图上时，若附近有独特怪物或遗物，现在会获得“关卡预感”，例如“我觉得应该仔细调查这里”。"
+  },
+  {
+    "source": "- Standing in lit cells (e.g. lit by the Electric Lantern) now temporarily reduces your shock",
+    "target": "- 站在明亮的地图格上（例如被电灯笼照亮）现在会暂时降低玩家的震慑值。"
+  },
+  {
+    "source": "- Some rooms are generated from handmade templates (loaded from a text file)",
+    "target": "- 部分房间现在由手工制作的模板生成（模板从文本文件加载）。"
+  },
+  {
+    "source": "- Many bonuses such as \"occasionally performing a certain action instantly\", now simply gives a speed bonus instead (to a specific action, or to all actions)",
+    "target": "- 许多奖励（例如“偶尔立即完成某种行动”）现在改为提供速度加成，可作用于特定行动或所有行动。"
+  },
+  {
+    "source": "- Spells have \"skill level\" percentages, which determines the strength of the spell (and can also add additional spell effects) - the skill levels are primarily increased by casting from Manuscripts",
+    "target": "- 法术具有“技能等级”百分比，用于决定法术强度（也可能增加额外法术效果）。技能等级主要通过施放手稿中的法术来提高。"
+  },
+  {
+    "source": "- Monster spells have individual cooldown counters (instead of random chances to be cast) - so a monster cannot for example spam Darkbolt several turns in a row",
+    "target": "- 怪物法术现在有各自的冷却计数器，不再靠随机概率决定是否施放；因此怪物不会连续多个回合反复施放暗箭。"
+  },
+  {
+    "source": "- Potion of Insight always gives some XP, in addition to identifying an item (to avoid making them worthless if all items are identified)",
+    "target": "- 洞察药水除了能鉴定物品外，总会提供一些 XP（这样即使所有物品都已鉴定，也不会变得毫无用处）。"
+  },
+  {
+    "source": "- Some melee weapons can be used for breaching doors or destroying corpses more effectively with [w] (check the item descriptions)",
+    "target": "- 部分近战武器可用 [w] 更有效地破门或摧毁尸体（请查看物品说明）。"
+  },
+  {
+    "source": "- Removed all negative effects from critically failing melee attacks (such as \"I am exhausted\"), except for a small chance of the weapon breaking - which can only happen while cursed",
+    "target": "- 移除了近战攻击严重失误时的所有负面效果（例如“我筋疲力尽了”），但仍有小概率导致武器损坏；只有被诅咒时武器才可能损坏。"
+  },
+  {
+    "source": "- All active properties are printed with descriptions on the [@] character decsription page, and when [v]iewing monsters",
+    "target": "- 所有生效中的属性都会在 [@] 角色说明页中显示说明；按 [v] 查看怪物时也会显示。"
+  },
+  {
+    "source": "- When picking a trait, instead of showing all available and blocked traits in the same list, the trait selection screen now has two modes (toggled with [TAB]) - the first mode shows available traits, and the second shows traits for which the prerequisites are not yet fulfilled",
+    "target": "- 选择特质时，特质界面现在分为两种模式（按 [TAB] 切换），不再在同一列表中显示可选和受阻特质。第一种模式显示可选特质，第二种显示尚未满足前置条件的特质。"
+  },
+  {
+    "source": "- Reduced \"more\" prompt message spam from traps (less interruption)",
+    "target": "- 减少了陷阱产生的“更多”提示消息，降低了游戏中断。"
+  },
+  {
+    "source": "- Addded option to enable/disable fading rendering brightness with distance from player",
+    "target": "- 新增选项，可根据与玩家的距离逐渐降低画面亮度。"
+  },
+  {
+    "source": "- When [v]iewing the map, the game also prints messages for cells with detected unseen monsters (\"There is a creature here\")",
+    "target": "- 按 [v] 查看地图时，如果某些地图格检测到了不可见怪物，游戏也会显示提示（“这里有一个生物”）。"
+  },
+  {
+    "source": "- When [v]iewing detailed monster descriptions, the game prints hit chances for melee, ranged, and throwing attacks for the player and the monster - with the calculations of the total hit chances shown",
+    "target": "- 按 [v] 查看怪物详细说明时，游戏会显示玩家和怪物的近战、远程及投掷攻击命中率，并列出总命中率的计算过程。"
+  },
+  {
+    "source": "- All backgrounds (classes) now have ranged attack bonus vs unaware targets (not just Rogues)",
+    "target": "- 所有背景（职业）现在对未察觉目标都有远程攻击加成（此前只有盗贼有此加成）。"
+  },
+  {
+    "source": "- Removed the \"R\" command to rearrange rounds between pistol magazines - this is now instead done when you wait (with \"5\", \"s\", or \".\")",
+    "target": "- 移除了在手枪弹匣之间重新排列子弹的“R”命令；现在等待时（按“5”、“s”或“.”）会自动进行此操作。"
+  },
+  {
+    "source": "- Fire Hound bites now also causes Burning (like their ranged attacks)",
+    "target": "- 火焰猎犬的撕咬现在也会造成燃烧（与它们的远程攻击相同）。"
+  },
+  {
+    "source": "- Removed some redundant messages to reduce clutter (\"I pause for a while...\", \"I stop waiting.\")",
+    "target": "- 移除了一些多余消息，减少信息干扰（“我稍作休息……”“我不再等待。”）。"
+  },
+  {
+    "source": "- Fixed a bug that caused monsters with Fear Resistance to end all player phobias when they spawned (this was mistakenly reported to the insanity system as a \"player gaining permanent rFear\" event)",
+    "target": "- 修复了具有恐惧抗性的怪物生成时会结束玩家所有恐惧症的问题（此前系统误将此情况记录为“玩家永久获得恐惧抗性”事件）。"
+  },
+  {
+    "source": "- Fixed some buggy item drop code (which may have caused crashes)",
+    "target": "- 修复了一些有问题的物品掉落代码，这些问题可能导致游戏崩溃。"
+  },
+  {
+    "source": "- Fixed some minor bugs in the map generator (the map generator can also do a few new things now, although it's probably subtle)",
+    "target": "- 修复了地图生成器中的一些小问题（地图生成器现在也新增了一些功能，不过变化可能不太明显）。"
+  },
+  {
+    "source": "- Fixed some errors in Manuscript names (underscores had snuck into a few names for some reason)",
+    "target": "- 修正了部分手稿名称中的错误（不知为何，有些名称里混入了下划线）。"
+  },
+  {
+    "source": "- Fixed a bug that (in some rare specific cases) allowed monsters to move into the position already occupied by another monster",
+    "target": "- 修复了一个错误：在少数特定情况下，怪物可能移动到已被另一只怪物占据的位置。"
+  },
+  {
+    "source": "- Fixed a bug were teleporting or being knocked back while held by a spider web, caused the web to be able to hold any creature that walked into it, regardless of monster type (e.g. ethereal monsters or spiders could then also be held)",
+    "target": "- 修复了一个错误：生物被蛛网困住时传送或被击退后，蛛网会错误地困住任何走入其中的生物，而不再检查怪物类型（例如，以太怪物或蜘蛛也会被困住）。"
+  },
+  {
+    "source": "= v18.1 (Mars 17, 2016)",
+    "target": "= v18.1（2016年3月17日）"
+  },
+  {
+    "source": "- Worms Masses may now only split once (i.e. the split worms may not also split themselves), they do not split if they are killed with enough damage, they are not allowed to attack immediately after being split, and the confusion effect from Mind Worm bites has a much shorter duration. However, Worms now move at normal speed (instead of slow).",
+    "target": "- 蠕虫群现在最多只会分裂一次（分裂出来的蠕虫不会再次分裂）；受到足够伤害而死亡时不会分裂；分裂后不能立即攻击；心智蠕虫咬伤造成的困惑持续时间也大幅缩短。不过，蠕虫现在以正常速度移动（不再缓慢）。"
+  },
+  {
+    "source": "- Gas Mask and Asbestos Suit now protects against blindness from Ravens, Spitting Cobras, and Dust Vortexes",
+    "target": "- 防毒面具和石棉服现在可以防止乌鸦、眼镜蛇和尘旋风造成的失明。"
+  },
+  {
+    "source": "- Oozes can no longer regenerate HP while burning",
+    "target": "- 软泥怪燃烧时不再恢复 HP。"
+  },
+  {
+    "source": "- There is now much smaller chance of gaining multiple phobias, and you can never become both sadistic and masochistic at the same time",
+    "target": "- 获得多种恐惧症的几率大幅降低；施虐癖和受虐癖也不可能同时出现。"
+  },
+  {
+    "source": "- When bashing or eating multiple corpses in the same cell, Zombie-type monsters are now prioritized (since you want to destroy them as soon as possible before they rise)",
+    "target": "- 在同一格攻击或吃掉多具尸体时，僵尸类怪物会优先处理（因为应尽可能在它们复活前消灭）。"
+  },
+  {
+    "source": "- You can now also kick in your own cell (\"w\", then \"5\" or \".\") - to destroy corpses you're standing on",
+    "target": "- 现在也可以踢自己所在的格子（按“w”，再按“5”或“.”），摧毁脚下的尸体。"
+  },
+  {
+    "source": "- You are no longer \"telepathically\"aware of where all allied monsters are - if they are out of sight or invisible, you can lose awareness of them",
+    "target": "- 你不再能通过“心灵感应”持续知道所有盟友怪物的位置；如果它们离开视线或隐形，你可能会失去对它们的感知。"
+  },
+  {
+    "source": "- Spells in the casting menu now appear in the order that you learned the spells (instead of alphabetically)",
+    "target": "- 施法菜单中的法术现在按学习顺序排列，不再按字母顺序排列。"
+  },
+  {
+    "source": "- On turns that you can walk for free due to Dextrous, the \"T\" is now colored green instead of the number (to be less distracting)",
+    "target": "- 灵巧特质让你能免费行走的回合中，“T”现在会变为绿色，而不是回合数（以减少干扰）。"
+  },
+  {
+    "source": "- Fixed some bugs in the monster movement AI (it wasn't anything critical, but it made them act a bit weird in a few specific situations)",
+    "target": "- 修复了怪物移动 AI 中的一些问题（并非严重问题，但在少数特定情况下会让怪物行动得有些奇怪）。"
+  },
+  {
+    "source": "- Fixed a faulty message when pressing \"t\" with no item selected for throwing (the message adviced to press \"w\" to wield a throwing weapon, but the actual key should be \"i\")",
+    "target": "- 修复了未选择投掷物品时按“t”显示错误提示的问题（提示要求按“w”装备投掷武器，但正确按键应为“i”）。"
+  },
+  {
+    "source": "- Property messages such as \"...is paralyzed\" is no longer allowed for dead monsters",
+    "target": "- 已死亡的怪物不再显示“……陷入麻痹”之类的属性消息。"
+  },
+  {
+    "source": "- New Potions: Invisibility and See Invisible (can see all invisible and sneaking monsters, prevents blindness)",
+    "target": "- 新增药水：隐形药水和看破隐形药水（可看见所有隐形或潜行的怪物，并防止失明）。"
+  },
+  {
+    "source": "- Bumping an unseen monster (sneaking or invisible) that you are unaware of no longer performs a melee attack, instead it prints a message such as \"There is someone here!\", and makes you aware of the monster (you see it as a \"!\" on the map)",
+    "target": "- 撞上自己尚未察觉的怪物（潜行或隐形）时，不再发动近战攻击，而会显示“这里有人！”之类的消息，并让你察觉该怪物（地图上会显示“！”）。"
+  },
+  {
+    "source": "- New property: Infravision (the Ghoul background starts with this, and many monsters has it), which allows you to see infra-visible creatures in the dark",
+    "target": "- 新属性：红外视觉（食尸鬼背景初始具有此属性，许多怪物也具有此属性），可让你在黑暗中看见红外可见的生物。"
+  },
+  {
+    "source": "- Made several changes to how traps work - most importantly, when they activate there is usually a delay of a couple of turns from when they activate until the effect occurs - this means that you can (sometimes) avoid the effect by moving away from the trap",
+    "target": "- 调整了陷阱的运作方式。最重要的是，陷阱触发后通常要经过数个回合才会生效，因此玩家有时可以在此期间远离陷阱来躲避效果。"
+  },
+  {
+    "source": "- Monsters fighting each other now generates sounds (\"I hear fighting.\")",
+    "target": "- 怪物现在会因彼此战斗而发出声音（“我听见打斗声。”）。"
+  },
+  {
+    "source": "- Critical misses for melee attacks (1% chance normally) now cause various bad things to happen, such as becoming exhausted, or dropping the weapon",
+    "target": "- 近战攻击严重失误（通常有 1% 几率）现在会引发各种负面结果，例如精疲力尽或掉落武器。"
+  },
+  {
+    "source": "- Potions of Fortitude no longer cures all insanity symptoms (phobias, etc), instead they only heal one random symptom",
+    "target": "- 坚毅药水不再治愈所有精神错乱症状（如恐惧症等），而只会治愈一种随机症状。"
+  },
+  {
+    "source": "- Added new item class \"Rods\" - these are similar to Devices, except they never break or malfunction, and instead have a cooldown time before they can be used again",
+    "target": "- 新增“法杖”物品类别：它们类似装置，但不会损坏或故障，而是在使用后进入冷却，冷却结束才能再次使用。"
+  },
+  {
+    "source": "- The Wound system (which was removed in v17) is now back again - when you take heavy damage in one hit you receive a Wound - each wound reduces your fighting abilities, maximum HP, and HP regeneration rate - wounds can be healed with the Medical Bag",
+    "target": "- 创伤系统（在 v17 中移除）现已回归：单次受到严重伤害时会产生创伤。每处创伤都会削弱战斗能力、最大生命值和生命值恢复速度；可用医疗包治愈创伤。"
+  },
+  {
+    "source": "- Chests are never made of iron until at least dungeon level 3",
+    "target": "- 地城层数达到第 3 层之前，箱子绝不会由铁制成。"
+  },
+  {
+    "source": "- The Melee Fighter skills now also gives extra damage (in addition to better hit chances), Master Marksman (the final Marksman skill) gives extra ranged damage",
+    "target": "- 近战斗士技能现在也会额外增加伤害（此前只提高命中率）；神射手大师（神射手技能的最终等级）会增加远程伤害。"
+  },
+  {
+    "source": "- The Mobile trait now only makes every third step a free action (instead of every second step)",
+    "target": "- “机动”特质现在每三步才会让一步成为免费行动（此前是每两步）。"
+  },
+  {
+    "source": "- Braziers light up cells around them, and can be kicked over to do fire damage in a small area (similar to a small molotov explosion)",
+    "target": "- 火盆会照亮周围的地图格，也可以踢翻，在小范围内造成火焰伤害（类似小型燃烧瓶爆炸）。"
+  },
+  {
+    "source": "- The Spirit traits now also gives spell resistance - a harmful spell cast on you will be blocked, then it takes a certain number of turns to regain spell resistance",
+    "target": "- 精神特质现在还会提供法术抗性：对你施放的有害法术会被抵挡，但之后需要一定回合数才能恢复法术抗性。"
+  },
+  {
+    "source": "- New spell: Animate Weapons - causes melee weapons to rise into the air and protect you (after a while they will drop to the ground and become normal weapons again)",
+    "target": "- 新法术：武器活化。它会使近战武器升到空中保护你；一段时间后武器会落回地面，恢复原状。"
+  },
+  {
+    "source": "- Migrated to SDL2 (fullscreen mode may work better for you now, if you had problems with this before)",
+    "target": "- 已迁移至 SDL2（如果此前全屏模式有问题，现在可能会更好用）。"
+  },
+  {
+    "source": "- Page Up / Page Down can now be used in menus to jump to the top/bottom (if menu fits on screen), or to the previous/next screen (if menu takes up multiple screens)",
+    "target": "- 在菜单中可以按 Page Up/Page Down 跳至顶部或底部（菜单能在一屏内显示时），也可以切换到上一页或下一页（菜单需多屏显示时）。"
+  },
+  {
+    "source": "- The [a] command is no longer a shortcut for Medical Bag and Electric Lantern, instead it opens a filtered inventory view only showing items which can be Applied (read, quaffed, activated, ignited, etc)",
+    "target": "- [a] 命令不再是医疗包和电灯笼的快捷键，而会打开筛选后的物品栏界面，只显示可使用的物品（阅读、饮用、启动、点燃等）。"
+  },
+  {
+    "source": "- Changed Inventory key to [i] instead of [w]",
+    "target": "- 物品栏快捷键改为 [i]，不再使用 [w]。"
+  },
+  {
+    "source": "- [w] is now used for kicking/bashing instead of [q] (*Wham*)",
+    "target": "- 现在按 [w] 踢门或撞击物体，不再使用 [q]（*砰！*）。"
+  },
+  {
+    "source": "- Intrinsic properties that lasts indefinitely are now spelled with upper case (e.g. you can be \"DISEASED\" or \"Diseased\"), to clarify that waiting will not end the effect",
+    "target": "- 无限持续的固有属性现在以大写显示（例如显示为“DISEASED”或“Diseased”），以说明等待不会结束该效果。"
+  },
+  {
+    "source": "- Removed the [D] command for jamming doors - instead using the \"Close\" command [c] on an already closed door will now attempt to jam it",
+    "target": "- 移除了用于卡住门的 [D] 命令；现在对已经关闭的门使用“关闭”命令 [c] 会尝试把门卡住。"
+  },
+  {
+    "source": "- Reduced hit points healed by Ghoul feeding from 3-5 to 3-4 (also affects monster Ghouls).",
+    "target": "- 食尸鬼进食所恢复的生命值从 3–5 点降至 3–4 点（怪物食尸鬼也受此调整影响）。"
+  }
+]

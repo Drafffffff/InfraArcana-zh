@@ -50,11 +50,11 @@ static void handle_show_player_info_command()
 
         popup::Popup(popup::AddToMsgHistory::no)
                 .setup_menu_mode(
-                        {"(c) Character information",
-                         "(i) Inventory",
-                         "(x) Known spells",
-                         "(v) Look around",
-                         "(m) View map"},
+                        {"(c) 角色信息",
+                         "(i) 物品栏",
+                         "(x) 已知法术",
+                         "(v) 环顾四周",
+                         "(m) 查看地图"},
                         {'c',
                          'i',
                          'x',
@@ -120,7 +120,7 @@ void NewGameState::on_pushed()
 
         states::push(
                 std::make_unique<PickTraitState>(
-                        "Which extra trait do you start with?",
+                        "开局时额外获得哪个特质？",
                         IsCharacterCreationTraitPick::yes));
 
         states::push(std::make_unique<PickBgState>());
@@ -199,7 +199,7 @@ void PickBgState::draw()
         const int screen_center_x = panels::center_x(Panel::screen);
 
         io::draw_text_center(
-                " What is your background? ",
+                " 你的背景是什么？ ",
                 Panel::screen,
                 {screen_center_x, 0},
                 colors::title(),
@@ -319,7 +319,7 @@ void PickOccultistState::draw()
         const int screen_center_x = panels::center_x(Panel::screen);
 
         io::draw_text_center(
-                " What is your spell domain? ",
+                " 你的法术领域是什么？ ",
                 Panel::screen,
                 {screen_center_x, 0},
                 colors::title(),
@@ -489,14 +489,14 @@ void PickTraitState::update()
                         if (!is_character_creation) {
                                 states::draw();
 
-                                const std::string title = "Gain trait \"" + name + "\"?";
+                                const std::string title = "获得特质“" + name + "\"?";
 
                                 int choice = 0;
 
                                 popup::Popup(popup::AddToMsgHistory::no)
                                         .set_title(title)
                                         .setup_menu_mode(
-                                                {"(Y)es", "(N)o"},
+                                                {"(Y)是", "(N)否"},
                                                 {'y', 'n'},
                                                 popup::MenuModeShowCancelHint::no,
                                                 &choice)
@@ -510,7 +510,7 @@ void PickTraitState::update()
 
                                 if (!is_character_creation) {
                                         game::add_history_event(
-                                                "Gained trait \"" +
+                                                "获得了特质“" +
                                                 name +
                                                 "\"");
                                 }
@@ -540,16 +540,16 @@ void PickTraitState::draw()
         std::string cmd_info;
 
         if (m_screen_mode == TraitScreenMode::pick_new) {
-                cmd_info = "[TAB] to view unavailable traits";
+                cmd_info = "[TAB] 查看不可用特质";
         }
         else {
                 // Viewing unavailable traits
-                title = "Currently unavailable traits";
-                cmd_info = "[TAB] to view available traits";
+                title = "当前不可用的特质";
+                cmd_info = "[TAB] 查看可用特质";
         }
 
         if (m_is_char_creation == IsCharacterCreationTraitPick::no) {
-                cmd_info += " [i] to view game info";
+                cmd_info += " [i] 查看游戏信息";
         }
 
         const int screen_center_x = panels::center_x(Panel::screen);
@@ -656,7 +656,7 @@ void PickTraitState::draw()
         if (!prereq_data.traits.empty() || prereq_data.bg != Bg::END) {
                 int x = 0;
 
-                const std::string label = "Prerequisite(s):";
+                const std::string label = "前置条件：";
 
                 io::draw_text(
                         label,
@@ -846,14 +846,14 @@ void RemoveTraitState::update()
 
                 states::draw();
 
-                const std::string title = "Remove trait \"" + name + "\"?";
+                const std::string title = "移除特质“" + name + "\"?";
 
                 int choice = 0;
 
                 popup::Popup(popup::AddToMsgHistory::no)
                         .set_title(title)
                         .setup_menu_mode(
-                                {"(Y)es", "(N)o"},
+                                {"(Y)是", "(N)否"},
                                 {'y', 'n'},
                                 popup::MenuModeShowCancelHint::no,
                                 &choice)
@@ -865,7 +865,7 @@ void RemoveTraitState::update()
                         player_bon::remove_trait(trait);
 
                         game::add_history_event(
-                                "Lost trait \"" +
+                                "失去了特质“" +
                                 name +
                                 "\"");
 
@@ -885,7 +885,7 @@ void RemoveTraitState::draw()
         const int screen_center_x = panels::center_x(Panel::screen);
 
         io::draw_text_center(
-                " Lose which trait? ",
+                " 失去哪个特质？ ",
                 Panel::screen,
                 {screen_center_x, 0},
                 colors::title(),
@@ -894,7 +894,7 @@ void RemoveTraitState::draw()
                 true);
 
         io::draw_text_center(
-                " [i] to view game info ",
+                " [i] 查看游戏信息 ",
                 Panel::screen,
                 {screen_center_x, panels::y1(Panel::screen)},
                 colors::title());
@@ -1009,7 +1009,7 @@ void EnterNameState::update()
         if (config::is_bot_playing()) {
                 auto& d = *map::g_player->m_data;
 
-                d.name_a = d.name_the = "Bot";
+                d.name_a = d.name_the = "机器人";
 
                 states::pop();
 
@@ -1025,7 +1025,7 @@ void EnterNameState::update()
 
         if (input.key == SDLK_RETURN) {
                 if (m_current_str.empty()) {
-                        m_current_str = "Player";
+                        m_current_str = "玩家";
                 }
                 else {
                         // Player has entered a string
@@ -1045,7 +1045,18 @@ void EnterNameState::update()
                 return;
         }
 
-        if (m_current_str.size() < g_player_name_max_len) {
+        if (!input.text.empty()) {
+                for (size_t p = 0; p < input.text.size();) {
+                        const auto g = utf8::next(input.text, p);
+                        const auto part = input.text.substr(p, g.end - p);
+                        if (g.cp != 0xfffd && utf8::columns(g.cp) > 0 &&
+                            utf8::width(m_current_str) + utf8::columns(g.cp) <= g_player_name_max_len)
+                                m_current_str += part;
+                        p = g.end;
+                }
+                return;
+        }
+        if (utf8::width(m_current_str) < g_player_name_max_len) {
                 const bool is_space = input.key == SDLK_SPACE;
 
                 if (is_space) {
@@ -1068,7 +1079,7 @@ void EnterNameState::update()
 
         if (!m_current_str.empty()) {
                 if (input.key == SDLK_BACKSPACE) {
-                        m_current_str.erase(m_current_str.end() - 1);
+                        utf8::pop_back(m_current_str);
                 }
         }
 }
@@ -1080,7 +1091,7 @@ void EnterNameState::draw()
         const int screen_center_x = panels::center_x(Panel::screen);
 
         io::draw_text_center(
-                " What is your name? ",
+                " 你叫什么名字？ ",
                 Panel::screen,
                 {screen_center_x, 0},
                 colors::title(),
@@ -1090,7 +1101,7 @@ void EnterNameState::draw()
 
         std::string name_str = m_current_str;
 
-        if ((m_current_str.size() < g_player_name_max_len) &&
+        if ((utf8::width(m_current_str) < g_player_name_max_len) &&
             ((io::graphics_cycle_nr(io::GraphicsCycle::fast) % 2) == 0)) {
                 name_str += "_";
         }

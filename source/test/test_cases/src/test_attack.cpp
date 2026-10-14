@@ -111,9 +111,10 @@ TEST_CASE("Seen hostile monster attacking seen friendly monster")
         REQUIRE(history.size() == 1);
 
         const std::vector<std::string> possible_messages = {
-                "The Reanimated Corpse claws the Ghoul",
-                "The Reanimated Corpse misses the Ghoul"};
+                "复活尸体 抓挠 食尸鬼",
+                "复活尸体 未击中 食尸鬼"};
 
+        INFO("Actual localized message: " << history[0].text());
         REQUIRE(starts_with_any_of(history[0].text(), possible_messages));
 
         test_utils::cleanup_all();
@@ -164,7 +165,7 @@ TEST_CASE("Hostile monster outside FOV attacking friendly monster outside FOV")
         const auto& history = msg_log::history();
 
         REQUIRE(history.size() == 1);
-        REQUIRE(history[0].text() == "I hear fighting.(SE)");
+        REQUIRE(history[0].text() == "我听到打斗声。(东南)");
 
         REQUIRE(mon_allied_player_aware_counter == 0);
         REQUIRE(mon_hostile_player_aware_counter > 0);
@@ -222,9 +223,10 @@ TEST_CASE("Invisible hostile monster attacking seen friendly monster")
         REQUIRE(history.size() == 1);
 
         const std::vector<std::string> possible_messages = {
-                "It claws the Ghoul",
-                "It misses the Ghoul"};
+                "它 抓挠 食尸鬼",
+                "它 未击中 食尸鬼"};
 
+        INFO("Actual localized message: " << history[0].text());
         REQUIRE(starts_with_any_of(history[0].text(), possible_messages));
 
         REQUIRE(mon_allied_player_aware_counter > 0);
@@ -290,7 +292,7 @@ TEST_CASE("Invisible hostile monster attacking invisible friendly monster")
         const auto& history = msg_log::history();
 
         REQUIRE(history.size() == 1);
-        REQUIRE(history[0].text() == "I hear fighting.(S)");
+        REQUIRE(history[0].text() == "我听到打斗声。(南)");
 
         REQUIRE(mon_allied_player_aware_counter == 0);
         REQUIRE(mon_hostile_player_aware_counter > 0);
@@ -349,9 +351,10 @@ TEST_CASE("Visible friendly monster attacking invisible hostile monster")
         REQUIRE(history.size() == 1);
 
         const std::vector<std::string> possible_messages = {
-                "The Ghoul claws it",
-                "The Ghoul misses it"};
+                "食尸鬼 抓挠 它",
+                "食尸鬼 未击中 它"};
 
+        INFO("Actual localized message: " << history[0].text());
         REQUIRE(starts_with_any_of(history[0].text(), possible_messages));
 
         REQUIRE(mon_hostile_player_aware_counter > 0);
@@ -396,9 +399,10 @@ TEST_CASE("Player kicking invisible monster")
         REQUIRE(history.size() == 1);
 
         const std::vector<std::string> possible_messages = {
-                "I miss",
-                "I kick it"};
+                "我失手了。",
+                "我 踢 它"};
 
+        INFO("Actual localized message: " << history[0].text());
         REQUIRE(starts_with_any_of(history[0].text(), possible_messages));
 
         REQUIRE(mon->m_mon_aware_state.player_aware_of_me_counter > 0);

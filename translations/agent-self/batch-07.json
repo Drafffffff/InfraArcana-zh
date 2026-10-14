@@ -1,0 +1,1273 @@
+[
+  {
+    "source": "Paralysis Resistance",
+    "target": "麻痹抗性",
+    "locations": [
+      "src/property_data.cpp:281"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Paralyzed",
+    "target": "麻痹",
+    "locations": [
+      "src/property_data.cpp:436",
+      "src/property_data.cpp:437"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "paralyzed",
+    "target": "麻痹",
+    "locations": [
+      "src/view_actor_descr.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "paralyzing",
+    "target": "致使麻痹",
+    "locations": [
+      "src/terrain.cpp:4562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Paranoia!",
+    "target": "偏执狂！",
+    "locations": [
+      "include/insanity.hpp:910"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Part of a higher echelon of the Mi-Go, the buzz of this creature's commanding tone dims that of its insectoid wings. A protective bio-mechanical suit is fused to its carapace.",
+    "target": "它属于米戈族的高阶存在，发号施令的嗡鸣声盖过了昆虫般的翅膀振动声。一套具有保护作用的生物机械盔甲与它的甲壳融为一体。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Path: \"",
+    "target": "路径: \"",
+    "locations": [
+      "src/highscore.cpp:516"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "paths",
+    "target": "paths",
+    "locations": [
+      "src/paths.cpp:97"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "paths_to_target_when_aware",
+    "target": "paths_to_target_when_aware",
+    "locations": [
+      "src/actor_data.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Paul Onyschuk - Provided much feedback and ideas.",
+    "target": "Paul Onyschuk——提供了大量反馈与创意。",
+    "locations": [
+      "installed_files/credits.txt:20"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "percent_chance",
+    "target": "percent_chance",
+    "locations": [
+      "src/actor_data.cpp:331",
+      "src/actor_data.cpp:381",
+      "src/actor_data.cpp:444"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Perish for ",
+    "target": "为……而死 ",
+    "locations": [
+      "src/actor_mon.cpp:216",
+      "src/actor_mon.cpp:217"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Peroshay bibox malax!",
+    "target": "Peroshay bibox malax!",
+    "locations": [
+      "src/actor_mon.cpp:191"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pestilence",
+    "target": "瘟疫",
+    "locations": [
+      "include/spells.hpp:920"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pestis cruento vilomaxus pretiacruento!",
+    "target": "Pestis cruento vilomaxus pretiacruento!",
+    "locations": [
+      "src/actor_mon.cpp:193"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pestis Cruento!",
+    "target": "Pestis Cruento!",
+    "locations": [
+      "src/actor_mon.cpp:192"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "petroglyph",
+    "target": "岩刻",
+    "locations": [
+      "src/terrain.cpp:1109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+    "target": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of canines",
+    "target": "恐犬症",
+    "locations": [
+      "include/insanity.hpp:551"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of darkness",
+    "target": "黑暗恐惧症",
+    "locations": [
+      "include/insanity.hpp:743"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of deep places",
+    "target": "幽闭深渊恐惧症",
+    "locations": [
+      "include/insanity.hpp:679"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of rats",
+    "target": "恐鼠症",
+    "locations": [
+      "include/insanity.hpp:359"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of reptiles and amphibians",
+    "target": "爬行动物与两栖动物恐惧症",
+    "locations": [
+      "include/insanity.hpp:487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of spiders",
+    "target": "蜘蛛恐惧症",
+    "locations": [
+      "include/insanity.hpp:423"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phobia of the dead",
+    "target": "尸骸恐惧症",
+    "locations": [
+      "include/insanity.hpp:615"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Phys Res",
+    "target": "物理抗性",
+    "locations": [
+      "src/property_data.cpp:149"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Physical Resistance",
+    "target": "物理抗性",
+    "locations": [
+      "src/property_data.cpp:148"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pick up ",
+    "target": "拾取 ",
+    "locations": [
+      "src/terrain.cpp:3171"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Piercing attacks such as pistol shots or dagger strikes are very ineffective against them",
+    "target": "穿刺攻击，例如手枪射击或匕首刺击，对它们几乎无效",
+    "locations": [
+      "src/view_actor_descr.cpp:87"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "pillar",
+    "target": "石柱",
+    "locations": [
+      "src/terrain.cpp:992"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Player on blocked position",
+    "target": "玩家位于阻挡位置",
+    "locations": [
+      "src/bot.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poison Res",
+    "target": "毒素抗性",
+    "locations": [
+      "src/property_data.cpp:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poison Resistance",
+    "target": "毒素抗性",
+    "locations": [
+      "src/property_data.cpp:176"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poisoned",
+    "target": "中毒",
+    "locations": [
+      "src/property_data.cpp:415",
+      "src/property_data.cpp:416"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "poisonous",
+    "target": "有毒的",
+    "locations": [
+      "src/terrain.cpp:4554"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Portents of alchemical secrets whispered by ancient winds in sacred groves.",
+    "target": "神圣树林中，古老风声低语着炼金奥秘的征兆。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Portents of an impending cosmic cataclysm.",
+    "target": "宇宙浩劫即将到来的征兆。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:11"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Portents of unearthly beings offering vast treasures.",
+    "target": "异界存在将带来巨额珍宝的征兆。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "position, e.g. to aim a melee weapon with long reach)",
+    "target": "位置，例如用长柄近战武器瞄准时",
+    "locations": [
+      "installed_files/manual.txt:11"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poured from brine and maelstrom by nefarious wizardry, it has been endowed with animation in the form of a dreadful beast. Its breath exhales the chaos of primordial waters.",
+    "target": "它由盐卤与漩涡经邪恶巫术锻造而成，被赋予生命，化作可怖的野兽。它呼出的气息裹挟着原初海水的混沌。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poured from brine and maelstrom by nefarious wizardry, it has been endowed with animation in the form of a dreadful hound. Its breath exhales the chaos of primordial waters.",
+    "target": "它由盐卤与漩涡经邪恶巫术锻造而成，被赋予生命，化作可怖的猎犬。它呼出的气息裹挟着原初海水的混沌。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Premonition",
+    "target": "预感",
+    "locations": [
+      "include/spells.hpp:1888",
+      "src/property_data.cpp:875",
+      "src/property_data.cpp:876"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Press '5' or '.' (period) to wait for one turn. This is also used for selecting your current position, for example when kicking (to destroy a corpse you are standing over) or when disarming traps.",
+    "target": "按“5”或“.”（句点）等待一个回合。也可用于选择当前位置，例如踢击（摧毁脚下的尸体）或解除陷阱时。",
+    "locations": [
+      "installed_files/manual.txt:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Press [?] for help.",
+    "target": "按 [?] 查看帮助。",
+    "locations": [
+      "src/game_commands.cpp:745"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pretaanluxis cruonit!",
+    "target": "Pretaanluxis cruonit!",
+    "locations": [
+      "src/actor_mon.cpp:194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pretiacruento!",
+    "target": "Pretiacruento!",
+    "locations": [
+      "src/actor_mon.cpp:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "prioritize_destroying_corpse",
+    "target": "prioritize_destroying_corpse",
+    "locations": [
+      "src/actor_data.cpp:316"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Prolonged Life",
+    "target": "延寿",
+    "locations": [
+      "src/player_bon.cpp:755"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PROP_AURA OF DECAY",
+    "target": "PROP_AURA OF DECAY",
+    "locations": [
+      "src/property_data.cpp:23"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "properties",
+    "target": "properties",
+    "locations": [
+      "src/actor_data.cpp:676"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Prostragaranar malachtose!",
+    "target": "Prostragaranar malachtose!",
+    "locations": [
+      "src/actor_mon.cpp:199"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Psuchawrl",
+    "target": "苏查沃尔",
+    "locations": [
+      "src/gods.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "pulls free!",
+    "target": "挣脱了！",
+    "locations": [
+      "src/property_data.cpp:932"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Purge",
+    "target": "净化",
+    "locations": [
+      "include/spells.hpp:1208"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "put away my ",
+    "target": "收起 ",
+    "locations": [
+      "src/game_commands.cpp:323"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Q         QUIT",
+    "target": "Q         退出",
+    "locations": [
+      "installed_files/manual.txt:28"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Quit the current game?",
+    "target": "退出当前游戏？",
+    "locations": [
+      "src/game_commands.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Quyagen",
+    "target": "奎亚根",
+    "locations": [
+      "src/gods.cpp:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "r         RELOAD",
+    "target": "r         装弹",
+    "locations": [
+      "installed_files/manual.txt:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "r=",
+    "target": "r=",
+    "locations": [
+      "src/audio.cpp:376"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Radiant",
+    "target": "灿烂的",
+    "locations": [
+      "src/property_data.cpp:956",
+      "src/property_data.cpp:957"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Raises the threshold of the moribund status to 8 hit points, and increases the duration of the effect by 50% (rounded down)",
+    "target": "将濒死状态的生命值阈值提高到8点，并使效果持续时间延长50%（向下取整）",
+    "locations": [
+      "src/player_bon.cpp:872"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ranged",
+    "target": "远程",
+    "locations": [
+      "src/ability_values.cpp:28",
+      "src/ability_values.cpp:36",
+      "src/actor_data.cpp:252"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ranged_cooldown_turns",
+    "target": "ranged_cooldown_turns",
+    "locations": [
+      "src/actor_data.cpp:479"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rapid Recoverer",
+    "target": "快速恢复者",
+    "locations": [
+      "src/player_bon.cpp:344"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "rat",
+    "target": "老鼠",
+    "locations": [
+      "src/actor_data.cpp:293"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rats suddenly seem terrifying.",
+    "target": "老鼠突然显得十分可怕。",
+    "locations": [
+      "include/insanity.hpp:370"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ravenous",
+    "target": "贪婪的",
+    "locations": [
+      "src/player_bon.cpp:764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Reached dungeon level ",
+    "target": "探索至地城层数 ",
+    "locations": [
+      "src/map_travel.cpp:335"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Received an everlasting blessing",
+    "target": "获得了永恒的祝福",
+    "locations": [
+      "src/property_data.cpp:801"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Records of alchemical experiments unlocking hidden wonders.",
+    "target": "记录炼金实验、揭开隐藏奇迹。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Records of alchemical experiments unlocking the potential of ancient secrets.",
+    "target": "记录炼金实验、发掘古老秘密的潜能。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:11"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Records of celestial beings waging war across galaxies.",
+    "target": "记录天体存在横跨星系征战。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:45"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Records of cosmic entities traversing the astral planes.",
+    "target": "记录宇宙存在穿梭星界。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:49"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Records of intrepid travelers venturing through the realms of dreams.",
+    "target": "记录无畏的旅人踏入梦境诸界。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:53"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "refreshing",
+    "target": "令人神清气爽",
+    "locations": [
+      "src/terrain.cpp:4538"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Regenerating",
+    "target": "再生",
+    "locations": [
+      "src/property_data.cpp:1113",
+      "src/property_data.cpp:1114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Remains aware of the presence of other creatures longer.",
+    "target": "更久地保持对其他生物存在的警觉。",
+    "locations": [
+      "src/player_bon.cpp:1197"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Renan Nunes - Helped rewriting and significantly improving many of the",
+    "target": "Renan Nunes——帮助重写并大幅改进了许多……",
+    "locations": [
+      "installed_files/credits.txt:12"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "repels creatures",
+    "target": "驱逐生物",
+    "locations": [
+      "src/terrain_pylon.cpp:375"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Representation of ticks isn't an integral value.",
+    "target": "tick的表示值并非整数。",
+    "locations": [
+      "src/audio.cpp:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Reprisal is sealed!",
+    "target": "复仇封印已解除！",
+    "locations": [
+      "src/property_data.cpp:552"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "reptile",
+    "target": "爬行动物",
+    "locations": [
+      "src/actor_data.cpp:300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "reptiles",
+    "target": "爬行动物",
+    "locations": [
+      "src/insanity.cpp:279"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Reptiles and amphibians suddenly seem terrifying.",
+    "target": "爬行动物与两栖动物突然显得十分可怕。",
+    "locations": [
+      "include/insanity.hpp:498"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "required_dungeon_level",
+    "target": "required_dungeon_level",
+    "locations": [
+      "src/actor_data.cpp:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "reset_color",
+    "target": "reset_color",
+    "locations": [
+      "src/text.cpp:201"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Resistant",
+    "target": "抗性",
+    "locations": [
+      "src/player_bon.cpp:541"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists burning.",
+    "target": "抵抗燃烧。",
+    "locations": [
+      "src/property_data.cpp:405"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists confusion.",
+    "target": "抵抗糊涂。",
+    "locations": [
+      "src/property_data.cpp:487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists disease.",
+    "target": "抵抗疾病。",
+    "locations": [
+      "src/property_data.cpp:737"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists fainting.",
+    "target": "抵抗昏厥。",
+    "locations": [
+      "src/property_data.cpp:386"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists fear.",
+    "target": "抵抗恐惧。",
+    "locations": [
+      "src/property_data.cpp:469"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists misfortune.",
+    "target": "抵抗厄运。",
+    "locations": [
+      "src/property_data.cpp:818"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists paralyzation.",
+    "target": "抵抗瘫痪。",
+    "locations": [
+      "src/property_data.cpp:444"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists poisoning.",
+    "target": "抵抗中毒。",
+    "locations": [
+      "src/property_data.cpp:427"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists sapping.",
+    "target": "抵抗生命汲取。",
+    "locations": [
+      "src/property_data.cpp:680",
+      "src/property_data.cpp:694"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists slowing.",
+    "target": "抵抗减速。",
+    "locations": [
+      "src/property_data.cpp:599"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists stunning.",
+    "target": "抵抗震晕。",
+    "locations": [
+      "src/property_data.cpp:583"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "resists weakness.",
+    "target": "抵抗虚弱。",
+    "locations": [
+      "src/property_data.cpp:769"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Revelations concerning the secrets of a cosmic gate.",
+    "target": "揭示宇宙之门秘密的启示。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "rgb_hex",
+    "target": "rgb_hex",
+    "locations": [
+      "src/colors.cpp:169"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rhan-Tegoth",
+    "target": "兰-特戈斯",
+    "locations": [
+      "src/gods.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Richard Upton Pickman",
+    "target": "理查德·厄普顿·皮克曼",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "RIP ",
+    "target": "复活 ",
+    "locations": [
+      "src/map_builder_special.cpp:68"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Rlim Shaikorth",
+    "target": "利姆-沙伊科斯",
+    "locations": [
+      "src/gods.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rods recharge twice as fast, strange devices are less likely to malfunction or break, electric lanterns last twice as long, +1 damage with electricity weapons",
+    "target": "法杖充能速度翻倍，奇异装置发生故障或损坏的几率降低，电灯笼续航翻倍，电系武器伤害+1",
+    "locations": [
+      "src/player_bon.cpp:569"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rogue",
+    "target": "游荡者",
+    "locations": [
+      "src/player_bon.cpp:1002"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "RPGCodex, Bay12 Games, Youtube, etc...",
+    "target": "RPGCodex、Bay12 Games、YouTube 等网站……",
+    "locations": [
+      "installed_files/credits.txt:24"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "rubble",
+    "target": "碎石",
+    "locations": [
+      "src/terrain.cpp:1218"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rugged",
+    "target": "坚韧",
+    "locations": [
+      "src/player_bon.cpp:512"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ruhtra Dyoll",
+    "target": "鲁特拉·戴奥尔",
+    "locations": [
+      "src/gods.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rushed from storm and cloud by nefarious wizardry, it has been endowed with animation in the form of a dreadful beast. Its breath exhales bolts of lightning.",
+    "target": "它由风暴与云层经邪恶巫术锻造而成，被赋予生命，化作可怖的野兽。它呼出的气息化为一道道闪电。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Rushed from storm and cloud by nefarious wizardry, it has been endowed with animation in the form of a dreadful hound. Its breath exhales bolts of lightning.",
+    "target": "它由风暴与云层经邪恶巫术锻造而成，被赋予生命，化作可怖的猎犬。它呼出的气息化为一道道闪电。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "rusty chains",
+    "target": "生锈的锁链",
+    "locations": [
+      "src/terrain.cpp:2653"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ruthless",
+    "target": "冷酷无情",
+    "locations": [
+      "src/player_bon.cpp:835"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "s         WAIT five turns, or until something happens",
+    "target": "s         等待五回合，或直到发生某事",
+    "locations": [
+      "installed_files/manual.txt:33"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sacrifice Life",
+    "target": "牺牲生命",
+    "locations": [
+      "include/spells.hpp:2226"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sadistic obsession",
+    "target": "虐待狂式的执念",
+    "locations": [
+      "include/insanity.hpp:802"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sadistic obsession!",
+    "target": "虐待狂式的执念！",
+    "locations": [
+      "include/insanity.hpp:821"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sage",
+    "target": "贤者",
+    "locations": [
+      "src/player_bon.cpp:461"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sanctuary",
+    "target": "圣所",
+    "locations": [
+      "include/spells.hpp:1145",
+      "src/property_data.cpp:1326",
+      "src/property_data.cpp:1327"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sanity of mind",
+    "target": "心智健全",
+    "locations": [
+      "src/character_descr.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "save",
+    "target": "save",
+    "locations": [
+      "src/paths.cpp:262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Save and highscore will not be kept (use stairs to save the game).",
+    "target": "不会保留存档与高分记录（使用楼梯保存游戏）。",
+    "locations": [
+      "src/game_commands.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Science, already oppressive with its shocking revelations, will perhaps be the ultimate exterminator of our human species, if separate species we be, for its reserve of unguessed horrors could never be borne by mortal brains if loosed upon the world...",
+    "target": "科学已经用骇人的发现压得人喘不过气；倘若我们人类真由不同物种组成，它或许最终会将我们灭绝。那些尚未猜测到的恐怖一旦释放到世间，凡人头脑绝无可能承受……",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:7"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "scorched ",
+    "target": "焦灼的 ",
+    "locations": [
+      "src/terrain.cpp:2849",
+      "src/terrain.cpp:684"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "scorched ground",
+    "target": "焦土",
+    "locations": [
+      "src/terrain.cpp:2464"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Score",
+    "target": "分数",
+    "locations": [
+      "src/highscore.cpp:329"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Score values are calculated based on your experience points (including points gained after the maximum character level is reached), which is then multiplied by several factors.",
+    "target": "分数根据经验值计算（包括达到角色等级上限后获得的经验），再乘以若干系数。",
+    "locations": [
+      "installed_files/manual.txt:251"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Score: ",
+    "target": "分数： ",
+    "locations": [
+      "src/map_builder_special.cpp:118",
+      "src/map_builder_special.cpp:75"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Screamed in terror",
+    "target": "惊恐地尖叫了",
+    "locations": [
+      "include/insanity.hpp:182"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Screaming!",
+    "target": "尖叫！",
+    "locations": [
+      "include/insanity.hpp:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "screams in agony.",
+    "target": "痛苦地尖叫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Searchers after horror haunt strange, far places.",
+    "target": "追寻恐怖者徘徊于奇异而遥远的地方。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:39"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "searching",
+    "target": "搜寻",
+    "locations": [
+      "src/ability_values.cpp:31",
+      "src/ability_values.cpp:39",
+      "src/actor_data.cpp:270"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sebek",
+    "target": "塞贝克",
+    "locations": [
+      "src/gods.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sedmelluq",
+    "target": "塞德梅卢克",
+    "locations": [
+      "src/gods.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "See \"Hit Points, Wounds and healing\" for more info",
+    "target": "更多信息请参见“生命值、创伤与治疗”",
+    "locations": [
+      "installed_files/manual.txt:128",
+      "installed_files/manual.txt:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "See \"Insanity\" for more info",
+    "target": "更多信息请参见“疯狂度”",
+    "locations": [
+      "installed_files/manual.txt:102",
+      "installed_files/manual.txt:105"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "See \"Spirit and spell casting\" for more info",
+    "target": "更多信息请参见“精神值与施法”",
+    "locations": [
+      "installed_files/manual.txt:99"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "see in darkness",
+    "target": "在黑暗中视物",
+    "locations": [
+      "src/view_actor_descr.cpp:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "See Invis",
+    "target": "看见隐形",
+    "locations": [
+      "src/property_data.cpp:1005"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "See Invisible",
+    "target": "看见隐形",
+    "locations": [
+      "include/spells.hpp:1719",
+      "src/property_data.cpp:1004"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "seems aggravated.",
+    "target": "似乎被激怒了。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/wary_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "seems disturbed.",
+    "target": "似乎心神不宁。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/text/wary_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "seems less keen.",
+    "target": "似乎没那么敏锐了。",
+    "locations": [
+      "src/property_data.cpp:1010"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "seems very keen.",
+    "target": "似乎十分敏锐。",
+    "locations": [
+      "src/property_data.cpp:1008"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Select an object to control.",
+    "target": "选择一个要控制的物体。",
+    "locations": [
+      "src/marker.cpp:1470"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Self-aware",
+    "target": "自我意识",
+    "locations": [
+      "src/player_bon.cpp:312"
+    ],
+    "kind": "ui"
+  }
+]

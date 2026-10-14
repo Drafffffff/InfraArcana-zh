@@ -165,7 +165,7 @@ static void run_std_turn_events()
                 map::g_player->m_properties.end_prop(prop::Id::stuck, prop_end_config);
 
                 msg_log::add(
-                        "I sink downwards!",
+                        "我沉了下去！",
                         colors::white(),
                         MsgInterruptPlayer::yes,
                         MorePromptOnMsg::yes);

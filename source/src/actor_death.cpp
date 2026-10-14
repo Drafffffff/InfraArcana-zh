@@ -59,12 +59,11 @@ static bool try_use_talisman_of_resurrection(actor::Actor& actor)
         io::update_screen();
 
         const std::string msg =
-                "Strange emptiness surrounds me. An eternity passes as I lay "
-                "frozen in a world of shadows. Suddenly I awake!";
+                "奇异的空虚笼罩着我。我僵卧在影子的世界里，仿佛度过了永恒。突然，我醒了！";
 
         popup::Popup(popup::AddToMsgHistory::yes)
                 .set_msg(msg)
-                .set_title("Dead")
+                .set_title("死亡")
                 .run();
 
         for (auto* const a : game_time::g_actors) {
@@ -93,9 +92,9 @@ static bool try_use_talisman_of_resurrection(actor::Actor& actor)
                 teleport(*map::g_player, ShouldCtrlTele::never);
         }
 
-        msg_log::add("I LIVE AGAIN!");
+        msg_log::add("我复活了！");
 
-        game::add_history_event("Was brought back from the dead");
+        game::add_history_event("死而复生");
 
         map::g_player->incr_shock(50.0, ShockSrc::misc);
 
@@ -154,7 +153,7 @@ void kill(
 
         if (!actor::is_player(&actor) && actor.m_data->is_humanoid) {
                 Snd snd(
-                        "I hear agonized screaming.",
+                        "我听见痛苦的尖叫。",
                         audio::SfxId::END,
                         IgnoreMsgIfOriginSeen::yes,
                         actor.m_pos,

@@ -82,7 +82,7 @@ static bool run_drop_query(
 
         const std::string title =
                 item.name(ItemNameType::plural) +
-                " - drop how many?";
+                " - 掉落多少？";
 
         query::QueryNumberConfig query_config;
 
@@ -142,7 +142,7 @@ static void print_cannot_remove_torture_collar_msg(const item::Item& item)
                         ItemNameType::plain,
                         ItemNameInfo::none);
 
-        msg_log::add("The " + name + " cannot be removed!");
+        msg_log::add("这 " + name + " 无法删除！");
 }
 
 static void on_equipable_backpack_item_selected(const size_t backpack_idx)
@@ -187,7 +187,7 @@ static void on_equipable_backpack_item_selected(const size_t backpack_idx)
 
         case ItemType::armor: {
                 if (map::g_player->m_properties.has(prop::Id::burning)) {
-                        msg_log::add("Not while burning.");
+                        msg_log::add("燃烧时不行。");
 
                         return;
                 }
@@ -406,7 +406,7 @@ void InvState::draw_slot(
                 p.x += 2;
 
                 io::draw_text(
-                        "<empty>",
+                        "<空>",
                         Panel::inventory_menu,
                         p,
                         color);
@@ -589,7 +589,7 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
                 (m_viewed_item->m_nr_items > 1) &&
                 m_viewed_item->data().is_stackable;
 
-        const std::string ref_str = is_plural ? "They are " : "It is ";
+        const std::string ref_str = is_plural ? "他们是 " : "这是 ";
 
         const item::ItemData& d = m_viewed_item->data();
 
@@ -598,8 +598,7 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
         // -------------------------------------------------------------
         if (d.melee.reach > 1) {
                 lines.emplace_back(
-                        "This weapon has a long reach, "
-                        "press [f] to attack further away.");
+                        "该武器射程较远，按[f]可以攻击更远的地方。");
         }
 
         // -------------------------------------------------------------
@@ -621,9 +620,9 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
                 if (!dmg_str.empty() && !dmg_str_avg.empty()) {
                         text_format::append_with_space(
                                 combat_descr,
-                                ("The damage dealt with this weapon is " +
+                                ("该武器造成的伤害为 " +
                                  dmg_str +
-                                 " (average " +
+                                 " （平均 " +
                                  dmg_str_avg +
                                  ")."));
                 }
@@ -635,9 +634,9 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
                 if (!plus_str.empty()) {
                         text_format::append_with_space(
                                 combat_descr,
-                                ("Due to its quality, damage is " +
+                                ("由于其质量原因，损坏是 " +
                                  plus_str +
-                                 " higher than normal."));
+                                 " 高于正常水平。"));
                 }
 
                 const std::string hit_mod_str =
@@ -648,7 +647,7 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
                 if (!hit_mod_str.empty()) {
                         text_format::append_with_space(
                                 combat_descr,
-                                ("It has a hit chance modifier of " +
+                                ("它的命中率修正为 " +
                                  hit_mod_str +
                                  "."));
                 }
@@ -667,26 +666,24 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
         std::string att_obj_str;
 
         if (can_att_door || can_att_corpse) {
-                att_obj_str = "This weapon can be used for ";
+                att_obj_str = "该武器可用于 ";
         }
 
         if (can_att_door) {
-                att_obj_str += "breaching doors";
+                att_obj_str += "破门";
         }
 
         if (can_att_corpse) {
                 if (can_att_door) {
-                        att_obj_str += " and ";
+                        att_obj_str += " 和 ";
                 }
 
-                att_obj_str += "destroying corpses";
+                att_obj_str += "摧毁尸体";
         }
 
         if (can_att_door || can_att_corpse) {
                 att_obj_str +=
-                        " more effectively (while the weapon is "
-                        "wielded, its attack damage is automatically "
-                        "used instead of the kick damage).";
+                        " 更有效（当使用武器时，会自动使用其攻击伤害，而不是踢击伤害）。";
 
                 lines.emplace_back(att_obj_str);
         }
@@ -699,7 +696,7 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
         std::string weight_str =
                 ref_str +
                 m_viewed_item->weight_str() +
-                " to carry";
+                " 携带";
 
         const int weight_carried_tot =
                 map::g_player->m_inv.total_item_weight();
@@ -718,7 +715,7 @@ std::vector<std::string> InvState::make_detailed_descr_lines() const
                 weight_str +=
                         " (" +
                         std::to_string(weight_pct) +
-                        "% of carried weight)";
+                        "% 占携带重量）";
         }
 
         weight_str += ".";
@@ -841,7 +838,7 @@ void BrowseInv::draw()
         const auto nr_slots = (size_t)SlotId::END;
 
         io::draw_text_center(
-                " Browsing inventory ",
+                " 浏览库存 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());
@@ -983,7 +980,7 @@ void BrowseInv::on_inventory_slot_with_item_selected(InvSlot& slot) const
         }
         else if (slot.id == SlotId::body) {
                 if (map::g_player->m_properties.has(prop::Id::burning)) {
-                        msg_log::add("Not while burning.");
+                        msg_log::add("燃烧时不行。");
 
                         return;
                 }
@@ -1051,7 +1048,7 @@ void Apply::on_start()
                 // Exit screen
                 states::pop();
 
-                msg_log::add("I carry nothing to apply.");
+                msg_log::add("我没有携带任何东西可以申请。");
 
                 return;
         }
@@ -1084,7 +1081,7 @@ void Apply::draw()
         const int browser_y = m_browser.y();
 
         io::draw_text_center(
-                " Apply which item? ",
+                " 适用哪一项？ ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());
@@ -1224,7 +1221,7 @@ void Drop::draw()
         draw_box(panels::area(Panel::screen));
 
         io::draw_text_center(
-                " Drop which item? ",
+                " 掉落哪个物品？ ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());
@@ -1363,7 +1360,7 @@ void Drop::on_selected() const
                                 ItemNameInfo::none,
                                 ItemNameAttackInfo::none);
 
-                msg_log::add("I refuse to drop the " + name + "!");
+                msg_log::add("我拒绝放弃 " + name + "!");
 
                 return;
         }
@@ -1463,29 +1460,29 @@ void Equip::draw()
         case SlotId::wpn:
                 heading =
                         has_item
-                        ? "Wield which item?"
-                        : "I carry no weapon to wield.";
+                        ? "持有哪件物品？"
+                        : "我没有携带武器。";
                 break;
 
         case SlotId::wpn_alt:
                 heading =
                         has_item
-                        ? "Prepare which weapon?"
-                        : "I carry no weapon to wield.";
+                        ? "准备什么武器？"
+                        : "我没有携带武器。";
                 break;
 
         case SlotId::body:
                 heading =
                         has_item
-                        ? "Wear which armor?"
-                        : "I carry no armor.";
+                        ? "穿什么铠甲？"
+                        : "我没有携带盔甲。";
                 break;
 
         case SlotId::head:
                 heading =
                         has_item
-                        ? "Wear what on head?"
-                        : "I carry no headwear.";
+                        ? "头上戴什么？"
+                        : "我没有带头饰。";
                 break;
 
         case SlotId::END:
@@ -1593,7 +1590,7 @@ void Equip::update()
 
                 if (slot_id == SlotId::body) {
                         if (map::g_player->m_properties.has(prop::Id::burning)) {
-                                msg_log::add("Not while burning.");
+                                msg_log::add("燃烧时不行。");
 
                                 return;
                         }
@@ -1667,7 +1664,7 @@ void SelectThrow::on_start()
                 // Nothing to throw, exit screen.
                 states::pop();
 
-                msg_log::add("I carry no throwing weapons.");
+                msg_log::add("我没有携带投掷武器。");
 
                 return;
         }
@@ -1686,7 +1683,7 @@ void SelectThrow::draw()
         draw_box(panels::area(Panel::screen));
 
         io::draw_text_center(
-                " Throw which item? ",
+                " 扔哪个物品？ ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());
@@ -1786,7 +1783,7 @@ void SelectThrow::update()
                                 ItemNameAttackInfo::none);
 
                 if (item->current_curse().is_active()) {
-                        msg_log::add("I refuse to throw the " + name + "!");
+                        msg_log::add("我拒绝扔 " + name + "!");
 
                         return;
                 }
@@ -1800,7 +1797,7 @@ void SelectThrow::update()
                 if (config::warn_on_throw_valuable() &&
                     (is_potion || is_equipped)) {
                         const std::string msg =
-                                "Throw the " +
+                                "扔 " +
                                 name +
                                 "? " +
                                 common_text::g_yes_or_no_hint;
@@ -1934,7 +1931,7 @@ void SelectIdentify::on_start()
                 // Nothing to identify, exit screen
                 states::pop();
 
-                msg_log::add("There is nothing to identify.");
+                msg_log::add("没有什么可以识别的。");
 
                 return;
         }
@@ -1955,7 +1952,7 @@ void SelectIdentify::draw()
         const int browser_y = m_browser.y();
 
         io::draw_text_center(
-                " Identify which item? ",
+                " 确定是哪一项？ ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());

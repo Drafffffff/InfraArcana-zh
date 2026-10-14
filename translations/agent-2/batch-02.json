@@ -1,0 +1,1210 @@
+[
+  {
+    "source": "A drug extracted from plants of extraterrestrial origin. It leaves the user in a perfectly serene state, free from all fear.",
+    "target": "从外星植物中提取的药物。它让用户处于完全平静的状态，没有任何恐惧。",
+    "locations": [
+      "src/item_data.cpp:2358"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Drum of .45 ACP",
+    "target": "0.45 ACP 的鼓",
+    "locations": [
+      "src/item_data.cpp:524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Fiery",
+    "target": "火热的",
+    "locations": [
+      "src/item_potion.cpp:128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Flak Jacket",
+    "target": "防弹衣",
+    "locations": [
+      "src/item_data.cpp:1468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Flare",
+    "target": "耀斑",
+    "locations": [
+      "src/item_data.cpp:781"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Fluctuating Material",
+    "target": "波动的材料",
+    "locations": [
+      "src/item_data.cpp:2326"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A focal point providing strength and guidance for the spirit and mind. Praying over the symbol grants 1-4 spirit points, and resistance against shock and fear for 6-12 turns.",
+    "target": "为精神和心智提供力量与指引的焦点。向此象征祈祷可获得 1–4 点精神值，并在 6–12 回合内抵抗震慑与恐惧。",
+    "locations": [
+      "src/item_data.cpp:2061"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Force Field Device",
+    "target": "力场装置",
+    "locations": [
+      "src/item_data.cpp:1812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A force pushes ",
+    "target": "有一股力量在推动 ",
+    "locations": [
+      "src/spells.cpp:3846"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A forgotten spell can be recalled again by gazing into a magic mirror, or by casting the spell from a manuscript.",
+    "target": "一个被遗忘的咒语可以通过凝视魔镜或从手稿中施展咒语来再次回忆起来。",
+    "locations": [
+      "src/spells.cpp:1300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Frothy",
+    "target": "泡沫状",
+    "locations": [
+      "src/item_potion.cpp:141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Gallium",
+    "target": "镓",
+    "locations": [
+      "src/item_rod.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Gas Mask",
+    "target": "防毒面具",
+    "locations": [
+      "src/item_data.cpp:1524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Golden",
+    "target": "一个金色的",
+    "locations": [
+      "src/item_potion.cpp:120",
+      "src/item_rod.cpp:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A great wickedness has been extinguished.",
+    "target": "一大恶业已被消灭。",
+    "locations": [
+      "src/common_text.cpp:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Green",
+    "target": "一个绿色",
+    "locations": [
+      "src/item_potion.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A gruesome torture device with spikes driven into the neck of the wearer. It is impossible to take off.",
+    "target": "一种可怕的酷刑装置，其尖刺刺入佩戴者的颈部。起飞是不可能的。",
+    "locations": [
+      "src/item_data.cpp:1551"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Hammer",
+    "target": "一把锤子",
+    "locations": [
+      "src/item_data.cpp:956"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a handful of Zombie Dust",
+    "target": "一把僵尸尘埃",
+    "locations": [
+      "src/item_data.cpp:2244"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Hatchet",
+    "target": "斧头",
+    "locations": [
+      "src/item_data.cpp:901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Heavy Coat",
+    "target": "厚外套",
+    "locations": [
+      "src/item_data.cpp:1431"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Holy Symbol",
+    "target": "神圣的象征",
+    "locations": [
+      "src/item_data.cpp:2058"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A horrible disease is starting to afflict ",
+    "target": "一种可怕的疾病开始侵袭 ",
+    "locations": [
+      "src/spells.cpp:4495"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A knife specially designed and weighted so that it can be thrown effectively.",
+    "target": "一把经过专门设计和加重的刀，可以有效地投掷。",
+    "locations": [
+      "src/item_data.cpp:830"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A large cleaver-like knife. It serves well both as a cutting tool and weapon.",
+    "target": "一把像切肉刀一样的大刀。它既可以用作切割工具，也可以用作武器。",
+    "locations": [
+      "src/item_data.cpp:980"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Lead",
+    "target": "一个线索",
+    "locations": [
+      "src/item_rod.cpp:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Leather Jacket",
+    "target": "一件皮夹克",
+    "locations": [
+      "src/item_data.cpp:1417"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A lever-action repeating rifle.",
+    "target": "杠杆式连发步枪。",
+    "locations": [
+      "src/item_data.cpp:621"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Lithium",
+    "target": "锂",
+    "locations": [
+      "src/item_rod.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A long staff with a forked, four-pronged end.",
+    "target": "一根长棍，末端有叉状四爪。",
+    "locations": [
+      "src/item_data.cpp:1063"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Machete",
+    "target": "砍刀",
+    "locations": [
+      "src/item_data.cpp:978"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Magenta",
+    "target": "洋红色",
+    "locations": [
+      "src/item_potion.cpp:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Magnesium",
+    "target": "镁",
+    "locations": [
+      "src/item_rod.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A mainspring-powered clockwork of unreal quality and beauty. When wound up, it causes the owner to move very swiftly for a brief time.",
+    "target": "一个主发条驱动的发条装置，具有不可思议的品质和美丽。当上紧发条时，它会导致所有者在短时间内快速移动。",
+    "locations": [
+      "src/item_data.cpp:2090"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Manuscript of ",
+    "target": "的手稿 ",
+    "locations": [
+      "src/item_scroll.cpp:177"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a Manuscript titled ",
+    "target": "手稿标题为 ",
+    "locations": [
+      "src/item_scroll.cpp:159"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "A maximum of ",
+    "target": "最多为 ",
+    "locations": [
+      "src/spells.cpp:2584"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a Medical Bag",
+    "target": "医疗包",
+    "locations": [
+      "src/item_data.cpp:1860"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Metallic",
+    "target": "金属色",
+    "locations": [
+      "src/item_potion.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A metallic device of cylindrical shape. It seems to be designed for human hands, for whatever nefarious purpose.",
+    "target": "圆柱形金属装置。它似乎是为人类的双手而设计的，无论出于什么邪恶的目的。",
+    "locations": [
+      "src/item_data.cpp:298"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Mi-Go Bio-armor",
+    "target": "Mi-Go 生物装甲",
+    "locations": [
+      "src/item_data.cpp:1510"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Misty",
+    "target": "一片迷蒙",
+    "locations": [
+      "src/item_potion.cpp:136"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Moldy",
+    "target": "发霉的",
+    "locations": [
+      "src/item_potion.cpp:140"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Molotov Cocktail",
+    "target": "燃烧弹鸡尾酒",
+    "locations": [
+      "src/item_data.cpp:796"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Morphic Blaster",
+    "target": "变形冲击波",
+    "locations": [
+      "src/item_data.cpp:448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Muddy",
+    "target": "泥泞的",
+    "locations": [
+      "src/item_potion.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Murky",
+    "target": "阴暗的",
+    "locations": [
+      "src/item_potion.cpp:129"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Nickel",
+    "target": "镍",
+    "locations": [
+      "src/item_rod.cpp:70"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A one piece overall of asbestos fabric, including a hood, furnace mask, gloves and shoes.",
+    "target": "一件式石棉织物，包括头罩、炉面罩、手套和鞋子。",
+    "locations": [
+      "src/item_data.cpp:1489"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A pack of rats appear around the caster.",
+    "target": "一群老鼠出现在施法者周围。",
+    "locations": [
+      "src/spells.cpp:2367"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A pitch black dagger with elaborate ornaments. The blade appears blurry, as if perpetually covered in a dark haze.",
+    "target": "一把漆黑的匕首，上面有精致的装饰。剑刃看起来模糊不清，仿佛永远笼罩在黑暗的薄雾之中。",
+    "locations": [
+      "src/item_data.cpp:2159"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Pitchfork",
+    "target": "干草叉",
+    "locations": [
+      "src/item_data.cpp:1061"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Platinum",
+    "target": "白金级",
+    "locations": [
+      "src/item_rod.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A pole weapon consisting of a wooden shaft and a steel head.",
+    "target": "一种由木柄和钢头组成的长杆武器。",
+    "locations": [
+      "src/item_data.cpp:1089"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A portable bag of medical supplies. Can be used to treat Wounds or Infections.",
+    "target": "一个装有医疗用品的便携式袋子。可用于治疗创伤或感染。",
+    "locations": [
+      "src/item_data.cpp:1862"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A portable light source.",
+    "target": "便携式光源。",
+    "locations": [
+      "src/item_data.cpp:1879"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Potion of ",
+    "target": "一剂药水 ",
+    "locations": [
+      "src/item_potion.cpp:176"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a Pump Shotgun",
+    "target": "泵动霰弹枪",
+    "locations": [
+      "src/item_data.cpp:406"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A pump-action shotgun has a handgrip that can be pumped back and forth in order to eject a spent round of ammunition and to chamber a fresh one. It has a single barrel above a tube magazine into which shells are inserted. The magazine has a capacity of 8 shells.",
+    "target": "泵动式霰弹枪有一个可以前后泵动的手柄，以便弹出用完的弹药并装入新的弹药。它在管状弹匣上方有一个枪管，炮弹可插入其中。该弹匣容量为8发。",
+    "locations": [
+      "src/item_data.cpp:408"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a punch",
+    "target": "一拳",
+    "locations": [
+      "src/item_data.cpp:1178"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rejuvenator Device",
+    "target": "回春装置",
+    "locations": [
+      "src/item_data.cpp:1776"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Revolver .38 Bullet",
+    "target": ".38 子弹左轮手枪",
+    "locations": [
+      "src/item_data.cpp:565"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rock",
+    "target": "一块岩石",
+    "locations": [
+      "src/item_data.cpp:851"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Rod of ",
+    "target": "一根魔棒： ",
+    "locations": [
+      "src/item_rod.cpp:109"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a S&W Revolver",
+    "target": "S&W 左轮手枪",
+    "locations": [
+      "src/item_data.cpp:539"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Sawed-off Shotgun",
+    "target": "一把锯短的霰弹枪",
+    "locations": [
+      "src/item_data.cpp:377"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Scourge",
+    "target": "天灾",
+    "locations": [
+      "src/item_data.cpp:1933"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A semi-automatic, magazine-fed pistol chambered for the .45 ACP cartridge.",
+    "target": "半自动弹匣供弹手枪，可装 0.45 ACP 子弹。",
+    "locations": [
+      "src/item_data.cpp:582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Sentry Drone Device",
+    "target": "哨兵无人机设备",
+    "locations": [
+      "src/item_data.cpp:1800"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A sheet steel cylinder with emission holes releasing smoke when the grenade is ignited. Their primary use is to create smoke screens for concealment. The fumes produced can harm the eyes, throat and lungs - so it is recommended to wear a protective mask.",
+    "target": "带有发射孔的钢板圆筒，当手榴弹被点燃时会释放烟雾。它们的主要用途是制造烟幕以进行隐蔽。产生的烟雾会伤害眼睛、喉咙和肺部——因此建议佩戴防护面罩。",
+    "locations": [
+      "src/item_data.cpp:814"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A short transcription of an eldritch incantation. There is a strange aura about it, as if some power was imbued in the paper itself.",
+    "target": "一段可怕咒语的简短转录。上面有一种奇异的气息，仿佛纸张本身蕴含着某种力量。",
+    "locations": [
+      "src/item_data.cpp:214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a shotgun shell",
+    "target": "猎枪弹壳",
+    "locations": [
+      "src/item_data.cpp:436"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A shroud of vapor envelops me.",
+    "target": "一层水蒸气笼罩着我。",
+    "locations": [
+      "src/item_rod.cpp:594"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Silver",
+    "target": "银牌",
+    "locations": [
+      "src/item_rod.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A sinister brew.",
+    "target": "一种险恶的酿造。",
+    "locations": [
+      "src/item_potion.cpp:725"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A six-shot double-action revolver.",
+    "target": "六发双动左轮手枪。",
+    "locations": [
+      "src/item_data.cpp:541"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Sledgehammer",
+    "target": "大锤",
+    "locations": [
+      "src/item_data.cpp:1110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Slimy",
+    "target": "一个粘糊糊的",
+    "locations": [
+      "src/item_potion.cpp:126"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A small axe with a short handle. Hatchets are reliable weapons - they are easy to use, and cause decent damage for their low weight.",
+    "target": "短柄小斧头。斧头是可靠的武器 - 它们易于使用，并且重量轻，可造成相当大的伤害。",
+    "locations": [
+      "src/item_data.cpp:903"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A small glass bottle containing a mysterious concoction.",
+    "target": "一个小玻璃瓶，里面装有神秘的混合物。",
+    "locations": [
+      "src/item_data.cpp:241"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A small piece of machinery. It could not possibly have been designed by a human mind. Even for its small size, it seems incredibly complex. There is no hope of understanding the purpose or function of it through normal means.",
+    "target": "一个小机械。它不可能是由人类大脑设计的。尽管它的尺寸很小，但它看起来却非常复杂。通过正常手段是无法了解其目的或功能的。",
+    "locations": [
+      "src/item_data.cpp:275"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Smoke Grenade",
+    "target": "烟雾弹",
+    "locations": [
+      "src/item_data.cpp:812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Smoky",
+    "target": "烟熏的",
+    "locations": [
+      "src/item_potion.cpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Spear",
+    "target": "矛",
+    "locations": [
+      "src/item_data.cpp:1087"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Spike Gun",
+    "target": "长钉枪",
+    "locations": [
+      "src/item_data.cpp:658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Spiked Mace",
+    "target": "尖刺狼牙棒",
+    "locations": [
+      "src/item_data.cpp:1027"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Stick of Dynamite",
+    "target": "一根炸药棒",
+    "locations": [
+      "src/item_data.cpp:767"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Strange Device",
+    "target": "奇怪的装置",
+    "locations": [
+      "src/item_data.cpp:273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Throwing Knife",
+    "target": "一把飞刀",
+    "locations": [
+      "src/item_data.cpp:828"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Tin",
+    "target": "一罐",
+    "locations": [
+      "src/item_rod.cpp:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Titanium",
+    "target": "钛",
+    "locations": [
+      "src/item_rod.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Tommy Gun",
+    "target": "一把汤米枪",
+    "locations": [
+      "src/item_data.cpp:492"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A tool intended for felling trees, splitting timber, etc. Used as a weapon it can deliver devastating blows, although it requires some skill to use effectively.",
+    "target": "一种用于砍伐树木、劈木等的工具。用作武器时，它可以造成毁灭性的打击，但需要一定的技巧才能有效使用。",
+    "locations": [
+      "src/item_data.cpp:1004"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Torture Collar",
+    "target": "酷刑项圈",
+    "locations": [
+      "src/item_data.cpp:1549"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Translocator Device",
+    "target": "转运装置",
+    "locations": [
+      "src/item_data.cpp:1788"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Tungsten",
+    "target": "钨",
+    "locations": [
+      "src/item_rod.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A type of pyrotechnic that produces a brilliant light or intense heat without an explosion.",
+    "target": "一种烟火，能产生明亮的光或强烈的热量而不爆炸。",
+    "locations": [
+      "src/item_data.cpp:783"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A very strange and crude weapon capable of launching iron spikes with enough force to pierce flesh (or even rock). It seems almost to be deliberately designed for cruelty, rather than pure stopping power.",
+    "target": "一种非常奇怪和粗糙的武器，能够发射铁钉，其力量足以刺穿肉体（甚至岩石）。它似乎是为了残酷而故意设计的，而不是纯粹的制止力量。",
+    "locations": [
+      "src/item_data.cpp:660"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Violet",
+    "target": "一朵紫罗兰",
+    "locations": [
+      "src/item_potion.cpp:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Watery",
+    "target": "水汪汪的",
+    "locations": [
+      "src/item_potion.cpp:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A weapon created by the Mi-Go. It fires devastating bolts of electricity.",
+    "target": "Mi-Go 创造的武器。它会发射毁灭性的闪电。",
+    "locations": [
+      "src/item_data.cpp:692"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A weapon created by the Mi-Go. It launches projectiles that unleash explosive energy upon impact. The weapon adapts itself to merge with the biology of its wielder. A guidance system integrates with the brain to ensure that the projectile hits its intended mark independent of aiming skill (although there is a small chance that it collides with unintended targets along the path).",
+    "target": "Mi-Go 创造的武器。它发射的射弹在撞击时会释放爆炸性能量。该武器会自我调整以融入其使用者的生物学特征。制导系统与大脑集成，以确保弹丸击中预定目标，而与瞄准技能无关（尽管它沿着路径与意外目标发生碰撞的可能性很小）。",
+    "locations": [
+      "src/item_data.cpp:450"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Winchester .30 Bullet",
+    "target": "温彻斯特 .30 子弹",
+    "locations": [
+      "src/item_data.cpp:646"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Winchester Rifle",
+    "target": "温彻斯特步枪",
+    "locations": [
+      "src/item_data.cpp:619"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Witch's Eye",
+    "target": "女巫之眼",
+    "locations": [
+      "src/item_data.cpp:2268"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Yellow",
+    "target": "黄色",
+    "locations": [
+      "src/item_potion.cpp:121"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Zinc",
+    "target": "锌",
+    "locations": [
+      "src/item_rod.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Zirconium",
+    "target": "锆",
+    "locations": [
+      "src/item_rod.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ABHOLOS",
+    "target": "阿布霍洛斯",
+    "locations": [
+      "src/item_curse.cpp:555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ABYSS",
+    "target": "深渊",
+    "locations": [
+      "src/item_curse.cpp:542"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Acerbus-shatruex",
+    "target": "槭树",
+    "locations": [
+      "src/item_scroll.cpp:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Affects all visible hostile creatures.",
+    "target": "影响所有可见的敌对生物。",
+    "locations": [
+      "src/spells.cpp:2778",
+      "src/spells.cpp:4170",
+      "src/spells.cpp:4298",
+      "src/spells.cpp:4435"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Affects one random visible hostile creature.",
+    "target": "影响一名随机可见的敌对生物。",
+    "locations": [
+      "src/spells.cpp:2774",
+      "src/spells.cpp:4166",
+      "src/spells.cpp:4294",
+      "src/spells.cpp:4431"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "AIM LVL: ",
+    "target": "瞄准等级： ",
+    "locations": [
+      "src/attack_ranged.cpp:148"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "AIM POS: ",
+    "target": "瞄准位置： ",
+    "locations": [
+      "src/attack_ranged.cpp:141"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "ALL",
+    "target": "全部",
+    "locations": [
+      "src/item_curse.cpp:525"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "all items",
+    "target": "所有项目",
+    "locations": [
+      "src/spells.cpp:3696"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All its properties are now known to me.",
+    "target": "现在我已经知道它的所有属性了。",
+    "locations": [
+      "src/item_device.cpp:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All shock taken from spell casting is doubled, and the presence of one who is consulting such knowledge is felt strongly (-20% stealth, 2% chance per turn of alerting nearby creatures).",
+    "target": "施法承受的震慑全部加倍，而且咨询此类知识之人的存在会被强烈感知（潜行 -20%，每回合有 2% 几率惊动附近生物）。",
+    "locations": [
+      "src/item_data.cpp:2223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "All undead creatures adjacent to the caster (seen or not) are struck with ",
+    "target": "所有与施法者相邻的不死生物（无论是否可见）都会受到 ",
+    "locations": [
+      "src/spells.cpp:2927"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "almost broken.",
+    "target": "几乎坏了。",
+    "locations": [
+      "src/item_device.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Also, a devastating curse may fall upon those struck by this weapon (50% chance to apply doom, greatly reducing the victim's hit chances, evasion, and searching ability, and also causes a small chance to fail when casting spells).",
+    "target": "另外，被该武器击中的人可能会受到毁灭性的诅咒（50% c几率施加厄运，大大降低受害者的命中率、闪避率和搜索能力，并且还有小概率施法失败）。",
+    "locations": [
+      "src/item_data.cpp:1906"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "altar",
+    "target": "坛",
+    "locations": [
+      "src/spells.cpp:673",
+      "src/terrain.cpp:2330"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Although not a very impressive weapon, with skill they can be used with some result.",
+    "target": "虽然不是一种令人印象深刻的武器，但只要有技巧，它们的使用就能产生一些效果。",
+    "locations": [
+      "src/item_data.cpp:853"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammunition used by Colt pistols.",
+    "target": "柯尔特手枪使用的弹药。",
+    "locations": [
+      "src/item_data.cpp:609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammunition used by S&W Model 10 Revolvers.",
+    "target": "S&W 10 型左轮手枪使用的弹药。",
+    "locations": [
+      "src/item_data.cpp:567"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammunition used by Tommy Guns.",
+    "target": "汤米枪使用的弹药。",
+    "locations": [
+      "src/item_data.cpp:526"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ammunition used by Winchester Rifles.",
+    "target": "温彻斯特步枪使用的弹药。",
+    "locations": [
+      "src/item_data.cpp:648"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An armour consisting of steel plates sewn into a waistcoat.",
+    "target": "由缝在背心中的钢板组成的盔甲。",
+    "locations": [
+      "src/item_data.cpp:1470"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Asbestos Suit",
+    "target": "石棉套装",
+    "locations": [
+      "src/item_data.cpp:1487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Astral Opium Dose",
+    "target": "星界鸦片剂量",
+    "locations": [
+      "src/item_data.cpp:2356"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Axe",
+    "target": "一把斧头",
+    "locations": [
+      "src/item_data.cpp:1002"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Electric Gun",
+    "target": "电动枪",
+    "locations": [
+      "src/item_data.cpp:690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Electric Lantern",
+    "target": "电灯笼",
+    "locations": [
+      "src/item_data.cpp:1877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An explosive material based on nitroglycerin. The name comes from the ancient Greek word for \"power\".",
+    "target": "一种基于硝化甘油的爆炸材料。这个名字来源于古希腊语中的“力量”一词。",
+    "locations": [
+      "src/item_data.cpp:769"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An extremely durable biological armor created by the Mi-Go.",
+    "target": "Mi-Go 打造的极其耐用的生物装甲。",
+    "locations": [
+      "src/item_data.cpp:1512"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An improvised incendiary weapon made of a glass bottle containing flammable liquid and some cloth for ignition. In action, the cloth is lit and the bottle hurled at a target, causing an immediate fireball followed by a raging fire.",
+    "target": "一种简易燃烧武器，由装有易燃液体的玻璃瓶和一些点火布制成。在行动中，布被点燃，瓶子被扔向目标，立即引起火球，随后引发熊熊大火。",
+    "locations": [
+      "src/item_data.cpp:798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An infinite number of steps may be taken, the spell is only limited by the number of hit points.",
+    "target": "可以采取无限数量的步骤，该法术仅受生命值的限制。",
+    "locations": [
+      "src/spells.cpp:5552"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An insane cacophony resounds through the air!",
+    "target": "空气中响起了疯狂的刺耳声音！",
+    "locations": [
+      "src/spells.cpp:1923"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Iron",
+    "target": "一个熨斗",
+    "locations": [
+      "src/item_rod.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Iron Spike",
+    "target": "铁钉",
+    "locations": [
+      "src/item_data.cpp:1130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Iron Suit",
+    "target": "一套铁衣",
+    "locations": [
+      "src/item_data.cpp:1448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an M1911 Colt",
+    "target": "M1911 小马",
+    "locations": [
+      "src/item_data.cpp:580"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Oily",
+    "target": "油腻的",
+    "locations": [
+      "src/item_potion.cpp:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An old finger bone, carved with tiny symbols.",
+    "target": "一根古老的指骨，上面刻有微小的符号。",
+    "locations": [
+      "src/item_data.cpp:2294"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "an Orange",
+    "target": "一个橙子",
+    "locations": [
+      "src/item_potion.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "An unexpected effect was induced by the spell.",
+    "target": "这个咒语引发了意想不到的效果。",
+    "locations": [
+      "src/spells.cpp:151"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ANCIENT",
+    "target": "古老的",
+    "locations": [
+      "src/item_curse.cpp:528"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Any time a creature takes damage from the spell, they may be destroyed immediately (2% chance).",
+    "target": "该法术造成的每次伤害都有可能立即消灭目标（2% 几率）。",
+    "locations": [
+      "src/spells.cpp:1459"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "APPEAR",
+    "target": "出现",
+    "locations": [
+      "src/item_curse.cpp:522"
+    ],
+    "kind": "ui"
+  }
+]

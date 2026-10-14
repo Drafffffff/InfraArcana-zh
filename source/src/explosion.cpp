@@ -214,7 +214,7 @@ static void apply_explosion_on_pos(
         if (living_actor) {
                 if (actor::is_player(living_actor)) {
                         msg_log::add(
-                                "I am hit by an explosion!",
+                                "我被爆炸击中了！",
                                 colors::msg_bad());
                 }
 
@@ -228,7 +228,7 @@ static void apply_explosion_on_pos(
                     actor::is_player(living_actor)) {
                         // Player survived being hit by an explosion, that's
                         // pretty cool!
-                        game::add_history_event("Survived an explosion");
+                        game::add_history_event("在爆炸中幸存");
                 }
         }
 
@@ -395,7 +395,7 @@ void run(
                         blocked);
 
         if (emit_expl_snd == EmitExplSnd::yes) {
-                Snd snd("I hear an explosion!",
+                Snd snd("我听到爆炸声！",
                         audio::SfxId::explosion,
                         IgnoreMsgIfOriginSeen::yes,
                         origin,

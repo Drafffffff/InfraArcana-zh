@@ -431,7 +431,7 @@ void Viewing::on_moved()
                 const std::string msg =
                         std::string("[") +
                         game_commands::view_key() +
-                        std::string("] for description");
+                        std::string("] 查看说明");
 
                 msg_log::add(
                         msg,
@@ -502,7 +502,7 @@ void Aiming::on_moved()
                                         att_data.hit_chance_tot);
 
                         msg_log::add(
-                                std::to_string(hit_chance) + "% hit chance.",
+                                std::to_string(hit_chance) + "% 命中率。",
                                 colors::light_white(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -516,8 +516,7 @@ void Aiming::on_moved()
                 if (!is_in_effective_range &&
                     (m_wpn.data().ranged.effective_range.max > 0)) {
                         msg_log::add(
-                                ("Aiming outside effective weapon range "
-                                 "(50% damage)."),
+                                ("瞄准超出武器有效射程（伤害减半）。"),
                                 colors::msg_note(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -528,7 +527,7 @@ void Aiming::on_moved()
         const std::string msg =
                 std::string("[") +
                 game_commands::fire_key() +
-                std::string("] to fire ") +
+                std::string("] 开火 ") +
                 common_text::g_cancel_hint;
 
         msg_log::add(
@@ -618,7 +617,7 @@ void AimingMeleeWpn::on_moved()
                                         att_data.hit_chance_tot);
 
                         msg_log::add(
-                                std::to_string(hit_chance) + "% hit chance.",
+                                std::to_string(hit_chance) + "% 命中率。",
                                 colors::light_white(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -629,7 +628,7 @@ void AimingMeleeWpn::on_moved()
         const std::string msg =
                 std::string("[") +
                 game_commands::fire_key() +
-                std::string("] to attack ") +
+                std::string("] 攻击 ") +
                 common_text::g_cancel_hint;
 
         msg_log::add(
@@ -734,7 +733,7 @@ void Throwing::on_moved()
                                         att_data.hit_chance_tot);
 
                         msg_log::add(
-                                std::to_string(hit_chance) + "% hit chance.",
+                                std::to_string(hit_chance) + "% 命中率。",
                                 colors::light_white(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -748,8 +747,7 @@ void Throwing::on_moved()
                 if (!is_in_effective_range &&
                     (m_inv_item->data().ranged.effective_range.max > 0)) {
                         msg_log::add(
-                                ("Aiming outside effective weapon range "
-                                 "(50% damage)."),
+                                ("瞄准超出武器有效射程（伤害减半）。"),
                                 colors::msg_note(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -760,7 +758,7 @@ void Throwing::on_moved()
         const std::string msg =
                 std::string("[") +
                 game_commands::throw_key() +
-                std::string("] to throw ") +
+                std::string("] 投掷 ") +
                 common_text::g_cancel_hint;
 
         msg_log::add(
@@ -873,7 +871,7 @@ void ThrowingExplosive::on_moved()
         const std::string name = m_explosive.name(ItemNameType::a, ItemNameInfo::none);
 
         msg_log::add(
-                "Throwing " + name + ".",
+                "投掷 " + name + ".",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::no,
@@ -884,7 +882,7 @@ void ThrowingExplosive::on_moved()
         const std::string msg =
                 std::string("[") +
                 game_commands::throw_key() +
-                std::string("] to throw ") +
+                std::string("] 投掷 ") +
                 common_text::g_cancel_hint;
 
         msg_log::add(
@@ -947,7 +945,7 @@ int CtrlTele::chance_of_success_pct() const
 void CtrlTele::on_start_hook()
 {
         msg_log::add(
-                "I can control where I teleport.",
+                "我可以控制传送目的地。",
                 colors::white(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes,
@@ -962,14 +960,14 @@ void CtrlTele::on_moved()
                 const int chance_pct = chance_of_success_pct();
 
                 msg_log::add(
-                        std::to_string(chance_pct) + "% chance of success.",
+                        std::to_string(chance_pct) + "成功率。",
                         colors::light_white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::no,
                         CopyToMsgHistory::no);
 
                 msg_log::add(
-                        "[enter] to try teleporting here",
+                        "[回车] 尝试传送到此处",
                         colors::light_white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::no,
@@ -1008,7 +1006,7 @@ void CtrlTele::handle_input(const io::InputData& input)
         else {
                 // Failed to teleport (blocked or roll failed)
                 msg_log::add(
-                        "I failed to go there...",
+                        "我没能走到那里……",
                         colors::white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes,
@@ -1085,7 +1083,7 @@ std::string CtrlObjOpen::menu_label(const terrain::Terrain& terrain) const
 {
         const std::string name = terrain.name(Article::the);
 
-        return "(o) Open " + name;
+        return "(o) 打开 " + name;
 }
 
 char CtrlObjOpen::menu_key() const
@@ -1137,14 +1135,14 @@ DidAction CtrlObjCloseDoor::run(
                                                 *actor_here));
                 }
                 else {
-                        actor_name = "Something";
+                        actor_name = "某物";
                 }
 
                 const std::string terrain_name = terrain.name(Article::the);
 
                 msg_log::add(
                         actor_name +
-                        " prevents closing " +
+                        " 阻止关闭 " +
                         terrain_name +
                         ".");
 
@@ -1160,7 +1158,7 @@ std::string CtrlObjCloseDoor::menu_label(const terrain::Terrain& terrain) const
 {
         const std::string name = terrain.name(Article::the);
 
-        return "(c) Close " + name;
+        return "(c) 关闭 " + name;
 }
 
 char CtrlObjCloseDoor::menu_key() const
@@ -1200,7 +1198,7 @@ DidAction CtrlObjJamDoor::run(
                 text_format::first_to_upper(
                         door.name(Article::the));
 
-        msg_log::add(name_the + " is jammed.");
+        msg_log::add(name_the + " 卡住了。");
 
         door.jam(map::g_player);
 
@@ -1211,7 +1209,7 @@ std::string CtrlObjJamDoor::menu_label(const terrain::Terrain& terrain) const
 {
         const std::string name = terrain.name(Article::the);
 
-        return "(c) Jam " + name;
+        return "(c) 卡住 " + name;
 }
 
 char CtrlObjJamDoor::menu_key() const
@@ -1246,7 +1244,7 @@ DidAction CtrlObjDeactivateCrystal::run(
                 text_format::first_to_upper(
                         lever.name(Article::the));
 
-        msg_log::add(name_the + " is deactivated.");
+        msg_log::add(name_the + " 已停用。");
 
         lever.player_deactivate();
 
@@ -1258,7 +1256,7 @@ std::string CtrlObjDeactivateCrystal::menu_label(
 {
         (void)terrain;
 
-        return "(d) Deactivate crystal";
+        return "(d) 停用水晶";
 }
 
 char CtrlObjDeactivateCrystal::menu_key() const
@@ -1365,7 +1363,7 @@ std::string CtrlObjStrike::menu_label(const terrain::Terrain& terrain) const
 {
         const std::string name = terrain.name(Article::the);
 
-        return "(w) Strike " + name;
+        return "(w) 攻击 " + name;
 }
 
 char CtrlObjStrike::menu_key() const
@@ -1402,7 +1400,7 @@ DidAction CtrlObjDestrWall::run(
         (void)skill;
 
         if (!map::is_pos_inside_outer_walls(terrain.pos())) {
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
 
                 return DidAction::yes;
         }
@@ -1410,7 +1408,7 @@ DidAction CtrlObjDestrWall::run(
         switch (terrain.id()) {
         case terrain::Id::door: {
                 // NOTE: The door is hidden.
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
 
                 return DidAction::yes;
         } break;
@@ -1436,7 +1434,7 @@ std::string CtrlObjDestrWall::menu_label(const terrain::Terrain& terrain) const
 {
         const std::string name = terrain.name(Article::the);
 
-        return "(w) Destroy " + name;
+        return "(w) 摧毁 " + name;
 }
 
 char CtrlObjDestrWall::menu_key() const
@@ -1467,7 +1465,7 @@ bool CtrlObj::is_allowed_at_dist() const
 void CtrlObj::on_start_hook()
 {
         msg_log::add(
-                "Select an object to control.",
+                "选择一个要控制的物体。",
                 colors::white(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes,
@@ -1493,7 +1491,7 @@ void CtrlObj::on_moved()
                 : colors::msg_bad();
 
         const std::string dist_msg =
-                "Distance: " +
+                "距离： " +
                 dist_str +
                 "/" +
                 max_dist_str;
@@ -1508,7 +1506,7 @@ void CtrlObj::on_moved()
         if (is_allowed_at_dist() && !m_possible_actions.empty()) {
                 const terrain::Terrain* const terrain = map::g_terrain.at(m_pos);
                 const std::string name_the = terrain->name(Article::the);
-                const std::string control_str = "[enter] to control " + name_the;
+                const std::string control_str = "[回车] 控制 " + name_the;
 
                 msg_log::add(
                         control_str,
@@ -1540,7 +1538,7 @@ void CtrlObj::handle_input(const io::InputData& input)
 
         if (!map::g_seen.at(m_pos)) {
                 msg_log::add(
-                        "I have no vision here.",
+                        "我在这里什么也看不见。",
                         colors::white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::no,
@@ -1552,8 +1550,8 @@ void CtrlObj::handle_input(const io::InputData& input)
         if (!is_allowed_at_dist()) {
                 const std::string msg =
                         (current_dist() == 0)
-                        ? "The distance is too small."
-                        : "The distance is too great.";
+                        ? "距离太近。"
+                        : "距离太远。";
 
                 msg_log::add(
                         msg,
@@ -1567,7 +1565,7 @@ void CtrlObj::handle_input(const io::InputData& input)
 
         if (m_possible_actions.empty()) {
                 msg_log::add(
-                        "I cannot control any object here.",
+                        "这里没有我能控制的物体。",
                         colors::white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::no,
@@ -1647,7 +1645,7 @@ CtrlObjActionPtr CtrlObj::query_control() const
         }
 
         menu_keys.push_back(0);
-        menu_labels.emplace_back("(space, esc) Choose another position");
+        menu_labels.emplace_back("(空格，Esc) 选择其他位置");
 
         int choice = 0;
 
@@ -1657,7 +1655,7 @@ CtrlObjActionPtr CtrlObj::query_control() const
                 popup::MenuModeShowCancelHint::no,
                 &choice);
 
-        popup.set_title("Control object");
+        popup.set_title("控制物体");
 
         popup.run();
 

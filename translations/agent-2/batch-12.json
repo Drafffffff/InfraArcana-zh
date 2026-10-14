@@ -1,0 +1,1216 @@
+[
+  {
+    "source": "Brazier",
+    "target": "火盆",
+    "locations": [
+      "src/terrain.cpp:3043"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "brazier",
+    "target": "火盆",
+    "locations": [
+      "src/terrain.cpp:2880"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Braziers can be kicked over to set creatures on fire in a small area.",
+    "target": "踢翻火盆可在小范围内点燃生物。",
+    "locations": [
+      "src/hints.cpp:128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "bridge",
+    "target": "桥",
+    "locations": [
+      "src/terrain.cpp:1875"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "broken pillar",
+    "target": "断裂的石柱",
+    "locations": [
+      "src/terrain.cpp:984"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Brown Jenkin",
+    "target": "布朗·詹金",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Bugg-Shash",
+    "target": "布格-沙什",
+    "locations": [
+      "src/gods.cpp:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Burning",
+    "target": "燃烧",
+    "locations": [
+      "src/property_data.cpp:395",
+      "src/property_data.cpp:396"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "burning ",
+    "target": "燃烧 ",
+    "locations": [
+      "src/terrain.cpp:1215",
+      "src/terrain.cpp:2845",
+      "src/terrain.cpp:4805",
+      "src/terrain.cpp:4975",
+      "src/terrain.cpp:5149",
+      "src/terrain.cpp:5399",
+      "src/terrain_door.cpp:1117"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "burning grass",
+    "target": "燃烧的草地",
+    "locations": [
+      "src/terrain.cpp:2461"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "burning shrub",
+    "target": "燃烧的灌木",
+    "locations": [
+      "src/terrain.cpp:2547"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "burning vines",
+    "target": "燃烧的藤蔓",
+    "locations": [
+      "src/terrain.cpp:2627"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "by bumping them).",
+    "target": "通过碰撞它们）。",
+    "locations": [
+      "installed_files/release_history.txt:271"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "c         CLOSE DOOR, or jam closed door with an iron spike",
+    "target": "c         关门，或用铁钉卡住关上的门",
+    "locations": [
+      "installed_files/manual.txt:6"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "C (@)     CHARACTER information",
+    "target": "C (@)     角色信息",
+    "locations": [
+      "installed_files/manual.txt:7"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cabinet",
+    "target": "柜子",
+    "locations": [
+      "src/terrain.cpp:4808"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Caecux infirmux!",
+    "target": "卡埃库斯·因菲尔穆克斯！",
+    "locations": [
+      "src/actor_mon.cpp:186"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Callous",
+    "target": "冷酷",
+    "locations": [
+      "src/player_bon.cpp:534"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "calms down a little.",
+    "target": "稍微平静下来。",
+    "locations": [
+      "src/property_data.cpp:787"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can be used for",
+    "target": "可用于",
+    "locations": [
+      "installed_files/manual.txt:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can breath without harm.",
+    "target": "可以安然呼吸。",
+    "locations": [
+      "src/property_data.cpp:297"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can burrow through walls and rubble.",
+    "target": "可以穿过墙壁和瓦砾挖掘前进。",
+    "locations": [
+      "src/property_data.cpp:1214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can control teleport destination.",
+    "target": "可以控制传送目的地。",
+    "locations": [
+      "src/property_data.cpp:1029"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can incite frenzy at will, and does not become weakened when frenzy ends.",
+    "target": "可以随意激起狂暴，狂暴结束后也不会变虚弱。",
+    "locations": [
+      "src/player_bon.cpp:1149"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can move again.",
+    "target": "可以再次移动。",
+    "locations": [
+      "src/property_data.cpp:442"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can move through earth.",
+    "target": "可以穿过土层移动。",
+    "locations": [
+      "src/property_data.cpp:1216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can no longer move through earth.",
+    "target": "不再能穿过土层移动。",
+    "locations": [
+      "src/property_data.cpp:1218"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can pass through solid objects, +50% chance to evade attacks.",
+    "target": "可以穿过固体物体，闪避攻击几率 +50%。",
+    "locations": [
+      "src/property_data.cpp:1194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can see again.",
+    "target": "可以再次看见。",
+    "locations": [
+      "src/property_data.cpp:350"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can see in darkness.",
+    "target": "可以在黑暗中视物。",
+    "locations": [
+      "src/player_bon.cpp:1158"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can see invisible creatures, cannot be blinded.",
+    "target": "可以看见隐形生物，且不会失明。",
+    "locations": [
+      "src/property_data.cpp:1006"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Can sense the presence of unique monsters or powerful artifacts.",
+    "target": "可以感知独特怪物或强大圣物的存在。",
+    "locations": [
+      "src/player_bon.cpp:1199"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_bash_doors",
+    "target": "can_bash_doors",
+    "locations": [
+      "src/actor_data.cpp:280"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_be_shapeshifted_into",
+    "target": "can_be_shapeshifted_into",
+    "locations": [
+      "src/actor_data.cpp:580"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_be_summoned_by_monster",
+    "target": "can_be_summoned_by_monster",
+    "locations": [
+      "src/actor_data.cpp:570"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_bleed",
+    "target": "can_bleed",
+    "locations": [
+      "src/actor_data.cpp:306"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_leave_corpse",
+    "target": "can_leave_corpse",
+    "locations": [
+      "src/actor_data.cpp:311"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_open_doors",
+    "target": "can_open_doors",
+    "locations": [
+      "src/actor_data.cpp:275"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "can_spawn_from_tomb",
+    "target": "can_spawn_from_tomb",
+    "locations": [
+      "src/actor_data.cpp:575"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "canine",
+    "target": "犬科动物",
+    "locations": [
+      "src/actor_data.cpp:294"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Canines suddenly seem terrifying.",
+    "target": "犬类突然显得令人恐惧。",
+    "locations": [
+      "include/insanity.hpp:562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be affected by harmful spells.",
+    "target": "不受有害法术影响。",
+    "locations": [
+      "src/property_data.cpp:306"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be blinded.",
+    "target": "不会失明。",
+    "locations": [
+      "src/property_data.cpp:273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be detected by normal sight, ends if attacking or casting spells.",
+    "target": "普通视力无法发现；攻击或施法时效果结束。",
+    "locations": [
+      "src/property_data.cpp:987"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be detected by normal sight.",
+    "target": "普通视力无法发现。",
+    "locations": [
+      "src/property_data.cpp:971"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be harmed by constricted breathing.",
+    "target": "不会因呼吸受阻而受伤。",
+    "locations": [
+      "src/property_data.cpp:295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be harmed by electricity.",
+    "target": "不会受到电击伤害。",
+    "locations": [
+      "src/property_data.cpp:192"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be harmed by fire.",
+    "target": "不会受到火焰伤害。",
+    "locations": [
+      "src/property_data.cpp:164"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be harmed by physical attacks.",
+    "target": "不会受到物理攻击伤害。",
+    "locations": [
+      "src/property_data.cpp:150"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be harmed by poison.",
+    "target": "不会受到毒素伤害。",
+    "locations": [
+      "src/property_data.cpp:178"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be magically slowed.",
+    "target": "不会被魔法减速。",
+    "locations": [
+      "src/property_data.cpp:234"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot be paralyzed.",
+    "target": "不会麻痹。",
+    "locations": [
+      "src/property_data.cpp:283"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot become confused.",
+    "target": "不会陷入困惑。",
+    "locations": [
+      "src/property_data.cpp:246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot become diseased.",
+    "target": "不会染病。",
+    "locations": [
+      "src/property_data.cpp:260"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot faint or become hypnotized.",
+    "target": "不会昏厥或被催眠。",
+    "locations": [
+      "src/property_data.cpp:206"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot hear sounds.",
+    "target": "听不见声音。",
+    "locations": [
+      "src/property_data.cpp:362"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cannot move at all",
+    "target": "完全无法移动",
+    "locations": [
+      "installed_files/manual.txt:135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot move away from seen enemies, moves faster, +1 melee damage, +10% melee hit chance, immune to confusion, fainting, fear, and weakening, cannot read or cast spells, becomes weakened when the frenzy ends.",
+    "target": "无法远离看见的敌人；移动加快，近战伤害 +1，近战命中率 +10%；免疫困惑、昏厥、恐惧和虚弱；无法阅读或施法；狂暴结束后会变虚弱。",
+    "locations": [
+      "src/property_data.cpp:780"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot move.",
+    "target": "无法移动。",
+    "locations": [
+      "src/property_data.cpp:438"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot perform melee attacks, -20% ranged hit chance, +20% chance to evade attacks.",
+    "target": "无法进行近战攻击，远程命中率 -20%，闪避几率 +20%。",
+    "locations": [
+      "src/property_data.cpp:462"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot see, -20% hit chance, -50% chance to evade attacks.",
+    "target": "无法看见，命中率 -20%，闪避几率 -50%。",
+    "locations": [
+      "src/property_data.cpp:346"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cannot use manuscripts, altars, monoliths, or gongs, but instead gains experience and fervor for destroying these (manuscripts are destroyed when picking them up). Fervor can be used for casting spells - these points are used automatically when there is not enough spirit points to cast from.",
+    "target": "无法使用手稿、祭坛、石碑或锣；但摧毁这些物品可获得经验和狂热值（拾取手稿时会将其摧毁）。狂热值可用于施法；精神值不足以施法时会自动消耗狂热值。",
+    "locations": [
+      "src/player_bon.cpp:1091"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "carpet",
+    "target": "地毯",
+    "locations": [
+      "src/terrain.cpp:2391"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Carrying too much weight makes movement take twice as much time. This is a very dangerous and detrimental situation.",
+    "target": "携带重量过大会使移动耗时翻倍。这种情况极其危险且有害。",
+    "locations": [
+      "src/hints.cpp:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "carved monolith",
+    "target": "雕刻石碑",
+    "locations": [
+      "src/terrain_monolith.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Bless",
+    "target": "施放祝福",
+    "locations": [
+      "src/player_bon.cpp:577"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Bless II",
+    "target": "施放祝福 II",
+    "locations": [
+      "src/player_bon.cpp:593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Cleansing Fire",
+    "target": "施放净化之火",
+    "locations": [
+      "src/player_bon.cpp:608"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Cleansing Fire II",
+    "target": "施放净化之火 II",
+    "locations": [
+      "src/player_bon.cpp:622"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Heal",
+    "target": "施放治疗",
+    "locations": [
+      "src/player_bon.cpp:639"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Heal II",
+    "target": "施放治疗 II",
+    "locations": [
+      "src/player_bon.cpp:653"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Light",
+    "target": "施放光亮术",
+    "locations": [
+      "src/player_bon.cpp:668"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Light II",
+    "target": "施放光亮术 II",
+    "locations": [
+      "src/player_bon.cpp:682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Sanctuary",
+    "target": "施放圣所",
+    "locations": [
+      "src/player_bon.cpp:697"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast Sanctuary II",
+    "target": "施放圣所 II",
+    "locations": [
+      "src/player_bon.cpp:711"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast See Invisible",
+    "target": "施放识破隐形",
+    "locations": [
+      "src/player_bon.cpp:726"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cast See Invisible II",
+    "target": "施放识破隐形 II",
+    "locations": [
+      "src/player_bon.cpp:740"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Casting any spell from the Blood domain grants Regeneration for 4-6 turns (+1 extra hit point regenerated per turn), if hit points are lost from casting the spell",
+    "target": "施放任何血之领域法术后，若施法导致生命值损失，则获得持续 4–6 回合的再生效果（每回合额外恢复 1 点生命值）",
+    "locations": [
+      "src/player_bon.cpp:854"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cataclysm",
+    "target": "大灾变",
+    "locations": [
+      "include/spells.hpp:855"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Caught a horrible disease",
+    "target": "染上可怕的疾病",
+    "locations": [
+      "src/property_data.cpp:738"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "causes fear",
+    "target": "造成恐惧",
+    "locations": [
+      "src/terrain_pylon.cpp:483"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cavern floor",
+    "target": "洞窟地面",
+    "locations": [
+      "src/terrain.cpp:693"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cavern wall",
+    "target": "洞窟墙壁",
+    "locations": [
+      "src/terrain.cpp:803"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Certain events in this game affects the sanity and composure of your character. One of the main threats to your mental health are the various horrifying creatures that inhabit the game world. When inside your view, some creatures may cause a vague unease, while others are very disturbing to behold. Your mind also takes a hit when you use occult powers, carry weird artifacts, or stand in darkness, etc. Finally, there is a slow perpetual taxing of your mind from exploring and dwelling in this haunted dungeon.",
+    "target": "游戏中的某些事件会影响角色的理智与镇定。精神健康面临的主要威胁之一，是游戏世界中各种骇人的生物。有些生物进入视野后会让你隐隐不安，另一些则令人极度恐惧。使用神秘力量、携带诡异圣物、身处黑暗等也会冲击心智。最后，在这座闹鬼地牢中探索和停留，也会持续缓慢地消磨你的心智。",
+    "locations": [
+      "installed_files/manual.txt:208"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "character",
+    "target": "角色",
+    "locations": [
+      "src/actor_data.cpp:186"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Character description",
+    "target": "角色说明",
+    "locations": [
+      "include/character_descr.hpp:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chasm",
+    "target": "深渊",
+    "locations": [
+      "src/terrain.cpp:2101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chatters.",
+    "target": "叽喳作响。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Check that failed:",
+    "target": "Check that failed:",
+    "locations": [
+      "src/debug.cpp:30"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chest",
+    "target": "箱子",
+    "locations": [
+      "src/terrain.cpp:4168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chirps hideously.",
+    "target": "发出可怕的啁啾声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "choke points",
+    "target": "狭窄通道",
+    "locations": [
+      "src/map_builder_std.cpp:345"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "chortles in a croaking voice.",
+    "target": "用嘶哑的声音咯咯笑。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Christopher Barrett (\"Oryx\") - Provided a very elegant tile set, and",
+    "target": "Christopher Barrett（“Oryx”）——提供了一套十分精美的图块，并",
+    "locations": [
+      "installed_files/credits.txt:4"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chronicles concerning sacrificial rites to placate ancient deities.",
+    "target": "关于祭祀仪式以取悦古神的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:7"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chronicles concerning the convergence of interstellar travelers on Earth.",
+    "target": "关于星际旅者汇聚地球的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:57"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chronicles of celestial alignments guiding the infusion of artifacts with magical power.",
+    "target": "关于天体排列如何引导圣物注入魔力的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:7"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chronicles of cosmic phenomena imbuing artifacts with supernatural energy.",
+    "target": "关于宇宙现象如何赋予圣物超自然能量的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:9"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Chronicles of interdimensional travelers.",
+    "target": "关于跨维度旅者的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:43"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "church bench",
+    "target": "教堂长椅",
+    "locations": [
+      "src/terrain.cpp:1338"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clairvoyant",
+    "target": "千里眼",
+    "locations": [
+      "src/player_bon.cpp:1020"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cleansing Fire",
+    "target": "净化之火",
+    "locations": [
+      "include/spells.hpp:1082"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Clear Mold",
+    "target": "清除霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cliff",
+    "target": "悬崖",
+    "locations": [
+      "src/terrain.cpp:808"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cloaked",
+    "target": "隐匿",
+    "locations": [
+      "src/property_data.cpp:984",
+      "src/property_data.cpp:985"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "cocoon",
+    "target": "茧",
+    "locations": [
+      "src/terrain.cpp:5402"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Coiled Pylon",
+    "target": "盘绕柱",
+    "locations": [
+      "src/terrain_pylon.cpp:129"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "color",
+    "target": "颜色",
+    "locations": [
+      "src/actor_data.cpp:200",
+      "src/colors.cpp:207"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Color ID: \"",
+    "target": "颜色 ID：“",
+    "locations": [
+      "src/colors.cpp:212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "color_reset",
+    "target": "color_reset",
+    "locations": [
+      "src/text.cpp:202"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Command list",
+    "target": "命令列表",
+    "locations": [
+      "installed_files/manual.txt:2"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Conf Res",
+    "target": "困惑抗性",
+    "locations": [
+      "src/property_data.cpp:245"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Conflicted",
+    "target": "矛盾",
+    "locations": [
+      "src/property_data.cpp:1054",
+      "src/property_data.cpp:1055"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Confused",
+    "target": "困惑",
+    "locations": [
+      "src/property_data.cpp:477",
+      "src/property_data.cpp:478"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "confusion",
+    "target": "困惑",
+    "locations": [
+      "src/view_actor_descr.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Confusion Resistance",
+    "target": "困惑抗性",
+    "locations": [
+      "src/property_data.cpp:244"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Confusion!",
+    "target": "困惑！",
+    "locations": [
+      "include/insanity.hpp:952"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Considers every creature as an enemy.",
+    "target": "将所有生物都视为敌人。",
+    "locations": [
+      "src/property_data.cpp:1056"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Continue equipping ",
+    "target": "继续装备 ",
+    "locations": [
+      "src/actor_player.cpp:217"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Continue putting on ",
+    "target": "继续穿上 ",
+    "locations": [
+      "src/actor_player.cpp:136"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Continue taking off ",
+    "target": "继续脱下 ",
+    "locations": [
+      "src/actor_player.cpp:116"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "contributions to Infra Arcana:",
+    "target": "对《Infra Arcana》的贡献：",
+    "locations": [
+      "installed_files/credits.txt:2"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Control Object",
+    "target": "控制物体",
+    "locations": [
+      "include/spells.hpp:1035"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Control object",
+    "target": "控制物体",
+    "locations": [
+      "src/marker.cpp:1660"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cool-headed",
+    "target": "沉着冷静",
+    "locations": [
+      "src/player_bon.cpp:209"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "corpse if playing as the Ghoul character)",
+    "target": "（扮演食尸鬼角色时的尸体）",
+    "locations": [
+      "installed_files/manual.txt:22"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "corpse_name_a",
+    "target": "corpse_name_a",
+    "locations": [
+      "src/actor_data.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "corpse_name_the",
+    "target": "corpse_name_the",
+    "locations": [
+      "src/actor_data.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Corpses can be destroyed by pressing [k] or [w]. This can be very useful against certain types of monsters. Some weapons, such as Machetes, makes it easier to destroy corpses - check the item description to see if a weapon has such a bonus. Also, a well-placed stick of dynamite or Molotov Cocktail is usually an effective way of stopping persistent monsters.",
+    "target": "按 [k] 或 [w] 可以摧毁尸体。这对某些怪物很有用。砍刀等武器能更轻易地摧毁尸体——查看物品说明，确认武器是否带有此加成。放置得当的炸药或燃烧瓶通常也能有效阻止难缠的怪物。",
+    "locations": [
+      "src/hints.cpp:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Could not find any writable location. Tried path set in ",
+    "target": "无法找到任何可写入的位置。已尝试使用此处设置的路径： ",
+    "locations": [
+      "src/paths.cpp:120"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Could not find path to stairs",
+    "target": "无法找到通往楼梯的路径",
+    "locations": [
+      "src/bot.cpp:140"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Could not find stairs",
+    "target": "找不到楼梯",
+    "locations": [
+      "src/bot.cpp:128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Courageous",
+    "target": "勇敢",
+    "locations": [
+      "src/player_bon.cpp:216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Crawling Intestines",
+    "target": "爬行肠群",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Creatures only remember you for half the normal duration (rounded up).",
+    "target": "生物记住你的时间只有正常时长的一半（向上取整）。",
+    "locations": [
+      "src/player_bon.cpp:820"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Creatures within a distance of two moves take damage each standard turn.",
+    "target": "两步移动距离内的生物每个标准回合都会受到伤害。",
+    "locations": [
+      "src/property_data.cpp:1068"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Crims Psg",
+    "target": "深红通道（缩写）",
+    "locations": [
+      "src/property_data.cpp:560"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Crimson Passage",
+    "target": "深红通道",
+    "locations": [
+      "include/spells.hpp:2177",
+      "src/property_data.cpp:559"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Crippling Strikes",
+    "target": "致残打击",
+    "locations": [
+      "src/player_bon.cpp:235"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "croaks incantations.",
+    "target": "呱呱地念诵咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Crudux cruo!",
+    "target": "克鲁杜克斯·克鲁奥！",
+    "locations": [
+      "src/actor_mon.cpp:178"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruento paashaeximus!",
+    "target": "克鲁恩托·帕沙埃克西穆斯！",
+    "locations": [
+      "src/actor_mon.cpp:179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruento pestis shatruex!",
+    "target": "克鲁恩托·佩斯蒂斯·沙特鲁克斯！",
+    "locations": [
+      "src/actor_mon.cpp:180"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruo crunatus durbe!",
+    "target": "克鲁奥·克鲁纳图斯·杜尔贝！",
+    "locations": [
+      "src/actor_mon.cpp:181"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruo lokemundux!",
+    "target": "克鲁奥·洛克蒙杜克斯！",
+    "locations": [
+      "src/actor_mon.cpp:182"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cruo stragara-na!",
+    "target": "克鲁奥·斯特拉加拉-纳！",
+    "locations": [
+      "src/actor_mon.cpp:183"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cthaat",
+    "target": "克萨特",
+    "locations": [
+      "src/gods.cpp:30"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cthugha",
+    "target": "克苏加",
+    "locations": [
+      "src/gods.cpp:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Cthylla",
+    "target": "克苏拉",
+    "locations": [
+      "src/gods.cpp:32"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ctoggha",
+    "target": "克托加",
+    "locations": [
+      "src/gods.cpp:33"
+    ],
+    "kind": "ui"
+  }
+]

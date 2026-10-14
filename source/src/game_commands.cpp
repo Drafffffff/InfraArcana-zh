@@ -91,14 +91,13 @@ static void query_quit()
         int choice = 0;
 
         const std::string msg =
-                "Save and highscore will not be kept "
-                "(use stairs to save the game).";
+                "不会保留存档与高分记录（使用楼梯保存游戏）。";
 
         popup::Popup(popup::AddToMsgHistory::no)
-                .set_title("Quit the current game?")
+                .set_title("退出当前游戏？")
                 .set_msg(msg)
                 .setup_menu_mode(
-                        {"(N)o", "(Y)es"},
+                        {"(N)否", "(Y)是"},
                         {'n', 'y'},
                         popup::MenuModeShowCancelHint::no,
                         &choice)
@@ -153,7 +152,7 @@ static void handle_fire_command_firearm(item::Wpn& wpn)
                         reload::try_reload(*map::g_player, &wpn);
                 }
                 else {
-                        msg_log::add("There is no ammo loaded.");
+                        msg_log::add("没有装填弹药。");
                 }
 
                 return;
@@ -178,7 +177,7 @@ static void handle_fire_command_firearm(item::Wpn& wpn)
         }
 
         if (is_mi_go_wpn && !allow_player_fire_mi_go_weapon(mi_go_wpn_hp_drain)) {
-                msg_log::add("Firing the gun now would destroy me.");
+                msg_log::add("现在开枪的话，我就完了。");
 
                 return;
         }
@@ -241,16 +240,16 @@ static void handle_activate_item_shortcut_command(const item::Id item_id)
                                 ItemNameInfo::none,
                                 ItemNameAttackInfo::none);
 
-                msg_log::add("I am not carrying " + name + ".");
+                msg_log::add("我没有携带 " + name + ".");
         }
 }
 
 static void handle_game_menu_command()
 {
         const auto choices = std::vector<std::string> {
-                "(T)ome of Wisdom",
-                "(O)ptions",
-                "(Q)uit",
+                "(T)智慧之书",
+                "(O)选项",
+                "(Q)退出",
         };
 
         int choice = 0;
@@ -284,7 +283,7 @@ static void handle_swap_weapon_command()
 
         if (!wielded && !alt) {
                 // No wielded weapon and no alt weapon
-                msg_log::add("I have neither a wielded nor a prepared weapon.");
+                msg_log::add("我既没有持握武器，也没有准备好的武器。");
 
                 return;
         }
@@ -304,13 +303,13 @@ static void handle_swap_weapon_command()
         // War veteran swaps instantly
         const bool is_instant = player_bon::bg() == Bg::war_vet;
 
-        const std::string swift_str = is_instant ? "swiftly " : "";
+        const std::string swift_str = is_instant ? "迅速地 " : "";
 
         if (wielded && alt) {
                 msg_log::add(
-                        "I " +
+                        "我 " +
                         swift_str +
-                        "swap to " +
+                        "切换至 " +
                         alt_name +
                         ".");
         }
@@ -318,18 +317,18 @@ static void handle_swap_weapon_command()
                 const std::string name = wielded->name(ItemNameType::plain);
 
                 msg_log::add(
-                        "I " +
+                        "我 " +
                         swift_str +
-                        "put away my " +
+                        "收起 " +
                         name +
                         ".");
         }
         else {
                 // No weapon wielded.
                 msg_log::add(
-                        "I " +
+                        "我 " +
                         swift_str +
-                        "wield " +
+                        "持握 " +
                         alt_name +
                         ".");
         }
@@ -357,19 +356,19 @@ static void handle_auto_move_command(const Dir dir)
         }
         else if (!map::g_player->m_properties.allow_see()) {
                 is_allowed = false;
-                prevent_msg = "Not while blind.";
+                prevent_msg = "失明时无法进行。";
         }
         else if (map::g_player->m_properties.has(prop::Id::poisoned)) {
                 is_allowed = false;
-                prevent_msg = "Not while poisoned.";
+                prevent_msg = "中毒时无法进行。";
         }
         else if (map::g_player->m_properties.has(prop::Id::confused)) {
                 is_allowed = false;
-                prevent_msg = "Not while confused.";
+                prevent_msg = "糊涂时无法进行。";
         }
         else if (map::g_player->m_properties.has(prop::Id::infected)) {
                 is_allowed = false;
-                prevent_msg = "Not while infected.";
+                prevent_msg = "感染时无法进行。";
         }
 
         if (!is_allowed) {
@@ -742,7 +741,7 @@ void handle(const GameCmd cmd)
         switch (cmd) {
         case GameCmd::undefined: {
                 msg_log::add(
-                        "Press [?] for help.",
+                        "按 [?] 查看帮助。",
                         colors::light_white(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::no,
@@ -814,7 +813,7 @@ void handle(const GameCmd cmd)
                 }
                 else if (map::g_player->m_properties.has(prop::Id::infected)) {
                         is_allowed = false;
-                        prevent_msg = "Not while infected.";
+                        prevent_msg = "感染时无法进行。";
                 }
 
                 if (is_allowed) {
@@ -988,10 +987,10 @@ void handle(const GameCmd cmd)
 
         case GameCmd::make_noise: {
                 if (player_bon::bg() == Bg::ghoul) {
-                        msg_log::add("I let out a chilling howl.");
+                        msg_log::add("我发出令人胆寒的长嚎。");
                 }
                 else {
-                        msg_log::add("I make some noise.");
+                        msg_log::add("我弄出了些声响。");
                 }
 
                 Snd snd(
@@ -1031,7 +1030,7 @@ void handle(const GameCmd cmd)
                 // monster ID string could be entered directly, instead of an index number (perhaps
                 // with partial matches allowed).
 
-                std::string msg = "Listing all properties (IDX    NAME):";
+                std::string msg = "列出所有属性（索引    名称）：";
 
                 for (size_t i = 0; i < (size_t)prop::Id::END; ++i) {
                         msg +=
@@ -1043,7 +1042,7 @@ void handle(const GameCmd cmd)
 
                 TRACE << msg << std::endl;
 
-                const std::string query_str = "Apply property";
+                const std::string query_str = "应用属性";
 
                 query::QueryNumberConfig query_config;
 
@@ -1329,7 +1328,7 @@ void handle(const GameCmd cmd)
                                 return std::get<1>(v1) > std::get<1>(v2);
                         });
 
-                std::string str = "\nAverage damage done per item id (per weight unit):";
+                std::string str = "\n每种物品 ID（每重量单位）造成的平均伤害：";
 
                 for (const auto& r : result) {
                         const auto [name, avg_dmg, avg_dmg_per_weight] = r;
@@ -1381,7 +1380,7 @@ void handle(const GameCmd cmd)
                 // monster ID string could be entered directly, instead of an index number (perhaps
                 // with partial matches allowed).
 
-                std::string msg = "Listing all monsters (IDX    ID):";
+                std::string msg = "列出所有怪物（索引    ID）：";
 
                 std::vector<std::string> mon_ids;
                 mon_ids.reserve(actor::g_data.size());
@@ -1409,7 +1408,7 @@ void handle(const GameCmd cmd)
 
                 TRACE << msg << std::endl;
 
-                std::string query_str = "Summon monster id";
+                std::string query_str = "召唤怪物编号";
 
                 query::QueryNumberConfig query_config;
 
@@ -1426,7 +1425,7 @@ void handle(const GameCmd cmd)
                 states::draw();
                 io::update_screen();
 
-                query_str = "How many?";
+                query_str = "多少？";
 
                 query_config.allowed_range = {1, 999};
                 query_config.default_value = 1;

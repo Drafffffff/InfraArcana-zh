@@ -1,0 +1,938 @@
+[
+  {
+    "source": "- Switched colors of gas traps and teleport traps, gas traps are now magenta and teleport traps are cyan",
+    "target": "- 调换了毒气陷阱和传送陷阱的颜色：毒气陷阱现在为洋红色，传送陷阱为青色",
+    "locations": [
+      "installed_files/release_history.txt:1401"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Switched license to GNU Affero General Public License v3.0 or later, and added a reference to this license at the top of each Infra Arcana source code file, and a reference from the main menu",
+    "target": "- 许可证改为 GNU Affero 通用公共许可证 v3.0 或更高版本，并在每个 Infra Arcana 源文件顶部及主菜单中添加了许可证引用。",
+    "locations": [
+      "installed_files/release_history.txt:593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Tab now also disarms adjacent traps (melee attacking is prioritized).",
+    "target": "- 按 Tab 现在也会拆除相邻陷阱（优先进行近战攻击）。",
+    "locations": [
+      "installed_files/release_history.txt:89"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Taking damage causes a small amount of shock (if not masochistic)",
+    "target": "- 受到伤害时会受到少量震慑（有受虐倾向时除外）",
+    "locations": [
+      "installed_files/release_history.txt:1373"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Teleport traps are added to the \"remembered\" map when you are moved",
+    "target": "- 传送时，传送陷阱会加入“已记忆”地图",
+    "locations": [
+      "installed_files/release_history.txt:1857"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Teleport traps displays a popup instead of log text (it was difficult to react)",
+    "target": "- 传送陷阱现在显示弹窗，而非日志文本（这样更容易及时应对）",
+    "locations": [
+      "installed_files/release_history.txt:1438"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Tentacle Clusters can spawn randomly on the map (not just from spell side effects etc), although somewhat rarely",
+    "target": "- 触手簇现在可能随机出现在地图上（不再仅由法术副作用等因素生成），但出现几率较低",
+    "locations": [
+      "installed_files/release_history.txt:180"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"--More--\" prompts now only accepts space or esc to proceed, this prompt is also added to more messages, for example triggering or avoiding traps - making it much easier to notice",
+    "target": "- “--More--”提示现在只能按空格键或退出键继续；更多消息（例如触发或避开陷阱时）也会显示此提示，因此更容易察觉。",
+    "locations": [
+      "installed_files/release_history.txt:1072"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"auto move\" command (\"e\") now also stops before hanging vines",
+    "target": "- “自动移动”命令（“e”）现在也会在垂挂藤蔓前停下",
+    "locations": [
+      "installed_files/release_history.txt:732"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"auto move\" feature stops at junctions etc (instead of after a fixed amount of steps)",
+    "target": "- “自动移动”功能现在会在岔路口等位置停下（而不是走固定步数后停止）",
+    "locations": [
+      "installed_files/release_history.txt:665"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Blaster\" Strange Device now casts Darkbolt instead of Azathoths Gaze, which is more fitting for its name.",
+    "target": "- “爆破者”奇异装置现在会施放暗箭，而非阿撒托斯凝视，这更符合它的名称。",
+    "locations": [
+      "installed_files/release_history.txt:351"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"i\" key is skipped as a letter index in the inventory (and drop menu), instead this key can be used for closing the inventory menu again (to allow more convenient toggling of the menu and to help prevent key press mistakes)",
+    "target": "- 物品栏（以及丢弃菜单）中不再将“i”键用作字母索引；现在可按此键关闭物品栏菜单（便于切换菜单，也能避免误按）",
+    "locations": [
+      "installed_files/release_history.txt:461"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"magic pool\" now also heals infections (it already healed disease).",
+    "target": "- “魔法池”现在也能治愈感染（此前已能治愈疾病）。",
+    "locations": [
+      "installed_files/release_history.txt:366"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Melee\" and \"Firearms\" skills now only gives better chance to hit",
+    "target": "- “近战”和“枪械”技能现在只会提高命中率",
+    "locations": [
+      "installed_files/release_history.txt:1800"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Pestilence\" spell now summons allied critters, and can be learned by both the player and monsters",
+    "target": "- “瘟疫”法术现在会召唤友方小生物，玩家和怪物都可以学习",
+    "locations": [
+      "installed_files/release_history.txt:1027"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Regenerating\" status effect no longer heals wounds (it caused bad gameplay design combined with certain Flagellant mechanics).",
+    "target": "- “再生”状态效果不再治疗创伤（它与苦修者的某些机制结合时会造成不良玩法设计）。",
+    "locations": [
+      "installed_files/release_history.txt:241"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Searching\" spell lasts multiple turns, but detects in a smaller area (and never across the whole map)",
+    "target": "- “搜索”法术现在持续多个回合，但探测范围更小（不会覆盖整张地图）",
+    "locations": [
+      "installed_files/release_history.txt:526"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Self-aware\" bonus now has \"Observant\" as an additional prerequisite",
+    "target": "- “自我觉察”奖励现在额外要求先具备“善于观察”特质",
+    "locations": [
+      "installed_files/release_history.txt:1263"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Self-aware\" trait has \"Cool-headed\" as prerequisite instead of \"Observant\"",
+    "target": "- “自我觉察”特质的前置条件现在是“沉着冷静”，而非“善于观察”",
+    "locations": [
+      "installed_files/release_history.txt:630"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Silent\" trait also prevents alerting monsters when wading through liquid",
+    "target": "- “无声”特质现在也能防止涉水时惊动怪物",
+    "locations": [
+      "installed_files/release_history.txt:627"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"snake emerge\" and \"wall crumbling\" events are much rarer",
+    "target": "- “蛇群涌现”和“墙壁崩塌”事件现在罕见得多",
+    "locations": [
+      "installed_files/release_history.txt:707"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"stagger\" messages are now more specific, and describe why the player is staggering (\"My wounds cause me to stagger.\", or \"I stagger under the weight of my carried load.\").",
+    "target": "- “踉跄”消息现在更具体，会说明玩家踉跄的原因（“我的创伤让我踉跄不稳。”或“我被身上携带的重物压得踉跄。”）。",
+    "locations": [
+      "installed_files/release_history.txt:194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Survivalist\" trait no longer has \"Tough\" as prerequisite",
+    "target": "- “生存专家”特质不再要求先具备“强健”特质",
+    "locations": [
+      "installed_files/release_history.txt:629"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"throw item\" command (\"t\") always opens a menu to select throwing item, where the last thrown item is shown at the top with the \"t\" key assigned - in the throwing menu, this key is never assigned to any other item than the \"last thrown item\" (so you can for example safely spam throwing knives by repeatedly pressing the \"t\" key, without worrying about suddenly throwing another item)",
+    "target": "- “投掷物品”命令（“t”）现在总会打开物品选择菜单，最近投掷的物品显示在最上方并分配“t”键；在投掷菜单中，此键只会分配给“上次投掷的物品”（因此你可以反复按“t”安全地投掷飞刀，不必担心突然投出其他物品）",
+    "locations": [
+      "installed_files/release_history.txt:574"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Transmute\" spell costs much less spirit to cast",
+    "target": "- “转化”法术的施法精神值消耗大幅降低",
+    "locations": [
+      "installed_files/release_history.txt:617"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"Vigilant\" trait grants awareness of all monsters within three steps - even if they are invisible, around the corner, or behind a door, etc (instead of only preventing backstabs)",
+    "target": "- “警觉”特质现在能让你察觉三步范围内的所有怪物——即使它们隐形、藏在拐角处或门后等（此前此特质只能防止背刺）",
+    "locations": [
+      "installed_files/release_history.txt:626"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The \"wall collapse\" event could crash the game in some situations",
+    "target": "- “墙壁坍塌”事件在某些情况下可能导致游戏崩溃",
+    "locations": [
+      "installed_files/release_history.txt:783"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The 16x24 font is fully available in ASCII mode",
+    "target": "- ASCII 模式现在可完整使用 16x24 字体",
+    "locations": [
+      "installed_files/release_history.txt:1489"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The 16x24 font is unfinished for ascii mode, removed that option from the config file",
+    "target": "- 16x24 字体在 ASCII 模式下尚未完成，因此从配置文件中移除了该选项",
+    "locations": [
+      "installed_files/release_history.txt:1505"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The [a] command is no longer a shortcut for Medical Bag and Electric Lantern, instead it opens a filtered inventory view only showing items which can be Applied (read, quaffed, activated, ignited, etc)",
+    "target": "- [a] 命令不再是医疗包和电灯笼的快捷键，而会打开筛选后的物品栏界面，只显示可使用的物品（阅读、饮用、启动、点燃等）。",
+    "locations": [
+      "installed_files/release_history.txt:994"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The [h]eal command has been removed, instead you use the Medical Bag.",
+    "target": "- [h] 治疗命令已移除，现在请使用医疗包。",
+    "locations": [
+      "installed_files/release_history.txt:1224"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Asbestos Suite now protects against some more attacks where it makes sense (e.g. mold spores).",
+    "target": "- 石棉套装现在可以抵御更多合理情况下的攻击（例如霉菌孢子）。",
+    "locations": [
+      "installed_files/release_history.txt:32"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Asbestos Suite was not protecting against gas explosions (from gas traps)",
+    "target": "- 石棉套装此前无法抵御毒气陷阱引发的气体爆炸",
+    "locations": [
+      "installed_files/release_history.txt:497"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The audio player now attempts to find a free channel, instead of just picking the next channel (this could stop other sounds, which frequently happened with long tracks like the ambient background noises)",
+    "target": "- 音频播放器现在会尝试寻找空闲频道，而非直接选用下一个频道（后者可能会中断其他声音；播放环境背景音等长音轨时尤其常见）",
+    "locations": [
+      "installed_files/release_history.txt:1100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The back-story is written in the game",
+    "target": "- 游戏内现在写有背景故事",
+    "locations": [
+      "installed_files/release_history.txt:1729"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The base chances for bashing doors open and pushing lids are higher",
+    "target": "- 撞开门和推开箱盖的基础成功率提高",
+    "locations": [
+      "installed_files/release_history.txt:726"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The chance to tear free from a spider web is slightly higher.",
+    "target": "- 从蜘蛛网中挣脱的几率略有提高。",
+    "locations": [
+      "installed_files/release_history.txt:358"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The command to show the message log is now 'L' (used to be 'M')",
+    "target": "- 显示消息记录的命令现在是 'L'（以前是 'M'）",
+    "locations": [
+      "installed_files/release_history.txt:1629"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Cursed status effect also causes 5% chance to fail spell casting",
+    "target": "- “被诅咒”状态效果还会使法术施放失败几率提高 5%",
+    "locations": [
+      "installed_files/release_history.txt:425"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Cursed status effect no longer causes a chance to fail spell casting (but \"Doomed\" still causes a chance to fail).",
+    "target": "- “被诅咒”状态效果不再导致法术施放失败（但“厄运缠身”仍有几率导致失败）。",
+    "locations": [
+      "installed_files/release_history.txt:240"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The damage from poison happens less frequently, but in larger bursts.",
+    "target": "- 中毒伤害现在触发得更少，但每次伤害更高。",
+    "locations": [
+      "installed_files/release_history.txt:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The descriptions for armors and gas masks includes their exact ability penalty values",
+    "target": "- 护甲和防毒面具的说明现在会列出具体的能力惩罚数值",
+    "locations": [
+      "installed_files/release_history.txt:761"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The descriptions of \"fast\" monsters said that they appear to move \"slowly\"",
+    "target": "- “快速”怪物的说明错误地说它们看起来移动得“缓慢”",
+    "locations": [
+      "installed_files/release_history.txt:784"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The effect of the Silent trait was inverted for melee attacks  - i.e. attacks were noisy with the Silent trait picked, and vice versa",
+    "target": "- “无声”特质对近战攻击的效果曾被颠倒——选择此特质后攻击反而会发出声音，反之亦然",
+    "locations": [
+      "installed_files/release_history.txt:496"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Electric Gun also disables passive hit point regeneration for a number of turns",
+    "target": "- 电击枪还会在若干回合内停止被动恢复生命值",
+    "locations": [
+      "installed_files/release_history.txt:407"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Electric Lantern now lasts a specific number of turns (displayed in the item name) instead of having a random chance per turn to break (but it can still randomly malfunction).",
+    "target": "- 电灯笼现在有固定的持续回合数（显示在物品名称中），不再每回合随机判定是否损坏（但仍可能随机故障）。",
+    "locations": [
+      "installed_files/release_history.txt:1049"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Exorcist Holy Symbol can now raise spirit above max limit (instead of just restoring spirit).",
+    "target": "- 驱魔师圣徽现在可以使精神值超过上限（此前只能恢复精神值）。",
+    "locations": [
+      "installed_files/release_history.txt:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The explosion area hint when aiming explosives is drawn as a blended overlay instead.",
+    "target": "- 瞄准爆炸物时，爆炸范围提示现在以混合叠加层绘制。",
+    "locations": [
+      "installed_files/release_history.txt:304"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Flagellant \"moribund\" status (low health bonuses) is now applied for a certain duration when taking damage that reduces health to 6 hit points or below (previously it was always active while hit points were below the limit, and ended immediately when restored above the limit). The reason for this change is to allow the player to utilize the effect for a bit even if hit points are immediately restored above the limit (e.g. when using the Shed Impurity spell, see below).",
+    "target": "- 苦修者的“垂危”状态（低生命值奖励）现在会在受到伤害、生命值降至 6 点或以下时持续一段时间（此前只要生命值低于阈值就一直生效，恢复到阈值以上便立即结束）。此改动让玩家即使很快恢复到阈值以上，也能短暂利用该效果（例如施放“涤除污秽”法术，见下文）。",
+    "locations": [
+      "installed_files/release_history.txt:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The font size is no longer locked to the tile size (for example a smaller font can be used)",
+    "target": "- 字体大小不再受图块尺寸限制（例如现在可以使用较小的字体）",
+    "locations": [
+      "installed_files/release_history.txt:562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The formulas determining XP needed per level, and XP given per monster are completely remade.",
+    "target": "- 每级所需经验值以及每只怪物提供的经验值公式已彻底重制。",
+    "locations": [
+      "installed_files/release_history.txt:1229"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The FoV is more permissive with walls (especially corridors and corners)",
+    "target": "- 视野现在更容易穿过墙壁（尤其是走廊和拐角）",
+    "locations": [
+      "installed_files/release_history.txt:1659"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game crashed when dying from drinking a potion of scorching (changed it so you can't die from it)",
+    "target": "- 喝下灼热药水而死亡曾导致游戏崩溃（现已调整为不会因此死亡）",
+    "locations": [
+      "installed_files/release_history.txt:1528"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game is auto-saved on each descent to a new dungeon level, so in the case of a crash, only the progress on the current dungeon level is lost",
+    "target": "- 每次下楼进入新的地城层时都会自动保存游戏；若发生崩溃，只会丢失当前地城层的进度",
+    "locations": [
+      "installed_files/release_history.txt:592"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game is winnable",
+    "target": "- 游戏现在可以通关",
+    "locations": [
+      "installed_files/release_history.txt:1538"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game no longer pre-loads the ambient sound effects (they are now only loaded on demand) - vastly reducing the program load time (should be nearly instant on most systems) and initial memory usage",
+    "target": "- 游戏不再预加载环境音效（改为按需加载），大幅缩短程序加载时间（大多数系统上几乎瞬间完成），并减少初始内存占用",
+    "locations": [
+      "installed_files/release_history.txt:773"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game no longer prints hit chance percent when aiming at ethereal monsters (this number was misleading)",
+    "target": "- 瞄准灵体怪物时，游戏不再显示命中率百分比（该数值容易误导）",
+    "locations": [
+      "installed_files/release_history.txt:1085"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game no longer tries to determine if the window is large enough, any size is allowed even if all text will not fit.",
+    "target": "- 游戏不再尝试判断窗口是否足够大，任何尺寸都可使用，即使无法显示全部文本。",
+    "locations": [
+      "installed_files/release_history.txt:295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game now handles delays in a nicer way. Previously, a delay would freeze the whole program. So for example while a projectile was travelling, the game could appear frozen (especially noticeable if setting a long delay). Now user input is read during delays so the game is not freezing - you can move the screen, alt-tab back and forth, minimize etc.",
+    "target": "- 游戏现在能更妥善地处理延迟。此前延迟会冻结整个程序，例如弹体飞行时游戏看起来会卡住（延迟设置较长时尤为明显）。现在延迟期间仍会读取用户输入，因此游戏不会冻结——你可以移动画面、切换窗口、最小化窗口等。",
+    "locations": [
+      "installed_files/release_history.txt:1172"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game now hides the mouse cursor.",
+    "target": "- 游戏现在会隐藏鼠标指针。",
+    "locations": [
+      "installed_files/release_history.txt:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game now models creature speeds in a new (probably more common and intuitive) way - creature speeds are expressed as percentages, e.g. 50%, 100%, or 300%, and different actions can have different speeds",
+    "target": "- 游戏现在以一种全新的（可能也更常见、更直观的）方式模拟生物速度——速度以百分比表示，例如 50%、100% 或 300%，不同动作也可以有不同速度",
+    "locations": [
+      "installed_files/release_history.txt:809"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game now prompts for confirmation when attempting to cast an intrinsic spell which could potentially deplete your Spirit",
+    "target": "- 尝试施放可能耗尽精神值的固有法术时，游戏现在会要求确认",
+    "locations": [
+      "installed_files/release_history.txt:1126"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game now supports Vi-keys",
+    "target": "- 游戏现在支持 Vi 键",
+    "locations": [
+      "installed_files/release_history.txt:1162"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game restarts smoother (doesn't restart the renderer when going to main menu)",
+    "target": "- 游戏现在可以更顺畅地重启（返回主菜单时不再重启渲染器）",
+    "locations": [
+      "installed_files/release_history.txt:1770"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The game should use a lot less CPU power",
+    "target": "- 游戏现在应该会显著减少 CPU 占用",
+    "locations": [
+      "installed_files/release_history.txt:1455"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The gas mask duration was not stored when saving the game (it was reset to the default length when loading a save file).",
+    "target": "- 防毒面具的持续时间此前不会保存（读取存档时会重置为默认时长）。",
+    "locations": [
+      "installed_files/release_history.txt:334"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The generated part of monster descriptions is printed in a separate paragraph, to make it easier to distinguish from the static handwritten part",
+    "target": "- 怪物说明中自动生成的部分现在单独列为一段，以便与固定的手写描述区分",
+    "locations": [
+      "installed_files/release_history.txt:576"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The ghosts touch attack now causes slowness instead of draining spirit points",
+    "target": "- 幽灵的触碰攻击现在会造成减速，而非吸取精神值",
+    "locations": [
+      "installed_files/release_history.txt:1493"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Ghoul ability \"Frenzy\" no longer costs spirit to use",
+    "target": "- 食尸鬼的“狂乱”能力现在不再消耗精神值",
+    "locations": [
+      "installed_files/release_history.txt:384"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Ghoul trait \"Toxic\" has 75% chance to apply poison, instead of 25%",
+    "target": "- 食尸鬼的“剧毒”特质现在有 75% 几率施加毒素，而非 25%",
+    "locations": [
+      "installed_files/release_history.txt:385"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Ghoul traits \"Foul\" and \"Toxic\" also gives +1 claw damage",
+    "target": "- 食尸鬼的“恶臭”和“剧毒”特质还会使爪击伤害 +1",
+    "locations": [
+      "installed_files/release_history.txt:650"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The graves in the intro level forest now also display the background of the characters",
+    "target": "- 序章森林中的坟墓现在也会显示角色背景",
+    "locations": [
+      "installed_files/release_history.txt:1086"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The high score list now also shows player background",
+    "target": "- 高分榜现在也会显示玩家背景",
+    "locations": [
+      "installed_files/release_history.txt:769"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Horn of Banishment now also works on Khephren's summoned Locusts, and on monsters spawned from traps",
+    "target": "- 放逐号角现在也能对克弗伦召唤的蝗虫以及陷阱生成的怪物生效",
+    "locations": [
+      "installed_files/release_history.txt:621"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Horn of Banishment now also works on Major Clapham Lee's summoned \"Tomb Legions\"",
+    "target": "- 放逐号角现在也能对克拉珀姆·李少校召唤的“墓穴军团”生效",
+    "locations": [
+      "installed_files/release_history.txt:742"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Horn of Deafening is a Strange Device instead",
+    "target": "- 震耳号角现在改为一种奇异装置",
+    "locations": [
+      "installed_files/release_history.txt:644"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Imperceptible trait is only available for Rogues",
+    "target": "- “难以察觉”特质现在仅盗贼可选",
+    "locations": [
+      "installed_files/release_history.txt:730"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The in-game quit command returns to the main menu instead of shutting down the game",
+    "target": "- 游戏内的退出命令现在会返回主菜单，而非关闭游戏",
+    "locations": [
+      "installed_files/release_history.txt:1886"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Incinerator (Napalm launcher) now use clips (3 rounds) instead of single shots",
+    "target": "- 焚化炉（凝固汽油弹发射器）现在使用弹匣（3 发），而非单发装填",
+    "locations": [
+      "installed_files/release_history.txt:1374"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Incinerator is a medium weight weapon",
+    "target": "- 焚化炉现在是一种中型武器",
+    "locations": [
+      "installed_files/release_history.txt:1412"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Incinerator is always aimed at the floor of the selected cell (no need for players to select a floor cell adjacent to the monster they are attacking)",
+    "target": "- 焚化炉始终瞄准所选格子的地面（无需玩家选择怪物旁边的地面格）",
+    "locations": [
+      "installed_files/release_history.txt:656"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Incinerator's dmg description is \"?\" (less misleading than showing the projectile impact damage)",
+    "target": "- 焚化炉的伤害说明现在显示为“?”（比显示弹体冲击伤害更不容易产生误解）",
+    "locations": [
+      "installed_files/release_history.txt:1565"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The infection status effect is drawn with orange color instead of the usual red, to make it more noticeable and to hint that it will get worse and not better over time - also added a warning message when infection nearly triggers DISEASE",
+    "target": "- 感染状态效果现在显示为橙色，而非通常使用的红色，以便更醒目并提示感染会随时间恶化；此外，感染即将引发疾病时也会显示警告消息",
+    "locations": [
+      "installed_files/release_history.txt:480"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The interface always shows info for the wielded weapon both as a firearm and as a melee weapon.",
+    "target": "- 界面现在始终同时显示手持武器作为枪械和近战武器时的信息。",
+    "locations": [
+      "installed_files/release_history.txt:1923"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The interface has a new layout, and there is a scrolling viewport centered on the player",
+    "target": "- 界面采用了新布局，并新增以玩家为中心的滚动视口",
+    "locations": [
+      "installed_files/release_history.txt:560"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The intro map is much smaller",
+    "target": "- 序章地图现在小得多",
+    "locations": [
+      "installed_files/release_history.txt:512"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The inventory can store more items",
+    "target": "- 物品栏现在可以存放更多物品",
+    "locations": [
+      "installed_files/release_history.txt:1712"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Iron Suit and Asbestos Suit no longer gives penalties to aiming or spotting hidden monsters and objects",
+    "target": "- 铁甲和石棉套装现在不再降低瞄准能力，也不再影响发现隐藏怪物和物件的能力",
+    "locations": [
+      "installed_files/release_history.txt:836"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The line under unaware monsters is blue instead of white",
+    "target": "- 未察觉怪物下方的标记线现在为蓝色，而非白色",
+    "locations": [
+      "installed_files/release_history.txt:1698"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The log prompts for \"[MORE]\" if next message doesn't fit.",
+    "target": "- 若下一条消息无法显示完整，日志会提示 “[MORE]”。",
+    "locations": [
+      "installed_files/release_history.txt:1908"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The map generator no longer tries to reveal doors on the path to the stairs (i.e. the stairs may be behind hidden doors)",
+    "target": "- 地图生成器不再尝试揭示通往楼梯路径上的门（也就是说，楼梯可能藏在隐藏门后）",
+    "locations": [
+      "installed_files/release_history.txt:443"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The map is regenerated if too small",
+    "target": "- 地图过小时会重新生成",
+    "locations": [
+      "installed_files/release_history.txt:1642"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The map shown on the postmortem info screen is drawn with tiles (if that mode is enabled), and in color",
+    "target": "- 死后信息界面显示的地图现在会使用图块（若启用该模式）并以彩色绘制",
+    "locations": [
+      "installed_files/release_history.txt:857"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Marksman traits also increase minimum damage (but cannot increase maximum damage).",
+    "target": "- 神射手特质现在也会提高最低伤害（但不会提高最高伤害）。",
+    "locations": [
+      "installed_files/release_history.txt:22"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The melee abilities are merged into one again, and vice versa for firearms (the split didn't add anything to the game)",
+    "target": "- 近战能力再次合并为一项，枪械能力也同样如此（拆分后并未给游戏带来新内容）",
+    "locations": [
+      "installed_files/release_history.txt:1550"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Melee Fighter skills now also gives extra damage (in addition to better hit chances), Master Marksman (the final Marksman skill) gives extra ranged damage",
+    "target": "- 近战斗士技能现在也会额外增加伤害（此前只提高命中率）；神射手大师（神射手技能的最终等级）会增加远程伤害。",
+    "locations": [
+      "installed_files/release_history.txt:973"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The menu for picking a new ability also shows previously picked abilities",
+    "target": "- 选择新能力的菜单现在也会显示此前已选的能力",
+    "locations": [
+      "installed_files/release_history.txt:1274"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The message \"I stop waiting\" is no longer printed when fainting or paralyzed",
+    "target": "- 昏厥或麻痹时不再显示“我停止等待”消息",
+    "locations": [
+      "installed_files/release_history.txt:935"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The message \"Major Clapham Lee calls forth his Tomb-Legions\" is no longer printed if the player cannot see the Major, instead a sound is heard (\"A voice is calling forth [...]\").",
+    "target": "- 玩家看不到克拉珀姆·李少校时，不再显示“克拉珀姆·李少校召唤他的墓穴军团”消息，而会听到声音（“有声音正在召唤 [...]”）。",
+    "locations": [
+      "installed_files/release_history.txt:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The message log uses three lines instead of two (thus causing much fewer \"more\" prompts)",
+    "target": "- 消息记录现在显示三行，而非两行（因此“更多”提示大幅减少）",
+    "locations": [
+      "installed_files/release_history.txt:481"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Mi-go Electric gun is now a \"real\" weapon that the Mi-go can drop, and can be used by the player - the Tesla Cannon has been removed (redundant). The \"yellow cultists\" now use the Mi-go Electric gun.",
+    "target": "- 米戈电击枪现在是一种“真正的”武器，可由米戈掉落，也可供玩家使用；冗余的特斯拉炮已移除。“黄色邪教徒”现在使用米戈电击枪。",
+    "locations": [
+      "installed_files/release_history.txt:1054"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Mi-go Electric Gun no longer uses ammo, and costs Spirit Points to fire",
+    "target": "- 米戈电击枪现在不再使用弹药，而是消耗精神值开火",
+    "locations": [
+      "installed_files/release_history.txt:843"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Mi-go Electric Gun runs on Hit Points instead of Spirit, and does less damage",
+    "target": "- 米戈电击枪现在消耗生命值而非精神值，且伤害降低",
+    "locations": [
+      "installed_files/release_history.txt:731"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The minimum value for any skill roll was 5%, causing hidden things to be found much too easily even without \"Alertness\". This value is now 1%",
+    "target": "- 技能检定的最低值此前为 5%，即使没有“警觉”也很容易发现隐藏物品。现在最低值改为 1%",
+    "locations": [
+      "installed_files/release_history.txt:1798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Mobile trait now only makes every third step a free action (instead of every second step)",
+    "target": "- “机动”特质现在每三步才会让一步成为免费行动（此前是每两步）。",
+    "locations": [
+      "installed_files/release_history.txt:974"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The monster description pages shows more information (e.g. how many turns they will remember you, how frightening they are, and also their current properties such as terrified, burning, flying, etc)",
+    "target": "- 怪物说明页面现在会显示更多信息（例如它们会记住你多少回合、有多令人恐惧，以及当前是否处于恐惧、燃烧、飞行等状态）",
+    "locations": [
+      "installed_files/release_history.txt:1005"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The monster spawn rate on explored levels (spawning due to passage of time) is now lower",
+    "target": "- 已探索关卡中随时间生成怪物的速率现在降低",
+    "locations": [
+      "installed_files/release_history.txt:1262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The name of your currently wielded weapon and missile weapon is shown in the interface",
+    "target": "- 界面现在会显示当前手持武器和投掷武器的名称",
+    "locations": [
+      "installed_files/release_history.txt:1382"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The narrative is in first person perspective",
+    "target": "- 叙事现在采用第一人称视角",
+    "locations": [
+      "installed_files/release_history.txt:1421"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The number of dungeon levels has been reduced from 30 to 25",
+    "target": "- 地城层数从 30 层减少至 25 层",
+    "locations": [
+      "installed_files/release_history.txt:1484"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Occultist receives halved shock for casting spells (not just from using strange items)",
+    "target": "- 秘术师施法受到的震慑减半（此前仅使用奇异物品时震慑减半）",
+    "locations": [
+      "installed_files/release_history.txt:689"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Occultist starts with fixed (non-random) items and spells",
+    "target": "- 秘术师开局携带固定（非随机）的物品和法术",
+    "locations": [
+      "installed_files/release_history.txt:826"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The options menu is now accessible from within an ongoing game",
+    "target": "- 现在可以在游戏进行中打开选项菜单",
+    "locations": [
+      "installed_files/release_history.txt:1175"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player character and monsters have a life bar (only visible while wounded)",
+    "target": "- 玩家角色和怪物现在都有生命值条（仅受伤时显示）",
+    "locations": [
+      "installed_files/release_history.txt:1315"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player character is colored dark red when HP gets low",
+    "target": "- 玩家生命值较低时，角色会显示为深红色",
+    "locations": [
+      "installed_files/release_history.txt:1433"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player character is colored magenta when shock gets high",
+    "target": "- 玩家震慑较高时，角色会显示为洋红色",
+    "locations": [
+      "installed_files/release_history.txt:1432"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player is asked for confirmation before stepping into fire or traps, or before moving into deep liquid while holding a lit explosive (which will extinguish it)",
+    "target": "- 踏入火焰或陷阱前，或手持点燃的爆炸物踏入深水前（这会将其熄灭），游戏现在会询问是否确认",
+    "locations": [
+      "installed_files/release_history.txt:578"
+    ],
+    "kind": "ui"
+  }
+]

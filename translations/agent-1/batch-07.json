@@ -1,0 +1,1203 @@
+[
+  {
+    "source": "- If the player has a cursed item, gongs have a high chance of giving the \"bless\" bonus (which also removes one curse).",
+    "target": "- 如果玩家携带被诅咒的物品，敲锣很可能会获得“祝福”奖励（同时移除一项诅咒）。",
+    "locations": [
+      "installed_files/release_history.txt:10"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If there is only one adjacent door, the 'close' command does not ask for direction",
+    "target": "- 如果只有一扇相邻的门，“关闭”命令不会询问方向",
+    "locations": [
+      "installed_files/release_history.txt:1661"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If you are Dexterous, the turncount is marked green on turns where you will get a free step",
+    "target": "- 如果你是灵巧的，转弯计数会在你将获得免费步数的回合中标记为绿色",
+    "locations": [
+      "installed_files/release_history.txt:1004"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If you are Observant, you now get \"level feelings\" when there are unique monsters or artifacts (when entering a new level, or when monsters appear on the map), such as \"I feel like I should examine this place thoroughly\"",
+    "target": "- 如果角色具有“观察者”特质，当进入新关卡或怪物出现在地图上时，若附近有独特怪物或遗物，现在会获得“关卡预感”，例如“我觉得应该仔细调查这里”。",
+    "locations": [
+      "installed_files/release_history.txt:806"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If you ignited an explosive (Dynamite, Molotov, Flare, Smoke grenade) while already holding another, the first one would just be erased - now the game prevents you from igniting a new explosive instead",
+    "target": "- 如果手中已经拿着一件爆炸物（炸药、燃烧瓶、信号棒或烟雾弹）时又点燃另一件，之前那件会直接消失。现在游戏会阻止你点燃新的爆炸物。",
+    "locations": [
+      "installed_files/release_history.txt:1014"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- If you wield a machete and step into a spider web, you will instantly cut down the web",
+    "target": "- 如果你挥舞砍刀走进蜘蛛网，你会立即砍断蜘蛛网",
+    "locations": [
+      "installed_files/release_history.txt:1342"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved AI of player allied  monsters - they are now much more active in pursuing enemies",
+    "target": "- 改进了玩家盟友怪物的人工智能 - 他们现在在追击敌人时更加积极",
+    "locations": [
+      "installed_files/release_history.txt:702"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved check for if phobia of open places should trigger (for example it no longer triggers while standing in smoke)",
+    "target": "- 改进了开放空间恐惧症的触发判定（例如，站在烟雾中时不再触发）。",
+    "locations": [
+      "installed_files/release_history.txt:552"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved Healing (rank 2 heals disease, rank 3 regenerates hp over time)",
+    "target": "- 改进了治疗：等级 2 可治愈疾病，等级 3 可随时间恢复生命值。",
+    "locations": [
+      "installed_files/release_history.txt:1435"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved hit chances of heavy weapons to compensate for their weight",
+    "target": "- 提高重型武器的命中率以补偿其重量",
+    "locations": [
+      "installed_files/release_history.txt:1426"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved the game key bindings",
+    "target": "- 改进了游戏按键绑定",
+    "locations": [
+      "installed_files/release_history.txt:565"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved the player character memory of explored map positions - it is now possible to view the names of terrain and items on previously explored positions, items seen on the floor in dark rooms are remembered on the map, and bumping terrain like fountains and doors while blind instantly updates their visual status",
+    "target": "- 改进了玩家角色对探索过的地图位置的记忆 - 现在可以查看先前探索过的位置上的地形和物品的名称，在黑暗房间的地板上看到的物品会被记住在地图上，并且盲人时碰撞喷泉和门等地形会立即更新其视觉状态",
+    "locations": [
+      "installed_files/release_history.txt:447"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved the Survivalist trait: \"You cannot become diseased, only half your wounds count, rounded down (i.e. number of wounds are halved when calculating combat, hit point and regeneration penalties, slower walking speed happens at 6 wounds instead of 3, and you die from 10 wounds instead of 5)\".",
+    "target": "- 改进了“生存主义者”特质：你不会感染，创伤数按半数向下取整计算（也就是说，计算战斗、生命值和恢复惩罚时创伤减半；创伤达到 6 处而非 3 处时行走速度才会降低；达到 10 处而非 5 处时才会死亡）。",
+    "locations": [
+      "installed_files/release_history.txt:146"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Improved the tiles for stairs down (thanks to Andy Walker) and magic traps.",
+    "target": "- 改进了下行楼梯和魔法陷阱的图块，感谢 Andy Walker。",
+    "locations": [
+      "installed_files/release_history.txt:307"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In most of the menus and screens, the mousewheel can be used for scrolling up and down.",
+    "target": "- 在大多数菜单和屏幕中，鼠标滚轮可用于上下滚动。",
+    "locations": [
+      "installed_files/release_history.txt:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In some menus, options can now be selected directly with letter keys",
+    "target": "- 在某些菜单中，现在可以直接使用字母键选择选项",
+    "locations": [
+      "installed_files/release_history.txt:992"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the \"apply\" menu, \"a\" is always reserved for the Electric Lantern and 'b' for the Medical Bag (and 's' for the Holy Symbol if Exorcist). On the first screen of the \"apply\" menu, these items will always appear on top and their keys will never be used for any other item.",
+    "target": "- 在“使用”菜单中，电灯笼固定使用快捷键“a”，医疗包固定使用“b”（驱魔师的圣徽使用“s”）。在“使用”菜单的第一页，这些物品始终置顶，其他物品不会占用这些快捷键。",
+    "locations": [
+      "installed_files/release_history.txt:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the character info screen, knowledge about rods and devices is now also shown (not just potions and manuscripts), and there is information about how much shock the player has received from different sources (seeing monsters, using items, etc).",
+    "target": "- 角色信息界面现在也会显示法杖和装置的识别信息（此前仅显示药水和手稿），并会列出玩家因不同来源（看见怪物、使用物品等）累积的震慑值。",
+    "locations": [
+      "installed_files/release_history.txt:280"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the game over summary screen there is now also information about item knowledge, inventory, and shock received from different sources.",
+    "target": "- 在游戏结束摘要屏幕中，现在还提供有关从不同来源收到的物品知识、库存和震动的信息。",
+    "locations": [
+      "installed_files/release_history.txt:281"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the game over summary screen, all items are shown with their identified names in the inventory section.",
+    "target": "- 在游戏结束摘要屏幕中，所有物品都在库存部分显示其识别名称。",
+    "locations": [
+      "installed_files/release_history.txt:190"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the game summary, insanity symptoms were written in the wrong format (e.g. \"Phobia of spiders\", instead of \"Had a phobia of spiders\")",
+    "target": "- 游戏摘要中的精神错乱症状此前格式有误（例如显示“蜘蛛恐惧症”，而不是“曾患有蜘蛛恐惧症”）。",
+    "locations": [
+      "installed_files/release_history.txt:676"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the inventory section of the game over summary screen, only the plain, single item, names were used (e.g. \"Throwing Knife\"). Now plural names are used correctly (e.g. \"6 Throwing Knives\").",
+    "target": "- 游戏结束摘要的物品栏部分此前只显示单数物品名称（例如“投掷飞刀”）；现在会正确显示复数名称（例如“6 把投掷飞刀”）。",
+    "locations": [
+      "installed_files/release_history.txt:214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the item knowledge section of the character screen (\"C\" or \"@\"), the real names of all identifiable items in the game are shown, so it is now possible to know exactly which effects an unidentified benign potion may possibly have, for example.",
+    "target": "- 在角色屏幕(\"C\" or \"@\")的物品知识部分，显示了游戏中所有可识别物品的真实姓名，因此现在可以准确地知道未知的良性药剂可能具有哪些效果，例如。",
+    "locations": [
+      "installed_files/release_history.txt:191"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the late game cave levels, sound travels 50% further.",
+    "target": "- 在游戏后期的洞穴关卡中，声音传播的距离增加了 50%。",
+    "locations": [
+      "installed_files/release_history.txt:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In the options menu, left and right can also be used to change option values",
+    "target": "- 在选项菜单中，左右键也可用于更改选项值",
+    "locations": [
+      "installed_files/release_history.txt:465"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In window mode, the window is created centered on the screen",
+    "target": "- 在窗口模式下，窗口以屏幕为中心创建",
+    "locations": [
+      "installed_files/release_history.txt:991"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In-game command list.",
+    "target": "- 游戏中的命令列表。",
+    "locations": [
+      "installed_files/release_history.txt:1916"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- In-game options menu",
+    "target": "- 游戏内选项菜单",
+    "locations": [
+      "installed_files/release_history.txt:1309"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Increased backstab bonus for Daggers and for the Vicious trait",
+    "target": "- 增加了匕首和恶毒特质的背刺奖励",
+    "locations": [
+      "installed_files/release_history.txt:729"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Increased duration of the See Invisible spell.",
+    "target": "- 增加了“看见隐形”法术的持续时间。",
+    "locations": [
+      "installed_files/release_history.txt:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Increased minimum distance from player when spawning monsters (when entering a new map, or spawning over time)",
+    "target": "- 怪物生成时，与玩家之间的最小距离有所增加（包括进入新地图时生成和随时间生成的情况）。",
+    "locations": [
+      "installed_files/release_history.txt:606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Increased number of different items that can be carried",
+    "target": "- 增加了可以携带的不同物品的数量",
+    "locations": [
+      "installed_files/release_history.txt:1428"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Insanity",
+    "target": "- 疯狂",
+    "locations": [
+      "installed_files/release_history.txt:1754"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Insanity increases when shock reaches 100% (instead of randomly happening when shock is high)",
+    "target": "- 震慑达到 100% 时会增加疯狂值（不再是在震慑较高时随机触发）。",
+    "locations": [
+      "installed_files/release_history.txt:1690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Insanity increments are higher than before, and randomized",
+    "target": "- 疯狂增量比以前更高，并且是随机的",
+    "locations": [
+      "installed_files/release_history.txt:744"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Instead of the \"stretched\" fullscreen mode option, there is now an option for attempting to scale the graphics to 2x size when running fullscreen (if the graphics can be scaled depends on the user's resolution, and the current font)",
+    "target": "- 移除了“拉伸”全屏模式选项，改为新增选项：全屏运行时尝试将画面缩放至 2 倍（能否缩放取决于用户的屏幕分辨率和当前字体）。",
+    "locations": [
+      "installed_files/release_history.txt:469"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Intrinsic properties that lasts indefinitely are now spelled with upper case (e.g. you can be \"DISEASED\" or \"Diseased\"), to clarify that waiting will not end the effect",
+    "target": "- 无限持续的固有属性现在以大写显示（例如显示为“DISEASED”或“Diseased”），以说明等待不会结束该效果。",
+    "locations": [
+      "installed_files/release_history.txt:997"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Inventory items are color coded and sorted according to item type and name",
+    "target": "- 库存物品按颜色编码并根据物品类型和名称排序",
+    "locations": [
+      "installed_files/release_history.txt:1307"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Invisible monsters causes shock (with a fixed amount), provided that the monster cannot be seen, and the player is aware of the monster (\"!\" sign on the map), and their map cell is seen",
+    "target": "- 隐形怪物会造成固定数值的震慑，前提是玩家看不见怪物、已察觉到它（地图上显示“！”），并且看到了怪物所在的地图格。",
+    "locations": [
+      "installed_files/release_history.txt:638"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Iron spikes can also be used as (bad) thrown weapons",
+    "target": "- 铁钉也可以用作(bad)投掷武器",
+    "locations": [
+      "installed_files/release_history.txt:1331"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- It is no longer possible to disarm a trap that has started triggering (\"I hear a click...\").",
+    "target": "- 陷阱开始触发后便无法再拆除（“我听见咔哒一声……”）。",
+    "locations": [
+      "installed_files/release_history.txt:255"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- It is now possible to aim melee weapons with the \"f\" key to choose a position to attack.",
+    "target": "- 现在可以使用“f”键瞄准近战武器来选择攻击位置。",
+    "locations": [
+      "installed_files/release_history.txt:248"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- It is now possible to set video scaling higher than 2x (3x and 4x are possible as well).",
+    "target": "- 现在可以将视频缩放倍率设为 2 倍以上，也支持 3 倍和 4 倍。",
+    "locations": [
+      "installed_files/release_history.txt:290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- It is now possible to use ranged weapons while Terrified (with a hit penalty). It also gives a dodge bonus now",
+    "target": "- 现在处于恐惧状态时也可以使用远程武器（但命中率会受到惩罚）。恐惧现在还会提供闪避加成。",
+    "locations": [
+      "installed_files/release_history.txt:1472"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Item symbols are now drawn in the inventory screen and the wielding info at the bottom of the screen",
+    "target": "- 物品符号现在绘制在库存屏幕中，并且挥舞信息显示在屏幕底部",
+    "locations": [
+      "installed_files/release_history.txt:1167"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Items are found in the dungeon (not only dropped from killed monsters).",
+    "target": "- 现在可以在地牢中找到物品，不再只能从被杀死的怪物身上拾取。",
+    "locations": [
+      "installed_files/release_history.txt:1897"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Items can now exist on revealed traps (in previous versions, revealing a trap would \"push\" away any item to an adjacent cell, which was very annoying if you intended to pick up the item) - traps covered by an item are drawn with a background color corresponding to the trap type.",
+    "target": "- 物品现在可以放在已揭示的陷阱上（在之前的版本中，揭示陷阱会把其上的物品“挤”到相邻格子；如果你正打算捡起该物品，这会非常烦人）——被物品遮住的陷阱会以与陷阱类型相对应的背景色绘制。",
+    "locations": [
+      "installed_files/release_history.txt:1043"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Items have weights, and there is a carry limit",
+    "target": "- 物品有重量，并且有携带限制",
+    "locations": [
+      "installed_files/release_history.txt:1425"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Keziah Mason starts together with Brown Jenkin, instead of spending a turn to summon it when she sees the player",
+    "target": "- Keziah Mason 现在与 Brown Jenkin 同时出现，不再等她看见玩家后才花费一个回合召唤它。",
+    "locations": [
+      "installed_files/release_history.txt:710"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Kick attack (k)",
+    "target": "- 踢击 (k)",
+    "locations": [
+      "installed_files/release_history.txt:1616"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Kicking a statue can cause it to topple over, damaging any monster behind it",
+    "target": "- 踢雕像可能会导致其倒塌，从而伤害其后面的任何怪物",
+    "locations": [
+      "installed_files/release_history.txt:1050"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Kicking chests caused extra rolls for sprains in some cases (so the risk of a sprain was doubled, and player could get double sprains).",
+    "target": "- 在某些情况下，踢箱子会额外触发扭伤判定，导致扭伤风险翻倍，甚至让玩家一次扭伤两次。",
+    "locations": [
+      "installed_files/release_history.txt:332"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Kicking locked wooden chests would print the message \"I kick the locked wooden chest! I kick the lid. The lock resists.\" - removed the redundant part \"I kick the lid\".",
+    "target": "- 踢上锁的木箱会打印出这样的信息：“我踢上锁的木箱！我踢盖子。锁会抵抗。” - 删除了多余的部分“我踢了盖子”。",
+    "locations": [
+      "installed_files/release_history.txt:331"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Knockback causes confusion",
+    "target": "- 击退会造成混乱",
+    "locations": [
+      "installed_files/release_history.txt:1371"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Knockback no longer cause confusion",
+    "target": "- 击退不再造成混乱",
+    "locations": [
+      "installed_files/release_history.txt:1144"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Leech type monsters apply indefinite properties (which can be cured) instead of directly affecting stats",
+    "target": "- 水蛭类怪物现在会施加可治愈的无限时长属性，而非直接改变属性数值。",
+    "locations": [
+      "installed_files/release_history.txt:610"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Leng Spider web bolas now also entangle for a few turns.",
+    "target": "- 冷蜘蛛网流星现在也会缠绕几圈。",
+    "locations": [
+      "installed_files/release_history.txt:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Leng Spiders have a ranged attack",
+    "target": "- 冷蜘蛛具有远程攻击能力",
+    "locations": [
+      "installed_files/release_history.txt:636"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Less pop-up descriptions when entering special rooms (I found them extremely repetitive once you know them)",
+    "target": "- 进入特殊房间时减少了弹出的描述（熟悉这些房间后，我发现描述非常重复）。",
+    "locations": [
+      "installed_files/release_history.txt:1561"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Limited the number of different monster types that a single Shapeshifter can change into.",
+    "target": "- 限制单个变形者可以变成的不同怪物类型的数量。",
+    "locations": [
+      "installed_files/release_history.txt:55"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Linux version",
+    "target": "- Linux版本",
+    "locations": [
+      "installed_files/release_history.txt:1454",
+      "installed_files/release_history.txt:1603"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Lit cells are no longer colored completely yellow - instead they are just colored slightly brighter (with more weight on yellow)",
+    "target": "- 被照亮的格子不再完全显示为黄色，而是会稍微变亮，并偏向黄色。",
+    "locations": [
+      "installed_files/release_history.txt:1084"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Locusts no longer \"breed\"",
+    "target": "- 蝗虫不再“繁殖”",
+    "locations": [
+      "installed_files/release_history.txt:544"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Lower monster spawn rate",
+    "target": "- 降低怪物生成率",
+    "locations": [
+      "installed_files/release_history.txt:1735"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Lowered starting hit points from 16 to 14",
+    "target": "- 起始生命值从 16 点降低至 14 点",
+    "locations": [
+      "installed_files/release_history.txt:1414"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Lowered the effects of Dodging, Fortitude and Toughness",
+    "target": "- 降低了闪避、坚韧和韧性的效果",
+    "locations": [
+      "installed_files/release_history.txt:1496"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Lowered the spirit cost for many spells",
+    "target": "- 降低了许多法术的精神消耗",
+    "locations": [
+      "installed_files/release_history.txt:688"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made changes to the AI to make it act less irrational and more aggressive, in particular it won't run back and forth between melee attacks or pass attack opportunities as much as in the previous version",
+    "target": "- 对AI进行了更改，使其行为不那么不理性，更具攻击性，特别是它不会像以前的版本那样在近战攻击之间来回跑动或传递攻击机会",
+    "locations": [
+      "installed_files/release_history.txt:1366"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made layout changes to the main menu",
+    "target": "- 对主菜单的布局进行了更改",
+    "locations": [
+      "installed_files/release_history.txt:1286"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made non-player aware monsters skip every second turn (they don't move at full speed if nothing exciting is happening), this makes stealth tactics more powerful, and it looks cool when they discover you and start moving fast",
+    "target": "- 让尚未察觉玩家的怪物每隔一个回合才行动一次（没有值得注意的事情时，它们不会全速移动）。这样潜行战术更有效，而且它们发现你后突然加速追来的样子也很酷。",
+    "locations": [
+      "installed_files/release_history.txt:1367"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made several changes to how traps work - most importantly, when they activate there is usually a delay of a couple of turns from when they activate until the effect occurs - this means that you can (sometimes) avoid the effect by moving away from the trap",
+    "target": "- 调整了陷阱的运作方式。最重要的是，陷阱触发后通常要经过数个回合才会生效，因此玩家有时可以在此期间远离陷阱来躲避效果。",
+    "locations": [
+      "installed_files/release_history.txt:958"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made several of the special levels tougher.",
+    "target": "- 使一些特殊关卡变得更加困难。",
+    "locations": [
+      "installed_files/release_history.txt:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made some changes to reduce the risk of registering key presses when the game window regains focus (e.g. accidentally doing a melee attack due to the game registering a tab press when alt-tabbing back to the game)",
+    "target": "- 调整了游戏窗口重新获得焦点时注册按键的机制，降低误触风险（例如从其他窗口切回游戏时，误把系统注册的 Tab 按键当作近战攻击）。",
+    "locations": [
+      "installed_files/release_history.txt:315"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made some changes to the wall tiles",
+    "target": "- 对墙砖进行了一些更改",
+    "locations": [
+      "installed_files/release_history.txt:1287"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made some improvements to how the game represents multiple things in the same position, mainly that a different background color is used when there are multiple corpses, or when a corpse is hidden under an item.",
+    "target": "- 对游戏在同一位置表示多个物体的方式进行了一些改进，主要是当有多具尸体或尸体隐藏在物品下方时使用不同的背景颜色。",
+    "locations": [
+      "installed_files/release_history.txt:312"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Made some improvements to where terrain objects can spawn in rooms, for example previously some terrain like chests or cabinets could never spawn in the corner of a room.",
+    "target": "- 对地形物体在房间中生成的位置进行了一些改进，例如以前一些地形（如箱子或橱柜）永远不会在房间的角落生成。",
+    "locations": [
+      "installed_files/release_history.txt:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Magic traps (\"strange shape\") starts hidden again just like mechanical traps, however traps are no longer spawned in corridors.",
+    "target": "- 魔法陷阱（“奇异形状”）会像机械陷阱一样重新隐藏起来，但陷阱不再生成于走廊中。",
+    "locations": [
+      "installed_files/release_history.txt:11"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Magic traps (strange shape on the ground) may now spawn anywhere, previously they were not allowed to spawn next to blocking terrain, which made these trap types rare to encounter.",
+    "target": "- 魔法陷阱（地面上的奇异形状）现在可以在任何位置生成；此前它们不能生成在阻挡地形旁，因此很少遇到。",
+    "locations": [
+      "installed_files/release_history.txt:256"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Magic traps are always revealed, i.e. there is no need to detect them.",
+    "target": "- 魔法陷阱总是会被揭露，即无需检测它们。",
+    "locations": [
+      "installed_files/release_history.txt:257"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Manuscript of Pestilence no longer spawns dozens of monsters - it is now a more reasonable number",
+    "target": "- 瘟疫手稿不再产生数十个怪物 - 现在是一个更合理的数字",
+    "locations": [
+      "installed_files/release_history.txt:1136"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Many bonuses such as \"occasionally performing a certain action instantly\", now simply gives a speed bonus instead (to a specific action, or to all actions)",
+    "target": "- 许多奖励（例如“偶尔立即完成某种行动”）现在改为提供速度加成，可作用于特定行动或所有行动。",
+    "locations": [
+      "installed_files/release_history.txt:810"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Many monster descriptions have been completely rewritten (thanks Renan Nunes!)",
+    "target": "- 许多怪物描述已彻底改写，感谢 Renan Nunes！",
+    "locations": [
+      "installed_files/release_history.txt:546"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Many properties now have longer and more descriptive names on the map screen (e.g. \"Fear Res.\" instead of rFear\", or \"LIFE SAPPED(4)\" instead of \"HP(4)\")",
+    "target": "- 地图界面中许多属性现在会显示更长、更清楚的名称（例如显示“抗恐惧”而非“rFear”，显示“生命汲取(4)”而非“HP(4)”）。",
+    "locations": [
+      "installed_files/release_history.txt:583"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Many types of messages are no longer added to the message history, such as messages printed when moving around the marker (\"[f] to fire\") or when asking for a direction (\"Which direction? [space, esc] to cancel\") - this keeps the message history more clean and focused on game events",
+    "target": "- 许多类型的消息不再加入消息历史，例如移动标记时显示的消息（“按 [f] 开火”）或询问方向时显示的消息（“选择方向？按 [空格] 或 [Esc] 取消”）。这样消息历史会更简洁，也更聚焦于游戏事件。",
+    "locations": [
+      "installed_files/release_history.txt:582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Many updates to the \"hound\" monsters (Fire Hound, Energy Hound): added more types, added sound effects, changed a lot of their stats.",
+    "target": "- 大幅调整了“猎犬”类怪物（火焰猎犬、能量猎犬）：新增种类、音效，并调整了许多属性。",
+    "locations": [
+      "installed_files/release_history.txt:181"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Maps can have different size, the standard map size is bigger than before",
+    "target": "- 地图可以有不同的尺寸，标准地图尺寸比以前更大",
+    "locations": [
+      "installed_files/release_history.txt:509"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Masochistic Obsession no longer restores shock when player is damaged, it now merely removes the shock normally taken when damaged (and raises minimum shock to 35%)",
+    "target": "- 受虐狂执念不再会在玩家受伤时恢复震慑值，而是只抵消受伤时通常会增加的震慑值（并将震慑下限提高至 35%）。",
+    "locations": [
+      "installed_files/release_history.txt:1157"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Melee attack for fire hounds",
+    "target": "- 火猎犬的近战攻击",
+    "locations": [
+      "installed_files/release_history.txt:1623"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Melee damage is no longer shown in the interface for ranged weapons, and vice versa",
+    "target": "- 远程武器的界面中不再显示近战伤害，反之亦然",
+    "locations": [
+      "installed_files/release_history.txt:1383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Melee traits no longer improves chance to evade melee attacks",
+    "target": "- 近战特征不再提高躲避近战攻击的机会",
+    "locations": [
+      "installed_files/release_history.txt:631"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Melee weapons are classed as light, medium and heavy. When attacking there is a chance for a bonus depending on class. With light you get a free turn, heavy do maximum damage. Medium weapons get no bonus",
+    "target": "- 近战武器分为轻型、中型和重型。攻击时，根据等级有机会获得奖励。轻的时候你可以自由转弯，重的时候会造成最大的伤害。中型武器没有奖励",
+    "locations": [
+      "installed_files/release_history.txt:1840"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Melee-attacking a creature who is unaware, fainted, paralyzed, or stuck has a very high hit chance bonus - melee-attacking a creature who is blind, confused, slowed or burning has a moderate hit chance bonus",
+    "target": "- 近战攻击不知情、昏厥、瘫痪或卡住的生物具有非常高的命中率加成 - 近战攻击失明、困惑、减速或燃烧的生物具有中等的命中率加成",
+    "locations": [
+      "installed_files/release_history.txt:1369"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Menus can be navigated using the movement keys and enter (as well as typing a letter)",
+    "target": "- 现在可以使用移动键和回车键浏览菜单，也可以直接输入字母。",
+    "locations": [
+      "installed_files/release_history.txt:1761"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged \"Potion of Fire Resistance\" and \"Insulation\" into \"Potion of Resistance\", that also gives poison resistance and prevent paralysis. The \"Resistance\" spell has been removed.",
+    "target": "- 将“抗火药水”和“绝缘药水”合并为“抗药水”，这也提供了抗毒能力并防止麻痹。 “抵抗”咒语已被移除。",
+    "locations": [
+      "installed_files/release_history.txt:30"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged all manuscripts that casts negative status effects into \"Manuscript of Enfeeble Enemies\"",
+    "target": "- 将所有造成负面状态效果的手稿合并到“衰弱敌人的手稿”中",
+    "locations": [
+      "installed_files/release_history.txt:1326"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged bash and kick to one command, [b]",
+    "target": "- 将 bash 和 kick 合并到一个命令，[b]",
+    "locations": [
+      "installed_files/release_history.txt:1388"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged Firearm-slot and Melee-slot - Instead of two separate slots, you have \"Wielding\". Firearms can also be used in melee to buttstroke enemies.",
+    "target": "- 合并枪支插槽和近战插槽 - 您拥有“挥舞”，而不是两个单独的插槽。枪械也可以在近战中使用来攻击敌人。",
+    "locations": [
+      "installed_files/release_history.txt:1949"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged potion of reflexes and potion of aiming into one, and renamed it \"Potion of the Cobra\"",
+    "target": "- 将反应药水和瞄准药水合二为一，并更名为“眼镜蛇药水”",
+    "locations": [
+      "installed_files/release_history.txt:1437"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged the traits \"Evade melee\" and \"Evade traps\" into \"Dodge\"",
+    "target": "- 将“躲避近战”和“躲避陷阱”特性合并为“闪避”",
+    "locations": [
+      "installed_files/release_history.txt:1518"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged the traits \"Spot traps\" and \"Spot secret doors\" into \"Spot constructions\"",
+    "target": "- 将特征“点陷阱”和“点秘密门”合并到“点建筑”中",
+    "locations": [
+      "installed_files/release_history.txt:1516"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Merged wear and wield command",
+    "target": "- 合并佩戴和挥舞命令",
+    "locations": [
+      "installed_files/release_history.txt:1471"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Message if an item drops where you stand",
+    "target": "- 如果物品掉落在您站立的地方，则会发送消息",
+    "locations": [
+      "installed_files/release_history.txt:1888"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Message when you stand on an item.",
+    "target": "- 当您站在某个物品上时发出消息。",
+    "locations": [
+      "installed_files/release_history.txt:1919"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages about status effects ending no longer queries for canceling healing",
+    "target": "- 有关状态效果结束的消息不再查询取消治疗",
+    "locations": [
+      "installed_files/release_history.txt:1386"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages are no longer written in all capitals while Frenzied",
+    "target": "- 疯狂时消息不再全部大写",
+    "locations": [
+      "installed_files/release_history.txt:896"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages are now printed when monsters fight each other",
+    "target": "- 当怪物互相战斗时，现在会打印消息",
+    "locations": [
+      "installed_files/release_history.txt:555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages are printed when stepping on corpses",
+    "target": "- 踩到尸体时会打印消息",
+    "locations": [
+      "installed_files/release_history.txt:863"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages fade out instead of immediately being cleared.",
+    "target": "- 消息淡出而不是立即被清除。",
+    "locations": [
+      "installed_files/release_history.txt:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Messages in pop-up boxes are duplicated to the message history screen",
+    "target": "- 弹出框中的消息被复制到消息历史记录屏幕",
+    "locations": [
+      "installed_files/release_history.txt:1633"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Metal doors can now be opened and closed regularly (there are no levers). This is an advantage for the player, as metal doors can never be bashed open.",
+    "target": "- 金属门现在可以正常开关（不再需要拉杆）。这对玩家有利，因为金属门无法被撞开。",
+    "locations": [
+      "installed_files/release_history.txt:269"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Mi-Go electric guns cause paralysis",
+    "target": "- Mi-Go 电动枪导致瘫痪",
+    "locations": [
+      "installed_files/release_history.txt:1562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Migrated to SDL2 (fullscreen mode may work better for you now, if you had problems with this before)",
+    "target": "- 已迁移至 SDL2（如果此前全屏模式有问题，现在可能会更好用）。",
+    "locations": [
+      "installed_files/release_history.txt:990"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Mind Eaters (now called Mind Leeches) can no longer paralyze the player",
+    "target": "- 食心者（现改名为心智水蛭）不再能麻痹玩家。",
+    "locations": [
+      "installed_files/release_history.txt:706"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Misc improvements to corridor generation (limited max corridor length, corridors occasionally connect to other corridors, and corridors are randomly made wider in the late game for a more cavernous look).",
+    "target": "- 改进了走廊生成：限制走廊最大长度、让走廊偶尔彼此连通，并在后期随机拓宽走廊，使其更像洞窟。",
+    "locations": [
+      "installed_files/release_history.txt:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Misc monster balancing (a lot of balancing of stats, group sizes, properties, etc)",
+    "target": "- 调整了多种怪物的平衡，包括属性、群体规模和特性等。",
+    "locations": [
+      "installed_files/release_history.txt:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Missiles always landed at the end of their path (even if it hit a monster along the way)",
+    "target": "- 投射物现在总会落在路径终点，即使途中击中了怪物也是如此。",
+    "locations": [
+      "installed_files/release_history.txt:1582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Modified and expanded skill system:",
+    "target": "- 修改和扩展的技能系统：",
+    "locations": [
+      "installed_files/release_history.txt:1604"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Mold do zero direct damage (only poison).",
+    "target": "- 霉菌不再造成直接伤害（只造成毒素伤害）。",
+    "locations": [
+      "installed_files/release_history.txt:49"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Mold now appear in a more scattered pattern when they \"breed\".",
+    "target": "- 霉菌“繁殖”时现在会以更加分散的图案出现。",
+    "locations": [
+      "installed_files/release_history.txt:51"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster corpses are now included when viewing map cells with [v]",
+    "target": "- 使用 [v] 查看地图单元格时，现在包括怪物尸体",
+    "locations": [
+      "installed_files/release_history.txt:1075"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster corpses are now referred to in more interesting ways, e.g. \"A lifeless gruesome corpse\" instead of \"A body of a Reanimated Corpse\"",
+    "target": "- 怪物尸体现在以更有趣的方式被提及，例如“一具毫无生气的可怕尸体”而不是“一具复活的尸体”",
+    "locations": [
+      "installed_files/release_history.txt:1076"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster corpses are now rendered in the same color as the living monster, making them easier to distinguish",
+    "target": "- 怪物尸体现在呈现为与活着的怪物相同的颜色，使它们更容易区分",
+    "locations": [
+      "installed_files/release_history.txt:1077"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster definitions are now to a large extent data driven - it is now possible to add new monsters purely by updating monsters.xml (removed monster ID enum values from the source code).",
+    "target": "- 怪物定义现在大多由数据驱动，因此只需修改 monsters.xml 就能添加怪物（源码中已移除怪物 ID 枚举值）。",
+    "locations": [
+      "installed_files/release_history.txt:323"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster descriptions display more information, such as resistances, if it has the ability to see in darkness, or the chance to stay hidden from the monster",
+    "target": "- 怪物描述显示更多信息，例如抵抗力，是否有能力在黑暗中看到，或者有机会隐藏在怪物面前",
+    "locations": [
+      "installed_files/release_history.txt:398"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster spell casting",
+    "target": "- 怪物施法",
+    "locations": [
+      "installed_files/release_history.txt:1784"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monster spells have individual cooldown counters (instead of random chances to be cast) - so a monster cannot for example spam Darkbolt several turns in a row",
+    "target": "- 怪物法术现在有各自的冷却计数器，不再靠随机概率决定是否施放；因此怪物不会连续多个回合反复施放暗箭。",
+    "locations": [
+      "installed_files/release_history.txt:819"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters are drawn with magenta background when they have temporary negative properties (such as paralyzation)",
+    "target": "- 怪物具有临时负面属性（例如麻痹）时，会以洋红色背景显示。",
+    "locations": [
+      "installed_files/release_history.txt:661"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters are placed in groups at world generation - Now you can be chased by a horde of zombies.",
+    "target": "- 怪物在世界生成时被分组放置 - 现在你可能会被一群僵尸追赶。",
+    "locations": [
+      "installed_files/release_history.txt:1954"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters become unaware after the player teleports, if they cannot see the player at the new position",
+    "target": "- 玩家传送后，如果怪物在新位置看不到玩家，它们就会变得不知道",
+    "locations": [
+      "installed_files/release_history.txt:648"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters can no longer cast \"See Invisible\"",
+    "target": "- 怪物不再能施放“看见隐形”",
+    "locations": [
+      "installed_files/release_history.txt:612"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters can now be allied to the player",
+    "target": "- 怪物现在可以与玩家结盟",
+    "locations": [
+      "installed_files/release_history.txt:1025"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters can sometimes spawn on an earlier depth than normal",
+    "target": "- 怪物有时会在比正常情况更早的深度生成",
+    "locations": [
+      "installed_files/release_history.txt:1467"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters can trigger traps, and you can kick monsters into traps",
+    "target": "- 怪物可以触发陷阱，你可以将怪物踢入陷阱",
+    "locations": [
+      "installed_files/release_history.txt:1312"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters cannot summon other monsters near the player from a distance (summoned monsters always appear as near the summoner as possible)",
+    "target": "- 怪物不能再从远处召唤其他怪物到玩家附近（被召唤的怪物总会尽可能靠近召唤者出现）。",
+    "locations": [
+      "installed_files/release_history.txt:616"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters fighting each other now generates sounds (\"I hear fighting.\")",
+    "target": "- 怪物现在会因彼此战斗而发出声音（“我听见打斗声。”）。",
+    "locations": [
+      "installed_files/release_history.txt:961"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters give less xp (to compensate for spawning)",
+    "target": "- 怪物提供的经验值减少，以平衡召唤怪物带来的经验收益。",
+    "locations": [
+      "installed_files/release_history.txt:1799"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters may become \"suspicious\" (typically with a message about them looking \"wary\" or \"disturbed\"), which gives them an increased chance of detecting you - they may still detect you immediately, but the chance for this is slightly lower than before",
+    "target": "- 怪物可能会变得“起疑”（通常会显示它们看起来“警惕”或“受惊”的消息），此时发现玩家的几率会提高。它们仍可能立即发现玩家，但几率比以前略低。",
+    "locations": [
+      "installed_files/release_history.txt:796"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters no longer become aware of the player from negative properties (burning, etc) or from taking damage (they are alerted by direct attacks or by attack noises) - so now it is possible to for example throw a Molotov Cocktail at a monster, and escape with Cloud Minds while it is burning",
+    "target": "- 怪物不再因负面属性（燃烧等）或受到伤害而察觉玩家；它们会被直接攻击或攻击声惊动。因此现在可以向怪物投掷燃烧弹，并趁它燃烧时使用“云雾心智”逃走。",
+    "locations": [
+      "installed_files/release_history.txt:390"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters no longer spawn over time on special levels (e.g. the \"Egypt\" level)",
+    "target": "- 特殊关卡不再随时间生成怪物（例如“埃及”关卡）。",
+    "locations": [
+      "installed_files/release_history.txt:677"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters now attempt to detect the player by vision on standard turns, instead of on their own turns (to prevent very fast monsters from detecting the player too easily)",
+    "target": "- 怪物现在会在标准回合中尝试通过视线发现玩家，而非在自己的回合中检查（防止速度极快的怪物过于容易发现玩家）。",
+    "locations": [
+      "installed_files/release_history.txt:711"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters now avoid shooting each other (though there is still a small chance that it happens)",
+    "target": "- 怪物现在会避免互相射击（但仍有小概率发生）。",
+    "locations": [
+      "installed_files/release_history.txt:1256"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters now drop all their items when they die (in previous versions, each item had 50% chance to be destroyed)",
+    "target": "- 怪物死亡时现在会掉落身上所有物品（以前每件物品都有 50% 的概率被摧毁）。",
+    "locations": [
+      "installed_files/release_history.txt:1056"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters roam the map more",
+    "target": "- 怪物更多地在地图上漫游",
+    "locations": [
+      "installed_files/release_history.txt:1887"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters sometimes drop stuff when they die.",
+    "target": "- 怪物死后有时会掉落东西。",
+    "locations": [
+      "installed_files/release_history.txt:1917"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters spawn faster, prepare to get overrun if you dwell on the level :-)",
+    "target": "- 怪物生成速度更快，如果你停留在关卡上，请准备好被淹没:-)",
+    "locations": [
+      "installed_files/release_history.txt:1819"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters spawn while you are on the level",
+    "target": "- 当你在关卡中时怪物会生成",
+    "locations": [
+      "installed_files/release_history.txt:1838"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters spawned from summoning spells only remains temporarily",
+    "target": "- 召唤法术产生的怪物只会暂时保留",
+    "locations": [
+      "installed_files/release_history.txt:614"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters spawned from traps now wait a bit before acting",
+    "target": "- 从陷阱中产生的怪物现在在行动前稍等一下",
+    "locations": [
+      "installed_files/release_history.txt:622"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters spawning over time happens a certain duration after entering a new level, instead of at fixed global intervals - this prevents manipulating the counter for example by waiting at the stairs.",
+    "target": "- 怪物随时间生成的计时现在从进入新关卡后开始，而非按固定的全局间隔计算；这样可以避免玩家例如在楼梯旁等待来操纵计数器。",
+    "locations": [
+      "installed_files/release_history.txt:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Monsters that \"breed\" (i.e. mold) will not spawn new monsters if the group size is above a certain limit.",
+    "target": "- 对于会“繁殖”的怪物（即霉菌），若群体规模超过一定上限，就不会再生成新的怪物。",
+    "locations": [
+      "installed_files/release_history.txt:182"
+    ],
+    "kind": "ui"
+  }
+]

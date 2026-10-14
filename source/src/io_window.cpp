@@ -29,7 +29,7 @@ static P get_sdl_window_px_dims()
 
 static std::string make_window_title()
 {
-        std::string title = "Infra Arcana ";
+        std::string title = "英弗拉·阿卡纳 ";
 
         title += version_info::g_version_str;
 

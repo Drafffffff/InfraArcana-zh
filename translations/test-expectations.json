@@ -1,0 +1,138 @@
+{
+  "schema": "infra-arcana-test-expectations-v1",
+  "description": "Expected English test literals mapped to the Simplified Chinese output produced by the current translation catalog. Prefix mappings preserve starts_with_any_of assertions; exact mappings preserve equality assertions.",
+  "mappings": [
+    {
+      "test": "test_attack.cpp",
+      "source": "The Reanimated Corpse claws the Ghoul",
+      "target": "复活尸体 抓挠 食尸鬼",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "The Reanimated Corpse misses the Ghoul",
+      "target": "复活尸体 未击中 食尸鬼",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "It claws the Ghoul",
+      "target": "它 抓挠 食尸鬼",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "It misses the Ghoul",
+      "target": "它 未击中 食尸鬼",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "The Ghoul claws it",
+      "target": "食尸鬼 抓挠 它",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "The Ghoul misses it",
+      "target": "食尸鬼 未击中 它",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "I miss",
+      "target": "我失手了。",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "I kick it",
+      "target": "我 踢 它",
+      "match": "prefix"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "I hear fighting.(SE)",
+      "target": "我听到打斗声。(东南)",
+      "match": "exact"
+    },
+    {
+      "test": "test_attack.cpp",
+      "source": "I hear fighting.(S)",
+      "target": "我听到打斗声。(南)",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "E",
+      "target": "东",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "SE",
+      "target": "东南",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "S",
+      "target": "南",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "SW",
+      "target": "西南",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "W",
+      "target": "西",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "NW",
+      "target": "西北",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "N",
+      "target": "北",
+      "match": "exact"
+    },
+    {
+      "test": "test_dir_utils.cpp",
+      "source": "NE",
+      "target": "东北",
+      "match": "exact"
+    },
+    {
+      "test": "test_game_time.cpp",
+      "source": "a Bloated Corpse",
+      "target": "一具肿胀的尸体",
+      "match": "exact"
+    },
+    {
+      "test": "test_game_time.cpp",
+      "source": "a Reanimated Corpse",
+      "target": "一具复活的尸体",
+      "match": "exact"
+    },
+    {
+      "test": "test_properties.cpp",
+      "source": "I STAB",
+      "target": "我 刺击",
+      "match": "prefix"
+    },
+    {
+      "test": "test_properties.cpp",
+      "source": "I MISS",
+      "target": "我失手了。",
+      "match": "prefix"
+    }
+  ]
+}

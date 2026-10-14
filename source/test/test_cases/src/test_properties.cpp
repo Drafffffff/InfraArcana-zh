@@ -201,9 +201,10 @@ TEST_CASE("Frenzy allows attacking adjacent unseen known monster")
         REQUIRE(!history.empty());
 
         const std::vector<std::string> possible_messages = {
-                "I STAB",
-                "I MISS"};
+                "我 刺击",
+                "我失手了。"};
 
+        INFO("Actual localized message: " << history[0].text());
         REQUIRE(starts_with_any_of(history[0].text(), possible_messages));
 
         REQUIRE(map::g_player->m_pos == P(10, 10));

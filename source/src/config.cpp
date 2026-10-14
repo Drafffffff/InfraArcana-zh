@@ -101,16 +101,16 @@ static std::string submenu_name(config::OptionSubmenuType submenu_type)
 {
         switch (submenu_type) {
         case config::OptionSubmenuType::video:
-                return "Video";
+                return "视频";
 
         case config::OptionSubmenuType::audio:
-                return "Audio";
+                return "音频";
 
         case config::OptionSubmenuType::input:
-                return "Input";
+                return "输入";
 
         case config::OptionSubmenuType::gameplay:
-                return "Gameplay";
+                return "游戏玩法";
 
         case config::OptionSubmenuType::END:
                 break;
@@ -126,16 +126,16 @@ static std::string submenu_name_with_key_shortcut(
 {
         switch (submenu_type) {
         case config::OptionSubmenuType::video:
-                return "(V)ideo";
+                return "(V)视频";
 
         case config::OptionSubmenuType::audio:
-                return "(A)udio";
+                return "(A)音频";
 
         case config::OptionSubmenuType::input:
-                return "(I)nput";
+                return "(I)输入";
 
         case config::OptionSubmenuType::gameplay:
-                return "(G)ameplay";
+                return "(G)游戏玩法";
 
         case config::OptionSubmenuType::END:
                 break;
@@ -489,7 +489,7 @@ static void write_config_file()
 
 static std::vector<std::string> make_user_data_info_lines()
 {
-        std::string str = "User data location: " + paths::user_dir();
+        std::string str = "用户数据位置： " + paths::user_dir();
 
         return text_format::split(str, panels::w(Panel::screen) - 1);
 }
@@ -862,13 +862,13 @@ void set_fullscreen(const bool value)
 // -----------------------------------------------------------------------------
 std::string MasterVolumeOption::name() const
 {
-        return "Audio volume level";
+        return "音量";
 }
 
 std::string MasterVolumeOption::descr() const
 {
         return (
-                "Master volume control (0-100%).");
+                "主音量控制（0-100%）。");
 }
 
 std::string MasterVolumeOption::value_str() const
@@ -926,19 +926,18 @@ void MasterVolumeOption::change(const OptionChangeCommand command) const
 
 std::string AmbientAudioEnabledOption::name() const
 {
-        return "Play ambient sounds";
+        return "播放环境音";
 }
 
 std::string AmbientAudioEnabledOption::descr() const
 {
         return (
-                "If enabled, ambient sound effects such as howling wind or "
-                "dripping water will occasionally be played.");
+                "开启后，偶尔会播放呼啸的风声、滴水声等环境音效。");
 }
 
 std::string AmbientAudioEnabledOption::value_str() const
 {
-        return s_is_ambient_audio_enabled ? "Yes" : "No";
+        return s_is_ambient_audio_enabled ? "是" : "否";
 }
 
 OptionSubmenuType AmbientAudioEnabledOption::submenu_type() const
@@ -959,20 +958,18 @@ void AmbientAudioEnabledOption::change(const OptionChangeCommand command) const
 
 std::string PreloadAmbientAudioOption::name() const
 {
-        return "Preload ambient sounds";
+        return "预加载环境音";
 }
 
 std::string PreloadAmbientAudioOption::descr() const
 {
         return (
-                "Load all ambient sound clips on game startup, otherwise load "
-                "each sound individually when played for the first time "
-                "(a small delay may occur when this happens).");
+                "游戏启动时加载所有环境音效，否则在首次播放每种音效时单独加载（可能会有短暂延迟）。");
 }
 
 std::string PreloadAmbientAudioOption::value_str() const
 {
-        return s_is_ambient_audio_preloaded ? "Yes" : "No";
+        return s_is_ambient_audio_preloaded ? "是" : "否";
 }
 
 OptionSubmenuType PreloadAmbientAudioOption::submenu_type() const
@@ -989,17 +986,13 @@ void PreloadAmbientAudioOption::change(const OptionChangeCommand command) const
 
 std::string AudioBufferSizeOption::name() const
 {
-        return "Audio buffer size";
+        return "音频缓冲区大小";
 }
 
 std::string AudioBufferSizeOption::descr() const
 {
         return (
-                "Lower values decrease latency, but may cause "
-                "sound crackling (audio buffer underruns) "
-                "on devices with slow CPU.\n"
-                "Increase it to get smoother sound, "
-                "but with the cost of increasing sound delay.");
+                "较低的数值可降低延迟，但在 CPU 较慢的设备上可能导致声音爆裂（音频缓冲区欠载）。\n增大数值可使声音更流畅，但会增加音频延迟。");
 }
 
 std::string AudioBufferSizeOption::value_str() const
@@ -1042,24 +1035,23 @@ void AudioBufferSizeOption::change(const OptionChangeCommand command) const
 
 std::string InputModeOption::name() const
 {
-        return "Input mode";
+        return "输入模式";
 }
 
 std::string InputModeOption::descr() const
 {
         return (
-                "Use default input mode (numerical keypad or arrow keys), or "
-                "\"Vi-keys\". See the game manual for more information.");
+                "使用默认输入模式（数字键盘或方向键），或使用“Vi 键”。详情请参阅游戏手册。");
 }
 
 std::string InputModeOption::value_str() const
 {
         switch (s_input_mode) {
         case InputMode::standard:
-                return "Default";
+                return "默认";
 
         case InputMode::vi_keys:
-                return "Vi-keys";
+                return "Vi 键";
 
         case InputMode::END:
                 break;
@@ -1106,17 +1098,17 @@ void InputModeOption::change(const OptionChangeCommand command) const
 
 std::string DoubleClickTogglesFullscreenOption::name() const
 {
-        return "Double click fullscreen";
+        return "双击切换全屏";
 }
 
 std::string DoubleClickTogglesFullscreenOption::descr() const
 {
-        return "Double click anywhere to toggle fullscreen?";
+        return "双击任意位置切换全屏？";
 }
 
 std::string DoubleClickTogglesFullscreenOption::value_str() const
 {
-        return s_is_double_click_toggle_fullscreen ? "Yes" : "No";
+        return s_is_double_click_toggle_fullscreen ? "是" : "否";
 }
 
 OptionSubmenuType DoubleClickTogglesFullscreenOption::submenu_type() const
@@ -1133,19 +1125,18 @@ void DoubleClickTogglesFullscreenOption::change(const OptionChangeCommand comman
 
 std::string AlwaysCenterViewOption::name() const
 {
-        return "Always center view";
+        return "视角始终居中";
 }
 
 std::string AlwaysCenterViewOption::descr() const
 {
         return (
-                "Keep the view centered on the player, otherwise only center "
-                "when the player is near the edge of the view.");
+                "让视角始终以玩家为中心；关闭时，只有玩家接近视野边缘才会居中。");
 }
 
 std::string AlwaysCenterViewOption::value_str() const
 {
-        return s_always_center_view_on_player ? "Yes" : "No";
+        return s_always_center_view_on_player ? "是" : "否";
 }
 
 OptionSubmenuType AlwaysCenterViewOption::submenu_type() const
@@ -1162,19 +1153,18 @@ void AlwaysCenterViewOption::change(OptionChangeCommand command) const
 
 std::string TilesModeOption::name() const
 {
-        return "Use tile set";
+        return "使用图块集";
 }
 
 std::string TilesModeOption::descr() const
 {
         return (
-                "Use tile graphics to represent the game environment, "
-                "otherwise use text symbols only.");
+                "使用图块图像表示游戏环境；关闭后仅使用文本符号。");
 }
 
 std::string TilesModeOption::value_str() const
 {
-        return s_is_tiles_mode ? "Yes" : "No";
+        return s_is_tiles_mode ? "是" : "否";
 }
 
 OptionSubmenuType TilesModeOption::submenu_type() const
@@ -1194,13 +1184,13 @@ void TilesModeOption::change(OptionChangeCommand command) const
 
 std::string FontOption::name() const
 {
-        return "Font";
+        return "字体";
 }
 
 std::string FontOption::descr() const
 {
         return (
-                "Font used for text.");
+                "文本使用的字体。");
 }
 
 std::string FontOption::value_str() const
@@ -1254,20 +1244,18 @@ void FontOption::change(OptionChangeCommand command) const
 
 std::string FullscreenOption::name() const
 {
-        return "Fullscreen";
+        return "全屏";
 }
 
 std::string FullscreenOption::descr() const
 {
         return (
-                "Run in fullscreen mode (borderless fullscreen window) or "
-                "use resizable window. This can also be toggled by pressing "
-                "Alt-Enter.");
+                "以全屏模式（无边框全屏窗口）运行，或使用可调整大小的窗口。也可按 Alt-Enter 切换。");
 }
 
 std::string FullscreenOption::value_str() const
 {
-        return s_is_fullscreen ? "Yes" : "No";
+        return s_is_fullscreen ? "是" : "否";
 }
 
 OptionSubmenuType FullscreenOption::submenu_type() const
@@ -1286,27 +1274,23 @@ void FullscreenOption::change(OptionChangeCommand command) const
 
 std::string RendererTypeOption::name() const
 {
-        return "Use hardware acceleration";
+        return "使用硬件加速";
 }
 
 std::string RendererTypeOption::descr() const
 {
         return (
-                "Use automatic selection (attempt to use hardware "
-                "acceleration first, or use software fallback), or "
-                "force using software renderer. "
-                "If you experience any graphical issues, setting this option "
-                "to \"Software\" may fix the problem.");
+                "使用自动选择（优先尝试硬件加速，失败时回退到软件渲染），或强制使用软件渲染。如果遇到图像问题，将此选项设为“软件”可能会解决问题。");
 }
 
 std::string RendererTypeOption::value_str() const
 {
         switch (s_renderer_type) {
         case RendererType::auto_select:
-                return "Auto select";
+                return "自动选择";
 
         case RendererType::sw:
-                return "Software";
+                return "软件";
 
         case RendererType::END:
                 break;
@@ -1354,12 +1338,12 @@ void RendererTypeOption::change(OptionChangeCommand command) const
 
 std::string VideoScaleOption::name() const
 {
-        return "Video scale factor";
+        return "视频缩放系数";
 }
 
 std::string VideoScaleOption::descr() const
 {
-        return "Scale all graphics by this factor.";
+        return "按此系数缩放所有图像。";
 }
 
 std::string VideoScaleOption::value_str() const
@@ -1406,12 +1390,12 @@ void VideoScaleOption::change(OptionChangeCommand command) const
 
 std::string BrightnessOption::name() const
 {
-        return "Brightness";
+        return "亮度";
 }
 
 std::string BrightnessOption::descr() const
 {
-        return ("Change brightness of colors.");
+        return ("调整颜色亮度。");
 }
 
 std::string BrightnessOption::value_str() const
@@ -1451,19 +1435,18 @@ void BrightnessOption::change(const OptionChangeCommand command) const
 
 std::string TextModeFilledWallsOption::name() const
 {
-        return "Text mode wall symbol";
+        return "文本模式墙壁符号";
 }
 
 std::string TextModeFilledWallsOption::descr() const
 {
         return (
-                "Symbol used for representing walls in text mode "
-                "(when tiles are not used).");
+                "文本模式（不使用图块时）中用于表示墙壁的符号。");
 }
 
 std::string TextModeFilledWallsOption::value_str() const
 {
-        return s_text_mode_filled_walls ? "Filled rectangle" : "Hash sign";
+        return s_text_mode_filled_walls ? "实心矩形" : "井号";
 }
 
 OptionSubmenuType TextModeFilledWallsOption::submenu_type() const
@@ -1483,17 +1466,17 @@ void TextModeFilledWallsOption::change(OptionChangeCommand command) const
 
 std::string DisplayHealthBarsOption::name() const
 {
-        return "Display health bars";
+        return "显示生命值条";
 }
 
 std::string DisplayHealthBarsOption::descr() const
 {
-        return "Show health bars under creatures when not at full health.";
+        return "生物生命值未满时，在其下方显示生命值条。";
 }
 
 std::string DisplayHealthBarsOption::value_str() const
 {
-        return s_display_health_bars ? "Yes" : "No";
+        return s_display_health_bars ? "是" : "否";
 }
 
 OptionSubmenuType DisplayHealthBarsOption::submenu_type() const
@@ -1510,22 +1493,18 @@ void DisplayHealthBarsOption::change(OptionChangeCommand command) const
 
 std::string UseTrapColorWhenObscuredOption::name() const
 {
-        return "Use trap color when obscured";
+        return "遮挡时使用陷阱颜色";
 }
 
 std::string UseTrapColorWhenObscuredOption::descr() const
 {
         return (
-                "If a trap is obscured by another object (e.g. an item), use "
-                "the color of the specific trap type as background color to "
-                "signify that there is a trap underneath the objct, "
-                "otherwise use the same background color regardless of "
-                "trap type.");
+                "如果陷阱被其他物体（如物品）遮挡，则以该陷阱类型的颜色作为背景色，表示物体下方有陷阱；否则无论陷阱类型如何，都使用相同的背景色。");
 }
 
 std::string UseTrapColorWhenObscuredOption::value_str() const
 {
-        return s_use_trap_color_when_obscured ? "Yes" : "No";
+        return s_use_trap_color_when_obscured ? "是" : "否";
 }
 
 OptionSubmenuType UseTrapColorWhenObscuredOption::submenu_type() const
@@ -1543,21 +1522,18 @@ void UseTrapColorWhenObscuredOption::change(
 
 std::string SkipIntroLevelOption::name() const
 {
-        return "Skip intro level";
+        return "跳过开场关卡";
 }
 
 std::string SkipIntroLevelOption::descr() const
 {
         return (
-                "Skip the introduction level. This level merely serves to "
-                "provide a backstory and to set up the atmosphere, there are "
-                "no gameplay benefits such as items or experience points that "
-                "can be gained from playing through it.");
+                "跳过序章关卡。此关卡仅用于交代背景故事和营造氛围；游玩不会获得物品或经验值等收益。");
 }
 
 std::string SkipIntroLevelOption::value_str() const
 {
-        return s_is_intro_lvl_skipped ? "Yes" : "No";
+        return s_is_intro_lvl_skipped ? "是" : "否";
 }
 
 OptionSubmenuType SkipIntroLevelOption::submenu_type() const
@@ -1574,18 +1550,18 @@ void SkipIntroLevelOption::change(OptionChangeCommand command) const
 
 std::string SkipIntroPopupOption::name() const
 {
-        return "Skip intro popup";
+        return "跳过开场弹窗";
 }
 
 std::string SkipIntroPopupOption::descr() const
 {
         return (
-                "Skip the story popup on the introduction level.");
+                "跳过序章关卡中的故事弹窗。");
 }
 
 std::string SkipIntroPopupOption::value_str() const
 {
-        return s_is_intro_popup_skipped ? "Yes" : "No";
+        return s_is_intro_popup_skipped ? "是" : "否";
 }
 
 OptionSubmenuType SkipIntroPopupOption::submenu_type() const
@@ -1602,23 +1578,20 @@ void SkipIntroPopupOption::change(OptionChangeCommand command) const
 
 std::string AnyKeyConfirmMoreOption::name() const
 {
-        return "Any key to proceed";
+        return "按任意键继续";
 }
 
 std::string AnyKeyConfirmMoreOption::descr() const
 {
         return (
-                "Any key confirms \"" +
+                "任意键确认“" +
                 msg_log::g_more_str +
-                "\" prompts in the message log (which can happen for example "
-                "when a monster appears as a warning to the player), "
-                "otherwise only space (and a few other keys) confirms these "
-                "prompts. Keeping the option disabled is safer.");
+                "如果在消息记录中启用了“提示”（例如怪物出现时向玩家发出警告），则任何键都可以确认这些提示；否则只有空格（和少数其他按键）可以确认。关闭此选项更安全。");
 }
 
 std::string AnyKeyConfirmMoreOption::value_str() const
 {
-        return s_is_any_key_confirm_more ? "Yes" : "No";
+        return s_is_any_key_confirm_more ? "是" : "否";
 }
 
 OptionSubmenuType AnyKeyConfirmMoreOption::submenu_type() const
@@ -1635,22 +1608,18 @@ void AnyKeyConfirmMoreOption::change(OptionChangeCommand command) const
 
 std::string AutoSelectMenuOption::name() const
 {
-        return "Auto select menu entries";
+        return "自动选择菜单项";
 }
 
 std::string AutoSelectMenuOption::descr() const
 {
         return (
-                "If disabled, pressing a letter key while in a menu only jumps "
-                "to that position, and a second press (or enter) is required "
-                "to select it (this is only applicable for menus where the options "
-                "have descriptions, such as the trait selection menu). "
-                "If enabled, pressing a letter immediately selects that entry.");
+                "关闭此选项时，在菜单中按字母键只会跳到对应位置，还需再次按键（或按回车）才能选中（仅适用于有说明的菜单，例如特质选择菜单）。开启后，按字母会立即选中该项。");
 }
 
 std::string AutoSelectMenuOption::value_str() const
 {
-        return s_auto_select_menu ? "Yes" : "No";
+        return s_auto_select_menu ? "是" : "否";
 }
 
 OptionSubmenuType AutoSelectMenuOption::submenu_type() const
@@ -1667,33 +1636,26 @@ void AutoSelectMenuOption::change(OptionChangeCommand command) const
 
 std::string DisplayHintsOption::name() const
 {
-        return "Display hints";
+        return "显示提示";
 }
 
 std::string DisplayHintsOption::descr() const
 {
         return (
-                "Controls when in-game hints should be displayed. "
-                "\n\n{COLOR_LIGHT_WHITE}Once per game:{color_reset} "
-                "Show all hints once in each game session "
-                "(and repeat them again in other sessions). "
-                "\n\n{COLOR_LIGHT_WHITE}Once:{color_reset} "
-                "Only show each hint once across all game sessions. "
-                "\n\n{COLOR_LIGHT_WHITE}Never:{color_reset} "
-                "Completely disable hints.");
+                "控制游戏提示的显示时机。 \n\n{COLOR_LIGHT_WHITE}每局一次：{color_reset}每次游戏中都显示所有提示（其他游戏中也会再次显示）。 \n\n{COLOR_LIGHT_WHITE}仅一次：{color_reset}所有游戏中每条提示只显示一次。 \n\n{COLOR_LIGHT_WHITE}从不：{color_reset}完全关闭提示。");
 }
 
 std::string DisplayHintsOption::value_str() const
 {
         switch (s_hints_mode) {
         case HintsMode::once_per_game:
-                return "Once per game";
+                return "每局一次";
 
         case HintsMode::once:
-                return "Once";
+                return "仅一次";
 
         case HintsMode::never:
-                return "Never";
+                return "从不";
 
         case HintsMode::END:
                 break;
@@ -1723,20 +1685,18 @@ void DisplayHintsOption::change(OptionChangeCommand command) const
 
 std::string AlwaysWarnMonsterOption::name() const
 {
-        return "Always warn monster appears";
+        return "始终提示怪物出现";
 }
 
 std::string AlwaysWarnMonsterOption::descr() const
 {
         return (
-                "Always warn when a monster appears in view (and no other "
-                "monster is already seen), otherwise only warn while "
-                "performing long actions like treating wounds.");
+                "视野中出现怪物时始终发出提示（且当前没有看到其他怪物）；否则仅在治疗创伤等长时间行动时提示。");
 }
 
 std::string AlwaysWarnMonsterOption::value_str() const
 {
-        return s_always_warn_new_mon ? "Yes" : "No";
+        return s_always_warn_new_mon ? "是" : "否";
 }
 
 OptionSubmenuType AlwaysWarnMonsterOption::submenu_type() const
@@ -1753,18 +1713,18 @@ void AlwaysWarnMonsterOption::change(OptionChangeCommand command) const
 
 std::string WarnThrowValuableOption::name() const
 {
-        return "Warn throwing valuable item";
+        return "投掷贵重物品时警告";
 }
 
 std::string WarnThrowValuableOption::descr() const
 {
         return (
-                "Warn before throwing \"valuable\" items such as potions.");
+                "投掷药水等“贵重”物品前发出警告。");
 }
 
 std::string WarnThrowValuableOption::value_str() const
 {
-        return s_warn_on_throw_valuable ? "Yes" : "No";
+        return s_warn_on_throw_valuable ? "是" : "否";
 }
 
 OptionSubmenuType WarnThrowValuableOption::submenu_type() const
@@ -1781,18 +1741,18 @@ void WarnThrowValuableOption::change(OptionChangeCommand command) const
 
 std::string WarnLightExplosivesOption::name() const
 {
-        return "Warn lighting explosive";
+        return "点燃爆炸物时警告";
 }
 
 std::string WarnLightExplosivesOption::descr() const
 {
         return (
-                "Warn before lighting explosives");
+                "点燃爆炸物前发出警告");
 }
 
 std::string WarnLightExplosivesOption::value_str() const
 {
-        return s_warn_on_light_explosive ? "Yes" : "No";
+        return s_warn_on_light_explosive ? "是" : "否";
 }
 
 OptionSubmenuType WarnLightExplosivesOption::submenu_type() const
@@ -1809,18 +1769,18 @@ void WarnLightExplosivesOption::change(OptionChangeCommand command) const
 
 std::string WanDrinkMalignPotionOption::name() const
 {
-        return "Warn malign potion";
+        return "饮用有害药水时警告";
 }
 
 std::string WanDrinkMalignPotionOption::descr() const
 {
         return (
-                "Warn before drinking potions that are known to be malignant.");
+                "饮用已知有害的药水前发出警告。");
 }
 
 std::string WanDrinkMalignPotionOption::value_str() const
 {
-        return s_warn_on_drink_malign_potion ? "Yes" : "No";
+        return s_warn_on_drink_malign_potion ? "是" : "否";
 }
 
 OptionSubmenuType WanDrinkMalignPotionOption::submenu_type() const
@@ -1837,20 +1797,18 @@ void WanDrinkMalignPotionOption::change(OptionChangeCommand command) const
 
 std::string WarnRangedWeaponMeleeOption::name() const
 {
-        return "Warn ranged weapon melee";
+        return "用远程武器进行近战时警告";
 }
 
 std::string WarnRangedWeaponMeleeOption::descr() const
 {
         return (
-                "Warn if attempting to perform a close combat melee attack "
-                "with a ranged weapon (such as a pistol), which is possible "
-                "but perhaps unintended.");
+                "尝试用远程武器（如手枪）进行近战攻击时发出警告；虽然可以这样做，但可能并非本意。");
 }
 
 std::string WarnRangedWeaponMeleeOption::value_str() const
 {
-        return s_warn_on_ranged_wpn_melee ? "Yes" : "No";
+        return s_warn_on_ranged_wpn_melee ? "是" : "否";
 }
 
 OptionSubmenuType WarnRangedWeaponMeleeOption::submenu_type() const
@@ -1867,23 +1825,18 @@ void WarnRangedWeaponMeleeOption::change(OptionChangeCommand command) const
 
 std::string MedicalBagAutoChoiceOption::name() const
 {
-        return "Auto medical bag choice";
+        return "自动选择医疗包操作";
 }
 
 std::string MedicalBagAutoChoiceOption::descr() const
 {
         return (
-                "Automatically choose Medical Bag action, "
-                "according to the following priority: "
-                "\n1) Treat infection"
-                "\n2) Treat wound"
-                "\n3) Quick patch-up"
-                "\nIf this option is disabled, the action is chosen in a popup menu instead.");
+                "根据以下优先级自动选择医疗包操作： \n1）治疗感染\n2）治疗创伤\n3）快速包扎\n关闭此选项后，将在弹出菜单中选择操作。");
 }
 
 std::string MedicalBagAutoChoiceOption::value_str() const
 {
-        return s_is_medical_bag_auto_choice ? "Yes" : "No";
+        return s_is_medical_bag_auto_choice ? "是" : "否";
 }
 
 OptionSubmenuType MedicalBagAutoChoiceOption::submenu_type() const
@@ -1900,19 +1853,18 @@ void MedicalBagAutoChoiceOption::change(OptionChangeCommand command) const
 
 std::string AutoReloadOption::name() const
 {
-        return "Auto reload weapons";
+        return "自动装填武器";
 }
 
 std::string AutoReloadOption::descr() const
 {
         return (
-                "Automatically perform a reload action instead if attempting "
-                "to fire a ranged weapon with no ammo loaded.");
+                "尝试用没有装填弹药的远程武器开火时，自动改为装填。");
 }
 
 std::string AutoReloadOption::value_str() const
 {
-        return s_is_ranged_wpn_auto_reload ? "Yes" : "No";
+        return s_is_ranged_wpn_auto_reload ? "是" : "否";
 }
 
 OptionSubmenuType AutoReloadOption::submenu_type() const
@@ -1929,14 +1881,13 @@ void AutoReloadOption::change(OptionChangeCommand command) const
 
 std::string ProjectileDelayOption::name() const
 {
-        return "Projectile delay (ms)";
+        return "弹体延迟（毫秒）";
 }
 
 std::string ProjectileDelayOption::descr() const
 {
         return (
-                "Number of milliseconds per step when running "
-                "projectile animations.");
+                "弹体动画每一步的毫秒数。");
 }
 
 std::string ProjectileDelayOption::value_str() const
@@ -1964,7 +1915,7 @@ void ProjectileDelayOption::change(OptionChangeCommand command) const
                 const int nr =
                         query::number(
                                 query_config,
-                                "Projectile delay");
+                                "弹体延迟");
 
                 if (nr != -1) {
                         s_delay_projectile_draw = nr;
@@ -1988,13 +1939,13 @@ void ProjectileDelayOption::change(OptionChangeCommand command) const
 
 std::string ExplosionDelayOption::name() const
 {
-        return "Explosion delay (ms)";
+        return "爆炸延迟（毫秒）";
 }
 
 std::string ExplosionDelayOption::descr() const
 {
         return (
-                "Duration of explosion animations (milliseconds).");
+                "爆炸动画时长（毫秒）。");
 }
 
 std::string ExplosionDelayOption::value_str() const
@@ -2022,7 +1973,7 @@ void ExplosionDelayOption::change(OptionChangeCommand command) const
                 const int nr =
                         query::number(
                                 query_config,
-                                "Explosion delay");
+                                "爆炸延迟");
 
                 if (nr != -1) {
                         s_delay_explosion = nr;
@@ -2130,7 +2081,7 @@ void OptionsState::draw()
         draw_box(panels::area(Panel::screen));
 
         io::draw_text_center(
-                " Options ",
+                " 选项 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title(),

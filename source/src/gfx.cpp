@@ -262,7 +262,7 @@ static const std::unordered_map<std::string, gfx::TileId> s_str_to_tile_id_map =
         {"TILE_ZOMBIE_DUST", gfx::TileId::zombie_dust},
         {"TILE_ZOMBIE_UNARMED", gfx::TileId::zombie_unarmed},
         {"TILE_ZOMBIE_WINGED", gfx::TileId::zombie_winged},
-        {"URN", gfx::TileId::urn},
+        {"骨灰瓮", gfx::TileId::urn},
         {"URN_INSCRIBED", gfx::TileId::urn_inscribed},
         {"", gfx::TileId::END}};
 

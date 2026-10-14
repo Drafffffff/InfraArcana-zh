@@ -139,7 +139,7 @@ void BrowseManual::draw()
         draw_box(panels::area(Panel::screen));
 
         io::draw_text_center(
-                " Browsing manual ",
+                " 浏览手册 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title(),

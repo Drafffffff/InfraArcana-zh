@@ -1,0 +1,1220 @@
+[
+  {
+    "source": "The spell can be cast at ",
+    "target": "该咒语可以施展于 ",
+    "locations": [
+      "src/spells.cpp:660"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The spell can identify ",
+    "target": "咒语可以识别 ",
+    "locations": [
+      "src/spells.cpp:3684"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The spell does ",
+    "target": "该咒语确实 ",
+    "locations": [
+      "src/spells.cpp:1453",
+      "src/spells.cpp:1952"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The spell is reflected!",
+    "target": "咒语被反射了！",
+    "locations": [
+      "src/spells.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The spell is resisted!",
+    "target": "咒语被抵抗了！",
+    "locations": [
+      "src/spells.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The spell lasts ",
+    "target": "咒语持续 ",
+    "locations": [
+      "src/spells.cpp:1464",
+      "src/spells.cpp:3032",
+      "src/spells.cpp:3136",
+      "src/spells.cpp:3241",
+      "src/spells.cpp:3313",
+      "src/spells.cpp:3438",
+      "src/spells.cpp:3518",
+      "src/spells.cpp:3607",
+      "src/spells.cpp:4174",
+      "src/spells.cpp:4302",
+      "src/spells.cpp:4439"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The spell lasts for ",
+    "target": "该咒语持续时间为 ",
+    "locations": [
+      "src/spells.cpp:2828",
+      "src/spells.cpp:5395",
+      "src/spells.cpp:5466"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The spell lasts indefinitely.",
+    "target": "该咒语无限期地持续。",
+    "locations": [
+      "src/spells.cpp:3029",
+      "src/spells.cpp:3310"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The spell returns ",
+    "target": "咒语回归 ",
+    "locations": [
+      "src/spells.cpp:5461"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "the Staff of the Pharaohs",
+    "target": "法老王的权杖",
+    "locations": [
+      "src/item_data.cpp:1899"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The surrounding area suddenly burst into flames!",
+    "target": "周围顿时熊熊燃烧起来！",
+    "locations": [
+      "src/item_curse.cpp:733"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Talisman of Reflection",
+    "target": "反思护身符",
+    "locations": [
+      "src/item_data.cpp:1993"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Talisman of Resurrection",
+    "target": "复活护符",
+    "locations": [
+      "src/item_data.cpp:2015"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Talisman of Teleportation Control",
+    "target": "传送控制护身符",
+    "locations": [
+      "src/item_data.cpp:2037"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The victims become conflicted for ",
+    "target": "受害者陷入矛盾 ",
+    "locations": [
+      "src/spells.cpp:1963"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The weapons can see invisible creatures.",
+    "target": "这些武器可以看到隐形生物。",
+    "locations": [
+      "src/spells.cpp:2606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The weapons cannot be harmed by physical damage.",
+    "target": "这些武器不会受到物理伤害。",
+    "locations": [
+      "src/spells.cpp:2611"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "their enemy.",
+    "target": "他们的敌人。",
+    "locations": [
+      "src/spells.cpp:1966"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are no minor injuries to patch up.",
+    "target": "没有需要修补的轻伤。",
+    "locations": [
+      "src/item_misc.cpp:263"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a loud whistling sound.",
+    "target": "有一声响亮的呼啸声。",
+    "locations": [
+      "src/item_curse.cpp:689"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a price for this however, since it causes intense hallucinogenic delusions, and it is also severely addictive.",
+    "target": "然而，这是有代价的，因为它会引起强烈的致幻妄想，而且还会严重上瘾。",
+    "locations": [
+      "src/item_data.cpp:2362"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a sharp droning in my head!",
+    "target": "我的脑袋里传来尖锐的嗡嗡声！",
+    "locations": [
+      "src/spells.cpp:4964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a vague change in the air.",
+    "target": "空气中出现了隐约的变化。",
+    "locations": [
+      "src/spells.cpp:5145"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is nothing more to shed.",
+    "target": "没有什么可以流掉的了。",
+    "locations": [
+      "src/spells.cpp:5660"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is nothing to identify.",
+    "target": "没有什么可以识别的。",
+    "locations": [
+      "src/inventory_handling.cpp:1937"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is nothing to treat.",
+    "target": "没有什么可治疗的。",
+    "locations": [
+      "src/item_misc.cpp:215"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They are ",
+    "target": "他们是 ",
+    "locations": [
+      "src/inventory_handling.cpp:592",
+      "src/view_actor_descr.cpp:238"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "This device is completely alien to me, I could never understand it through normal means.",
+    "target": "这个装置对我来说完全陌生，我无法通过正常方式理解它。",
+    "locations": [
+      "src/item_device.cpp:147"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This elixir fully restores all hit points, heals all wounds, and cures blindness, deafness, poisoning, infections, disease, weakening, and life sapping. Also, for some duration after consuming the potion, +1 extra hit point is healed per turn, and there is 10% chance per turn to heal one wound.",
+    "target": "这种灵药可完全恢复生命值、治愈所有创伤，并治愈失明、失聪、中毒、感染、疾病、虚弱和生命流失。此外，服用后的一段时间内，每回合额外恢复 1 点生命值，而且每回合有 10% 几率治愈一处创伤。",
+    "locations": [
+      "src/item_potion.cpp:439"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This feels useless!",
+    "target": "感觉这个没什么用啊！",
+    "locations": [
+      "src/item_misc.cpp:862"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This is the dreaded Necronomicon - the Book of the Dead! Its pages contain much dire knowledge on esoteric matters. While carried, all spells are cast at a higher skill level, and it is possible to reach a fourth level, \"Transcendent\".",
+    "target": "这就是可怕的《死灵之书》——死亡之书！它的页面包含许多关于深奥问题的可怕知识。携带时，所有法术都会以更高的技能等级施展，并且有可能达到第四级“超凡”。",
+    "locations": [
+      "src/item_data.cpp:2218"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This item is cursed, ",
+    "target": "这个物品被诅咒了， ",
+    "locations": [
+      "src/item_curse.cpp:400"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "This place feels more serene now.",
+    "target": "这个地方现在感觉更加宁静了。",
+    "locations": [
+      "src/common_text.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This potion is ",
+    "target": "这药水是 ",
+    "locations": [
+      "src/item_potion.cpp:334"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "This powerful charm brings the owner back to life upon bodily death. The talisman is destroyed in the process however, so one may only be brought back once.",
+    "target": "这种强大的魅力可以使主人在身体死亡后复活。然而，护身符在此过程中被破坏，因此只能被带回来一次。",
+    "locations": [
+      "src/item_data.cpp:2017"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This spell can be cast silently.",
+    "target": "这个咒语可以无声地施展。",
+    "locations": [
+      "src/spells.cpp:650"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This strange concoction causes a sudden flash of intuition.",
+    "target": "这种奇怪的混合物引起了直觉的突然闪现。",
+    "locations": [
+      "src/item_potion.cpp:759"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This weapon can be used for ",
+    "target": "该武器可用于 ",
+    "locations": [
+      "src/inventory_handling.cpp:670"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "This weapon has a long reach, press [f] to attack further away.",
+    "target": "该武器射程较远，按[f]可以攻击更远的地方。",
+    "locations": [
+      "src/inventory_handling.cpp:601"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This weapon has an accuracy penalty at close ranges.",
+    "target": "该武器在近距离时精度会受到影响。",
+    "locations": [
+      "src/item_data.cpp:623"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "THOG",
+    "target": "托格",
+    "locations": [
+      "src/item_curse.cpp:559"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Through ardous suffering, the caster tempers their body to resist physical force (cannot be harmed by normal attacks, however other forms of damage such as fire is still harmful).",
+    "target": "施法者通过艰苦的痛苦磨练自己的身体以抵抗物理力量（普通攻击不会受到伤害，但其他形式的伤害（例如火焰）仍然会造成伤害）。",
+    "locations": [
+      "src/spells.cpp:5389"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Throw the ",
+    "target": "扔 ",
+    "locations": [
+      "src/inventory_handling.cpp:1803"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Throwing Knife",
+    "target": "飞刀",
+    "locations": [
+      "src/item_data.cpp:828"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Throwing Knives",
+    "target": "飞刀",
+    "locations": [
+      "src/item_data.cpp:828"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "throws a net",
+    "target": "撒网",
+    "locations": [
+      "src/item_data.cpp:1354"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "TIME",
+    "target": "时间",
+    "locations": [
+      "src/item_curse.cpp:529"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tin",
+    "target": "锡",
+    "locations": [
+      "src/item_rod.cpp:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Titanium",
+    "target": "钛",
+    "locations": [
+      "src/item_rod.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "to be in fine condition.",
+    "target": "状态良好。",
+    "locations": [
+      "src/item_device.cpp:119"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "to be in shoddy condition.",
+    "target": "处于劣质状态。",
+    "locations": [
+      "src/item_device.cpp:123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tommy Gun",
+    "target": "汤米枪",
+    "locations": [
+      "src/item_data.cpp:492"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tommy Guns",
+    "target": "汤米枪",
+    "locations": [
+      "src/item_data.cpp:492"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Torture Collar",
+    "target": "酷刑项圈",
+    "locations": [
+      "src/item_data.cpp:1549"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "touches",
+    "target": "触摸",
+    "locations": [
+      "src/item_data.cpp:1376"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "transcendent",
+    "target": "超越的",
+    "locations": [
+      "src/spells.cpp:1013"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Translocator Device",
+    "target": "转运装置",
+    "locations": [
+      "src/item_data.cpp:1786"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Translocator Devices",
+    "target": "转运装置",
+    "locations": [
+      "src/item_data.cpp:1787"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Transmutation",
+    "target": "嬗变",
+    "locations": [
+      "include/spells.hpp:1389",
+      "src/spells.cpp:986"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "TSATHOGGUA",
+    "target": "查托瓜",
+    "locations": [
+      "src/item_curse.cpp:560"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tungsten",
+    "target": "钨",
+    "locations": [
+      "src/item_rod.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Typically used for construction, but can be quite devastating when wielded as a weapon.",
+    "target": "通常用于建筑，但作为武器使用时可能具有相当大的破坏性。",
+    "locations": [
+      "src/item_data.cpp:958"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unbinding",
+    "target": "解绑",
+    "locations": [
+      "src/item_rod.cpp:540"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "UNKNOWN",
+    "target": "未知",
+    "locations": [
+      "src/item_curse.cpp:541"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "UNSEEN",
+    "target": "看不见",
+    "locations": [
+      "src/item_curse.cpp:552"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Victims struck by its flesh-tearing bite may be paralyzed with pain (20% chance).",
+    "target": "被它撕裂血肉的咬击击中后，受害者可能会因疼痛而瘫痪（20% 几率）。",
+    "locations": [
+      "src/item_data.cpp:1937"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vigra",
+    "target": "维格拉",
+    "locations": [
+      "src/item_scroll.cpp:116"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "VILOMAXUS",
+    "target": "维洛玛萨斯",
+    "locations": [
+      "src/item_curse.cpp:502"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vilomaxus",
+    "target": "维洛马克斯",
+    "locations": [
+      "src/item_scroll.cpp:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Violet",
+    "target": "紫色",
+    "locations": [
+      "src/item_potion.cpp:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vitality",
+    "target": "活力",
+    "locations": [
+      "src/item_potion.cpp:433"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Vorox",
+    "target": "沃罗克斯",
+    "locations": [
+      "src/item_scroll.cpp:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Walking with the collar requires extra turns, and stealth and evasion are reduced by 20%. However, wearing the collar hardens the Flagellant against physical suffering, armor is increased by 3 points.",
+    "target": "佩戴项圈行走需要额外回合，潜行和闪避各降低 20%。不过，项圈能让鞭笞者更能忍受肉体痛苦，护甲值增加 3 点。",
+    "locations": [
+      "src/item_data.cpp:1554"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "WATCHES",
+    "target": "手表",
+    "locations": [
+      "src/item_curse.cpp:518"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Watery",
+    "target": "水汪汪的",
+    "locations": [
+      "src/item_potion.cpp:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weakening and poisoning are cured.",
+    "target": "虚弱和中毒被治愈。",
+    "locations": [
+      "src/spells.cpp:5712"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weakening, poisoning, infection and disease are cured.",
+    "target": "虚弱、中毒、感染和疾病得到治愈。",
+    "locations": [
+      "src/spells.cpp:5717"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weakening, poisoning, infection, disease and slowing are cured.",
+    "target": "虚弱、中毒、感染、疾病和减速被治愈。",
+    "locations": [
+      "src/spells.cpp:5722"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weakening, poisoning, infection, disease and slowing are cured. The caster is also blessed for ",
+    "target": "虚弱、中毒、感染、疾病和减速被治愈。施法者也受到祝福 ",
+    "locations": [
+      "src/spells.cpp:5730"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Weapon",
+    "target": "武器",
+    "locations": [
+      "src/inventory.cpp:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weapon",
+    "target": "武器",
+    "locations": [
+      "src/spells.cpp:2589"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "weapons",
+    "target": "武器",
+    "locations": [
+      "src/spells.cpp:2592"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wear what on head?",
+    "target": "头上戴什么？",
+    "locations": [
+      "src/inventory_handling.cpp:1487"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wear which armor?",
+    "target": "穿什么铠甲？",
+    "locations": [
+      "src/inventory_handling.cpp:1480"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device alters the atmosphere in order to cover the user in a dense mist. The mist is also strangely soothing (-10% temporary shock).",
+    "target": "启动后，装置会改变周围气氛，以浓雾笼罩使用者。雾气还会带来奇异的舒缓效果（临时震慑 -10%）。",
+    "locations": [
+      "src/item_rod.cpp:587"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device blasts one visible hostile creature with infernal power.",
+    "target": "激活后，该装置会用地狱之力爆炸一个可见的敌对生物。",
+    "locations": [
+      "src/item_device.cpp:312"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device breaks the user free from any bonds (entangled, stuck, nailed), and ends slowing.",
+    "target": "当激活时，该装置使用户摆脱任何束缚（纠缠、卡住、钉住），并结束减速。",
+    "locations": [
+      "src/item_rod.cpp:546"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device causes temporary deafness in all creatures in a large area, except for the user.",
+    "target": "激活后，该装置会导致大范围内除使用者外的所有生物暂时失聪。",
+    "locations": [
+      "src/item_rod.cpp:454"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device clouds the memories of all creatures in the area, causing them to forget the presence of the user.",
+    "target": "当激活时，该装置会掩盖该区域所有生物的记忆，导致它们忘记用户的存在。",
+    "locations": [
+      "src/item_rod.cpp:336"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device constructs a temporary opaque barrier around the user, blocking all physical matter. The barrier can only be created in empty spaces (i.e. not in spaces occupied by creatures, walls, etc).",
+    "target": "激活后，该设备会在用户周围构建一个临时的不透明屏障，阻挡所有物理物质。屏障只能在空的空间中创建（即不能在被生物、墙壁等占据的空间中）。",
+    "locations": [
+      "src/item_device.cpp:460"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device generates a shock wave which violently pushes away any adjacent creatures and destroys structures.",
+    "target": "当激活时，该装置会产生冲击波，猛烈地推开任何相邻的生物并摧毁建筑物。",
+    "locations": [
+      "src/item_rod.cpp:370"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device heals all wounds and physical maladies. The procedure is very painful and invasive however, and causes great shock to the user.",
+    "target": "启动后，该装置会治愈所有创伤和身体疾病。不过，治疗过程非常痛苦且具有侵入性，会给使用者造成强烈震慑。",
+    "locations": [
+      "src/item_device.cpp:347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device materializes an entryway somewhere in an adjacent surface.",
+    "target": "当激活时，该装置会在相邻表面的某处实体化入口。",
+    "locations": [
+      "src/item_rod.cpp:491"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device moves the user a short distance.",
+    "target": "激活后，该设备会将用户移动一小段距离。",
+    "locations": [
+      "src/item_rod.cpp:652"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device opens all locks, lids and doors in the surrounding area (except heavy doors operated externally by a switch).",
+    "target": "激活后，该设备会打开周围区域的所有锁、盖子和门（通过开关从外部操作的重型门除外）。",
+    "locations": [
+      "src/item_rod.cpp:299"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device selects a single nearby seen creature, and attempts to hypnotize it, putting them to sleep if susceptible. It is unknown how the target selection works.",
+    "target": "激活后，该设备会选择附近看到的一个生物，并尝试对其进行催眠，如果易受影响，则将其置于睡眠状态。目前尚不清楚目标选择是如何进行的。",
+    "locations": [
+      "src/item_rod.cpp:609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When activated, this device teleports all visible enemies to different locations.",
+    "target": "激活后，该设备会将所有可见的敌人传送到不同的位置。",
+    "locations": [
+      "src/item_device.cpp:383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When blown, this instrument forces all magically summoned creatures within hearing range back to their original realm.",
+    "target": "当吹响时，这个乐器会迫使所有在听觉范围内的魔法召唤生物回到原来的领域。",
+    "locations": [
+      "src/item_data.cpp:2137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When blown, this sinister artifact emits a weird resonance which corrupts the psyche of all those within hearing range (excluding the horn blower) - causing them to consider all other creatures with intense hatred and distrust.",
+    "target": "当吹响时，这件邪恶的神器会发出一种奇怪的共鸣，这种共鸣会腐蚀所有在听觉范围内的人的心灵（不包括吹号者）——导致他们对所有其他生物抱有强烈的仇恨和不信任。",
+    "locations": [
+      "src/item_data.cpp:2113"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When casting the spell, select a seen object to control within the maximum distance.",
+    "target": "施法时，选择一个可见的物体来控制在最大距离内。",
+    "locations": [
+      "src/spells.cpp:2682"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When thrown at a living (non-undead) creature, this powder causes paralyzation.",
+    "target": "当向活体（非不死）生物投掷时，这种粉末会导致麻痹。",
+    "locations": [
+      "src/item_data.cpp:2246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "When wielded by creatures lacking the peculiar power sources employed by the Mi-Go, this weapon instead draws power from the life force of the wielder (",
+    "target": "当缺乏 Mi-Go 所使用的特殊能量源的生物使用时，这种武器会从使用者的生命力中汲取能量（",
+    "locations": [
+      "src/item_data.cpp:458",
+      "src/item_data.cpp:695"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Whenever a hostile spell is blocked due to spell resistance, it is also reflected. The number of turns to regain spell resistance is halved.",
+    "target": "每当敌对法术因法术抗力而被阻挡时，它也会被反射。恢复法术抗力的回合数减半。",
+    "locations": [
+      "src/item_data.cpp:1995"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Which direction?",
+    "target": "哪个方向？",
+    "locations": [
+      "src/common_text.cpp:53"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Which trait do you gain?",
+    "target": "你获得了哪种特质？",
+    "locations": [
+      "src/game.cpp:288",
+      "src/item_misc.cpp:1207"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wield which item?",
+    "target": "持有哪件物品？",
+    "locations": [
+      "src/inventory_handling.cpp:1466"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wielded by rulers in ancient times, this powerful artifact holds power over those that were once bound to it. Any mummy beholding the owner will eventually be converted (10% chance per turn while the weapon is carried).",
+    "target": "这件强大的神器由古代统治者所使用，对那些曾经受其束缚的人拥有力量。任何看到主人的木乃伊最终都会被转化（携带武器时每回合 10% c 机会）。",
+    "locations": [
+      "src/item_data.cpp:1901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Wielded since prehistoric times.",
+    "target": "自史前时代起就被使用。",
+    "locations": [
+      "src/item_data.cpp:932"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Winchester .30 Bullet",
+    "target": "温彻斯特 .30 子弹",
+    "locations": [
+      "src/item_data.cpp:644"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Winchester .30 Bullets",
+    "target": "温彻斯特 .30 子弹",
+    "locations": [
+      "src/item_data.cpp:645"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Winchester Rifle",
+    "target": "温彻斯特步枪",
+    "locations": [
+      "src/item_data.cpp:619"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Winchester Rifles",
+    "target": "温彻斯特步枪队",
+    "locations": [
+      "src/item_data.cpp:619"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Witch's Eye",
+    "target": "女巫之眼",
+    "locations": [
+      "src/item_data.cpp:2268"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Witch's Eyes",
+    "target": "女巫的眼睛",
+    "locations": [
+      "src/item_data.cpp:2268"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "with ",
+    "target": "和 ",
+    "locations": [
+      "src/attack_melee.cpp:184"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "With trembling hands ",
+    "target": "用颤抖的双手 ",
+    "locations": [
+      "src/item_misc.cpp:842"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "XCTHOL",
+    "target": "克斯托尔",
+    "locations": [
+      "src/item_curse.cpp:562"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yellow",
+    "target": "黄色的",
+    "locations": [
+      "src/item_potion.cpp:121"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "YMNAR",
+    "target": "亚玛纳",
+    "locations": [
+      "src/item_curse.cpp:561"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ZATHOG",
+    "target": "扎托格",
+    "locations": [
+      "src/item_curse.cpp:563"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zinc",
+    "target": "锌",
+    "locations": [
+      "src/item_rod.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ZINDARAK",
+    "target": "辛达拉克",
+    "locations": [
+      "src/item_curse.cpp:564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zirconium",
+    "target": "锆",
+    "locations": [
+      "src/item_rod.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Zombie Dust",
+    "target": "僵尸尘埃",
+    "locations": [
+      "src/item_data.cpp:2242"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player is asked for confirmation when picking traits on gaining new character levels (but not when creating a new character)",
+    "target": "- 获得新角色等级并选择特质时，游戏会要求玩家确认（创建新角色时除外）",
+    "locations": [
+      "installed_files/release_history.txt:579"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The player symbol is colored yellow when carrying a lit Electric Lantern",
+    "target": "- 携带点亮的电灯笼时，玩家符号呈黄色",
+    "locations": [
+      "installed_files/release_history.txt:866"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The popup boxes have new border graphics (thanks to Christopher Barrett, aka Oryx), and the box and text layout is much nicer looking",
+    "target": "- 弹出框有新的边框图形（感谢 Christopher Barrett，又名 Oryx），并且框和文本布局看起来更漂亮",
+    "locations": [
+      "installed_files/release_history.txt:1358"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The postmortem info shows gained abilities",
+    "target": "- 尸检信息显示获得的能力",
+    "locations": [
+      "installed_files/release_history.txt:1275"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The postmortem information no longer lists number of kills for each type of monster, instead it only lists unique monsters killed, and the total number of monsters",
+    "target": "- 尸检信息不再列出每种怪物的击杀数量，而是只列出击杀的唯一怪物以及怪物总数",
+    "locations": [
+      "installed_files/release_history.txt:1156"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The potion \"See Invisible\" is now a spell instead",
+    "target": "- 药水“隐形”现在是一个咒语",
+    "locations": [
+      "installed_files/release_history.txt:694"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Potion of Invisibility effect ends when attacking or casting spells, and has much shorter duration",
+    "target": "- 隐形药水效果在攻击或施法时结束，并且持续时间短得多",
+    "locations": [
+      "installed_files/release_history.txt:699"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The pre-set player name is empty instead of \"Player\"",
+    "target": "- 预设的玩家名称为空而不是“玩家”",
+    "locations": [
+      "installed_files/release_history.txt:1772"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Purge spell description now also includes mirrors in the list of objects it can destroy (it could already destroy them but it was not described).",
+    "target": "- 净化法术描述现在还包括它可以摧毁的物体列表中的镜子（它已经可以摧毁它们，但没有描述）。",
+    "locations": [
+      "installed_files/release_history.txt:219"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The rats summoned by the Pestilence spell appear scattered throughout an area (instead of grouped around the caster), and the spell only last for a limited time.",
+    "target": "- 瘟疫法术召唤的老鼠分散在整个区域（而不是聚集在施法者周围），并且该法术仅持续有限的时间。",
+    "locations": [
+      "installed_files/release_history.txt:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Rejuvenator Device causes heavy shock when used",
+    "target": "- 使用回春装置会造成严重震慑",
+    "locations": [
+      "installed_files/release_history.txt:753"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The released version of the game is now built on Debian Bullseye with gcc 10.2.1 - glibc 2.31 or newer is required to play the game on Linux.",
+    "target": "- 游戏发行版现在基于 Debian Bullseye 和 gcc 10.2.1 构建；在 Linux 上运行游戏需要 glibc 2.31 或更新版本。",
+    "locations": [
+      "installed_files/release_history.txt:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The required dungeon level for monster group sizes in monsters.xml can now also be specified relative to the minimum dungeon level of the monster (with format \"+N\" levels). For example if a monster has min_dungeon_level \"4\", then a group_size entry with required_dungeon_level=\"+2\" will cause the monster to start spawning with that group size on dungeon level 6.",
+    "target": "- 现在可以按怪物最低地城层数的相对值指定 monsters.xml 中怪物群体规模所需的地城层数（格式为“+N 层”）。例如，若怪物的 min_dungeon_level 为 \"4\"，则 required_dungeon_level=\"+2\" 的 group_size 条目会让该怪物从地城第 6 层起以该群体规模生成。",
+    "locations": [
+      "installed_files/release_history.txt:119"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Rogue background receives -25% passive shock (instead of -50%)",
+    "target": "- 盗贼背景受到的被动震慑降低为 -25%（此前为 -50%）",
+    "locations": [
+      "installed_files/release_history.txt:746"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The ruins in the late game caves can contain chests, tombs, or altars.",
+    "target": "- 游戏后期洞穴中的废墟可能包含箱子、坟墓或祭坛。",
+    "locations": [
+      "installed_files/release_history.txt:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The screen fades to red when the player dies.",
+    "target": "- 当玩家死亡时，屏幕会变成红色。",
+    "locations": [
+      "installed_files/release_history.txt:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The screen is now redrawn when toggling fullscreen (previously the screen would be black until you entered a command)",
+    "target": "- 现在，切换全屏时会重新绘制屏幕（之前屏幕会呈黑色，直到您输入命令）",
+    "locations": [
+      "installed_files/release_history.txt:1173"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The searching skill (now called \"Observant\") no longer increases your chance of finding a secret door, instead if gives a chance to mark walls (you find a clue about a secret passage)",
+    "target": "- 搜索技能（现在称为“观察者”）不再增加你找到秘密门的机会，而是有机会标记墙壁（你找到有关秘密通道的线索）",
+    "locations": [
+      "installed_files/release_history.txt:1316"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The Shockwave Device is a Rod instead",
+    "target": "- 震波装置现在改为魔棒",
+    "locations": [
+      "installed_files/release_history.txt:643"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The skill system uses ranks again (instead of percentages)",
+    "target": "- 技能系统再次使用排名（而不是百分比）",
+    "locations": [
+      "installed_files/release_history.txt:1514"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spell \"Animate Weapons\" has been changed to \"Spectral Weapons\" - instead of animating weapons on the floor, it summons a living copy of melee weapon in your inventory (which will simply disappear after a while, without dropping any weapons on the floor)",
+    "target": "- 咒语“动画武器”已更改为“光谱武器” - 它不再是在地板上动画武器，而是在你的库存中召唤近战武器的活体副本（它会在一段时间后消失，而不会在地板上掉落任何武器）",
+    "locations": [
+      "installed_files/release_history.txt:524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spell \"Enfeeble\" now only causes Weakening (instead of a bunch of different things)",
+    "target": "- “削弱”法术现在只会施加虚弱效果，不再产生多种不同效果。",
+    "locations": [
+      "installed_files/release_history.txt:525"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spell \"Healing\" is now also available for the player",
+    "target": "- 咒语“治疗”现在也可供玩家使用",
+    "locations": [
+      "installed_files/release_history.txt:693"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spell \"Summon Creature\" picks more sensible monsters when cast by the player (e.g. a Wolf will not appear when cast at Master level)",
+    "target": "- 玩家施放咒语“召唤生物”时会选择更明智的怪物（例如，在大师级别施放时不会出现狼）",
+    "locations": [
+      "installed_files/release_history.txt:701"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spell that you gain after reaching a certain level of Mythos knowledge (\"Thaumaturgic Alteration\"), now chooses effect automatically (instead of player selecting the effect from a menu), this can include a random manuscript-spell, or a special effect if the circumstances allow it.",
+    "target": "- 达到一定神话知识水平后获得的法术（“奇术改变”）现在会自动选择效果（而不是玩家从菜单中选择效果），这可以包括随机的手稿法术，或者如果情况允许的话可以包括特殊效果。",
+    "locations": [
+      "installed_files/release_history.txt:1216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- The spells \"Summon Creature\" and \"Summon Mummy Servant\" costs one less spirit to cast",
+    "target": "- 法术“召唤生物”和“召唤木乃伊仆人”的施展精神消耗减少1个",
+    "locations": [
+      "installed_files/release_history.txt:618"
+    ],
+    "kind": "ui"
+  }
+]

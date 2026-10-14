@@ -125,7 +125,7 @@ static R get_minimap_px_rect_on_screen(
 static void draw_title()
 {
         io::draw_text_center(
-                " Viewing map ",
+                " 查看地图 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());

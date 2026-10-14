@@ -151,7 +151,7 @@ static int longest_turns_active(const prop::Prop& prop_1, const prop::Prop& prop
 // -----------------------------------------------------------------------------
 namespace prop
 {
-const std::string g_property_ending_suffix = " (ending)";
+const std::string g_property_ending_suffix = " （结束）";
 
 // -----------------------------------------------------------------------------
 // Property handler
@@ -873,7 +873,7 @@ std::vector<PropListEntry> PropHandler::property_names_and_descr() const
                                  PropDurationMode::indefinite);
 
                         if (is_indefinite) {
-                                name += " (indefinite)";
+                                name += " （无限）";
                         }
                         else if (prop->m_nr_turns_left == 0) {
                                 name += g_property_ending_suffix;
@@ -937,7 +937,7 @@ bool PropHandler::is_resisting_dmg(
                                         can_player_see_mon
                                         ? text_format::first_to_upper(
                                                   actor::name_the(*m_owner))
-                                        : "It";
+                                        : "它";
 
                                 msg_log::add(
                                         mon_name +

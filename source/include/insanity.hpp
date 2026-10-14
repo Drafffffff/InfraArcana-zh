@@ -136,12 +136,12 @@ protected:
 
         std::string start_heading() const override
         {
-                return "Experiences erased!";
+                return "经验已被抹去！";
         }
 
         std::string history_msg() const override
         {
-                return "Experiences were erased from memory";
+                return "记忆中的经验被抹去了";
         }
 };
 
@@ -174,12 +174,12 @@ protected:
 
         std::string start_heading() const override
         {
-                return "Screaming!";
+                return "尖叫！";
         }
 
         std::string history_msg() const override
         {
-                return "Screamed in terror";
+                return "惊恐地尖叫了";
         }
 };
 
@@ -208,12 +208,12 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Babbling";
+                return "胡言乱语";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a tendency to babble";
+                return "有喋喋不休的倾向";
         }
 
         void babble() const;
@@ -223,27 +223,27 @@ protected:
 
         std::string start_msg() const override
         {
-                return "I find myself babbling incoherently.";
+                return "我发现自己在语无伦次地喃喃自语。";
         }
 
         std::string start_heading() const override
         {
-                return "Babbling!";
+                return "胡言乱语！";
         }
 
         std::string end_msg() const override
         {
-                return "I feel in control of my speech.";
+                return "我觉得自己能控制言语。";
         }
 
         std::string history_msg() const override
         {
-                return "Started babbling incoherently";
+                return "开始语无伦次地喃喃自语";
         }
 
         std::string history_msg_end() const override
         {
-                return "My strange babbling was cured";
+                return "我的怪异喃喃自语治愈了";
         }
 };
 
@@ -274,17 +274,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "Everything is blacking out.";
+                return "眼前的一切渐渐陷入黑暗。";
         }
 
         std::string start_heading() const override
         {
-                return "Fainting!";
+                return "即将昏厥！";
         }
 
         std::string history_msg() const override
         {
-                return "Fainted";
+                return "昏厥";
         }
 };
 
@@ -313,17 +313,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "I laugh maniacally.";
+                return "我发出疯狂的笑声。";
         }
 
         std::string start_heading() const override
         {
-                return "HAHAHA!";
+                return "哈哈哈！";
         }
 
         std::string history_msg() const override
         {
-                return "Laughed maniacally";
+                return "疯狂地大笑";
         }
 };
 
@@ -356,38 +356,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of rats";
+                return "恐鼠症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of rats";
+                return "曾患有恐鼠症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "Rats suddenly seem terrifying.";
+                return "老鼠突然显得十分可怕。";
         }
 
         std::string start_heading() const override
         {
-                return "Murophobia!";
+                return "恐鼠症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of rats.";
+                return "我不再害怕老鼠了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of rats";
+                return "患上了恐鼠症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of rats was cured";
+                return "我的恐鼠症治愈了";
         }
 };
 
@@ -420,38 +420,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of spiders";
+                return "蜘蛛恐惧症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of spiders";
+                return "曾患有蜘蛛恐惧症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "Spiders suddenly seem terrifying.";
+                return "蜘蛛突然显得十分可怕。";
         }
 
         std::string start_heading() const override
         {
-                return "Arachnophobia!";
+                return "蜘蛛恐惧症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of spiders.";
+                return "我不再害怕蜘蛛了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of spiders";
+                return "患上了蜘蛛恐惧症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of spiders was cured";
+                return "我的蜘蛛恐惧症治愈了";
         }
 };
 
@@ -484,38 +484,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of reptiles and amphibians";
+                return "爬行动物与两栖动物恐惧症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of reptiles and amphibians";
+                return "曾患有爬行动物与两栖动物恐惧症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "Reptiles and amphibians suddenly seem terrifying.";
+                return "爬行动物与两栖动物突然显得十分可怕。";
         }
 
         std::string start_heading() const override
         {
-                return "Herpetophobia!";
+                return "爬虫恐惧症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of reptiles and amphibians.";
+                return "我不再害怕爬行动物和两栖动物了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of reptiles and amphibians";
+                return "患上了爬行动物与两栖动物恐惧症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of reptiles and amphibians was cured";
+                return "我的爬行动物与两栖动物恐惧症治愈了";
         }
 };
 
@@ -548,38 +548,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of canines";
+                return "恐犬症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of canines";
+                return "曾患有恐犬症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "Canines suddenly seem terrifying.";
+                return "犬类突然显得令人恐惧。";
         }
 
         std::string start_heading() const override
         {
-                return "Cynophobia!";
+                return "恐犬症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of canines.";
+                return "我不再害怕犬类了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of canines";
+                return "患上了恐犬症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of canines was cured";
+                return "我的恐犬症治愈了";
         }
 };
 
@@ -612,38 +612,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of the dead";
+                return "尸骸恐惧症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of the dead";
+                return "曾患有尸骸恐惧症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "The dead suddenly seem far more terrifying.";
+                return "死者骤然显得更加可怖。";
         }
 
         std::string start_heading() const override
         {
-                return "Necrophobia!";
+                return "恐尸症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of the dead.";
+                return "我不再害怕尸骸了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of the dead";
+                return "患上了尸骸恐惧症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of the dead was cured";
+                return "我的尸骸恐惧症治愈了";
         }
 };
 
@@ -676,38 +676,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of deep places";
+                return "幽闭深渊恐惧症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of deep places";
+                return "曾患有幽闭深渊恐惧症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "It suddenly seems far more terrifying to delve deeper.";
+                return "深入下方似乎突然变得可怕得多。";
         }
 
         std::string start_heading() const override
         {
-                return "Bathophobia!";
+                return "幽闭恐惧症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of deep places.";
+                return "我不再害怕幽闭深渊了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of deep places";
+                return "患上了幽闭深渊恐惧症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of deep places was cured";
+                return "我的幽闭深渊恐惧症治愈了";
         }
 };
 
@@ -740,38 +740,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Phobia of darkness";
+                return "黑暗恐惧症";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a phobia of darkness";
+                return "曾患有黑暗恐惧症";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "Darkness suddenly seems far more terrifying.";
+                return "黑暗骤然变得更加可怖。";
         }
 
         std::string start_heading() const override
         {
-                return "Nyctophobia!";
+                return "恐黑症！";
         }
 
         std::string end_msg() const override
         {
-                return "I am no longer terrified of darkness.";
+                return "我不再害怕黑暗了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a phobia of darkness";
+                return "患上了黑暗恐惧症";
         }
 
         std::string history_msg_end() const override
         {
-                return "My phobia of darkness was cured";
+                return "我的黑暗恐惧症治愈了";
         }
 };
 
@@ -799,41 +799,38 @@ public:
 
         std::string char_descr_msg() const override
         {
-                return "Sadistic obsession";
+                return "虐待狂式的执念";
         }
 
         std::string game_over_summary_msg() const override
         {
-                return "Had a sadistic obsession";
+                return "曾有虐待狂式的执念";
         }
 
 protected:
         std::string start_msg() const override
         {
-                return "To my alarm, I find myself encouraged by the pain I "
-                       "cause in others. For every significant life I take, I "
-                       "find a little relief. However, my depraved mind will "
-                       "never find complete peace.";
+                return "令我惊恐的是，我发现自己竟从造成他人痛苦中得到鼓舞。每夺去一个重要生命，我都会感到一丝宽慰。然而，我堕落的心智永远无法获得彻底平静。";
         }
 
         std::string start_heading() const override
         {
-                return "Sadistic obsession!";
+                return "虐待狂式的执念！";
         }
 
         std::string end_msg() const override
         {
-                return "I am cured of my sadistic obsession.";
+                return "我的虐待狂执念治愈了。";
         }
 
         std::string history_msg() const override
         {
-                return "Gained a sadistic obsession";
+                return "患上了虐待狂式的执念";
         }
 
         std::string history_msg_end() const override
         {
-                return "My sadistic obsession was cured";
+                return "我的虐待狂执念治愈了";
         }
 };
 
@@ -862,17 +859,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "The shadows are closing in on me!";
+                return "阴影正向我逼近！";
         }
 
         std::string start_heading() const override
         {
-                return "Haunted by shadows!";
+                return "阴影缠身！";
         }
 
         std::string history_msg() const override
         {
-                return "Was haunted by shadows";
+                return "被阴影纠缠";
         }
 };
 
@@ -901,18 +898,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "Is there someone following me? Or is it panic taking "
-                       "over?";
+                return "有人在跟踪我吗？还是恐慌正在吞噬我？";
         }
 
         std::string start_heading() const override
         {
-                return "Paranoia!";
+                return "偏执狂！";
         }
 
         std::string history_msg() const override
         {
-                return "Had a strong sensation of being followed";
+                return "强烈感觉有人在跟踪我";
         }
 };
 
@@ -943,18 +939,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "I find myself in a peculiar trance. I struggle to "
-                       "recall where I am, and what is happening.";
+                return "我发现自己陷入一种奇异的恍惚。我努力回想自己身在何处、正在发生什么。";
         }
 
         std::string start_heading() const override
         {
-                return "Confusion!";
+                return "困惑！";
         }
 
         std::string history_msg() const override
         {
-                return "Suddenly felt deeply confused for no reason";
+                return "毫无缘由地突然感到极度困惑";
         }
 };
 
@@ -985,17 +980,17 @@ protected:
 
         std::string start_msg() const override
         {
-                return "I fall into an uncontrollable rage!";
+                return "我陷入无法控制的狂怒！";
         }
 
         std::string start_heading() const override
         {
-                return "Frenzy!";
+                return "狂暴！";
         }
 
         std::string history_msg() const override
         {
-                return "Fell into an uncontrollable rage";
+                return "陷入无法控制的狂怒";
         }
 };
 
@@ -1022,18 +1017,17 @@ public:
 protected:
         std::string start_msg() const override
         {
-                return "There is a strange itch, as if something is crawling "
-                       "on the back of my neck.";
+                return "我感到一阵奇痒，仿佛有什么东西正在脖颈后面爬动。";
         }
 
         std::string start_heading() const override
         {
-                return "Strange sensation!";
+                return "奇异的感觉！";
         }
 
         std::string history_msg() const override
         {
-                return "Had a sensation of something crawling on my neck";
+                return "感觉有什么东西在我的脖子上爬";
         }
 };
 

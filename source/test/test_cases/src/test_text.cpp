@@ -382,3 +382,35 @@ TEST_CASE("Text with newlines")
         REQUIRE(actions[idx].id == TextActionId::write_str);
         REQUIRE(actions[idx].str == "eeee");
 }
+
+#include "utf8.hpp"
+#include "text_format.hpp"
+
+TEST_CASE("Chinese display columns and complete-character deletion")
+{
+        REQUIRE(utf8::width("玩家A") == 5);
+        REQUIRE(utf8::visible_width("{COLOR_RED}玩家{reset_color}") == 4);
+        std::string name = "玩家";
+        utf8::pop_back(name);
+        REQUIRE(name == "玩");
+        utf8::pop_back(name);
+        REQUIRE(name.empty());
+        REQUIRE(utf8::next(std::string("\xE4\xB8", 2), 0).cp == 0xfffd);
+        REQUIRE(utf8::width("A\xE2\x80\x8B" "B") == 2);
+}
+
+TEST_CASE("Chinese wrapping preserves UTF-8 across narrow columns")
+{
+        const auto rows = text_format::split("玩家持有A物品", 5);
+        std::string restored;
+        for (const auto& row : rows) {
+                REQUIRE(utf8::width(row) <= 5);
+                for (size_t p = 0; p < row.size();) {
+                        auto g = utf8::next(row, p);
+                        REQUIRE(g.cp != 0xfffd);
+                        p = g.end;
+                }
+                restored += row;
+        }
+        REQUIRE(restored == "玩家持有A物品");
+}

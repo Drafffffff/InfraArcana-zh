@@ -85,11 +85,11 @@ void Device::identify(const Verbose verbose)
                                 ItemNameType::a,
                                 ItemNameInfo::none);
 
-                msg_log::add("I have identified " + name_after + ".");
+                msg_log::add("我已确定 " + name_after + ".");
 
-                msg_log::add("All its properties are now known to me.");
+                msg_log::add("现在我已经知道它的所有属性了。");
 
-                game::add_history_event("Comprehended " + name_after);
+                game::add_history_event("领悟了 " + name_after);
 
                 game::incr_player_xp(g_xp_on_identify_device);
         }
@@ -112,19 +112,19 @@ std::vector<std::string> Device::descr_hook() const
 
                 std::vector<std::string> out = {descr};
 
-                std::string cond_str = "It seems ";
+                std::string cond_str = "它似乎 ";
 
                 switch (m_condition) {
                 case Condition::fine:
-                        cond_str += "to be in fine condition.";
+                        cond_str += "状态良好。";
                         break;
 
                 case Condition::shoddy:
-                        cond_str += "to be in shoddy condition.";
+                        cond_str += "处于劣质状态。";
                         break;
 
                 case Condition::breaking:
-                        cond_str += "almost broken.";
+                        cond_str += "几乎坏了。";
                         break;
                 }
 
@@ -144,8 +144,7 @@ ConsumeItem Device::activate(actor::Actor* const actor)
 
         if (!m_data->is_identified) {
                 msg_log::add(
-                        "This device is completely alien to me, I could never "
-                        "understand it through normal means.");
+                        "这个装置对我来说完全陌生，我无法通过正常方式理解它。");
 
                 return ConsumeItem::no;
         }
@@ -208,13 +207,13 @@ ConsumeItem Device::activate(actor::Actor* const actor)
                         ItemNameType::a,
                         ItemNameInfo::none);
 
-        msg_log::add("I activate " + item_name_a + "...");
+        msg_log::add("我激活 " + item_name_a + "...");
 
         ConsumeItem consumed = ConsumeItem::no;
 
         if (should_hurt_user) {
                 msg_log::add(
-                        "It hits me with a jolt of electricity!",
+                        "它让我感到一阵电击！",
                         colors::msg_bad());
 
                 actor::hit(
@@ -225,7 +224,7 @@ ConsumeItem Device::activate(actor::Actor* const actor)
         }
 
         if (should_fail) {
-                msg_log::add("It suddenly stops.");
+                msg_log::add("它突然停止了。");
         }
         else {
                 consumed = run_effect();
@@ -234,23 +233,22 @@ ConsumeItem Device::activate(actor::Actor* const actor)
         if (consumed == ConsumeItem::no) {
                 if (should_degrade) {
                         if (m_condition == Condition::breaking) {
-                                msg_log::add("The " + item_name + " breaks!");
+                                msg_log::add("这 " + item_name + " 休息！");
 
                                 consumed = ConsumeItem::yes;
                         }
                         else {
                                 msg_log::add(
-                                        "The " +
+                                        "这 " +
                                         item_name +
-                                        " makes a terrible grinding noise. "
-                                        "I seem to have damaged it.");
+                                        " 发出可怕的磨擦声。我好像把它弄坏了。");
 
                                 m_condition = (Condition)((int)m_condition - 1);
                         }
                 }
 
                 if (should_warn) {
-                        msg_log::add("The " + item_name + " hums ominously.");
+                        msg_log::add("这 " + item_name + " 不祥地嗡嗡作响。");
                 }
         }
 
@@ -266,13 +264,13 @@ std::string Device::name_info_str(const ItemNameIdentified id_type) const
         if (m_data->is_identified || (id_type == ItemNameIdentified::force_identified)) {
                 switch (m_condition) {
                 case Condition::breaking:
-                        return "(breaking)";
+                        return "（打破）";
 
                 case Condition::shoddy:
-                        return "(shoddy)";
+                        return "（劣质）";
 
                 case Condition::fine:
-                        return "(fine)";
+                        return "（美好的）";
                 }
         }
 
@@ -287,7 +285,7 @@ ConsumeItem Blaster::run_effect()
         const auto tgt_bucket = actor::seen_foes(*map::g_player);
 
         if (tgt_bucket.empty()) {
-                msg_log::add("It seems to peruse area.");
+                msg_log::add("看来是要细读区域了。");
 
                 return ConsumeItem::no;
         }
@@ -309,8 +307,7 @@ ConsumeItem Blaster::run_effect()
 std::string Blaster::descr_identified() const
 {
         return (
-                "When activated, this device blasts one visible hostile "
-                "creature with infernal power.");
+                "激活后，该装置会用地狱之力爆炸一个可见的敌对生物。");
 }
 
 // -----------------------------------------------------------------------------
@@ -318,7 +315,7 @@ std::string Blaster::descr_identified() const
 // -----------------------------------------------------------------------------
 ConsumeItem Rejuvenator::run_effect()
 {
-        msg_log::add("It repairs my body.");
+        msg_log::add("它修复我的身体。");
 
         std::vector<prop::Id> props_can_heal = {
                 prop::Id::blind,
@@ -344,9 +341,7 @@ ConsumeItem Rejuvenator::run_effect()
 std::string Rejuvenator::descr_identified() const
 {
         return (
-                "When activated, this device heals all wounds and physical "
-                "maladies. The procedure is very painful and invasive "
-                "however, and causes great shock to the user.");
+                "启动后，该装置会治愈所有创伤和身体疾病。不过，治疗过程非常痛苦且具有侵入性，会给使用者造成强烈震慑。");
 }
 
 // -----------------------------------------------------------------------------
@@ -357,14 +352,14 @@ ConsumeItem Translocator::run_effect()
         const auto seen_foes = actor::seen_foes(*map::g_player);
 
         if (seen_foes.empty()) {
-                msg_log::add("It seems to peruse area.");
+                msg_log::add("看来是要细读区域了。");
         }
         else {
                 // Seen targets are available
                 for (auto* actor : seen_foes) {
                         msg_log::add(
                                 text_format::first_to_upper(actor::name_the(*actor)) +
-                                " is teleported.");
+                                " 被传送。");
 
                         draw_blast_at_cells(
                                 std::vector<P> {actor->m_pos},
@@ -380,8 +375,7 @@ ConsumeItem Translocator::run_effect()
 std::string Translocator::descr_identified() const
 {
         return (
-                "When activated, this device teleports all visible enemies "
-                "to different locations.");
+                "激活后，该设备会将所有可见的敌人传送到不同的位置。");
 }
 
 // -----------------------------------------------------------------------------
@@ -389,7 +383,7 @@ std::string Translocator::descr_identified() const
 // -----------------------------------------------------------------------------
 ConsumeItem SentryDrone::run_effect()
 {
-        msg_log::add("The Sentry Drone awakens!");
+        msg_log::add("哨兵无人机苏醒！");
 
         actor::spawn(map::g_player->m_pos, {"MON_SENTRY_DRONE"})
                 .make_aware_of_player()
@@ -403,7 +397,7 @@ ConsumeItem SentryDrone::run_effect()
 // -----------------------------------------------------------------------------
 ConsumeItem ForceField::run_effect()
 {
-        msg_log::add("The air thickens around me.");
+        msg_log::add("我周围的空气变得凝重。");
 
         Range duration_range(85, 100);
 
@@ -457,10 +451,7 @@ ConsumeItem ForceField::run_effect()
 std::string ForceField::descr_identified() const
 {
         return (
-                "When activated, this device constructs a temporary opaque "
-                "barrier around the user, blocking all physical matter. "
-                "The barrier can only be created in empty spaces "
-                "(i.e. not in spaces occupied by creatures, walls, etc).");
+                "激活后，该设备会在用户周围构建一个临时的不透明屏障，阻挡所有物理物质。屏障只能在空的空间中创建（即不能在被生物、墙壁等占据的空间中）。");
 }
 
 }  // namespace device

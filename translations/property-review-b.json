@@ -1,0 +1,730 @@
+[
+  {
+    "source": "+1 extra hit point regenerated per turn.",
+    "target": "每回合额外恢复 +1 点生命值。"
+  },
+  {
+    "source": "+10% to hit chance, evasion, stealth, and searching.",
+    "target": "命中率、闪避、潜行和搜索能力 +10%。"
+  },
+  {
+    "source": "+3 armor points, +25% chance to resist burning.",
+    "target": "护甲值 +3，抵抗燃烧的几率 +25%。"
+  },
+  {
+    "source": "+3 melee damage, +30% melee hit chance, +3 armor points.",
+    "target": "近战伤害 +3，近战命中率 +30%，护甲值 +3。"
+  },
+  {
+    "source": "+75% chance to evade attacks.",
+    "target": "闪避攻击的几率 +75%。"
+  },
+  {
+    "source": "-10% to hit chance, evasion, stealth, and searching.",
+    "target": "命中率、闪避、潜行和搜索能力 -10%。"
+  },
+  {
+    "source": "-20% to hit chance, evasion, stealth, and searching, 10% chance to fail when attempting to read or cast spells.",
+    "target": "命中率、闪避、潜行和搜索能力 -20%；阅读或施放法术时有 10% 的失败几率。"
+  },
+  {
+    "source": "-50% maximum hit points.",
+    "target": "最大生命值 -50%。"
+  },
+  {
+    "source": "-50% melee damage, cannot do backstab attacks, cannot bash doors or chests open, knock heavy objects over, etc.",
+    "target": "近战伤害 -50%，无法发动背刺攻击，无法撞开门或箱子、撞倒重物等。"
+  },
+  {
+    "source": "A bright light shines around me.",
+    "target": "一道明亮的光芒在我周围闪耀。"
+  },
+  {
+    "source": "A nasty infection that will get worse if left untreated.",
+    "target": "一种可怕的感染，若不治疗，病情会不断恶化。"
+  },
+  {
+    "source": "A perpetual curse was put upon me",
+    "target": "我被施加了一个永恒的诅咒"
+  },
+  {
+    "source": "A protective carapace forms around me.",
+    "target": "一层保护性甲壳在我周围形成。"
+  },
+  {
+    "source": "A terrible curse was lifted from me",
+    "target": "一个可怕的诅咒从我身上解除"
+  },
+  {
+    "source": "Aiming",
+    "target": "瞄准"
+  },
+  {
+    "source": "appears to exude death and decay.",
+    "target": "散发着死亡与腐朽的气息。"
+  },
+  {
+    "source": "Aura of Decay",
+    "target": "腐朽光环"
+  },
+  {
+    "source": "Blessed",
+    "target": "受祝福"
+  },
+  {
+    "source": "Burrowing",
+    "target": "掘地"
+  },
+  {
+    "source": "calms down a little.",
+    "target": "稍稍平静下来。"
+  },
+  {
+    "source": "Can burrow through walls and rubble.",
+    "target": "可以穿过墙壁和瓦砾掘地。"
+  },
+  {
+    "source": "Can control teleport destination.",
+    "target": "可以控制传送目的地。"
+  },
+  {
+    "source": "can move through earth.",
+    "target": "可以穿行于土层中。"
+  },
+  {
+    "source": "can no longer move through earth.",
+    "target": "不再能穿行于土层中。"
+  },
+  {
+    "source": "Can pass through solid objects, +50% chance to evade attacks.",
+    "target": "可以穿过实体，闪避攻击的几率 +50%。"
+  },
+  {
+    "source": "Can see invisible creatures, cannot be blinded.",
+    "target": "可以看见隐形生物，且不会失明。"
+  },
+  {
+    "source": "Cannot be detected by normal sight, ends if attacking or casting spells.",
+    "target": "无法被肉眼发现；攻击或施法会使效果结束。"
+  },
+  {
+    "source": "Cannot be detected by normal sight.",
+    "target": "无法被肉眼发现。"
+  },
+  {
+    "source": "Cannot move away from seen enemies, moves faster, +1 melee damage, +10% melee hit chance, immune to confusion, fainting, fear, and weakening, cannot read or cast spells, becomes weakened when the frenzy ends.",
+    "target": "无法远离已发现的敌人，移动速度提高，近战伤害 +1、近战命中率 +10%；免疫困惑、昏厥、恐惧和虚弱；无法阅读或施法；狂乱结束后会陷入虚弱。"
+  },
+  {
+    "source": "Carapace",
+    "target": "甲壳"
+  },
+  {
+    "source": "Caught a horrible disease",
+    "target": "染上了可怕的疾病"
+  },
+  {
+    "source": "Cloaked",
+    "target": "隐身"
+  },
+  {
+    "source": "Conflicted",
+    "target": "心神冲突"
+  },
+  {
+    "source": "Considers every creature as an enemy.",
+    "target": "将所有生物都视为敌人。"
+  },
+  {
+    "source": "Creatures within a distance of two moves take damage each standard turn.",
+    "target": "两步距离内的生物每个标准回合都会受到伤害。"
+  },
+  {
+    "source": "Cursed",
+    "target": "被诅咒"
+  },
+  {
+    "source": "Decay Aura",
+    "target": "腐朽光环"
+  },
+  {
+    "source": "Descending",
+    "target": "正在下楼"
+  },
+  {
+    "source": "Diseased",
+    "target": "患病"
+  },
+  {
+    "source": "Doomed",
+    "target": "命定厄运"
+  },
+  {
+    "source": "Earth and stone crumble away before me.",
+    "target": "土石在我面前崩解消散。"
+  },
+  {
+    "source": "Emanating a bright light.",
+    "target": "散发着明亮的光芒。"
+  },
+  {
+    "source": "Entangled",
+    "target": "被缠住"
+  },
+  {
+    "source": "Entangled in something.",
+    "target": "被什么东西缠住了。"
+  },
+  {
+    "source": "Erudition",
+    "target": "博学"
+  },
+  {
+    "source": "Ethereal",
+    "target": "以太化"
+  },
+  {
+    "source": "Extra Skill",
+    "target": "额外技能"
+  },
+  {
+    "source": "Fewer hit points.",
+    "target": "生命值减少。"
+  },
+  {
+    "source": "Fewer spirit points.",
+    "target": "精神值减少。"
+  },
+  {
+    "source": "For each wound: -5% melee hit chance, -5% chance to evade attacks, -10% hit points, and reduced hit point generation rate. With three concurrent wounds, walking takes extra turns. Five concurrent wounds is fatal.",
+    "target": "每处创伤：近战命中率 -5%、闪避攻击的几率 -5%、生命值 -10%，并减慢生命值恢复速度。身上同时有 3 处创伤时，行走会额外消耗回合；同时有 5 处创伤会致命。"
+  },
+  {
+    "source": "Frenzied",
+    "target": "狂乱"
+  },
+  {
+    "source": "Hidden secrets are revealed to me.",
+    "target": "隐藏的秘密向我显现。"
+  },
+  {
+    "source": "Hope returned again",
+    "target": "希望再次回归"
+  },
+  {
+    "source": "I am cloaked!",
+    "target": "我隐去了身形！"
+  },
+  {
+    "source": "I am diseased!",
+    "target": "我患病了！"
+  },
+  {
+    "source": "I am entangled!",
+    "target": "我被缠住了！"
+  },
+  {
+    "source": "I am infected!",
+    "target": "我感染了！"
+  },
+  {
+    "source": "I am no longer invisible.",
+    "target": "我不再隐形了。"
+  },
+  {
+    "source": "I am out of sight!",
+    "target": "我消失在视野之外！"
+  },
+  {
+    "source": "I am stuck!",
+    "target": "我被困住了！"
+  },
+  {
+    "source": "I am wounded!",
+    "target": "我受伤了！"
+  },
+  {
+    "source": "I calm down.",
+    "target": "我平静下来。"
+  },
+  {
+    "source": "I can no longer see hidden things.",
+    "target": "我再也看不见隐藏之物了。"
+  },
+  {
+    "source": "I can read again.",
+    "target": "我又能阅读了。"
+  },
+  {
+    "source": "I feel a sinking sensation.",
+    "target": "我感到一阵下坠。"
+  },
+  {
+    "source": "I feel doomed!",
+    "target": "我感觉厄运将至！"
+  },
+  {
+    "source": "I feel ferocious!!!",
+    "target": "我感觉凶猛无比！！！"
+  },
+  {
+    "source": "I feel ignorant.",
+    "target": "我感到愚昧无知。"
+  },
+  {
+    "source": "I feel illiterate!",
+    "target": "我觉得自己目不识丁！"
+  },
+  {
+    "source": "I feel in control.",
+    "target": "我感觉一切尽在掌控。"
+  },
+  {
+    "source": "I feel less anxious.",
+    "target": "我不再那么焦虑了。"
+  },
+  {
+    "source": "I feel less in control.",
+    "target": "我感觉不再那么有把握。"
+  },
+  {
+    "source": "I feel less skillful.",
+    "target": "我感觉技巧变差了。"
+  },
+  {
+    "source": "I feel luckier.",
+    "target": "我感觉运气变好了。"
+  },
+  {
+    "source": "I feel misfortunate.",
+    "target": "我感觉时运不济。"
+  },
+  {
+    "source": "I feel more anxious!",
+    "target": "我更加焦虑了！"
+  },
+  {
+    "source": "I feel more fortunate.",
+    "target": "我感觉运气更好了。"
+  },
+  {
+    "source": "I feel more skillful.",
+    "target": "我感觉技巧更娴熟了。"
+  },
+  {
+    "source": "I feel more vulnerable.",
+    "target": "我感觉自己更脆弱了。"
+  },
+  {
+    "source": "I feel much less secure.",
+    "target": "我感觉安全感大减。"
+  },
+  {
+    "source": "I feel stronger!",
+    "target": "我感觉更强壮了！"
+  },
+  {
+    "source": "I feel unassailable.",
+    "target": "我感觉坚不可摧。"
+  },
+  {
+    "source": "I feel very secure.",
+    "target": "我感到非常安心。"
+  },
+  {
+    "source": "I feel weaker.",
+    "target": "我感觉变弱了。"
+  },
+  {
+    "source": "I have normal luck.",
+    "target": "我的运气恢复正常。"
+  },
+  {
+    "source": "I pull myself free!",
+    "target": "我挣脱了！"
+  },
+  {
+    "source": "I resist a great misfortune.",
+    "target": "我抵挡住了一场大灾厄。"
+  },
+  {
+    "source": "I resist disease.",
+    "target": "我抵抗疾病。"
+  },
+  {
+    "source": "I resist misfortune.",
+    "target": "我抵挡住了厄运。"
+  },
+  {
+    "source": "I resist sapping.",
+    "target": "我抵抗生命汲取。"
+  },
+  {
+    "source": "I resist weakness.",
+    "target": "我抵抗虚弱。"
+  },
+  {
+    "source": "I resist wounding!",
+    "target": "我抵抗创伤！"
+  },
+  {
+    "source": "Increased range attack effectiveness.",
+    "target": "远程攻击效果提高。"
+  },
+  {
+    "source": "Increased Shock.",
+    "target": "震慑增加。"
+  },
+  {
+    "source": "Infected",
+    "target": "已感染"
+  },
+  {
+    "source": "Invisible",
+    "target": "隐形"
+  },
+  {
+    "source": "is cloaked!",
+    "target": "隐去了身形！"
+  },
+  {
+    "source": "is cursed.",
+    "target": "被诅咒了。"
+  },
+  {
+    "source": "is diseased.",
+    "target": "患病了。"
+  },
+  {
+    "source": "is doomed!",
+    "target": "厄运降临！"
+  },
+  {
+    "source": "is entangled.",
+    "target": "被缠住了。"
+  },
+  {
+    "source": "is enveloped by a protective carapace.",
+    "target": "被保护性甲壳包裹。"
+  },
+  {
+    "source": "Is ignored by all hostile creatures. The effect ends if moving or performing a melee or ranged attack.",
+    "target": "所有敌对生物都会忽视它。移动或进行近战、远程攻击会使效果结束。"
+  },
+  {
+    "source": "is infected.",
+    "target": "感染了。"
+  },
+  {
+    "source": "is no longer cursed.",
+    "target": "诅咒已解除。"
+  },
+  {
+    "source": "is no longer diseased.",
+    "target": "疾病已痊愈。"
+  },
+  {
+    "source": "is no longer doomed.",
+    "target": "厄运已解除。"
+  },
+  {
+    "source": "is no longer infected.",
+    "target": "感染已治愈。"
+  },
+  {
+    "source": "is out of sight!",
+    "target": "消失在视野之外！"
+  },
+  {
+    "source": "is sapped of life.",
+    "target": "生命力被汲取。"
+  },
+  {
+    "source": "is sapped of spirit.",
+    "target": "精神值被汲取。"
+  },
+  {
+    "source": "is stuck.",
+    "target": "被困住了。"
+  },
+  {
+    "source": "It suddenly gets darker.",
+    "target": "周围骤然变暗。"
+  },
+  {
+    "source": "Life Sapped",
+    "target": "生命力被汲取"
+  },
+  {
+    "source": "Looks conflicted.",
+    "target": "看起来心神不宁。"
+  },
+  {
+    "source": "looks ferocious!",
+    "target": "看起来凶猛无比！"
+  },
+  {
+    "source": "looks less skillful.",
+    "target": "看起来不那么娴熟了。"
+  },
+  {
+    "source": "looks like an easier target now.",
+    "target": "现在看起来更容易击中。"
+  },
+  {
+    "source": "Looks more determined.",
+    "target": "看起来更加坚定。"
+  },
+  {
+    "source": "looks more skillful.",
+    "target": "看起来更加娴熟。"
+  },
+  {
+    "source": "looks restored.",
+    "target": "看起来恢复了。"
+  },
+  {
+    "source": "looks stronger!",
+    "target": "看起来更强壮了！"
+  },
+  {
+    "source": "looks unassailable.",
+    "target": "看起来坚不可摧。"
+  },
+  {
+    "source": "looks weaker.",
+    "target": "看起来变弱了。"
+  },
+  {
+    "source": "Magic Search",
+    "target": "魔法搜寻"
+  },
+  {
+    "source": "Magic Searching",
+    "target": "魔法探查"
+  },
+  {
+    "source": "Magically detects objects and creatures in the surrounding area.",
+    "target": "可以用魔法探测周围区域内的物品和生物。"
+  },
+  {
+    "source": "Mind Sapped",
+    "target": "心智受到汲取"
+  },
+  {
+    "source": "Moribund",
+    "target": "濒死"
+  },
+  {
+    "source": "My aiming feels better.",
+    "target": "我的瞄准似乎更准了。"
+  },
+  {
+    "source": "My aiming feels worse.",
+    "target": "我的瞄准似乎更差了。"
+  },
+  {
+    "source": "My body heals itself slower now.",
+    "target": "我的身体恢复得更慢了。"
+  },
+  {
+    "source": "My body starts healing itself much faster.",
+    "target": "我的身体开始快速自愈。"
+  },
+  {
+    "source": "My carapace cracks and crumbles away.",
+    "target": "我的甲壳裂开并崩落。"
+  },
+  {
+    "source": "My cloak fades.",
+    "target": "我的隐身效果正在消退。"
+  },
+  {
+    "source": "My disease is cured!",
+    "target": "我的疾病痊愈了！"
+  },
+  {
+    "source": "My doom does not feel so certain anymore.",
+    "target": "我的厄运似乎不再那么确定。"
+  },
+  {
+    "source": "My doom was written",
+    "target": "我的厄运早已注定"
+  },
+  {
+    "source": "My eyes can no longer perceive the invisible.",
+    "target": "我的双眼再也看不见隐形之物。"
+  },
+  {
+    "source": "My eyes perceive the invisible.",
+    "target": "我的双眼看见了隐形之物。"
+  },
+  {
+    "source": "My great blessing ceased",
+    "target": "我的大福泽消失了"
+  },
+  {
+    "source": "My infection is cured!",
+    "target": "我的感染痊愈了！"
+  },
+  {
+    "source": "My life force is sapped!",
+    "target": "我的生命力被汲取了！"
+  },
+  {
+    "source": "My life force returns.",
+    "target": "我的生命力恢复了。"
+  },
+  {
+    "source": "My mind is sapped!",
+    "target": "我的心智被汲取了！"
+  },
+  {
+    "source": "My mind returns.",
+    "target": "我的心智恢复了。"
+  },
+  {
+    "source": "My spirit is sapped!",
+    "target": "我的精神值被汲取了！"
+  },
+  {
+    "source": "My spirit returns.",
+    "target": "我的精神值恢复了。"
+  },
+  {
+    "source": "Mystic secrets are revealed to me!",
+    "target": "神秘的秘密向我显现！"
+  },
+  {
+    "source": "no longer exudes decay.",
+    "target": "不再散发腐朽气息。"
+  },
+  {
+    "source": "Premonition",
+    "target": "预兆"
+  },
+  {
+    "source": "pulls free!",
+    "target": "挣脱了！"
+  },
+  {
+    "source": "Radiant",
+    "target": "辉耀"
+  },
+  {
+    "source": "Received an everlasting blessing",
+    "target": "获得永恒的祝福"
+  },
+  {
+    "source": "Regenerating",
+    "target": "正在再生"
+  },
+  {
+    "source": "resists disease.",
+    "target": "抵抗疾病。"
+  },
+  {
+    "source": "resists misfortune.",
+    "target": "抵挡厄运。"
+  },
+  {
+    "source": "resists sapping.",
+    "target": "抵抗生命汲取。"
+  },
+  {
+    "source": "resists weakness.",
+    "target": "抵抗虚弱。"
+  },
+  {
+    "source": "Sanctuary",
+    "target": "庇护所"
+  },
+  {
+    "source": "See Invis",
+    "target": "看见隐形之物"
+  },
+  {
+    "source": "See Invisible",
+    "target": "看见隐形之物"
+  },
+  {
+    "source": "seems less keen.",
+    "target": "似乎没那么警觉了。"
+  },
+  {
+    "source": "seems very keen.",
+    "target": "似乎格外警觉。"
+  },
+  {
+    "source": "sheds a carapace.",
+    "target": "脱落了一层甲壳。"
+  },
+  {
+    "source": "Skill",
+    "target": "技能"
+  },
+  {
+    "source": "Soon moved to a deeper level.",
+    "target": "很快就会前往更深一层。"
+  },
+  {
+    "source": "Spell skill is improved by one level.",
+    "target": "法术技能提升了一级。"
+  },
+  {
+    "source": "Spirit Sapped",
+    "target": "精神值被汲取"
+  },
+  {
+    "source": "starts regenerating damage very quickly.",
+    "target": "开始快速恢复伤势。"
+  },
+  {
+    "source": "stops regenerating damage quickly.",
+    "target": "不再快速恢复伤势。"
+  },
+  {
+    "source": "Stuck",
+    "target": "受困"
+  },
+  {
+    "source": "Stuck in something.",
+    "target": "被什么东西困住了。"
+  },
+  {
+    "source": "tears free!",
+    "target": "挣脱了！"
+  },
+  {
+    "source": "Tele Ctrl",
+    "target": "传送控制"
+  },
+  {
+    "source": "Teleport control",
+    "target": "传送控制"
+  },
+  {
+    "source": "The decay subsides.",
+    "target": "腐朽之力平息了。"
+  },
+  {
+    "source": "The earth is solid once more.",
+    "target": "大地再次坚实如初。"
+  },
+  {
+    "source": "Was cured from a horrible disease",
+    "target": "从可怕的疾病中痊愈"
+  },
+  {
+    "source": "Weakened",
+    "target": "虚弱"
+  },
+  {
+    "source": "Withering surrounds me.",
+    "target": "凋零之力笼罩着我。"
+  },
+  {
+    "source": "Wounded",
+    "target": "受伤"
+  }
+]

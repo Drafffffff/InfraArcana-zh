@@ -1,0 +1,2409 @@
+[
+  {
+    "source": "the Spitting Cobra",
+    "target": "喷吐眼镜蛇",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Spitting Cobra corpse",
+    "target": "喷吐眼镜蛇的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Starfish God",
+    "target": "海星之神",
+    "locations": [
+      "src/gods.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The state of your physical health is described in two ways:",
+    "target": "你的身体健康状况通过两种方式描述：",
+    "locations": [
+      "installed_files/manual.txt:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Stone-Thing",
+    "target": "石之物",
+    "locations": [
+      "src/gods.cpp:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The story so far...",
+    "target": "此前的故事……",
+    "locations": [
+      "src/game.cpp:458"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Strange Color",
+    "target": "诡异之色",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Supreme Wizard of the Cult of Starry Wisdom. He appears incredibly old, like a hideous ancient vampire or a grim reaper. Tattered crimson robes flow from his skeletal frame, his bony fingers extends into razor sharp claws, and he has a grim expression on his face.",
+    "target": "星辰智慧教团的大巫师。他看起来极其年迈，宛如一只可怖的古老吸血鬼或冷酷的死神。破烂的深红长袍垂挂在他骨瘦如柴的身躯上，骨指化作锋利的爪子，脸上满是阴沉神情。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The surroundings change!",
+    "target": "周围环境发生了变化！",
+    "locations": [
+      "src/terrain_trap.cpp:1322"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The tale of a lost civilization's final days.",
+    "target": "失落文明末日时日的故事。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Tenebrous One",
+    "target": "幽冥之主",
+    "locations": [
+      "src/gods.cpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Tentacle Cluster",
+    "target": "触手丛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Thing from Beyond",
+    "target": "异界之物",
+    "locations": [
+      "src/gods.cpp:92"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Thing in the Pit",
+    "target": "坑中之物",
+    "locations": [
+      "src/gods.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Toad-God",
+    "target": "蟾蜍神",
+    "locations": [
+      "src/gods.cpp:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The tomb is destroyed.",
+    "target": "墓穴被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:3360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The tomb is empty.",
+    "target": "墓穴是空的。",
+    "locations": [
+      "src/terrain.cpp:3472"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Troglodyte",
+    "target": "穴居者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Troglodyte corpse",
+    "target": "穴居者的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The user data directory '",
+    "target": "用户数据目录“",
+    "locations": [
+      "src/paths.cpp:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Vampire Bat",
+    "target": "吸血蝙蝠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Vampire Bat corpse",
+    "target": "吸血蝙蝠的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Void Traveler",
+    "target": "虚空旅者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The walls here are slick with dampness, and the air is heavy with the stench of saltwater and the unmistakable odor of decay. I can feel the humidity on my skin, and my breaths come out in shallow gasps. \n\nThere are tunnels leading deeper into underground waterways, but I can only guess where they might lead. It's as if the entire cave system is interconnected, with passages that could possibly lead to the depths of the ocean or subterranean lakes and rivers.",
+    "target": "这里的墙壁湿滑，空气中弥漫着沉重的盐水与腐朽气息。我能感到皮肤上的湿气，呼吸也变得短促。\n\n有隧道通往更深处的地下水道，但我只能猜测它们通向何方。整个洞穴系统似乎彼此相连，通道也许会通往海洋深处，或地下湖泊与河流。",
+    "locations": [
+      "src/map_controller.cpp:222"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Warping Aberrance",
+    "target": "扭曲异变体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Water Beast",
+    "target": "水之巨兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Water Hound",
+    "target": "水之猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The water in ",
+    "target": "……中的水 ",
+    "locations": [
+      "src/terrain.cpp:4496",
+      "src/terrain.cpp:4528"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The Watery Dweller Beneath",
+    "target": "水底居者",
+    "locations": [
+      "src/gods.cpp:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The way is blocked.",
+    "target": "道路被挡住了。",
+    "locations": [
+      "include/terrain_data.hpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The webs spun by this transcendental creature are not of any mundane kind - weaving, plucking, gnawing, it taps directly into the fabric of fate, making baleful arrangements according to its ulterior whims.",
+    "target": "这超凡生物织出的蛛网绝非凡物——它编织、拨弄、啃噬，直接触及命运的织布，并依循隐秘私欲，编排出不祥的结局。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the White Spider corpse",
+    "target": "白蜘蛛的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The White Worm",
+    "target": "白色蠕虫",
+    "locations": [
+      "src/gods.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Widow in the Woods",
+    "target": "林中寡妇",
+    "locations": [
+      "src/gods.cpp:24"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Winged Corpse",
+    "target": "有翼尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Wizard",
+    "target": "巫师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Wizard corpse",
+    "target": "巫师的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Wolf",
+    "target": "狼",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Wolf carcass",
+    "target": "狼尸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Wolf-Thing",
+    "target": "狼形之物",
+    "locations": [
+      "src/gods.cpp:63"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Worm Mass",
+    "target": "蠕虫群",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Wraith",
+    "target": "幽魂",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Zealot corpse",
+    "target": "狂信者的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Zombifying Essence",
+    "target": "令尸体复生的精华",
+    "locations": [
+      "src/gods.cpp:66"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are also other ways you can lose Spirit, for example some monsters can drain your Spirit with their attacks.",
+    "target": "你也可能因其他原因失去精神值，例如有些怪物的攻击会汲取精神力。",
+    "locations": [
+      "installed_files/manual.txt:201"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are black zones of shadow close to our daily paths, and now and then some evil soul breaks a passage through. When that happens, the man who knows must strike before reckoning the consequences.",
+    "target": "在我们日常行经之处附近，潜藏着黑暗的阴影区域；偶尔会有邪恶灵魂打通一道通路。一旦如此，知情者必须在考量后果之前先行出手。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+    "target": "生命边界之外潜藏着我们未曾察觉的恐怖；偶尔，人类邪恶的窥探会将它们引到我们身边。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:43"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are no more items of interest.",
+    "target": "没有更多值得关注的物品了。",
+    "locations": [
+      "src/terrain.cpp:3153"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There are spiders inside!",
+    "target": "里面有蜘蛛！",
+    "locations": [
+      "src/terrain.cpp:5343"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is ",
+    "target": "有 ",
+    "locations": [
+      "src/actor_player.cpp:302",
+      "src/terrain.cpp:4355",
+      "src/terrain_door.cpp:1356",
+      "src/terrain_trap.cpp:635"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "There is a bookshelf here.",
+    "target": "这里有一个书架。",
+    "locations": [
+      "src/terrain.cpp:4915"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a briny smell here.",
+    "target": "这里有一股咸腥味。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a cabinet here.",
+    "target": "这里有一个柜子。",
+    "locations": [
+      "src/terrain.cpp:4719"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a carved rock defiled with blasphemous carvings here. It must be destroyed!",
+    "target": "这里有块刻着亵渎图案的石头。必须摧毁它！",
+    "locations": [
+      "src/terrain_monolith.cpp:113"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a carved rock here.",
+    "target": "这里有一块刻石。",
+    "locations": [
+      "src/terrain_monolith.cpp:117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a chest here.",
+    "target": "这里有一个箱子。",
+    "locations": [
+      "src/terrain.cpp:3947"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a cocoon here.",
+    "target": "这里有一个茧。",
+    "locations": [
+      "src/terrain.cpp:5260"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a creature here.",
+    "target": "这里有个生物。",
+    "locations": [
+      "src/view.cpp:200"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a fountain here, but it's dried-up.",
+    "target": "这里有一座喷泉，不过已经干涸了。",
+    "locations": [
+      "src/terrain.cpp:4327"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a glass surface here.",
+    "target": "这里有一块玻璃表面。",
+    "locations": [
+      "src/terrain_mirror.cpp:166"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a half-dissolved human body inside!",
+    "target": "里面有一具半溶解的人体！",
+    "locations": [
+      "src/terrain.cpp:5313"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a stench of decayed flesh here.",
+    "target": "这里有腐肉的恶臭。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a stone box here.",
+    "target": "这里有一个石箱。",
+    "locations": [
+      "src/terrain.cpp:3478"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a strange itch, as if something is crawling on the back of my neck.",
+    "target": "我感到一阵奇痒，仿佛有什么东西正在脖颈后面爬动。",
+    "locations": [
+      "include/insanity.hpp:1025"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is a temple gong here.",
+    "target": "这里有一面神殿铜锣。",
+    "locations": [
+      "src/terrain_gong.cpp:793"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is an alchemist's workbench here.",
+    "target": "这里有一张炼金术士的工作台。",
+    "locations": [
+      "src/terrain.cpp:5083"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is an inscription here, studying it will yield some experience.\n\nIt may also recall a spell that you have forgotten, or reveal something about carried manuscripts or potions. The chance to reveal information about such items is higher with more unknown items carried.",
+    "target": "这里有一段铭文，研究它可以获得一些经验。\n\n它还可能让你回忆起遗忘的法术，或揭示随身携带的手稿、药水的信息。你携带的未知物品越多，揭示这类信息的几率就越高。",
+    "locations": [
+      "src/hints.cpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is an intense flash of light!",
+    "target": "一阵强光猛然闪过！",
+    "locations": [
+      "src/terrain_trap.cpp:938"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is an item called a \"Medical Bag\", which has a certain number of \"supplies\". When activated, it can be used to either sanitize an infection, treat a WOUND, or do a quick patch-up that restores some Hit Points. When bitten or clawed by certain monsters, you can become Infected; This should be treated before the infection turns into a disease! Treating infections or doing a quick patch-up only require a few supplies, while treating wounds requires more.",
+    "target": "有一种叫作“医疗包”的物品，内含一定数量的“补给”。启动后可用于消毒感染、治疗创伤，或快速包扎以恢复一些生命值。被某些怪物咬伤或抓伤后可能会感染；必须在感染发展成疾病前进行治疗！治疗感染或快速包扎只需少量补给，治疗创伤则需要更多。",
+    "locations": [
+      "installed_files/manual.txt:185"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is no ammo loaded.",
+    "target": "没有装填弹药。",
+    "locations": [
+      "src/game_commands.cpp:156"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is no apparent effect.",
+    "target": "没有明显效果。",
+    "locations": [
+      "src/terrain_trap.cpp:1429",
+      "src/terrain_trap.cpp:1449"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is nothing of interest.",
+    "target": "没有什么值得关注。",
+    "locations": [
+      "src/terrain.cpp:4963",
+      "src/terrain.cpp:5131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is nothing of value inside.",
+    "target": "里面没有值钱的东西。",
+    "locations": [
+      "src/terrain.cpp:3562",
+      "src/terrain.cpp:3989",
+      "src/terrain.cpp:4764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is something inside.",
+    "target": "里面有东西。",
+    "locations": [
+      "src/terrain.cpp:3593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "There is suddenly a crushing pressure in the air!",
+    "target": "空气中骤然出现一股沉重的压迫感！",
+    "locations": [
+      "src/terrain_trap.cpp:959"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They appear to move{_}",
+    "target": "它们看起来会移动{_}",
+    "locations": [
+      "src/view_actor_descr.cpp:182"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "They are at ",
+    "target": "它们位于 ",
+    "locations": [
+      "src/view_actor_descr.cpp:282"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "They are at full health.",
+    "target": "它们的生命值全满。",
+    "locations": [
+      "src/view_actor_descr.cpp:281"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They are unaffected by",
+    "target": "它们不受影响：",
+    "locations": [
+      "src/view_actor_descr.cpp:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They are very flammable, and will quickly ignite other nearby flammable creatures",
+    "target": "它们极易燃烧，也会迅速点燃附近其他可燃生物",
+    "locations": [
+      "src/view_actor_descr.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They can",
+    "target": "它们可以",
+    "locations": [
+      "src/view_actor_descr.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They cannot",
+    "target": "它们无法",
+    "locations": [
+      "src/view_actor_descr.cpp:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They cannot be",
+    "target": "它们无法被",
+    "locations": [
+      "src/view_actor_descr.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They cannot be harmed by",
+    "target": "它们不会受到……伤害",
+    "locations": [
+      "src/view_actor_descr.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They cannot visually detect other creatures",
+    "target": "它们无法通过视觉发现其他生物",
+    "locations": [
+      "src/view_actor_descr.cpp:541"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They emit light and can be seen in darkness",
+    "target": "它们会发光，即使在黑暗中也能被看见",
+    "locations": [
+      "src/view_actor_descr.cpp:90",
+      "src/view_actor_descr.cpp:92",
+      "src/view_actor_descr.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They explode on death",
+    "target": "它们死后会爆炸",
+    "locations": [
+      "src/view_actor_descr.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They regenerate health over time",
+    "target": "它们会随时间恢复生命值",
+    "locations": [
+      "src/view_actor_descr.cpp:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "They worshipped, so they said, the Great Old Ones who lived ages before there were any men, and who came to the young world out of the sky...",
+    "target": "据说他们崇拜远古众神——那些在人类出现很久以前便已存在、从天而降来到这个年轻世界的古老存在……",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thick Skinned",
+    "target": "厚皮",
+    "locations": [
+      "src/player_bon.cpp:526"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thing",
+    "target": "事物",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This door cannot be jammed.",
+    "target": "这扇门无法卡住。",
+    "locations": [
+      "src/close.cpp:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This evil artifact must be destroyed!",
+    "target": "必须摧毁这件邪恶神器！",
+    "locations": [
+      "src/terrain_mirror.cpp:179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This former corpse has been granted a twisted gift of wings, resembling those of a monstrous bat. Awkward and ungainly in its newfound aerial ability, it navigates the air with unsteady movements. Despite its diminished agility and imprecise strikes, this abomination remains a formidable threat, driven by an insatiable hunger for the living.",
+    "target": "这具旧尸体被赋予了一双扭曲的翅膀，形似巨蝠。它刚获得飞行能力，动作笨拙而不协调，只能在空中摇摇晃晃地移动。尽管灵活性下降、攻击也不精准，这个怪物依然极具威胁，因为它对活物有着永不满足的饥渴。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This is merely a convenience feature - you can just as well use items by selecting them from the \"i\" screen, but with this method you get a nice filtered list so you can see at a glance which consumables you have.",
+    "target": "这只是方便功能——你也可以从“i”界面选择物品使用；但通过此方式会显示筛选后的列表，让你一眼看清自己有哪些消耗品。",
+    "locations": [
+      "installed_files/manual.txt:163"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This living fossil appears to have crept unchanged from the dawn of time through untold millions of years. Both a predator and a scavenger, it bites and tears with voracious jaws.",
+    "target": "这块活化石似乎从时间的黎明起便一成不变地爬行了数百万年。它既是捕食者也是食腐动物，会用贪婪的颚齿撕咬猎物。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This man-rodent beast slinks through cracks in the church's walls and pounces on its victims, raking at their flesh with its undeveloped limbs. Being the black matron's mongrel of choice, it titters senselessly whenever it feasts on her blood.",
+    "target": "这个人鼠混种会从教堂墙壁的裂缝中悄然溜出，扑向受害者，用尚未发育完全的肢体抓挠血肉。它是黑色母亲最中意的杂种，每当吸食她的血液时便会傻笑。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This miserable thing was a failed attempt at the reanimation of dead flesh. Perhaps necrosis had advanced too far before the process started, or this was a wild experiment performed by one who lacked proper knowledge of the principles involved. It lumbers about aimlessly with a vacant expression, which gives it something of a calm appearance - although the twitch in its clawed fingers is something to be wary of.",
+    "target": "这可怜的东西是复活尸体的失败尝试。也许是开始仪式前尸体已经严重坏死，或是操作者缺乏必要知识而胡乱实验。它茫然地漫无目的游荡，表情空洞，看起来颇为平静——不过那带爪手指的抽搐仍值得警惕。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This progress is called experience, or \"XP\"",
+    "target": "这种进度称为经验，或“XP”",
+    "locations": [
+      "installed_files/manual.txt:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This represents minor injuries such as bruises, sprains, or light bleeding - and also general combat morale, fatigue, stance, etc. If your Hit Points reach 0, it means you received a killing blow, or the circumstances are such that you can no longer fight back (you are fallen, pinned or completely exhausted). Hit Points usually regenerate automatically over time.",
+    "target": "这表示瘀伤、扭伤、轻微流血等小伤，以及总体战斗士气、疲劳、姿势等状态。如果生命值降至0，说明你受到了致命一击，或已经倒地、被压制、精疲力竭，无法继续战斗。生命值通常会随时间自动恢复。",
+    "locations": [
+      "installed_files/manual.txt:180"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This represents more serious long-term damage. Wounds are received when you take a high amount of damage in one hit. Each Wound reduces your fighting abilities, maximum HP, and HP regeneration rate. Five concurrent wounds results in death.",
+    "target": "这表示更严重的长期损伤。一次受到大量伤害时会产生创伤。每处创伤都会削弱战斗能力、降低生命值上限和生命值恢复速度。同时有五处创伤就会死亡。",
+    "locations": [
+      "installed_files/manual.txt:183"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This rock is defiled with blasphemous carvings, it must be destroyed!",
+    "target": "这块石头刻有亵渎图案，必须摧毁！",
+    "locations": [
+      "src/terrain_monolith.cpp:125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This rotting thing appears to have been brought back to life through some abominable process. It has grown sharp claws to attack with.",
+    "target": "这个腐烂的东西似乎通过某种可憎的手段死而复生。它长出了锋利的爪子用于攻击。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This sub-species has adapted to thriving in particularly deep environments where very little light reaches. They are even more fierce than their counterparts who dwell closer to the surface. Their mouths are set with rows of serrated teeth, well-adapted for cutting through flesh. However, they are cowardly opportunistic creatures, prefering to stalk lonely prey that they perceive as an easy target - when met with violence, they will usually retreat, at least for a moment.",
+    "target": "这个亚种适应了几乎没有光线的极深环境，比栖居在较浅处的同类更加凶猛。它们的口中长满锯齿，善于撕裂血肉。然而它们生性怯懦，只会伏击孤独且容易下手的猎物；一旦遭遇反抗，通常就会暂时撤退。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This unholy instrument must be destroyed!",
+    "target": "必须摧毁这件亵渎圣物！",
+    "locations": [
+      "src/terrain_gong.cpp:814"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "This weapon does not use ammo.",
+    "target": "这把武器不使用弹药。",
+    "locations": [
+      "src/reload.cpp:145"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thog",
+    "target": "托格",
+    "locations": [
+      "src/gods.cpp:88"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thorns",
+    "target": "荆棘",
+    "locations": [
+      "include/spells.hpp:2113",
+      "src/property_data.cpp:546",
+      "src/property_data.cpp:547"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "through",
+    "target": "穿过",
+    "locations": [
+      "src/actor_move.cpp:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Throwing ",
+    "target": "投掷 ",
+    "locations": [
+      "src/marker.cpp:876"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Thrygh",
+    "target": "瑟里格",
+    "locations": [
+      "src/gods.cpp:89"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tile",
+    "target": "tile",
+    "locations": [
+      "src/actor_data.cpp:181"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tinyxml2 reported error: ",
+    "target": "tinyxml2 报告错误： ",
+    "locations": [
+      "src/xml.cpp:41"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "titters in a loathsome voice.",
+    "target": "发出令人作呕的窃笑。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "To add fonts, place them in this directory.",
+    "target": "要添加字体，请将其放入此目录。",
+    "locations": [
+      "installed_files/gfx/fonts/README.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "to be defined, but it was not found",
+    "target": "应当已定义，但没有找到",
+    "locations": [
+      "src/colors.cpp:189",
+      "src/colors.cpp:223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "To cast memorized spells, press \"x\" to open a menu for selecting which spell to cast. In this menu you can see the Spirit cost per spell (the cost is a range of values, and the spirit drained is a random value in this range), and your skill level for each spell (Occultist characters can learn to cast spells at higher levels by picking certain traits).",
+    "target": "若要施放记忆中的法术，按“x”打开法术选择菜单。在菜单中可以查看每个法术消耗的精神值（消耗是一个范围，实际汲取量会在范围内随机决定）以及对应的技能等级（神秘学者角色可通过选择某些特质提升法术等级）。",
+    "locations": [
+      "installed_files/manual.txt:197"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "To my alarm, I find myself encouraged by the pain I cause in others. For every significant life I take, I find a little relief. However, my depraved mind will never find complete peace.",
+    "target": "令我惊恐的是，我发现自己竟从造成他人痛苦中得到鼓舞。每夺去一个重要生命，我都会感到一丝宽慰。然而，我堕落的心智永远无法获得彻底平静。",
+    "locations": [
+      "include/insanity.hpp:813"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "to the floor",
+    "target": "到地面",
+    "locations": [
+      "src/terrain_door.cpp:883",
+      "src/terrain_door.cpp:932"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tomb",
+    "target": "墓穴",
+    "locations": [
+      "src/terrain.cpp:3456"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tomb",
+    "target": "墓穴",
+    "locations": [
+      "src/terrain.cpp:3416"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Total shock received is ",
+    "target": "受到的总震慑为 ",
+    "locations": [
+      "src/character_descr.cpp:108",
+      "src/game_over_summary.cpp:107"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Total time taken: ",
+    "target": "总耗时： ",
+    "locations": [
+      "src/map_builder.cpp:134"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Total variants: ",
+    "target": "总变体数： ",
+    "locations": [
+      "src/map_templates.cpp:297"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Tough",
+    "target": "强壮",
+    "locations": [
+      "src/player_bon.cpp:486"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Toxic",
+    "target": "有毒",
+    "locations": [
+      "src/player_bon.cpp:784"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Traits gained",
+    "target": "获得的特质",
+    "locations": [
+      "src/character_descr.cpp:194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Traits gained (at character level)",
+    "target": "获得的特质（角色等级）",
+    "locations": [
+      "src/game_over_summary.cpp:158"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Transmuter",
+    "target": "炼金术士",
+    "locations": [
+      "src/player_bon.cpp:1029"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Trap id: ",
+    "target": "陷阱 id： ",
+    "locations": [
+      "src/populate_traps.cpp:172",
+      "src/terrain_trap.cpp:319"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Treasure Hunter",
+    "target": "寻宝者",
+    "locations": [
+      "src/player_bon.cpp:297"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tree",
+    "target": "树",
+    "locations": [
+      "src/terrain.cpp:2857"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tried to move into a position with monster ",
+    "target": "试图移动到有怪物的位置 ",
+    "locations": [
+      "src/actor_move.cpp:561"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "tried to move into terrain it cannot move into: ",
+    "target": "试图移动到无法进入的地形： ",
+    "locations": [
+      "src/actor_move.cpp:524"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "trudge",
+    "target": "艰难前行",
+    "locations": [
+      "src/terrain.cpp:1936"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "true",
+    "target": "true",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/attributes/prioritize_destroying_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/allow_wielded_weapon_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/aware_message_hidden/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/aware_message_seen/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/aware_message_hidden/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/aware_message_seen/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/aware_message_hidden/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/aware_message_seen/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/aware_message_hidden/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/aware_message_seen/@use_cultist_messages",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/attributes/prioritize_destroying_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHASTLY_LIGHT]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHASTLY_LIGHT]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/attributes/prioritize_destroying_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PLAYER]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PLAYER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PLAYER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PLAYER]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PLAYER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPECTRAL_WPN]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_STRANGE_COLOR]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TENTACLE_CLUSTER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THING]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VAMPIRE_BAT]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/attributes/prioritize_destroying_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/spawning/can_be_shapeshifted_into",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/attributes/always_prevent_knockback",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/spawning/can_be_summoned_by_monster",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WORM_MASS]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/moves_to_lair",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/is_pausing_on_player_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/attributes/can_open_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/avoids_blocking_friend",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/attributes/can_leave_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/attributes/prioritize_destroying_corpse",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/spawning/can_spawn_from_tomb",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/allow_speed_description",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/attacks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/looks",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/moves_randomly_when_unaware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/moves_to_leader",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/moves_to_target_when_los",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/ai/paths_to_target_when_aware",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/attributes/can_bash_doors",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/attributes/can_bleed",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/spawning/auto_spawn",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/allow_speed_description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tsathoggua",
+    "target": "撒托古亚",
+    "locations": [
+      "src/gods.cpp:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tulushuggua",
+    "target": "图卢舒古亚",
+    "locations": [
+      "src/gods.cpp:91"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Turn",
+    "target": "回合",
+    "locations": [
+      "src/map_mode_gui.cpp:348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Turn            123 : Current standard turn number",
+    "target": "回合            123：当前标准回合数",
+    "locations": [
+      "installed_files/manual.txt:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Turns",
+    "target": "回合",
+    "locations": [
+      "src/highscore.cpp:326"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "turns creatures invisible",
+    "target": "使生物隐形",
+    "locations": [
+      "src/terrain_pylon.cpp:254"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "turns_aware",
+    "target": "turns_aware",
+    "locations": [
+      "src/actor_data.cpp:474"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Two-pronged Pylon",
+    "target": "双叉高塔",
+    "locations": [
+      "src/terrain_pylon.cpp:141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "type",
+    "target": "类型",
+    "locations": [
+      "src/colors.cpp:201"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "u (G)     UNLOAD firearm on the ground, or pick up item",
+    "target": "u (G)     将枪械卸到地上，或拾取物品",
+    "locations": [
+      "installed_files/manual.txt:24"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unaffected by fear.",
+    "target": "不受恐惧影响。",
+    "locations": [
+      "src/property_data.cpp:220"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unaffected by shocking events.",
+    "target": "不会受到震撼事件影响。",
+    "locations": [
+      "src/property_data.cpp:319"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Unbreakable",
+    "target": "坚不可摧",
+    "locations": [
+      "src/player_bon.cpp:519"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "undead",
+    "target": "亡灵",
+    "locations": [
+      "src/actor_data.cpp:296"
+    ],
+    "kind": "ui"
+  }
+]

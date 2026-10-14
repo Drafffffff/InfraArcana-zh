@@ -33,11 +33,11 @@ static void player_try_close_or_jam_terrain(terrain::Terrain* const terrain)
         if (terrain->id() != terrain::Id::door) {
                 if (can_see_terrain) {
                         msg_log::add(
-                                "I see nothing there to close or jam shut.");
+                                "我看不到那里有什么可以关上或卡住的东西。");
                 }
                 else {
                         msg_log::add(
-                                "I find nothing there to close or jam shut.");
+                                "那里没有东西可关，也没有东西可堵。");
                 }
 
                 return;
@@ -58,10 +58,10 @@ static void player_try_close_or_jam_terrain(terrain::Terrain* const terrain)
         if ((door->type() == terrain::DoorType::metal) ||
             door->is_warded()) {
                 if (can_see_terrain) {
-                        msg_log::add("This door cannot be jammed.");
+                        msg_log::add("这扇门无法卡住。");
                 }
                 else {
-                        msg_log::add("I find nothing there to close or jam shut.");
+                        msg_log::add("那里没有东西可关，也没有东西可堵。");
                 }
 
                 return;
@@ -72,7 +72,7 @@ static void player_try_close_or_jam_terrain(terrain::Terrain* const terrain)
                         item::Id::iron_spike);
 
         if (!has_spike) {
-                msg_log::add("I have nothing to jam the door with.");
+                msg_log::add("我没有东西可以卡住门。");
 
                 return;
         }
@@ -95,13 +95,13 @@ static void player_try_close_or_jam_terrain(terrain::Terrain* const terrain)
                                 item::Id::iron_spike);
 
         if (nr_spikes_left == 0) {
-                msg_log::add("I have no iron spikes left.");
+                msg_log::add("我没有剩余的铁刺了。");
         }
         else {
                 msg_log::add(
-                        "I have " +
+                        "我有 " +
                         std::to_string(nr_spikes_left) +
-                        " iron spikes left.");
+                        " 根铁刺剩余。");
         }
 }  // player_try_close_or_jam_terrain
 

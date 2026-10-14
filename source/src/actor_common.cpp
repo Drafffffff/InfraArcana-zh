@@ -505,14 +505,14 @@ bool restore_hp(
 
         if ((verbose == Verbose::yes) && is_hp_gained) {
                 if (is_player(&actor)) {
-                        msg_log::add("I feel healthier!", colors::msg_good());
+                        msg_log::add("我感觉好多了！", colors::msg_good());
                 }
                 else if (can_player_see_actor(actor)) {
                         const std::string actor_name_the =
                                 text_format::first_to_upper(
                                         actor.m_data->name_the);
 
-                        msg_log::add(actor_name_the + " looks healthier.");
+                        msg_log::add(actor_name_the + " 看起来更健康了。");
                 }
         }
 
@@ -541,7 +541,7 @@ bool restore_sp(
 
         if ((verbose == Verbose::yes) && is_sp_gained) {
                 if (is_player(&actor)) {
-                        msg_log::add("I feel more spirited!", colors::msg_good());
+                        msg_log::add("我感觉精神更充沛了！", colors::msg_good());
                 }
                 else {
                         if (can_player_see_actor(actor)) {
@@ -549,7 +549,7 @@ bool restore_sp(
                                         text_format::first_to_upper(
                                                 actor.m_data->name_the);
 
-                                msg_log::add(actor_name_the + " looks more spirited.");
+                                msg_log::add(actor_name_the + " 看起来精神更振奋了。");
                         }
                 }
         }
@@ -570,10 +570,10 @@ void change_max_hp(
 
         if (is_player(&actor)) {
                 if (change > 0) {
-                        msg_log::add("I feel more vigorous!", colors::msg_good());
+                        msg_log::add("我变得更有活力了！", colors::msg_good());
                 }
                 else if (change < 0) {
-                        msg_log::add("I feel frailer!", colors::msg_bad());
+                        msg_log::add("我觉得自己更脆弱了！", colors::msg_bad());
                 }
         }
         else if (can_player_see_actor(actor)) {
@@ -582,10 +582,10 @@ void change_max_hp(
                                 name_the(actor));
 
                 if (change > 0) {
-                        msg_log::add(actor_name_the + " looks more vigorous.");
+                        msg_log::add(actor_name_the + " 看起来更有活力了。");
                 }
                 else if (change < 0) {
-                        msg_log::add(actor_name_the + " looks frailer.");
+                        msg_log::add(actor_name_the + " 看起来更虚弱了。");
                 }
         }
 }
@@ -603,10 +603,10 @@ void change_max_sp(
 
         if (is_player(&actor)) {
                 if (change > 0) {
-                        msg_log::add("My spirit is stronger!", colors::msg_good());
+                        msg_log::add("我的精神力增强了！", colors::msg_good());
                 }
                 else if (change < 0) {
-                        msg_log::add("My spirit is weaker!", colors::msg_bad());
+                        msg_log::add("我的精神力减弱了！", colors::msg_bad());
                 }
         }
         else if (can_player_see_actor(actor)) {
@@ -615,10 +615,10 @@ void change_max_sp(
                                 name_the(actor));
 
                 if (change > 0) {
-                        msg_log::add(actor_name_the + " appears to grow in spirit.");
+                        msg_log::add(actor_name_the + " 精神似乎有所增长。");
                 }
                 else if (change < 0) {
-                        msg_log::add(actor_name_the + " appears to shrink in spirit.");
+                        msg_log::add(actor_name_the + " 精神似乎有所减少。");
                 }
         }
 }
@@ -654,7 +654,7 @@ std::string death_msg(const actor::Actor& actor)
         std::string msg_end;
 
         if (actor.m_data->death_msg_override.empty()) {
-                msg_end = "dies.";
+                msg_end = "死亡了。";
         }
         else {
                 msg_end = actor.m_data->death_msg_override;

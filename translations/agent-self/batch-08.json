@@ -1,0 +1,1239 @@
+[
+  {
+    "source": "Sep 19, 2010",
+    "target": "2010年9月19日",
+    "locations": [
+      "installed_files/release_history.txt:1951"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sfatlicllp",
+    "target": "斯法特利克尔普",
+    "locations": [
+      "src/gods.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shaklatal",
+    "target": "沙克拉塔尔",
+    "locations": [
+      "src/gods.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "shallow mud",
+    "target": "浅泥地",
+    "locations": [
+      "src/terrain.cpp:2038"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sheb-Teth",
+    "target": "舍布-特斯",
+    "locations": [
+      "src/gods.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shed Impurity",
+    "target": "驱除污秽",
+    "locations": [
+      "include/spells.hpp:2289"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "sheds a carapace.",
+    "target": "蜕下甲壳。",
+    "locations": [
+      "src/property_data.cpp:867"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shift     Hold while pressing a move key to move until interrupted",
+    "target": "Shift     按住 Shift 并按方向键，持续移动直到被打断",
+    "locations": [
+      "installed_files/manual.txt:34"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shift + left  = up left",
+    "target": "Shift + 左  = 左上",
+    "locations": [
+      "installed_files/manual.txt:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shift + right = up right",
+    "target": "Shift + 右 = 右上",
+    "locations": [
+      "installed_files/manual.txt:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shifting in and out of sight, this creature resembles a piece of cloth sailing through the aether, seemingly folding time-space along with its dreamy soar. Atop its craned neck rests an oblong orb with which it conjures deadly bolts to heave onto any threat.",
+    "target": "它时隐时现，仿佛一片布在以太中飘动；它飞掠时，时间与空间也随之折叠。细长的脖颈顶端托着一颗椭圆球体，它会从中召出致命闪电，投向任何威胁。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shock",
+    "target": "震慑",
+    "locations": [
+      "src/map_mode_gui.cpp:275"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shock           45% : Your level of shock or stress",
+    "target": "震慑           45%：当前震慑或压力程度",
+    "locations": [
+      "installed_files/manual.txt:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shock Res",
+    "target": "震慑抗性",
+    "locations": [
+      "src/property_data.cpp:318"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shock Resistance",
+    "target": "震慑抗性",
+    "locations": [
+      "src/property_data.cpp:317"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "shock_level",
+    "target": "shock_level",
+    "locations": [
+      "src/actor_data.cpp:240"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "shrieks.",
+    "target": "尖叫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "shrub",
+    "target": "灌木",
+    "locations": [
+      "src/terrain.cpp:2539"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shterot",
+    "target": "什特洛特",
+    "locations": [
+      "src/gods.cpp:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shudde M'ell",
+    "target": "舒德·梅尔",
+    "locations": [
+      "src/gods.cpp:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Shuy-Nihl",
+    "target": "舒伊-尼尔",
+    "locations": [
+      "src/gods.cpp:83"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Silent",
+    "target": "寂静",
+    "locations": [
+      "src/player_bon.cpp:280"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "size",
+    "target": "size",
+    "locations": [
+      "src/actor_data.cpp:285"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "skill",
+    "target": "技能",
+    "locations": [
+      "src/actor_data.cpp:436"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Skill: ",
+    "target": "技能： ",
+    "locations": [
+      "src/player_spells.cpp:266"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Sleep Res",
+    "target": "睡眠抗性",
+    "locations": [
+      "src/property_data.cpp:205"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sleep Resistance",
+    "target": "睡眠抗性",
+    "locations": [
+      "src/property_data.cpp:204"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "sleep-inducing",
+    "target": "催眠的",
+    "locations": [
+      "src/terrain.cpp:4570"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slow",
+    "target": "减速",
+    "locations": [
+      "include/spells.hpp:377"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slow Res",
+    "target": "减速抗性",
+    "locations": [
+      "src/property_data.cpp:233"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slow Resistance",
+    "target": "减速抗性",
+    "locations": [
+      "src/property_data.cpp:232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slowed",
+    "target": "被减速",
+    "locations": [
+      "src/property_data.cpp:591",
+      "src/property_data.cpp:592"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "slowed",
+    "target": "被减速",
+    "locations": [
+      "src/view_actor_descr.cpp:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "slowly",
+    "target": "缓慢地",
+    "locations": [
+      "src/view_actor_descr.cpp:146"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slowly but inexorably crawling upon my consciousness and rising above every other impression, came a dizzying fear of the unknown; not death, but some nameless, unheard-of thing inexpressibly more ghastly and abhorrent.",
+    "target": "未知带来的眩晕恐惧逐渐爬上我的意识，盖过了其他一切感受；那不是死亡，而是某种无名、闻所未闻，远为可怖与可憎之物。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Slowly takes damage while health is above 50% of maximum hit points, hit points do not regenerate naturally, -25% melee damage, -10% melee hit chance, -10% evasion. Poison duration stacks if more is applied.",
+    "target": "生命值高于上限的50%时会缓慢受到伤害；生命值无法自然恢复；近战伤害降低25%，近战命中率降低10%，闪避率降低10%。重复中毒会叠加毒素持续时间。",
+    "locations": [
+      "src/property_data.cpp:418"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "slows creatures",
+    "target": "减缓生物",
+    "locations": [
+      "src/terrain_pylon.cpp:295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "slows down.",
+    "target": "慢了下来。",
+    "locations": [
+      "src/property_data.cpp:595",
+      "src/property_data.cpp:615"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "smell_message",
+    "target": "smell_message",
+    "locations": [
+      "src/actor_data.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "smoke",
+    "target": "烟雾",
+    "locations": [
+      "src/terrain_mob.cpp:189"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "snake",
+    "target": "蛇",
+    "locations": [
+      "src/actor_data.cpp:299"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "snarls.",
+    "target": "咆哮。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_BEAST]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WATER_HOUND]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sneaking and backstabbing",
+    "target": "潜行与背刺",
+    "locations": [
+      "installed_files/manual.txt:224"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "So I make a pact with the Fiend.",
+    "target": "于是我与恶魔立下契约。",
+    "locations": [
+      "src/game.cpp:106"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "some foul entity",
+    "target": "某种邪恶存在",
+    "locations": [
+      "src/actor_player.cpp:292"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Some monsters have the ability to sneak as well. You automatically attempt to detect them while they are in your visual area.",
+    "target": "有些怪物也会潜行。它们进入你的视野范围时，你会自动尝试发现它们。",
+    "locations": [
+      "installed_files/manual.txt:230"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Some situations cause \"temporary\" mental shock, which is removed when the situation changes. Entering a dark area or standing next to bloodsplatter will cause your shock to spike until you move away, for example.\n\nStanding in bright light will similarly reduce your shock until you return to the ambient subterranean gloom.\n\nSeeing monsters, casting spells, spending time, etc cause \"permanent\" shock, which will not go away until the next floor is reached, insanity rises (due to shock at 100%), or the shock is cured somehow.",
+    "target": "某些情况会造成“暂时性”精神震慑，情况改变后便会消退。例如进入黑暗区域或站在血迹旁时，震慑值会飙升，直到你离开。\n\n身处明亮区域也会降低震慑值，直到你重新回到地下的昏暗环境。\n\n看到怪物、施放法术、消磨时间等都会造成“永久性”震慑；它不会自行消失，除非抵达下一层、疯狂度上升（震慑达到100%时）或通过某种方式治愈。",
+    "locations": [
+      "src/hints.cpp:141"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "someone",
+    "target": "某人",
+    "locations": [
+      "src/actor_player.cpp:295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something approaches...",
+    "target": "有什么东西靠近了……",
+    "locations": [
+      "src/terrain_door.cpp:1901",
+      "src/terrain_gong.cpp:696"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something gives me a foreboding feeling.",
+    "target": "有什么东西让我感到不祥。",
+    "locations": [
+      "src/terrain_door.cpp:1351"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something is blocking it.",
+    "target": "有什么东西挡住了它。",
+    "locations": [
+      "src/disarm.cpp:99"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something is blocking the ",
+    "target": "有什么东西挡住了 ",
+    "locations": [
+      "src/terrain_door.cpp:1626"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Something repulsive creeps up from the tomb!",
+    "target": "有令人作呕的东西从墓穴里爬了出来！",
+    "locations": [
+      "src/terrain.cpp:3831"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Something rises from the tomb!",
+    "target": "有什么东西从墓穴里升起！",
+    "locations": [
+      "src/terrain.cpp:3835"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sometimes I believe that this less material life is our truer life, and that our vain presence on the terraqueous globe is itself the secondary or merely virtual phenomenon.",
+    "target": "有时我相信，这种较少物质性的生命才是我们真正的生命；而我们徒劳地存在于地球上，反倒只是次要的、虚幻的现象。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Soon moved to a deeper level.",
+    "target": "很快就转移到了更深一层。",
+    "locations": [
+      "src/property_data.cpp:749"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "SP: ",
+    "target": "精神值： ",
+    "locations": [
+      "src/player_spells.cpp:240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "spawn_weight",
+    "target": "spawn_weight",
+    "locations": [
+      "src/actor_data.cpp:560"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spawning",
+    "target": "正在生成",
+    "locations": [
+      "src/actor_data.cpp:688"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks in a droning voice.",
+    "target": "以嗡嗡作响的声音说话。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks in a hollow voice.",
+    "target": "以空洞的声音说话。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks incantations in a deep hollow voice.",
+    "target": "用低沉空洞的声音念诵咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks incantations in a droning voice.",
+    "target": "用嗡嗡作响的声音念诵咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks incantations in a hollow voice.",
+    "target": "用空洞的声音念诵咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speaks incantations.",
+    "target": "念诵咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Specializes in a spell domain (selected at character creation). At character levels ",
+    "target": "专精于一种法术领域（创建角色时选择）。角色达到以下等级时 ",
+    "locations": [
+      "src/player_bon.cpp:1170"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Specializes in aiding, debilitating, entrancing, and beguiling",
+    "target": "专精于辅助、削弱、迷惑和蛊惑",
+    "locations": [
+      "src/player_bon.cpp:1246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Specializes in channeling destructive powers",
+    "target": "专精于引导破坏性力量",
+    "locations": [
+      "src/player_bon.cpp:1249"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Specializes in detection and learning. Has an intrinsic ability to detect doors, traps, stairs, and other locations of interest in the surrounding area. At character level 4, this ability also reveals items, and at level 8 it reveals creatures",
+    "target": "专精于侦测与学习。天生能够探测周围区域的门、陷阱、楼梯及其他值得留意的地点。角色达到4级时，该能力还会揭示物品；达到8级时，则会揭示生物",
+    "locations": [
+      "src/player_bon.cpp:1238"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Specializes in manipulating matter, energy, and time",
+    "target": "专精于操纵物质、能量与时间",
+    "locations": [
+      "src/player_bon.cpp:1252"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Specializes in spells belonging to the Blood domain. At character levels ",
+    "target": "专精于血之领域的法术。角色达到以下等级时 ",
+    "locations": [
+      "src/player_bon.cpp:1128"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Spectral Weapons",
+    "target": "幽灵武器",
+    "locations": [
+      "include/spells.hpp:976"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speed",
+    "target": "速度",
+    "locations": [
+      "src/actor_data.cpp:234"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "speeds up.",
+    "target": "加快了。",
+    "locations": [
+      "src/property_data.cpp:597",
+      "src/property_data.cpp:613"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spell Res",
+    "target": "法术抗性",
+    "locations": [
+      "src/property_data.cpp:305"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spell Resistance",
+    "target": "法术抗性",
+    "locations": [
+      "src/property_data.cpp:304"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spell Shield",
+    "target": "法术护盾",
+    "locations": [
+      "include/spells.hpp:1780"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spell skill is improved by one level.",
+    "target": "法术技能提升了一级。",
+    "locations": [
+      "src/property_data.cpp:890"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spell_message",
+    "target": "spell_message",
+    "locations": [
+      "src/actor_data.cpp:167"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spells",
+    "target": "法术",
+    "locations": [
+      "src/actor_data.cpp:670"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spent ",
+    "target": "花费了 ",
+    "locations": [
+      "src/game_over_summary.cpp:56"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "spews forth a litany of curses.",
+    "target": "吐出一连串诅咒。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spider",
+    "target": "蜘蛛",
+    "locations": [
+      "src/actor_data.cpp:295"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spiders suddenly seem terrifying.",
+    "target": "蜘蛛突然显得十分可怕。",
+    "locations": [
+      "include/insanity.hpp:434"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "spirit",
+    "target": "精神值",
+    "locations": [
+      "src/actor_data.cpp:228",
+      "src/player_spells.cpp:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spirit and spell casting",
+    "target": "精神值与施法",
+    "locations": [
+      "installed_files/manual.txt:188"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spirit Sapped",
+    "target": "精神力被汲取",
+    "locations": [
+      "src/property_data.cpp:687"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Spirit Sapped(",
+    "target": "精神力被汲取（",
+    "locations": [
+      "include/property.hpp:939"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stairs",
+    "target": "楼梯",
+    "locations": [
+      "src/terrain.cpp:1830"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stalagmite",
+    "target": "石笋",
+    "locations": [
+      "src/terrain.cpp:1695"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Standing still gives ranged attacks maximum damage and +10% hit chance on the following turn, unless damage is taken",
+    "target": "站立不动后，下一回合的远程攻击会造成最大伤害并获得10%命中加成，受到伤害时除外",
+    "locations": [
+      "src/player_bon.cpp:845"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Star-crowned Pylon",
+    "target": "星冠高塔",
+    "locations": [
+      "src/terrain_pylon.cpp:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Started babbling incoherently",
+    "target": "开始语无伦次地喃喃自语",
+    "locations": [
+      "include/insanity.hpp:241"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Started journey",
+    "target": "开始旅程",
+    "locations": [
+      "src/game.cpp:439"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "starting_allies",
+    "target": "starting_allies",
+    "locations": [
+      "src/actor_data.cpp:690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "starts groping and feeling around.",
+    "target": "开始摸索四周。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/text/wary_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "starts regenerating damage very quickly.",
+    "target": "开始迅速恢复伤口。",
+    "locations": [
+      "src/property_data.cpp:1117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Starts with a Flak Jacket.",
+    "target": "初始携带防弹衣。",
+    "locations": [
+      "src/player_bon.cpp:1212"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Starts with a Holy Symbol, which can restore spirit points and grant resistance against mental shock and fear.",
+    "target": "初始携带圣徽，可恢复精神值，并提高对精神震慑与恐惧的抗性。",
+    "locations": [
+      "src/player_bon.cpp:1098"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Starts with several Bone Charms, that can be used for gaining spell resistance or dispelling magic traps.",
+    "target": "初始携带数枚骨护符，可用于获得法术抗性或驱散魔法陷阱。",
+    "locations": [
+      "src/player_bon.cpp:1184"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "statue",
+    "target": "雕像",
+    "locations": [
+      "src/terrain.cpp:1374",
+      "src/terrain.cpp:1460"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "statue of a ghoulish creature",
+    "target": "食尸鬼生物雕像",
+    "locations": [
+      "src/terrain.cpp:1464"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Statues can be kicked over to damage and stun a creature on the other side.",
+    "target": "踢倒雕像可以伤害并震晕另一侧的生物。",
+    "locations": [
+      "src/hints.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Status effects",
+    "target": "状态效果",
+    "locations": [
+      "src/hints.cpp:99"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Steady Aimer",
+    "target": "稳健瞄准者",
+    "locations": [
+      "src/player_bon.cpp:843"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stealth",
+    "target": "stealth",
+    "locations": [
+      "src/ability_values.cpp:30",
+      "src/ability_values.cpp:38",
+      "src/actor_data.cpp:264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stealthy",
+    "target": "潜行",
+    "locations": [
+      "src/player_bon.cpp:266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Step into ",
+    "target": "走进 ",
+    "locations": [
+      "src/terrain_trap.cpp:491"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Step into the flames? ",
+    "target": "要走进火焰吗？ ",
+    "locations": [
+      "src/terrain.cpp:368"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Sthanee",
+    "target": "斯萨尼",
+    "locations": [
+      "src/gods.cpp:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stitched together from a grotesque patchwork of decaying flesh, this enormous form looms like a nightmarish sentinel. Immobilized by its own unfathomable bulk, it lies dormant, a testament to the macabre experiments that birthed it. Putrid fluids seep from its bloated mass, forming stagnant pools that emit a sickening stench of decay.",
+    "target": "它由腐烂的血肉以怪诞的拼接方式缝合而成，庞大的身形宛如噩梦中的哨兵。它被自身难以想象的重量压得无法移动，沉睡不醒，见证着孕育它的黑暗实验。腐臭液体从臃肿身躯中渗出，汇成死水般的水洼，散发出令人作呕的腐败气息。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stone floor",
+    "target": "石地板",
+    "locations": [
+      "src/terrain.cpp:689"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stone path",
+    "target": "石径",
+    "locations": [
+      "src/terrain.cpp:701"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stone wall",
+    "target": "石墙",
+    "locations": [
+      "src/terrain.cpp:793"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stops reacting to any noise",
+    "target": "不再对任何声音作出反应",
+    "locations": [
+      "src/property_data.cpp:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stops regenerating damage quickly.",
+    "target": "不再迅速恢复伤口。",
+    "locations": [
+      "src/property_data.cpp:1119"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stout Spirit",
+    "target": "强健精神",
+    "locations": [
+      "src/player_bon.cpp:380"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stragar-Naya!",
+    "target": "Stragar-Naya!",
+    "locations": [
+      "src/actor_mon.cpp:196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strange emptiness surrounds me. An eternity passes as I lay frozen in a world of shadows. Suddenly I awake!",
+    "target": "奇异的空虚笼罩着我。我僵卧在影子的世界里，仿佛度过了永恒。突然，我醒了！",
+    "locations": [
+      "src/actor_death.cpp:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strange sensation!",
+    "target": "奇异的感觉！",
+    "locations": [
+      "include/insanity.hpp:1031"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strike it? ",
+    "target": "要攻击它吗？ ",
+    "locations": [
+      "src/terrain_gong.cpp:797"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Strong Spirit",
+    "target": "强大的精神",
+    "locations": [
+      "src/player_bon.cpp:417"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Strong-backed",
+    "target": "体格健壮",
+    "locations": [
+      "src/player_bon.cpp:550"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "struck by a blast!",
+    "target": "被一股冲击击中！",
+    "locations": [
+      "include/spells.hpp:644"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "struck by a bolt!",
+    "target": "被一道闪电击中！",
+    "locations": [
+      "include/spells.hpp:592"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stuck",
+    "target": "卡住",
+    "locations": [
+      "src/property_data.cpp:926",
+      "src/property_data.cpp:927"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "stuck ",
+    "target": "卡住 ",
+    "locations": [
+      "src/terrain_door.cpp:1129"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Stuck in something.",
+    "target": "被什么东西困住了。",
+    "locations": [
+      "src/property_data.cpp:928"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Stunned",
+    "target": "震晕",
+    "locations": [
+      "src/property_data.cpp:576",
+      "src/property_data.cpp:577"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "suddenly disappears.",
+    "target": "突然消失了。",
+    "locations": [
+      "src/property_data.cpp:637"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Suddenly felt deeply confused for no reason",
+    "target": "毫无缘由地突然感到极度困惑",
+    "locations": [
+      "include/insanity.hpp:957"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Suddenly, the walls collapse!",
+    "target": "墙壁突然塌了下来！",
+    "locations": [
+      "src/terrain_event.cpp:114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Suddenly, vicious snakes slither up from cracks in the floor!",
+    "target": "凶猛的蛇突然从地板裂缝里爬了出来！",
+    "locations": [
+      "src/terrain_event.cpp:402"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Suggestions of hidden gateways to other realms.",
+    "target": "暗示着通往其他领域的隐秘门户。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Summanus",
+    "target": "苏马努斯",
+    "locations": [
+      "src/gods.cpp:85"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Summoned",
+    "target": "被召唤",
+    "locations": [
+      "src/property_data.cpp:638"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Survivalist",
+    "target": "生存专家",
+    "locations": [
+      "src/player_bon.cpp:352"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Survived an explosion",
+    "target": "在爆炸中幸存",
+    "locations": [
+      "src/explosion.cpp:231"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Sustained a severe wound",
+    "target": "受到严重创伤",
+    "locations": [
+      "src/actor_hit.cpp:378"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "swap to ",
+    "target": "切换至 ",
+    "locations": [
+      "src/game_commands.cpp:313"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "swiftly ",
+    "target": "迅速地 ",
+    "locations": [
+      "src/game_commands.cpp:307"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Switches to prepared weapon instantly.",
+    "target": "立即切换到预备武器。",
+    "locations": [
+      "src/player_bon.cpp:1210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "t         THROW item, throw lit EXPLOSIVE",
+    "target": "t         投掷物品，投掷已点燃的爆炸物",
+    "locations": [
+      "installed_files/manual.txt:23"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tab       MELEE ATTACK adjacent monster (or further away if wielding a",
+    "target": "Tab       近战攻击相邻怪物（若持有长柄近战武器，也可攻击更远处）",
+    "locations": [
+      "installed_files/manual.txt:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Takes damage each turn, 50% chance to fail when attempting to read or cast spells.",
+    "target": "每回合都会受到伤害；尝试阅读或施法时有50%几率失败。",
+    "locations": [
+      "src/property_data.cpp:398"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "tears free!",
+    "target": "撕裂脱身！",
+    "locations": [
+      "src/property_data.cpp:650",
+      "src/property_data.cpp:919"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tele Ctrl",
+    "target": "传送控制",
+    "locations": [
+      "src/property_data.cpp:1028"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Teleport",
+    "target": "传送",
+    "locations": [
+      "include/spells.hpp:1598"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Teleport control",
+    "target": "传送控制",
+    "locations": [
+      "src/property_data.cpp:1027"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "teleports creatures",
+    "target": "传送生物",
+    "locations": [
+      "src/terrain_pylon.cpp:438"
+    ],
+    "kind": "ui"
+  }
+]

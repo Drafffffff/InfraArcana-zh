@@ -65,14 +65,14 @@ static void put_intro_forest_graves(
                 const auto& entry = highscores[entry_idx];
 
                 grave->set_inscription(
-                        "RIP " +
+                        "复活 " +
                         entry.name +
                         ", " +
                         player_bon::bg_title(entry.bg) +
                         ", " +
                         entry.date +
                         ", " +
-                        "Score: " +
+                        "分数： " +
                         std::to_string(entry.calculate_score()));
 
                 map::set_terrain(grave);
@@ -115,7 +115,7 @@ static void put_intro_forest_statues(
                         ", " +
                         entry.date +
                         ", " +
-                        "Score: " +
+                        "分数： " +
                         std::to_string(entry.calculate_score()));
 
                 map::set_terrain(statue);

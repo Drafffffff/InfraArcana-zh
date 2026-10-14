@@ -37,10 +37,10 @@ static void add_properties_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Current status effects", s_color_heading);
+        lines.emplace_back("当前状态效果", s_color_heading);
 
         if (data.properties.empty()) {
-                lines.emplace_back(s_indent + "None", colors::text());
+                lines.emplace_back(s_indent + "无", colors::text());
                 lines.emplace_back("", colors::text());
         }
         else {
@@ -77,14 +77,14 @@ static void add_insanity_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Sanity of mind", s_color_heading);
+        lines.emplace_back("心智健全", s_color_heading);
 
         lines.emplace_back(
-                s_indent + std::to_string(data.insanity) + "% insane",
+                s_indent + std::to_string(data.insanity) + "% 疯狂",
                 colors::text());
 
         if (data.insanity_symptons.empty()) {
-                lines.emplace_back(s_indent + "No specific mental disorders", colors::text());
+                lines.emplace_back(s_indent + "没有具体的精神障碍", colors::text());
         }
         else {
                 for (const InsSympt* const sympt : data.insanity_symptons) {
@@ -99,16 +99,16 @@ static void add_insanity_descr(
         lines.emplace_back(
                 (
                         s_indent +
-                        "Current shock level (including temporary sources) is " +
+                        "当前震慑等级（包括临时来源）为 " +
                         std::to_string(data.current_shock) +
                         "% "),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
-                 "Total shock received is " +
+                 "受到的总震慑为 " +
                  std::to_string(data.total_shock) +
-                 "%, derived from (rounded values):"),
+                 "%，由以下数值（四舍五入）推导："),
                 colors::text());
 
         const int padding = 10;
@@ -117,42 +117,42 @@ static void add_insanity_descr(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::time), padding) +
-                 "from the passing of time"),
+                 "因时间流逝"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::see_mon), padding) +
-                 "from observing creatures"),
+                 "观察生物"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::take_damage), padding) +
-                 "from being harmed"),
+                 "免受伤害"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::use_strange_item), padding) +
-                 "from using items"),
+                 "因使用物品"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(data.total_shock_from_casting_spells, padding) +
-                 "from casting learned spells"),
+                 "施放已学会的法术"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::misc), padding) +
-                 "from other sources"),
+                 "其他来源"),
                 colors::text());
 
         lines.emplace_back("", colors::text());
@@ -162,7 +162,7 @@ static void add_item_knowledge_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Item knowledge", s_color_heading);
+        lines.emplace_back("物品知识", s_color_heading);
 
         std::vector<std::vector<game_summary_data::ItemKnowledgeData>> item_knowledge =
                 data.item_knowledge;
@@ -192,7 +192,7 @@ static void add_traits_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Traits gained", s_color_heading);
+        lines.emplace_back("获得的特质", s_color_heading);
 
         for (const game_summary_data::TraitData& trait : data.current_traits) {
                 lines.emplace_back(s_indent + trait.name, colors::text());
@@ -212,7 +212,7 @@ static void add_history_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("History of " + data.player_name, s_color_heading);
+        lines.emplace_back("……的经历 " + data.player_name, s_color_heading);
 
         int longest_turn_w = 0;
 

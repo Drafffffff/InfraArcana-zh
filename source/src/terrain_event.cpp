@@ -111,13 +111,13 @@ void EventWallCrumble::on_new_turn()
 
         if (map::g_player->m_properties.allow_see()) {
                 msg_log::add(
-                        "Suddenly, the walls collapse!",
+                        "墙壁突然塌了下来！",
                         colors::msg_note(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes);
         }
         else {
-                sound_message = "I hear walls collapsing!";
+                sound_message = "我听见墙壁轰然倒塌！";
         }
 
         Snd snd(
@@ -399,7 +399,7 @@ void EventSnakeEmerge::on_new_turn()
 
         if (!seen_tgt_positions.empty()) {
                 msg_log::add(
-                        {"Suddenly, vicious snakes slither up from cracks in the floor!"},
+                        {"凶猛的蛇突然从地板裂缝里爬了出来！"},
                         colors::msg_note(),
                         MsgInterruptPlayer::yes,
                         MorePromptOnMsg::yes);
@@ -474,14 +474,10 @@ void EventRatsInTheWallsDiscovery::on_new_turn()
                 map::update_vision();
 
                 const auto* const msg =
-                        "Before me lies a twilit grotto of enormous height. "
-                        "An insane tangle of human bones extends for yards "
-                        "like a foamy sea - invariably in postures of demoniac "
-                        "frenzy, either fighting off some menace or clutching "
-                        "other forms with cannibal intent.";
+                        "暮色笼罩的巨大洞窟展现在我眼前。疯狂纠缠的人骨绵延数码，宛如泡沫翻涌的海洋——它们无不保持着恶魔般狂乱的姿势，有的抵御某种威胁，有的则怀着食人的意图紧抱着其他骸骨。";
 
                 popup::Popup(popup::AddToMsgHistory::yes)
-                        .set_title("A gruesome discovery...")
+                        .set_title("一桩骇人的发现……")
                         .set_msg(msg)
                         .run();
 

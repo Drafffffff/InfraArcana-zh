@@ -44,35 +44,35 @@ static void add_player_summary_descr(
 
         if (data.dlvl == 0) {
                 lines.emplace_back(
-                        s_indent + "Died before entering the dungeon",
+                        s_indent + "进入地城前死亡",
                         s_color_info);
         }
         else {
                 lines.emplace_back(
-                        s_indent + "Explored to dungeon level " + std::to_string(data.dlvl),
+                        s_indent + "探索至地城层数 " + std::to_string(data.dlvl),
                         s_color_info);
         }
 
         lines.emplace_back(
-                s_indent + "Spent " + std::to_string(data.turns) + " turns",
+                s_indent + "花费了 " + std::to_string(data.turns) + " 轮流",
                 s_color_info);
 
         lines.emplace_back(
-                s_indent + "Was " + std::to_string(data.insanity) + "% insane",
+                s_indent + "曾经是 " + std::to_string(data.insanity) + "% 疯狂",
                 s_color_info);
 
         lines.emplace_back(
-                s_indent + "Killed " + std::to_string(data.nr_kills_tot) + " monsters",
+                s_indent + "击杀 " + std::to_string(data.nr_kills_tot) + " 只怪物",
                 s_color_info);
 
         lines.emplace_back(
-                s_indent + "Gained " + std::to_string(data.xp) + " experience points",
+                s_indent + "获得了 " + std::to_string(data.xp) + " 点经验值",
                 s_color_info);
 
         const int score = data.highscore.calculate_score();
 
         lines.emplace_back(
-                s_indent + "Gained a score of " + std::to_string(score),
+                s_indent + "获得分数： " + std::to_string(score),
                 s_color_info);
 
         if (!data.insanity_symptons.empty()) {
@@ -105,9 +105,9 @@ static void add_total_shock_received_descr(
         std::vector<ColoredString>& lines)
 {
         lines.emplace_back(
-                ("Total shock received is " +
+                ("受到的总震慑为 " +
                  std::to_string(data.total_shock) +
-                 "%, derived from (rounded values):"),
+                 "%，由以下数值（四舍五入）推导："),
                 s_color_heading);
 
         const int padding = 10;
@@ -115,37 +115,37 @@ static void add_total_shock_received_descr(
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::time), padding) +
-                 "from the passing of time"),
+                 "因时间流逝"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::see_mon), padding) +
-                 "from observing creatures"),
+                 "观察生物"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::take_damage), padding) +
-                 "from being harmed"),
+                 "免受伤害"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::use_strange_item), padding) +
-                 "from using items"),
+                 "因使用物品"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(data.total_shock_from_casting_spells, padding) +
-                 "from casting learned spells"),
+                 "施放已学会的法术"),
                 colors::text());
 
         lines.emplace_back(
                 (s_indent +
                  to_pct_str_padded(shock_from_src(data, ShockSrc::misc), padding) +
-                 "from other sources"),
+                 "其他来源"),
                 colors::text());
 
         lines.emplace_back("", colors::text());
@@ -156,11 +156,11 @@ static void add_traits_descr(
         std::vector<ColoredString>& lines)
 {
         lines.emplace_back(
-                "Traits gained (at character level)",
+                "获得的特质（角色等级）",
                 s_color_heading);
 
         if (data.trait_log.empty()) {
-                lines.emplace_back(s_indent + "None", s_color_info);
+                lines.emplace_back(s_indent + "无", s_color_info);
         }
         else {
                 bool has_double_digit =
@@ -179,7 +179,7 @@ static void add_traits_descr(
                         }
 
                         const std::string title = player_bon::trait_title(e.trait_id);
-                        const std::string removed_str = e.is_removal ? " - REMOVED" : "";
+                        const std::string removed_str = e.is_removal ? " - 已移除" : "";
                         const std::string str = clvl_str + " " + title + removed_str;
 
                         lines.emplace_back(s_indent + str, s_color_info);
@@ -193,10 +193,10 @@ static void add_unique_monsters_killed_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Unique monsters killed", s_color_heading);
+        lines.emplace_back("击杀的独特怪物数", s_color_heading);
 
         if (data.unique_monsters_killed.empty()) {
-                lines.emplace_back(s_indent + "None", s_color_info);
+                lines.emplace_back(s_indent + "无", s_color_info);
         }
         else {
                 for (const std::string& monster_name : data.unique_monsters_killed) {
@@ -219,10 +219,10 @@ static void add_inventory_descr(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Inventory", s_color_heading);
+        lines.emplace_back("物品栏", s_color_heading);
 
         if (data.inventory.empty()) {
-                lines.emplace_back(s_indent + "Empty", colors::text());
+                lines.emplace_back(s_indent + "空", colors::text());
         }
         else {
                 for (const game_summary_data::InventoryItemData& item : data.inventory) {
@@ -238,7 +238,7 @@ static void add_inventory_descr(
 
                                 str = text_format::pad_after(str, 9, ' ');
 
-                                str += item.item_name.empty() ? "<empty>" : item.item_name;
+                                str += item.item_name.empty() ? "<空>" : item.item_name;
 
                                 lines.emplace_back(s_indent + str, color);
                         }
@@ -252,7 +252,7 @@ static void add_player_history(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("History of " + data.player_name, s_color_heading);
+        lines.emplace_back("……的经历 " + data.player_name, s_color_heading);
 
         int longest_turn_w = 0;
 
@@ -281,7 +281,7 @@ static void add_last_messages(
         const game_summary_data::GameSummaryData& data,
         std::vector<ColoredString>& lines)
 {
-        lines.emplace_back("Last messages", s_color_heading);
+        lines.emplace_back("最近消息", s_color_heading);
 
         const int max_nr_messages_to_show = 20;
 

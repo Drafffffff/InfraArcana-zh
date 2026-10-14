@@ -1,0 +1,190 @@
+[
+  {
+    "source": " bewilders me.",
+    "target": " 使我陷入困惑。"
+  },
+  {
+    "source": " collapses!",
+    "target": " 倒下了!"
+  },
+  {
+    "source": " comes off and starts crawling around!",
+    "target": " 的手脱落下来，开始四处爬行!"
+  },
+  {
+    "source": " is spawned.",
+    "target": " 出现了。"
+  },
+  {
+    "source": " is taunting me!",
+    "target": " 在嘲弄我!"
+  },
+  {
+    "source": " pulls me!",
+    "target": " 把我拉了过去!"
+  },
+  {
+    "source": " rises again!!",
+    "target": " 再次复活了!!"
+  },
+  {
+    "source": " spews ooze.",
+    "target": " 喷出黏液。"
+  },
+  {
+    "source": " splits.",
+    "target": " 分裂了。"
+  },
+  {
+    "source": " starts crawling around!",
+    "target": " 的肠子开始四处爬行!"
+  },
+  {
+    "source": " starts floating around!",
+    "target": " 的头颅开始四处漂浮!"
+  },
+  {
+    "source": " stops and gropes about.",
+    "target": " 停下来摸索四周。"
+  },
+  {
+    "source": " struggles in pain!",
+    "target": " 痛苦地挣扎!"
+  },
+  {
+    "source": " suffers from poisoning!",
+    "target": " 中毒了!"
+  },
+  {
+    "source": " tears out a spike!",
+    "target": " 拔出了一根尖刺!"
+  },
+  {
+    "source": "A chasm lies in my way.",
+    "target": "一道深渊横在我面前。"
+  },
+  {
+    "source": "A powerful wind is pulling me!",
+    "target": "一股强风正把我往前拉!"
+  },
+  {
+    "source": "A voice is calling forth Tomb-Legions!",
+    "target": "有个声音正在召唤墓穴军团!"
+  },
+  {
+    "source": "A wound is healed.",
+    "target": "一处创伤愈合了。"
+  },
+  {
+    "source": "AAAARGH IT BURNS!!!",
+    "target": "啊啊啊，好烫!!!"
+  },
+  {
+    "source": "All my wounds are healed!",
+    "target": "我的所有创伤都愈合了!"
+  },
+  {
+    "source": "I am burning!",
+    "target": "我着火了!"
+  },
+  {
+    "source": "I am decaying!",
+    "target": "我正在腐朽!"
+  },
+  {
+    "source": "I am suffering from the poison!",
+    "target": "我正在承受毒素侵袭!"
+  },
+  {
+    "source": "I am too confused to concentrate!",
+    "target": "我困惑得无法集中精神!"
+  },
+  {
+    "source": "I am too confused to read.",
+    "target": "我困惑得无法阅读。"
+  },
+  {
+    "source": "I am too enraged to concentrate!",
+    "target": "我愤怒得无法集中精神!"
+  },
+  {
+    "source": "I am too enraged to read!",
+    "target": "我愤怒得无法阅读!"
+  },
+  {
+    "source": "I am too terrified to engage in close combat!",
+    "target": "我恐惧得无法近战攻击!"
+  },
+  {
+    "source": "I cannot read while blind.",
+    "target": "我失明时无法阅读。"
+  },
+  {
+    "source": "I crave Astral Opium!!",
+    "target": "我渴望星界鸦片!!"
+  },
+  {
+    "source": "I feel a faint tingle.",
+    "target": "我感到一阵微弱的刺痛。"
+  },
+  {
+    "source": "I feel warm.",
+    "target": "我觉得暖洋洋的。"
+  },
+  {
+    "source": "I need more!!",
+    "target": "我还要更多!!"
+  },
+  {
+    "source": "I realize I am standing on the edge of a chasm.",
+    "target": "我意识到自己正站在深渊边缘。"
+  },
+  {
+    "source": "I resist harm.",
+    "target": "我抵御了伤害。"
+  },
+  {
+    "source": "I rip out a spike from my flesh!",
+    "target": "我把一根尖刺从肉里拔了出来!"
+  },
+  {
+    "source": "I struggle to tear out the spike!",
+    "target": "我努力拔出尖刺!"
+  },
+  {
+    "source": "I succumb to my wounds!",
+    "target": "我还是没能挺过创伤!"
+  },
+  {
+    "source": "I will not step away!",
+    "target": "我绝不后退!"
+  },
+  {
+    "source": "Major Clapham Lee calls forth his Tomb-Legions!",
+    "target": "少校 Clapham Lee 召唤出他的墓穴军团!"
+  },
+  {
+    "source": "seems unaffected.",
+    "target": "似乎没有受到影响。"
+  },
+  {
+    "source": "seems unharmed.",
+    "target": "似乎毫发无损。"
+  },
+  {
+    "source": "The hand of ",
+    "target": "属于 "
+  },
+  {
+    "source": "The head of ",
+    "target": "属于 "
+  },
+  {
+    "source": "The intestines of ",
+    "target": "属于 "
+  },
+  {
+    "source": "Wounded(",
+    "target": "受创("
+  }
+]

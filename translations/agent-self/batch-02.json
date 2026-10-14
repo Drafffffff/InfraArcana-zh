@@ -1,0 +1,1214 @@
+[
+  {
+    "source": "from the album \"Fragment\" as music in the main menu.",
+    "target": "来自专辑《Fragment》，作为主菜单音乐。",
+    "locations": [
+      "installed_files/credits.txt:10"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "from the passing of time",
+    "target": "因时间流逝",
+    "locations": [
+      "src/character_descr.cpp:119",
+      "src/game_over_summary.cpp:117"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "from using items",
+    "target": "因使用物品",
+    "locations": [
+      "src/character_descr.cpp:140",
+      "src/game_over_summary.cpp:135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "fumbles, but manages to open a ",
+    "target": "笨手笨脚地摸索一番，还是打开了 ",
+    "locations": [
+      "src/terrain_door.cpp:433"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Fumes burst out from the tomb!",
+    "target": "墓穴中喷出浓烟！",
+    "locations": [
+      "src/terrain.cpp:3844"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "g (,)     PICK UP item",
+    "target": "g (,)     拾取物品",
+    "locations": [
+      "installed_files/manual.txt:12"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gain the ability to cast \"",
+    "target": "获得施放“",
+    "locations": [
+      "src/player_bon.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained ",
+    "target": "获得了 ",
+    "locations": [
+      "src/game_over_summary.cpp:68"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Gained a phobia of canines",
+    "target": "患上了恐犬症",
+    "locations": [
+      "include/insanity.hpp:577"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of darkness",
+    "target": "患上了黑暗恐惧症",
+    "locations": [
+      "include/insanity.hpp:769"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of deep places",
+    "target": "患上了幽闭深渊恐惧症",
+    "locations": [
+      "include/insanity.hpp:705"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of rats",
+    "target": "患上了恐鼠症",
+    "locations": [
+      "include/insanity.hpp:385"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of reptiles and amphibians",
+    "target": "患上了爬行动物与两栖动物恐惧症",
+    "locations": [
+      "include/insanity.hpp:513"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of spiders",
+    "target": "患上了蜘蛛恐惧症",
+    "locations": [
+      "include/insanity.hpp:449"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a phobia of the dead",
+    "target": "患上了尸骸恐惧症",
+    "locations": [
+      "include/insanity.hpp:641"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a sadistic obsession",
+    "target": "患上了虐待狂式的执念",
+    "locations": [
+      "include/insanity.hpp:831"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gained a score of ",
+    "target": "获得分数： ",
+    "locations": [
+      "src/game_over_summary.cpp:74"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Gains a bonus trait at character levels ",
+    "target": "在角色等级达到以下级别时获得额外特质： ",
+    "locations": [
+      "src/player_bon.cpp:1102"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Galvanization",
+    "target": "电化",
+    "locations": [
+      "src/player_bon.cpp:852"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Game summary",
+    "target": "游戏总结",
+    "locations": [
+      "include/game_over_summary.hpp:49",
+      "include/highscore.hpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Game summary file could not be opened",
+    "target": "无法打开游戏总结文件",
+    "locations": [
+      "src/highscore.cpp:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gameplay commands:",
+    "target": "游戏操作：",
+    "locations": [
+      "installed_files/manual.txt:4"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "General menu and window commands:",
+    "target": "通用菜单与窗口操作：",
+    "locations": [
+      "installed_files/manual.txt:39"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gero shay cruo!",
+    "target": "Gero shay cruo!",
+    "locations": [
+      "src/actor_mon.cpp:184"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ghisguth",
+    "target": "吉斯古斯",
+    "locations": [
+      "src/gods.cpp:38"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ghost",
+    "target": "幽灵",
+    "locations": [
+      "src/actor_data.cpp:297"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ghoul",
+    "target": "食尸鬼",
+    "locations": [
+      "src/player_bon.cpp:996"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ghoul",
+    "target": "食尸鬼",
+    "locations": [
+      "src/actor_data.cpp:298"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "giant fungi",
+    "target": "巨型真菌",
+    "locations": [
+      "src/terrain.cpp:2854"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "given for monster '",
+    "target": "给予怪物“",
+    "locations": [
+      "src/actor_move.cpp:482"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "GJ MODE ENABLED",
+    "target": "GJ 模式已启用",
+    "locations": [
+      "src/map_mode_gui.cpp:661"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glaaki",
+    "target": "格拉基",
+    "locations": [
+      "src/gods.cpp:39"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "gleaming",
+    "target": "闪耀的",
+    "locations": [
+      "src/terrain.cpp:2133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gleaming Crystal",
+    "target": "闪耀水晶",
+    "locations": [
+      "src/terrain.cpp:2154"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "gleaming pool",
+    "target": "闪耀池",
+    "locations": [
+      "src/terrain.cpp:2042"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gleeth",
+    "target": "格利斯",
+    "locations": [
+      "src/gods.cpp:40"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gloon",
+    "target": "格隆",
+    "locations": [
+      "src/gods.cpp:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glyphs deciphering cryptic alchemical symbols.",
+    "target": "解读神秘炼金符号的文字。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glyphs revealing ancient alchemical symbols of mystical insights.",
+    "target": "揭示奥秘的古代炼金符号。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glyphs revealing esoteric knowledge of alchemy.",
+    "target": "揭示炼金术秘传知识的文字。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Glyphs unveiling the meaning of mystical symbols.",
+    "target": "揭开神秘符号含义的文字。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gog-Hoor",
+    "target": "戈格-胡尔",
+    "locations": [
+      "src/gods.cpp:42"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gol-goroth",
+    "target": "戈尔-戈罗特",
+    "locations": [
+      "src/gods.cpp:43"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gozer",
+    "target": "戈泽尔",
+    "locations": [
+      "src/gods.cpp:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "graphics",
+    "target": "graphics",
+    "locations": [
+      "src/actor_data.cpp:654"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "grass",
+    "target": "草地",
+    "locations": [
+      "src/terrain.cpp:2453"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "grate",
+    "target": "栅栏",
+    "locations": [
+      "src/terrain.cpp:2748"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "gravestone (\"",
+    "target": "墓碑（“",
+    "locations": [
+      "src/terrain.cpp:1290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Groth-Golka",
+    "target": "格罗思-戈尔卡",
+    "locations": [
+      "src/gods.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "group_size",
+    "target": "group_size",
+    "locations": [
+      "src/actor_data.cpp:589"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "growls.",
+    "target": "咆哮。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Gurathnaka",
+    "target": "古拉斯纳卡",
+    "locations": [
+      "src/gods.cpp:45"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "h (M)     MESSAGE history",
+    "target": "h (M)     消息记录",
+    "locations": [
+      "installed_files/manual.txt:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "h- -l",
+    "target": "h- -l",
+    "locations": [
+      "installed_files/manual.txt:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of canines",
+    "target": "曾患有恐犬症",
+    "locations": [
+      "include/insanity.hpp:556"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of darkness",
+    "target": "曾患有黑暗恐惧症",
+    "locations": [
+      "include/insanity.hpp:748"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of deep places",
+    "target": "曾患有幽闭深渊恐惧症",
+    "locations": [
+      "include/insanity.hpp:684"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of rats",
+    "target": "曾患有恐鼠症",
+    "locations": [
+      "include/insanity.hpp:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of reptiles and amphibians",
+    "target": "曾患有爬行动物与两栖动物恐惧症",
+    "locations": [
+      "include/insanity.hpp:492"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of spiders",
+    "target": "曾患有蜘蛛恐惧症",
+    "locations": [
+      "include/insanity.hpp:428"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a phobia of the dead",
+    "target": "曾患有尸骸恐惧症",
+    "locations": [
+      "include/insanity.hpp:620"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a sadistic obsession",
+    "target": "曾有虐待狂式的执念",
+    "locations": [
+      "include/insanity.hpp:807"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a sensation of something crawling on my neck",
+    "target": "感觉有什么东西在我的脖子上爬",
+    "locations": [
+      "include/insanity.hpp:1036"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a strong sensation of being followed",
+    "target": "强烈感觉有人在跟踪我",
+    "locations": [
+      "include/insanity.hpp:915"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Had a tendency to babble",
+    "target": "有喋喋不休的倾向",
+    "locations": [
+      "include/insanity.hpp:216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "HAHAHA!",
+    "target": "哈哈哈！",
+    "locations": [
+      "include/insanity.hpp:321"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Halluc",
+    "target": "幻觉",
+    "locations": [
+      "src/property_data.cpp:496"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hallucinating",
+    "target": "正在产生幻觉",
+    "locations": [
+      "src/property_data.cpp:495"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hallucinogenic Mold",
+    "target": "致幻霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Han",
+    "target": "汉",
+    "locations": [
+      "src/gods.cpp:46"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "hanging vines",
+    "target": "垂挂的藤蔓",
+    "locations": [
+      "src/terrain.cpp:2624"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Happy is the tomb where no wizard hath lain and happy the town at night whose wizards are all ashes.",
+    "target": "没有巫师安眠的坟墓是幸福的；夜幕下没有巫师、巫师皆化作灰烬的小镇也是幸福的。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Has acquired an artifact which can cloud the minds of all enemies, causing them to forget the presence of the user.",
+    "target": "获得了一件神器，可迷惑所有敌人的心智，使它们忘记使用者的存在。",
+    "locations": [
+      "src/player_bon.cpp:1202"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Haste",
+    "target": "加速",
+    "locations": [
+      "include/spells.hpp:1836"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hasted",
+    "target": "已加速",
+    "locations": [
+      "src/property_data.cpp:609",
+      "src/property_data.cpp:610"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hastur",
+    "target": "哈斯塔",
+    "locations": [
+      "src/gods.cpp:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Haunted by shadows!",
+    "target": "阴影缠身！",
+    "locations": [
+      "include/insanity.hpp:870"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hazy Mirror",
+    "target": "朦胧之镜",
+    "locations": [
+      "src/terrain_mirror.cpp:150"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "hazy mirror",
+    "target": "朦胧之镜",
+    "locations": [
+      "src/terrain_mirror.cpp:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hchtelegoth",
+    "target": "赫特勒戈斯",
+    "locations": [
+      "src/gods.cpp:48"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "He of the Ivory Throne",
+    "target": "象牙王座上的那位",
+    "locations": [
+      "src/gods.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "He Who Dwells Beneath Our Feet",
+    "target": "栖居于我们脚下的祂",
+    "locations": [
+      "src/gods.cpp:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Heal Others",
+    "target": "治疗他人",
+    "locations": [
+      "include/spells.hpp:2923"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Healer",
+    "target": "治疗者",
+    "locations": [
+      "src/player_bon.cpp:335"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Healing",
+    "target": "治疗",
+    "locations": [
+      "include/spells.hpp:2658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Health",
+    "target": "生命值",
+    "locations": [
+      "src/map_mode_gui.cpp:163"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "health",
+    "target": "生命值",
+    "locations": [
+      "src/player_spells.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "heavy",
+    "target": "沉重",
+    "locations": [
+      "src/item.cpp:362"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Here, you can see all of your inventory slots (see below), and a complete list of your carried items. Selecting an inventory slot (with enter or a letter key), either puts away an existing item from the slot, or opens a list of items that you can equip in the slot.",
+    "target": "此处会显示所有装备栏位（见下文），以及你携带的物品清单。选择一个装备栏位（按回车或对应字母键），可以收起该栏已有物品，或打开可装备到该栏的物品列表。",
+    "locations": [
+      "installed_files/manual.txt:154"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Herpetophobia!",
+    "target": "爬虫恐惧症！",
+    "locations": [
+      "include/insanity.hpp:503"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hidden secrets are revealed to me.",
+    "target": "隐藏的秘密向我显现。",
+    "locations": [
+      "src/property_data.cpp:905"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "High scores and memorial files",
+    "target": "高分记录与纪念文件",
+    "locations": [
+      "installed_files/manual.txt:243"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "High shock",
+    "target": "高震慑",
+    "locations": [
+      "src/hints.cpp:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "highscores",
+    "target": "highscores",
+    "locations": [
+      "src/paths.cpp:272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hint: ",
+    "target": "提示： ",
+    "locations": [
+      "src/hints.cpp:28"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Hints at celestial entities offering the keys to unlocking hidden knowledge.",
+    "target": "暗示天体存在会赐予开启隐秘知识的钥匙。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hints at celestial entities offering untold treasures.",
+    "target": "暗示天体存在会带来无尽珍宝。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hints at otherworldly entities granting access to forbidden realms of understanding.",
+    "target": "暗示异界存在可让人得以窥探禁忌知识。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "hisses.",
+    "target": "嘶嘶作响。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SPITTING_COBRA]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "History of ",
+    "target": "……的经历 ",
+    "locations": [
+      "src/character_descr.cpp:214",
+      "src/game_over_summary.cpp:254"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "hit chance is affected by several other factors, such",
+    "target": "命中率还会受到其他因素影响，例如",
+    "locations": [
+      "installed_files/manual.txt:116"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hit Points, Wounds and healing",
+    "target": "生命值、创伤与治疗",
+    "locations": [
+      "installed_files/manual.txt:175"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "hit_points",
+    "target": "hit_points",
+    "locations": [
+      "src/actor_data.cpp:223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hope returned again",
+    "target": "希望再次回归",
+    "locations": [
+      "src/property_data.cpp:839"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "How many?",
+    "target": "多少？",
+    "locations": [
+      "src/game_commands.cpp:1429"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "howls.",
+    "target": "嚎叫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "HP: ",
+    "target": "生命值： ",
+    "locations": [
+      "src/player_spells.cpp:241"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "humanoid",
+    "target": "类人",
+    "locations": [
+      "src/actor_data.cpp:292"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Hziulquoigmnzhah",
+    "target": "希乌尔奎格姆扎",
+    "locations": [
+      "src/gods.cpp:49"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "i         INVENTORY (wield, equip, remove, consume, or activate items)",
+    "target": "i         物品栏（持握、装备、移除、消耗或启动物品）",
+    "locations": [
+      "installed_files/manual.txt:14"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I (Martin) want to thank the following people for their great",
+    "target": "我（Martin）想感谢以下这些人，他们给予了极大的",
+    "locations": [
+      "installed_files/credits.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am awake.",
+    "target": "我醒了。",
+    "locations": [
+      "src/property_data.cpp:383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am blinded!",
+    "target": "我失明了！",
+    "locations": [
+      "src/property_data.cpp:347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am Burning!",
+    "target": "我身上着火了！",
+    "locations": [
+      "src/property_data.cpp:400"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am carrying too much weight, walking will be slower.",
+    "target": "我带的东西太重了，走路会变慢。",
+    "locations": [
+      "src/actor_start_turn.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am cloaked!",
+    "target": "我隐形了！",
+    "locations": [
+      "src/property_data.cpp:989"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am confused!",
+    "target": "我糊涂了！",
+    "locations": [
+      "src/property_data.cpp:482"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am cured of my sadistic obsession.",
+    "target": "我的虐待狂执念治愈了。",
+    "locations": [
+      "include/insanity.hpp:826"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am deaf!",
+    "target": "我失聪了！",
+    "locations": [
+      "src/property_data.cpp:363"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am diseased!",
+    "target": "我患病了！",
+    "locations": [
+      "src/property_data.cpp:732"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am entangled in a spider web!",
+    "target": "我被缠在蜘蛛网上了！",
+    "locations": [
+      "src/terrain_trap.cpp:1223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am entangled in a sticky mass of threads!",
+    "target": "我被缠进一团黏稠的丝线里了！",
+    "locations": [
+      "src/terrain_trap.cpp:1227"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am entangled!",
+    "target": "我被缠住了！",
+    "locations": [
+      "src/property_data.cpp:916"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am fastened by a spike!",
+    "target": "我被尖刺钉住了！",
+    "locations": [
+      "src/property_data.cpp:647"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am getting smoke in my eyes.",
+    "target": "烟熏得我睁不开眼。",
+    "locations": [
+      "src/terrain_mob.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am hit by an explosion!",
+    "target": "我被爆炸击中了！",
+    "locations": [
+      "src/explosion.cpp:217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am infected!",
+    "target": "我感染了！",
+    "locations": [
+      "src/property_data.cpp:716"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am knocked back!",
+    "target": "我被击退了！",
+    "locations": [
+      "src/knockback.cpp:115"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am more skilled at casting ",
+    "target": "我施放……的法术更加熟练了 ",
+    "locations": [
+      "src/player_spells.cpp:537"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am no longer invisible.",
+    "target": "我不再隐形了。",
+    "locations": [
+      "src/property_data.cpp:974"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer stunned.",
+    "target": "我不再昏迷了。",
+    "locations": [
+      "src/property_data.cpp:580"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of canines.",
+    "target": "我不再害怕犬类了。",
+    "locations": [
+      "include/insanity.hpp:572"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of darkness.",
+    "target": "我不再害怕黑暗了。",
+    "locations": [
+      "include/insanity.hpp:764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of deep places.",
+    "target": "我不再害怕幽闭深渊了。",
+    "locations": [
+      "include/insanity.hpp:700"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of rats.",
+    "target": "我不再害怕老鼠了。",
+    "locations": [
+      "include/insanity.hpp:380"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of reptiles and amphibians.",
+    "target": "我不再害怕爬行动物和两栖动物了。",
+    "locations": [
+      "include/insanity.hpp:508"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of spiders.",
+    "target": "我不再害怕蜘蛛了。",
+    "locations": [
+      "include/insanity.hpp:444"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified of the dead.",
+    "target": "我不再害怕尸骸了。",
+    "locations": [
+      "include/insanity.hpp:636"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am no longer terrified!",
+    "target": "我不再恐惧了！",
+    "locations": [
+      "src/property_data.cpp:466"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am not carrying ",
+    "target": "我没有携带 ",
+    "locations": [
+      "src/game_commands.cpp:244"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am not wielding a weapon.",
+    "target": "我没有持握武器。",
+    "locations": [
+      "src/reload.cpp:131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am out of sight!",
+    "target": "我不在视野内！",
+    "locations": [
+      "src/property_data.cpp:972"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am paralyzed!",
+    "target": "我瘫痪了！",
+    "locations": [
+      "src/property_data.cpp:439"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of ",
+    "target": "我饱受……恐惧症折磨 ",
+    "locations": [
+      "src/insanity.cpp:296"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I am plagued by my phobia of canines!",
+    "target": "我饱受恐犬症折磨！",
+    "locations": [
+      "src/insanity.cpp:325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of deep places!",
+    "target": "我饱受幽闭深渊恐惧症折磨！",
+    "locations": [
+      "src/insanity.cpp:398",
+      "src/map_travel.cpp:58"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of rats!",
+    "target": "我饱受恐鼠症折磨！",
+    "locations": [
+      "src/insanity.cpp:211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of spiders!",
+    "target": "我饱受蜘蛛恐惧症折磨！",
+    "locations": [
+      "src/insanity.cpp:243"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of the dark!",
+    "target": "我饱受黑暗恐惧症折磨！",
+    "locations": [
+      "src/insanity.cpp:432"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am plagued by my phobia of the dead!",
+    "target": "我饱受尸骸恐惧症折磨！",
+    "locations": [
+      "src/insanity.cpp:357"
+    ],
+    "kind": "ui"
+  }
+]

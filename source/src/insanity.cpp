@@ -45,7 +45,7 @@ void InsSympt::on_start()
 
         const std::string heading = start_heading();
 
-        const std::string msg = "Insanity draws nearer... " + start_msg();
+        const std::string msg = "疯狂步步逼近…… " + start_msg();
 
         ASSERT(!heading.empty() && !msg.empty());
 
@@ -99,8 +99,7 @@ void InsReduceXp::on_start_hook()
 
 std::string InsReduceXp::start_msg() const
 {
-        return "Thanks to the mercy of the mind, some past experiences are "
-               "forgotten (-25% XP).";
+        return "得蒙心智庇护，过往的一些经历被遗忘（经验值-25%）。";
 }
 
 bool InsScream::is_allowed() const
@@ -124,10 +123,10 @@ void InsScream::on_start_hook()
 std::string InsScream::start_msg() const
 {
         if (rnd::coin_toss()) {
-                return "I let out a terrified shriek.";
+                return "我吓得尖叫起来。";
         }
         else {
-                return "I scream in terror.";
+                return "我惊恐地尖叫。";
         }
 }
 
@@ -208,7 +207,7 @@ void InsPhobiaRat::on_new_player_turn(
 
         for (auto* const actor : seen_actors) {
                 if (actor->m_data->is_rat) {
-                        msg_log::add("I am plagued by my phobia of rats!");
+                        msg_log::add("我饱受恐鼠症折磨！");
 
                         map::g_player->m_properties.apply(
                                 prop::make(prop::Id::terrified));
@@ -240,7 +239,7 @@ void InsPhobiaSpider::on_new_player_turn(
 
         for (auto* const actor : seen_actors) {
                 if (actor->m_data->is_spider) {
-                        msg_log::add("I am plagued by my phobia of spiders!");
+                        msg_log::add("我饱受蜘蛛恐惧症折磨！");
 
                         map::g_player->m_properties.apply(
                                 prop::make(prop::Id::terrified));
@@ -276,7 +275,7 @@ void InsPhobiaReptileAndAmph::on_new_player_turn(
 
         for (auto* const actor : seen_actors) {
                 if (actor->m_data->is_reptile) {
-                        animal_str = "reptiles";
+                        animal_str = "爬行动物";
 
                         is_triggered = true;
 
@@ -284,7 +283,7 @@ void InsPhobiaReptileAndAmph::on_new_player_turn(
                 }
 
                 if (actor->m_data->is_amphibian) {
-                        animal_str = "amphibians";
+                        animal_str = "两栖动物";
 
                         is_triggered = true;
 
@@ -293,7 +292,7 @@ void InsPhobiaReptileAndAmph::on_new_player_turn(
         }
 
         if (is_triggered) {
-                msg_log::add("I am plagued by my phobia of " + animal_str + "!");
+                msg_log::add("我饱受……恐惧症折磨 " + animal_str + "!");
 
                 map::g_player->m_properties.apply(
                         prop::make(prop::Id::terrified));
@@ -322,7 +321,7 @@ void InsPhobiaCanine::on_new_player_turn(
 
         for (auto* const actor : seen_actors) {
                 if (actor->m_data->is_canine) {
-                        msg_log::add("I am plagued by my phobia of canines!");
+                        msg_log::add("我饱受恐犬症折磨！");
 
                         map::g_player->m_properties.apply(
                                 prop::make(prop::Id::terrified));
@@ -354,7 +353,7 @@ void InsPhobiaDead::on_new_player_turn(
 
         for (auto* const actor : seen_actors) {
                 if (actor->m_data->is_undead) {
-                        msg_log::add("I am plagued by my phobia of the dead!");
+                        msg_log::add("我饱受尸骸恐惧症折磨！");
 
                         map::g_player->m_properties.apply(
                                 prop::make(prop::Id::terrified));
@@ -395,7 +394,7 @@ void InsPhobiaDeep::on_new_player_turn(
                         deep_terrains);
 
         if (parser.run(map::g_player->m_pos)) {
-                msg_log::add("I am plagued by my phobia of deep places!");
+                msg_log::add("我饱受幽闭深渊恐惧症折磨！");
 
                 map::g_player->m_properties.apply(
                         prop::make(prop::Id::terrified));
@@ -429,7 +428,7 @@ void InsPhobiaDark::on_new_player_turn(
 
                 if ((props.allow_act() && !props.allow_see()) ||
                     (map::g_dark.at(p) && !map::g_light.at(p))) {
-                        msg_log::add("I am plagued by my phobia of the dark!");
+                        msg_log::add("我饱受黑暗恐惧症折磨！");
 
                         map::g_player->m_properties.apply(
                                 prop::make(prop::Id::terrified));

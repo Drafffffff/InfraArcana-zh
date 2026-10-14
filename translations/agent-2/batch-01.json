@@ -1,0 +1,1247 @@
+[
+  {
+    "source": " (average ",
+    "target": "（平均 ",
+    "locations": [
+      "src/inventory_handling.cpp:626"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - ACTOR HIT: ",
+    "target": " - ACTOR HIT: ",
+    "locations": [
+      "src/attack_ranged.cpp:98"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - DEAD",
+    "target": " - 死的",
+    "locations": [
+      "src/attack_ranged.cpp:91"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - drop how many?",
+    "target": " - 掉落多少？",
+    "locations": [
+      "src/inventory_handling.cpp:85"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - LIVE",
+    "target": " - 居住",
+    "locations": [
+      "src/attack_ranged.cpp:92"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - OBSTRUCTED AT IDX: ",
+    "target": " - OBSTRUCTED AT IDX: ",
+    "locations": [
+      "src/attack_ranged.cpp:86"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - PATH IDX: ",
+    "target": " - PATH IDX: ",
+    "locations": [
+      "src/attack_ranged.cpp:84"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - TERRAIN HIT: ",
+    "target": " - TERRAIN HIT: ",
+    "locations": [
+      "src/attack_ranged.cpp:104"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " an Electric Lantern.",
+    "target": " 电灯笼。",
+    "locations": [
+      "src/item_misc.cpp:591"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " and ",
+    "target": " 和 ",
+    "locations": [
+      "src/inventory_handling.cpp:679",
+      "src/player_bon.cpp:1131",
+      "src/player_bon.cpp:1173",
+      "src/player_bon.cpp:123"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " appears!",
+    "target": " 出现！",
+    "locations": [
+      "src/spells.cpp:2501",
+      "src/spells.cpp:4798",
+      "src/terrain_trap.cpp:1055"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Apply which item? ",
+    "target": " 适用哪一项？ ",
+    "locations": [
+      "src/inventory_handling.cpp:1087"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " are ",
+    "target": " 是 ",
+    "locations": [
+      "src/item_potion.cpp:371"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " armor)",
+    "target": " 盔甲）",
+    "locations": [
+      "src/item_armor.cpp:80"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " as a prepared weapon.",
+    "target": " 作为准备好的武器。",
+    "locations": [
+      "src/inventory.cpp:695"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " belong to the ",
+    "target": " 属于 ",
+    "locations": [
+      "src/item_scroll.cpp:300"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " bows before me.",
+    "target": " 在我面前鞠躬。",
+    "locations": [
+      "src/item_weapon.cpp:527"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " breaks!",
+    "target": " 休息！",
+    "locations": [
+      "src/item_device.cpp:237"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Browsing inventory ",
+    "target": " 浏览库存 ",
+    "locations": [
+      "src/inventory_handling.cpp:844"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " cannot be removed!",
+    "target": " 无法删除！",
+    "locations": [
+      "src/inventory_handling.cpp:145"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Currently ",
+    "target": " 现在 ",
+    "locations": [
+      "src/spells.cpp:5738"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " damage to each creature.",
+    "target": " 对每个生物造成伤害。",
+    "locations": [
+      "src/spells.cpp:1455",
+      "src/spells.cpp:1954"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " damage to the attacker.",
+    "target": " 对攻击者造成伤害。",
+    "locations": [
+      "src/spells.cpp:5463"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " damage, and become terrified for ",
+    "target": " 损坏，并变得害怕 ",
+    "locations": [
+      "src/spells.cpp:2930"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " damage.",
+    "target": " 损害。",
+    "locations": [
+      "src/spells.cpp:1556"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " domain.",
+    "target": " 领域。",
+    "locations": [
+      "src/item_scroll.cpp:302"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Drop which item? ",
+    "target": " 掉落哪个物品？ ",
+    "locations": [
+      "src/inventory_handling.cpp:1227"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " expires.",
+    "target": " 过期。",
+    "locations": [
+      "src/item_head.cpp:31"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " feebly",
+    "target": " 有气无力地",
+    "locations": [
+      "src/attack_melee.cpp:142"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " feeds on my energy!",
+    "target": " 以我的能量为食！",
+    "locations": [
+      "src/item_weapon.cpp:209",
+      "src/item_weapon.cpp:238"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " has finished charging.",
+    "target": " 已完成充电。",
+    "locations": [
+      "src/item_rod.cpp:241"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " higher than normal.",
+    "target": " 高于正常水平。",
+    "locations": [
+      "src/inventory_handling.cpp:640"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit points ",
+    "target": " 生命值 ",
+    "locations": [
+      "src/item_misc.cpp:237"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit points are lost, then ",
+    "target": " 生命值会丢失，然后 ",
+    "locations": [
+      "src/spells.cpp:5707"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit points drained per attack, passive hit point regeneration is disabled for ",
+    "target": " 每次攻击都会消耗生命值，被动生命值再生会被禁用 ",
+    "locations": [
+      "src/item_data.cpp:462",
+      "src/item_data.cpp:699"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit points would be removed.",
+    "target": " 生命值将被删除。",
+    "locations": [
+      "src/spells.cpp:5740"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit points.",
+    "target": " 生命值。",
+    "locations": [
+      "src/spells.cpp:4904",
+      "src/spells.cpp:5702"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hums ominously.",
+    "target": " 不祥地嗡嗡作响。",
+    "locations": [
+      "src/item_device.cpp:253"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Identify which item? ",
+    "target": " 确定是哪一项？ ",
+    "locations": [
+      "src/inventory_handling.cpp:1958"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " If the target is sufficiently far away from the caster, the bolt explodes on impact.",
+    "target": " 如果目标距离施法者足够远，螺栓就会在撞击时爆炸。",
+    "locations": [
+      "src/spells.cpp:1563"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is",
+    "target": " 是",
+    "locations": [
+      "src/spells.cpp:1697"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is assailed by dark energy.",
+    "target": " 受到暗能量的攻击。",
+    "locations": [
+      "src/item_weapon.cpp:638"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is damaged!",
+    "target": " 已损坏！",
+    "locations": [
+      "src/item_armor.cpp:67"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is hit",
+    "target": " 被击中",
+    "locations": [
+      "src/attack_melee.cpp:309",
+      "src/attack_ranged.cpp:280"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is hit!",
+    "target": " 被击中了！",
+    "locations": [
+      "src/item_rod.cpp:409"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is still charging.",
+    "target": " 仍在充电。",
+    "locations": [
+      "src/item_rod.cpp:189"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is struck.",
+    "target": " 被击中。",
+    "locations": [
+      "src/spells.cpp:2895"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is suddenly flayed alive!",
+    "target": " 突然被活活剥皮了！",
+    "locations": [
+      "src/spells.cpp:403"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is teleported.",
+    "target": " 被传送。",
+    "locations": [
+      "src/item_device.cpp:367"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " level",
+    "target": " 等级",
+    "locations": [
+      "src/player_bon.cpp:87",
+      "src/spells.cpp:662"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks shocked!",
+    "target": " 看起来很震慑！",
+    "locations": [
+      "src/item_weapon.cpp:334"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " makes a terrible grinding noise. I seem to have damaged it.",
+    "target": " 发出可怕的磨擦声。我好像把它弄坏了。",
+    "locations": [
+      "src/item_device.cpp:245"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " may be spawned on casting the spell.",
+    "target": " 可能会在施放该法术时生成。",
+    "locations": [
+      "src/spells.cpp:2595"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " misses ",
+    "target": " 未击中 ",
+    "locations": [
+      "src/attack_melee.cpp:108"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " more effectively (while the weapon is wielded, its attack damage is automatically used instead of the kick damage).",
+    "target": " 更有效（当使用武器时，会自动使用其攻击伤害，而不是踢击伤害）。",
+    "locations": [
+      "src/inventory_handling.cpp:687"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Potion",
+    "target": " 药水",
+    "locations": [
+      "src/item_potion.cpp:154",
+      "src/item_potion.cpp:159"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Potions",
+    "target": " 药水",
+    "locations": [
+      "src/item_potion.cpp:157"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " projectile not at aim position, setting minimum hit chance",
+    "target": " projectile not at aim position, setting minimum hit chance",
+    "locations": [
+      "src/attack_data.cpp:404"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " rats. The rats exist for ",
+    "target": " 老鼠。老鼠的存在是为了 ",
+    "locations": [
+      "src/spells.cpp:2372"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Rod",
+    "target": " 魔棒",
+    "locations": [
+      "src/item_rod.cpp:92",
+      "src/item_rod.cpp:94"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Rods",
+    "target": " 魔棒",
+    "locations": [
+      "src/item_rod.cpp:93"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " shrieks...",
+    "target": " 尖叫……",
+    "locations": [
+      "src/item_curse.cpp:592"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spirit point is gained.",
+    "target": " 获得精神值。",
+    "locations": [
+      "src/spells.cpp:5619"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spirit points are gained.",
+    "target": " 获得精神值。",
+    "locations": [
+      "src/spells.cpp:5625"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " steps may be taken before the effect ends.",
+    "target": " 在效果结束之前可以采取一些步骤。",
+    "locations": [
+      "src/spells.cpp:5558"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " suddenly feels much heavier to carry.",
+    "target": " 突然感觉身上的担子重了很多。",
+    "locations": [
+      "src/item_curse.cpp:479"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " supplies)",
+    "target": " 补给品）",
+    "locations": [
+      "src/item_misc.cpp:503"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " The target is paralyzed and set aflame.",
+    "target": " 目标陷入瘫痪并着火。",
+    "locations": [
+      "src/spells.cpp:1559"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " The target is paralyzed.",
+    "target": " 目标陷入瘫痪。",
+    "locations": [
+      "src/spells.cpp:1569"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " The weapons exist for ",
+    "target": " 这些武器的存在是为了 ",
+    "locations": [
+      "src/spells.cpp:2598"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Throw which item? ",
+    "target": " 扔哪个物品？ ",
+    "locations": [
+      "src/inventory_handling.cpp:1689"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " to carry",
+    "target": " 携带",
+    "locations": [
+      "src/inventory_handling.cpp:702"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns",
+    "target": " 轮流",
+    "locations": [
+      "src/game_over_summary.cpp:56",
+      "src/item_misc.cpp:529",
+      "src/item_misc.cpp:920",
+      "src/spells.cpp:3609"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns (their turns).",
+    "target": " 轮流（他们的轮流）。",
+    "locations": [
+      "src/spells.cpp:2374"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns (unless they resist fear).",
+    "target": " 回合（除非它们抵抗恐惧）。",
+    "locations": [
+      "src/spells.cpp:2932"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns left)? ",
+    "target": " 向左转）？ ",
+    "locations": [
+      "src/actor_player.cpp:120",
+      "src/actor_player.cpp:140",
+      "src/item_misc.cpp:410"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns)",
+    "target": " 转）",
+    "locations": [
+      "src/item_head.cpp:44",
+      "src/item_rod.cpp:279"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns).",
+    "target": " 轮）。",
+    "locations": [
+      "src/item_data.cpp:702"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns)...",
+    "target": " 轮流）...",
+    "locations": [
+      "src/item_misc.cpp:187"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns, and scorches the ground around them with fire (be careful with hitting adjacent creatures).",
+    "target": " 回合，并用火焰灼烧它们周围的地面（小心别击中相邻生物）。",
+    "locations": [
+      "src/spells.cpp:2769"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns, causing them to view any creature as ",
+    "target": " 回合，使它们将任何生物都视为 ",
+    "locations": [
+      "src/spells.cpp:1965"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns, if they are susceptible.",
+    "target": " 轮流，如果他们易受影响的话。",
+    "locations": [
+      "src/spells.cpp:1959"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns, unable to act for the next turn).",
+    "target": " 轮，无法执行下一轮）。",
+    "locations": [
+      "src/item_data.cpp:465"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " turns.",
+    "target": " 轮流。",
+    "locations": [
+      "src/spells.cpp:1466",
+      "src/spells.cpp:2600",
+      "src/spells.cpp:2830",
+      "src/spells.cpp:3032",
+      "src/spells.cpp:3138",
+      "src/spells.cpp:3146",
+      "src/spells.cpp:3154",
+      "src/spells.cpp:3243",
+      "src/spells.cpp:3313",
+      "src/spells.cpp:3440",
+      "src/spells.cpp:3520",
+      "src/spells.cpp:3786",
+      "src/spells.cpp:4176",
+      "src/spells.cpp:4304",
+      "src/spells.cpp:4441",
+      "src/spells.cpp:4922",
+      "src/spells.cpp:5397",
+      "src/spells.cpp:5468",
+      "src/spells.cpp:5733"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " uses)",
+    "target": " 用途）",
+    "locations": [
+      "src/item_misc.cpp:697",
+      "src/item_misc.cpp:771",
+      "src/item_misc.cpp:977"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Walls can be destroyed.",
+    "target": " 墙壁可以被摧毁。",
+    "locations": [
+      "src/spells.cpp:2671"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " with ",
+    "target": " 和 ",
+    "locations": [
+      "src/attack.cpp:111",
+      "src/attack_melee.cpp:258",
+      "src/attack_melee.cpp:693"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " would be beneficent again.",
+    "target": " 将会再次受益。",
+    "locations": [
+      "src/item_misc.cpp:906"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " would be useless.",
+    "target": " 就没用了。",
+    "locations": [
+      "src/attack_melee.cpp:695",
+      "src/bash.cpp:240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "\" domain.",
+    "target": "“ 领域。",
+    "locations": [
+      "src/spells.cpp:1347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\"Tommy Gun\" is a nickname for the Thompson submachine gun - an automatic firearm with a drum magazine and vertical foregrip. It fires .45 ACP ammunition. The drum magazine has a capacity of 50 rounds.",
+    "target": "“汤米枪”是汤普森冲锋枪的昵称 - 一种带有弹鼓和垂直前握把的自动枪支。它发射 0.45 ACP 弹药。弹鼓容量为50发。",
+    "locations": [
+      "src/item_data.cpp:494"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% chance for a +1 weapon, ",
+    "target": "% 几率获得 +1 武器， ",
+    "locations": [
+      "src/spells.cpp:5335"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "% chance for a +2 weapon, ",
+    "target": "% 几率获得 +2 武器， ",
+    "locations": [
+      "src/spells.cpp:5337"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "% chance for a +3 weapon, etc.",
+    "target": "% 几率获得 +3 武器，等等。",
+    "locations": [
+      "src/spells.cpp:5339"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% chance.",
+    "target": "% c机会。",
+    "locations": [
+      "src/spells.cpp:5323",
+      "src/spells.cpp:5328"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "% of carried weight)",
+    "target": "% 占携带重量）",
+    "locations": [
+      "src/inventory_handling.cpp:721"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(breaking)",
+    "target": "（打破）",
+    "locations": [
+      "src/item_device.cpp:269"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(fine)",
+    "target": "（美好的）",
+    "locations": [
+      "src/item_device.cpp:275"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(q) Quick patch-up, restores ",
+    "target": "(q) 快速修补、恢复 ",
+    "locations": [
+      "src/item_misc.cpp:235"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(s) Sanitize infection ",
+    "target": "(s) 消毒感染 ",
+    "locations": [
+      "src/item_misc.cpp:239"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(shoddy)",
+    "target": "（劣质）",
+    "locations": [
+      "src/item_device.cpp:272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(supplies: ",
+    "target": "（补给品： ",
+    "locations": [
+      "src/item_misc.cpp:227"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "(Tried)",
+    "target": "（尝试过）",
+    "locations": [
+      "src/item_rod.cpp:287"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "(w) Treat wound ",
+    "target": "(w) 治疗创伤 ",
+    "locations": [
+      "src/item_misc.cpp:240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ") != 1 for ",
+    "target": ") != 1 为 ",
+    "locations": [
+      "src/item_factory.cpp:525"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "***F",
+    "target": "***F",
+    "locations": [
+      "src/item_explosive.cpp:118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "+1 hit point regenerated per turn, for ",
+    "target": "每回合恢复 +1 点生命值，持续 ",
+    "locations": [
+      "src/spells.cpp:4920"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "+4 hit points, grants resistance against poison and disease.",
+    "target": "+4 生命值，赋予对毒药和疾病的抵抗力。",
+    "locations": [
+      "src/item_data.cpp:2198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", and feel myself changing...",
+    "target": "，并感觉自己正在改变……",
+    "locations": [
+      "src/item_misc.cpp:1198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", failed",
+    "target": "， 失败的",
+    "locations": [
+      "src/item_misc.cpp:923"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", forever...",
+    "target": "， 永远...",
+    "locations": [
+      "src/item_curse.cpp:296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", Lit",
+    "target": ", 点燃",
+    "locations": [
+      "src/item_misc.cpp:532"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", or until a spell is cast (either from a Manuscript or from memory).",
+    "target": "，或直到施展咒语（来自手稿或记忆）。",
+    "locations": [
+      "src/spells.cpp:3618"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": ", turns: ",
+    "target": "，转： ",
+    "locations": [
+      "src/item_misc.cpp:229"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": ". The effect does not end when casting spells, only when the duration expires.",
+    "target": "。施法时效果不会结束，只有持续时间结束时才会结束。",
+    "locations": [
+      "src/spells.cpp:3613"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "<empty>",
+    "target": "<空>",
+    "locations": [
+      "src/game_over_summary.cpp:240",
+      "src/inventory_handling.cpp:409"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[any key] to continue",
+    "target": "[any key] 继续",
+    "locations": [
+      "src/common_text.cpp:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[enter, left, right] to set option",
+    "target": "[enter, left, right] 设置选项",
+    "locations": [
+      "src/common_text.cpp:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[enter] to confirm",
+    "target": "[enter] 确认",
+    "locations": [
+      "src/common_text.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[page down, >] more",
+    "target": "[page down, >] 更多",
+    "locations": [
+      "src/common_text.cpp:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[page up, <] more",
+    "target": "[page up, <] 更多",
+    "locations": [
+      "src/common_text.cpp:12"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space, esc, enter] to continue",
+    "target": "[space, esc, enter] 继续",
+    "locations": [
+      "src/common_text.cpp:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space, esc, m] to exit",
+    "target": "[space, esc, m] 退出",
+    "locations": [
+      "src/common_text.cpp:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space, esc] to cancel",
+    "target": "[space, esc] 取消",
+    "locations": [
+      "src/common_text.cpp:38"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space, esc] to exit",
+    "target": "[space, esc] 退出",
+    "locations": [
+      "src/common_text.cpp:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "[space, esc] to show high scores",
+    "target": "[space, esc] 显示高分",
+    "locations": [
+      "src/common_text.cpp:24"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A bizarre liquid that causes the consumer to dematerialize and sink through the ground.",
+    "target": "一种奇怪的液体，会导致消费者非物质化并沉入地下。",
+    "locations": [
+      "src/item_potion.cpp:911"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Black",
+    "target": "一个黑色",
+    "locations": [
+      "src/item_potion.cpp:123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Blaster Device",
+    "target": "冲击波装置",
+    "locations": [
+      "src/item_data.cpp:1764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Bloody",
+    "target": "血腥的",
+    "locations": [
+      "src/item_potion.cpp:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A bolt of siphoned energy is hurled towards a target with great force. The conjured bolt has some will on its own - once released it launches itself towards any creature sensed as a threat, precise control is therefore not possible.",
+    "target": "一束虹吸能量以巨大的力量投向目标。召唤出的闪电有自己的意志——一旦释放，它就会向任何被感知为威胁的生物发射，因此不可能进行精确控制。",
+    "locations": [
+      "src/spells.cpp:1544"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Bone Charm",
+    "target": "骨咒",
+    "locations": [
+      "src/item_data.cpp:2292"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A brutal weapon, utilizing a combination of blunt-force and puncture.",
+    "target": "一种残酷的武器，结合了钝器和穿刺。",
+    "locations": [
+      "src/item_data.cpp:1029"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A brutal whip affixed with sharpened bones and metal spikes.",
+    "target": "一种残酷的鞭子，上面附有锋利的骨头和金属尖刺。",
+    "locations": [
+      "src/item_data.cpp:1935"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A cartridge designed to be fired from a shotgun.",
+    "target": "设计用于从霰弹枪发射的弹药筒。",
+    "locations": [
+      "src/item_data.cpp:438"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Chromium",
+    "target": "铬",
+    "locations": [
+      "src/item_rod.cpp:66"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Clear",
+    "target": "清晰的",
+    "locations": [
+      "src/item_potion.cpp:135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Clotted",
+    "target": "凝结的",
+    "locations": [
+      "src/item_potion.cpp:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Club",
+    "target": "一个俱乐部",
+    "locations": [
+      "src/item_data.cpp:930"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Cobalt",
+    "target": "钴",
+    "locations": [
+      "src/item_rod.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Colt .45ACP Magazine",
+    "target": "一个柯尔特 .45 ACP 弹匣",
+    "locations": [
+      "src/item_data.cpp:607"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Copper",
+    "target": "一个铜",
+    "locations": [
+      "src/item_rod.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A creature is hit.",
+    "target": "一个生物被击中。",
+    "locations": [
+      "src/attack_ranged.cpp:340",
+      "src/throwing.cpp:315"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A creature struck by this weapon is cursed to forever dwell in darkness, or suffer great agony (becomes permanently light sensitive, and takes +1 extra damage from light). Creatures which naturally emit light (such as beings of fire or energy) takes 1-4 irresistible damage instead.",
+    "target": "被这种武器击中的生物会被诅咒永远生活在黑暗中，或者遭受巨大的痛苦（变得永久对光敏感，并受到 +1 额外的光伤害）。自然发光的生物（例如火焰生物或能量生物）会受到 1-4 点不可抗拒的伤害。",
+    "locations": [
+      "src/item_data.cpp:2162"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A crude armour constructed from metal plates, bolts, and leather straps.",
+    "target": "由金属板、螺栓和皮带制成的粗糙盔甲。",
+    "locations": [
+      "src/item_data.cpp:1450"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A curse lies upon ",
+    "target": "诅咒降临 ",
+    "locations": [
+      "src/item_curse.cpp:269"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "a Dagger",
+    "target": "一把匕首",
+    "locations": [
+      "src/item_data.cpp:871"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "a Dark",
+    "target": "一个黑暗",
+    "locations": [
+      "src/item_potion.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A dark sphere materializes, but quickly fizzles out.",
+    "target": "一个黑暗的球体出现，但很快就消失了。",
+    "locations": [
+      "src/spells.cpp:1619"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "A door appears!",
+    "target": "一扇门出现了！",
+    "locations": [
+      "src/item_rod.cpp:522"
+    ],
+    "kind": "ui"
+  }
+]

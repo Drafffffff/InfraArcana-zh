@@ -124,7 +124,7 @@ static void reset_data(item::ItemData& d, ItemType const item_type)
                 d.ranged.throw_hit_chance_mod = -25;
                 d.ranged.effective_range = {0, 3};
                 d.ranged.max_range = d.ranged.effective_range.max + 3;
-                d.land_on_hard_snd_msg = "I hear a clanking sound.";
+                d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
                 d.land_on_hard_sfx = audio::SfxId::metal_clank;
                 break;
 
@@ -211,11 +211,8 @@ static void reset_data(item::ItemData& d, ItemType const item_type)
                 d.type = ItemType::scroll;
                 d.has_std_activate = true;
                 d.base_descr = {
-                        "A short transcription of an eldritch incantation. "
-                        "There is a strange aura about it, as if some power "
-                        "was imbued in the paper itself.",
-                        "It should be possible to pronounce it correctly, but "
-                        "the purpose is unclear."};
+                        "一段可怕咒语的简短转录。上面有一种奇异的气息，仿佛纸张本身蕴含着某种力量。",
+                        "应该可以正确发音，但目的不明。"};
                 d.value = item::Value::minor_treasure;
                 d.weight = item::Weight::none;
                 d.is_identified = false;
@@ -238,8 +235,7 @@ static void reset_data(item::ItemData& d, ItemType const item_type)
                 d.type = ItemType::potion;
                 d.has_std_activate = true;
                 d.base_descr = {
-                        "A small glass bottle containing a mysterious "
-                        "concoction."};
+                        "一个小玻璃瓶，里面装有神秘的混合物。"};
                 d.value = item::Value::minor_treasure;
                 d.chance_to_incl_in_spawn_list = 60;
                 d.weight = item::Weight::light;
@@ -268,21 +264,17 @@ static void reset_data(item::ItemData& d, ItemType const item_type)
                 d.value = item::Value::major_treasure;
                 d.has_std_activate = true;
                 d.base_name_un_id = {
-                        "Strange Device",
-                        "Strange Devices",
-                        "a Strange Device"};
+                        "奇怪的装置",
+                        "奇怪的设备",
+                        "奇怪的装置"};
                 d.base_descr = {
-                        "A small piece of machinery. It could not possibly "
-                        "have been designed by a human mind. Even for its "
-                        "small size, it seems incredibly complex. There is no "
-                        "hope of understanding the purpose or function of it "
-                        "through normal means."};
+                        "一个小机械。它不可能是由人类大脑设计的。尽管它的尺寸很小，但它看起来却非常复杂。通过正常手段是无法了解其目的或功能的。"};
                 d.weight = item::Weight::light;
                 d.is_identified = false;
                 d.character = '%';
                 d.tile = gfx::TileId::device1;
                 d.is_stackable = false;
-                d.land_on_hard_snd_msg = "I hear a clanking sound.";
+                d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
                 d.land_on_hard_sfx = audio::SfxId::metal_clank;
                 d.chance_to_incl_in_spawn_list = 7;
                 d.native_containers.push_back(terrain::Id::chest);
@@ -295,16 +287,14 @@ static void reset_data(item::ItemData& d, ItemType const item_type)
                 d.value = item::Value::major_treasure;
                 d.has_std_activate = true;
                 d.base_descr = {
-                        "A metallic device of cylindrical shape. "
-                        "It seems to be designed for human hands, "
-                        "for whatever nefarious purpose."};
+                        "圆柱形金属装置。它似乎是为人类的双手而设计的，无论出于什么邪恶的目的。"};
                 d.weight = item::Weight::light;
                 d.is_identified = false;
                 d.xp_on_found = 15;
                 d.character = '%';
                 d.tile = gfx::TileId::rod;
                 d.is_stackable = false;
-                d.land_on_hard_snd_msg = "I hear a clanking sound.";
+                d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
                 d.land_on_hard_sfx = audio::SfxId::metal_clank;
                 d.chance_to_incl_in_spawn_list = 7;
                 d.native_containers.push_back(terrain::Id::chest);
@@ -357,9 +347,9 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::trapezohedron;
         d.base_name = {
-                "Shining Trapezohedron",
-                "Shining Trapezohedrons",
-                "The Shining Trapezohedron"};
+                "闪亮的偏方体",
+                "闪亮的偏方体",
+                "闪亮的偏方体"};
         d.spawn_std_range = Range(-1, -1);
         d.chance_to_incl_in_spawn_list = 0;
         d.allow_spawn = false;
@@ -372,26 +362,23 @@ void init()
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::sawed_off;
         d.base_name = {
-                "Sawed-off Shotgun",
-                "Sawed-off shotguns",
-                "a Sawed-off Shotgun"};
+                "短截霰弹枪",
+                "锯短霰弹枪",
+                "一把锯短的霰弹枪"};
         d.base_descr = {
-                "Compared to a standard shotgun, the sawed-off has a shorter "
-                "effective range - however, at close range it is more "
-                "devastating. It holds two barrels, and needs to be reloaded "
-                "after both are discharged."};
+                "与标准霰弹枪相比，锯短型霰弹枪的有效射程较短，但在近距离时更具破坏性。它装有两个枪管，两个枪管都卸完后需要重新装弹。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::shotgun;
         d.ranged.is_shotgun = true;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.ranged.max_ammo = 2;
         d.ranged.dmg = WpnDmg(8, 24);
         d.ranged.hit_chance_mod = 0;
         d.ranged.effective_range = {0, 3};
         d.ranged.dmg_type = DmgType::shotgun;
         d.ranged.ammo_item_id = Id::shotgun_shell;
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a shotgun blast.";
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到霰弹枪爆炸声。";
         d.ranged.attack_sfx = audio::SfxId::shotgun_sawed_off_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::shotgun_reload;
@@ -403,25 +390,21 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::pump_shotgun;
-        d.base_name = {"Pump Shotgun", "Pump shotguns", "a Pump Shotgun"};
+        d.base_name = {"泵动霰弹枪", "泵动霰弹枪", "泵动霰弹枪"};
         d.base_descr = {
-                "A pump-action shotgun has a handgrip that can be pumped back "
-                "and forth in order to eject a spent round of ammunition and "
-                "to chamber a fresh one. It has a single barrel above a tube "
-                "magazine into which shells are inserted. The magazine has a "
-                "capacity of 8 shells."};
+                "泵动式霰弹枪有一个可以前后泵动的手柄，以便弹出用完的弹药并装入新的弹药。它在管状弹匣上方有一个枪管，炮弹可插入其中。该弹匣容量为8发。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::shotgun;
         d.ranged.is_shotgun = true;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.ranged.max_ammo = 8;
         d.ranged.dmg = WpnDmg(6, 18);
         d.ranged.hit_chance_mod = 0;
         d.ranged.effective_range = {0, 5};
         d.ranged.dmg_type = DmgType::shotgun;
         d.ranged.ammo_item_id = Id::shotgun_shell;
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a shotgun blast.";
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到霰弹枪爆炸声。";
         d.ranged.attack_sfx = audio::SfxId::shotgun_pump_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::shotgun_reload;
@@ -433,9 +416,9 @@ void init()
 
         reset_data(d, ItemType::ammo);
         d.id = Id::shotgun_shell;
-        d.base_name = {"Shotgun shell", "Shotgun shells", "a shotgun shell"};
+        d.base_name = {"霰弹枪外壳", "霰弹枪弹壳", "猎枪弹壳"};
         d.base_descr = {
-                "A cartridge designed to be fired from a shotgun."};
+                "设计用于从霰弹枪发射的弹药筒。"};
         d.color = colors::light_red();
         d.max_stack_at_spawn = 10;
         d.native_containers.push_back(terrain::Id::chest);
@@ -445,36 +428,27 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::morphic_blaster;
-        d.base_name = {"Morphic Blaster", "Morphic Blasters", "a Morphic Blaster"};
+        d.base_name = {"变形冲击波", "变形冲击波", "变形冲击波"};
         d.base_descr = {
-                "A weapon created by the Mi-Go. "
-                "It launches projectiles that unleash explosive energy upon impact. "
-                "The weapon adapts itself to merge with the biology of its wielder. "
-                "A guidance system integrates with the brain to "
-                "ensure that the projectile hits its intended mark independent of aiming skill "
-                "(although there is a small chance that it collides with unintended "
-                "targets along the path).",
+                "Mi-Go 创造的武器。它发射的射弹在撞击时会释放爆炸性能量。该武器会自我调整以融入其使用者的生物学特征。制导系统与大脑集成，以确保弹丸击中预定目标，而与瞄准技能无关（尽管它沿着路径与意外目标发生碰撞的可能性很小）。",
 
-                "When wielded by creatures lacking the peculiar power sources "
-                "employed by the Mi-Go, "
-                "this weapon instead draws power from the life force of the wielder (" +
+                "当缺乏 Mi-Go 所使用的特殊能量源的生物使用时，这种武器会从使用者的生命力中汲取能量（" +
                         s_morphic_blaster_hp_drained_str +
-                        " hit points drained per attack, "
-                        "passive hit point regeneration is disabled for " +
+                        " 每次攻击都会消耗生命值，被动生命值再生会被禁用 " +
                         s_morphic_blaster_hp_disable_range_str +
-                        " turns, unable to act for the next turn)."};
+                        " 轮，无法执行下一轮）。"};
         d.weight = Weight::moderately_heavy;
         d.tile = gfx::TileId::morphic_blaster;
         d.is_unique = true;
         d.allow_spawn = false;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.ranged.max_ammo = 5;
         d.ranged.dmg = WpnDmg(1, 3);
         d.ranged.effective_range = {0, 999};
         d.allow_display_dmg = false;
         d.ranged.has_infinite_ammo = true;
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear the blast of a launched projectile.";
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到发射弹丸的爆炸声。";
         d.ranged.attack_sfx = audio::SfxId::morphic_blaster;
         d.ranged.projectile_character = '*';
         d.ranged.projectile_color = colors::light_blue();
@@ -489,23 +463,20 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::tommy_gun;
-        d.base_name = {"Tommy Gun", "Tommy Guns", "a Tommy Gun"};
+        d.base_name = {"汤米枪", "汤米枪", "一把汤米枪"};
         d.base_descr = {
-                "\"Tommy Gun\" is a nickname for the Thompson submachine gun - "
-                "an automatic firearm with a drum magazine and vertical "
-                "foregrip. It fires .45 ACP ammunition. The drum magazine has "
-                "a capacity of 50 rounds."};
+                "“汤米枪”是汤普森冲锋枪的昵称 - 一种带有弹鼓和垂直前握把的自动枪支。它发射 0.45 ACP 弹药。弹鼓容量为50发。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::tommy_gun;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.ranged.is_machine_gun = true;
         d.ranged.max_ammo = 50;
         d.ranged.dmg = WpnDmg(4, 6);
         d.ranged.hit_chance_mod = -10;
         d.ranged.effective_range = {0, 5};
         d.ranged.ammo_item_id = Id::drum_of_bullets;
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear the burst of a machine gun.";
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到机关枪的扫射声。";
         d.ranged.attack_sfx = audio::SfxId::machine_gun_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::machine_gun_reload;
@@ -519,11 +490,11 @@ void init()
         reset_data(d, ItemType::ammo_mag);
         d.id = Id::drum_of_bullets;
         d.base_name = {
-                "Drum of .45 ACP",
-                "Drums of .45 ACP",
-                "a Drum of .45 ACP"};
+                ".45 ACP 鼓",
+                ".45 ACP 鼓",
+                "0.45 ACP 的鼓"};
         d.base_descr = {
-                "Ammunition used by Tommy Guns."};
+                "汤米枪使用的弹药。"};
         d.ranged.max_ammo = g_data[(size_t)Id::tommy_gun].ranged.max_ammo;
         d.chance_to_incl_in_spawn_list = 50;
         d.native_containers.push_back(terrain::Id::chest);
@@ -534,11 +505,11 @@ void init()
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::revolver;
         d.base_name = {
-                "S&W Revolver",
-                "S&W Revolvers",
-                "a S&W Revolver"};
+                "S&W 左轮手枪",
+                "S&W 左轮手枪",
+                "S&W 左轮手枪"};
         d.base_descr = {
-                "A six-shot double-action revolver."};
+                "六发双动左轮手枪。"};
         d.weight = Weight::moderately_light;
         d.tile = gfx::TileId::revolver;
         d.ranged.max_ammo = 6;
@@ -546,9 +517,9 @@ void init()
         d.ranged.hit_chance_mod = 5;
         d.ranged.effective_range = {0, 5};
         d.ranged.ammo_item_id = Id::revolver_bullet;
-        d.melee.attack_msgs = {"strike", "strikes"};
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a revolver being fired.";
+        d.melee.attack_msgs = {"击中", "击中"};
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到左轮手枪开火的声音。";
         d.ranged.attack_sfx = audio::SfxId::revolver_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::rifle_revolver_reload;
@@ -560,11 +531,11 @@ void init()
         reset_data(d, ItemType::ammo);
         d.id = Id::revolver_bullet;
         d.base_name = {
-                "Revolver .38 Bullet",
-                "Revolver .38 Bullets",
-                "a Revolver .38 Bullet"};
+                "左轮手枪.38 子弹",
+                "左轮手枪 .38 子弹",
+                ".38 子弹左轮手枪"};
         d.base_descr = {
-                "Ammunition used by S&W Model 10 Revolvers."};
+                "S&W 10 型左轮手枪使用的弹药。"};
         d.color = colors::dark_yellow();
         d.max_stack_at_spawn = 10;
         d.native_containers.push_back(terrain::Id::chest);
@@ -575,12 +546,11 @@ void init()
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::pistol;
         d.base_name = {
-                "M1911 Colt",
-                "M1911 Colts",
-                "an M1911 Colt"};
+                "M1911柯尔特",
+                "M1911 小马队",
+                "M1911 小马"};
         d.base_descr = {
-                "A semi-automatic, magazine-fed pistol chambered for the .45 "
-                "ACP cartridge."};
+                "半自动弹匣供弹手枪，可装 0.45 ACP 子弹。"};
         d.weight = Weight::moderately_light;
         d.tile = gfx::TileId::pistol;
         d.ranged.max_ammo = 7;
@@ -588,9 +558,9 @@ void init()
         d.ranged.hit_chance_mod = 0;
         d.ranged.effective_range = {0, 5};
         d.ranged.ammo_item_id = Id::pistol_mag;
-        d.melee.attack_msgs = {"strike", "strikes"};
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a pistol being fired.";
+        d.melee.attack_msgs = {"击中", "击中"};
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到手枪开火的声音。";
         d.ranged.attack_sfx = audio::SfxId::pistol_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::pistol_reload;
@@ -602,11 +572,11 @@ void init()
         reset_data(d, ItemType::ammo_mag);
         d.id = Id::pistol_mag;
         d.base_name = {
-                "Colt .45ACP Magazine",
-                "Colt .45ACP Magazines",
-                "a Colt .45ACP Magazine"};
+                "柯尔特 .45 ACP 弹匣",
+                "柯尔特 .45 ACP 弹匣",
+                "一个柯尔特 .45 ACP 弹匣"};
         d.base_descr = {
-                "Ammunition used by Colt pistols."};
+                "柯尔特手枪使用的弹药。"};
         d.ranged.max_ammo = g_data[(size_t)Id::pistol].ranged.max_ammo;
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::cabinet);
@@ -616,11 +586,11 @@ void init()
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::rifle;
         d.base_name = {
-                "Winchester Rifle", "Winchester Rifles", "a Winchester Rifle"};
+                "温彻斯特步枪", "温彻斯特步枪队", "温彻斯特步枪"};
         d.base_descr = {
-                "A lever-action repeating rifle.",
+                "杠杆式连发步枪。",
 
-                "This weapon has an accuracy penalty at close ranges."};
+                "该武器在近距离时精度会受到影响。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::rifle;
         // d.color = colors::dark_brown();
@@ -629,9 +599,9 @@ void init()
         d.ranged.hit_chance_mod = 15;
         d.ranged.effective_range = {4, 8};
         d.ranged.ammo_item_id = Id::rifle_bullet;
-        d.melee.attack_msgs = {"strike", "strikes"};
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a rifle being fired.";
+        d.melee.attack_msgs = {"击中", "击中"};
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到步枪开火的声音。";
         d.ranged.attack_sfx = audio::SfxId::rifle_fire;
         d.ranged.makes_ricochet_snd = true;
         d.ranged.reload_sfx = audio::SfxId::rifle_revolver_reload;
@@ -641,11 +611,11 @@ void init()
         reset_data(d, ItemType::ammo);
         d.id = Id::rifle_bullet;
         d.base_name = {
-                "Winchester .30 Bullet",
-                "Winchester .30 Bullets",
-                "a Winchester .30 Bullet"};
+                "温彻斯特 .30 子弹",
+                "温彻斯特 .30 子弹",
+                "温彻斯特 .30 子弹"};
         d.base_descr = {
-                "Ammunition used by Winchester Rifles."};
+                "温彻斯特步枪使用的弹药。"};
         d.color = colors::dark_yellow();
         d.max_stack_at_spawn = 10;
         d.native_containers.push_back(terrain::Id::chest);
@@ -655,16 +625,13 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::spike_gun;
-        d.base_name = {"Spike Gun", "Spike Guns", "a Spike Gun"};
+        d.base_name = {"长钉枪", "长钉枪", "长钉枪"};
         d.base_descr = {
-                "A very strange and crude weapon capable of launching iron "
-                "spikes with enough force to pierce flesh (or even rock). It "
-                "seems almost to be deliberately designed for cruelty, rather "
-                "than pure stopping power."};
+                "一种非常奇怪和粗糙的武器，能够发射铁钉，其力量足以刺穿肉体（甚至岩石）。它似乎是为了残酷而故意设计的，而不是纯粹的制止力量。"};
         d.weight = (Weight::medium * 3) / 4;
         d.tile = gfx::TileId::tommy_gun;
         d.color = colors::dark_brown();
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.ranged.max_ammo = 12;
         d.ranged.dmg = WpnDmg(1, 7);
         d.ranged.hit_chance_mod = 0;
@@ -672,8 +639,8 @@ void init()
         d.ranged.dmg_type = DmgType::piercing;
         d.ranged.knocks_back = true;
         d.ranged.ammo_item_id = Id::iron_spike;
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a very crude weapon being fired.";
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到一种非常简陋的武器正在开火。";
         d.ranged.makes_ricochet_snd = true;
         d.ranged.projectile_color = colors::gray();
         d.spawn_std_range.min = 4;
@@ -687,19 +654,15 @@ void init()
         reset_data(d, ItemType::ranged_wpn);
         d.id = Id::electric_gun;
         d.base_name = {
-                "Electric Gun", "Electric Gun", "an Electric Gun"};
+                "电动枪", "电动枪", "电动枪"};
         d.base_descr = {
-                "A weapon created by the Mi-Go. "
-                "It fires devastating bolts of electricity.",
+                "Mi-Go 创造的武器。它会发射毁灭性的闪电。",
 
-                "When wielded by creatures lacking the peculiar power sources "
-                "employed by the Mi-Go, "
-                "this weapon instead draws power from the life force of the wielder (" +
+                "当缺乏 Mi-Go 所使用的特殊能量源的生物使用时，这种武器会从使用者的生命力中汲取能量（" +
                         s_electric_gun_hp_drained_str +
-                        " hit points drained per attack, "
-                        "passive hit point regeneration is disabled for " +
+                        " 每次攻击都会消耗生命值，被动生命值再生会被禁用 " +
                         s_electric_gun_hp_disable_range_str +
-                        " turns)."};
+                        " 轮）。"};
         d.spawn_std_range = Range(-1, -1);
         d.weight = Weight::medium;
         d.tile = gfx::TileId::electric_gun;
@@ -718,9 +681,9 @@ void init()
         d.ranged.has_infinite_ammo = true;
         d.ranged.projectile_leaves_trail = true;
         d.ranged.projectile_color = colors::yellow();
-        d.melee.attack_msgs = {"strike", "strikes"};
-        d.ranged.attack_msgs = {"fire", "fires"};
-        d.ranged.snd_msg = "I hear a bolt of electricity.";
+        d.melee.attack_msgs = {"击中", "击中"};
+        d.ranged.attack_msgs = {"开火", "射击"};
+        d.ranged.snd_msg = "我听到一道闪电声。";
         d.ranged.attack_sfx = audio::SfxId::electric_gun;
         d.ranged.makes_ricochet_snd = false;
         g_data[(size_t)d.id] = d;
@@ -732,7 +695,7 @@ void init()
         d.ranged.dmg = WpnDmg(1, 8);
         d.ranged.hit_chance_mod = 70;
         d.ranged.effective_range = {0, 6};
-        d.ranged.snd_msg = "I hear the launching of a projectile.";
+        d.ranged.snd_msg = "我听到射弹发射的声音。";
         // TODO: Make a sound effect for this
         d.ranged.attack_sfx = audio::SfxId::END;
         d.ranged.makes_ricochet_snd = true;
@@ -764,10 +727,9 @@ void init()
 
         reset_data(d, ItemType::explosive);
         d.id = Id::dynamite;
-        d.base_name = {"Dynamite", "Sticks of Dynamite", "a Stick of Dynamite"};
+        d.base_name = {"炸药", "炸药棒", "一根炸药棒"};
         d.base_descr = {
-                "An explosive material based on nitroglycerin. The name comes "
-                "from the ancient Greek word for \"power\"."};
+                "一种基于硝化甘油的爆炸材料。这个名字来源于古希腊语中的“力量”一词。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::dynamite;
         d.color = colors::light_red();
@@ -778,10 +740,9 @@ void init()
 
         reset_data(d, ItemType::explosive);
         d.id = Id::flare;
-        d.base_name = {"Flare", "Flares", "a Flare"};
+        d.base_name = {"耀斑", "照明弹", "耀斑"};
         d.base_descr = {
-                "A type of pyrotechnic that produces a brilliant light or "
-                "intense heat without an explosion."};
+                "一种烟火，能产生明亮的光或强烈的热量而不爆炸。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::flare;
         d.color = colors::gray();
@@ -793,12 +754,9 @@ void init()
         reset_data(d, ItemType::explosive);
         d.id = Id::molotov;
         d.base_name = {
-                "Molotov Cocktail", "Molotov Cocktails", "a Molotov Cocktail"};
+                "燃烧弹鸡尾酒", "燃烧弹鸡尾酒", "燃烧弹鸡尾酒"};
         d.base_descr = {
-                "An improvised incendiary weapon made of a glass bottle "
-                "containing flammable liquid and some cloth for ignition. In "
-                "action, the cloth is lit and the bottle hurled at a target, "
-                "causing an immediate fireball followed by a raging fire."};
+                "一种简易燃烧武器，由装有易燃液体的玻璃瓶和一些点火布制成。在行动中，布被点燃，瓶子被扔向目标，立即引起火球，随后引发熊熊大火。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::molotov;
         d.color = colors::white();
@@ -809,13 +767,9 @@ void init()
 
         reset_data(d, ItemType::explosive);
         d.id = Id::smoke_grenade;
-        d.base_name = {"Smoke Grenade", "Smoke Grenades", "a Smoke Grenade"};
+        d.base_name = {"烟雾弹", "烟雾弹", "烟雾弹"};
         d.base_descr = {
-                "A sheet steel cylinder with emission holes releasing smoke "
-                "when the grenade is ignited. Their primary use is to create "
-                "smoke screens for concealment. The fumes produced can harm "
-                "the eyes, throat and lungs - so it is recommended to wear a "
-                "protective mask."};
+                "带有发射孔的钢板圆筒，当手榴弹被点燃时会释放烟雾。它们的主要用途是制造烟幕以进行隐蔽。产生的烟雾会伤害眼睛、喉咙和肺部——因此建议佩戴防护面罩。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::flare;
         d.color = colors::green();
@@ -825,10 +779,9 @@ void init()
 
         reset_data(d, ItemType::throwing_wpn);
         d.id = Id::thr_knife;
-        d.base_name = {"Throwing Knife", "Throwing Knives", "a Throwing Knife"};
+        d.base_name = {"飞刀", "飞刀", "一把飞刀"};
         d.base_descr = {
-                "A knife specially designed and weighted so that it can be "
-                "thrown effectively."};
+                "一把经过专门设计和加重的刀，可以有效地投掷。"};
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::dagger;
         d.character = '/';
@@ -838,7 +791,7 @@ void init()
         d.ranged.effective_range = {0, 4};
         d.ranged.max_range = d.ranged.effective_range.max + 3;
         d.max_stack_at_spawn = 6;
-        d.land_on_hard_snd_msg = "I hear a clanking sound.";
+        d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
         d.land_on_hard_sfx = audio::SfxId::metal_clank;
         d.main_attack_mode = AttackMode::thrown;
         d.native_containers.push_back(terrain::Id::chest);
@@ -848,10 +801,9 @@ void init()
 
         reset_data(d, ItemType::throwing_wpn);
         d.id = Id::rock;
-        d.base_name = {"Rock", "Rocks", "a Rock"};
+        d.base_name = {"岩石", "岩石", "一块岩石"};
         d.base_descr = {
-                "Although not a very impressive weapon, with skill they can "
-                "be used with some result."};
+                "虽然不是一种令人印象深刻的武器，但只要有技巧，它们的使用就能产生一些效果。"};
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::rock;
         d.character = '*';
@@ -868,20 +820,16 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::dagger;
-        d.base_name = {"Dagger", "Daggers", "a Dagger"};
+        d.base_name = {"匕首", "匕首", "一把匕首"};
         d.base_descr = {
-                "Commonly associated with deception, stealth, and treachery. "
-                "Many assassinations have been carried out with the use of a "
-                "dagger.",
+                "通常与欺骗、秘密行动和背叛有关。许多暗杀都是使用匕首进行的。",
 
-                "Melee attacks performed with a dagger against an unaware "
-                "opponent does +200% damage (in addition to the normal +50% "
-                "damage from stealth attacks).",
+                "使用匕首对不知情的对手进行近战攻击会产生 +200% d 法力（除了隐形攻击的正常 +50% d 法力之外）。",
 
-                "Melee attacks with daggers are silent."};
+                "用匕首进行的近战攻击是无声的。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::dagger;
-        d.melee.attack_msgs = {"stab", "stabs"};
+        d.melee.attack_msgs = {"刺击", "刺伤"};
         d.melee.dmg = WpnDmg(2, 4);
         d.melee.hit_chance_mod = 20;
         d.melee.dmg_type = DmgType::piercing;
@@ -898,16 +846,14 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::hatchet;
-        d.base_name = {"Hatchet", "Hatchets", "a Hatchet"};
+        d.base_name = {"斧头", "斧头", "斧头"};
         d.base_descr = {
-                "A small axe with a short handle. Hatchets are reliable "
-                "weapons - they are easy to use, and cause decent damage for "
-                "their low weight.",
+                "短柄小斧头。斧头是可靠的武器 - 它们易于使用，并且重量轻，可造成相当大的伤害。",
 
-                "Melee attacks with hatchets are silent."};
+                "使用斧头的近战攻击是无声的。"};
         d.weight = Weight::light;
         d.tile = gfx::TileId::axe;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 6);
         d.melee.hit_chance_mod = 15;
         d.melee.can_attack_corpse = true;
@@ -927,16 +873,16 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::club;
-        d.base_name = {"Club", "Clubs", "a Club"};
+        d.base_name = {"俱乐部", "俱乐部", "一个俱乐部"};
         d.base_descr = {
-                "Wielded since prehistoric times.",
+                "自史前时代起就被使用。",
 
-                "Melee attacks with clubs are silent."};
+                "用棍棒进行近战攻击是无声的。"};
         d.spawn_std_range = Range(g_dlvl_first_mid_game, g_dlvl_last);
         d.weight = Weight::medium;
         d.tile = gfx::TileId::club;
         d.color = colors::brown();
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(3, 6);
         d.melee.hit_chance_mod = 15;
         d.melee.can_attack_corpse = true;
@@ -947,21 +893,20 @@ void init()
         d.ranged.effective_range = {0, 4};
         d.ranged.max_range = d.ranged.effective_range.max + 3;
         d.ranged.dmg_type = DmgType::blunt;
-        d.land_on_hard_snd_msg = "I hear a thudding sound.";
+        d.land_on_hard_snd_msg = "我听到一声重击的声音。";
         d.land_on_hard_sfx = audio::SfxId::END;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::hammer;
-        d.base_name = {"Hammer", "Hammers", "a Hammer"};
+        d.base_name = {"锤", "锤子", "一把锤子"};
         d.base_descr = {
-                "Typically used for construction, but can be quite devastating "
-                "when wielded as a weapon.",
+                "通常用于建筑，但作为武器使用时可能具有相当大的破坏性。",
 
-                "Melee attacks with hammers are noisy."};
+                "用锤子进行近战攻击会产生噪音。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::hammer;
-        d.melee.attack_msgs = {"smash", "smashes"};
+        d.melee.attack_msgs = {"重击", "重击"};
         d.melee.dmg = WpnDmg(4, 7);
         d.melee.hit_chance_mod = 10;
         d.melee.can_attack_corpse = true;
@@ -975,15 +920,14 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::machete;
-        d.base_name = {"Machete", "Machetes", "a Machete"};
+        d.base_name = {"弯刀", "砍刀", "砍刀"};
         d.base_descr = {
-                "A large cleaver-like knife. It serves well both as a cutting "
-                "tool and weapon.",
+                "一把像切肉刀一样的大刀。它既可以用作切割工具，也可以用作武器。",
 
-                "Melee attacks with machetes are noisy."};
+                "用砍刀进行近战攻击会产生噪音。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::machete;
-        d.melee.attack_msgs = {"chop", "chops"};
+        d.melee.attack_msgs = {"劈", "排骨"};
         d.melee.dmg = WpnDmg(3, 9);
         d.melee.hit_chance_mod = 5;
         d.melee.can_attack_corpse = true;
@@ -999,16 +943,14 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::axe;
-        d.base_name = {"Axe", "Axes", "an Axe"};
+        d.base_name = {"斧头", "轴", "一把斧头"};
         d.base_descr = {
-                "A tool intended for felling trees, splitting timber, etc. "
-                "Used as a weapon it can deliver devastating blows, although "
-                "it requires some skill to use effectively.",
+                "一种用于砍伐树木、劈木等的工具。用作武器时，它可以造成毁灭性的打击，但需要一定的技巧才能有效使用。",
 
-                "Melee attacks with axes are noisy."};
+                "用斧头进行近战攻击会很吵。"};
         d.weight = Weight::medium;
         d.tile = gfx::TileId::axe;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(3, 12);
         d.melee.hit_chance_mod = 0;
         d.melee.can_attack_corpse = true;
@@ -1024,18 +966,16 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::spiked_mace;
-        d.base_name = {"Spiked Mace", "Spiked Maces", "a Spiked Mace"};
+        d.base_name = {"尖刺狼牙棒", "尖刺狼牙棒", "尖刺狼牙棒"};
         d.base_descr = {
-                "A brutal weapon, utilizing a combination of blunt-force and "
-                "puncture.",
+                "一种残酷的武器，结合了钝器和穿刺。",
 
-                "Attacks with this weapon have a 25% chance to stun the "
-                "victim, rendering them unable to act for a brief time.",
+                "使用此武器的攻击有 25% c 几率使受害者昏迷，使其短时间内无法行动。",
 
-                "Melee attacks with spiked maces are noisy."};
+                "使用带刺狼牙棒的近战攻击会产生噪音。"};
         d.weight = Weight::moderately_heavy;
         d.tile = gfx::TileId::spiked_mace;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 14);
         d.melee.hit_chance_mod = -10;
         d.melee.can_attack_corpse = true;
@@ -1058,15 +998,14 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::pitchfork;
-        d.base_name = {"Pitchfork", "Pitchforks", "a Pitchfork"};
+        d.base_name = {"叉", "干草叉", "干草叉"};
         d.base_descr = {
-                "A long staff with a forked, four-pronged end.",
+                "一根长棍，末端有叉状四爪。",
 
-                "Pitchforks are useful in keeping attackers at bay - "
-                "the victim is pushed back when stabbed."};
+                "干草叉对于阻止攻击者很有用——受害者被刺伤后会被推回原处。"};
         d.weight = Weight::moderately_heavy;
         d.tile = gfx::TileId::pitchfork;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 7);
         d.melee.hit_chance_mod = -10;
         d.melee.can_attack_corpse = true;
@@ -1084,13 +1023,13 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::spear;
-        d.base_name = {"Spear", "Spears", "a Spear"};
+        d.base_name = {"矛", "斯皮尔斯", "矛"};
         d.base_descr = {
-                "A pole weapon consisting of a wooden shaft and a steel head."};
+                "一种由木柄和钢头组成的长杆武器。"};
         d.weight = Weight::moderately_heavy;
         d.tile = gfx::TileId::spear;
         d.color = colors::brown();
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 9);
         d.melee.hit_chance_mod = 0;
         d.melee.can_attack_corpse = true;
@@ -1107,13 +1046,12 @@ void init()
 
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::sledgehammer;
-        d.base_name = {"Sledgehammer", "Sledgehammers", "a Sledgehammer"};
+        d.base_name = {"大锤", "大锤", "大锤"};
         d.base_descr = {
-                "It can deal devastating damage, although it is cumbersome "
-                "to carry, and it requires some skill to use effectively."};
+                "它可以造成毁灭性的伤害，尽管携带起来很麻烦，并且需要一些技巧才能有效使用。"};
         d.weight = Weight::heavy;
         d.tile = gfx::TileId::sledgehammer;
-        d.melee.attack_msgs = {"smash", "smashes"};
+        d.melee.attack_msgs = {"重击", "重击"};
         d.melee.dmg = WpnDmg(4, 15);
         d.melee.hit_chance_mod = -10;
         d.melee.can_attack_corpse = true;
@@ -1127,9 +1065,9 @@ void init()
 
         reset_data(d, ItemType::throwing_wpn);
         d.id = Id::iron_spike;
-        d.base_name = {"Iron Spike", "Iron Spikes", "an Iron Spike"};
+        d.base_name = {"铁钉", "铁钉", "铁钉"};
         d.base_descr = {
-                "Can be useful for wedging things closed."};
+                "对于楔入封闭的物体很有用。"};
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::iron_spike;
         d.is_stackable = true;
@@ -1140,7 +1078,7 @@ void init()
         d.ranged.effective_range = {0, 3};
         d.ranged.max_range = d.ranged.effective_range.max + 3;
         d.max_stack_at_spawn = 12;
-        d.land_on_hard_snd_msg = "I hear a clanking sound.";
+        d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
         d.land_on_hard_sfx = audio::SfxId::metal_clank;
         d.main_attack_mode = AttackMode::thrown;
         d.native_containers.push_back(terrain::Id::cabinet);
@@ -1149,7 +1087,7 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::player_kick;
-        d.melee.attack_msgs = {"kick", ""};
+        d.melee.attack_msgs = {"踢", ""};
         d.melee.hit_chance_mod = 15;
         d.melee.dmg = WpnDmg(1, 2);
         d.melee.knocks_back = true;
@@ -1162,7 +1100,7 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::player_stomp;
-        d.melee.attack_msgs = {"stomp", ""};
+        d.melee.attack_msgs = {"跺脚", ""};
         d.melee.hit_chance_mod =
                 g_data[(size_t)Id::player_kick].melee.hit_chance_mod;
         d.melee.dmg =
@@ -1175,8 +1113,8 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::player_punch;
-        d.base_name = {"Punch", "", "a punch"};
-        d.melee.attack_msgs = {"punch", ""};
+        d.base_name = {"拳头", "", "一拳"};
+        d.melee.attack_msgs = {"出拳", ""};
         d.melee.hit_chance_mod = 20;
         d.melee.dmg = WpnDmg(1, 1);
         d.melee.miss_sfx = audio::SfxId::miss_light;
@@ -1184,8 +1122,8 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::player_ghoul_claw;
-        d.base_name = {"Claw", "", "clawing"};
-        d.melee.attack_msgs = {"claw", ""};
+        d.base_name = {"爪", "", "抓挠"};
+        d.melee.attack_msgs = {"抓挠", ""};
         d.melee.hit_chance_mod = 20;
         d.melee.dmg = WpnDmg(1, 8);
         d.melee.is_noisy = false;
@@ -1198,53 +1136,53 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_kick;
-        d.melee.attack_msgs = {"", "kicks"};
+        d.melee.attack_msgs = {"", "踢"};
         d.melee.dmg_type = DmgType::blunt;
         d.melee.knocks_back = true;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_bite;
-        d.melee.attack_msgs = {"", "bites"};
+        d.melee.attack_msgs = {"", "咬伤"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_claw;
-        d.melee.attack_msgs = {"", "claws"};
+        d.melee.attack_msgs = {"", "抓挠"};
         d.melee.dmg_type = DmgType::slashing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_strike;
-        d.melee.attack_msgs = {"", "strikes"};
+        d.melee.attack_msgs = {"", "击中"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_punch;
-        d.melee.attack_msgs = {"", "punches"};
+        d.melee.attack_msgs = {"", "拳打"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_punch_knockback;
-        d.melee.attack_msgs = {"", "punches"};
+        d.melee.attack_msgs = {"", "拳打"};
         d.melee.dmg_type = DmgType::blunt;
         d.melee.knocks_back = true;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_headbutt;
-        d.melee.attack_msgs = {"", "slams into"};
+        d.melee.attack_msgs = {"", "猛烈地撞入"};
         d.melee.dmg_type = DmgType::blunt;
         d.melee.knocks_back = true;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_putrid_spit;
-        d.ranged.attack_msgs = {"", "spits pus"};
-        d.ranged.snd_msg = "I hear spitting.";
+        d.ranged.attack_msgs = {"", "吐脓"};
+        d.ranged.snd_msg = "我听到吐口水的声音。";
         d.ranged.projectile_color = colors::light_green();
         d.ranged.dmg_type = DmgType::blunt;
         d.ranged.projectile_character = '*';
@@ -1252,8 +1190,8 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_snake_venom_spit;
-        d.ranged.attack_msgs = {"", "spits venom"};
-        d.ranged.snd_msg = "I hear hissing and spitting.";
+        d.ranged.attack_msgs = {"", "吐毒液"};
+        d.ranged.snd_msg = "我听到嘶嘶声和吐口水的声音。";
         d.ranged.projectile_color = colors::light_green();
         d.ranged.dmg_type = DmgType::piercing;
         d.ranged.projectile_character = '*';
@@ -1261,8 +1199,8 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_earth_breath;
-        d.ranged.attack_msgs = {"", "breathes forth immense density"};
-        d.ranged.snd_msg = "I hear a hammering sound.";
+        d.ranged.attack_msgs = {"", "呼吸出巨大的密度"};
+        d.ranged.snd_msg = "我听到敲击声。";
         d.ranged.attack_sfx = audio::SfxId::earth_breath;
         d.ranged.projectile_color = colors::brown();
         d.ranged.projectile_character = '*';
@@ -1273,8 +1211,8 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_water_breath;
-        d.ranged.attack_msgs = {"", "breathes forth a raging torrent"};
-        d.ranged.snd_msg = "I hear a gushing sound.";
+        d.ranged.attack_msgs = {"", "喷吐着汹涌的洪流"};
+        d.ranged.snd_msg = "我听到涌出的声音。";
         d.ranged.attack_sfx = audio::SfxId::water_breath;
         d.ranged.projectile_color = colors::light_blue();
         d.ranged.projectile_character = '*';
@@ -1285,8 +1223,8 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_fire_breath;
-        d.ranged.attack_msgs = {"", "breathes fire"};
-        d.ranged.snd_msg = "I hear a burst of flames.";
+        d.ranged.attack_msgs = {"", "喷火"};
+        d.ranged.snd_msg = "我听到一阵火焰的声音。";
         d.ranged.attack_sfx = audio::SfxId::fire_breath;
         d.ranged.projectile_color = colors::light_red();
         d.ranged.projectile_character = '*';
@@ -1297,8 +1235,8 @@ void init()
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_lightning_breath;
-        d.ranged.attack_msgs = {"", "breathes lightning"};
-        d.ranged.snd_msg = "I hear a burst of lightning.";
+        d.ranged.attack_msgs = {"", "呼吸闪电"};
+        d.ranged.snd_msg = "我听到一阵闪电。";
         d.ranged.attack_sfx = audio::SfxId::lightning_breath;
         d.ranged.projectile_color = colors::yellow();
         d.ranged.projectile_character = '*';
@@ -1309,50 +1247,50 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_raven_peck;
-        d.melee.attack_msgs = {"", "pecks"};
+        d.melee.attack_msgs = {"", "啄"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_vampiric_bite;
-        d.melee.attack_msgs = {"", "bites"};
+        d.melee.attack_msgs = {"", "咬伤"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_strangle;
-        d.melee.attack_msgs = {"", "strangles"};
+        d.melee.attack_msgs = {"", "勒死"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_ghost_touch;
-        d.melee.attack_msgs = {"", "reaches for"};
+        d.melee.attack_msgs = {"", "达到"};
         d.melee.dmg_type = DmgType::spirit;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_sting;
-        d.melee.attack_msgs = {"", "stings"};
+        d.melee.attack_msgs = {"", "蜇伤"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_mind_leech_sting;
-        d.melee.attack_msgs = {"", "stings"};
+        d.melee.attack_msgs = {"", "蜇伤"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_spear_thrust;
-        d.melee.attack_msgs = {"", "strikes"};
+        d.melee.attack_msgs = {"", "击中"};
         d.melee.dmg_type = DmgType::piercing;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_net_throw;
-        d.ranged.attack_msgs = {"", "throws a net"};
-        d.ranged.snd_msg = "I hear a whooshing sound.";
+        d.ranged.attack_msgs = {"", "撒网"};
+        d.ranged.snd_msg = "我听到嘶嘶的声音。";
         d.ranged.projectile_color = colors::brown();
         d.ranged.dmg_type = DmgType::blunt;
         d.ranged.projectile_character = '*';
@@ -1361,49 +1299,49 @@ void init()
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_maul;
-        d.melee.attack_msgs = {"", "mauls"};
+        d.melee.attack_msgs = {"", "大槌"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_pus_spew;
-        d.melee.attack_msgs = {"", "spews pus on"};
+        d.melee.attack_msgs = {"", "喷出脓液"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_strange_color_touch;
-        d.melee.attack_msgs = {"", "touches"};
+        d.melee.attack_msgs = {"", "触摸"};
         d.melee.dmg_type = DmgType::pure;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_dust_engulf;
-        d.melee.attack_msgs = {"", "engulfs"};
+        d.melee.attack_msgs = {"", "吞没"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_fire_engulf;
-        d.melee.attack_msgs = {"", "engulfs"};
+        d.melee.attack_msgs = {"", "吞没"};
         d.melee.dmg_type = DmgType::fire;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_energy_engulf;
-        d.melee.attack_msgs = {"", "engulfs"};
+        d.melee.attack_msgs = {"", "吞没"};
         d.melee.dmg_type = DmgType::electric;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::melee_wpn_intr);
         d.id = Id::intr_spores;
-        d.melee.attack_msgs = {"", "releases spores on"};
+        d.melee.attack_msgs = {"", "释放孢子"};
         d.melee.dmg_type = DmgType::blunt;
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::ranged_wpn_intr);
         d.id = Id::intr_web_bola;
-        d.ranged.attack_msgs = {"", "shoots a web bola"};
+        d.ranged.attack_msgs = {"", "射出网状波拉"};
         d.ranged.snd_msg = "";
         d.ranged.projectile_color = colors::light_white();
         d.ranged.projectile_tile = gfx::TileId::blast1;
@@ -1414,9 +1352,9 @@ void init()
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_leather_jacket;
-        d.base_name = {"Leather Jacket", "", "a Leather Jacket"};
+        d.base_name = {"皮夹克", "", "一件皮夹克"};
         d.base_descr = {
-                "It offers some protection."};
+                "它提供了一些保护。"};
         d.weight = Weight::light;
         d.color = colors::brown();
         d.spawn_std_range.min = 1;
@@ -1428,10 +1366,9 @@ void init()
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_heavy_coat;
-        d.base_name = {"Heavy Coat", "", "a Heavy Coat"};
+        d.base_name = {"厚外套", "", "厚外套"};
         d.base_descr = {
-                "It offers decent protection, at the cost of making movement "
-                "slightly more difficult (-5% stealth, -5% dodging)."};
+                "它提供了不错的防护，但穿戴后行动会稍显迟缓（潜行 -5%，闪避 -5%）。"};
         d.ability_mods_while_equipped[(size_t)AbilityId::stealth] = -5;
         d.ability_mods_while_equipped[(size_t)AbilityId::dodging] = -5;
         d.weight = Weight::medium;
@@ -1445,13 +1382,11 @@ void init()
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_iron_suit;
-        d.base_name = {"Iron Suit", "", "an Iron Suit"};
+        d.base_name = {"铁套装", "", "一套铁衣"};
         d.base_descr = {
-                "A crude armour constructed from metal plates, bolts, and "
-                "leather straps.",
+                "由金属板、螺栓和皮带制成的粗糙盔甲。",
 
-                "It can absorb a high amount of damage, but it makes movement "
-                "a lot more difficult (-20% stealth, -20% dodging)."};
+                "它能吸收大量伤害，但会使移动更加困难（潜行 -20%，闪避 -20%）。"};
         d.ability_mods_while_equipped[(size_t)AbilityId::stealth] = -20;
         d.ability_mods_while_equipped[(size_t)AbilityId::dodging] = -20;
         d.weight = Weight::extra_heavy;
@@ -1459,18 +1394,17 @@ void init()
         d.spawn_std_range.min = 2;
         d.armor.armor_points = 5;
         d.armor.dmg_to_durability_factor = 0.3;
-        d.land_on_hard_snd_msg = "I hear a crashing sound.";
+        d.land_on_hard_snd_msg = "我听到一声撞击声。";
         d.native_containers.push_back(terrain::Id::cabinet);
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_flak_jacket;
-        d.base_name = {"Flak Jacket", "", "a Flak Jacket"};
+        d.base_name = {"防弹夹克", "", "防弹衣"};
         d.base_descr = {
-                "An armour consisting of steel plates sewn into a waistcoat.",
+                "由缝在背心中的钢板组成的盔甲。",
 
-                "It offers very good protection for its weight, but is "
-                "somewhat bulky to wear (-10% stealth, -10% dodging)."};
+                "以其重量而言，它提供的防护相当出色，但穿戴起来略显笨重（潜行 -10%，闪避 -10%）。"};
         d.ability_mods_while_equipped[(size_t)AbilityId::stealth] = -10;
         d.ability_mods_while_equipped[(size_t)AbilityId::dodging] = -10;
         d.weight = Weight::medium;
@@ -1478,21 +1412,19 @@ void init()
         d.spawn_std_range.min = 3;
         d.armor.armor_points = 3;
         d.armor.dmg_to_durability_factor = 0.5;
-        d.land_on_hard_snd_msg = "I hear a thudding sound.";
+        d.land_on_hard_snd_msg = "我听到一声重击的声音。";
         d.native_containers.push_back(terrain::Id::cabinet);
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_asb_suit;
-        d.base_name = {"Asbestos Suit", "", "an Asbestos Suit"};
+        d.base_name = {"石棉套装", "", "石棉套装"};
         d.base_descr = {
-                "A one piece overall of asbestos fabric, including a hood, "
-                "furnace mask, gloves and shoes.",
+                "一件式石棉织物，包括头罩、炉面罩、手套和鞋子。",
 
-                "It protects the wearer against fire and electricity, "
-                "and also against smoke, fumes and gas.",
+                "它可以保护佩戴者免受火、电、烟雾和气体的侵害。",
 
-                "It is somewhat bulky to wear (-10% stealth, -10% dodging)."};
+                "穿戴起来有些笨重（潜行 -10%，闪避 -10%）。"};
         d.ability_mods_while_equipped[(size_t)AbilityId::stealth] = -10;
         d.ability_mods_while_equipped[(size_t)AbilityId::dodging] = -10;
         d.weight = Weight::medium;
@@ -1507,9 +1439,9 @@ void init()
 
         reset_data(d, ItemType::armor);
         d.id = Id::armor_mi_go;
-        d.base_name = {"Mi-Go Bio-armor", "", "a Mi-Go Bio-armor"};
+        d.base_name = {"Mi-Go生物装甲", "", "Mi-Go 生物装甲"};
         d.base_descr = {
-                "An extremely durable biological armor created by the Mi-Go."};
+                "Mi-Go 打造的极其耐用的生物装甲。"};
         d.spawn_std_range = Range(-1, -1);
         d.weight = Weight::medium;
         d.color = colors::magenta();
@@ -1521,16 +1453,11 @@ void init()
 
         reset_data(d, ItemType::head_wear);
         d.id = Id::gas_mask;
-        d.base_name = {"Gas Mask", "", "a Gas Mask"};
+        d.base_name = {"防毒面具", "", "防毒面具"};
         d.base_descr = {
-                "Protects the eyes, throat and lungs from smoke and fumes. It "
-                "has a limited useful lifespan that is related to the "
-                "absorbent capacity of the filter. ",
+                "保护眼睛、喉咙和肺部免受烟雾和烟雾的侵害。它的使用寿命有限，与过滤器的吸收能力有关。 ",
 
-                "Due to the small eye windows, aiming is slightly more "
-                "difficult, and it is harder to detect sneaking enemies and "
-                "hidden objects "
-                "(-10% melee and ranged hit chance, -6% searching)."};
+                "由于眼睛窗口较小，瞄准稍微困难一些，并且更难发现潜行的敌人和隐藏的物体（-10% 近战和远程命中几率，-6% s 搜索）。"};
         d.ability_mods_while_equipped[(size_t)AbilityId::melee] = -10;
         d.ability_mods_while_equipped[(size_t)AbilityId::ranged] = -10;
         d.ability_mods_while_equipped[(size_t)AbilityId::searching] = -6;
@@ -1546,15 +1473,11 @@ void init()
 
         reset_data(d, ItemType::head_wear);
         d.id = Id::torture_collar;
-        d.base_name = {"Torture Collar", "", "a Torture Collar"};
+        d.base_name = {"酷刑项圈", "", "酷刑项圈"};
         d.base_descr = {
-                "A gruesome torture device with spikes driven into the neck "
-                "of the wearer. It is impossible to take off.",
+                "一种可怕的酷刑装置，其尖刺刺入佩戴者的颈部。起飞是不可能的。",
 
-                "Walking with the collar requires extra turns, and stealth "
-                "and evasion are reduced by 20%. However, wearing the "
-                "collar hardens the Flagellant against physical suffering, "
-                "armor is increased by 3 points."};
+                "佩戴项圈行走需要额外回合，潜行和闪避各降低 20%。不过，项圈能让鞭笞者更能忍受肉体痛苦，护甲值增加 3 点。"};
         d.is_stackable = false;
         d.color = colors::red();
         d.tile = gfx::TileId::torture_collar;
@@ -1761,7 +1684,7 @@ void init()
 
         reset_data(d, ItemType::device);
         d.id = Id::device_blaster;
-        d.base_name = {"Blaster Device", "Blaster Devices", "a Blaster Device"};
+        d.base_name = {"冲击波装置", "冲击波装置", "冲击波装置"};
         d.color = colors::gray();
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::tomb);
@@ -1771,9 +1694,9 @@ void init()
         reset_data(d, ItemType::device);
         d.id = Id::device_rejuvenator;
         d.base_name = {
-                "Rejuvenator Device",
-                "Rejuvenator Devices",
-                "a Rejuvenator Device"};
+                "回春仪",
+                "回春设备",
+                "回春装置"};
         d.color = colors::gray();
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::tomb);
@@ -1783,9 +1706,9 @@ void init()
         reset_data(d, ItemType::device);
         d.id = Id::device_translocator;
         d.base_name = {
-                "Translocator Device",
-                "Translocator Devices",
-                "a Translocator Device"};
+                "转运装置",
+                "转运装置",
+                "转运装置"};
         d.color = colors::gray();
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::tomb);
@@ -1795,9 +1718,9 @@ void init()
         reset_data(d, ItemType::device);
         d.id = Id::device_sentry_drone;
         d.base_name = {
-                "Sentry Drone Device",
-                "Sentry Drone Devices",
-                "a Sentry Drone Device"};
+                "哨兵无人机设备",
+                "哨兵无人机设备",
+                "哨兵无人机设备"};
         d.color = colors::gray();
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::tomb);
@@ -1807,9 +1730,9 @@ void init()
         reset_data(d, ItemType::device);
         d.id = Id::device_force_field;
         d.base_name = {
-                "Force Field Device",
-                "Force Field Devices",
-                "a Force Field Device"};
+                "力场装置",
+                "力场设备",
+                "力场装置"};
         d.color = colors::gray();
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::tomb);
@@ -1857,10 +1780,9 @@ void init()
         d.id = Id::medical_bag;
         d.has_std_activate = true;
         d.is_prio_in_backpack_list = true;
-        d.base_name = {"Medical Bag", "Medical Bags", "a Medical Bag"};
+        d.base_name = {"医疗袋", "医疗袋", "医疗包"};
         d.base_descr = {
-                "A portable bag of medical supplies. Can be used to treat "
-                "Wounds or Infections."};
+                "一个装有医疗用品的便携式袋子。可用于治疗创伤或感染。"};
         d.weight = Weight::medium;
         d.spawn_std_range = Range(1, g_dlvl_last_mid_game);
         d.is_stackable = false;
@@ -1874,9 +1796,9 @@ void init()
         d.has_std_activate = true;
         d.is_prio_in_backpack_list = true;
         d.base_name = {
-                "Electric Lantern", "Electric Lanterns", "an Electric Lantern"};
+                "电灯笼", "电灯笼", "电灯笼"};
         d.base_descr = {
-                "A portable light source."};
+                "便携式光源。"};
         d.weight = item::Weight::light;
         d.character = '%';
         d.spawn_std_range = Range(1, 10);
@@ -1884,7 +1806,7 @@ void init()
         d.chance_to_incl_in_spawn_list = 100;
         d.tile = gfx::TileId::lantern;
         d.color = colors::yellow();
-        d.land_on_hard_snd_msg = "I hear a clanking sound.";
+        d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
         d.land_on_hard_sfx = audio::SfxId::metal_clank;
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::cabinet);
@@ -1894,23 +1816,17 @@ void init()
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::pharaoh_staff;
         d.base_name = {
-                "Staff of the Pharaohs",
+                "法老王的权杖",
                 "",
-                "the Staff of the Pharaohs"};
+                "法老王的权杖"};
         d.base_descr = {
-                "Wielded by rulers in ancient times, this powerful artifact "
-                "holds power over those that were once bound to it. "
-                "Any mummy beholding the owner will eventually be converted "
-                "(10% chance per turn while the weapon is carried).",
+                "这件强大的神器由古代统治者所使用，对那些曾经受其束缚的人拥有力量。任何看到主人的木乃伊最终都会被转化（携带武器时每回合 10% c 机会）。",
 
-                "Also, a devastating curse may fall upon those struck by this weapon "
-                "(50% chance to apply doom, greatly reducing the victim's "
-                "hit chances, evasion, and searching ability, and also causes "
-                "a small chance to fail when casting spells)."};
+                "另外，被该武器击中的人可能会受到毁灭性的诅咒（50% c几率施加厄运，大大降低受害者的命中率、闪避率和搜索能力，并且还有小概率施法失败）。"};
         d.color = colors::magenta();
         d.weight = Weight::medium;
         d.tile = gfx::TileId::pharaoh_staff;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 12);
         d.melee.hit_chance_mod = 0;
         d.melee.miss_sfx = audio::SfxId::miss_medium;
@@ -1928,18 +1844,17 @@ void init()
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::flagellant_whip;
         d.base_name = {
-                "Scourge",
+                "天灾",
                 "",
-                "a Scourge"};
+                "天灾"};
         d.base_descr = {
-                "A brutal whip affixed with sharpened bones and metal spikes.",
+                "一种残酷的鞭子，上面附有锋利的骨头和金属尖刺。",
 
-                "Victims struck by its flesh-tearing bite may be paralyzed "
-                "with pain (20% chance)."};
+                "被它撕裂血肉的咬击击中后，受害者可能会因疼痛而瘫痪（20% 几率）。"};
         d.color = colors::red();
         d.weight = Weight::light;
         d.tile = gfx::TileId::whip_scourge;
-        d.melee.attack_msgs = {"strike", "strikes"};
+        d.melee.attack_msgs = {"击中", "击中"};
         d.melee.dmg = WpnDmg(1, 10);
         d.melee.hit_chance_mod = 10;
         d.melee.miss_sfx = audio::SfxId::miss_medium;
@@ -1967,12 +1882,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::onyx_drop;
         d.base_name = {
-                "Onyx Drop",
+                "玛瑙掉落",
                 "",
-                "the Onyx Drop"};
+                "玛瑙掉落"};
         d.base_descr = {
-                "Drinking a malign potion also applies its effect "
-                "to all nearby creatures (maximum distance is 6)."};
+                "饮用邪恶药水也会对附近所有生物施加效果（最大距离为 6）。"};
         d.color = colors::violet();
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::drop;
@@ -1988,13 +1902,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::refl_talisman;
         d.base_name = {
-                "Talisman of Reflection",
+                "反射护符",
                 "",
-                "the Talisman of Reflection"};
+                "反思护身符"};
         d.base_descr = {
-                "Whenever a hostile spell is blocked due to spell resistance, "
-                "it is also reflected. The number of turns to regain spell "
-                "resistance is halved."};
+                "每当敌对法术因法术抗力而被阻挡时，它也会被反射。恢复法术抗力的回合数减半。"};
         d.color = colors::light_blue();
         d.weight = Weight::light;
         d.tile = gfx::TileId::amulet;
@@ -2010,13 +1922,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::resurrect_talisman;
         d.base_name = {
-                "Talisman of Resurrection",
+                "复活护身符",
                 "",
-                "the Talisman of Resurrection"};
+                "复活护符"};
         d.base_descr = {
-                "This powerful charm brings the owner back to life upon bodily "
-                "death. The talisman is destroyed in the process however, so "
-                "one may only be brought back once."};
+                "这种强大的魅力可以使主人在身体死亡后复活。然而，护身符在此过程中被破坏，因此只能被带回来一次。"};
         d.color = colors::light_white();
         d.weight = Weight::light;
         d.tile = gfx::TileId::amulet;
@@ -2032,12 +1942,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::tele_ctrl_talisman;
         d.base_name = {
-                "Talisman of Teleportation Control",
+                "传送控制符",
                 "",
-                "the Talisman of Teleportation Control"};
+                "传送控制护身符"};
         d.base_descr = {
-                "Grants the owner the ability to control the destination when "
-                "teleporting."};
+                "赋予所有者传送时控制目的地的能力。"};
         d.color = colors::orange();
         d.weight = Weight::light;
         d.tile = gfx::TileId::amulet;
@@ -2053,21 +1962,14 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::holy_symbol;
         d.base_name = {
-                "Holy Symbol",
+                "圣徽",
                 "",
-                "a Holy Symbol",
+                "神圣的象征",
         };
         d.base_descr = {
-                "A focal point providing strength and guidance for the "
-                "spirit and mind. "
-                "Praying over the symbol grants 1-4 spirit points, and "
-                "resistance against shock and fear for 6-12 turns.",
+                "为精神和心智提供力量与指引的焦点。向此象征祈祷可获得 1–4 点精神值，并在 6–12 回合内抵抗震慑与恐惧。",
 
-                "Some time must pass before the prayer is guaranteed to have "
-                "an effect again, however it can be attempted before this "
-                "time has passed (with 25% chance to succeed). If an early "
-                "attempt fails, faith in the symbol is temporarily lost, and "
-                "much time must pass before the symbol can be used again."};
+                "祈祷必须经过一段时间才能保证再次产生效果，但是可以在这段时间过去之前尝试（有 25% c 成功的机会）。如果早期尝试失败，人们就会暂时失去对该符号的信心，并且必须经过很长时间才能再次使用该符号。"};
         d.color = colors::gold();
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::holy_symbol;
@@ -2082,14 +1984,12 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::clockwork;
         d.base_name = {
-                "Arcane Clockwork",
+                "奥术发条",
                 "",
-                "the Arcane Clockwork",
+                "奥术发条装置",
         };
         d.base_descr = {
-                "A mainspring-powered clockwork of unreal quality and beauty. "
-                "When wound up, it causes the owner to move very swiftly for a "
-                "brief time."};
+                "一个主发条驱动的发条装置，具有不可思议的品质和美丽。当上紧发条时，它会导致所有者在短时间内快速移动。"};
         d.color = colors::yellow();
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::clockwork;
@@ -2106,14 +2006,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::horn_of_malice;
         d.base_name = {
-                "Horn of Malice",
+                "恶意号角",
                 "",
-                "the Horn of Malice"};
+                "恶意号角"};
         d.base_descr = {
-                "When blown, this sinister artifact emits a weird resonance "
-                "which corrupts the psyche of all those within hearing range "
-                "(excluding the horn blower) - causing them to consider all "
-                "other creatures with intense hatred and distrust."};
+                "当吹响时，这件邪恶的神器会发出一种奇怪的共鸣，这种共鸣会腐蚀所有在听觉范围内的人的心灵（不包括吹号者）——导致他们对所有其他生物抱有强烈的仇恨和不信任。"};
         d.color = colors::gray();
         d.weight = Weight::light;
         d.tile = gfx::TileId::horn;
@@ -2130,12 +2027,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::horn_of_banishment;
         d.base_name = {
-                "Horn of Banishment",
+                "放逐号角",
                 "",
-                "the Horn of Banishment"};
+                "放逐的号角"};
         d.base_descr = {
-                "When blown, this instrument forces all magically summoned "
-                "creatures within hearing range back to their original realm."};
+                "当吹响时，这个乐器会迫使所有在听觉范围内的魔法召唤生物回到原来的领域。"};
         d.color = colors::magenta();
         d.weight = Weight::light;
         d.tile = gfx::TileId::horn;
@@ -2152,26 +2048,20 @@ void init()
         reset_data(d, ItemType::melee_wpn);
         d.id = Id::shadow_dagger;
         d.base_name = {
-                "Gahana, The Black Dagger",
+                "黑匕首加哈纳",
                 "",
-                "Gahana, The Black Dagger"};
+                "黑匕首加哈纳"};
         d.base_descr = {
-                "A pitch black dagger with elaborate ornaments. The blade "
-                "appears blurry, as if perpetually covered in a dark haze.",
+                "一把漆黑的匕首，上面有精致的装饰。剑刃看起来模糊不清，仿佛永远笼罩在黑暗的薄雾之中。",
 
-                "A creature struck by this weapon is cursed to forever dwell "
-                "in darkness, or suffer great agony (becomes permanently "
-                "light sensitive, and takes +1 extra damage from light). "
-                "Creatures which naturally emit light (such as beings of "
-                "fire or energy) takes 1-4 irresistible damage instead.",
+                "被这种武器击中的生物会被诅咒永远生活在黑暗中，或者遭受巨大的痛苦（变得永久对光敏感，并受到 +1 额外的光伤害）。自然发光的生物（例如火焰生物或能量生物）会受到 1-4 点不可抗拒的伤害。",
 
-                "Attacking an unaware opponent with a dagger does +200% damage "
-                "(in addition to the normal +50% damage from stealth attacks).",
+                "用匕首攻击不知情的对手会产生+200% d法力（除了隐形攻击的正常+50% d法力之外）。",
         };
         d.weight = Weight::light;
         d.tile = gfx::TileId::dagger;
         d.color = colors::violet();
-        d.melee.attack_msgs = {"stab", "stabs"};
+        d.melee.attack_msgs = {"刺击", "刺伤"};
         d.melee.dmg = WpnDmg(4, 8);
         d.melee.hit_chance_mod = 20;
         d.melee.is_noisy = false;
@@ -2191,11 +2081,11 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::orb_of_life;
         d.base_name = {
-                "Orb of Life",
+                "生命宝珠",
                 "",
-                "the Orb of Life"};
+                "生命之球"};
         d.base_descr = {
-                "+4 hit points, grants resistance against poison and disease."};
+                "+4 生命值，赋予对毒药和疾病的抵抗力。"};
         d.color = colors::light_white();
         d.weight = Weight::light;
         d.tile = gfx::TileId::orb;
@@ -2211,19 +2101,13 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::necronomicon;
         d.base_name = {
-                "Necronomicon",
+                "死灵之书",
                 "",
-                "the Necronomicon"};
+                "死灵之书"};
         d.base_descr = {
-                "This is the dreaded Necronomicon - the Book of the Dead! "
-                "Its pages contain much dire knowledge on esoteric matters. "
-                "While carried, all spells are cast at a higher skill level, "
-                "and it is possible to reach a fourth level, \"Transcendent\".",
+                "这就是可怕的《死灵之书》——死亡之书！它的页面包含许多关于深奥问题的可怕知识。携带时，所有法术都会以更高的技能等级施展，并且有可能达到第四级“超凡”。",
 
-                "All shock taken from spell casting is doubled, and "
-                "the presence of one who is consulting such knowledge "
-                "is felt strongly (-20% stealth, 2% chance per turn of "
-                "alerting nearby creatures)."};
+                "施法承受的震慑全部加倍，而且咨询此类知识之人的存在会被强烈感知（潜行 -20%，每回合有 2% 几率惊动附近生物）。"};
         d.color = colors::dark_sepia();
         d.weight = Weight::light;
         d.tile = gfx::TileId::tome;
@@ -2239,12 +2123,11 @@ void init()
         reset_data(d, ItemType::throwing_wpn);
         d.id = Id::zombie_dust;
         d.base_name = {
-                "Zombie Dust",
-                "Handfuls of Zombie Dust",
-                "a handful of Zombie Dust"};
+                "僵尸尘埃",
+                "一把僵尸灰​​尘",
+                "一把僵尸尘埃"};
         d.base_descr = {
-                "When thrown at a living (non-undead) creature, this powder "
-                "causes paralyzation."};
+                "当向活体（非不死）生物投掷时，这种粉末会导致麻痹。"};
         d.spawn_std_range.max = g_dlvl_last;
         d.weight = Weight::extra_light;
         d.tile = gfx::TileId::zombie_dust;
@@ -2265,13 +2148,9 @@ void init()
 
         reset_data(d, ItemType::general);
         d.id = Id::witch_eye;
-        d.base_name = {"Witch's Eye", "Witch's Eyes", "a Witch's Eye"};
+        d.base_name = {"女巫之眼", "女巫的眼睛", "女巫之眼"};
         d.base_descr = {
-                "The eye of a powerful witch. Clutching it in one's hand will "
-                "temporarily grant magical vision - doors, traps, stairs, and "
-                "other locations of interest are detected in the "
-                "surrounding area, and the presence of all items and creatures "
-                "is revealed."};
+                "强大魔女的眼睛。将其握在手中将暂时获得魔法视觉——在周围区域中检测到门、陷阱、楼梯和其他感兴趣的位置，并显示所有物品和生物的存在。"};
         d.type = ItemType::general;
         d.value = item::Value::major_treasure;
         d.weight = Weight::extra_light;
@@ -2289,18 +2168,13 @@ void init()
 
         reset_data(d, ItemType::general);
         d.id = Id::bone_charm;
-        d.base_name = {"Bone Charm", "Bone Charms", "a Bone Charm"};
+        d.base_name = {"骨符", "骨头符咒", "骨咒"};
         d.base_descr = {
-                "An old finger bone, carved with tiny symbols.",
+                "一根古老的指骨，上面刻有微小的符号。",
 
-                "Snapping it in two "
-                "grants protection against harmful spells "
-                "for 6-12 turns, or until a spell is blocked.",
+                "将其折成两半可以在 6-12 回合内提供针对有害法术的保护，或者直到法术被格挡为止。",
 
-                "It also dispels all seen magic traps "
-                "(\"strange shape\" on the floor). "
-                "For each trap dispelled, 1-6 spirit points are gained, "
-                "which may raise spirit above maximum level."};
+                "它还消除了所有看到的魔法陷阱（地板上的“奇怪形状”）。每消除一个陷阱，就会获得 1-6 点精神值，这可能会将精神提升到最高等级以上。"};
         d.type = ItemType::general;
         d.value = item::Value::minor_treasure;
         d.weight = Weight::extra_light;
@@ -2321,18 +2195,13 @@ void init()
         reset_data(d, ItemType::general);
         d.id = Id::fluctuating_material;
         d.base_name = {
-                "Fluctuating Material",
-                "Pieces of Fluctuating Material",
-                "a Fluctuating Material"};
+                "波动材料",
+                "波动材料块",
+                "波动的材料"};
         d.base_descr = {
-                "It is difficult to tell whether it is stone, metal, "
-                "or perhaps even something organic. It seems to be "
-                "ever-changing, internally twisting, turning, and flowing.",
+                "很难判断它是石头、金属，还是有机物。它看似千变万化，内在扭曲、转动、流动。",
 
-                "Glancing at the material is like looking into a "
-                "kaleidoscope - and it feels like gazing too deep will "
-                "transmute the very nature of the observer (choose one trait "
-                "to remove, and then pick a new one)."};
+                "浏览这块材料就像看万花筒——仿佛看得太深会改变观察者的本质（选择一个特质将其移除，然后选择一个新特质）。"};
         d.type = ItemType::general;
         d.value = item::Value::minor_treasure;
         d.weight = Weight::extra_light;
@@ -2345,23 +2214,19 @@ void init()
         d.spawn_std_range = Range(-1, -1);
         d.allow_spawn = false;
         d.is_stackable = true;
-        d.land_on_hard_snd_msg = "I hear a thud.";
+        d.land_on_hard_snd_msg = "我听到砰的一声。";
         g_data[(size_t)d.id] = d;
 
         reset_data(d, ItemType::general);
         d.id = Id::astral_opium;
         d.base_name = {
-                "Astral Opium",
-                "Astral Opium Doses",
-                "an Astral Opium Dose"};
+                "星辰鸦片",
+                "星体鸦片剂量",
+                "星界鸦片剂量"};
         d.base_descr = {
-                "A drug extracted from plants of extraterrestrial origin. "
-                "It leaves the user in a perfectly serene state, free from all "
-                "fear.",
+                "从外星植物中提取的药物。它让用户处于完全平静的状态，没有任何恐惧。",
 
-                "There is a price for this however, since it causes "
-                "intense hallucinogenic delusions, and it is also severely "
-                "addictive."};
+                "然而，这是有代价的，因为它会引起强烈的致幻妄想，而且还会严重上瘾。"};
         d.type = ItemType::general;
         d.is_stackable = true;
         d.chance_to_incl_in_spawn_list = 40;
@@ -2373,7 +2238,7 @@ void init()
         d.color = colors::white();
         d.tile = gfx::TileId::astral_opium;
         d.character = '%';
-        d.land_on_hard_snd_msg = "I hear a clanking sound.";
+        d.land_on_hard_snd_msg = "我听到叮叮当当的声音。";
         d.native_containers.push_back(terrain::Id::chest);
         d.native_containers.push_back(terrain::Id::cabinet);
         d.native_containers.push_back(terrain::Id::cocoon);
@@ -2513,7 +2378,7 @@ ItemData::ItemData() :
         tile(gfx::TileId::END),
         main_attack_mode(AttackMode::none),
         spell_cast_from_scroll(SpellId::END),
-        land_on_hard_snd_msg("I hear a thudding sound."),
+        land_on_hard_snd_msg("我听到一声重击的声音。"),
         land_on_hard_sfx(audio::SfxId::END),
         allow_display_dmg(true)
 {

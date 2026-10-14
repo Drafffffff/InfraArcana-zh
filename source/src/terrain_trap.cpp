@@ -81,18 +81,18 @@ static void communicate_magic_trap_trigger(
 
         if (actor::is_player(&actor)) {
                 if (can_player_see_trap) {
-                        std::string msg = "A beam of light shoots out from";
+                        std::string msg = "一道光束从此处射出";
 
                         if (!is_hidden) {
-                                msg += " a curious shape on";
+                                msg += " 一个好奇的形状出现在";
                         }
 
-                        msg += " the floor!";
+                        msg += " 地板！";
 
                         msg_log::add(msg);
                 }
                 else {
-                        msg_log::add("I feel a peculiar energy around me!");
+                        msg_log::add("我感觉周围有股奇异的能量！");
                 }
         }
         else {
@@ -104,14 +104,14 @@ static void communicate_magic_trap_trigger(
                         const std::string actor_name =
                                 can_player_see_actor
                                 ? actor::name_the(actor)
-                                : "it";
+                                : "它";
 
-                        msg_log::add("A beam of light shoots out under " + actor_name + ".");
+                        msg_log::add("一道光束从此处下方射出 " + actor_name + ".");
                 }
         }
 
         Snd snd(
-                "I hear an otherworldly blaze.",
+                "我听见一阵异界烈焰燃烧的声音。",
                 audio::SfxId::magic_trap_trigger,
                 IgnoreMsgIfOriginSeen::yes,
                 pos,
@@ -134,7 +134,7 @@ static void communicate_magic_trap_trigger(
 
 static void communicate_mechanical_trap_trigger(const actor::Actor& actor, const P& pos)
 {
-        std::string msg = "I hear a click.";
+        std::string msg = "我听见咔哒一声。";
 
         auto alerts = AlertsMon::no;
 
@@ -160,7 +160,7 @@ static void communicate_mechanical_trap_trigger(const actor::Actor& actor, const
                 const bool is_deaf = map::g_player->m_properties.has(prop::Id::deaf);
 
                 if (is_deaf) {
-                        msg_log::add("I feel the ground shifting slightly under my foot.");
+                        msg_log::add("我觉得脚下的地面微微晃动。");
                 }
 
                 msg_log::more_prompt();
@@ -488,7 +488,7 @@ AllowAction Trap::pre_bump(actor::Actor& actor_bumping)
                 const std::string name_the = name(Article::the);
 
                 const std::string msg =
-                        "Step into " +
+                        "走进 " +
                         name_the +
                         "? " +
                         common_text::g_yes_or_no_hint;
@@ -554,7 +554,7 @@ void Trap::bump(actor::Actor& actor_bumping)
 bool Trap::disarm()
 {
         if (m_nr_turns_until_trigger != -1) {
-                msg_log::add("It cannot be disarmed now!");
+                msg_log::add("现在无法拆除！");
 
                 return false;
         }
@@ -632,11 +632,11 @@ void Trap::reveal(const PrintRevealMsg print_reveal_msg)
                 const std::string trap_name_a = m_trap_impl->name(Article::a);
 
                 if (m_pos == map::g_player->m_pos) {
-                        msg = "There is " + trap_name_a + " here!";
+                        msg = "有 " + trap_name_a + " 在这里！";
                 }
                 else {
                         // Trap is not at player position
-                        msg = "I spot " + trap_name_a + ".";
+                        msg = "我发现了 " + trap_name_a + ".";
                 }
 
                 msg_log::add(msg);
@@ -808,7 +808,7 @@ void TrapDart::trigger()
                         map::g_terrain.at(m_dart_origin)
                                 ->name(Article::the);
 
-                msg_log::add("A dart is launched from " + name + "!");
+                msg_log::add("一枚飞镖从此处射出 " + name + "!");
         }
 
         // Make a temporary dart weapon
@@ -900,7 +900,7 @@ void TrapSpear::trigger()
                         map::g_terrain.at(m_spear_origin)
                                 ->name(Article::the);
 
-                msg_log::add("A spear shoots out from " + name + "!");
+                msg_log::add("一支长矛从此处射出 " + name + "!");
         }
 
         // Is anyone standing on the trap now?
@@ -935,7 +935,7 @@ void TrapBlindingFlash::trigger()
         TRACE_FUNC_BEGIN;
 
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("There is an intense flash of light!");
+                msg_log::add("一阵强光猛然闪过！");
         }
 
         explosion::run(
@@ -956,7 +956,7 @@ void TrapDeafening::trigger()
 
         if (map::g_seen.at(m_pos)) {
                 msg_log::add(
-                        "There is suddenly a crushing pressure in the air!");
+                        "空气中骤然出现一股沉重的压迫感！");
         }
 
         explosion::run(
@@ -1052,7 +1052,7 @@ void TrapSummonMon::trigger()
                                                 text_format::first_to_upper(
                                                         actor::name_a(*mon));
 
-                                        msg_log::add(name_a + " appears!");
+                                        msg_log::add(name_a + " 出现！");
                                 }
                         });
         }
@@ -1120,12 +1120,11 @@ void TrapSmoke::trigger()
 
         if (map::g_seen.at(m_pos)) {
                 msg_log::add(
-                        "A burst of smoke is released from a vent in the "
-                        "floor!");
+                        "一股烟雾从地板的通风口喷出！");
         }
 
         Snd snd(
-                "I hear a burst of gas.",
+                "我听见一阵气体喷出的声音。",
                 audio::SfxId::gas,
                 IgnoreMsgIfOriginSeen::yes,
                 m_pos,
@@ -1145,11 +1144,11 @@ void TrapFire::trigger()
         TRACE_FUNC_BEGIN;
 
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("Flames burst out from a vent in the floor!");
+                msg_log::add("地板通风口喷出火焰！");
         }
 
         Snd snd(
-                "I hear a burst of flames.",
+                "我听到一阵火焰的声音。",
                 audio::SfxId::END,
                 IgnoreMsgIfOriginSeen::yes,
                 m_pos,
@@ -1175,7 +1174,7 @@ void TrapAlarm::trigger()
         TRACE_FUNC_BEGIN;
 
         Snd snd(
-                "An alarm sounds!",
+                "警报响起！",
                 audio::SfxId::END,
                 IgnoreMsgIfOriginSeen::no,
                 m_pos,
@@ -1208,7 +1207,7 @@ void TrapWeb::trigger()
 
                 if (item && (item->id() == item::Id::machete)) {
                         msg_log::add(
-                                "I cut myself free with my Machete.",
+                                "我用砍刀割断束缚。",
                                 colors::text(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no);
@@ -1220,11 +1219,11 @@ void TrapWeb::trigger()
         if (actor::is_player(actor_here)) {
                 std::string msg;
                 if (actor_here->m_properties.allow_see()) {
-                        msg = "I am entangled in a spider web!";
+                        msg = "我被缠在蜘蛛网上了！";
                 }
                 else {
                         // Cannot see
-                        msg = "I am entangled in a sticky mass of threads!";
+                        msg = "我被缠进一团黏稠的丝线里了！";
                 }
 
                 msg_log::add(msg);
@@ -1237,7 +1236,7 @@ void TrapWeb::trigger()
                                 text_format::first_to_upper(
                                         actor::name_the(*actor_here));
 
-                        msg_log::add(actor_name + " is entangled in a huge spider web!");
+                        msg_log::add(actor_name + " 被困在巨大的蜘蛛网上！");
                 }
         }
 
@@ -1319,7 +1318,7 @@ void TrapAlterEnv::trigger()
         }
 
         if (is_player_seeing_trap_trigger(*actor_here, m_pos)) {
-                msg_log::add("The surroundings change!");
+                msg_log::add("周围环境发生了变化！");
         }
 
         const int change_one_in_n = 2;
@@ -1426,12 +1425,12 @@ void TrapUnlearnSpell::try_unlearn_for_player() const
         }
 
         if (id_bucket.empty()) {
-                msg_log::add("There is no apparent effect.");
+                msg_log::add("没有明显效果。");
 
                 return;
         }
 
-        msg_log::add("I am surrounded by a misty haze.");
+        msg_log::add("我被雾霭笼罩。");
 
         const SpellId id = rnd::element(id_bucket);
 
@@ -1446,7 +1445,7 @@ void TrapUnlearnSpell::try_unlearn_for_monster(actor::Actor& actor) const
 
         if (spells.empty()) {
                 if (player_sees_actor) {
-                        msg_log::add("There is no apparent effect.");
+                        msg_log::add("没有明显效果。");
                 }
 
                 return;
@@ -1457,7 +1456,7 @@ void TrapUnlearnSpell::try_unlearn_for_monster(actor::Actor& actor) const
                         text_format::first_to_upper(
                                 actor::name_the(actor));
 
-                msg_log::add("A misty haze surrounds " + actor_name + ".");
+                msg_log::add("一片薄雾笼罩着 " + actor_name + ".");
         }
 
         const int idx = rnd::idx(spells);

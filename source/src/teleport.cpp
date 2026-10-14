@@ -111,7 +111,7 @@ static bool handle_void_traveler_affecting_player_teleport(
                         text_format::first_to_upper(
                                 actor::name_a(*other_actor));
 
-                msg_log::add(actor_name_a + " intercepts my teleportation!");
+                msg_log::add(actor_name_a + " 阻止了我的传送！");
 
                 const std::vector<prop::Id> props_ended = {
                         prop::Id::invis,
@@ -244,7 +244,7 @@ static void handle_player_confusion(
         const bool is_confused = actor_teleporting.m_properties.has(prop::Id::confused);
 
         if (!has_tele_ctrl || is_confused || is_affected_by_void_traveler) {
-                msg_log::add("I suddenly find myself in a different location!");
+                msg_log::add("我突然发现自己身处另一个地方！");
 
                 prop::Prop* prop = prop::make(prop::Id::confused);
 

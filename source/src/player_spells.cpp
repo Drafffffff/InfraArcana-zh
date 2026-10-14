@@ -96,8 +96,7 @@ static void try_cast(Spell* const spell)
 
                 msg_log::add(
                         name +
-                        " has faded from my memory, I can no longer "
-                        "cast it.");
+                        " 已从我的记忆中消失，我再也无法施放它了。");
 
                 return;
         }
@@ -129,13 +128,13 @@ static void try_cast(Spell* const spell)
         if (cost_range.max >= resource_avail) {
                 const std::string resource_name =
                         (spell->cost_type() == SpellCostType::spirit)
-                        ? "spirit"
-                        : "health";
+                        ? "精神值"
+                        : "生命值";
 
                 const std::string msg =
-                        "Low " +
+                        "低 " +
                         resource_name +
-                        ", try casting spell anyway? " +
+                        "，仍要尝试施放法术吗？ " +
                         common_text::g_yes_or_no_hint;
 
                 msg_log::add(
@@ -154,7 +153,7 @@ static void try_cast(Spell* const spell)
                 msg_log::clear();
         }
 
-        msg_log::add("I cast " + spell->name() + "!");
+        msg_log::add("我施放 " + spell->name() + "!");
 
         if (actor::is_alive(*map::g_player)) {
                 const std::vector<actor::Actor*> seen_foes =
@@ -238,8 +237,8 @@ static void draw_spell_menu_line(
 
                 const std::string cost_label =
                         (spell->cost_type() == SpellCostType::spirit)
-                        ? "SP: "
-                        : "HP: ";
+                        ? "精神值： "
+                        : "生命值： ";
 
                 io::draw_text(
                         cost_label,
@@ -264,7 +263,7 @@ static void draw_spell_menu_line(
         if (spell->can_be_improved_with_skill()) {
                 x = skill_label_x;
 
-                std::string str = "Skill: ";
+                std::string str = "技能： ";
 
                 io::draw_text(
                         str,
@@ -410,9 +409,9 @@ void learn_spell(const SpellId id, const Verbose verbose)
 
         if (verbose == Verbose::yes) {
                 msg_log::add(
-                        "I can now cast " +
+                        "我现在可以施放 " +
                         spell->name() +
-                        " from memory.");
+                        " 从记忆中消失了。");
         }
 
         s_learned_spells.push_back(spell);
@@ -465,7 +464,7 @@ void forget_spell(const SpellId id)
 
         const std::string name = spell->name();
 
-        msg_log::add("I no longer recall how to cast " + name + "!");
+        msg_log::add("我再也想不起如何施放 " + name + "!");
 
         s_is_forgotten[(size_t)id] = true;
 }
@@ -490,7 +489,7 @@ bool recall_spell(const SpellId id)
 
         const std::string name = spell->name();
 
-        msg_log::add("I remember how to cast " + name + " again!");
+        msg_log::add("我又想起如何施放 " + name + " 又来了！");
 
         s_is_forgotten[(size_t)id] = false;
 
@@ -535,7 +534,7 @@ void incr_spell_skill(const SpellId id, const Verbose verbose)
                 const auto name = spell->name();
 
                 msg_log::add(
-                        "I am more skilled at casting " +
+                        "我施放……的法术更加熟练了 " +
                         name +
                         "!");
         }
@@ -628,7 +627,7 @@ void BrowseSpell::on_start()
                 // Exit screen
                 states::pop();
 
-                msg_log::add("I do not know any spells.");
+                msg_log::add("我不认识任何法术。");
                 return;
         }
 
@@ -644,7 +643,7 @@ void BrowseSpell::draw()
         const int nr_spells = (int)s_learned_spells.size();
 
         io::draw_text_center(
-                " Known spells ",
+                " 已知法术 ",
                 Panel::screen,
                 {panels::center_x(Panel::screen), 0},
                 colors::title());

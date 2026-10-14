@@ -96,7 +96,7 @@ static std::string mon_shown_name(const actor::Actor& actor)
         return (
                 is_seen
                         ? text_format::first_to_upper(actor::name_the(actor))
-                        : "It");
+                        : "它");
 }
 
 static bool is_mon_noticed_by_player(const actor::Actor& actor)
@@ -112,12 +112,12 @@ static void print_msg_actor_knocked_back(const actor::Actor& actor)
 {
         if (is_mon_noticed_by_player(actor)) {
                 if (actor::is_player(&actor)) {
-                        msg_log::add("I am knocked back!");
+                        msg_log::add("我被击退了！");
                 }
                 else {
                         const std::string name = mon_shown_name(actor);
 
-                        msg_log::add(name + " is knocked back!");
+                        msg_log::add(name + " 被击退了！");
                 }
         }
 }
@@ -126,12 +126,12 @@ static void print_msg_fall_into_chasm(const actor::Actor& actor)
 {
         if (is_mon_noticed_by_player(actor)) {
                 if (actor::is_player(&actor)) {
-                        msg_log::add("I perish in the depths!", colors::msg_bad());
+                        msg_log::add("我葬身于深渊！", colors::msg_bad());
                 }
                 else {
                         const std::string name = mon_shown_name(actor);
 
-                        msg_log::add(name + " perishes in the depths.", colors::msg_good());
+                        msg_log::add(name + " 葬身深渊。", colors::msg_good());
                 }
         }
 }

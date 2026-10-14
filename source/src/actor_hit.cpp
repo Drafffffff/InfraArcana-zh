@@ -48,7 +48,7 @@ static void destroy_armor(actor::Actor& actor, const item::Armor* const armor)
                 const std::string armor_name =
                         armor->name(ItemNameType::plain, ItemNameInfo::none);
 
-                const std::string msg = "My " + armor_name + " is torn apart!";
+                const std::string msg = "我的 " + armor_name + " 被撕成碎片！";
 
                 msg_log::add(msg, colors::msg_note());
         }
@@ -111,7 +111,7 @@ static void hit_corpse_destroy_success(
             (dmg_type == DmgType::slashing) ||
             (dmg_type == DmgType::piercing)) {
                 Snd snd(
-                        "*Crack!*",
+                        "*咔！*",
                         audio::SfxId::hit_corpse_break,
                         IgnoreMsgIfOriginSeen::yes,
                         actor.m_pos,
@@ -136,7 +136,7 @@ static void hit_corpse_destroy_success(
                         text_format::first_to_upper(
                                 actor.m_data->corpse_name_the);
 
-                msg_log::add(name + " is destroyed.");
+                msg_log::add(name + " 被摧毁了。");
         }
 }
 
@@ -152,10 +152,10 @@ static void hit_corpse_destroy_fail(
 
                 if ((dmg_type == DmgType::blunt) ||
                     (dmg_type == DmgType::kicking)) {
-                        msg = "*Thud!*";
+                        msg = "*砰！*";
                 }
                 else {
-                        msg = "*Chop!*";
+                        msg = "*咔嚓！*";
                 }
 
                 Snd snd(
@@ -255,7 +255,7 @@ static void on_actor_not_killed_by_hit(
                 msg_log::more_prompt();
 
                 msg_log::add(
-                        "-LOW HP WARNING!-",
+                        "- 生命值过低警告！-",
                         colors::msg_bad(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes);
@@ -291,7 +291,7 @@ static void on_light_sensitive_player_hit_by_light()
 {
         map::g_player->interrupt_actions(ForceInterruptActions::no);
 
-        msg_log::add("I am wracked by light!", colors::msg_bad());
+        msg_log::add("强光折磨着我！", colors::msg_bad());
 }
 
 static int absorb_dmg_for_prolonged_life_exorcist(int dmg)
@@ -375,7 +375,7 @@ static void on_player_hit(
                 const int nr_wounds_after = nr_wounds(map::g_player->m_properties);
 
                 if (nr_wounds_after > nr_wounds_before) {
-                        game::add_history_event("Sustained a severe wound");
+                        game::add_history_event("受到严重创伤");
                 }
         }
 }
@@ -487,7 +487,7 @@ void hit_sp(
         if (verbose == Verbose::yes) {
                 if (actor::is_player(&actor)) {
                         msg_log::add(
-                                "My spirit is drained!",
+                                "我的精神力枯竭了！",
                                 colors::msg_bad());
                 }
         }
@@ -510,7 +510,7 @@ void hit_sp(
 
         if (actor::is_player(&actor)) {
                 msg_log::add(
-                        "All my spirit is depleted, I am devoid of life!",
+                        "我的精神值已耗尽，生命也已枯竭！",
                         colors::msg_bad());
         }
         else if (can_player_see_actor(actor)) {
@@ -518,7 +518,7 @@ void hit_sp(
                         text_format::first_to_upper(
                                 actor::name_the(actor));
 
-                msg_log::add(actor_name_the + " has no spirit left!");
+                msg_log::add(actor_name_the + " 精神值耗尽了！");
         }
 
         const auto terrain_id = map::g_terrain.at(actor.m_pos)->id();

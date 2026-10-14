@@ -218,7 +218,7 @@ static void communicate_player_bash_futile(const audio::SfxId sfx)
 
         snd.run();
 
-        msg_log::add("It seems futile.");
+        msg_log::add("看来毫无希望。");
 }
 
 static void communicate_player_bash_success(
@@ -240,10 +240,10 @@ static void communicate_player_bash_success(
         snd.run();
 
         if (is_hidden) {
-                msg_log::add("A " + door_name + " crashes " + break_descr + "!");
+                msg_log::add("一个 " + door_name + " 撞上了 " + break_descr + "!");
         }
         else {
-                msg_log::add("The " + door_name + " crashes " + break_descr + "!");
+                msg_log::add("这 " + door_name + " 撞上了 " + break_descr + "!");
         }
 }
 
@@ -260,7 +260,7 @@ static void communicate_mon_bash_success(
         const std::string snd_msg =
                 (is_actor_seen || is_door_seen)
                 ? ""
-                : "I hear a door crashing open!";
+                : "我听见一扇门轰然打开！";
 
         // NOTE: When it's a monster bashing down the door, we make the
         // sound alert other monsters since this causes nicer AI
@@ -277,10 +277,10 @@ static void communicate_mon_bash_success(
         snd.run();
 
         if (is_actor_seen) {
-                msg_log::add("The " + door_name + " crashes " + break_descr + "!");
+                msg_log::add("这 " + door_name + " 撞上了 " + break_descr + "!");
         }
         else if (is_door_seen) {
-                msg_log::add("A " + door_name + " crashes " + break_descr + "!");
+                msg_log::add("一个 " + door_name + " 撞上了 " + break_descr + "!");
 
                 mon.make_player_aware_of_me();
         }
@@ -308,7 +308,7 @@ static void communicate_mon_bash_failed(
         actor::Actor& mon)
 {
         Snd snd(
-                "I hear a loud banging.",
+                "我听见一阵响亮的敲击声。",
                 sfx,
                 IgnoreMsgIfOriginSeen::yes,
                 pos,
@@ -337,7 +337,7 @@ static void communicate_player_open(
                 snd.run();
         }
 
-        msg_log::add("I open the " + door_name + ".");
+        msg_log::add("我打开 " + door_name + ".");
 }
 
 static void communicate_mon_open(
@@ -352,7 +352,7 @@ static void communicate_mon_open(
         const std::string snd_msg =
                 (is_actor_seen || is_door_seen)
                 ? ""
-                : "I hear a door open.";
+                : "我听见门开了。";
 
         Snd snd(
                 snd_msg,
@@ -370,10 +370,10 @@ static void communicate_mon_open(
                         text_format::first_to_upper(
                                 actor::name_the(mon));
 
-                msg_log::add(actor_name_the + " opens a " + door_name + ".");
+                msg_log::add(actor_name_the + " 打开了一扇 " + door_name + ".");
         }
         else if (is_door_seen) {
-                msg_log::add("I see a " + door_name + " opening.");
+                msg_log::add("我看见一 " + door_name + " 正在开启。");
 
                 mon.make_player_aware_of_me();
         }
@@ -395,7 +395,7 @@ static void communicate_player_open_blind(
 
         snd.run();
 
-        msg_log::add("I fumble with a " + door_name + ", but manage to open it.");
+        msg_log::add("我摸索着一件 " + door_name + "，但成功将其打开。");
 }
 
 static void communicate_mon_open_blind(
@@ -410,7 +410,7 @@ static void communicate_mon_open_blind(
         const std::string snd_msg =
                 (is_actor_seen || is_door_seen)
                 ? ""
-                : "I hear something open a door awkwardly.";
+                : "我听见有什么东西笨拙地打开了一扇门。";
 
         Snd snd(
                 snd_msg,
@@ -430,12 +430,12 @@ static void communicate_mon_open_blind(
 
                 msg_log::add(
                         actor_name_the +
-                        "fumbles, but manages to open a " +
+                        "笨手笨脚地摸索一番，还是打开了 " +
                         door_name +
                         ".");
         }
         else if (is_door_seen) {
-                msg_log::add("I see a " + door_name + " open awkwardly.");
+                msg_log::add("我看见一 " + door_name + " 笨拙地打开。");
 
                 mon.make_player_aware_of_me();
         }
@@ -457,9 +457,9 @@ static void communicate_player_fail_open_blind(
         snd.run();
 
         msg_log::add(
-                "I fumble blindly with a " +
+                "我摸索着 " +
                 door_name +
-                ", and fail to open it.");
+                "，却没能将其打开。");
 }
 
 static void communicate_mon_fail_open_blind(
@@ -468,7 +468,7 @@ static void communicate_mon_fail_open_blind(
         actor::Actor& mon)
 {
         Snd snd(
-                "I hear something attempting to open a door.",
+                "我听见有什么东西试图开门。",
                 audio::SfxId::END,
                 IgnoreMsgIfOriginSeen::yes,
                 pos,
@@ -487,7 +487,7 @@ static void communicate_mon_fail_open_blind(
 
                 msg_log::add(
                         actor_name_the +
-                        " fumbles blindly, and fails to open a " +
+                        " 摸索着没能打开一扇 " +
                         door_name +
                         ".");
         }
@@ -511,7 +511,7 @@ static void communicate_player_close(
                 snd.run();
         }
 
-        msg_log::add("I close the " + door_name + ".");
+        msg_log::add("我关上 " + door_name + ".");
 }
 
 static void communicate_player_close_blind(
@@ -530,7 +530,7 @@ static void communicate_player_close_blind(
 
         snd.run();
 
-        msg_log::add("I fumble with a " + door_name + ", but manage to close it.");
+        msg_log::add("我摸索着一件 " + door_name + "，但成功将其关上。");
 }
 
 static void communicate_player_fail_close_blind(
@@ -549,9 +549,9 @@ static void communicate_player_fail_close_blind(
         snd.run();
 
         msg_log::add(
-                "I fumble blindly with a " +
+                "我摸索着 " +
                 door_name +
-                ", and fail to close it.");
+                "，却没能将其关上。");
 }
 
 static std::vector<std::string> get_warded_door_summon_bucket_for_dlvl_range(
@@ -774,13 +774,13 @@ void Door::hit(
                                 if (map::g_seen.at(m_pos)) {
                                         const std::string a =
                                                 m_is_hidden
-                                                ? "A "
-                                                : "The ";
+                                                ? "一个 "
+                                                : "这 ";
 
                                         msg_log::add(
                                                 a +
                                                 base_name_short() +
-                                                " is blown to pieces!");
+                                                " 被炸得粉碎！");
                                 }
 
                                 const P pos = m_pos;
@@ -850,7 +850,7 @@ void Door::bash(const DmgType dmg_type, actor::Actor& actor, const int dmg)
             is_player &&
             is_pos_seen &&
             !m_is_hidden) {
-                msg_log::add("It seems futile.", colors::msg_note());
+                msg_log::add("看来毫无希望。", colors::msg_note());
 
                 return;
         }
@@ -880,7 +880,7 @@ void Door::player_bash(const DmgType dmg_type, const int dmg)
         const audio::SfxId sfx_door_bang = get_bang_sfx(m_type);
         const audio::SfxId sfx_door_break = get_break_sfx(m_type);
 
-        const std::string break_descr = (m_type == DoorType::gate) ? "to the floor" : "open";
+        const std::string break_descr = (m_type == DoorType::gate) ? "到地面" : "打开";
 
         if (destr_chance_pct <= 0) {
                 if (map::g_seen.at(m_pos) && !m_is_hidden) {
@@ -929,7 +929,7 @@ void Door::mon_bash(actor::Actor& mon)
         const audio::SfxId sfx_door_bang = get_bang_sfx(m_type);
         const audio::SfxId sfx_door_break = get_break_sfx(m_type);
 
-        const std::string break_descr = (m_type == DoorType::gate) ? "to the floor" : "open";
+        const std::string break_descr = (m_type == DoorType::gate) ? "到地面" : "打开";
 
         if (rnd::percent(destr_chance_pct)) {
                 // Destroyed
@@ -967,7 +967,7 @@ WasDestroyed Door::on_finished_burning()
         ASSERT(m_ward_state != WardState::warded);
 
         if (map::g_seen.at(m_pos)) {
-                msg_log::add("The door burns down.");
+                msg_log::add("门烧毁了。");
         }
 
         terrain::Terrain* const t = make(Id::rubble_low, m_pos);
@@ -1053,25 +1053,25 @@ std::string Door::base_name() const
         case DoorType::wood:
                 switch (m_ward_state) {
                 case WardState::not_warded:
-                        return "wooden door";
+                        return "木门";
                         break;
 
                 case WardState::warded:
-                        return "warded door";
+                        return "结界门";
                         break;
 
                 case WardState::unwarded:
-                        return "unwarded door";
+                        return "未设结界的门";
                         break;
                 };
                 break;
 
         case DoorType::metal:
-                ret = "metal door";
+                ret = "金属门";
                 break;
 
         case DoorType::gate:
-                ret = "barred gate";
+                ret = "栅栏门";
                 break;
         }
 
@@ -1084,15 +1084,15 @@ std::string Door::base_name_short() const
 
         switch (m_type) {
         case DoorType::wood:
-                ret = "door";
+                ret = "门";
                 break;
 
         case DoorType::metal:
-                ret = "door";
+                ret = "门";
                 break;
 
         case DoorType::gate:
-                ret = "barred gate";
+                ret = "栅栏门";
                 break;
         }
 
@@ -1112,29 +1112,29 @@ std::string Door::name(const Article article) const
         std::string mod;
 
         if (m_burn_state == BurnState::burning) {
-                a = (article == Article::a) ? "a " : "the ";
+                a = (article == Article::a) ? "一个 " : "这 ";
 
-                mod = "burning ";
+                mod = "燃烧 ";
         }
 
         if (m_is_open) {
                 if (a.empty()) {
-                        a = (article == Article::a) ? "an " : "the ";
+                        a = (article == Article::a) ? "一个 " : "这 ";
                 }
 
-                mod += "open ";
+                mod += "打开 ";
         }
 
         if (m_is_stuck && m_is_known_stuck) {
-                mod = "stuck ";
+                mod = "卡住 ";
         }
 
         if (a.empty()) {
                 if (m_ward_state == WardState::unwarded) {
-                        a = (article == Article::a) ? "an " : "the ";
+                        a = (article == Article::a) ? "一个 " : "这 ";
                 }
                 else {
-                        a = (article == Article::a) ? "a " : "the ";
+                        a = (article == Article::a) ? "一个 " : "这 ";
                 }
         }
 
@@ -1195,15 +1195,15 @@ std::optional<map::MinimapAppearance> Door::minimap_appearance() const
 
         if (type() == terrain::DoorType::metal) {
                 appearance.color = colors::light_teal();
-                appearance.legend_text = "Door (metal)";
+                appearance.legend_text = "金属门";
         }
         else if (is_warded()) {
                 appearance.color = colors::light_red();
-                appearance.legend_text = "Door (warded)";
+                appearance.legend_text = "结界门";
         }
         else {
                 appearance.color = colors::light_white();
-                appearance.legend_text = "Door";
+                appearance.legend_text = "门";
         }
 
         return appearance;
@@ -1348,12 +1348,12 @@ void Door::bump(actor::Actor& actor_bumping)
                 if (m_ward_state == WardState::warded) {
                         // Print a message as a rationale as to how a blind
                         // player can know that the door is warded.
-                        msg_log::add("Something gives me a foreboding feeling.");
+                        msg_log::add("有什么东西让我感到不祥。");
                 }
 
                 const std::string name_a = text_format::first_to_lower(name(Article::a));
 
-                msg_log::add("There is " + name_a + " here.");
+                msg_log::add("有 " + name_a + " 在这里。");
 
                 const bool is_known_stuck_before = m_is_known_stuck;
 
@@ -1405,12 +1405,12 @@ void Door::bump(actor::Actor& actor_bumping)
                         // redundant to refer to it as a warded door here
                         // (already done previously).
                         do_query = true;
-                        query_msg = "Attempt to open it?";
+                        query_msg = "尝试打开它？";
                 }
                 else if (m_ward_state == WardState::warded) {
                         do_query = true;
                         std::string door_name = text_format::first_to_lower(name(Article::a));
-                        query_msg = "Open " + door_name + "?";
+                        query_msg = "打开 " + door_name + "?";
                 }
 
                 if (do_query) {
@@ -1454,7 +1454,7 @@ void Door::reveal(const PrintRevealMsg print_reveal_msg)
                 (print_reveal_msg == PrintRevealMsg::yes);
 
         if (is_hidden_before && allow_print) {
-                msg_log::add("A secret is revealed.");
+                msg_log::add("一个秘密被揭开。");
         }
 
         // If the player is adjacent, also reveal stuck status to avoid an
@@ -1494,7 +1494,7 @@ void Door::reveal_stuck_status(const PrintRevealMsg print_reveal_msg)
                 if (allow_print) {
                         const std::string door_name = base_name_short();
 
-                        msg_log::add("The " + door_name + " seems to be stuck.");
+                        msg_log::add("这 " + door_name + " 似乎卡住了。");
                 }
         }
 }
@@ -1534,9 +1534,9 @@ bool Door::actor_try_jam(actor::Actor& actor_trying)
         if (is_player) {
                 m_is_known_stuck = true;
 
-                std::string a = tryer_is_blind ? "a " : "the ";
+                std::string a = tryer_is_blind ? "一个 " : "这 ";
 
-                msg_log::add("I jam " + a + base_name_short() + " with a spike.");
+                msg_log::add("我卡住了 " + a + base_name_short() + " 带着一根尖刺。");
         }
 
         game_time::tick();
@@ -1552,10 +1552,10 @@ void Door::actor_try_close(actor::Actor& actor_trying)
         if (!m_is_open) {
                 if (is_player) {
                         if (is_door_seen) {
-                                msg_log::add("I see nothing there to close.");
+                                msg_log::add("我看不到那里有什么可以关上的东西。");
                         }
                         else {
-                                msg_log::add("I find nothing there to close.");
+                                msg_log::add("那里没有东西可关。");
                         }
                 }
 
@@ -1586,8 +1586,7 @@ void Door::actor_try_close(actor::Actor& actor_trying)
 
                         if (is_player) {
                                 msg_log::add(
-                                        "The door is currently being opened, "
-                                        "and cannot be closed.");
+                                        "门正在打开，目前无法关上。");
                         }
 
                         return;
@@ -1617,13 +1616,13 @@ void Door::actor_try_close(actor::Actor& actor_trying)
                         if (is_door_seen) {
                                 // Can see
                                 msg_log::add(
-                                        "The " +
+                                        "这 " +
                                         base_name_short() +
-                                        " is blocked.");
+                                        " 被挡住了。");
                         }
                         else {
                                 msg_log::add(
-                                        "Something is blocking the " +
+                                        "有什么东西挡住了 " +
                                         base_name_short() +
                                         ".");
                         }
@@ -1701,7 +1700,7 @@ void Door::actor_try_open(actor::Actor& actor_trying)
                 TRACE << "Is stuck" << std::endl;
 
                 if (is_player) {
-                        msg_log::add("The " + base_name_short() + " seems to be stuck.");
+                        msg_log::add("这 " + base_name_short() + " 似乎卡住了。");
                 }
         }
         else {
@@ -1814,7 +1813,7 @@ DidOpen Door::open(actor::Actor* const actor_opening)
         if (map::g_seen.at(m_pos)) {
                 const std::string name = base_name();
 
-                msg_log::add("The " + name + " opens.");
+                msg_log::add("这 " + name + " 打开了。");
         }
 
         if (actor_opening) {
@@ -1836,7 +1835,7 @@ DidClose Door::close(actor::Actor* const actor_closing)
         if (map::g_seen.at(m_pos)) {
                 const std::string name = base_name();
 
-                msg_log::add("The " + name + " closes.");
+                msg_log::add("这 " + name + " 关闭了。");
         }
 
         return DidClose::yes;
@@ -1898,7 +1897,7 @@ void Door::try_trigger_ward_trap()
         const std::vector<std::string> summon_bucket = get_warded_door_summon_bucket();
 
         if (!summon_bucket.empty()) {
-                msg_log::add("Something approaches...");
+                msg_log::add("有什么东西靠近了……");
 
                 const std::string id_to_spawn = rnd::element(summon_bucket);
 

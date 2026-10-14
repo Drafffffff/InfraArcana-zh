@@ -1,0 +1,1258 @@
+[
+  {
+    "source": "Warn before drinking potions that are known to be malignant.",
+    "target": "饮用已知有害的药水前发出警告。",
+    "locations": [
+      "src/config.cpp:1818"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn before lighting explosives",
+    "target": "点燃爆炸物前发出警告",
+    "locations": [
+      "src/config.cpp:1790"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn before throwing \"valuable\" items such as potions.",
+    "target": "投掷药水等“贵重”物品前发出警告。",
+    "locations": [
+      "src/config.cpp:1762"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn if attempting to perform a close combat melee attack with a ranged weapon (such as a pistol), which is possible but perhaps unintended.",
+    "target": "尝试用远程武器（如手枪）进行近战攻击时发出警告；虽然可以这样做，但可能并非本意。",
+    "locations": [
+      "src/config.cpp:1846"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn lighting explosive",
+    "target": "点燃爆炸物时警告",
+    "locations": [
+      "src/config.cpp:1784"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn malign potion",
+    "target": "饮用有害药水时警告",
+    "locations": [
+      "src/config.cpp:1812"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn ranged weapon melee",
+    "target": "用远程武器进行近战时警告",
+    "locations": [
+      "src/config.cpp:1840"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Warn throwing valuable item",
+    "target": "投掷贵重物品时警告",
+    "locations": [
+      "src/config.cpp:1756"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "warn_on_drink_malign_potion",
+    "target": "饮用有害药水时警告",
+    "locations": [
+      "src/config.cpp:407",
+      "src/config.cpp:467"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "warn_on_light_explosive",
+    "target": "点燃爆炸物时警告",
+    "locations": [
+      "src/config.cpp:406",
+      "src/config.cpp:466"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "warn_on_ranged_wpn_melee",
+    "target": "用远程武器进行近战时警告",
+    "locations": [
+      "src/config.cpp:408",
+      "src/config.cpp:468"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "warn_on_throw_valuable",
+    "target": "投掷贵重物品时警告",
+    "locations": [
+      "src/config.cpp:405",
+      "src/config.cpp:465"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Which extra trait do you start with?",
+    "target": "开局时额外获得哪个特质？",
+    "locations": [
+      "src/create_character.cpp:122"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "window_px_h",
+    "target": "窗口像素高度",
+    "locations": [
+      "src/config.cpp:367",
+      "src/config.cpp:448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "window_px_w",
+    "target": "窗口像素宽度",
+    "locations": [
+      "src/config.cpp:366",
+      "src/config.cpp:447"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "x",
+    "target": "x",
+    "locations": [
+      "src/config.cpp:1367",
+      "src/config.cpp:231",
+      "src/config.cpp:258",
+      "src/config.cpp:260",
+      "src/config.cpp:282",
+      "src/io.cpp:101",
+      "src/io.cpp:198",
+      "src/io.cpp:223",
+      "src/io.cpp:227",
+      "src/io_window.cpp:148",
+      "src/io_window.cpp:172",
+      "src/io_window.cpp:177",
+      "src/io_window.cpp:208",
+      "src/io_window.cpp:261",
+      "src/io_window.cpp:266",
+      "src/map_templates.cpp:381",
+      "src/panel.cpp:219",
+      "src/panel.cpp:46"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Yes",
+    "target": "是",
+    "locations": [
+      "src/config.cpp:1119",
+      "src/config.cpp:1148",
+      "src/config.cpp:1177",
+      "src/config.cpp:1270",
+      "src/config.cpp:1496",
+      "src/config.cpp:1528",
+      "src/config.cpp:1560",
+      "src/config.cpp:1588",
+      "src/config.cpp:1621",
+      "src/config.cpp:1653",
+      "src/config.cpp:1739",
+      "src/config.cpp:1767",
+      "src/config.cpp:1795",
+      "src/config.cpp:1823",
+      "src/config.cpp:1853",
+      "src/config.cpp:1886",
+      "src/config.cpp:1915",
+      "src/config.cpp:941",
+      "src/config.cpp:975",
+      "src/highscore.cpp:363"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\nAverage damage done per item id (per weight unit):",
+    "target": "\n每种物品 ID（每重量单位）造成的平均伤害：",
+    "locations": [
+      "src/game_commands.cpp:1332"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "    d.stairs_side: ",
+    "target": "    d.stairs_side： ",
+    "locations": [
+      "src/mapgen_chokepoint_data.cpp:247"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " (because they are unaware)",
+    "target": " （因为它们尚未察觉）",
+    "locations": [
+      "src/view_actor_descr.cpp:339"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " (but will pursue any threat once aware)",
+    "target": " （但一旦察觉就会追击任何威胁）",
+    "locations": [
+      "src/view_actor_descr.cpp:548"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " (ending)",
+    "target": " （结束）",
+    "locations": [
+      "src/property_handler.cpp:154"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " (indefinite)",
+    "target": " （无限）",
+    "locations": [
+      "src/property_handler.cpp:876"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - at position: ",
+    "target": " - 位置： ",
+    "locations": [
+      "src/io.cpp:196",
+      "src/io.cpp:99"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " - REMOVED",
+    "target": " - 已移除",
+    "locations": [
+      "src/game_over_summary.cpp:181"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " [select] to view game summary ",
+    "target": " [select] 查看游戏总结 ",
+    "locations": [
+      "src/highscore.cpp:301"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " a curious shape on",
+    "target": " 一个好奇的形状出现在",
+    "locations": [
+      "src/terrain_trap.cpp:87"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Accelerating Pylon",
+    "target": " 加速尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:330"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " adopted monster '",
+    "target": " 收服的怪物 '",
+    "locations": [
+      "src/actor_std_turn.cpp:112"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " again!",
+    "target": " 又来了！",
+    "locations": [
+      "src/player_spells.cpp:492"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " alarm trap",
+    "target": " 警报陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:453"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " appears to grow in spirit.",
+    "target": " 精神似乎有所增长。",
+    "locations": [
+      "src/actor_common.cpp:618"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " appears to move{_}",
+    "target": " 似乎在移动{_}",
+    "locations": [
+      "src/view_actor_descr.cpp:176"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " appears to shrink in spirit.",
+    "target": " 精神似乎有所减少。",
+    "locations": [
+      "src/actor_common.cpp:621"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " at ",
+    "target": " 位于 ",
+    "locations": [
+      "src/player_bon.cpp:85"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " bashes at the ",
+    "target": " 猛击 ",
+    "locations": [
+      "src/ai.cpp:288"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " blinding trap",
+    "target": " 致盲陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:341"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Browsing high scores ",
+    "target": " 浏览高分榜 ",
+    "locations": [
+      "src/highscore.cpp:291"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Browsing manual ",
+    "target": " 浏览手册 ",
+    "locations": [
+      "src/manual.cpp:142"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " catches fire.",
+    "target": " 着火了。",
+    "locations": [
+      "src/terrain.cpp:418"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " cells)",
+    "target": " 格）",
+    "locations": [
+      "src/mapgen_stairs.cpp:53",
+      "src/mapgen_utils.cpp:648"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Cloaking Pylon",
+    "target": " 隐形尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:249"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " closes.",
+    "target": " 关闭了。",
+    "locations": [
+      "src/terrain_door.cpp:1839"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " crashes ",
+    "target": " 撞上了 ",
+    "locations": [
+      "src/terrain_door.cpp:243",
+      "src/terrain_door.cpp:246",
+      "src/terrain_door.cpp:280",
+      "src/terrain_door.cpp:283"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " crystal",
+    "target": " 水晶",
+    "locations": [
+      "src/terrain.cpp:2135"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " dart trap",
+    "target": " 飞镖陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:268"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " deafening trap",
+    "target": " 震耳陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:369"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " drops ",
+    "target": " 掉落了 ",
+    "locations": [
+      "src/drop.cpp:112"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " experience points",
+    "target": " 点经验值",
+    "locations": [
+      "src/game_over_summary.cpp:68"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " feeds on ",
+    "target": " 吸食了 ",
+    "locations": [
+      "src/actor_eat.cpp:107"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " fervor",
+    "target": " 狂热值",
+    "locations": [
+      "src/player_bon.cpp:123"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " fire trap",
+    "target": " 火焰陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:425"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " for user data",
+    "target": " 用户数据",
+    "locations": [
+      "src/paths.cpp:163",
+      "src/paths.cpp:183"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " force field",
+    "target": " 力场",
+    "locations": [
+      "src/terrain_mob.cpp:290"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " fountain",
+    "target": " 喷泉",
+    "locations": [
+      "src/terrain.cpp:4307"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " from memory.",
+    "target": " 从记忆中消失了。",
+    "locations": [
+      "src/player_spells.cpp:414"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " From previous monster ",
+    "target": " 来自之前的怪物 ",
+    "locations": [
+      "src/property.cpp:944"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " fumbles blindly, and fails to open a ",
+    "target": " 摸索着没能打开一扇 ",
+    "locations": [
+      "src/terrain_door.cpp:490"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " fumbles with ",
+    "target": " 摸索着 ",
+    "locations": [
+      "src/reload.cpp:55"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " guides us!",
+    "target": " 指引我们！",
+    "locations": [
+      "src/actor_mon.cpp:211"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " has faded from my memory, I can no longer cast it.",
+    "target": " 已从我的记忆中消失，我再也无法施放它了。",
+    "locations": [
+      "src/player_spells.cpp:98"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " has no spirit left!",
+    "target": " 精神值耗尽了！",
+    "locations": [
+      "src/actor_hit.cpp:521"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " here!",
+    "target": " 在这里！",
+    "locations": [
+      "src/actor_player.cpp:302",
+      "src/terrain_trap.cpp:635"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " here.",
+    "target": " 在这里。",
+    "locations": [
+      "src/terrain_door.cpp:1356"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " here. Drink from it?",
+    "target": " 在这里。要喝一口吗？",
+    "locations": [
+      "src/terrain.cpp:4355"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " hit",
+    "target": " 击中",
+    "locations": [
+      "src/item.cpp:530"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " intercepts my teleportation!",
+    "target": " 阻止了我的传送！",
+    "locations": [
+      "src/teleport.cpp:114"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " iron spikes left.",
+    "target": " 根铁刺剩余。",
+    "locations": [
+      "src/close.cpp:104"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is ",
+    "target": " 是 ",
+    "locations": [
+      "src/view_actor_descr.cpp:237"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is already loaded.",
+    "target": " 已经装填。",
+    "locations": [
+      "src/reload.cpp:157"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is blocked.",
+    "target": " 被挡住了。",
+    "locations": [
+      "src/terrain_door.cpp:1622"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is blown to pieces!",
+    "target": " 被炸得粉碎！",
+    "locations": [
+      "src/terrain_door.cpp:783"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is completely devoured.",
+    "target": " 被彻底吞噬。",
+    "locations": [
+      "src/actor_eat.cpp:120"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is currently{_}{COLOR_LIGHT_GREEN}",
+    "target": " 当前状态为{_}{COLOR_LIGHT_GREEN}",
+    "locations": [
+      "src/view_actor_descr.cpp:360"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is deactivated.",
+    "target": " 已停用。",
+    "locations": [
+      "src/marker.cpp:1249"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is destroyed.",
+    "target": " 被摧毁了。",
+    "locations": [
+      "src/actor_hit.cpp:139",
+      "src/terrain_mirror.cpp:100",
+      "src/terrain_pylon.cpp:617"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is entangled in a huge spider web!",
+    "target": " 被困在巨大的蜘蛛网上！",
+    "locations": [
+      "src/terrain_trap.cpp:1240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is hit.",
+    "target": " 被击中了。",
+    "locations": [
+      "src/throwing.cpp:61"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is in my view.",
+    "target": " 在我的视野内。",
+    "locations": [
+      "src/actor_start_turn.cpp:286"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is jammed.",
+    "target": " 卡住了。",
+    "locations": [
+      "src/marker.cpp:1203"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is knocked back!",
+    "target": " 被击退了！",
+    "locations": [
+      "src/knockback.cpp:120"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is not writable, falling back to calling SDL_GetPrefPath or using the game directory to store user data.",
+    "target": " 不可写入，将改为调用 SDL_GetPrefPath，或使用游戏目录存储用户数据。",
+    "locations": [
+      "src/paths.cpp:111"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is scorched by flames.",
+    "target": " 被火焰灼烧。",
+    "locations": [
+      "src/terrain.cpp:131"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is torn apart!",
+    "target": " 被撕成碎片！",
+    "locations": [
+      "src/actor_hit.cpp:51"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " is wielding ",
+    "target": " 手持着 ",
+    "locations": [
+      "src/view_actor_descr.cpp:270"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Known spells ",
+    "target": " 已知法术 ",
+    "locations": [
+      "src/player_spells.cpp:646"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " lit flare",
+    "target": " 点燃的信号棒",
+    "locations": [
+      "src/terrain_mob.cpp:388"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " lit stick of dynamite",
+    "target": " 点燃的炸药棒",
+    "locations": [
+      "src/terrain_mob.cpp:328"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks desperate.",
+    "target": " 看起来很绝望。",
+    "locations": [
+      "src/ai.cpp:122"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks frailer.",
+    "target": " 看起来更虚弱了。",
+    "locations": [
+      "src/actor_common.cpp:588"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks healthier.",
+    "target": " 看起来更健康了。",
+    "locations": [
+      "src/actor_common.cpp:515"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks more spirited.",
+    "target": " 看起来精神更振奋了。",
+    "locations": [
+      "src/actor_common.cpp:552"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " looks more vigorous.",
+    "target": " 看起来更有活力了。",
+    "locations": [
+      "src/actor_common.cpp:585"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " monsters",
+    "target": " 只怪物",
+    "locations": [
+      "src/game_over_summary.cpp:64"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " ms",
+    "target": " 毫秒",
+    "locations": [
+      "src/map_builder.cpp:134"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " of ",
+    "target": " 的 ",
+    "locations": [
+      "src/msg_log.cpp:758"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " on terrain ",
+    "target": " 地形上 ",
+    "locations": [
+      "src/property.cpp:946"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " open awkwardly.",
+    "target": " 笨拙地打开。",
+    "locations": [
+      "src/terrain_door.cpp:438"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " opening.",
+    "target": " 正在开启。",
+    "locations": [
+      "src/terrain_door.cpp:376"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " opens a ",
+    "target": " 打开了一扇 ",
+    "locations": [
+      "src/terrain_door.cpp:373"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " opens.",
+    "target": " 打开了。",
+    "locations": [
+      "src/terrain_door.cpp:1817"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " perishes in the depths.",
+    "target": " 葬身深渊。",
+    "locations": [
+      "src/knockback.cpp:134"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " prevents closing ",
+    "target": " 阻止关闭 ",
+    "locations": [
+      "src/marker.cpp:1147"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " reloads.",
+    "target": " 重新装填。",
+    "locations": [
+      "src/reload.cpp:118"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " remembers hostile creatures for a {COLOR_DARK_YELLOW}very long time{reset_color}.",
+    "target": " 能将敌对生物记忆{COLOR_DARK_YELLOW}很长时间{reset_color}。",
+    "locations": [
+      "src/view_actor_descr.cpp:137"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Repelling Pylon",
+    "target": " 排斥尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:370"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " save us!",
+    "target": " 拯救我们！",
+    "locations": [
+      "src/actor_mon.cpp:206"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " seems cleansed!",
+    "target": " 似乎已被净化！",
+    "locations": [
+      "src/terrain.cpp:2016",
+      "src/terrain_gong.cpp:560"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " seems clearer.",
+    "target": " 似乎更清澈了。",
+    "locations": [
+      "src/terrain.cpp:4497"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " seems murkier.",
+    "target": " 似乎更浑浊了。",
+    "locations": [
+      "src/terrain.cpp:4530"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " seems to be stuck.",
+    "target": " 似乎卡住了。",
+    "locations": [
+      "src/terrain_door.cpp:1497",
+      "src/terrain_door.cpp:1704"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " seeps ",
+    "target": " 渗出 ",
+    "locations": [
+      "src/actor_move.cpp:194"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " sees me!",
+    "target": " 看见我了！",
+    "locations": [
+      "src/actor_mon.cpp:460"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Slowing Pylon",
+    "target": " 减速尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:290"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " slowly through the knee high ",
+    "target": " 缓慢穿过齐膝深的 ",
+    "locations": [
+      "src/terrain.cpp:1943"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " smoke trap",
+    "target": " 烟雾陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:397"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " something!",
+    "target": " 什么东西！",
+    "locations": [
+      "src/bash.cpp:86"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spear trap",
+    "target": " 长矛陷阱",
+    "locations": [
+      "include/terrain_trap.hpp:304"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spider web",
+    "target": " 蜘蛛网",
+    "locations": [
+      "include/terrain_trap.hpp:488"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spirit",
+    "target": " 精神值",
+    "locations": [
+      "src/player_bon.cpp:117"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " spirit to cast.",
+    "target": " 点精神值才能施法。",
+    "locations": [
+      "src/player_bon.cpp:107"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " squirms through ",
+    "target": " 扭动着穿过 ",
+    "locations": [
+      "src/actor_move.cpp:204"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " strange shape on the floor",
+    "target": " 地板上的奇怪形状",
+    "locations": [
+      "include/terrain_trap.hpp:531"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " struggles to pull free.",
+    "target": " 挣扎着想要挣脱。",
+    "locations": [
+      "src/property.cpp:574"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " struggles to tear free.",
+    "target": " 挣扎着想撕开束缚。",
+    "locations": [
+      "src/property.cpp:491"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Teleporting Pylon",
+    "target": " 传送尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:433"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Terror Pylon",
+    "target": " 恐惧尖塔",
+    "locations": [
+      "src/terrain_pylon.cpp:478"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " the floor!",
+    "target": " 地板！",
+    "locations": [
+      "src/terrain_trap.cpp:90"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " This spell costs ",
+    "target": " 此法术消耗 ",
+    "locations": [
+      "src/player_bon.cpp:105"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " throws ",
+    "target": " 投掷了 ",
+    "locations": [
+      "src/throwing.cpp:252"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " to ",
+    "target": " 到 ",
+    "locations": [
+      "src/mapgen_merge_regions.cpp:107"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " to behold",
+    "target": " 令人叹为观止",
+    "locations": [
+      "src/view_actor_descr.cpp:244"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " topples over.",
+    "target": " 倒下了。",
+    "locations": [
+      "src/terrain.cpp:237"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " Viewing map ",
+    "target": " 查看地图 ",
+    "locations": [
+      "src/minimap.cpp:127"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " was possessed by ",
+    "target": " 被 ",
+    "locations": [
+      "src/property.cpp:765"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " watches over us!",
+    "target": " 守护我们！",
+    "locations": [
+      "src/actor_mon.cpp:208",
+      "src/actor_mon.cpp:209"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " will remember hostile creatures for at least {COLOR_DARK_YELLOW}",
+    "target": " 至少会记住敌对生物{COLOR_DARK_YELLOW}",
+    "locations": [
+      "src/view_actor_descr.cpp:128"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " will save us!",
+    "target": " 会拯救我们！",
+    "locations": [
+      "src/actor_mon.cpp:207"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " with a melee attack is currently{_}{COLOR_LIGHT_GREEN}",
+    "target": " 近战攻击当前状态为{_}{COLOR_LIGHT_GREEN}",
+    "locations": [
+      "src/view_actor_descr.cpp:330"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " with a melee attack or kicking is currently{_}{COLOR_LIGHT_GREEN}",
+    "target": " 近战攻击或踢击当前状态为{_}{COLOR_LIGHT_GREEN}",
+    "locations": [
+      "src/view_actor_descr.cpp:322"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " with a spike.",
+    "target": " 带着一根尖刺。",
+    "locations": [
+      "src/terrain_door.cpp:1539"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": " with more ammo than already loaded.",
+    "target": " 装填的弹药更多。",
+    "locations": [
+      "src/reload.cpp:224"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "\" has wrong size: ",
+    "target": "”尺寸错误： ",
+    "locations": [
+      "src/io.cpp:221"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "\"(+1)\" means that this weapon does one extra point of",
+    "target": "“(+1)”表示这把武器的伤害额外增加一点",
+    "locations": [
+      "installed_files/manual.txt:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\"+0%\" is this weapon's hit chance modifier (the total",
+    "target": "“+0%”是这把武器的命中率修正值（总",
+    "locations": [
+      "installed_files/manual.txt:115"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\", attribute \"",
+    "target": "”，属性“",
+    "locations": [
+      "src/xml.cpp:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\", tinyxml2 reported error code: ",
+    "target": "”，tinyxml2 报告错误代码： ",
+    "locations": [
+      "src/xml.cpp:113",
+      "src/xml.cpp:140",
+      "src/xml.cpp:93"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "\"8.0\" is your average damage with this weapon",
+    "target": "“8.0”是你使用这把武器时的平均伤害",
+    "locations": [
+      "installed_files/manual.txt:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\"A few steps more, and our breaths were literally snatched from us by what we saw; so literally that Thornton, the psychic investigator, actually fainted in the arms of the dazed man who stood behind him. Norrys, his plump face utterly white and flabby, simply cried out inarticulately; whilst I think that what I did was to gasp or hiss, and cover my eyes. The man behind me - the only one of the party older than I - croaked the hackneyed \"My God!\" in the most cracked voice I ever heard. Of seven cultivated men, only Sir William Brinton retained his composure; a thing the more to his credit because he led the party and must have seen the sight first.\"-H.P. Lovecraft, \"Rats in the Walls\"",
+    "target": "“再往前走几步，我们看到的景象几乎夺走了我们的呼吸；说是几乎夺走，因为那位通灵调查员桑顿竟真的昏倒在身后那名惊愕男子的怀里。诺里斯那张圆润的脸苍白而松弛，只会含糊地喊叫；我想我则是倒抽一口气，或是发出嘶声，并捂住双眼。我身后的那个人——一行人中唯一年长于我的——用我听过最嘶哑的声音，干巴巴地喊出那句陈词滥调：“天哪！”七位受过良好教育的男子中，只有威廉·布林顿爵士保持了镇定；这更值得称赞，因为他是队伍的领头人，也必定是第一个看到那景象的人。”——H·P·洛夫克רא夫特，《墙中之鼠》",
+    "locations": [
+      "installed_files/manual.txt:206"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "\"There flapped rhythmically a horde of tame, trained, hybrid winged things... not altogether crows, nor moles, nor buzzards, nor ants, nor decomposed human beings, but something I cannot and must not recall.\"-H.P. Lovecraft, \"The Festival\".",
+    "target": "“一大群驯养、训练有素的杂交飞翼生物有节奏地拍打着翅膀……它们既不全是乌鸦，也不是鼹鼠、秃鹫、蚂蚁或腐烂的人类尸体，而是某种我不能、也不该回忆的东西。”——H·P·洛夫克רא夫特，《节日》",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/description"
+    ],
+    "kind": "ui"
+  }
+]

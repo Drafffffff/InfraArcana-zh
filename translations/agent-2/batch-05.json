@@ -1,0 +1,1236 @@
+[
+  {
+    "source": "Invocation",
+    "target": "祈求",
+    "locations": [
+      "src/spells.cpp:983"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Iron",
+    "target": "铁",
+    "locations": [
+      "src/item_rod.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Iron Spike",
+    "target": "铁钉",
+    "locations": [
+      "src/item_data.cpp:1130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Iron Spikes",
+    "target": "铁钉",
+    "locations": [
+      "src/item_data.cpp:1130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Iron Suit",
+    "target": "铁套装",
+    "locations": [
+      "src/item_data.cpp:1448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ISTASHA",
+    "target": "伊斯塔沙",
+    "locations": [
+      "src/item_curse.cpp:557"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It",
+    "target": "它",
+    "locations": [
+      "src/attack_melee.cpp:225",
+      "src/attack_melee.cpp:89",
+      "src/attack_ranged.cpp:267",
+      "src/item_weapon.cpp:636",
+      "src/knockback.cpp:99",
+      "src/property_handler.cpp:940",
+      "src/spells.cpp:1695",
+      "src/view_actor_descr.cpp:262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it",
+    "target": "它",
+    "locations": [
+      "src/actor_move.cpp:100",
+      "src/attack.cpp:106",
+      "src/attack_melee.cpp:102",
+      "src/attack_melee.cpp:134",
+      "src/attack_melee.cpp:241",
+      "src/item_potion.cpp:390",
+      "src/terrain_trap.cpp:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It also dispels all seen magic traps (\"strange shape\" on the floor). For each trap dispelled, 1-6 spirit points are gained, which may raise spirit above maximum level.",
+    "target": "它还消除了所有看到的魔法陷阱（地板上的“奇怪形状”）。每消除一个陷阱，就会获得 1-6 点精神值，这可能会将精神提升到最高等级以上。",
+    "locations": [
+      "src/item_data.cpp:2300"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It belongs to the \"",
+    "target": "它属于“",
+    "locations": [
+      "src/spells.cpp:1347"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it calls deadly interdimensional beings into the existence of the owner.",
+    "target": "它召唤致命的跨维度生物进入其主人的存在。",
+    "locations": [
+      "src/item_curse.cpp:707"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It can absorb a high amount of damage, but it makes movement a lot more difficult (-20% stealth, -20% dodging).",
+    "target": "它能吸收大量伤害，但会使移动更加困难（潜行 -20%，闪避 -20%）。",
+    "locations": [
+      "src/item_data.cpp:1453"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It can deal devastating damage, although it is cumbersome to carry, and it requires some skill to use effectively.",
+    "target": "它可以造成毁灭性的伤害，尽管携带起来很麻烦，并且需要一些技巧才能有效使用。",
+    "locations": [
+      "src/item_data.cpp:1112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It has a hit chance modifier of ",
+    "target": "它的命中率修正为 ",
+    "locations": [
+      "src/inventory_handling.cpp:651"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "It hits me with a jolt of electricity!",
+    "target": "它让我感到一阵电击！",
+    "locations": [
+      "src/item_device.cpp:217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is ",
+    "target": "这是 ",
+    "locations": [
+      "src/inventory_handling.cpp:592"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "it is a burden on the mind of the owner (+10% minimum shock).",
+    "target": "它会成为持有者精神上的负担（最低震慑 +10%）。",
+    "locations": [
+      "src/item_curse.cpp:453"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is difficult to tell whether it is stone, metal, or perhaps even something organic. It seems to be ever-changing, internally twisting, turning, and flowing.",
+    "target": "很难判断它是石头、金属，还是有机物。它看似千变万化，内在扭曲、转动、流动。",
+    "locations": [
+      "src/item_data.cpp:2328"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it is inexplicably heavy for its size.",
+    "target": "就其尺寸而言，它的重量令人难以理解。",
+    "locations": [
+      "src/item_curse.cpp:466"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is of no use to me.",
+    "target": "这对我来说没有用。",
+    "locations": [
+      "src/item_misc.cpp:128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is somewhat bulky to wear (-10% stealth, -10% dodging).",
+    "target": "穿戴起来有些笨重（潜行 -10%，闪避 -10%）。",
+    "locations": [
+      "src/item_data.cpp:1495"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It makes no sound.",
+    "target": "它没有发出任何声音。",
+    "locations": [
+      "src/item_misc.cpp:715",
+      "src/item_misc.cpp:789"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it makes the owner less accurate (-10% hit chance with melee and ranged attacks).",
+    "target": "它使所有者的准确度降低（近战和远程攻击的命中率-10%）。",
+    "locations": [
+      "src/item_curse.cpp:426"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it occasionally emits a disembodied voice in a horrible shrieking tone.",
+    "target": "它偶尔会发出一种空洞的声音，带有可怕的尖叫声。",
+    "locations": [
+      "src/item_curse.cpp:627"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it occasionally teleports the wearer.",
+    "target": "它偶尔会传送佩戴者。",
+    "locations": [
+      "src/item_curse.cpp:669"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It offers decent protection, at the cost of making movement slightly more difficult (-5% stealth, -5% dodging).",
+    "target": "它提供了不错的防护，但穿戴后行动会稍显迟缓（潜行 -5%，闪避 -5%）。",
+    "locations": [
+      "src/item_data.cpp:1433"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It offers some protection.",
+    "target": "它提供了一些保护。",
+    "locations": [
+      "src/item_data.cpp:1419"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It offers very good protection for its weight, but is somewhat bulky to wear (-10% stealth, -10% dodging).",
+    "target": "以其重量而言，它提供的防护相当出色，但穿戴起来略显笨重（潜行 -10%，闪避 -10%）。",
+    "locations": [
+      "src/item_data.cpp:1472"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it prevents the owner from comprehending written language.",
+    "target": "它阻止所有者理解书面语言。",
+    "locations": [
+      "src/item_curse.cpp:791"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It protects the wearer against fire and electricity, and also against smoke, fumes and gas.",
+    "target": "它可以保护佩戴者免受火、电、烟雾和气体的侵害。",
+    "locations": [
+      "src/item_data.cpp:1492"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It repairs my body.",
+    "target": "它修复我的身体。",
+    "locations": [
+      "src/item_device.cpp:321"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It seems ",
+    "target": "它似乎 ",
+    "locations": [
+      "src/item_device.cpp:115"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "It seems to peruse area.",
+    "target": "看来是要细读区域了。",
+    "locations": [
+      "src/item_device.cpp:290",
+      "src/item_device.cpp:360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It should be possible to pronounce it correctly, but the purpose is unclear.",
+    "target": "应该可以正确发音，但目的不明。",
+    "locations": [
+      "src/item_data.cpp:217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "it spontaneously sets objects around the caster on fire.",
+    "target": "它会自发地使施法者周围的物体着火。",
+    "locations": [
+      "src/item_curse.cpp:765"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It suddenly stops.",
+    "target": "它突然停止了。",
+    "locations": [
+      "src/item_device.cpp:228"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It triggers a shock wave around me.",
+    "target": "它在我周围引发了冲击波。",
+    "locations": [
+      "src/item_rod.cpp:377"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It will not move.",
+    "target": "它不会动。",
+    "locations": [
+      "src/item_misc.cpp:1001"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It's too dark to read here.",
+    "target": "这里太黑了，不适合读书。",
+    "locations": [
+      "src/item_scroll.cpp:349"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ITHAQUA",
+    "target": "伊塔夸",
+    "locations": [
+      "src/item_curse.cpp:558"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "kick",
+    "target": "踢",
+    "locations": [
+      "src/item_data.cpp:1152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "kicks",
+    "target": "踢",
+    "locations": [
+      "src/item_data.cpp:1201"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "KING",
+    "target": "国王",
+    "locations": [
+      "src/item_curse.cpp:540"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Klaatu",
+    "target": "克拉图",
+    "locations": [
+      "src/item_scroll.cpp:121"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lead",
+    "target": "带领",
+    "locations": [
+      "src/item_rod.cpp:72"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Leather Jacket",
+    "target": "皮夹克",
+    "locations": [
+      "src/item_data.cpp:1417"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "LIGHT",
+    "target": "光",
+    "locations": [
+      "src/item_curse.cpp:519"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Light ",
+    "target": "光 ",
+    "locations": [
+      "src/item_explosive.cpp:73"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Lithium",
+    "target": "锂",
+    "locations": [
+      "src/item_rod.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lokemundux",
+    "target": "洛克蒙杜克斯",
+    "locations": [
+      "src/item_scroll.cpp:86"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "M1911 Colt",
+    "target": "M1911柯尔特",
+    "locations": [
+      "src/item_data.cpp:578"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "M1911 Colts",
+    "target": "M1911 小马队",
+    "locations": [
+      "src/item_data.cpp:579"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Machete",
+    "target": "弯刀",
+    "locations": [
+      "src/item_data.cpp:978"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Machetes",
+    "target": "砍刀",
+    "locations": [
+      "src/item_data.cpp:978"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Magenta",
+    "target": "品红",
+    "locations": [
+      "src/item_potion.cpp:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Magnesium",
+    "target": "镁",
+    "locations": [
+      "src/item_rod.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Makes the caster invisible to normal vision for a brief time.",
+    "target": "使施法者在正常视力下短时间内隐形。",
+    "locations": [
+      "src/spells.cpp:3226"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Malax",
+    "target": "马拉克斯",
+    "locations": [
+      "src/item_scroll.cpp:105"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Malign",
+    "target": "诽谤",
+    "locations": [
+      "src/item_potion.cpp:350"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "MANIFEST",
+    "target": "显现",
+    "locations": [
+      "src/item_curse.cpp:516"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Manifests an overpowering feeling of dread in the spell's victims.",
+    "target": "使该法术的受害者表现出一种压倒性的恐惧感。",
+    "locations": [
+      "src/spells.cpp:4426"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "manuscript",
+    "target": "手稿",
+    "locations": [
+      "src/spells.cpp:669"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Manuscript of ",
+    "target": "手稿 ",
+    "locations": [
+      "src/item_scroll.cpp:171"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Manuscript titled ",
+    "target": "手稿标题为 ",
+    "locations": [
+      "src/item_scroll.cpp:153"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Manuscripts",
+    "target": "手稿",
+    "locations": [
+      "src/spells.cpp:3688"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Manuscripts and Potions",
+    "target": "手稿和药剂",
+    "locations": [
+      "src/spells.cpp:3692"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Manuscripts of ",
+    "target": "手稿 ",
+    "locations": [
+      "src/item_scroll.cpp:174"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Manuscripts titled ",
+    "target": "手稿标题为 ",
+    "locations": [
+      "src/item_scroll.cpp:156"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Marana",
+    "target": "马拉纳",
+    "locations": [
+      "src/item_scroll.cpp:103"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Maravita",
+    "target": "马拉维塔",
+    "locations": [
+      "src/item_scroll.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "master",
+    "target": "掌握",
+    "locations": [
+      "src/spells.cpp:1010"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "mauls",
+    "target": "大槌",
+    "locations": [
+      "src/item_data.cpp:1364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Maximum control distance is ",
+    "target": "最大控制距离为 ",
+    "locations": [
+      "src/spells.cpp:2677"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Maximum teleport distance is ",
+    "target": "最大传送距离为 ",
+    "locations": [
+      "src/spells.cpp:3778"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "me",
+    "target": "我",
+    "locations": [
+      "src/attack_melee.cpp:234",
+      "src/attack_melee.cpp:95",
+      "src/spells.cpp:2049",
+      "src/spells.cpp:3831",
+      "src/spells.cpp:4491",
+      "src/spells.cpp:5026"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Medical Bag",
+    "target": "医疗袋",
+    "locations": [
+      "src/item_data.cpp:1860"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Medical Bags",
+    "target": "医疗袋",
+    "locations": [
+      "src/item_data.cpp:1860"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks performed with a dagger against an unaware opponent does +200% damage (in addition to the normal +50% damage from stealth attacks).",
+    "target": "使用匕首对不知情的对手进行近战攻击会产生 +200% d 法力（除了隐形攻击的正常 +50% d 法力之外）。",
+    "locations": [
+      "src/item_data.cpp:877"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with axes are noisy.",
+    "target": "用斧头进行近战攻击会很吵。",
+    "locations": [
+      "src/item_data.cpp:1008"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with clubs are silent.",
+    "target": "用棍棒进行近战攻击是无声的。",
+    "locations": [
+      "src/item_data.cpp:934"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with daggers are silent.",
+    "target": "用匕首进行的近战攻击是无声的。",
+    "locations": [
+      "src/item_data.cpp:881"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with hammers are noisy.",
+    "target": "用锤子进行近战攻击会产生噪音。",
+    "locations": [
+      "src/item_data.cpp:961"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with hatchets are silent.",
+    "target": "使用斧头的近战攻击是无声的。",
+    "locations": [
+      "src/item_data.cpp:907"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with machetes are noisy.",
+    "target": "用砍刀进行近战攻击会产生噪音。",
+    "locations": [
+      "src/item_data.cpp:983"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee attacks with spiked maces are noisy.",
+    "target": "使用带刺狼牙棒的近战攻击会产生噪音。",
+    "locations": [
+      "src/item_data.cpp:1035"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Melee weapons with at least +1 damage (not counting any damage bonus from skills) are converted to a Potion or Manuscript, with ",
+    "target": "至少具有 +1 伤害的近战武器（不计算技能造成的任何伤害加成）将转换为药水或手稿，其中 ",
+    "locations": [
+      "src/spells.cpp:5331"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Metallic",
+    "target": "金属色",
+    "locations": [
+      "src/item_potion.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mi-Go Bio-armor",
+    "target": "Mi-Go生物装甲",
+    "locations": [
+      "src/item_data.cpp:1510"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mist",
+    "target": "薄雾",
+    "locations": [
+      "src/item_rod.cpp:581"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Misty",
+    "target": "蒙蒙",
+    "locations": [
+      "src/item_potion.cpp:136"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Moldy",
+    "target": "发霉",
+    "locations": [
+      "src/item_potion.cpp:140"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Molotov Cocktail",
+    "target": "燃烧弹鸡尾酒",
+    "locations": [
+      "src/item_data.cpp:796"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Molotov Cocktails",
+    "target": "燃烧弹鸡尾酒",
+    "locations": [
+      "src/item_data.cpp:796"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Monstrous tentacles rise up from the ground!",
+    "target": "巨大的触手从地面升起！",
+    "locations": [
+      "src/spells.cpp:4642"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Morphic Blaster",
+    "target": "变形冲击波",
+    "locations": [
+      "src/item_data.cpp:448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Morphic Blasters",
+    "target": "变形冲击波",
+    "locations": [
+      "src/item_data.cpp:448"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Muddy",
+    "target": "浑",
+    "locations": [
+      "src/item_potion.cpp:130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Murky",
+    "target": "阴暗的",
+    "locations": [
+      "src/item_potion.cpp:129"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My ",
+    "target": "我的 ",
+    "locations": [
+      "src/actor_hit.cpp:51",
+      "src/item_armor.cpp:67",
+      "src/item_head.cpp:31",
+      "src/reload.cpp:157"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "My Electric Lantern expired",
+    "target": "我的电灯过期了",
+    "locations": [
+      "src/item_misc.cpp:623"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My Electric Lantern has expired.",
+    "target": "我的电灯已经过期了。",
+    "locations": [
+      "src/item_misc.cpp:618"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My healing is disrupted.",
+    "target": "我的康复被打乱了。",
+    "locations": [
+      "src/item_misc.cpp:431"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Necronomicon",
+    "target": "死灵之书",
+    "locations": [
+      "src/item_data.cpp:2214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "necronomicon",
+    "target": "死灵之书",
+    "locations": [
+      "src/spells.cpp:686"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "NEVER",
+    "target": "绝不",
+    "locations": [
+      "src/item_curse.cpp:531"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "NEVER-ENDING",
+    "target": "永无止境",
+    "locations": [
+      "src/item_curse.cpp:530"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nickel",
+    "target": "镍",
+    "locations": [
+      "src/item_rod.cpp:70"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nikto",
+    "target": "尼克托",
+    "locations": [
+      "src/item_scroll.cpp:123"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "non-stackable item: ",
+    "target": "不可堆叠物品： ",
+    "locations": [
+      "src/item_factory.cpp:526"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Not while an enemy is near.",
+    "target": "当敌人靠近时就不会。",
+    "locations": [
+      "src/common_text.cpp:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while burning.",
+    "target": "燃烧时不行。",
+    "locations": [
+      "src/inventory_handling.cpp:1596",
+      "src/inventory_handling.cpp:190",
+      "src/inventory_handling.cpp:986",
+      "src/item_explosive.cpp:50"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while insanity is near.",
+    "target": "当疯狂临近时就不会了。",
+    "locations": [
+      "src/common_text.cpp:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nothing appears.",
+    "target": "什么也没有出现。",
+    "locations": [
+      "src/spells.cpp:5278"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nothing happens.",
+    "target": "什么也没发生。",
+    "locations": [
+      "src/item_misc.cpp:995",
+      "src/item_rod.cpp:213",
+      "src/marker.cpp:1405",
+      "src/marker.cpp:1413",
+      "src/terrain.cpp:2191",
+      "src/terrain_gong.cpp:833",
+      "src/terrain_mirror.cpp:187",
+      "src/terrain_monolith.cpp:134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "NYARLATHOTEP",
+    "target": "尼亚拉托提普",
+    "locations": [
+      "src/item_curse.cpp:553"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "OATH",
+    "target": "誓言",
+    "locations": [
+      "src/item_curse.cpp:512"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Odiosuu",
+    "target": "奥迪奥苏",
+    "locations": [
+      "src/item_scroll.cpp:114"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Odiosux",
+    "target": "奥迪苏克斯",
+    "locations": [
+      "src/item_scroll.cpp:115"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Oily",
+    "target": "油性",
+    "locations": [
+      "src/item_potion.cpp:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "On casting, causes a blinding flash centered on the caster (but not affecting the caster itself). The blinding effect lasts for ",
+    "target": "施法时，会产生以施法者为中心的眩目闪光（但不会影响施法者本身）。致盲效果持续 ",
+    "locations": [
+      "src/spells.cpp:3142"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "On teleporting, the caster is invisible for ",
+    "target": "传送时，施法者是隐形的 ",
+    "locations": [
+      "src/spells.cpp:3784"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Onyx Drop",
+    "target": "玛瑙掉落",
+    "locations": [
+      "src/item_data.cpp:1970"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Opening",
+    "target": "开幕",
+    "locations": [
+      "src/item_rod.cpp:293"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Opens doors, chests, tombs, or cabinets. Closes or jams doors. Strikes doors, braziers, or statues.",
+    "target": "打开门、箱子、坟墓或橱柜。关闭或堵塞门。撞击门、火盆或雕像。",
+    "locations": [
+      "src/spells.cpp:2665"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Orange",
+    "target": "橙子",
+    "locations": [
+      "src/item_potion.cpp:132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Orb of Life",
+    "target": "生命宝珠",
+    "locations": [
+      "src/item_data.cpp:2194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "ORIGIN: ",
+    "target": "起源： ",
+    "locations": [
+      "src/attack_ranged.cpp:134"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Pallex",
+    "target": "帕莱克斯",
+    "locations": [
+      "src/item_scroll.cpp:110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Paralyzation",
+    "target": "瘫痪",
+    "locations": [
+      "src/item_potion.cpp:564"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PASSAGE",
+    "target": "通道",
+    "locations": [
+      "src/item_curse.cpp:546"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PATH",
+    "target": "小路",
+    "locations": [
+      "src/item_curse.cpp:547"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "PATH: ",
+    "target": "小路： ",
+    "locations": [
+      "src/attack_ranged.cpp:152"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "pecks",
+    "target": "啄",
+    "locations": [
+      "src/item_data.cpp:1312"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Perhaps keeping it for a while will reveal something about it.",
+    "target": "也许保留一段时间会揭示一些关于它的信息。",
+    "locations": [
+      "src/item_potion.cpp:340",
+      "src/item_scroll.cpp:266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pestis Cruento",
+    "target": "克鲁恩托鼠疫",
+    "locations": [
+      "src/item_scroll.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Physically enfeebles the spell's victims, causing them to only do half damage in melee combat.",
+    "target": "使该法术的受害者身体虚弱，使他们在近战中只能造成一半的伤害。",
+    "locations": [
+      "src/spells.cpp:4161"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pieces of Fluctuating Material",
+    "target": "波动材料块",
+    "locations": [
+      "src/item_data.cpp:2325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pitchfork",
+    "target": "叉",
+    "locations": [
+      "src/item_data.cpp:1061"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pitchforks",
+    "target": "干草叉",
+    "locations": [
+      "src/item_data.cpp:1061"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pitchforks are useful in keeping attackers at bay - the victim is pushed back when stabbed.",
+    "target": "干草叉对于阻止攻击者很有用——受害者被刺伤后会被推回原处。",
+    "locations": [
+      "src/item_data.cpp:1065"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Platinum",
+    "target": "铂",
+    "locations": [
+      "src/item_rod.cpp:74"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Poison",
+    "target": "毒",
+    "locations": [
+      "src/item_potion.cpp:720"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "POS: ",
+    "target": "销售点： ",
+    "locations": [
+      "src/attack_ranged.cpp:78"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "POSSESSED",
+    "target": "着魔了",
+    "locations": [
+      "src/item_curse.cpp:509"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Potion of ",
+    "target": "药水 ",
+    "locations": [
+      "src/item_potion.cpp:174"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Potions of ",
+    "target": "药水 ",
+    "locations": [
+      "src/item_potion.cpp:175"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Praansilenux",
+    "target": "普兰西莱努斯",
+    "locations": [
+      "src/item_scroll.cpp:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Praya navita",
+    "target": "海傍",
+    "locations": [
+      "src/item_scroll.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Prepare which weapon?",
+    "target": "准备什么武器？",
+    "locations": [
+      "src/inventory_handling.cpp:1473"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pretaanluxis",
+    "target": "普雷塔安鲁克斯",
+    "locations": [
+      "src/item_scroll.cpp:83"
+    ],
+    "kind": "ui"
+  }
+]

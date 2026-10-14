@@ -1,0 +1,14 @@
+{
+  "unique_rendered_rows": 1414,
+  "remaining_ascii_word_rows": [
+    " v23.0.0 (Oct 14 2026) ",
+    " (c) 2011-2025 Martin Tornqvist, Infra Arcana 是自由软件，详见 LICENSE.txt。 ",
+    " [TAB] 查看不可用特质 ",
+    " [空格, Esc, 回车] 继续 "
+  ],
+  "termination": "QA process deliberately stopped after sampling; no crash observed before stop",
+  "display": [
+    3840,
+    2160
+  ]
+}

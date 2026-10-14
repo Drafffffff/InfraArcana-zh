@@ -348,25 +348,25 @@ std::string Item::weight_str() const
         const int wgt = weight();
 
         if (wgt <= ((int)Weight::extra_light + (int)Weight::light) / 2) {
-                return "very light";
+                return "极轻";
         }
 
         if (wgt <= ((int)Weight::light + (int)Weight::medium) / 2) {
-                return "light";
+                return "光照";
         }
 
         if (wgt <= ((int)Weight::medium + (int)Weight::heavy) / 2) {
-                return "a bit heavy";
+                return "稍重";
         }
 
-        return "heavy";
+        return "沉重";
 }
 
 ConsumeItem Item::activate(actor::Actor* const actor)
 {
         (void)actor;
 
-        msg_log::add("I cannot apply that.");
+        msg_log::add("我无法使用那个。");
 
         return ConsumeItem::no;
 }
@@ -432,11 +432,11 @@ void Item::discover()
         if ((m_data->xp_on_found > 0) && !m_data->is_found) {
                 const std::string item_name = name(ItemNameType::a, ItemNameInfo::yes);
 
-                msg_log::add("I have discovered " + item_name + "!");
+                msg_log::add("我发现了 " + item_name + "!");
 
                 game::incr_player_xp(m_data->xp_on_found, Verbose::yes);
 
-                game::add_history_event("Discovered " + item_name);
+                game::add_history_event("发现了 " + item_name);
         }
 
         m_data->is_found = true;
@@ -527,7 +527,7 @@ std::string Item::hit_mod_str(
                 str += std::to_string(hit_mod) + "%";
 
                 if (abbrev == AbbrevItemAttackInfo::no) {
-                        str += " hit";
+                        str += " 击中";
                 }
 
                 return str;

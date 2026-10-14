@@ -1,0 +1,16 @@
+[  3%] Building CXX object CMakeFiles/ia.dir/src/config.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/character_descr.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/minimap.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/player_spells.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/property_data.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/io.cpp.o
+/work/source/src/io.cpp: In function 'void verify_tile_colors(const SDL_Surface&, const std::string&)':
+/work/source/src/io.cpp:172:28: warning: unused parameter 'surface' [-Wunused-parameter]
+  172 |         const SDL_Surface& surface,
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~
+/work/source/src/io.cpp:173:28: warning: unused parameter 'img_path' [-Wunused-parameter]
+  173 |         const std::string& img_path)
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[  3%] Building CXX object CMakeFiles/ia.dir/src/io_text.cpp.o
+[  6%] Linking CXX executable ia
+[100%] Built target ia

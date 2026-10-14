@@ -1,0 +1,7 @@
+10月 15 02:50:09 bazzite systemd[2830]: Stopping infra-arcana-qa-stress.service - [systemd-run] /var/home/bazzite/Games/infra-arcana-zh/qa-game/launch.sh --stress-test...
+10月 15 02:50:24 bazzite systemd[2830]: infra-arcana-qa-stress.service: State 'stop-sigterm' timed out. Aborting.
+10月 15 02:50:24 bazzite systemd[2830]: infra-arcana-qa-stress.service: Killing process 606521 (ia) with signal SIGABRT.
+10月 15 02:50:25 bazzite systemd[2830]: infra-arcana-qa-stress.service: Main process exited, code=dumped, status=6/ABRT
+10月 15 02:50:25 bazzite systemd[2830]: infra-arcana-qa-stress.service: Failed with result 'timeout'.
+10月 15 02:50:25 bazzite systemd[2830]: Stopped infra-arcana-qa-stress.service - [systemd-run] /var/home/bazzite/Games/infra-arcana-zh/qa-game/launch.sh --stress-test.
+10月 15 02:50:25 bazzite systemd[2830]: infra-arcana-qa-stress.service: Consumed 3min 17.822s CPU time over 2min 33.499s wall clock time, 285.5M memory peak.

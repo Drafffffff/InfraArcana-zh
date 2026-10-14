@@ -61,7 +61,7 @@ Trapezohedron::Trapezohedron(ItemData* item_data) :
 
 ItemPrePickResult Trapezohedron::pre_pickup_hook()
 {
-        game::add_history_event("Beheld The Shining Trapezohedron");
+        game::add_history_event("看到闪亮的偏方体");
 
         saving::erase_save();
 
@@ -125,7 +125,7 @@ ConsumeItem MedicalBag::activate(actor::Actor* const actor)
         (void)actor;
 
         if (player_bon::bg() == Bg::ghoul) {
-                msg_log::add("It is of no use to me.");
+                msg_log::add("这对我来说没有用。");
 
                 m_current_action = MedBagAction::END;
 
@@ -149,7 +149,7 @@ ConsumeItem MedicalBag::activate(actor::Actor* const actor)
         const bool is_enough_supplies = m_nr_supplies >= nr_supplies_needed;
 
         if (!is_enough_supplies) {
-                msg_log::add("I do not have enough medical supplies.");
+                msg_log::add("我没有足够的医疗用品。");
 
                 m_current_action = MedBagAction::END;
 
@@ -165,15 +165,15 @@ ConsumeItem MedicalBag::activate(actor::Actor* const actor)
 
         switch (m_current_action) {
         case MedBagAction::quick_patch_up:
-                start_msg = "I patch up some minor injuries.";
+                start_msg = "我包扎一些小伤。";
                 break;
 
         case MedBagAction::treat_wound:
-                start_msg = "I start treating a wound";
+                start_msg = "我开始治疗创伤";
                 break;
 
         case MedBagAction::sanitize_infection:
-                start_msg = "I start to sanitize an infection";
+                start_msg = "我开始消毒感染";
                 break;
 
         case MedBagAction::END:
@@ -184,7 +184,7 @@ ConsumeItem MedicalBag::activate(actor::Actor* const actor)
         start_msg +=
                 " (" +
                 std::to_string(m_nr_turns_left_action) +
-                " turns)...";
+                " 轮流）...";
 
         msg_log::add(start_msg);
 
@@ -212,7 +212,7 @@ MedBagAction MedicalBag::choose_action_auto() const
 
         msg_log::clear();
 
-        msg_log::add("There is nothing to treat.");
+        msg_log::add("没有什么可治疗的。");
 
         return MedBagAction::END;
 }
@@ -224,29 +224,29 @@ MedBagAction MedicalBag::choose_action_manual() const
                 const int turns = tot_turns_for_action(action);
 
                 return (
-                        "(supplies: " +
+                        "（补给品： " +
                         std::to_string(cost) +
-                        ", turns: " +
+                        "，转： " +
                         std::to_string(turns) +
                         ")");
         };
 
         const std::vector<std::string> choices = {
-                ("(q) Quick patch-up, restores " +
+                ("(q) 快速修补、恢复 " +
                  std::to_string(m_hp_restored_by_quick_patch_up) +
-                 " hit points " +
+                 " 生命值 " +
                  cost_info_hint(MedBagAction::quick_patch_up)),
-                "(s) Sanitize infection " + cost_info_hint(MedBagAction::sanitize_infection),
-                "(w) Treat wound " + cost_info_hint(MedBagAction::treat_wound),
+                "(s) 消毒感染 " + cost_info_hint(MedBagAction::sanitize_infection),
+                "(w) 治疗创伤 " + cost_info_hint(MedBagAction::treat_wound),
         };
 
         int choice = -1;
 
-        const std::string title = "Select treatment";
+        const std::string title = "选择治疗";
 
         popup::Popup(popup::AddToMsgHistory::no)
                 .set_title(title)
-                .set_msg("Available supplies: " + std::to_string(m_nr_supplies))
+                .set_msg("可用供应： " + std::to_string(m_nr_supplies))
                 .setup_menu_mode(
                         choices,
                         {'q', 's', 'w'},
@@ -260,7 +260,7 @@ MedBagAction MedicalBag::choose_action_manual() const
                         return MedBagAction::quick_patch_up;
                 }
                 else {
-                        msg_log::add("There are no minor injuries to patch up.");
+                        msg_log::add("没有需要修补的轻伤。");
                 }
         } break;
 
@@ -269,7 +269,7 @@ MedBagAction MedicalBag::choose_action_manual() const
                         return MedBagAction::sanitize_infection;
                 }
                 else {
-                        msg_log::add("I am not infected.");
+                        msg_log::add("我没有被感染。");
                 }
                 break;
 
@@ -278,7 +278,7 @@ MedBagAction MedicalBag::choose_action_manual() const
                         return MedBagAction::treat_wound;
                 }
                 else {
-                        msg_log::add("I have no wounds to treat.");
+                        msg_log::add("我没有需要治疗的创伤。");
                 }
                 break;
         }
@@ -387,7 +387,7 @@ void MedicalBag::finish_current_action()
         if (m_nr_supplies <= 0) {
                 map::g_player->m_inv.remove_item_in_backpack_with_ptr(this, true);
 
-                game::add_history_event("Ran out of medical supplies");
+                game::add_history_event("医疗用品告罄");
         }
 }
 
@@ -403,11 +403,11 @@ void MedicalBag::interrupted(const ForceInterruptActions is_forced)
                                 ItemNameInfo::none);
 
                 const std::string msg =
-                        "Continue using " +
+                        "继续使用 " +
                         item_name +
                         " (" +
                         std::to_string(m_nr_turns_left_action) +
-                        " turns left)? " +
+                        " 向左转）？ " +
                         common_text::g_yes_or_no_hint;
 
                 msg_log::add(
@@ -428,7 +428,7 @@ void MedicalBag::interrupted(const ForceInterruptActions is_forced)
         }
         else {
                 // Forced interruption.
-                msg_log::add("My healing is disrupted.");
+                msg_log::add("我的康复被打乱了。");
 
                 should_continue = false;
         }
@@ -500,7 +500,7 @@ std::string MedicalBag::name_info_str(const ItemNameIdentified id_type) const
 {
         (void)id_type;
 
-        return "(" + std::to_string(m_nr_supplies) + " supplies)";
+        return "(" + std::to_string(m_nr_supplies) + " 补给品）";
 }
 
 void MedicalBag::stop_action()
@@ -526,10 +526,10 @@ std::string Lantern::name_info_str(const ItemNameIdentified id_type) const
 {
         (void)id_type;
 
-        std::string inf = "(" + std::to_string(m_nr_turns_left) + " turns";
+        std::string inf = "(" + std::to_string(m_nr_turns_left) + " 轮流";
 
         if (m_is_activated) {
-                inf += ", Lit";
+                inf += ", 点燃";
         }
 
         return inf + ")";
@@ -585,10 +585,10 @@ void Lantern::toggle()
 {
         const std::string toggle_str =
                 m_is_activated
-                ? "I turn off"
-                : "I turn on";
+                ? "我关掉"
+                : "我打开";
 
-        msg_log::add(toggle_str + " an Electric Lantern.");
+        msg_log::add(toggle_str + " 电灯笼。");
 
         m_is_activated = !m_is_activated;
 
@@ -615,12 +615,12 @@ void Lantern::on_std_turn_in_inv_hook(const InvType inv_type)
 
         if (m_nr_turns_left <= 0) {
                 msg_log::add(
-                        "My Electric Lantern has expired.",
+                        "我的电灯已经过期了。",
                         colors::msg_note(),
                         MsgInterruptPlayer::yes,
                         MorePromptOnMsg::yes);
 
-                game::add_history_event("My Electric Lantern expired");
+                game::add_history_event("我的电灯过期了");
 
                 // NOTE: The this deletes the object
                 map::g_player->m_inv.remove_item_in_backpack_with_ptr(
@@ -694,7 +694,7 @@ std::string HornOfMalice::name_info_str(const ItemNameIdentified id_type) const
 {
         (void)id_type;
 
-        return "(" + std::to_string(m_charges) + " uses)";
+        return "(" + std::to_string(m_charges) + " 用途）";
 }
 
 void HornOfMalice::save_hook() const
@@ -712,7 +712,7 @@ ConsumeItem HornOfMalice::activate(actor::Actor* const actor)
         (void)actor;
 
         if (m_charges <= 0) {
-                msg_log::add("It makes no sound.");
+                msg_log::add("它没有发出任何声音。");
 
                 return ConsumeItem::no;
         }
@@ -722,7 +722,7 @@ ConsumeItem HornOfMalice::activate(actor::Actor* const actor)
                         new HornOfMaliceHeard);
 
         Snd snd(
-                "The Horn of Malice resounds!",
+                "恶意号角响起！",
                 audio::SfxId::horn,
                 IgnoreMsgIfOriginSeen::no,
                 map::g_player->m_pos,
@@ -768,7 +768,7 @@ std::string HornOfBanishment::name_info_str(const ItemNameIdentified id_type) co
 {
         (void)id_type;
 
-        return "(" + std::to_string(m_charges) + " uses)";
+        return "(" + std::to_string(m_charges) + " 用途）";
 }
 
 void HornOfBanishment::save_hook() const
@@ -786,7 +786,7 @@ ConsumeItem HornOfBanishment::activate(actor::Actor* const actor)
         (void)actor;
 
         if (m_charges <= 0) {
-                msg_log::add("It makes no sound.");
+                msg_log::add("它没有发出任何声音。");
 
                 return ConsumeItem::no;
         }
@@ -795,7 +795,7 @@ ConsumeItem HornOfBanishment::activate(actor::Actor* const actor)
                 new HornOfBanishmentHeard);
 
         Snd snd(
-                "The Horn of Banishment resounds!",
+                "放逐的号角吹响！",
                 audio::SfxId::horn,
                 IgnoreMsgIfOriginSeen::no,
                 map::g_player->m_pos,
@@ -827,7 +827,7 @@ ConsumeItem HolySymbol::activate(actor::Actor* actor)
         }
 
         if (m_has_failed_attempt) {
-                msg_log::add("I have no faith that this would help me at the moment.");
+                msg_log::add("我不相信这对我现在有帮助。");
 
                 return ConsumeItem::no;
         }
@@ -839,10 +839,10 @@ ConsumeItem HolySymbol::activate(actor::Actor* actor)
         std::string pray_msg;
 
         if (map::g_player->m_properties.has(prop::Id::terrified)) {
-                pray_msg = "With trembling hands ";
+                pray_msg = "用颤抖的双手 ";
         }
 
-        pray_msg += "I make a prayer over the " + my_name + "...";
+        pray_msg += "我为 " + my_name + "...";
 
         msg_log::add(pray_msg);
 
@@ -859,7 +859,7 @@ ConsumeItem HolySymbol::activate(actor::Actor* actor)
                 m_nr_charge_turns_left = (m_nr_charge_turns_left * duration_pct) / 100;
 
                 msg_log::more_prompt();
-                msg_log::add("This feels useless!");
+                msg_log::add("感觉这个没什么用啊！");
 
                 map::g_player->incr_shock(4.0, ShockSrc::misc);
 
@@ -901,9 +901,9 @@ void HolySymbol::on_std_turn_in_inv_hook(InvType inv_type)
                                 ItemNameInfo::none);
 
                 msg_log::add(
-                        "I feel like praying over the " +
+                        "我想为 " +
                         my_name +
-                        " would be beneficent again.");
+                        " 将会再次受益。");
         }
 }
 
@@ -917,10 +917,10 @@ std::string HolySymbol::name_info_str(const ItemNameIdentified id_type) const
 
         const auto turns_left_str = std::to_string(m_nr_charge_turns_left);
 
-        std::string str = "(" + turns_left_str + " turns";
+        std::string str = "(" + turns_left_str + " 轮流";
 
         if (m_has_failed_attempt) {
-                str += ", failed";
+                str += "， 失败的";
         }
 
         str += ")";
@@ -974,7 +974,7 @@ std::string Clockwork::name_info_str(const ItemNameIdentified id_type) const
 {
         (void)id_type;
 
-        return "(" + std::to_string(m_charges) + " uses)";
+        return "(" + std::to_string(m_charges) + " 用途）";
 }
 
 void Clockwork::save_hook() const
@@ -992,18 +992,18 @@ ConsumeItem Clockwork::activate(actor::Actor* const actor)
         (void)actor;
 
         if (m_charges <= 0) {
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
 
                 return ConsumeItem::no;
         }
 
         if (map::g_player->m_properties.has(prop::Id::extra_hasted)) {
-                msg_log::add("It will not move.");
+                msg_log::add("它不会动。");
 
                 return ConsumeItem::no;
         }
 
-        msg_log::add("I wind up the clockwork.");
+        msg_log::add("我给发条上发条。");
 
         map::g_player->incr_shock(12.0, ShockSrc::use_strange_item);
 
@@ -1073,7 +1073,7 @@ void Necronomicon::on_std_turn_in_inv_hook(const InvType inv_type)
 ItemPrePickResult Necronomicon::pre_pickup_hook()
 {
         if (player_bon::is_bg(Bg::exorcist)) {
-                msg_log::add("I destroy the profane text!");
+                msg_log::add("我毁掉那些亵渎的文字！");
 
                 game::incr_player_xp(g_xp_on_exorcist_destroy_necronomicon);
 
@@ -1103,7 +1103,7 @@ ConsumeItem WitchEye::activate(actor::Actor* actor)
 
         const auto item_name = name(ItemNameType::plain);
 
-        msg_log::add("I clutch the " + item_name + "...");
+        msg_log::add("我紧紧抓住 " + item_name + "...");
 
         auto* const search =
                 static_cast<prop::MagicSearching*>(
@@ -1121,7 +1121,7 @@ ConsumeItem WitchEye::activate(actor::Actor* actor)
         map::g_player->incr_shock(12.0, ShockSrc::use_strange_item);
 
         if (rnd::one_in(3)) {
-                msg_log::add("The eye decomposes.");
+                msg_log::add("眼睛会分解。");
 
                 return ConsumeItem::yes;
         }
@@ -1193,9 +1193,9 @@ ConsumeItem FluctuatingMaterial::activate(actor::Actor* actor)
         const auto item_name = name(ItemNameType::plain);
 
         msg_log::add(
-                ("I stare into the " +
+                ("我凝视着 " +
                  item_name +
-                 ", and feel myself changing..."),
+                 "，并感觉自己正在改变……"),
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::yes);
@@ -1204,7 +1204,7 @@ ConsumeItem FluctuatingMaterial::activate(actor::Actor* actor)
 
         states::push(
                 std::make_unique<PickTraitState>(
-                        "Which trait do you gain?",
+                        "你获得了哪种特质？",
                         IsCharacterCreationTraitPick::no));
 
         states::push(std::make_unique<RemoveTraitState>());
@@ -1231,7 +1231,7 @@ ConsumeItem AstralOpium::activate(actor::Actor* actor)
 
         const auto item_name = name(ItemNameType::plain);
 
-        msg_log::add("I use the " + item_name + "...");
+        msg_log::add("我用的是 " + item_name + "...");
 
         map::g_player->m_properties.apply(
                 prop::make(

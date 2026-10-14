@@ -97,9 +97,9 @@ static void player_displace_allied_mon(actor::Actor& mon, const P& new_mon_pos)
                 std::string mon_name =
                         can_player_see_actor(mon)
                         ? actor::name_a(mon)
-                        : "it";
+                        : "它";
 
-                msg_log::add("I displace " + mon_name + ".");
+                msg_log::add("我挪动了 " + mon_name + ".");
         }
 
         mon.m_pos = new_mon_pos;
@@ -174,7 +174,7 @@ static void print_ooze_enter_terrain_msg(
         const auto mon_name = text_format::first_to_upper(actor::name_the(actor));
         const auto ter_name = terrain.name(Article::the);
 
-        std::string preposition = "through";
+        std::string preposition = "穿过";
 
         if (terrain.id() == terrain::Id::door) {
                 const auto& door =
@@ -186,12 +186,12 @@ static void print_ooze_enter_terrain_msg(
 
                 case terrain::DoorType::wood:
                 case terrain::DoorType::metal:
-                        preposition = "under";
+                        preposition = "下方";
                         break;
                 }
         }
 
-        msg_log::add(mon_name + " seeps " + preposition + " " + ter_name + ".");
+        msg_log::add(mon_name + " 渗出 " + preposition + " " + ter_name + ".");
 }
 
 static void print_small_creature_enter_terrain_msg(
@@ -201,7 +201,7 @@ static void print_small_creature_enter_terrain_msg(
         const auto mon_name = text_format::first_to_upper(actor::name_the(actor));
         const auto ter_name = terrain.name(Article::the);
 
-        msg_log::add(mon_name + " squirms through " + ter_name + ".");
+        msg_log::add(mon_name + " 扭动着穿过 " + ter_name + ".");
 }
 
 static void print_mon_enter_non_walkable_terrain_msg(
@@ -322,12 +322,12 @@ static void handle_player_slowed_movement(const P& target)
                 should_wait = true;
         }
         else if (is_player_staggering_from_wounds()) {
-                msg_log::add("My wounds cause me to stagger.", colors::msg_note());
+                msg_log::add("创伤让我步履蹒跚。", colors::msg_note());
 
                 should_wait = true;
         }
         else if (is_player_stagger_from_carry_weight()) {
-                msg_log::add("I stagger under the weight of my carried load.", colors::msg_note());
+                msg_log::add("我被身上的重物压得步履蹒跚。", colors::msg_note());
 
                 should_wait = true;
         }
@@ -345,7 +345,7 @@ static void move_player_non_center_direction(const P& target)
             player.m_properties.has(prop::Id::burrowing)) {
                 // The player attempted to move into the outer walls of the map with the burrowing
                 // status effect, print some message.
-                msg_log::add("An unknown barrier blocks me. Perhaps it's for the best.");
+                msg_log::add("一道未知屏障挡住了我。也许这样反倒更好。");
 
                 return;
         }
@@ -384,7 +384,7 @@ static void move_player_non_center_direction(const P& target)
                         // TODO: Currently you can attempt to attack hidden adjacent monsters "for
                         // free" while you are too encumbered to move (very minor issue, but it's
                         // weird)
-                        msg_log::add("I am too encumbered to move!");
+                        msg_log::add("我负重过多，无法移动！");
 
                         return;
                 }

@@ -75,7 +75,7 @@ static std::string make_wpn_stats_str(const item::Item& wpn)
 
 static void draw_wielded_wpn(const int y, const Panel panel)
 {
-        const std::string label = "Wpn";
+        const std::string label = "武器";
 
         io::draw_text(
                 label,
@@ -115,7 +115,7 @@ static void draw_wielded_wpn(const int y, const Panel panel)
 
 static void draw_alt_wpn(const int y, const Panel panel)
 {
-        const std::string label = "Alt";
+        const std::string label = "备用";
 
         io::draw_text(
                 label,
@@ -160,7 +160,7 @@ static void draw_hp(const int y, const Panel panel)
         const int hp_pct = (hp * 100) / max_hp;
 
         io::draw_text(
-                "Health",
+                "生命值",
                 panel,
                 {0, y},
                 label_color(),
@@ -198,7 +198,7 @@ static void draw_sp(const int y, const Panel panel)
         const int sp_pct = (sp * 100) / max_sp;
 
         io::draw_text(
-                "Spirit",
+                "精神",
                 panel,
                 {0, y},
                 label_color(),
@@ -236,7 +236,7 @@ static void draw_exorcist_fervor(const int y, const Panel panel)
         const int fervor_pct_of_max_possible = (fervor * 100) / max_fervor;
 
         io::draw_text(
-                "Fervor",
+                "狂热",
                 panel,
                 {0, y},
                 label_color(),
@@ -272,7 +272,7 @@ static void draw_shock(const int y, const Panel panel)
         const int shock_pct = std::min(999, map::g_player->shock_tot());
 
         io::draw_text(
-                "Shock",
+                "震慑",
                 panel,
                 {0, y},
                 label_color(),
@@ -293,7 +293,7 @@ static void draw_insanity(const int y, const Panel panel)
         const int ins_pct = map::g_player->insanity();
 
         io::draw_text(
-                "Insanity",
+                "疯狂度",
                 panel,
                 {0, y},
                 label_color(),
@@ -314,7 +314,7 @@ static void draw_weight(const int y, const Panel panel)
         const int weight_pct = map::g_player->enc_percent();
 
         io::draw_text(
-                "Weight",
+                "重量",
                 panel,
                 {0, y},
                 label_color(),
@@ -345,7 +345,7 @@ static void draw_weight(const int y, const Panel panel)
 static void draw_turn_number(const int y, const Panel panel)
 {
         io::draw_text(
-                "Turn",
+                "回合",
                 panel,
                 {0, y},
                 label_color(),
@@ -366,7 +366,7 @@ static void draw_turn_number(const int y, const Panel panel)
 static void draw_armor(const int y, const Panel panel)
 {
         io::draw_text(
-                "Armor",
+                "护甲",
                 panel,
                 {0, y},
                 label_color(),
@@ -424,7 +424,7 @@ static void draw_char_lvl_and_xp(const int y, const Panel panel)
         const int xp_pct = std::clamp(game::xp_pct(), 0, 100);
 
         io::draw_text(
-                "Level",
+                "等级",
                 panel,
                 {0, y},
                 label_color(),
@@ -463,7 +463,7 @@ static void draw_char_lvl_and_xp(const int y, const Panel panel)
 static void draw_dlvl(const int y, const Panel panel)
 {
         io::draw_text(
-                "Depth",
+                "深度",
                 panel,
                 {0, y},
                 label_color(),
@@ -488,7 +488,7 @@ static void draw_dlvl(const int y, const Panel panel)
 static void draw_lantern(const int y, const Panel panel)
 {
         io::draw_text(
-                "Lantern",
+                "灯笼",
                 panel,
                 {0, y},
                 label_color(),
@@ -498,7 +498,7 @@ static void draw_lantern(const int y, const Panel panel)
 
         Color color = info_color();
 
-        std::string lantern_str = "None";
+        std::string lantern_str = "无";
 
         if (item) {
                 const auto* const lantern = static_cast<const item::Lantern*>(item);
@@ -521,7 +521,7 @@ static void draw_lantern(const int y, const Panel panel)
 static void draw_med_suppl(const int y, const Panel panel)
 {
         io::draw_text(
-                "Med Suppl",
+                "医疗补给",
                 panel,
                 {0, y},
                 label_color(),
@@ -555,7 +555,7 @@ static void draw_properties(int y, const Panel panel)
 
         if (map::g_dark.at(map::g_player->m_pos)) {
                 const ColoredString dark = {
-                        "DARK AREA",
+                        "黑暗区域",
                         colors::gray()};
 
                 property_names.push_back(dark);
@@ -658,7 +658,7 @@ void draw()
 
         if (config::is_gj_mode()) {
                 draw_text_right(
-                        "GJ MODE ENABLED",
+                        "GJ 模式已启用",
                         Panel::screen,
                         {panels::x1(Panel::screen), 0},
                         colors::yellow(),

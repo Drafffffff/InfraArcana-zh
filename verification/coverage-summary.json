@@ -1,0 +1,38 @@
+{
+  "upstream_version": "23.0.0",
+  "upstream_commit": "51443407f4017754e59763f12f2c7ab4704e8ee2",
+  "translator": "GPT-6 Luna subagents",
+  "extracted_unique_sources": 6870,
+  "classification": {
+    "fragment": 476,
+    "technical": 1887,
+    "ui": 4507
+  },
+  "translated_unique_sources": 4968,
+  "applied_occurrences": 5797,
+  "unapplied_sources": [],
+  "empty_player_targets": 0,
+  "preserved_player_sources": [
+    "[y/n]",
+    "Gero shay cruo!",
+    "In marana domus-bhaava crunatus!",
+    "Malax sayti!",
+    "Marana malax!",
+    "Marana pallex!",
+    "Pallex ti!",
+    "Peroshay bibox malax!",
+    "Pestis cruento vilomaxus pretiacruento!",
+    "Pestis Cruento!",
+    "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+    "Pretaanluxis cruonit!",
+    "Pretiacruento!",
+    "Prostragaranar malachtose!",
+    "Stragar-Naya!"
+  ],
+  "tests": {
+    "cases": 88,
+    "assertions": 6504,
+    "passed": true
+  },
+  "limits": "Coverage is measured over the extracted v23.0.0 source catalog; random runtime branches are sampled, not exhaustively enumerated."
+}

@@ -99,7 +99,7 @@ static std::string get_fake_name(
                 return appearance.name_a;
         }
         else {
-                return "the " + appearance.name_plain;
+                return "这 " + appearance.name_plain;
         }
 }
 
@@ -118,28 +118,28 @@ void init()
         TRACE_FUNC_BEGIN;
 
         std::vector<PylonAppearance> appearances {
-                {"Angled Pylon",
-                 "an Angled Pylon",
+                {"斜角柱",
+                 "一座斜角柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_angled},
-                {"Arched Pylon",
-                 "an Arched Pylon",
+                {"拱形柱",
+                 "一座拱形柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_arched},
-                {"Coiled Pylon",
-                 "a Coiled Pylon",
+                {"盘绕柱",
+                 "一个盘绕柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_coiled},
-                {"A Serrated Pylon",
-                 "a Serrated Pylon",
+                {"一座锯齿柱",
+                 "一座锯齿柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_serrated},
-                {"Star-crowned Pylon",
-                 "a Star-crowned Pylon",
+                {"星冠高塔",
+                 "一座星冠柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_star_crowned},
-                {"Two-pronged Pylon",
-                 "a Two-pronged Pylon",
+                {"双叉高塔",
+                 "一座双叉柱",
                  colors::light_sepia(),
                  gfx::TileId::pylon_two_pronged}};
 
@@ -227,7 +227,7 @@ void PylonImpl::reveal() const
 
         const std::string descr = effect_descr();
 
-        msg_log::add("I now know that " + fake_name + " " + descr + ".");
+        msg_log::add("我现在知道了 " + fake_name + " " + descr + ".");
 
         game::incr_player_xp(g_xp_on_identify_pylon);
 }
@@ -240,18 +240,18 @@ std::string PylonInvis::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "a";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Cloaking Pylon";
+        return str + " 隐形尖塔";
 }
 
 std::string PylonInvis::effect_descr() const
 {
-        return "turns creatures invisible";
+        return "使生物隐形";
 }
 
 void PylonInvis::on_new_turn()
@@ -281,18 +281,18 @@ std::string PylonSlow::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "a";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Slowing Pylon";
+        return str + " 减速尖塔";
 }
 
 std::string PylonSlow::effect_descr() const
 {
-        return "slows creatures";
+        return "减缓生物";
 }
 
 void PylonSlow::on_new_turn()
@@ -321,18 +321,18 @@ std::string PylonHaste::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "an";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Accelerating Pylon";
+        return str + " 加速尖塔";
 }
 
 std::string PylonHaste::effect_descr() const
 {
-        return "accelerates creatures";
+        return "加速生物";
 }
 
 void PylonHaste::on_new_turn()
@@ -361,18 +361,18 @@ std::string PylonKnockback::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "a";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Repelling Pylon";
+        return str + " 排斥尖塔";
 }
 
 std::string PylonKnockback::effect_descr() const
 {
-        return "repels creatures";
+        return "驱逐生物";
 }
 
 void PylonKnockback::on_new_turn()
@@ -424,18 +424,18 @@ std::string PylonTeleport::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "a";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Teleporting Pylon";
+        return str + " 传送尖塔";
 }
 
 std::string PylonTeleport::effect_descr() const
 {
-        return "teleports creatures";
+        return "传送生物";
 }
 
 void PylonTeleport::on_new_turn()
@@ -469,18 +469,18 @@ std::string PylonTerrify::name(Article article) const
         std::string str;
 
         if (article == Article::a) {
-                str = "a";
+                str = "一个";
         }
         else {
-                str = "the";
+                str = "这";
         }
 
-        return str + " Terror Pylon";
+        return str + " 恐惧尖塔";
 }
 
 std::string PylonTerrify::effect_descr() const
 {
-        return "causes fear";
+        return "造成恐惧";
 }
 
 void PylonTerrify::on_new_turn()
@@ -614,7 +614,7 @@ void Pylon::hit(
                                 text_format::first_to_upper(
                                         this->name(Article::the));
 
-                        msg_log::add(terrain_name + " is destroyed.");
+                        msg_log::add(terrain_name + " 被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));

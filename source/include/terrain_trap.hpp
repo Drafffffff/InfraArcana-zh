@@ -252,7 +252,7 @@ public:
 
         std::string disarm_msg() const override
         {
-                return "I disarm a trap.";
+                return "我拆除了陷阱。";
         }
 };
 
@@ -263,9 +263,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " dart trap";
+                name += " 飞镖陷阱";
 
                 return name;
         }
@@ -299,9 +299,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " spear trap";
+                name += " 长矛陷阱";
 
                 return name;
         }
@@ -336,9 +336,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " blinding trap";
+                name += " 致盲陷阱";
 
                 return name;
         }
@@ -364,9 +364,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " deafening trap";
+                name += " 震耳陷阱";
 
                 return name;
         }
@@ -392,9 +392,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " smoke trap";
+                name += " 烟雾陷阱";
 
                 return name;
         }
@@ -420,9 +420,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " fire trap";
+                name += " 火焰陷阱";
 
                 return name;
         }
@@ -448,9 +448,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "an" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " alarm trap";
+                name += " 警报陷阱";
 
                 return name;
         }
@@ -483,9 +483,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " spider web";
+                name += " 蜘蛛网";
 
                 return name;
         }
@@ -512,7 +512,7 @@ public:
 
         std::string disarm_msg() const override
         {
-                return "I tear down a spider web.";
+                return "我扯破了蜘蛛网。";
         }
 };
 
@@ -526,9 +526,9 @@ public:
 
         std::string name(const Article article) const override
         {
-                std::string name = (article == Article::a) ? "a" : "the";
+                std::string name = (article == Article::a) ? "一个" : "这";
 
-                name += " strange shape on the floor";
+                name += " 地板上的奇怪形状";
 
                 return name;
         }
@@ -555,7 +555,7 @@ public:
 
         std::string disarm_msg() const override
         {
-                return "I dispel a magic symbol.";
+                return "我驱散了魔法符号。";
         }
 
         Range nr_turns_range_to_trigger() const override

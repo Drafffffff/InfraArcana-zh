@@ -411,7 +411,7 @@ void memorize_item_at(const P& p)
         memory.appearance.color = item->color();
 
         memory.appearance.minimap.color = colors::light_magenta();
-        memory.appearance.minimap.legend_text = "Item";
+        memory.appearance.minimap.legend_text = "物品";
         memory.appearance.minimap.symbol = MinimapSymbol::rectangle_filled;
 
         if ((item->data().type == ItemType::ranged_wpn) &&

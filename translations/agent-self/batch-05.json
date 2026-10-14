@@ -1,0 +1,1271 @@
+[
+  {
+    "source": "Is immune to disease and infections.",
+    "target": "免疫疾病和感染。",
+    "locations": [
+      "src/player_bon.cpp:1154"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is infected.",
+    "target": "已感染。",
+    "locations": [
+      "src/property_data.cpp:717"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is less awake.",
+    "target": "清醒度降低了。",
+    "locations": [
+      "src/property_data.cpp:210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer burning.",
+    "target": "不再燃烧。",
+    "locations": [
+      "src/property_data.cpp:403"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer confused.",
+    "target": "不再困惑。",
+    "locations": [
+      "src/property_data.cpp:485"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer cursed.",
+    "target": "不再被诅咒。",
+    "locations": [
+      "src/property_data.cpp:816"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer diseased.",
+    "target": "疾病已治愈。",
+    "locations": [
+      "src/property_data.cpp:735"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer doomed.",
+    "target": "不再厄运缠身。",
+    "locations": [
+      "src/property_data.cpp:836"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer infected.",
+    "target": "感染已治愈。",
+    "locations": [
+      "src/property_data.cpp:719"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer stunned.",
+    "target": "不再昏迷。",
+    "locations": [
+      "src/property_data.cpp:581"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is no longer terrified.",
+    "target": "不再恐惧。",
+    "locations": [
+      "src/property_data.cpp:467"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is out of sight!",
+    "target": "已离开视线！",
+    "locations": [
+      "src/property_data.cpp:973"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is paralyzed.",
+    "target": "被麻痹了。",
+    "locations": [
+      "src/property_data.cpp:440"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is poisoned.",
+    "target": "中毒了。",
+    "locations": [
+      "src/property_data.cpp:423"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is put to rest.",
+    "target": "已安息。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/death_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/death_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is reacting to noise again",
+    "target": "又开始对噪音作出反应",
+    "locations": [
+      "src/property_data.cpp:366"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to confusion.",
+    "target": "抵抗困惑。",
+    "locations": [
+      "src/property_data.cpp:248"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to disease.",
+    "target": "抵抗疾病。",
+    "locations": [
+      "src/property_data.cpp:262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to electricity.",
+    "target": "抵抗电击。",
+    "locations": [
+      "src/property_data.cpp:194"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to fear.",
+    "target": "抵抗恐惧。",
+    "locations": [
+      "src/property_data.cpp:222"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to fire.",
+    "target": "抵抗火焰。",
+    "locations": [
+      "src/property_data.cpp:166"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is resistant to poison.",
+    "target": "抵抗毒素。",
+    "locations": [
+      "src/property_data.cpp:180"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is sapped of life.",
+    "target": "生命力被吸取。",
+    "locations": [
+      "src/property_data.cpp:676"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is sapped of spirit.",
+    "target": "精神值被吸取。",
+    "locations": [
+      "src/property_data.cpp:690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is stuck.",
+    "target": "被困住了。",
+    "locations": [
+      "src/property_data.cpp:930"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is stunned.",
+    "target": "被击昏了。",
+    "locations": [
+      "src/property_data.cpp:579"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Is there someone following me? Or is it panic taking over?",
+    "target": "有人在跟踪我吗？还是恐慌正在吞噬我？",
+    "locations": [
+      "include/insanity.hpp:904"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to confusion.",
+    "target": "容易受到困惑影响。",
+    "locations": [
+      "src/property_data.cpp:250"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to disease.",
+    "target": "容易染病。",
+    "locations": [
+      "src/property_data.cpp:264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to electricity.",
+    "target": "容易受到电击。",
+    "locations": [
+      "src/property_data.cpp:196"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to fear.",
+    "target": "容易受到恐惧影响。",
+    "locations": [
+      "src/property_data.cpp:224"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to fire.",
+    "target": "容易受到火焰伤害。",
+    "locations": [
+      "src/property_data.cpp:168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Is vulnerable to light.",
+    "target": "容易受到光照伤害。",
+    "locations": [
+      "src/property_data.cpp:333"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to light.",
+    "target": "容易受到光照伤害。",
+    "locations": [
+      "src/property_data.cpp:335"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to poison.",
+    "target": "容易中毒。",
+    "locations": [
+      "src/property_data.cpp:182"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is vulnerable to spells.",
+    "target": "容易受到法术影响。",
+    "locations": [
+      "src/property_data.cpp:310"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is wide awake.",
+    "target": "完全清醒。",
+    "locations": [
+      "src/property_data.cpp:208"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "is_pausing_on_player_seen",
+    "target": "is_pausing_on_player_seen",
+    "locations": [
+      "src/actor_data.cpp:484"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Istasha",
+    "target": "伊斯塔莎",
+    "locations": [
+      "src/gods.cpp:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It cannot be disarmed now!",
+    "target": "现在无法拆除！",
+    "locations": [
+      "src/terrain_trap.cpp:557"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It cannot be removed through normal means.",
+    "target": "无法通过常规方式移除。",
+    "locations": [
+      "src/disarm.cpp:87"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It changes shape!",
+    "target": "它变形了！",
+    "locations": [
+      "src/property.cpp:931"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It does not yield at all.",
+    "target": "它完全不肯让步。",
+    "locations": [
+      "src/terrain.cpp:3531"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It falls on ",
+    "target": "它落在 ",
+    "locations": [
+      "src/terrain.cpp:274"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "It falls on me!",
+    "target": "它落在我身上！",
+    "locations": [
+      "src/terrain.cpp:265"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It goes on forever! This cannot be real! I feel like I am walking in a dream; The horror is utterly crushing.",
+    "target": "它永无止境！这不可能是真的！我觉得自己像在梦游；这恐怖感压得我喘不过气。",
+    "locations": [
+      "src/map_controller.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is absolutely necessary, for the peace and safety of mankind, that some of earth's dark, dead corners and unplumbed depths be left alone; lest sleeping abnormalities wake to resurgent life, and blasphemously surviving nightmares squirm and splash out of their black lairs to newer and wider conquests.",
+    "target": "“这对于人类的和平与安全绝对必要：地球上一些阴暗、死寂的角落和深不可测的深处，必须永远无人打扰；否则，沉睡的异变便会重获生机，亵渎地存活下来的噩梦也会在黑暗巢穴中蠕动、翻腾，向更广阔的新领地扩张。”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:53"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is already open.",
+    "target": "已经打开。",
+    "locations": [
+      "src/terrain.cpp:4066"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is empty.",
+    "target": "里面是空的。",
+    "locations": [
+      "src/terrain.cpp:5368"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It is very dark here.",
+    "target": "这里非常黑暗。",
+    "locations": [
+      "src/view.cpp:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It moves a little!",
+    "target": "它稍微动了一下！",
+    "locations": [
+      "src/terrain.cpp:3537"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It resembles an immense squid, with reaching, groping tentacles, and a pulpy, elongated sack of a body. Chthonians are powerful burrowers, and live for more than a thousand years.",
+    "target": "它像一只巨大的鱿鱼，长着伸展摸索的触手，身体则是柔软而细长的囊状物。古革虫擅长掘地，寿命超过千年。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It resists.",
+    "target": "它抵抗住了。",
+    "locations": [
+      "src/terrain.cpp:3534"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It seems futile.",
+    "target": "看来毫无希望。",
+    "locations": [
+      "src/terrain.cpp:3497",
+      "src/terrain.cpp:4094",
+      "src/terrain_door.cpp:221",
+      "src/terrain_door.cpp:853"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It smells like an open grave here.",
+    "target": "这里闻起来像一座敞开的坟墓。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It smells like death here.",
+    "target": "这里闻起来有死亡的气息。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It smells like filth and decrepitude here.",
+    "target": "这里闻起来充满污秽与衰败。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/smell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It suddenly gets darker.",
+    "target": "天色突然暗了下来。",
+    "locations": [
+      "src/property_data.cpp:960"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It suddenly seems far more terrifying to delve deeper.",
+    "target": "深入下方似乎突然变得可怕得多。",
+    "locations": [
+      "include/insanity.hpp:690"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It topples over.",
+    "target": "它倒下了。",
+    "locations": [
+      "src/terrain.cpp:2952"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It was just a color out of space - a frightful messenger from unformed realms of infinity beyond all Nature as we know it; from realms whose mere existence stuns the brain and numbs us with the black extra-cosmic gulfs it throws open before our frenzied eyes.",
+    "target": "“那不过是来自太空的颜色——一位可怕的信使，来自自然界之外、无限未知的原初领域；那些领域仅仅是存在本身，就足以震撼心智，并以它在我们狂乱眼前打开的宇宙外黑暗深渊，使我们麻木。”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It wiggles a bit.",
+    "target": "它扭动了一下。",
+    "locations": [
+      "src/terrain.cpp:1410",
+      "src/terrain.cpp:1575",
+      "src/terrain.cpp:2920"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It's blocked.",
+    "target": "它被挡住了。",
+    "locations": [
+      "src/disarm.cpp:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "It's very refreshing.",
+    "target": "真是神清气爽。",
+    "locations": [
+      "src/terrain.cpp:4389"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Item",
+    "target": "物品",
+    "locations": [
+      "src/map.cpp:414"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Item knowledge",
+    "target": "物品知识",
+    "locations": [
+      "src/character_descr.cpp:164"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "items",
+    "target": "物品",
+    "locations": [
+      "src/actor_data.cpp:658"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Items are equipped in different inventory slots:",
+    "target": "物品装备在不同的物品栏槽位中：",
+    "locations": [
+      "installed_files/manual.txt:156"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ithaqua",
+    "target": "伊塔夸",
+    "locations": [
+      "src/gods.cpp:53"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Janaingo",
+    "target": "贾奈因戈",
+    "locations": [
+      "src/gods.cpp:54"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "k (w)     KICK or strike objects, or DESTROY CORPSES",
+    "target": "k (w)     踢击或击打物体，或摧毁尸体",
+    "locations": [
+      "installed_files/manual.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kaalut",
+    "target": "卡鲁特",
+    "locations": [
+      "src/gods.cpp:55"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kassogtha",
+    "target": "卡索格萨",
+    "locations": [
+      "src/gods.cpp:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kaunuzoth",
+    "target": "卡努佐斯",
+    "locations": [
+      "src/gods.cpp:57"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Keziah Mason",
+    "target": "凯齐亚·梅森",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Khephren",
+    "target": "克弗伦",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kicking ",
+    "target": "踢击 ",
+    "locations": [
+      "src/bash.cpp:240"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Kicking braziers",
+    "target": "踢火盆",
+    "locations": [
+      "src/hints.cpp:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kicking statues",
+    "target": "踢雕像",
+    "locations": [
+      "src/hints.cpp:133"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Killed ",
+    "target": "击杀 ",
+    "locations": [
+      "src/game_over_summary.cpp:64"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Knockback",
+    "target": "击退",
+    "locations": [
+      "include/spells.hpp:1528"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Kornel Dabrowiecki - Contributed countless ideas for gameplay",
+    "target": "Kornel Dabrowiecki - 为游戏玩法贡献了无数创意",
+    "locations": [
+      "installed_files/credits.txt:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "l (e)     Toggle LANTERN",
+    "target": "l (e)     切换灯笼",
+    "locations": [
+      "installed_files/manual.txt:32"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "l=",
+    "target": "l=",
+    "locations": [
+      "src/audio.cpp:375"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lam",
+    "target": "拉姆",
+    "locations": [
+      "src/gods.cpp:58"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lantern",
+    "target": "灯笼",
+    "locations": [
+      "src/map_mode_gui.cpp:491"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lantern         100 : Remaining number of turns that your Electric Lantern",
+    "target": "灯笼         100：电灯笼剩余的回合数",
+    "locations": [
+      "installed_files/manual.txt:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Last messages",
+    "target": "最近消息",
+    "locations": [
+      "src/game_over_summary.cpp:283"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Laughed maniacally",
+    "target": "疯狂地大笑",
+    "locations": [
+      "include/insanity.hpp:326"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Leader is summoned?: ",
+    "target": "召唤首领？： ",
+    "locations": [
+      "src/actor_act.cpp:357"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Leader's leader is summoned?: ",
+    "target": "召唤首领的首领？： ",
+    "locations": [
+      "src/actor_act.cpp:360"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Level",
+    "target": "等级",
+    "locations": [
+      "src/highscore.cpp:324",
+      "src/map_mode_gui.cpp:427"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Level       1 (60%) : Character level, and progress towards next level",
+    "target": "等级       1 (60%)：角色等级，以及距离下一级的进度",
+    "locations": [
+      "installed_files/manual.txt:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Leviathan",
+    "target": "利维坦",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lgt Sens",
+    "target": "光敏度",
+    "locations": [
+      "src/property_data.cpp:332"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Life Sapped",
+    "target": "生命力被吸取",
+    "locations": [
+      "src/property_data.cpp:673"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Life Sapped(",
+    "target": "生命力被吸取（",
+    "locations": [
+      "include/property.hpp:918"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Light",
+    "target": "光照",
+    "locations": [
+      "include/spells.hpp:1457"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "light",
+    "target": "光照",
+    "locations": [
+      "src/item.cpp:355"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Light Sensitive",
+    "target": "光敏",
+    "locations": [
+      "src/property_data.cpp:331"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Listing all monsters (IDX    ID):",
+    "target": "列出所有怪物（索引    ID）：",
+    "locations": [
+      "src/game_commands.cpp:1384"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Listing all properties (IDX    NAME):",
+    "target": "列出所有属性（索引    名称）：",
+    "locations": [
+      "src/game_commands.cpp:1034"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Lithe",
+    "target": "灵巧",
+    "locations": [
+      "src/player_bon.cpp:229"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Loading...",
+    "target": "正在载入……",
+    "locations": [
+      "src/init.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "locked ",
+    "target": "已锁定 ",
+    "locations": [
+      "src/terrain.cpp:4159"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "looks",
+    "target": "看起来",
+    "locations": [
+      "src/actor_data.cpp:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Looks conflicted.",
+    "target": "看起来很矛盾。",
+    "locations": [
+      "src/property_data.cpp:1058"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks confused.",
+    "target": "看起来困惑了。",
+    "locations": [
+      "src/property_data.cpp:483"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks disturbed.",
+    "target": "看起来受到了惊扰。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WRAITH]/text/wary_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks ferocious!",
+    "target": "看起来凶猛无比！",
+    "locations": [
+      "src/property_data.cpp:785"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks less skillful.",
+    "target": "看起来没那么娴熟了。",
+    "locations": [
+      "src/property_data.cpp:853"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks less steady.",
+    "target": "看起来没那么稳健了。",
+    "locations": [
+      "src/property_data.cpp:287"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks less tough.",
+    "target": "看起来没那么强壮了。",
+    "locations": [
+      "src/property_data.cpp:154"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks like an easier target now.",
+    "target": "看起来更容易对付了。",
+    "locations": [
+      "src/property_data.cpp:881"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Looks more determined.",
+    "target": "看起来更加坚定。",
+    "locations": [
+      "src/property_data.cpp:1059"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks more skillful.",
+    "target": "看起来更加娴熟了。",
+    "locations": [
+      "src/property_data.cpp:851"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks more steady.",
+    "target": "看起来更加稳健了。",
+    "locations": [
+      "src/property_data.cpp:285"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks restored.",
+    "target": "看起来恢复如常。",
+    "locations": [
+      "src/property_data.cpp:678",
+      "src/property_data.cpp:692"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks stronger!",
+    "target": "看起来更加强壮了！",
+    "locations": [
+      "src/property_data.cpp:767"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks terrified.",
+    "target": "看起来惊恐万分。",
+    "locations": [
+      "src/property_data.cpp:465"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks tough as steel.",
+    "target": "看起来坚如钢铁。",
+    "locations": [
+      "src/property_data.cpp:152"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks unassailable.",
+    "target": "看起来坚不可摧。",
+    "locations": [
+      "src/property_data.cpp:879"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks wary.",
+    "target": "看起来十分警惕。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TROGLODYTE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_VOID_TRAVELER]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WARPING_ABERRANCE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WOLF]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/wary_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/wary_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "looks weaker.",
+    "target": "看起来虚弱了。",
+    "locations": [
+      "src/property_data.cpp:765"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Low ",
+    "target": "低 ",
+    "locations": [
+      "src/player_spells.cpp:135"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Lythalia",
+    "target": "莉萨莉亚",
+    "locations": [
+      "src/gods.cpp:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "m         Show MAP (or close map)",
+    "target": "m         显示地图（或关闭地图）",
+    "locations": [
+      "installed_files/manual.txt:16"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "m.tornq@gmail.com",
+    "target": "m.tornq@gmail.com",
+    "locations": [
+      "installed_files/contact.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Madness rides the star-wind... claws and teeth sharpened on centuries of corpses... dripping death astride a bacchanale of bats from nigh-black ruins of buried temples of Belial...",
+    "target": "疯狂乘着星风而来……爪牙与利齿经数百年尸骸磨砺得更加锋利……在蝙蝠的狂欢盛宴上，死亡滴落而下；贝利亚被埋葬的神殿，从近乎漆黑的废墟中耸立……",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:9"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Magic Search",
+    "target": "魔法搜索",
+    "locations": [
+      "src/property_data.cpp:901"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Magic Searching",
+    "target": "魔法搜索中",
+    "locations": [
+      "src/property_data.cpp:900"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Magically detects objects and creatures in the surrounding area.",
+    "target": "以魔法探测周围区域内的物品和生物。",
+    "locations": [
+      "src/property_data.cpp:903"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Maintains armor twice as long before it breaks.",
+    "target": "护甲的耐久度延长一倍。",
+    "locations": [
+      "src/player_bon.cpp:1214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Major Clapham-Lee",
+    "target": "克拉珀姆-李少校",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Major Sir Eric Moreland Clapham-Lee was once a commanding officer during the Great War. Shortly after his plane was shot down, his body was stolen. Now he roams these halls as a resurrected warrior in service of the cult, commanding a squad of undead.",
+    "target": "埃里克·莫兰德·克拉珀姆-李爵士少校曾在大战期间担任指挥官。飞机被击落后不久，他的尸体便遭人窃走。如今，他作为复活的战士在这些厅堂中游荡，效忠于邪教并统领一队不死生物。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes a deep buzzing sound.",
+    "target": "发出低沉的嗡嗡声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes a gurgling noise.",
+    "target": "发出咕噜声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes a piercing noise.",
+    "target": "发出刺耳的尖声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes a roaring noise",
+    "target": "发出轰鸣声",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes buzzing sounds in peculiar frequencies.",
+    "target": "以奇异的频率发出嗡嗡声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "makes shrill whistling sounds.",
+    "target": "发出尖锐的口哨声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/aware_message_seen",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/aware_message_seen"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Making bridge at pos: ",
+    "target": "在位置创建桥梁： ",
+    "locations": [
+      "src/room.cpp:1867"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Malax sayti!",
+    "target": "Malax sayti!",
+    "locations": [
+      "src/actor_mon.cpp:187"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Many things in the game can be interacted with by moving into them (i.e. by \"bumping\" them), for example:",
+    "target": "游戏中许多物件都能通过走向它们（也就是“撞上”它们）进行互动，例如：",
+    "locations": [
+      "installed_files/manual.txt:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Map type is: '",
+    "target": "地图类型为：'",
+    "locations": [
+      "src/map_travel.cpp:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Marana malax!",
+    "target": "Marana malax!",
+    "locations": [
+      "src/actor_mon.cpp:189"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Marana pallex!",
+    "target": "Marana pallex!",
+    "locations": [
+      "src/actor_mon.cpp:188"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Marred by a mass of purplish cysts, the hide of this beast has been distended to absurdity, rendering it the size of a cow. It weaves webs as quickly as it strides, and its jaws are thick with rank lather.",
+    "target": "这头野兽的皮肤布满紫色囊肿，肿胀得荒谬异常，体型竟大如母牛。它迈步之际便能迅速织网，颚部满是浓稠的恶臭涎液。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Martin T�rnqvist",
+    "target": "Martin T�rnqvist",
+    "locations": [
+      "installed_files/contact.txt:3"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "marvelous ",
+    "target": "奇妙的 ",
+    "locations": [
+      "src/terrain.cpp:3411"
+    ],
+    "kind": "fragment"
+  }
+]

@@ -109,8 +109,7 @@ public:
 private:
         std::string descr_identified() const override
         {
-                return "When activated, this device will \"come alive\" and "
-                       "guard the user.";
+                return "启动后，这件装置会“活过来”，保护使用者。";
         }
 
         ConsumeItem run_effect() override;

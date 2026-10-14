@@ -1,0 +1,1222 @@
+[
+  {
+    "source": "I am poisoned!",
+    "target": "我中毒了！",
+    "locations": [
+      "src/property_data.cpp:422"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am scorched by flames.",
+    "target": "我被火焰灼伤了。",
+    "locations": [
+      "src/terrain.cpp:121"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am starting to doubt my senses.",
+    "target": "我开始怀疑自己的感官。",
+    "locations": [
+      "src/property_data.cpp:498"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am stuck!",
+    "target": "我卡住了！",
+    "locations": [
+      "src/property_data.cpp:929"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am stunned!",
+    "target": "我被震晕了！",
+    "locations": [
+      "src/property_data.cpp:578"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am surrounded by a misty haze.",
+    "target": "我被雾霭笼罩。",
+    "locations": [
+      "src/terrain_trap.cpp:1434"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am terrified!",
+    "target": "我吓坏了！",
+    "locations": [
+      "src/property_data.cpp:464"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am too encumbered to move!",
+    "target": "我负重过多，无法移动！",
+    "locations": [
+      "src/actor_move.cpp:387"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am wounded!",
+    "target": "我受伤了！",
+    "locations": [
+      "src/property_data.cpp:665"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I am wracked by light!",
+    "target": "强光折磨着我！",
+    "locations": [
+      "src/actor_hit.cpp:294"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I attempt to push the lid.",
+    "target": "我试着推开棺盖。",
+    "locations": [
+      "src/terrain.cpp:3494"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I bump into something.",
+    "target": "我撞到了什么东西。",
+    "locations": [
+      "include/terrain_data.hpp:126"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I calm down.",
+    "target": "我平静下来了。",
+    "locations": [
+      "src/property_data.cpp:786"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can breath without harm.",
+    "target": "我可以自由呼吸，不会受伤。",
+    "locations": [
+      "src/property_data.cpp:296"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can control where I teleport.",
+    "target": "我可以控制传送目的地。",
+    "locations": [
+      "src/marker.cpp:950"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can hear again.",
+    "target": "我又能听见了。",
+    "locations": [
+      "src/property_data.cpp:365"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can move again!",
+    "target": "我又能动了！",
+    "locations": [
+      "src/property_data.cpp:441"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can no longer see hidden things.",
+    "target": "我再也看不见隐藏之物了。",
+    "locations": [
+      "src/property_data.cpp:906"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can now cast ",
+    "target": "我现在可以施放 ",
+    "locations": [
+      "src/player_spells.cpp:412"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I can read again.",
+    "target": "我又能阅读了。",
+    "locations": [
+      "src/property_data.cpp:1290"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I can see again!",
+    "target": "我又能看见了！",
+    "locations": [
+      "src/property_data.cpp:349"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cannot apply that.",
+    "target": "我无法使用那个。",
+    "locations": [
+      "src/item.cpp:369"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cannot be swayed by fear.",
+    "target": "恐惧无法动摇我。",
+    "locations": [
+      "src/property_data.cpp:221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cannot control any object here.",
+    "target": "这里没有我能控制的物体。",
+    "locations": [
+      "src/marker.cpp:1570"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cannot find anything there to bash.",
+    "target": "我找不到可以砸开的东西。",
+    "locations": [
+      "src/bash.cpp:221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cannot see there.",
+    "target": "我看不到那里。",
+    "locations": [
+      "src/disarm.cpp:58"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I carry no ",
+    "target": "我没有携带 ",
+    "locations": [
+      "src/reload.cpp:222"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I carry no ammunition for this weapon.",
+    "target": "这把武器没有弹药了。",
+    "locations": [
+      "src/reload.cpp:227"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cast ",
+    "target": "我施放 ",
+    "locations": [
+      "src/player_spells.cpp:156"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I cease to return harm.",
+    "target": "我不再反弹伤害。",
+    "locations": [
+      "src/property_data.cpp:553"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I close the ",
+    "target": "我关上 ",
+    "locations": [
+      "src/terrain_door.cpp:514"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I come to my senses.",
+    "target": "我恢复了神智。",
+    "locations": [
+      "src/property_data.cpp:484"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cough.",
+    "target": "我咳嗽起来。",
+    "locations": [
+      "src/terrain_mob.cpp:147"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I could tell I was at the gateway of a region half-bewitched through the piling-up of unbroken time-accumulations; a region where old, strange things have had a chance to grow and linger because they have never been stirred up.",
+    "target": "我能看出自己正站在某片半受魔法浸染的区域边缘——无数未曾中断的岁月层层堆积。在那里，古老而奇异的事物得以生长、停留，因为从未有人惊扰它们。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I cut myself free with my Machete.",
+    "target": "我用砍刀割断束缚。",
+    "locations": [
+      "src/property.cpp:520",
+      "src/terrain_trap.cpp:1211"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I defy harmful spells!",
+    "target": "我不惧有害法术！",
+    "locations": [
+      "src/property_data.cpp:307"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I descend the stairs.",
+    "target": "我走下楼梯。",
+    "locations": [
+      "src/terrain.cpp:1758"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I did not expect this place to run this deep, it is not possible! Also there are unmistakable signs of an ancient civilization, defying all logic and reason!\n\nThe way back seems lost somehow, could I ever return even if I wanted to?",
+    "target": "我没想到这里竟然深到如此地步，这不可能！而且这里有着古代文明留下的确凿痕迹，完全违背逻辑与常理！\n\n不知为何，回去的路似乎已经消失了；即使我想回去，还能回得去吗？",
+    "locations": [
+      "src/map_controller.cpp:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I did not shriek, but all the fiendish ghouls that ride the night-wind shrieked for me as in that same second there crashed down upon my mind a single and fleeting avalanche of soul-annihilating memory.",
+    "target": "我没有尖叫，但所有乘着夜风而来的邪恶食尸鬼都替我尖叫起来；就在那一瞬，一场短暂的灵魂毁灭记忆骤然席卷我的心智。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:63"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I disarm a trap.",
+    "target": "我拆除了陷阱。",
+    "locations": [
+      "include/terrain_trap.hpp:255"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I dispel a magic symbol.",
+    "target": "我驱散了魔法符号。",
+    "locations": [
+      "include/terrain_trap.hpp:558"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I displace ",
+    "target": "我挪动了 ",
+    "locations": [
+      "src/actor_move.cpp:102"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I do not know any spells.",
+    "target": "我不认识任何法术。",
+    "locations": [
+      "src/player_spells.cpp:630"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I drink from the fountain...",
+    "target": "我从喷泉饮水……",
+    "locations": [
+      "src/terrain.cpp:4383"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I drop ",
+    "target": "我丢下 ",
+    "locations": [
+      "src/drop.cpp:103"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I failed to go there...",
+    "target": "我没能走到那里……",
+    "locations": [
+      "src/marker.cpp:1011"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I faint!",
+    "target": "我昏倒了！",
+    "locations": [
+      "src/property_data.cpp:381"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I fall into an uncontrollable rage!",
+    "target": "我陷入无法控制的狂怒！",
+    "locations": [
+      "include/insanity.hpp:988"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feed on ",
+    "target": "我啃食 ",
+    "locations": [
+      "src/actor_eat.cpp:97"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I feel a peculiar energy around me!",
+    "target": "我感觉周围有股奇异的能量！",
+    "locations": [
+      "src/terrain_trap.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel a sinking sensation.",
+    "target": "我感到一阵下沉感。",
+    "locations": [
+      "src/property_data.cpp:750"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel anxious.",
+    "target": "我感到焦虑。",
+    "locations": [
+      "src/actor_player.cpp:673"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel doomed!",
+    "target": "我大祸临头了！",
+    "locations": [
+      "src/property_data.cpp:833"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel ferocious!!!",
+    "target": "我变得狂暴无比！！！",
+    "locations": [
+      "src/property_data.cpp:784"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel frailer!",
+    "target": "我觉得自己更脆弱了！",
+    "locations": [
+      "src/actor_common.cpp:576"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel healthier!",
+    "target": "我感觉好多了！",
+    "locations": [
+      "src/actor_common.cpp:508"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel ignorant.",
+    "target": "我觉得自己无知。",
+    "locations": [
+      "src/property_data.cpp:892"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel illiterate!",
+    "target": "我觉得自己目不识丁！",
+    "locations": [
+      "src/property_data.cpp:1289"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel impervious to physical attacks.",
+    "target": "我觉得自己刀枪不入。",
+    "locations": [
+      "src/property_data.cpp:151"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel in control of my speech.",
+    "target": "我觉得自己能控制言语。",
+    "locations": [
+      "include/insanity.hpp:236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel in control.",
+    "target": "我感觉一切尽在掌控。",
+    "locations": [
+      "src/property_data.cpp:1030"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less anxious.",
+    "target": "我没那么焦虑了。",
+    "locations": [
+      "src/property_data.cpp:1278"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less awake.",
+    "target": "我没那么清醒了。",
+    "locations": [
+      "src/property_data.cpp:209"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less experienced.",
+    "target": "我感觉经验变少了。",
+    "locations": [
+      "src/terrain_gong.cpp:609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less focused.",
+    "target": "我不那么专注了。",
+    "locations": [
+      "src/property_data.cpp:540"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less in control.",
+    "target": "我没那么能掌控自己了。",
+    "locations": [
+      "src/property_data.cpp:1031"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less skillful.",
+    "target": "我没那么熟练了。",
+    "locations": [
+      "src/property_data.cpp:852"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel less steady.",
+    "target": "我觉得脚步没那么稳了。",
+    "locations": [
+      "src/property_data.cpp:286"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel like I should examine this place thoroughly.",
+    "target": "我觉得应该彻底搜查这个地方。",
+    "locations": [
+      "src/actor_player.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel like my presence here is known!",
+    "target": "我觉得这里已经有人知道我的存在！",
+    "locations": [
+      "src/map_controller.cpp:105",
+      "src/map_controller.cpp:177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel like there is something of great interest here.",
+    "target": "我感觉这里有什么很有意思的东西。",
+    "locations": [
+      "src/actor_player.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel luckier.",
+    "target": "我觉得自己运气变好了。",
+    "locations": [
+      "src/property_data.cpp:799"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel misfortunate.",
+    "target": "我觉得自己时运不济。",
+    "locations": [
+      "src/property_data.cpp:813"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more anxious!",
+    "target": "我变得更加焦虑了！",
+    "locations": [
+      "src/property_data.cpp:1277"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more experienced.",
+    "target": "我感觉经验增加了。",
+    "locations": [
+      "src/terrain_gong.cpp:422"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more fervent!",
+    "target": "我变得更加狂热！",
+    "locations": [
+      "src/actor_player.cpp:330"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more fortunate.",
+    "target": "我觉得自己更加幸运。",
+    "locations": [
+      "src/property_data.cpp:815"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more powerful!",
+    "target": "我觉得自己更强大了！",
+    "locations": [
+      "src/terrain.cpp:4407"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more sane.",
+    "target": "我觉得自己更加理智了。",
+    "locations": [
+      "src/terrain_gong.cpp:437"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more skillful.",
+    "target": "我变得更加熟练。",
+    "locations": [
+      "src/property_data.cpp:850"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more spirited!",
+    "target": "我感觉精神更充沛了！",
+    "locations": [
+      "src/actor_common.cpp:544"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more steady.",
+    "target": "我感觉站得更稳了。",
+    "locations": [
+      "src/property_data.cpp:284"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more sure of my senses.",
+    "target": "我觉得自己的感官更加可靠了。",
+    "locations": [
+      "src/property_data.cpp:500"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more susceptible to time.",
+    "target": "我觉得自己更容易受时间影响。",
+    "locations": [
+      "src/property_data.cpp:236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more vigorous!",
+    "target": "我变得更有活力了！",
+    "locations": [
+      "src/actor_common.cpp:573"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel more vulnerable.",
+    "target": "我觉得自己更脆弱了。",
+    "locations": [
+      "src/property_data.cpp:880"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel much less secure.",
+    "target": "我感到安全感大减。",
+    "locations": [
+      "src/property_data.cpp:1332"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel my sanity slipping...",
+    "target": "我觉得自己的理智正在流失……",
+    "locations": [
+      "src/actor_start_turn.cpp:395"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel powerful!",
+    "target": "我感觉自己很强大！",
+    "locations": [
+      "src/terrain_monolith.cpp:148"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel resistant to confusion.",
+    "target": "我觉得自己不容易糊涂了。",
+    "locations": [
+      "src/property_data.cpp:247"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel resistant to disease.",
+    "target": "我觉得自己不容易患病了。",
+    "locations": [
+      "src/property_data.cpp:261"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel resistant to electricity.",
+    "target": "我觉得自己不容易受电击了。",
+    "locations": [
+      "src/property_data.cpp:193"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel resistant to fire.",
+    "target": "我觉得自己不容易被火伤害了。",
+    "locations": [
+      "src/property_data.cpp:165"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel resistant to poison.",
+    "target": "我觉得自己不容易中毒了。",
+    "locations": [
+      "src/property_data.cpp:179"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel steadfast.",
+    "target": "我变得坚定不移。",
+    "locations": [
+      "src/property_data.cpp:235"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel stronger!",
+    "target": "我变得更强壮了！",
+    "locations": [
+      "src/property_data.cpp:766"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel susceptible to the horrors of this place again.",
+    "target": "我再次感到自己容易受到此地恐怖的侵袭。",
+    "locations": [
+      "src/property_data.cpp:322"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel the ground shifting slightly under my foot.",
+    "target": "我觉得脚下的地面微微晃动。",
+    "locations": [
+      "src/terrain_trap.cpp:163"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel unassailable.",
+    "target": "我觉得自己坚不可摧。",
+    "locations": [
+      "src/property_data.cpp:878"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel very focused.",
+    "target": "我变得十分专注。",
+    "locations": [
+      "src/property_data.cpp:539"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel very secure.",
+    "target": "我觉得非常安心。",
+    "locations": [
+      "src/property_data.cpp:1331"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to confusion.",
+    "target": "我觉得自己容易糊涂。",
+    "locations": [
+      "src/property_data.cpp:249"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to disease.",
+    "target": "我觉得自己容易患病。",
+    "locations": [
+      "src/property_data.cpp:263"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to electricity.",
+    "target": "我觉得自己容易受到电击。",
+    "locations": [
+      "src/property_data.cpp:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to fear.",
+    "target": "我觉得自己容易恐惧。",
+    "locations": [
+      "src/property_data.cpp:223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to fire.",
+    "target": "我觉得自己容易被火伤害。",
+    "locations": [
+      "src/property_data.cpp:167"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to light!",
+    "target": "我觉得自己容易受到光线伤害！",
+    "locations": [
+      "src/property_data.cpp:334"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to physical attacks.",
+    "target": "我觉得自己容易受到物理攻击。",
+    "locations": [
+      "src/property_data.cpp:153"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to poison.",
+    "target": "我觉得自己容易中毒。",
+    "locations": [
+      "src/property_data.cpp:181"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel vulnerable to spells.",
+    "target": "我觉得自己容易受到法术伤害。",
+    "locations": [
+      "src/property_data.cpp:309"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel weaker.",
+    "target": "我觉得自己变弱了。",
+    "locations": [
+      "src/property_data.cpp:764"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I feel wide awake.",
+    "target": "我完全清醒了。",
+    "locations": [
+      "src/property_data.cpp:207"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I felt myself on the edge of the world; peering over the rim into a fathomless chaos of eternal night.",
+    "target": "我觉得自己站在世界的尽头，俯视着无底的混沌与永恒黑夜。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:55"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I find myself babbling incoherently.",
+    "target": "我发现自己在语无伦次地喃喃自语。",
+    "locations": [
+      "include/insanity.hpp:226"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I find myself in a peculiar trance. I struggle to recall where I am, and what is happening.",
+    "target": "我发现自己陷入一种奇异的恍惚。我努力回想自己身在何处、正在发生什么。",
+    "locations": [
+      "include/insanity.hpp:946"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I find nothing there to close or jam shut.",
+    "target": "那里没有东西可关，也没有东西可堵。",
+    "locations": [
+      "src/close.cpp:40",
+      "src/close.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I find nothing there to close.",
+    "target": "那里没有东西可关。",
+    "locations": [
+      "src/terrain_door.cpp:1558"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I fumble blindly with a ",
+    "target": "我摸索着 ",
+    "locations": [
+      "src/terrain_door.cpp:460",
+      "src/terrain_door.cpp:552"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I fumble with ",
+    "target": "我摸索着 ",
+    "locations": [
+      "src/reload.cpp:44"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I fumble with a ",
+    "target": "我摸索着一件 ",
+    "locations": [
+      "src/terrain_door.cpp:398",
+      "src/terrain_door.cpp:533"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I have ",
+    "target": "我有 ",
+    "locations": [
+      "src/close.cpp:102"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I have discovered ",
+    "target": "我发现了 ",
+    "locations": [
+      "src/game.cpp:341",
+      "src/item.cpp:435"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I have discovered a new area.",
+    "target": "我发现了一个新区域。",
+    "locations": [
+      "src/map_travel.cpp:325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have looked upon all that the universe has to hold of horror, and even the skies of spring and the flowers of summer must ever afterward be poison to me. But I do not think my life will be long. I know too much, and the cult still lives.",
+    "target": "我见识了宇宙所能容纳的一切恐怖；从那以后，春日的天空与夏日的花朵对我而言都成了毒物。但我想自己的生命不会太长了。我知道得太多，而邪教仍然存在。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:33"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have neither a wielded nor a prepared weapon.",
+    "target": "我既没有持握武器，也没有准备好的武器。",
+    "locations": [
+      "src/game_commands.cpp:287"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have no iron spikes left.",
+    "target": "我没有剩余的铁刺了。",
+    "locations": [
+      "src/close.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have no vision here.",
+    "target": "我在这里什么也看不见。",
+    "locations": [
+      "src/marker.cpp:1543"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have normal luck.",
+    "target": "我的运气很普通。",
+    "locations": [
+      "src/property_data.cpp:800"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have nothing to jam the door with.",
+    "target": "我没有东西可以卡住门。",
+    "locations": [
+      "src/close.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I have received ",
+    "target": "我收到了 ",
+    "locations": [
+      "src/terrain_gong.cpp:469"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "I have seen the dark universe yawning, where the black planets roll without aim, where they roll in their horror unheeded, without knowledge, or lustre, or name.",
+    "target": "我见过黑暗宇宙张开深渊，黑色行星漫无目的地滚动，在恐怖中滚动，却无人知晓、无人注视，没有知识、光辉或名字。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a beast howling.",
+    "target": "我听见野兽在嚎叫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a burst of gas.",
+    "target": "我听见一阵气体喷出的声音。",
+    "locations": [
+      "src/terrain.cpp:3851",
+      "src/terrain_trap.cpp:1128"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a chilling growl.",
+    "target": "我听见一声令人胆寒的咆哮。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a click.",
+    "target": "我听见咔哒一声。",
+    "locations": [
+      "src/terrain_trap.cpp:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a crash.",
+    "target": "我听见一声巨响。",
+    "locations": [
+      "src/terrain.cpp:234",
+      "src/terrain.cpp:2949"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a deep buzzing sound.",
+    "target": "我听见低沉的嗡鸣。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a door crashing open!",
+    "target": "我听见一扇门轰然打开！",
+    "locations": [
+      "src/terrain_door.cpp:263"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a door open.",
+    "target": "我听见门开了。",
+    "locations": [
+      "src/terrain_door.cpp:355"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a droning voice.",
+    "target": "我听见一个嗡嗡作响的声音。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a growling voice.",
+    "target": "我听见一个咆哮的声音。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a gurgling noise.",
+    "target": "我听见咕噜咕噜的声音。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a harrowing scream.",
+    "target": "我听见一声凄厉的尖叫。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a hollow voice.",
+    "target": "我听见一个空洞的声音。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a howling wind.",
+    "target": "我听见风在呼啸。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a loathsome titter.",
+    "target": "我听见令人厌恶的窃笑。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a loud banging.",
+    "target": "我听见一阵响亮的敲击声。",
+    "locations": [
+      "src/terrain_door.cpp:311"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a muffled shatter.",
+    "target": "我听见一声沉闷的碎裂声。",
+    "locations": [
+      "src/terrain.cpp:3273"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a repulsive croaking voice.",
+    "target": "我听见一个令人作呕的呱呱声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "I hear a shrill whistling.",
+    "target": "我听见一声尖锐的口哨声。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/aware_message_hidden",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/aware_message_hidden"
+    ],
+    "kind": "ui"
+  }
+]

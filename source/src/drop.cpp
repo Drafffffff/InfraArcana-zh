@@ -100,7 +100,7 @@ void drop_item_from_inv(
 
         // Print message
         if (actor::is_player(&actor)) {
-                msg_log::add("I drop " + item_ref + ".");
+                msg_log::add("我丢下 " + item_ref + ".");
         }
         else {
                 // Monster is dropping item
@@ -109,7 +109,7 @@ void drop_item_from_inv(
                                 text_format::first_to_upper(
                                         actor::name_the(actor));
 
-                        msg_log::add(mon_name_the + " drops " + item_ref + ".");
+                        msg_log::add(mon_name_the + " 掉落了 " + item_ref + ".");
                 }
         }
 

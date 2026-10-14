@@ -48,10 +48,10 @@ static bool query_overwrite_savefile()
         int choice = 0;
 
         popup::Popup(popup::AddToMsgHistory::no)
-                .set_title("A saved game exists")
-                .set_msg("Start a new game?")
+                .set_title("存在已保存的游戏")
+                .set_msg("开始新游戏？")
                 .setup_menu_mode(
-                        {"(Y)es", "(N)o"},
+                        {"(Y)是", "(N)否"},
                         {'y', 'n'},
                         popup::MenuModeShowCancelHint::no,
                         &choice)
@@ -88,7 +88,7 @@ void MainMenuState::draw()
         else {
                 // Text mode
                 io::draw_text_center(
-                        "I n f r a   A r c a n a",
+                        "英 弗 拉   阿 卡 纳",
                         Panel::screen,
                         {panels::center_x(Panel::screen),
                          (panels::h(Panel::screen) * 3) / 12},
@@ -97,7 +97,7 @@ void MainMenuState::draw()
 
         if (config::is_gj_mode()) {
                 io::draw_text(
-                        "### GJ MODE ENABLED ###",
+                        "### GJ 模式已启用 ###",
                         Panel::screen,
                         {1, 1},
                         colors::yellow());
@@ -105,13 +105,13 @@ void MainMenuState::draw()
 #ifndef NDEBUG
         else {
                 io::draw_text(
-                        "### DEBUG ###",
+                        "### 调试 ###",
                         Panel::screen,
                         {1, 1},
                         colors::yellow());
 
                 io::draw_text(
-                        "###  MODE ###",
+                        "### 模式 ###",
                         Panel::screen,
                         {1, 2},
                         colors::yellow());
@@ -119,12 +119,12 @@ void MainMenuState::draw()
 #endif  // NDEBUG
 
         const std::vector<std::string> labels = {
-                "(N)ew journey",
-                "(R)esurrect",
-                "(T)ome of Wisdom",
-                "(O)ptions",
-                "(G)raveyard",
-                "(E)scape to reality"};
+                "(N)新的旅程",
+                "(R)复活",
+                "(T)智慧之书",
+                "(O)选项",
+                "(G)墓园",
+                "(E)回归现实"};
 
         const P screen_dims = panels::dims(Panel::screen);
 
@@ -306,7 +306,7 @@ void MainMenuState::update()
                         else {
                                 // No save available
                                 popup::Popup(popup::AddToMsgHistory::no)
-                                        .set_msg("No saved game found")
+                                        .set_msg("未找到已保存的游戏")
                                         .run();
                         }
                 } break;

@@ -1,0 +1,36 @@
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- cmake version >= 3.20, setting EXPORT_COMPILE_COMMANDSfortargetia-debug
+-- Finding installed system version of SDL.
+<FindSDL2.cmake>
+</FindSDL2.cmake>
+-- Configuring done (0.0s)
+Running revision command with Git executable: '/usr/bin/git'
+Revision output path: '/work/build/data/git-sha1.txt'
+Revision command result: '128'
+Revision command errors: 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+'
+-- Generating done (0.0s)
+-- Build files have been written to: /work/build
+[  3%] Building CXX object CMakeFiles/ia.dir/src/character_descr.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/create_character.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/game_over_summary.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/main_menu.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/io_text.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/minimap.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/msg_log.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/player_spells.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/popup.cpp.o
+[  3%] Building CXX object CMakeFiles/ia.dir/src/property_data.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/text.cpp.o
+[  6%] Building CXX object CMakeFiles/ia.dir/src/text_format.cpp.o
+[  9%] Linking CXX executable ia
+[100%] Built target ia

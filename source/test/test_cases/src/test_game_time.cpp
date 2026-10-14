@@ -21,7 +21,7 @@ TEST_CASE("Test player acts twice compared to slow monster")
         mon->m_mon_aware_state.aware_counter = 100;
 
         const std::string name_player = "Player";
-        const std::string name_mon = "a Bloated Corpse";
+        const std::string name_mon = "一具肿胀的尸体";
 
         map::g_player->m_data->name_a = name_player;
 
@@ -102,7 +102,7 @@ TEST_CASE("Test standard turn incrementation with player and monster")
         mon->m_mon_aware_state.aware_counter = 100;
 
         const std::string name_player = "Player";
-        const std::string name_mon = "a Reanimated Corpse";
+        const std::string name_mon = "一具复活的尸体";
 
         map::g_player->m_data->name_a = name_player;
 

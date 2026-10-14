@@ -1,0 +1,1225 @@
+[
+  {
+    "source": "Master Marksman",
+    "target": "神枪手",
+    "locations": [
+      "src/player_bon.cpp:197"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Master Melee Fighter",
+    "target": "近战大师",
+    "locations": [
+      "src/player_bon.cpp:172"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "max",
+    "target": "最大值",
+    "locations": [
+      "src/actor_data.cpp:391",
+      "src/actor_data.cpp:618"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "max_dungeon_level",
+    "target": "max_dungeon_level",
+    "locations": [
+      "src/actor_data.cpp:555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "May the merciful gods, if indeed there be such, guard those hours when no power of the will can keep me from the chasm of sleep. With him who has come back out of the nethermost chambers of night, haggard and knowing, peace rests nevermore.",
+    "target": "愿慈悲的诸神——倘若他们确实存在——庇护那些意志也无法阻止我坠入睡眠深渊的时刻。自从那个从黑夜最深处归来、面容憔悴又知晓太多的人出现后，平静便再也不曾降临。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Med Suppl",
+    "target": "医疗补给",
+    "locations": [
+      "src/map_mode_gui.cpp:524"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Med. Suppl.      24 : Remaining Medical Bag Supplies",
+    "target": "医疗补给      24：医疗包剩余补给数量",
+    "locations": [
+      "installed_files/manual.txt:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Meditative",
+    "target": "沉思者",
+    "locations": [
+      "src/player_bon.cpp:438"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "melee",
+    "target": "近战",
+    "locations": [
+      "src/ability_values.cpp:27",
+      "src/ability_values.cpp:35",
+      "src/actor_data.cpp:246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "melee weapon with long reach), or DISARM adjacent trap",
+    "target": "长柄近战武器），或解除相邻陷阱",
+    "locations": [
+      "installed_files/manual.txt:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Memento Mori",
+    "target": "死亡纪念",
+    "locations": [
+      "src/player_bon.cpp:870"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Memories and possibilities are ever more hideous than realities.",
+    "target": "记忆与可能性总是比现实更加可怖。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:11"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mental shock received passively over time is reduced by 25%.",
+    "target": "随着时间流逝而被动承受的精神震慑减少25%。",
+    "locations": [
+      "src/player_bon.cpp:1193"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Messages ",
+    "target": "消息 ",
+    "locations": [
+      "src/msg_log.cpp:755"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "metal door",
+    "target": "金属门",
+    "locations": [
+      "src/terrain_door.cpp:1070"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mighty Spirit",
+    "target": "强大的精神",
+    "locations": [
+      "src/player_bon.cpp:428"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "MiGo Hypnosis",
+    "target": "MiGo催眠",
+    "locations": [
+      "include/spells.hpp:2721"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "min",
+    "target": "最小值",
+    "locations": [
+      "src/actor_data.cpp:386",
+      "src/actor_data.cpp:617"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "min_dungeon_level",
+    "target": "min_dungeon_level",
+    "locations": [
+      "src/actor_data.cpp:550"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mind Sapped",
+    "target": "心智被汲取",
+    "locations": [
+      "src/property_data.cpp:701"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mind Sapped(",
+    "target": "心智被汲取（",
+    "locations": [
+      "include/property.hpp:959"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "mind shattering",
+    "target": "心智崩溃",
+    "locations": [
+      "src/view_actor_descr.cpp:213"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "mist",
+    "target": "迷雾",
+    "locations": [
+      "src/terrain_mob.cpp:258"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mix_GetError(): ",
+    "target": "Mix_GetError(): ",
+    "locations": [
+      "src/audio.cpp:75"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Mnomquah",
+    "target": "姆诺姆夸",
+    "locations": [
+      "src/gods.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mold",
+    "target": "霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/text/name_a"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Monolith",
+    "target": "方尖碑",
+    "locations": [
+      "src/terrain_monolith.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "monster",
+    "target": "怪物",
+    "locations": [
+      "src/actor_data.cpp:642"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "monster descriptions, and also provided many gameplay ideas.",
+    "target": "怪物描述，也提供了许多玩法创意。",
+    "locations": [
+      "installed_files/credits.txt:13"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Monster is summoned?: ",
+    "target": "怪物已被召唤？： ",
+    "locations": [
+      "src/actor_act.cpp:354"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Monsters also react to noise, and may disturb nearby monsters when becoming aware, alerting them to your presence. Medium and heavy melee weapons will make noise on attacks, so a light weapon might be more ideal for a stealthy combat approach. Some sounds are louder than others, for example firing a gun or kicking down a door is likely to attract some attention.",
+    "target": "怪物也会对噪音作出反应；它们察觉到动静时可能惊扰附近的怪物，暴露你的位置。中型与重型近战武器攻击时会发出声响，因此潜行作战时轻型武器可能更合适。不同声音的响度也不同，例如开枪或踢开一扇门很可能引来注意。",
+    "locations": [
+      "installed_files/manual.txt:240"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Monsters unaware of your presence have a blue background on their map icon. This is their default mode. While in this state they may roam the map, but they will not actively search for you or purposefully attack you. If you attack an unaware opponent in melee, the attack does +50% extra damage, and has a very high chance to hit.",
+    "target": "尚未察觉你的怪物，其地图图标背景为蓝色，这是它们的默认状态。它们可能会在地图上游荡，但不会主动搜寻或刻意攻击你。如果你在近战中攻击未察觉你的敌人，伤害会额外提高50%，并且命中几率很高。",
+    "locations": [
+      "installed_files/manual.txt:226"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mordiggian",
+    "target": "莫迪吉安",
+    "locations": [
+      "src/gods.cpp:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Moribund",
+    "target": "濒死",
+    "locations": [
+      "src/property_data.cpp:1347",
+      "src/property_data.cpp:1348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "moss-grown ",
+    "target": "苔藓覆盖的 ",
+    "locations": [
+      "src/terrain.cpp:814"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Move in eight directions with the numpad keys:",
+    "target": "使用数字小键盘向八个方向移动：",
+    "locations": [
+      "installed_files/manual.txt:48"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Moves faster.",
+    "target": "移动更快。",
+    "locations": [
+      "src/property_data.cpp:611"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Moves slower.",
+    "target": "移动更慢。",
+    "locations": [
+      "src/property_data.cpp:593"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Moves very fast.",
+    "target": "移动非常快。",
+    "locations": [
+      "src/property_data.cpp:627"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "moves_randomly_when_unaware",
+    "target": "moves_randomly_when_unaware",
+    "locations": [
+      "src/actor_data.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "moves_to_lair",
+    "target": "moves_to_lair",
+    "locations": [
+      "src/actor_data.cpp:78"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "moves_to_leader",
+    "target": "moves_to_leader",
+    "locations": [
+      "src/actor_data.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "moves_to_target_when_los",
+    "target": "moves_to_target_when_los",
+    "locations": [
+      "src/actor_data.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "mud",
+    "target": "泥",
+    "locations": [
+      "src/terrain.cpp:1935"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Murophobia!",
+    "target": "恐鼠症！",
+    "locations": [
+      "include/insanity.hpp:375"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Musica Cthulhiana for giving permission to use their track \"Madness\"",
+    "target": "感谢 Musica Cthulhiana 允许使用他们的曲目《Madness》",
+    "locations": [
+      "installed_files/credits.txt:9"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "mutters incantations.",
+    "target": "喃喃吟唱咒语。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_WIZARD]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/spell_message",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/spell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My aiming feels better.",
+    "target": "我的瞄准更准了。",
+    "locations": [
+      "src/property_data.cpp:1266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My aiming feels worse.",
+    "target": "我的瞄准变差了。",
+    "locations": [
+      "src/property_data.cpp:1265"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My body heals itself slower now.",
+    "target": "我的身体现在自我愈合得更慢了。",
+    "locations": [
+      "src/property_data.cpp:1118"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My body is cleansed from poisoning!",
+    "target": "我的身体已经从中毒状态痊愈！",
+    "locations": [
+      "src/property_data.cpp:424"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My body starts healing itself much faster.",
+    "target": "我的身体开始自我愈合，速度快了许多。",
+    "locations": [
+      "src/property_data.cpp:1116"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My carapace cracks and crumbles away.",
+    "target": "我的甲壳裂开并碎落。",
+    "locations": [
+      "src/property_data.cpp:866"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My cloak fades.",
+    "target": "我的斗篷消散了。",
+    "locations": [
+      "src/property_data.cpp:991"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My disease is cured!",
+    "target": "我的疾病治愈了！",
+    "locations": [
+      "src/property_data.cpp:734"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My doom does not feel so certain anymore.",
+    "target": "我不再觉得自己命中注定要遭厄运。",
+    "locations": [
+      "src/property_data.cpp:835"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My doom was written",
+    "target": "我的厄运早已注定",
+    "locations": [
+      "src/property_data.cpp:838"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My eyes can no longer perceive the invisible.",
+    "target": "我的双眼再也无法看见隐形之物。",
+    "locations": [
+      "src/property_data.cpp:1009"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My eyes perceive the invisible.",
+    "target": "我的双眼看见了隐形之物。",
+    "locations": [
+      "src/property_data.cpp:1007"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My great blessing ceased",
+    "target": "我的巨大祝福消失了",
+    "locations": [
+      "src/property_data.cpp:802"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My hastiness ceased",
+    "target": "我的急躁消退了",
+    "locations": [
+      "src/property_data.cpp:617"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My hearing came back",
+    "target": "我恢复了听力",
+    "locations": [
+      "src/property_data.cpp:368"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My infection is cured!",
+    "target": "我的感染治愈了！",
+    "locations": [
+      "src/property_data.cpp:718"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My infection is getting worse!",
+    "target": "我的感染恶化了！",
+    "locations": [
+      "src/property.cpp:642"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My life force is sapped!",
+    "target": "我的生命力正在流失！",
+    "locations": [
+      "src/property_data.cpp:675"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My life force returns.",
+    "target": "我的生命力回来了。",
+    "locations": [
+      "src/property_data.cpp:677"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My mind can no longer withstand what it has grasped. I am hopelessly lost.",
+    "target": "我的心智再也无法承受所领悟的一切。我已无可救药地迷失了。",
+    "locations": [
+      "src/actor_player.cpp:543"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My mind is sapped!",
+    "target": "我的心智被汲取了！",
+    "locations": [
+      "src/property_data.cpp:703"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My mind returns.",
+    "target": "我的心智恢复了。",
+    "locations": [
+      "src/property_data.cpp:704"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My movement is normal again.",
+    "target": "我的动作恢复正常了。",
+    "locations": [
+      "src/property_data.cpp:569"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of canines was cured",
+    "target": "我的恐犬症治愈了",
+    "locations": [
+      "include/insanity.hpp:582"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of darkness was cured",
+    "target": "我的黑暗恐惧症治愈了",
+    "locations": [
+      "include/insanity.hpp:774"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of deep places was cured",
+    "target": "我的幽闭深渊恐惧症治愈了",
+    "locations": [
+      "include/insanity.hpp:710"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of rats was cured",
+    "target": "我的恐鼠症治愈了",
+    "locations": [
+      "include/insanity.hpp:390"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of reptiles and amphibians was cured",
+    "target": "我的爬行动物与两栖动物恐惧症治愈了",
+    "locations": [
+      "include/insanity.hpp:518"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of spiders was cured",
+    "target": "我的蜘蛛恐惧症治愈了",
+    "locations": [
+      "include/insanity.hpp:454"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My phobia of the dead was cured",
+    "target": "我的尸骸恐惧症治愈了",
+    "locations": [
+      "include/insanity.hpp:646"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My sadistic obsession was cured",
+    "target": "我的虐待狂执念治愈了",
+    "locations": [
+      "include/insanity.hpp:836"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My sight came back",
+    "target": "我恢复了视力",
+    "locations": [
+      "src/property_data.cpp:352"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My sinking feeling disappears.",
+    "target": "我的下沉感消失了。",
+    "locations": [
+      "src/map_travel.cpp:303"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My slowness ceased",
+    "target": "我的迟缓消退了",
+    "locations": [
+      "src/property_data.cpp:601"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My spirit is drained!",
+    "target": "我的精神力枯竭了！",
+    "locations": [
+      "src/actor_hit.cpp:490"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My spirit is sapped!",
+    "target": "我的精神力被汲取了！",
+    "locations": [
+      "src/property_data.cpp:689"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My spirit is stronger!",
+    "target": "我的精神力增强了！",
+    "locations": [
+      "src/actor_common.cpp:606"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My spirit is weaker!",
+    "target": "我的精神力减弱了！",
+    "locations": [
+      "src/actor_common.cpp:609"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My spirit returns.",
+    "target": "我的精神力回来了。",
+    "locations": [
+      "src/property_data.cpp:691"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My strange babbling was cured",
+    "target": "我的怪异喃喃自语治愈了",
+    "locations": [
+      "include/insanity.hpp:246"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "My wounds cause me to stagger.",
+    "target": "创伤让我步履蹒跚。",
+    "locations": [
+      "src/actor_move.cpp:325"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mynoghra",
+    "target": "米诺格拉",
+    "locations": [
+      "src/gods.cpp:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Mystic secrets are revealed to me!",
+    "target": "神秘的秘密向我揭晓！",
+    "locations": [
+      "src/property_data.cpp:891"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "n (o)     Make NOISE",
+    "target": "n (o)     制造噪音",
+    "locations": [
+      "installed_files/manual.txt:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nailed",
+    "target": "被钉住",
+    "locations": [
+      "src/property_data.cpp:644"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nailed(",
+    "target": "被钉住（",
+    "locations": [
+      "include/property.hpp:819"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "name",
+    "target": "name",
+    "locations": [
+      "src/colors.cpp:163"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "name_a",
+    "target": "name_a",
+    "locations": [
+      "src/actor_data.cpp:88"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "name_the",
+    "target": "name_the",
+    "locations": [
+      "src/actor_data.cpp:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "native_room",
+    "target": "native_room",
+    "locations": [
+      "src/actor_data.cpp:597"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Necrophobia!",
+    "target": "恐尸症！",
+    "locations": [
+      "include/insanity.hpp:631"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ngirrthlu",
+    "target": "恩吉尔斯卢",
+    "locations": [
+      "src/gods.cpp:63"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Niduza",
+    "target": "尼杜扎",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nitokris",
+    "target": "尼托克丽丝",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "No high score entries found.",
+    "target": "未找到高分记录。",
+    "locations": [
+      "src/highscore.cpp:420"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "no longer exudes decay.",
+    "target": "不再散发腐朽气息。",
+    "locations": [
+      "src/property_data.cpp:1072"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "no longer is vulnerable to light.",
+    "target": "不再容易受到光线伤害。",
+    "locations": [
+      "src/property_data.cpp:337"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "No mental shock received for taking damage.",
+    "target": "受到伤害时不会承受精神震慑。",
+    "locations": [
+      "src/player_bon.cpp:1116"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "No message history",
+    "target": "没有消息记录",
+    "locations": [
+      "src/msg_log.cpp:747"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "No specific mental disorders",
+    "target": "没有具体的精神障碍",
+    "locations": [
+      "src/character_descr.cpp:86"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Non-Euclidean calculus and quantum physics are enough to stretch any brain; and when one mixes them with folklore, and tries to trace a strange background of multi-dimensional reality behind the ghoulish hints of Gothic tales and the wild whispers of the chimney-corner, one can hardly expect to be wholly free from mental tension.",
+    "target": "非欧几里得微积分与量子物理已经够让人脑筋打结了；如果再把它们与民间传说混为一谈，试图从哥特故事的阴森暗示和炉边狂野的低语中，追索多维现实背后的奇异渊源，那么几乎不可能完全摆脱精神紧张。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:49"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "None",
+    "target": "无",
+    "locations": [
+      "src/character_descr.cpp:42",
+      "src/game_over_summary.cpp:162",
+      "src/game_over_summary.cpp:198",
+      "src/map_mode_gui.cpp:501"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Northot",
+    "target": "诺索特",
+    "locations": [
+      "src/gods.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while blind.",
+    "target": "失明时无法进行。",
+    "locations": [
+      "src/disarm.cpp:35",
+      "src/game_commands.cpp:360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while confused.",
+    "target": "糊涂时无法进行。",
+    "locations": [
+      "src/game_commands.cpp:368"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while entangled.",
+    "target": "被缠住时无法进行。",
+    "locations": [
+      "src/disarm.cpp:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while infected.",
+    "target": "感染时无法进行。",
+    "locations": [
+      "src/game_commands.cpp:372",
+      "src/game_commands.cpp:817"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while poisoned.",
+    "target": "中毒时无法进行。",
+    "locations": [
+      "src/game_commands.cpp:364"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Not while stuck.",
+    "target": "卡住时无法进行。",
+    "locations": [
+      "src/disarm.cpp:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Note that explosives are not used like throwing weapons. Instead they are used by first igniting or priming the explosive, this is done by \"activating\" it (can be done from the \"a\" inventory screen, see above) - now you can see your character colored yellow as a warning that you are holding an ignited explosive. Press \"t\", and aim somewhere (in some cases the game will mark the area around your aim position to indicate the explosion size - be careful though, there may be unseen objects blocking the throw path). Press \"t\" again to throw the explosive toward the aim position.",
+    "target": "注意，爆炸物不能像投掷武器那样直接使用。你需要先点燃或启动爆炸物，也就是“激活”它（可在物品栏的“a”界面操作，见上文）。此时角色会显示为黄色，提醒你手持已点燃的爆炸物。按“t”并选择目标位置（有时游戏会标出瞄准点周围范围以提示爆炸半径——但要小心，投掷路径上可能有看不见的物体挡路）。再次按“t”，即可将爆炸物投向目标位置。",
+    "locations": [
+      "installed_files/manual.txt:170"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Note that the player can sometimes act more or less",
+    "target": "注意，玩家有时可以行动得更快或更慢",
+    "locations": [
+      "installed_files/manual.txt:138"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nothing can disturb my mind!",
+    "target": "没有什么能扰乱我的心智！",
+    "locations": [
+      "src/property_data.cpp:320"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nov 23, 2010",
+    "target": "2010年11月23日",
+    "locations": [
+      "installed_files/release_history.txt:1926"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Now: \"You are hit.(x3)\"",
+    "target": "现在：“你被击中了。（x3）”",
+    "locations": [
+      "installed_files/release_history.txt:1907"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "nr_allowed_to_spawn",
+    "target": "nr_allowed_to_spawn",
+    "locations": [
+      "src/actor_data.cpp:587"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nssu-Ghahnb",
+    "target": "恩苏-加恩布",
+    "locations": [
+      "src/gods.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Number of candidates found: ",
+    "target": "找到的候选项数量： ",
+    "locations": [
+      "src/map_templates.cpp:383"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Nycrama",
+    "target": "尼克拉玛",
+    "locations": [
+      "src/gods.cpp:66"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nyctophobia!",
+    "target": "恐黑症！",
+    "locations": [
+      "include/insanity.hpp:759"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Nyogtha",
+    "target": "尼奥格塔",
+    "locations": [
+      "src/gods.cpp:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Obmbu",
+    "target": "奥姆布",
+    "locations": [
+      "src/gods.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Occasionally moving in random directions, cannot read or cast spells, cannot search for hidden doors or traps.",
+    "target": "偶尔会随机移动，无法阅读或施放法术，也无法搜寻隐藏的门或陷阱。",
+    "locations": [
+      "src/property_data.cpp:480"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Occultist",
+    "target": "神秘学者",
+    "locations": [
+      "src/player_bon.cpp:999"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Oct 5, 2010",
+    "target": "2010年10月5日",
+    "locations": [
+      "installed_files/release_history.txt:1945"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "often than these turns are ticking (e.g. if they have",
+    "target": "比这些回合流逝得更频繁（例如，如果它们……",
+    "locations": [
+      "installed_files/manual.txt:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Old changelogs from before the game was named Infra Arcana",
+    "target": "游戏更名为 Infra Arcana 之前的旧版更新日志",
+    "locations": [
+      "installed_files/release_history.txt:1893"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "On the right hand side of the screen, information is listed about your character and your carried equipment. The following is an example of what these lines can look like:",
+    "target": "屏幕右侧列出了角色与携带装备的信息。这些行可能如下所示：",
+    "locations": [
+      "installed_files/manual.txt:88"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Once a renowned painter, notorious for his ability to depict hauntingly photorealistic scenes of demonic creatures. Now he himself seems to be fully transformed into the likeness of those creatures he used to portray.",
+    "target": "他曾是著名画家，以描绘恶魔生物的骇人写实场景而声名狼藉。如今，他自己似乎也彻底变成了那些笔下生物的模样。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Once an influential figure at the forefront of a prestigious institution, this fetid carcass now prowls among an army of the dead.",
+    "target": "他曾是声望卓著机构中举足轻重的人物，如今这具腐臭的尸骸却在亡者大军中游荡。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "open",
+    "target": "打开",
+    "locations": [
+      "src/terrain_door.cpp:883",
+      "src/terrain_door.cpp:932"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Open ",
+    "target": "打开 ",
+    "locations": [
+      "src/terrain_door.cpp:1413"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "open ",
+    "target": "打开 ",
+    "locations": [
+      "src/terrain.cpp:3383",
+      "src/terrain.cpp:4153",
+      "src/terrain_door.cpp:1125"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Optional convenience commands and shortcuts:",
+    "target": "可选的便捷操作与快捷键：",
+    "locations": [
+      "installed_files/manual.txt:30"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "or ",
+    "target": "或 ",
+    "locations": [
+      "src/view_actor_descr.cpp:388"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "ornate ",
+    "target": "华丽的 ",
+    "locations": [
+      "src/terrain.cpp:3407"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Othuum",
+    "target": "奥图姆",
+    "locations": [
+      "src/gods.cpp:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Othuyeg",
+    "target": "奥图耶格",
+    "locations": [
+      "src/gods.cpp:70"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Our means of receiving impressions are absurdly few, and our notions of surrounding objects infinitely narrow. We see things only as we are constructed to see them, and can gain no idea of their absolute nature.",
+    "target": "我们接受印象的途径少得可怜，对周遭事物的认知也狭隘无比。我们只能看见自身结构所允许看见的东西，永远无法了解它们绝对的本质。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:3"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "outside map, at ",
+    "target": "地图外，位于 ",
+    "locations": [
+      "src/actor_move.cpp:497"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Overburdened",
+    "target": "负重过多",
+    "locations": [
+      "src/hints.cpp:83"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "p         DISARM trap",
+    "target": "p         解除陷阱",
+    "locations": [
+      "installed_files/manual.txt:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Pallex ti!",
+    "target": "Pallex ti!",
+    "locations": [
+      "src/actor_mon.cpp:190"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Paralys Res",
+    "target": "麻痹抗性",
+    "locations": [
+      "src/property_data.cpp:282"
+    ],
+    "kind": "ui"
+  }
+]

@@ -97,7 +97,7 @@ void Mirror::hit(
                 if (map::g_seen.at(m_pos)) {
                         msg_log::add(
                                 text_format::first_to_upper(name(Article::the)) +
-                                " is destroyed.");
+                                " 被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -128,9 +128,9 @@ void Mirror::hit(
 
 std::string Mirror::name(const Article article) const
 {
-        std::string str = article == Article::a ? "a " : "the ";
+        std::string str = article == Article::a ? "一个 " : "这 ";
 
-        return str + "hazy mirror";
+        return str + "朦胧之镜";
 }
 
 Color Mirror::color_default() const
@@ -147,7 +147,7 @@ std::optional<map::MinimapAppearance> Mirror::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = colors::orange();
-        appearance.legend_text = "Hazy Mirror";
+        appearance.legend_text = "朦胧之镜";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -163,12 +163,12 @@ void Mirror::bump(actor::Actor& actor_bumping)
         map::update_vision();
 
         if (!map::g_player->m_properties.allow_see()) {
-                msg_log::add("There is a glass surface here.");
+                msg_log::add("这里有一块玻璃表面。");
 
                 if (player_bon::is_bg(Bg::exorcist)) {
                         // NOTE: No return in this case - we also want to print
                         // the second message below about destroying the mirror.
-                        msg_log::add("As I touch it, I am chilled to the bone.");
+                        msg_log::add("我一碰到它，寒意便直透骨髓。");
                 }
                 else {
                         return;
@@ -176,15 +176,15 @@ void Mirror::bump(actor::Actor& actor_bumping)
         }
 
         if (player_bon::is_bg(Bg::exorcist)) {
-                msg_log::add("This evil artifact must be destroyed!");
+                msg_log::add("必须摧毁这件邪恶神器！");
 
                 return;
         }
 
-        msg_log::add("I stare deep into the " + name(Article::the) + ".");
+        msg_log::add("我凝视着 " + name(Article::the) + ".");
 
         if (m_is_activated || !player_has_unidentified_item()) {
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
         }
         else {
                 audio::play(audio::SfxId::mirror_activate);

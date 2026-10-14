@@ -1,0 +1,1214 @@
+[
+  {
+    "source": "The Father of Serpents",
+    "target": "群蛇之父",
+    "locations": [
+      "src/gods.cpp:102"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Feaster from the Stars",
+    "target": "群星的饕餮者",
+    "locations": [
+      "src/gods.cpp:111"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Fiery Messenger",
+    "target": "烈焰使者",
+    "locations": [
+      "src/gods.cpp:109"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Fire Beast",
+    "target": "火焰兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_BEAST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Fire God",
+    "target": "火焰之神",
+    "locations": [
+      "src/gods.cpp:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Fire Hound",
+    "target": "火焰猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_HOUND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Fire Vortex",
+    "target": "火焰漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FIRE_VORTEX]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The flames are put out.",
+    "target": "火焰熄灭了。",
+    "locations": [
+      "src/property_data.cpp:402"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Floating Skull",
+    "target": "浮空头骨",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Flying Polyp",
+    "target": "飞翔多瘿体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Forest-Goddess",
+    "target": "森林女神",
+    "locations": [
+      "src/gods.cpp:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Forgotten God",
+    "target": "被遗忘之神",
+    "locations": [
+      "src/gods.cpp:64"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The fountain dries up.",
+    "target": "喷泉干涸了。",
+    "locations": [
+      "src/terrain.cpp:4455"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The fountain is destroyed.",
+    "target": "喷泉被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:4232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The fountain is dried-up.",
+    "target": "喷泉已干涸。",
+    "locations": [
+      "src/terrain.cpp:4323"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The freezing radiance emanating from this dancing flame provides no sense of comfort whatsoever - gazing upon it is disturbing to the very soul, and fills one with bitter hatred.",
+    "target": "这团舞动火焰散发着刺骨寒光，却丝毫无法带来慰藉——凝视它会直抵灵魂深处，令人不安，并使人心中充满刻骨的仇恨。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHASTLY_LIGHT]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Gas Spore",
+    "target": "毒气孢子",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GAS_SPORE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Ghastly Light",
+    "target": "骇人之光",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHASTLY_LIGHT]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Ghost",
+    "target": "幽灵",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Ghoul",
+    "target": "食尸鬼",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Ghoul corpse",
+    "target": "食尸鬼尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GHOUL]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Bat",
+    "target": "巨蝙蝠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Bat corpse",
+    "target": "巨蝙蝠尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_BAT]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Locust",
+    "target": "巨型蝗虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Locust corpse",
+    "target": "巨型蝗虫尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LOCUST]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Mantis",
+    "target": "巨螳螂",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Giant Mantis corpse",
+    "target": "巨螳螂尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GIANT_MANTIS]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Gla'Suu",
+    "target": "Gla'Suu",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Gla'Suu corpse",
+    "target": "Gla'Suu 尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GLASUU]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Goat God",
+    "target": "山羊之神",
+    "locations": [
+      "src/gods.cpp:96"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The God of Cykranosh",
+    "target": "赛克拉诺什之神",
+    "locations": [
+      "src/gods.cpp:49"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The God of the Black Stone",
+    "target": "黑石之神",
+    "locations": [
+      "src/gods.cpp:43"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The God of the Cold White Silence",
+    "target": "寒白寂静之神",
+    "locations": [
+      "src/gods.cpp:53"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The God of the Labyrinth",
+    "target": "迷宫之神",
+    "locations": [
+      "src/gods.cpp:37"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Godbeast",
+    "target": "神兽",
+    "locations": [
+      "src/gods.cpp:89"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The gong is destroyed.",
+    "target": "铜锣被摧毁了。",
+    "locations": [
+      "src/terrain_gong.cpp:865"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Great Ghoul",
+    "target": "大食尸鬼",
+    "locations": [
+      "src/gods.cpp:61"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Great Manipulator",
+    "target": "伟大的操纵者",
+    "locations": [
+      "src/gods.cpp:77"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Great One",
+    "target": "伟大之主",
+    "locations": [
+      "src/gods.cpp:57"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Great Tentacled God",
+    "target": "伟大的触手之神",
+    "locations": [
+      "src/gods.cpp:48"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Great Water Lizard",
+    "target": "伟大的水蜥",
+    "locations": [
+      "src/gods.cpp:28"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Greater Polyp",
+    "target": "高等多瘿体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Green Spider corpse",
+    "target": "绿蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Grey",
+    "target": "灰色者",
+    "locations": [
+      "src/gods.cpp:58"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The ground rumbles...",
+    "target": "地面隆隆作响……",
+    "locations": [
+      "src/map_controller.cpp:137"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Guardian of the Watery Gates",
+    "target": "水门守护者",
+    "locations": [
+      "src/gods.cpp:54"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Hallucinogenic Mold",
+    "target": "致幻霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD_HALLUC]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Haunter of the Red Abyss",
+    "target": "赤色深渊的潜伏者",
+    "locations": [
+      "src/gods.cpp:67"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Herald of S'glhuo",
+    "target": "S'glhuo 的先驱",
+    "locations": [
+      "src/gods.cpp:18"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The High Priest",
+    "target": "大祭司",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_THE_HIGH_PRIEST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The history of a cosmic deity's descent to earth and its impact on mortals.",
+    "target": "关于宇宙神祇降临地球及其对凡人影响的历史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:15"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The history of a pact sealed in blood.",
+    "target": "关于以鲜血缔结契约的历史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:9"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Huge Green Spider",
+    "target": "巨型绿蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREEN_SPIDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the huge gruesome corpse",
+    "target": "巨大的恐怖尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Huge Red Spider",
+    "target": "巨型红蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Huge White Spider",
+    "target": "巨型白蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WHITE_SPIDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Hunting Horror",
+    "target": "猎杀恐怖",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Hunting Horror corpse",
+    "target": "猎杀恐怖尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HUNTING_HORROR]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The inventory can be accessed in four ways:",
+    "target": "物品栏有四种打开方式：",
+    "locations": [
+      "installed_files/manual.txt:151"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Invisible Stalker",
+    "target": "隐形潜行者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_INVIS_STALKER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The item stack previously thrown from (if any) is shown at the top with the \"t\" key assigned (for convenience). If there is no stack previously thrown from, the \"t\" key is not assigned to any item. Selecting an item in this menu will show an aiming marker on the map, to select where to throw the chosen item.",
+    "target": "上次投掷的物品堆（如果有）会显示在顶部，并分配“t”键（方便使用）。若之前没有投掷过物品堆，则“t”键不会分配给任何物品。在此菜单中选择物品后，地图上会出现瞄准标记，供你选择投掷目标。",
+    "locations": [
+      "installed_files/manual.txt:168"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Keeper of the Secrets",
+    "target": "秘藏守护者",
+    "locations": [
+      "src/gods.cpp:93"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Khaga",
+    "target": "卡加",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Khaga Offspring",
+    "target": "卡加后裔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHAGA_OFFSPRING]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The King in Yellow",
+    "target": "黄衣之王",
+    "locations": [
+      "src/gods.cpp:47"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Leech of the Aeons",
+    "target": "万古水蛭",
+    "locations": [
+      "src/gods.cpp:65"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Doomweaver",
+    "target": "冷恩织厄蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Doomweaver corpse",
+    "target": "冷恩织厄蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_DOOMWEAVER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Matriarch",
+    "target": "冷恩母蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Matriarch corpse",
+    "target": "冷恩母蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_MATRIARCH]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Spider",
+    "target": "冷恩蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Leng Spider corpse",
+    "target": "冷恩蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LENG_SPIDER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Leviathan of Disease",
+    "target": "疾病利维坦",
+    "locations": [
+      "src/gods.cpp:56"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lid comes off.",
+    "target": "盖子脱落了。",
+    "locations": [
+      "src/terrain.cpp:3590"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lid slams open, then falls shut.",
+    "target": "盖子砰地弹开，随后又落下关上。",
+    "locations": [
+      "src/terrain.cpp:4083"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the lifeless gruesome corpse",
+    "target": "毫无生气的恐怖尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_WINGED_ZOMBIE]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the lifeless Mummy",
+    "target": "毫无生气的木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the lifeless Mummy of Khephren",
+    "target": "毫无生气的克弗伦木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the lifeless Mummy of Nitokris",
+    "target": "毫无生气的尼托克丽丝木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The light inside fades.",
+    "target": "内部的光芒渐渐暗去。",
+    "locations": [
+      "src/terrain.cpp:2198"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Living Flame",
+    "target": "活焰",
+    "locations": [
+      "src/gods.cpp:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lock breaks and the lid flies open!",
+    "target": "锁断裂，盖子猛地弹开！",
+    "locations": [
+      "src/terrain.cpp:4119"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The lock resists.",
+    "target": "锁纹丝不动。",
+    "locations": [
+      "src/terrain.cpp:4125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Lord of Dead Dreams",
+    "target": "逝梦之主",
+    "locations": [
+      "src/gods.cpp:39"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Lord of Lizards",
+    "target": "蜥蜴之主",
+    "locations": [
+      "src/gods.cpp:36"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Lord of Terror",
+    "target": "恐怖之主",
+    "locations": [
+      "src/gods.cpp:99"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Lord of the Black Lake",
+    "target": "黑湖之主",
+    "locations": [
+      "src/gods.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Lost One",
+    "target": "迷失者",
+    "locations": [
+      "src/gods.cpp:84"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Lurking Ooze",
+    "target": "潜伏软泥",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_LURKING]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Maker of Illusions",
+    "target": "幻象制造者",
+    "locations": [
+      "src/gods.cpp:98"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Master of the Crabs",
+    "target": "螃蟹之主",
+    "locations": [
+      "src/gods.cpp:26"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mi-Go",
+    "target": "米戈",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mi-Go Bio Engineer",
+    "target": "米戈生物工程师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mi-Go Commander",
+    "target": "米戈指挥官",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mi-Go corpse",
+    "target": "米戈尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_BIO_ENGINEER]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_COMMANDER]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mind Leech",
+    "target": "心智水蛭",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mind Leech corpse",
+    "target": "心智水蛭尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_LEECH]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mind Worm",
+    "target": "心智蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MIND_WORM]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Mistress of Darkness",
+    "target": "黑暗女主人",
+    "locations": [
+      "src/gods.cpp:52"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mold",
+    "target": "霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MOLD]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Monarch of Night",
+    "target": "夜之君王",
+    "locations": [
+      "src/gods.cpp:85"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The monolith is destroyed.",
+    "target": "巨石碑被摧毁了。",
+    "locations": [
+      "src/terrain_monolith.cpp:45"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The moon is dark, and the gods dance in the night; there is terror in the sky, for upon the moon hath sunk an eclipse foretold in no books of men or of earth's gods...",
+    "target": "“月亮黯淡无光，诸神在夜色中起舞；天空中充满恐怖，因为月面上出现了日蚀——它从未在任何人类或大地诸神的典籍中被预言……”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Moon-God",
+    "target": "月神",
+    "locations": [
+      "src/gods.cpp:21"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.",
+    "target": "“我认为，世上最仁慈的事，莫过于人类心智无法将自身所有内容联系起来。”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:23"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The mummified fourth dynasty Egyptian pharaoh Khephren. How he came to dwell here is beyond anyone's guess.",
+    "target": "克弗伦木乃伊——第四王朝的埃及法老。无人知晓他为何会来到此处。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KHEPHREN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The mummified sixth dynasty Egyptian pharaoh Nitokris. How she came to dwell here is beyond anyone's guess. Her name is found in the histories of Herodotus and writings of Manetho. According to the writings of the former, she took the throne by inviting her brother's murderers to a banquet. Then killed them by flooding the sealed room with the Nile.",
+    "target": "尼托克丽丝木乃伊——第六王朝的埃及女法老。无人知晓她为何会来到此处。她的名字见于希罗多德的史书和曼涅托的著作。据后者记载，她邀请谋杀兄长的人赴宴，再将尼罗河水灌入密室将他们淹死。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NITOKRIS]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Mummy",
+    "target": "木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MUMMY]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The next spell is cast without spending a turn, and the cost is reduced by 1 point.",
+    "target": "下一个法术无需消耗回合即可施放，且消耗减少 1 点。",
+    "locations": [
+      "src/property_data.cpp:537"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Oceanic Horror",
+    "target": "海洋恐怖",
+    "locations": [
+      "src/gods.cpp:69"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.",
+    "target": "“人类最古老、最强烈的情感是恐惧，而最古老、最强烈的恐惧，是对未知的恐惧。”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:35"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Oldest Dreamer",
+    "target": "最古老的梦者",
+    "locations": [
+      "src/gods.cpp:105"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Omega Sentinel",
+    "target": "欧米伽哨卫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Omega Sentinel, a dreadful creation of the Mi-Go, stands as a testament to their technological mastery. Its chitinous form melds organic and mechanical elements seamlessly, emanating an aura of awe-inspiring terror. Armed with a devastating weapon, it guards the hidden operations of the Mi-Go with unwavering resolve.",
+    "target": "欧米伽哨卫是米戈创造的可怖造物，彰显着他们高超的科技造诣。它的甲壳形态将有机与机械元素无缝融合，散发出令人敬畏的恐怖气息。它装备着毁灭性武器，坚定地守卫着米戈的隐秘行动。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MI_GO_OMEGA_SENTINEL]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Pit Viper",
+    "target": "蝮蛇",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Pit Viper corpse",
+    "target": "蝮蛇尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PIT_VIPER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Poison Ooze",
+    "target": "毒软泥",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_POISON]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Primordial Worm",
+    "target": "原初蠕虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The properties at the bottom can be temporary properties (e.g. from spells), PERMANENT intrinsic properties (printed in capital letters, e.g. \"CURSED\"), or properties granted by wearing or wielding items.",
+    "target": "底部列出的属性可能是临时属性（例如来自法术）、永久固有属性（以大写字母显示，例如“CURSED”），或穿戴、手持物品赋予的属性。",
+    "locations": [
+      "installed_files/manual.txt:146"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Putrid Ooze",
+    "target": "腐臭软泥",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_OOZE_PUTRID]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Rat",
+    "target": "老鼠",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Rat corpse",
+    "target": "老鼠尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_TRANSCENDENT_RAT]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Rat-thing",
+    "target": "鼠人",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Rat-thing corpse",
+    "target": "鼠人尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAT_THING]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Raven",
+    "target": "渡鸦",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Raven carcass",
+    "target": "渡鸦尸骸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RAVEN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Ravenous One",
+    "target": "贪婪者",
+    "locations": [
+      "src/gods.cpp:55"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Reanimated Corpse",
+    "target": "复活尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZOMBIE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Red Spider corpse",
+    "target": "红蜘蛛尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_RED_SPIDER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The sciences have hitherto harmed us little; but some day the piecing together of dissociated knowledge will open up such terrifying vistas of reality, that we shall either go mad from the revelation or flee from the deadly light into the peace and safety of a new dark age.",
+    "target": "“迄今为止，科学对我们的危害甚微；但终有一天，彼此分离的知识拼合起来，将揭开如此骇人的现实图景：我们要么因真相而疯狂，要么逃离这致命之光，躲进新的黑暗时代，求得安宁与安全。”",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Sea Horror",
+    "target": "海中恐怖",
+    "locations": [
+      "src/gods.cpp:50"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Secret Daughter of Cthulhu",
+    "target": "克苏鲁的秘女儿",
+    "locations": [
+      "src/gods.cpp:32"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The senses cannot always be trusted.",
+    "target": "感官并非永远可信。",
+    "locations": [
+      "src/property_data.cpp:497"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Sentry Drone",
+    "target": "哨戒无人机",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Serpent Goddess",
+    "target": "蛇神",
+    "locations": [
+      "src/gods.cpp:23"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Shadow",
+    "target": "暗影",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Shadow in the Crimson Light",
+    "target": "赤光中的暗影",
+    "locations": [
+      "src/gods.cpp:87"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Shadow Spider",
+    "target": "暗影蜘蛛",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHADOW_SPIDER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The shadows are closing in on me!",
+    "target": "阴影正向我逼近！",
+    "locations": [
+      "include/insanity.hpp:865"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Shapeshifter",
+    "target": "变形者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Shapeshifter corpse",
+    "target": "变形者尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SHAPESHIFTER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Shatterer",
+    "target": "粉碎者",
+    "locations": [
+      "src/gods.cpp:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The She-Daemon of the Shadows",
+    "target": "暗影女魔",
+    "locations": [
+      "src/gods.cpp:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Shining Hunter",
+    "target": "辉光猎手",
+    "locations": [
+      "src/gods.cpp:51"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Shining One",
+    "target": "辉光之主",
+    "locations": [
+      "src/gods.cpp:86"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The shotgun has a capacity of two shells, and you load one shell at a time. Cultits reload their shotgun when they need to.",
+    "target": "霰弹枪可装两发弹药，每次装填一发。邪教徒需要时会为霰弹枪装填弹药。",
+    "locations": [
+      "installed_files/release_history.txt:1964"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Skull",
+    "target": "头骨",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLOATING_SKULL]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Soul-Chilling Ice-God",
+    "target": "噬魂冰神",
+    "locations": [
+      "src/gods.cpp:27"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Sound of the Deep Waters",
+    "target": "深水之声",
+    "locations": [
+      "src/gods.cpp:38"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Spider God",
+    "target": "蜘蛛之神",
+    "locations": [
+      "src/gods.cpp:22"
+    ],
+    "kind": "ui"
+  }
+]

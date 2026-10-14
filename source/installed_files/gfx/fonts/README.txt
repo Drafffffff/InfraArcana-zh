@@ -1,4 +1,4 @@
-To add fonts, place them in this directory.
+要添加字体，请将其放入此目录。
 
-For a font to be registered by the game, it must start with
-<width>x<height>, and end with .png (e.g. "7x13_uushi.png").
+若要让游戏识别字体，该字体必须以以下内容开头：
+<width>x<height>，并以 .png 结尾（例如“7x13_uushi.png”）。

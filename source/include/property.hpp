@@ -816,7 +816,7 @@ public:
 
         std::string name_short() const override
         {
-                return "Nailed(" + std::to_string(m_nr_spikes) + ")";
+                return "被钉住（" + std::to_string(m_nr_spikes) + ")";
         }
 
         PropEnded affect_move_dir(Dir& dir) override;
@@ -915,7 +915,7 @@ public:
 
         std::string name_short() const override
         {
-                return "Life Sapped(" + std::to_string(m_nr_drained) + ")";
+                return "生命力被吸取（" + std::to_string(m_nr_drained) + ")";
         }
 
         void on_more(const Prop& new_prop) override;
@@ -936,7 +936,7 @@ public:
 
         std::string name_short() const override
         {
-                return "Spirit Sapped(" + std::to_string(m_nr_drained) + ")";
+                return "精神力被汲取（" + std::to_string(m_nr_drained) + ")";
         }
 
         void on_more(const Prop& new_prop) override;
@@ -956,7 +956,7 @@ public:
 
         std::string name_short() const override
         {
-                return "Mind Sapped(" + std::to_string(m_nr_drained) + "%)";
+                return "心智被汲取（" + std::to_string(m_nr_drained) + "%)";
         }
 
         void on_more(const Prop& new_prop) override;

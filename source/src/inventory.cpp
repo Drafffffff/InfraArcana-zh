@@ -32,10 +32,10 @@ Inventory::Inventory(actor::Actor* const owning_actor) :
                 m_slots[(size_t)id] = {id, name};
         };
 
-        set_slot(SlotId::wpn, "Weapon");
-        set_slot(SlotId::wpn_alt, "Ready");
-        set_slot(SlotId::body, "Body");
-        set_slot(SlotId::head, "Head");
+        set_slot(SlotId::wpn, "武器");
+        set_slot(SlotId::wpn_alt, "准备好");
+        set_slot(SlotId::body, "身体");
+        set_slot(SlotId::head, "头");
 }
 
 Inventory::~Inventory()
@@ -685,22 +685,22 @@ void Inventory::print_equip_message(
 
         switch (slot_id) {
         case SlotId::wpn:
-                msg = "I am now wielding " + name + ".";
+                msg = "我现在正在挥舞着 " + name + ".";
                 break;
 
         case SlotId::wpn_alt:
                 msg =
-                        "I am now using " +
+                        "我现在正在使用 " +
                         name +
-                        " as a prepared weapon.";
+                        " 作为准备好的武器。";
                 break;
 
         case SlotId::body:
-                msg = "I am now wearing " + name + ".";
+                msg = "我现在穿着 " + name + ".";
                 break;
 
         case SlotId::head:
-                msg = "I am now wearing " + name + ".";
+                msg = "我现在穿着 " + name + ".";
                 break;
 
         case SlotId::END: {
@@ -732,19 +732,19 @@ void Inventory::print_unequip_message(
 
         switch (slot_id) {
         case SlotId::wpn:
-                msg = "I put away my " + name + ".";
+                msg = "我收起了我的 " + name + ".";
                 break;
 
         case SlotId::wpn_alt:
-                msg = "I put away my " + name + ".";
+                msg = "我收起了我的 " + name + ".";
                 break;
 
         case SlotId::body:
-                msg = "I have taken off my " + name + ".";
+                msg = "我已经脱下我的 " + name + ".";
                 break;
 
         case SlotId::head:
-                msg = "I have taken off my " + name + ".";
+                msg = "我已经脱下我的 " + name + ".";
                 break;
 
         case SlotId::END:

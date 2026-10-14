@@ -42,7 +42,7 @@ void Monolith::hit(
         case DmgType::explosion:
         case DmgType::pure:
                 if (map::g_seen.at(m_pos)) {
-                        msg_log::add("The monolith is destroyed.");
+                        msg_log::add("巨石碑被摧毁了。");
                 }
 
                 map::update_terrain(make(Id::rubble_low, m_pos));
@@ -73,9 +73,9 @@ void Monolith::hit(
 
 std::string Monolith::name(const Article article) const
 {
-        std::string str = article == Article::a ? "a " : "the ";
+        std::string str = article == Article::a ? "一个 " : "这 ";
 
-        return str + "carved monolith";
+        return str + "雕刻石碑";
 }
 
 Color Monolith::color_default() const
@@ -92,7 +92,7 @@ std::optional<map::MinimapAppearance> Monolith::minimap_appearance() const
         map::MinimapAppearance appearance;
 
         appearance.color = color_default();
-        appearance.legend_text = "Monolith";
+        appearance.legend_text = "方尖碑";
         appearance.symbol = map::MinimapSymbol::rectangle_edge;
 
         return appearance;
@@ -110,11 +110,10 @@ void Monolith::bump(actor::Actor& actor_bumping)
         if (!map::g_player->m_properties.allow_see()) {
                 if (player_bon::is_bg(Bg::exorcist)) {
                         msg_log::add(
-                                "There is a carved rock defiled with blasphemous carvings here. "
-                                "It must be destroyed!");
+                                "这里有块刻着亵渎图案的石头。必须摧毁它！");
                 }
                 else {
-                        msg_log::add("There is a carved rock here.");
+                        msg_log::add("这里有一块刻石。");
                 }
 
                 return;
@@ -122,16 +121,15 @@ void Monolith::bump(actor::Actor& actor_bumping)
 
         if (player_bon::is_bg(Bg::exorcist)) {
                 msg_log::add(
-                        "This rock is defiled with blasphemous carvings, "
-                        "it must be destroyed!");
+                        "这块石头刻有亵渎图案，必须摧毁！");
 
                 return;
         }
 
-        msg_log::add("I recite the inscriptions on the Monolith...");
+        msg_log::add("我吟诵方尖碑上的铭文……");
 
         if (m_is_activated) {
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
         }
         else {
                 activate();
@@ -145,7 +143,7 @@ void Monolith::bump(actor::Actor& actor_bumping)
 
 void Monolith::activate()
 {
-        msg_log::add("I feel powerful!");
+        msg_log::add("我感觉自己很强大！");
 
         audio::play(audio::SfxId::monolith);
 

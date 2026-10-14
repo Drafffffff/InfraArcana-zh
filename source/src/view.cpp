@@ -49,7 +49,7 @@ static void print_player_memory_at(const P& p)
         }
 
         msg_log::add(
-                "I remember here:",
+                "我记得这里：",
                 colors::text(),
                 MsgInterruptPlayer::no,
                 MorePromptOnMsg::no,
@@ -121,7 +121,7 @@ void print_location_info_msgs(const P& pos)
                 // Describe darkness
                 if (map::g_dark.at(pos) && !map::g_light.at(pos)) {
                         msg_log::add(
-                                "It is very dark here.",
+                                "这里非常黑暗。",
                                 colors::text(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,
@@ -197,7 +197,7 @@ void print_living_actor_info_msg(const P& pos)
                 // Cannot see actor
                 if (actor::is_player_aware_of_me(*actor)) {
                         msg_log::add(
-                                "There is a creature here.",
+                                "这里有个生物。",
                                 colors::text(),
                                 MsgInterruptPlayer::no,
                                 MorePromptOnMsg::no,

@@ -33,7 +33,7 @@ inline bool wide(uint32_t cp) {
         (cp >= 0xff01 && cp <= 0xff60) || (cp >= 0xffe0 && cp <= 0xffe6) || cp >= 0x1f300);
 }
 inline int columns(uint32_t cp) {
-    if (cp == '\n' || cp == '\r' || (cp >= 0x300 && cp <= 0x36f)) return 0;
+    if (cp == '\n' || cp == '\r' || cp == 0x200b || cp == 0xfeff || (cp >= 0x300 && cp <= 0x36f)) return 0;
     return wide(cp) ? 2 : 1;
 }
 inline size_t width(const std::string& s) {

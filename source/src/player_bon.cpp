@@ -76,15 +76,15 @@ static std::string trait_descr_for_spell(
         std::unique_ptr<Spell> spell(spells::make(spell_id));
 
         std::string str =
-                "Gain the ability to cast \"" +
+                "获得施放“" +
                 spell->name() +
                 "\"";
 
         if (spell->can_be_improved_with_skill()) {
                 str +=
-                        " at " +
+                        " 位于 " +
                         spells::skill_to_str(skill) +
-                        " level";
+                        " 等级";
         }
 
         str += " -";
@@ -102,9 +102,9 @@ static std::string trait_descr_for_spell(
 
         const auto cost_str = spell->cost_range(skill, map::g_player).str();
 
-        str += (" This spell costs " +
+        str += (" 此法术消耗 " +
                 cost_str +
-                " spirit to cast.");
+                " 点精神值才能施法。");
 
         return str;
 }
@@ -114,13 +114,13 @@ static std::string get_player_available_sp_str()
         const std::string sp_str = std::to_string(map::g_player->m_sp);
         const std::string max_sp_str = std::to_string(actor::max_sp(*map::g_player));
 
-        std::string descr = "You currently have " + sp_str + "/" + max_sp_str + " spirit";
+        std::string descr = "你目前有 " + sp_str + "/" + max_sp_str + " 精神值";
 
         if (player_bon::is_bg(Bg::exorcist)) {
                 const std::string fp_str = std::to_string(actor::player_state::g_exorcist_fervor);
                 const std::string max_fp_str = std::to_string(actor::player_exorcist_max_fervor());
 
-                descr += " and " + fp_str + "/" + max_fp_str + " fervor";
+                descr += " 和 " + fp_str + "/" + max_fp_str + " 狂热值";
         }
 
         descr += ".";
@@ -154,14 +154,14 @@ static void update_trait_data()
 
         // --- Adept Melee Fighter ---
         d.id = Trait::adept_melee;
-        d.title = "Adept Melee Fighter";
-        d.descr = "+10% hit chance and +1 damage with melee attacks";
+        d.title = "近战行家";
+        d.descr = "近战攻击命中率提高 +10%，伤害 +1";
         set_trait_data(d);
 
         // --- Expert Melee Fighter ---
         d = trait_data(Trait::adept_melee);
         d.id = Trait::expert_melee;
-        d.title = "Expert Melee Fighter";
+        d.title = "近战专家";
         d.trait_prereqs = {Trait::adept_melee};
         d.blocked_for_bgs = {Bg::exorcist};
         set_trait_data(d);
@@ -169,24 +169,23 @@ static void update_trait_data()
         // --- Master Melee Fighter ---
         d = trait_data(Trait::adept_melee);
         d.id = Trait::master_melee;
-        d.title = "Master Melee Fighter";
+        d.title = "近战大师";
         d.trait_prereqs = {Trait::expert_melee};
         d.blocked_for_bgs = {Bg::exorcist, Bg::occultist};
         set_trait_data(d);
 
         // --- Adept Marksman ---
         d.id = Trait::adept_marksman;
-        d.title = "Adept Marksman";
+        d.title = "神射手";
         d.descr = (
-                "+10% hit chance and +1 minimum damage with firearms and thrown weapons "
-                "(cannot raise maximum damage)");
+                "枪械和投掷武器命中率提高 +10%，最低伤害 +1（无法提高最高伤害）");
         d.blocked_for_bgs = {Bg::ghoul};
         set_trait_data(d);
 
         // --- Expert Marksman ---
         d = trait_data(Trait::adept_marksman);
         d.id = Trait::expert_marksman;
-        d.title = "Expert Marksman";
+        d.title = "神射手";
         d.trait_prereqs = {Trait::adept_marksman};
         d.blocked_for_bgs = {Bg::ghoul, Bg::exorcist};
         set_trait_data(d);
@@ -194,7 +193,7 @@ static void update_trait_data()
         // --- Master Marksman ---
         d = trait_data(Trait::adept_marksman);
         d.id = Trait::master_marksman;
-        d.title = "Master Marksman";
+        d.title = "神枪手";
         d.trait_prereqs = {Trait::expert_marksman};
         d.blocked_for_bgs = {
                 Bg::ghoul,
@@ -206,44 +205,43 @@ static void update_trait_data()
 
         // --- Cool-headed ---
         d.id = Trait::cool_headed;
-        d.title = "Cool-headed";
-        d.descr = "+20% mental shock resistance";
+        d.title = "沉着冷静";
+        d.descr = "精神震慑抗性 +20%";
         set_trait_data(d);
 
         // --- Courageous ---
         d = trait_data(Trait::cool_headed);
         d.id = Trait::courageous;
-        d.title = "Courageous";
+        d.title = "勇敢";
         d.trait_prereqs = {Trait::cool_headed};
         set_trait_data(d);
 
         // --- Dexterous ---
         d.id = Trait::dexterous;
-        d.title = "Dexterous";
-        d.descr = "+25% chance to evade attacks";
+        d.title = "灵巧";
+        d.descr = "闪避攻击的几率 +25%";
         set_trait_data(d);
 
         // --- Lithe ---
         d = trait_data(Trait::dexterous);
         d.id = Trait::lithe;
-        d.title = "Lithe";
+        d.title = "灵巧";
         d.trait_prereqs = {Trait::dexterous};
         set_trait_data(d);
 
         // --- Crippling Strikes ---
         d.id = Trait::crippling_strikes;
-        d.title = "Crippling Strikes";
+        d.title = "致残打击";
         d.descr =
-                "Your melee attacks have 60% chance to weaken the target "
-                "creature for 2-3 turns (reducing their melee damage by half)";
+                "近战攻击有60%几率令目标生物虚弱2至3回合（近战伤害减半）";
         d.trait_prereqs = {Trait::dexterous, Trait::adept_melee};
         d.bg_prereq = Bg::rogue;
         set_trait_data(d);
 
         // --- Fearless ---
         d.id = Trait::fearless;
-        d.title = "Fearless";
-        d.descr = "You cannot become terrified, +10% mental shock resistance";
+        d.title = "无畏";
+        d.descr = "你不会陷入恐惧，精神震慑抗性提高10%";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::r_fear);
 
@@ -263,39 +261,37 @@ static void update_trait_data()
 
         // --- Stealthy ---
         d.id = Trait::stealthy;
-        d.title = "Stealthy";
-        d.descr = "+45% chance to avoid detection by sight";
+        d.title = "潜行";
+        d.descr = "避免被视觉发现的几率 +45%";
         set_trait_data(d);
 
         // --- Imperceptible ---
         d = trait_data(Trait::stealthy);
         d.id = Trait::imperceptible;
-        d.title = "Imperceptible";
+        d.title = "难以察觉";
         d.trait_prereqs = {Trait::stealthy};
         d.bg_prereq = Bg::rogue;
         set_trait_data(d);
 
         // --- Silent ---
         d.id = Trait::silent;
-        d.title = "Silent";
+        d.title = "寂静";
         d.descr =
-                "All your melee attacks are silent (regardless of the weapon), "
-                "and creatures are not alerted when you open or close doors, "
-                "or wade through water";
+                "你的所有近战攻击都不会发出声音（无论使用何种武器）；打开或关上门、涉水时也不会惊动生物";
         d.trait_prereqs = {Trait::stealthy};
         set_trait_data(d);
 
         // --- Vigilant ---
         d.id = Trait::vigilant;
-        d.title = "Vigilant";
-        d.descr = "You are always aware of nearby creatures";
+        d.title = "警觉的";
+        d.descr = "你总能察觉附近的生物";
         d.blocked_for_occultist_domains = {OccultistDomain::clairvoyant};
         set_trait_data(d);
 
         // --- Treasure Hunter ---
         d.id = Trait::treasure_hunter;
-        d.title = "Treasure Hunter";
-        d.descr = "You tend to find more items";
+        d.title = "寻宝者";
+        d.descr = "你通常能找到更多物品";
         d.blocked_for_bgs = {
                 Bg::exorcist,
                 Bg::ghoul,
@@ -309,10 +305,9 @@ static void update_trait_data()
 
         // --- Self-aware ---
         d.id = Trait::self_aware;
-        d.title = "Self-aware";
+        d.title = "自我意识";
         d.descr =
-                "You cannot become confused, the number of remaining turns "
-                "for status effects are displayed";
+                "你不会陷入困惑；状态效果剩余回合数会显示出来";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::r_conf);
 
@@ -332,32 +327,25 @@ static void update_trait_data()
 
         // --- Healer ---
         d.id = Trait::healer;
-        d.title = "Healer";
+        d.title = "治疗者";
         d.descr =
-                "Using medical equipment requires only half the normal time "
-                "and resources";
+                "使用医疗器材只需一半时间与补给";
         d.blocked_for_bgs = {Bg::ghoul};
         set_trait_data(d);
 
         // --- Rapid Recoverer ---
         d.id = Trait::rapid_recoverer;
-        d.title = "Rapid Recoverer";
-        d.descr = "You regenerate 1 hit point every third turn";
+        d.title = "快速恢复者";
+        d.descr = "每三回合恢复1点生命值";
         d.trait_prereqs = {Trait::tough, Trait::healer};
         d.blocked_for_bgs = {Bg::ghoul};
         set_trait_data(d);
 
         // --- Survivalist ---
         d.id = Trait::survivalist;
-        d.title = "Survivalist";
+        d.title = "生存专家";
         d.descr =
-                "You cannot become diseased, "
-                "only half your wounds count, "
-                "rounded down "
-                "(i.e. number of wounds are halved when calculating "
-                "combat, hit point and regeneration penalties, "
-                "slower walking speed happens at 6 wounds instead of 3, "
-                "and you die from 10 wounds instead of 5)";
+                "你不会患病，创伤计数减半并向下取整（也就是说，计算战斗、生命值和恢复惩罚时创伤数量减半；达到6处创伤而非3处时行走速度才会变慢；受到10处而非5处创伤才会死亡）";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::r_disease);
 
@@ -377,11 +365,9 @@ static void update_trait_data()
 
         // --- Stout Spirit ---
         d.id = Trait::stout_spirit;
-        d.title = "Stout Spirit";
+        d.title = "强健精神";
         d.descr =
-                "+2 spirit points, increased spirit regeneration rate, you "
-                "can defy harmful spells (it takes 125-150 turns to regain "
-                "spell resistance after a spell is blocked)";
+                "精神值 +2，精神值恢复速度提高，可抵御有害法术（法术被抵挡后，需 125-150 回合才能恢复法术抗性）";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::r_spell);
 
@@ -414,33 +400,26 @@ static void update_trait_data()
         // --- Strong Spirit ---
         d = trait_data(Trait::stout_spirit);
         d.id = Trait::strong_spirit;
-        d.title = "Strong Spirit";
+        d.title = "强大的精神";
         d.descr =
-                "+2 spirit points, increased spirit regeneration rate, it "
-                "takes 75-100 turns to regain spell resistance after a spell "
-                "is blocked";
+                "精神值 +2，精神值恢复速度提高；法术被抵挡后，需 75-100 回合才能恢复法术抗性";
         d.trait_prereqs = {Trait::stout_spirit};
         set_trait_data(d);
 
         // --- Mighty Spirit ---
         d = trait_data(Trait::stout_spirit);
         d.id = Trait::mighty_spirit;
-        d.title = "Mighty Spirit";
+        d.title = "强大的精神";
         d.descr =
-                "+2 spirit points, increased spirit regeneration rate, it "
-                "takes 25-50 turns to regain spell resistance after a spell "
-                "is blocked";
+                "精神值 +2，精神值恢复速度提高；法术被抵挡后，需 25-50 回合才能恢复法术抗性";
         d.trait_prereqs = {Trait::strong_spirit};
         set_trait_data(d);
 
         // --- Meditative ---
         d.id = Trait::meditative;
-        d.title = "Meditative";
+        d.title = "沉思者";
         d.descr =
-                "Applies a focused state which allows the next spell to be "
-                "cast without spending a turn, and with the casting cost "
-                "reduced by 1 point - it takes 125-150 turns to regain this "
-                "state after a spell is cast";
+                "进入专注状态，使下一次施法无需消耗回合，施法费用减少 1 点；施法后需要 125–150 回合才能重新恢复此状态";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::meditative_focused);
 
@@ -458,11 +437,9 @@ static void update_trait_data()
 
         // --- Sage ---
         d.id = Trait::sage;
-        d.title = "Sage";
+        d.title = "贤者";
         d.descr =
-                "When focused, spells are also cast at a higher skill level, "
-                "and the duration to regain the focused state is reduced to "
-                "75-100 turns.";
+                "专注时，法术也会以更高技能等级施放；恢复专注状态所需时间缩短至75至100回合。";
         d.trait_prereqs = {Trait::stout_spirit, Trait::meditative};
         d.blocked_for_bgs = trait_data(Trait::meditative).blocked_for_bgs;
         // TODO: Consider allowing it for Exorcists (and have third level spells
@@ -473,23 +450,17 @@ static void update_trait_data()
 
         // --- Absorption ---
         d.id = Trait::absorbtion;
-        d.title = "Absorption";
+        d.title = "吸收";
         d.descr =
-                "1-6 spirit points are restored each time a spell is resisted "
-                "by spell resistance (granted by spirit traits, or the Spell "
-                "Shield spell)";
+                "- 法术抗性（来自精神特质或法术护盾）抵抗一次法术时，恢复 1–6 点精神值";
         d.trait_prereqs = {Trait::strong_spirit};
         set_trait_data(d);
 
         // --- Tough ---
         d.id = Trait::tough;
-        d.title = "Tough";
+        d.title = "强壮";
         d.descr =
-                "+6 hit points, "
-                "+10% chance to resist burning, poisoning and paralysis, "
-                "less likely to sprain when kicking, more likely to "
-                "succeed with object interactions requiring strength (e.g. "
-                "bashing things open)";
+                "生命值 +6，抵抗燃烧、中毒和麻痹的几率 +10%；踢击时较不易扭伤；力量相关物品互动（如撞开物体）更容易成功";
         d.on_picked = []() {
                 const int hp_incr = 6;
 
@@ -509,72 +480,68 @@ static void update_trait_data()
         // --- Rugged ---
         d = trait_data(Trait::tough);
         d.id = Trait::rugged;
-        d.title = "Rugged";
+        d.title = "坚韧";
         d.trait_prereqs = {Trait::tough};
         set_trait_data(d);
 
         // --- Unbreakable ---
         d = trait_data(Trait::rugged);
         d.id = Trait::unbreakable;
-        d.title = "Unbreakable";
+        d.title = "坚不可摧";
         d.bg_prereq = Bg::flagellant;
         d.trait_prereqs = {Trait::rugged};
         set_trait_data(d);
 
         // --- Thick Skinned ---
         d.id = Trait::thick_skinned;
-        d.title = "Thick Skinned";
-        d.descr = "+1 armor point (physical damage reduced by 1 point)";
+        d.title = "厚皮";
+        d.descr = "+1 点护甲（物理伤害减少 1 点）";
         d.trait_prereqs = {Trait::tough};
         set_trait_data(d);
 
         // --- Callous ---
         d = trait_data(Trait::thick_skinned);
         d.id = Trait::callous;
-        d.title = "Callous";
+        d.title = "冷酷";
         d.bg_prereq = Bg::flagellant;
         d.trait_prereqs = {Trait::thick_skinned};
         set_trait_data(d);
 
         // --- Resistant ---
         d.id = Trait::resistant;
-        d.title = "Resistant";
+        d.title = "抗性";
         d.descr =
-                "+25% chance to resist burning, poisoning and paralysis - "
-                "and the duration of those effects is halved";
+                "抵抗燃烧、中毒和麻痹的几率 +25%，且这些效果的持续时间减半";
         d.trait_prereqs = {Trait::tough};
         set_trait_data(d);
 
         // --- Strong-backed ---
         d.id = Trait::strong_backed;
-        d.title = "Strong-backed";
-        d.descr = "+50% carry weight limit";
+        d.title = "体格健壮";
+        d.descr = "负重上限 +50%";
         d.trait_prereqs = {Trait::tough};
         set_trait_data(d);
 
         // --- Bane of the Undead ---
         d.id = Trait::undead_bane;
-        d.title = "Bane of the Undead";
+        d.title = "亡灵克星";
         d.descr =
-                "+2 melee and ranged attack damage against all undead "
-                "monsters, +50% hit chance against ethereal undead monsters";
+                "对所有不死怪物的近战与远程攻击伤害 +2；对灵体不死怪物的命中率 +50%";
         d.trait_prereqs =
                 {Trait::tough, Trait::fearless, Trait::stout_spirit};
         set_trait_data(d);
 
         // --- Electrically Inclined ---
         d.id = Trait::elec_incl;
-        d.title = "Electrically Inclined";
+        d.title = "电能亲和";
         d.descr =
-                "Rods recharge twice as fast, strange devices are less likely "
-                "to malfunction or break, electric lanterns last twice as "
-                "long, +1 damage with electricity weapons";
+                "法杖充能速度翻倍，奇异装置发生故障或损坏的几率降低，电灯笼续航翻倍，电系武器伤害+1";
         d.blocked_for_bgs = {Bg::ghoul};
         set_trait_data(d);
 
         // --- Cast Bless ---
         d.id = Trait::cast_bless_i;
-        d.title = "Cast Bless";
+        d.title = "施放祝福";
         d.descr = trait_descr_for_spell(SpellId::bless, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -590,7 +557,7 @@ static void update_trait_data()
 
         // --- Cast Bless II ---
         d.id = Trait::cast_bless_ii;
-        d.title = "Cast Bless II";
+        d.title = "施放祝福 II";
         d.descr = trait_descr_for_spell(SpellId::bless, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -605,7 +572,7 @@ static void update_trait_data()
 
         // --- Cast Cleansing Fire ---
         d.id = Trait::cast_cleansing_fire_i;
-        d.title = "Cast Cleansing Fire";
+        d.title = "施放净化之火";
         d.descr = trait_descr_for_spell(SpellId::cleansing_fire, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -619,7 +586,7 @@ static void update_trait_data()
 
         // --- Cast Cleansing Fire II ---
         d.id = Trait::cast_cleansing_fire_ii;
-        d.title = "Cast Cleansing Fire II";
+        d.title = "施放净化之火 II";
         d.descr = trait_descr_for_spell(SpellId::cleansing_fire, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -636,7 +603,7 @@ static void update_trait_data()
 
         // --- Cast Heal ---
         d.id = Trait::cast_heal_i;
-        d.title = "Cast Heal";
+        d.title = "施放治疗";
         d.descr = trait_descr_for_spell(SpellId::heal, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -650,7 +617,7 @@ static void update_trait_data()
 
         // --- Cast Heal II ---
         d.id = Trait::cast_heal_ii;
-        d.title = "Cast Heal II";
+        d.title = "施放治疗 II";
         d.descr = trait_descr_for_spell(SpellId::heal, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -665,7 +632,7 @@ static void update_trait_data()
 
         // --- Cast Light ---
         d.id = Trait::cast_light_i;
-        d.title = "Cast Light";
+        d.title = "施放光亮术";
         d.descr = trait_descr_for_spell(SpellId::light, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -679,7 +646,7 @@ static void update_trait_data()
 
         // --- Cast Light II ---
         d.id = Trait::cast_light_ii;
-        d.title = "Cast Light II";
+        d.title = "施放光亮术 II";
         d.descr = trait_descr_for_spell(SpellId::light, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -694,7 +661,7 @@ static void update_trait_data()
 
         // --- Cast Sanctuary ---
         d.id = Trait::cast_sanctuary_i;
-        d.title = "Cast Sanctuary";
+        d.title = "施放圣所";
         d.descr = trait_descr_for_spell(SpellId::sanctuary, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -708,7 +675,7 @@ static void update_trait_data()
 
         // --- Cast Sanctuary II ---
         d.id = Trait::cast_sanctuary_ii;
-        d.title = "Cast Sanctuary II";
+        d.title = "施放圣所 II";
         d.descr = trait_descr_for_spell(SpellId::sanctuary, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -723,7 +690,7 @@ static void update_trait_data()
 
         // --- Cast See Invisible ---
         d.id = Trait::cast_see_invisible_i;
-        d.title = "Cast See Invisible";
+        d.title = "施放识破隐形";
         d.descr = trait_descr_for_spell(SpellId::see_invis, SpellSkill::basic);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -737,7 +704,7 @@ static void update_trait_data()
 
         // --- Cast See Invisible II ---
         d.id = Trait::cast_see_invisible_ii;
-        d.title = "Cast See Invisible II";
+        d.title = "施放识破隐形 II";
         d.descr = trait_descr_for_spell(SpellId::see_invis, SpellSkill::expert);
         d.extra_descr_when_picking = get_player_available_sp_str();
         d.on_picked = []() {
@@ -752,39 +719,34 @@ static void update_trait_data()
 
         // --- Prolonged Life ---
         d.id = Trait::prolonged_life;
-        d.title = "Prolonged Life";
+        d.title = "延寿";
         d.descr =
-                "Any fatal damage received is instead drained fom your "
-                "fervor points";
+                "受到的任何致命伤害都会改为扣除你的狂热值";
         d.bg_prereq = Bg::exorcist;
         set_trait_data(d);
 
         // --- Ravenous ---
         d.id = Trait::ravenous;
-        d.title = "Ravenous";
+        d.title = "贪婪的";
         d.descr =
-                "You occasionally feed on living victims when attacking "
-                "with claws";
+                "用爪攻击时，偶尔会吞食活的受害者";
         d.trait_prereqs = {Trait::adept_melee};
         d.bg_prereq = Bg::ghoul;
         set_trait_data(d);
 
         // --- Foul ---
         d.id = Trait::foul;
-        d.title = "Foul";
+        d.title = "污秽";
         d.descr =
-                "+1 claw damage, when attacking with claws, vicious worms "
-                "occasionally burst out from the corpses of your victims to "
-                "attack your enemies";
+                "+1 爪击伤害；用爪子攻击时，受害者尸体偶尔会冒出凶猛蠕虫来攻击你的敌人";
         d.bg_prereq = Bg::ghoul;
         set_trait_data(d);
 
         // --- Toxic ---
         d.id = Trait::toxic;
-        d.title = "Toxic";
+        d.title = "有毒";
         d.descr =
-                "+1 claw damage, you are immune to poison, and attacks with "
-                "your claws often poisons your victims";
+                "+1 爪击伤害，免疫毒素；爪击经常会使受害者中毒";
         d.on_picked = []() {
                 prop::Prop* prop = prop::make(prop::Id::r_poison);
 
@@ -805,72 +767,65 @@ static void update_trait_data()
 
         // --- Indomitable Fury ---
         d.id = Trait::indomitable_fury;
-        d.title = "Indomitable Fury";
+        d.title = "不屈之怒";
         d.descr =
-                "While frenzied, you are immune to wounds, and your claw "
-                "attacks cause fear";
+                "狂乱期间，你免疫创伤，爪击还会造成恐惧";
         d.trait_prereqs = {Trait::adept_melee, Trait::tough};
         d.bg_prereq = Bg::ghoul;
         set_trait_data(d);
 
         // --- Elusive ---
         d.id = Trait::elusive;
-        d.title = "Elusive";
+        d.title = "难以捉摸";
         d.descr =
-                "Creatures only remember you for half the normal duration "
-                "(rounded up).";
+                "生物记住你的时间只有正常时长的一半（向上取整）。";
         d.bg_prereq = Bg::rogue;
         set_trait_data(d);
 
         // --- Vicious ---
         d.id = Trait::vicious;
-        d.title = "Vicious";
-        d.descr = "+100% backstab damage (in addition to the normal +50%)";
+        d.title = "凶狠的";
+        d.descr = "背刺伤害 +100%（在原有 +50% 之外额外增加）";
         d.trait_prereqs = {Trait::stealthy, Trait::dexterous};
         d.bg_prereq = Bg::rogue;
         set_trait_data(d);
 
         // --- Ruthless ---
         d.id = Trait::ruthless;
-        d.title = "Ruthless";
-        d.descr = "+100% backstab damage";
+        d.title = "冷酷无情";
+        d.descr = "背刺伤害 +100%";
         d.trait_prereqs = {Trait::vicious};
         d.bg_prereq = Bg::rogue;
         set_trait_data(d);
 
         // --- Steady Aimer ---
         d.id = Trait::steady_aimer;
-        d.title = "Steady Aimer";
+        d.title = "稳健瞄准者";
         d.descr =
-                "Standing still gives ranged attacks maximum damage and +10% "
-                "hit chance on the following turn, unless damage is taken";
+                "站立不动后，下一回合的远程攻击会造成最大伤害并获得10%命中加成，受到伤害时除外";
         d.bg_prereq = Bg::war_vet;
         set_trait_data(d);
 
         // --- Galvanization ---
         d.id = Trait::galvanization;
-        d.title = "Galvanization";
+        d.title = "电化";
         d.descr =
-                "Casting any spell from the Blood domain grants "
-                "Regeneration for 4-6 turns "
-                "(+1 extra hit point regenerated per turn), if "
-                "hit points are lost from casting the spell";
+                "施放任何血之领域法术后，若施法导致生命值损失，则获得持续 4–6 回合的再生效果（每回合额外恢复 1 点生命值）";
         d.bg_prereq = Bg::flagellant;
         set_trait_data(d);
 
         d.id = Trait::enthusiasm;
-        d.title = "Enthusiasm";
+        d.title = "热忱";
         d.descr =
-                "Doubles all bonuses for the moribund effect";
+                "濒死效果的所有加成翻倍";
         d.bg_prereq = Bg::flagellant;
         set_trait_data(d);
 
         // --- Memento Mori ---
         d.id = Trait::memento_mori;
-        d.title = "Memento Mori";
+        d.title = "死亡纪念";
         d.descr =
-                "Raises the threshold of the moribund status to 8 hit points, "
-                "and increases the duration of the effect by 50% (rounded down)";
+                "将濒死状态的生命值阈值提高到8点，并使效果持续时间延长50%（向下取整）";
         d.bg_prereq = Bg::flagellant;
         set_trait_data(d);
 }
@@ -987,22 +942,22 @@ std::string bg_title(const Bg id)
 {
         switch (id) {
         case Bg::exorcist:
-                return "Exorcist";
+                return "驱魔师";
 
         case Bg::flagellant:
-                return "Flagellant";
+                return "苦修者";
 
         case Bg::ghoul:
-                return "Ghoul";
+                return "食尸鬼";
 
         case Bg::occultist:
-                return "Occultist";
+                return "神秘学者";
 
         case Bg::rogue:
-                return "Rogue";
+                return "游荡者";
 
         case Bg::war_vet:
-                return "War Veteran";
+                return "老兵";
 
         case Bg::END:
                 break;
@@ -1017,16 +972,16 @@ std::string occultist_profession_title(const OccultistDomain domain)
 {
         switch (domain) {
         case OccultistDomain::clairvoyant:
-                return "Clairvoyant";
+                return "千里眼";
 
         case OccultistDomain::enchanter:
-                return "Enchanter";
+                return "附魔师";
 
         case OccultistDomain::invoker:
-                return "Invoker";
+                return "召咒者";
 
         case OccultistDomain::transmuter:
-                return "Transmuter";
+                return "炼金术士";
 
         case OccultistDomain::END:
                 break;
@@ -1082,28 +1037,21 @@ std::vector<ColoredString> bg_descr(const Bg id)
                 const auto d = trait_descr(trait_id);
 
                 descr.emplace_back(
-                        "{COLOR_WHITE}" + t + "{color_reset}: " + d,
+                        "{COLOR_WHITE}" + t + "{color_reset}： " + d,
                         colors::gray());
         };
 
         switch (id) {
         case Bg::exorcist:
-                put("Cannot use manuscripts, altars, monoliths, or gongs, "
-                    "but instead gains experience and fervor for destroying "
-                    "these (manuscripts are destroyed when picking them up). "
-                    "Fervor can be used for casting spells - these points "
-                    "are used automatically when there is not enough "
-                    "spirit points to cast from.");
+                put("无法使用手稿、祭坛、石碑或锣；但摧毁这些物品可获得经验和狂热值（拾取手稿时会将其摧毁）。狂热值可用于施法；精神值不足以施法时会自动消耗狂热值。");
                 put("");
-                put("Starts with a Holy Symbol, which can restore "
-                    "spirit points and grant resistance against "
-                    "mental shock and fear.");
+                put("初始携带圣徽，可恢复精神值，并提高对精神震慑与恐惧的抗性。");
                 put("");
-                put("Gains a bonus trait at character levels " +
+                put("在角色等级达到以下级别时获得额外特质： " +
                     std::to_string(s_exorcist_bon_trait_lvl_1) +
                     ", " +
                     std::to_string(s_exorcist_bon_trait_lvl_2) +
-                    ", and " +
+                    "，以及 " +
                     std::to_string(s_exorcist_bon_trait_lvl_3) +
                     ".");
                 put("");
@@ -1113,28 +1061,19 @@ std::vector<ColoredString> bg_descr(const Bg id)
                 break;
 
         case Bg::flagellant:
-                put("No mental shock received for taking damage.");
+                put("受到伤害时不会承受精神震慑。");
                 put("");
-                put("If health is reduced to 6 hit points or below when taking damage, "
-                    "the moribund status is applied for 5-7 turns "
-                    "(+3 melee damage, +30% melee hit chance, +3 armor points).");
+                put("若受到伤害时生命值降至6点或以下，就会陷入濒死状态，持续5至7回合（近战伤害+3、近战命中率+30%、护甲+3）。");
                 put("");
-                put("Wears a torture collar which cannot be taken off; "
-                    "walking requires extra turns, and stealth and evasion "
-                    "are reduced by 20%. However, wearing the collar hardens "
-                    "the Flagellant against physical suffering, armor is "
-                    "increased by 3 points.");
+                put("戴着无法取下的刑具项圈；行走需要额外回合，潜行与闪避降低20%。然而，项圈令苦修者更能忍受肉体痛苦，护甲提高3点。");
                 put("");
-                put("Specializes in spells belonging to the Blood domain. "
-                    "At character levels " +
+                put("专精于血之领域的法术。角色达到以下等级时 " +
                     std::to_string(s_spell_upgrade_lvl_1) +
-                    " and " +
+                    " 和 " +
                     std::to_string(s_spell_upgrade_lvl_2) +
-                    ", all spells belonging to this domain are cast at "
-                    "a higher skill level.");
+                    "，此领域中的所有法术都会以更高技能等级施放。");
                 put("");
-                put("-25% mental shock taken from casting memorized spells "
-                    "from the Blood domain.");
+                put("- 施放已记忆的血之领域法术时，承受的精神震慑降低 25%。");
                 put("");
                 put_trait(Trait::self_aware);
                 put("");
@@ -1142,76 +1081,61 @@ std::vector<ColoredString> bg_descr(const Bg id)
                 break;
 
         case Bg::ghoul:
-                put("Does not regenerate hit points and cannot use medical "
-                    "equipment - heals by feeding on corpses (feeding is done "
-                    "while waiting on a corpse).");
+                put("不会恢复生命值，也无法使用医疗器材——只能通过啃食尸体治疗（等待在尸体旁即可进食）。");
                 put("");
-                put("Can incite frenzy at will, and does not become weakened "
-                    "when frenzy ends.");
+                put("可以随意激起狂暴，狂暴结束后也不会变虚弱。");
                 put("");
-                put("+8 hit points.");
+                put("生命值 +8。");
                 put("");
-                put("Is immune to disease and infections.");
+                put("免疫疾病和感染。");
                 put("");
-                put("Does not get sprains.");
+                put("不会扭伤。");
                 put("");
-                put("Can see in darkness.");
+                put("可以在黑暗中视物。");
                 put("");
-                put("-50% mental shock taken from seeing monsters and "
-                    "standing in darkness, "
-                    "but also halved shock reduction bonus from light.");
+                put("- 见到怪物和身处黑暗时，承受的精神震慑降低 50%；但光照带来的震慑减免加成也减半。");
                 put("");
-                put("-15% hit chance with firearms and thrown weapons.");
+                put("- 使用枪械和投掷武器时命中率降低 15%。");
                 put("");
-                put("All ghouls are allied.");
+                put("所有食尸鬼都与你结盟。");
                 break;
 
         case Bg::occultist:
-                put("Specializes in a spell domain (selected at character "
-                    "creation). At character levels " +
+                put("专精于一种法术领域（创建角色时选择）。角色达到以下等级时 " +
                     std::to_string(s_spell_upgrade_lvl_1) +
-                    " and " +
+                    " 和 " +
                     std::to_string(s_spell_upgrade_lvl_2) +
-                    ", all spells belonging to the chosen domain are cast at "
-                    "a higher skill level. This choice also determines "
-                    "starting spells.");
+                    "，所选领域中的所有法术都会以更高技能等级施放。此选择也会决定开局法术。");
                 put("");
-                put("-50% mental shock taken from casting memorized spells, "
-                    "and from using or identifying strange items "
-                    "(e.g. drinking a potion, or casting a spell from "
-                    "a manuscript).");
+                put("- 施放已记忆的法术，以及使用或鉴定奇异物品（例如喝药剂或施放手稿法术）时，承受的精神震慑降低 50%。");
                 put("");
-                put("Starts with several Bone Charms, that can be used for "
-                    "gaining spell resistance or dispelling magic traps.");
+                put("初始携带数枚骨护符，可用于获得法术抗性或驱散魔法陷阱。");
                 put("");
-                put("+3 spirit points (in addition to \"Stout Spirit\").");
+                put("精神值 +3（在“坚韧精神”基础上额外增加）。");
                 put("");
                 put_trait(Trait::stout_spirit);
                 break;
 
         case Bg::rogue:
-                put("Mental shock received passively over time is reduced by 25%.");
+                put("随着时间流逝而被动承受的精神震慑减少25%。");
                 put("");
-                put("+10% chance to spot hidden monsters, doors, and traps.");
+                put("发现隐藏怪物、门和陷阱的几率提高 +10%。");
                 put("");
-                put("Remains aware of the presence of other creatures longer.");
+                put("更久地保持对其他生物存在的警觉。");
                 put("");
-                put("Can sense the presence of unique monsters or powerful "
-                    "artifacts.");
+                put("可以感知独特怪物或强大圣物的存在。");
                 put("");
-                put("Has acquired an artifact which can cloud the minds of all "
-                    "enemies, causing them to forget the presence of the "
-                    "user.");
+                put("获得了一件神器，可迷惑所有敌人的心智，使它们忘记使用者的存在。");
                 put("");
                 put_trait(Trait::stealthy);
                 break;
 
         case Bg::war_vet:
-                put("Switches to prepared weapon instantly.");
+                put("立即切换到预备武器。");
                 put("");
-                put("Starts with a Flak Jacket.");
+                put("初始携带防弹衣。");
                 put("");
-                put("Maintains armor twice as long before it breaks.");
+                put("护甲的耐久度延长一倍。");
                 put("");
                 put_trait(Trait::adept_marksman);
                 put("");
@@ -1235,21 +1159,16 @@ std::string occultist_domain_descr(const OccultistDomain domain)
         switch (domain) {
         case OccultistDomain::clairvoyant:
                 return (
-                        "Specializes in detection and learning. "
-                        "Has an intrinsic ability to detect doors, traps, "
-                        "stairs, and other locations of interest in the "
-                        "surrounding area. At character level 4, this ability "
-                        "also reveals items, and at level 8 it reveals "
-                        "creatures");
+                        "专精于侦测与学习。天生能够探测周围区域的门、陷阱、楼梯及其他值得留意的地点。角色达到4级时，该能力还会揭示物品；达到8级时，则会揭示生物");
 
         case OccultistDomain::enchanter:
-                return "Specializes in aiding, debilitating, entrancing, and beguiling";
+                return "专精于辅助、削弱、迷惑和蛊惑";
 
         case OccultistDomain::invoker:
-                return "Specializes in channeling destructive powers";
+                return "专精于引导破坏性力量";
 
         case OccultistDomain::transmuter:
-                return "Specializes in manipulating matter, energy, and time";
+                return "专精于操纵物质、能量与时间";
 
         case OccultistDomain::END:
                 ASSERT(false);
@@ -1648,7 +1567,7 @@ void on_player_gained_lvl(const int new_lvl)
                 if (is_exorcist_extra_trait) {
                         states::push(
                                 std::make_unique<PickTraitState>(
-                                        "You gain an extra trait!",
+                                        "你获得了一个额外特质！",
                                         IsCharacterCreationTraitPick::no));
                 }
         } break;

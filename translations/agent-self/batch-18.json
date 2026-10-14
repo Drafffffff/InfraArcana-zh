@@ -1,0 +1,38 @@
+[
+  {
+    "source": "fire",
+    "target": "开火"
+  },
+  {
+    "source": "fires",
+    "target": "射击"
+  },
+  {
+    "source": "strike",
+    "target": "击中"
+  },
+  {
+    "source": "strikes",
+    "target": "击中"
+  },
+  {
+    "source": "smash",
+    "target": "重击"
+  },
+  {
+    "source": "smashes",
+    "target": "重击"
+  },
+  {
+    "source": "punch",
+    "target": "出拳"
+  },
+  {
+    "source": "Punch",
+    "target": "拳头"
+  },
+  {
+    "source": "stab",
+    "target": "刺击"
+  }
+]

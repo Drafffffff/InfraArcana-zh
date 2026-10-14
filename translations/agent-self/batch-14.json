@@ -1,0 +1,11 @@
+[
+  {"source":"E","target":"东"},
+  {"source":"N","target":"北"},
+  {"source":"NE","target":"东北"},
+  {"source":"NW","target":"西北"},
+  {"source":"PROPHECY","target":"预言"},
+  {"source":"S","target":"南"},
+  {"source":"SE","target":"东南"},
+  {"source":"SW","target":"西南"},
+  {"source":"W","target":"西"}
+]

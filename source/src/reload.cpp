@@ -41,7 +41,7 @@ static void msg_reload_fumble(
         const std::string ammo_name = ammo.name(ItemNameType::a);
 
         if (actor::is_player(&actor)) {
-                msg_log::add("I fumble with " + ammo_name + ".");
+                msg_log::add("我摸索着 " + ammo_name + ".");
         }
         else {
                 // Is monster
@@ -52,7 +52,7 @@ static void msg_reload_fumble(
 
                         msg_log::add(
                                 name_the +
-                                " fumbles with " +
+                                " 摸索着 " +
                                 ammo_name +
                                 ".");
                 }
@@ -85,7 +85,7 @@ static void msg_reloaded(
                                         ItemNameInfo::none);
 
                         msg_log::add(
-                                "I reload my " +
+                                "我给……重新装弹 " +
                                 wpn_name +
                                 " (" +
                                 ammo_loaded_str +
@@ -99,7 +99,7 @@ static void msg_reloaded(
                                 ammo.name(ItemNameType::a);
 
                         msg_log::add(
-                                "I load " +
+                                "我装填 " +
                                 ammo_name +
                                 " (" +
                                 ammo_loaded_str +
@@ -115,7 +115,7 @@ static void msg_reloaded(
                                 text_format::first_to_upper(
                                         actor::name_the(actor));
 
-                        msg_log::add(name_the + " reloads.");
+                        msg_log::add(name_the + " 重新装填。");
                 }
         }
 }
@@ -128,7 +128,7 @@ namespace reload
 void try_reload(actor::Actor& actor, item::Item* const item_to_reload)
 {
         if (!item_to_reload) {
-                msg_log::add("I am not wielding a weapon.");
+                msg_log::add("我没有持握武器。");
 
                 return;
         }
@@ -142,7 +142,7 @@ void try_reload(actor::Actor& actor, item::Item* const item_to_reload)
 
         if (wpn->data().ranged.has_infinite_ammo ||
             (wpn_max_ammo == 0)) {
-                msg_log::add("This weapon does not use ammo.");
+                msg_log::add("这把武器不使用弹药。");
                 return;
         }
 
@@ -154,7 +154,7 @@ void try_reload(actor::Actor& actor, item::Item* const item_to_reload)
                                 ItemNameType::plain,
                                 ItemNameInfo::none);
 
-                msg_log::add("My " + item_name + " is already loaded.");
+                msg_log::add("我的 " + item_name + " 已经装填。");
                 return;
         }
 
@@ -219,12 +219,12 @@ void try_reload(actor::Actor& actor, item::Item* const item_to_reload)
                                 ammo_data.base_name.names[idx];
 
                         msg_log::add(
-                                "I carry no " +
+                                "我没有携带 " +
                                 mag_name +
-                                " with more ammo than already loaded.");
+                                " 装填的弹药更多。");
                 }
                 else {
-                        msg_log::add("I carry no ammunition for this weapon.");
+                        msg_log::add("这把武器没有弹药了。");
                 }
 
                 return;
@@ -359,7 +359,7 @@ void player_arrange_pistol_mags()
                                 ItemNameInfo::yes);
 
                 msg_log::add(
-                        "I move a round from a magazine to my " +
+                        "我把弹匣里的一发子弹装进 " +
                         name +
                         ".");
         }
@@ -368,7 +368,7 @@ void player_arrange_pistol_mags()
                 --min_mag->m_ammo;
                 ++max_mag->m_ammo;
 
-                msg_log::add("I move a round from one magazine to another.");
+                msg_log::add("我把一发子弹从一个弹匣转到另一个弹匣。");
         }
 
         if (min_mag->m_ammo == 0) {

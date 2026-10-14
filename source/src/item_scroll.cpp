@@ -70,57 +70,57 @@ void init()
         s_fake_names.clear();
 
         // Fixed fake names:
-        s_fake_names.emplace_back("Cruensseasrjit");
-        s_fake_names.emplace_back("Rudsceleratus");
-        s_fake_names.emplace_back("Rudminuox");
-        s_fake_names.emplace_back("Cruo stragara-na");
-        s_fake_names.emplace_back("Praya navita");
-        s_fake_names.emplace_back("Pretia Cruento");
-        s_fake_names.emplace_back("Pestis Cruento");
-        s_fake_names.emplace_back("Cruento Pestis");
-        s_fake_names.emplace_back("Domus-bhaava");
-        s_fake_names.emplace_back("Acerbus-shatruex");
-        s_fake_names.emplace_back("Pretaanluxis");
-        s_fake_names.emplace_back("Praansilenux");
-        s_fake_names.emplace_back("Quodpipax");
-        s_fake_names.emplace_back("Lokemundux");
-        s_fake_names.emplace_back("Profanuxes");
-        s_fake_names.emplace_back("Shaantitus");
-        s_fake_names.emplace_back("Geropayati");
-        s_fake_names.emplace_back("Vilomaxus");
-        s_fake_names.emplace_back("Bhuudesco");
-        s_fake_names.emplace_back("Durbentia");
-        s_fake_names.emplace_back("Bhuuesco");
-        s_fake_names.emplace_back("Maravita");
-        s_fake_names.emplace_back("Infirmux");
+        s_fake_names.emplace_back("克鲁恩西斯吉特");
+        s_fake_names.emplace_back("红花属");
+        s_fake_names.emplace_back("红米诺克斯");
+        s_fake_names.emplace_back("杂草");
+        s_fake_names.emplace_back("海傍");
+        s_fake_names.emplace_back("普雷蒂娅·克鲁恩托");
+        s_fake_names.emplace_back("克鲁恩托鼠疫");
+        s_fake_names.emplace_back("鼠疫杆菌");
+        s_fake_names.emplace_back("多莫斯-巴瓦");
+        s_fake_names.emplace_back("槭树");
+        s_fake_names.emplace_back("普雷塔安鲁克斯");
+        s_fake_names.emplace_back("普兰西莱努斯");
+        s_fake_names.emplace_back("曲皮派克斯");
+        s_fake_names.emplace_back("洛克蒙杜克斯");
+        s_fake_names.emplace_back("普罗法努克斯");
+        s_fake_names.emplace_back("沙安提图斯");
+        s_fake_names.emplace_back("格罗帕亚蒂");
+        s_fake_names.emplace_back("维洛马克斯");
+        s_fake_names.emplace_back("布乌德斯科");
+        s_fake_names.emplace_back("杜本蒂亚");
+        s_fake_names.emplace_back("布埃斯科");
+        s_fake_names.emplace_back("马拉维塔");
+        s_fake_names.emplace_back("因菲尔克斯");
 
         // Words that can be combined into names:
         std::vector<std::string> combinable_names;
         combinable_names.clear();
-        combinable_names.emplace_back("Cruo");
-        combinable_names.emplace_back("Cruonit");
-        combinable_names.emplace_back("Cruentu");
-        combinable_names.emplace_back("Marana");
-        combinable_names.emplace_back("Domus");
-        combinable_names.emplace_back("Malax");
-        combinable_names.emplace_back("Caecux");
-        combinable_names.emplace_back("Eximha");
-        combinable_names.emplace_back("Vorox");
-        combinable_names.emplace_back("Bibox");
-        combinable_names.emplace_back("Pallex");
-        combinable_names.emplace_back("Profanx");
-        combinable_names.emplace_back("Invisuu");
-        combinable_names.emplace_back("Invisux");
-        combinable_names.emplace_back("Odiosuu");
-        combinable_names.emplace_back("Odiosux");
-        combinable_names.emplace_back("Vigra");
-        combinable_names.emplace_back("Crudux");
-        combinable_names.emplace_back("Desco");
-        combinable_names.emplace_back("Esco");
-        combinable_names.emplace_back("Gero");
-        combinable_names.emplace_back("Klaatu");
-        combinable_names.emplace_back("Barada");
-        combinable_names.emplace_back("Nikto");
+        combinable_names.emplace_back("克鲁奥");
+        combinable_names.emplace_back("克鲁尼特");
+        combinable_names.emplace_back("克鲁恩图");
+        combinable_names.emplace_back("马拉纳");
+        combinable_names.emplace_back("多莫斯");
+        combinable_names.emplace_back("马拉克斯");
+        combinable_names.emplace_back("凯库克斯");
+        combinable_names.emplace_back("埃克西姆哈");
+        combinable_names.emplace_back("沃罗克斯");
+        combinable_names.emplace_back("比盒");
+        combinable_names.emplace_back("帕莱克斯");
+        combinable_names.emplace_back("普罗凡克斯");
+        combinable_names.emplace_back("隐形");
+        combinable_names.emplace_back("隐形眼镜");
+        combinable_names.emplace_back("奥迪奥苏");
+        combinable_names.emplace_back("奥迪苏克斯");
+        combinable_names.emplace_back("维格拉");
+        combinable_names.emplace_back("克鲁杜克斯");
+        combinable_names.emplace_back("德斯科");
+        combinable_names.emplace_back("埃斯科");
+        combinable_names.emplace_back("下吕");
+        combinable_names.emplace_back("克拉图");
+        combinable_names.emplace_back("巴拉达");
+        combinable_names.emplace_back("尼克托");
 
         const size_t nr_combinable_names = combinable_names.size();
 
@@ -150,13 +150,13 @@ void init()
                 const std::string& title = s_fake_names[idx];
 
                 d->base_name_un_id.names[(size_t)ItemNameType::plain] =
-                        "Manuscript titled " + title;
+                        "手稿标题为 " + title;
 
                 d->base_name_un_id.names[(size_t)ItemNameType::plural] =
-                        "Manuscripts titled " + title;
+                        "手稿标题为 " + title;
 
                 d->base_name_un_id.names[(size_t)ItemNameType::a] =
-                        "a Manuscript titled " + title;
+                        "手稿标题为 " + title;
 
                 s_fake_names.erase(s_fake_names.begin() + (int)idx);
 
@@ -168,13 +168,13 @@ void init()
                 const std::string real_type_name = scroll->real_name();
 
                 const std::string real_name =
-                        "Manuscript of " + real_type_name;
+                        "手稿 " + real_type_name;
 
                 const std::string real_name_plural =
-                        "Manuscripts of " + real_type_name;
+                        "手稿 " + real_type_name;
 
                 const std::string real_name_a =
-                        "a Manuscript of " + real_type_name;
+                        "的手稿 " + real_type_name;
 
                 d->base_name.names[(size_t)ItemNameType::plain] = real_name;
                 d->base_name.names[(size_t)ItemNameType::plural] = real_name_plural;
@@ -263,8 +263,7 @@ std::vector<std::string> Scroll::descr_hook() const
                 }
                 else {
                         lines.emplace_back(
-                                "Perhaps keeping it for a while will reveal "
-                                "something about it.");
+                                "也许保留一段时间会揭示一些关于它的信息。");
                 }
 
                 return lines;
@@ -295,11 +294,11 @@ void Scroll::reveal_domain() const
                 if (!domain_str.empty()) {
                         msg_log::add(
                                 std::string(
-                                        "I feel like " +
+                                        "我觉得 " +
                                         name_plural +
-                                        " belong to the " +
+                                        " 属于 " +
                                         domain_str +
-                                        " domain."));
+                                        " 领域。"));
                 }
         }
 
@@ -314,9 +313,9 @@ ItemPrePickResult Scroll::pre_pickup_hook()
 
         // Is exorcist
 
-        const std::string noun = (m_nr_items == 1) ? "text" : "texts";
+        const std::string noun = (m_nr_items == 1) ? "文本" : "文本";
 
-        msg_log::add("I destroy the profane " + noun + "!");
+        msg_log::add("我摧毁亵渎 " + noun + "!");
 
         game::incr_player_xp(g_xp_on_exorcist_destroy_scroll * m_nr_items);
 
@@ -346,7 +345,7 @@ ConsumeItem Scroll::activate(actor::Actor* const actor)
         if (map::g_dark.at(player_pos) &&
             !map::g_light.at(player_pos) &&
             !map::g_player->m_properties.has(prop::Id::darkvision)) {
-                msg_log::add("It's too dark to read here.");
+                msg_log::add("这里太黑了，不适合读书。");
 
                 TRACE_FUNC_END;
 
@@ -363,16 +362,15 @@ ConsumeItem Scroll::activate(actor::Actor* const actor)
                                 ItemNameType::a,
                                 ItemNameInfo::none);
 
-                msg_log::add("I read " + scroll_name + "...");
+                msg_log::add("我读了 " + scroll_name + "...");
         }
         else {
                 // Not already identified
                 msg_log::add(
-                        "I recite the forbidden incantations on the "
-                        "manuscript...");
+                        "我背诵手稿上的禁忌咒语……");
         }
 
-        const std::string crumble_str = "The Manuscript crumbles to dust.";
+        const std::string crumble_str = "手稿化为灰尘。";
 
         // Check properties which MAY allow reading, with a random chance
         if (!actor->m_properties.allow_read_chance(Verbose::yes)) {
@@ -433,9 +431,9 @@ void Scroll::identify(const Verbose verbose)
                                 ItemNameType::a,
                                 ItemNameInfo::none);
 
-                msg_log::add("I have identified " + name_after + ".");
+                msg_log::add("我已确定 " + name_after + ".");
 
-                game::add_history_event("Identified " + name_after);
+                game::add_history_event("已鉴定 " + name_after);
         }
 }
 

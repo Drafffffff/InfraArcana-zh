@@ -68,46 +68,21 @@ static int s_death_overlay_last_update_cycle = 0;
 static std::vector<HistoryEvent> s_history_events;
 
 static const std::string s_intro_msg_default =
-        "I stand at the end of a cobbled forest path, before me lies a shunned "
-        "and decrepit old church building. This is the access point to the "
-        "domains of the abhorred \"Cult of Starry Wisdom\". "
-        "I am determined to enter these sprawling catacombs and rob them of "
-        "treasures and knowledge. Somewhere below lies my true destiny, "
-        "an artifact of non-human origin referred to as "
-        "{COLOR_YELLOW}\"The shining Trapezohedron\"{reset_color} "
-        "- a window to all the secrets of the universe!";
+        "我站在一条铺着鹅卵石的森林小径尽头，面前是一座遭人唾弃、年久失修的古老教堂。这里是可憎的“星辰智慧教团”领地入口。我决心进入这片广阔的地下墓穴，夺取其中的财宝与知识。下方某处藏着我的真正命运：一件非人造物，名为{COLOR_YELLOW}“闪耀的梯形晶体”{reset_color}——那是窥见宇宙一切秘密的窗口！";
 
 static const std::string s_intro_msg_exorcist =
-        "I stand at the end of a cobbled forest path, before me lies a shunned "
-        "and decrepit old church building. This is the access point to the "
-        "domains of the abhorred \"Cult of Starry Wisdom\". "
-        "I am determined to enter these sprawling catacombs and purge them of "
-        "the corruption that dwells within. Somewhere below lies "
-        "an artifact of non-human origin referred to as "
-        "{COLOR_YELLOW}\"The shining Trapezohedron\"{reset_color} "
-        "- rumored to be a window to all the secrets of the universe. "
-        "This must be destroyed, so that none more may be tempted by "
-        "its deceitful promises!";
+        "我站在一条铺着鹅卵石的森林小径尽头，面前是一座遭人唾弃、年久失修的古老教堂。这里是可憎的“星辰智慧教团”领地入口。我决心进入这片广阔的地下墓穴，净化其中的腐化。下方某处藏着一件非人造物，名为{COLOR_YELLOW}“闪耀的梯形晶体”{reset_color}——据说它是窥见宇宙一切秘密的窗口。必须摧毁它，免得更多人被它欺骗性的承诺诱惑！";
 
 static const std::vector<std::string> s_win_msg_default = {
-        {"As I approach the crystal, an eerie glow illuminates the area. "
-         "I notice a figure observing me from the edge of the light. There is "
-         "no doubt in my mind concerning the nature of this entity."},
+        {"我走近水晶时，诡异的光辉照亮了周围。我注意到有个人影在光线边缘观察着我。对于这个存在的本质，我心中毫无疑问。"},
 
-        {"I panic. Why is it I find myself here, stumbling around in "
-         "darkness? Is this all part of a plan? The being beckons me to "
-         "gaze into the stone."},
+        {"我慌了。为什么我会在这里，跌跌撞撞地摸索黑暗？这都是计划的一部分吗？那个存在正召唤我凝视石头。"},
 
-        {"In the radiance I see visions beyond eternity, visions of "
-         "unreal reality, visions of the brightest light of day and the "
-         "darkest night of madness. There is only onward now, I have to see, "
-         "I have to KNOW."},
+        {"在这片光辉中，我看见超越永恒的幻象：不真实的现实、白昼最耀眼的光芒，以及疯狂最深沉的黑夜。如今我只能继续前行；我必须看见，我必须知晓。"},
 
-        {"So I make a pact with the Fiend."},
+        {"于是我与恶魔立下契约。"},
 
-        {"I now harness the shadows that stride from world to world to "
-         "sow death and madness. The destinies of all things on earth, "
-         "living and dead, are mine."}};
+        {"我如今驾驭着穿梭于世界之间、播撒死亡与疯狂的阴影。世间万物，无论生死，其命运都归我掌控。"}};
 
 static double mon_shock_lvl_to_shock_value(const MonShockLvl shock_lvl)
 {
@@ -229,7 +204,7 @@ void incr_player_xp(const int xp_gained, const Verbose verbose)
         }
 
         if (verbose == Verbose::yes) {
-                msg_log::add("(+" + std::to_string(xp_gained) + "% XP)");
+                msg_log::add("(+" + std::to_string(xp_gained) + "% 经验值）");
         }
 
         s_xp_pct += xp_gained;
@@ -242,7 +217,7 @@ void incr_player_xp(const int xp_gained, const Verbose verbose)
 
                         msg_log::add(
                                 std::string(
-                                        "Welcome to level " +
+                                        "欢迎来到第 " +
                                         std::to_string(s_clvl) +
                                         "!"),
                                 colors::green(),
@@ -285,7 +260,7 @@ void incr_player_xp(const int xp_gained, const Verbose verbose)
 
                         states::push(
                                 std::make_unique<PickTraitState>(
-                                        "Which trait do you gain?",
+                                        "你获得了哪种特质？",
                                         IsCharacterCreationTraitPick::no));
                 }
 
@@ -338,13 +313,13 @@ void player_discover_monster(actor::Actor& actor)
 
         const std::string name = actor::name_a(actor);
 
-        msg_log::add("I have discovered " + name + "!");
+        msg_log::add("我发现了 " + name + "!");
 
         incr_player_xp(xp_gained);
 
         msg_log::more_prompt();
 
-        add_history_event("Discovered " + name);
+        add_history_event("发现了 " + name);
 
         map::g_player->incr_shock(shock_value, ShockSrc::see_mon);
 
@@ -391,7 +366,7 @@ void on_mon_killed(actor::Actor& actor)
         if (d.is_unique) {
                 const std::string name = actor::name_the(actor);
 
-                add_history_event("Defeated " + name);
+                add_history_event("被击败 " + name);
         }
 }
 
@@ -436,7 +411,7 @@ void GameState::on_start()
 
                 actor_items::make_for_actor(*map::g_player);
 
-                game::add_history_event("Started journey");
+                game::add_history_event("开始旅程");
 
                 if (!config::is_intro_lvl_skipped() &&
                     !config::is_intro_popup_skipped()) {
@@ -455,7 +430,7 @@ void GameState::on_start()
                         }
 
                         popup::Popup(popup::AddToMsgHistory::yes)
-                                .set_title("The story so far...")
+                                .set_title("此前的故事……")
                                 .set_msg(intro_msg)
                                 .run();
                 }
@@ -618,7 +593,7 @@ void GameState::update()
                 audio::play(audio::SfxId::death);
 
                 msg_log::add(
-                        "-I AM DEAD!-",
+                        "- 我死了！-",
                         colors::msg_bad(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes);

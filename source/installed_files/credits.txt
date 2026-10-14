@@ -1,24 +1,24 @@
-I (Martin) want to thank the following people for their great
-contributions to Infra Arcana:
+我（Martin）想感谢以下这些人，他们给予了极大的
+对《Infra Arcana》的贡献：
 
-Christopher Barrett ("Oryx") - Provided a very elegant tile set, and
-also continued to support and maintain the graphics long after the first
-draft was ready.
-The work of Oryx can be found here: https://www.oryxdesignlab.com/
+Christopher Barrett（“Oryx”）——提供了一套十分精美的图块，并
+也在第一版之后继续支持并维护图像
+草稿已准备好。
+Oryx 的作品见此：https://www.oryxdesignlab.com/
 
-Musica Cthulhiana for giving permission to use their track "Madness"
-from the album "Fragment" as music in the main menu.
+感谢 Musica Cthulhiana 允许使用他们的曲目《Madness》
+来自专辑《Fragment》，作为主菜单音乐。
 
-Renan Nunes - Helped rewriting and significantly improving many of the
-monster descriptions, and also provided many gameplay ideas.
+Renan Nunes——帮助重写并大幅改进了许多……
+怪物描述，也提供了许多玩法创意。
 
-Agata Skrzypczyk - Contributed a gorgeous logo and icon.
+Agata Skrzypczyk——贡献了精美的标志和图标。
 
-Kornel Dabrowiecki - Contributed countless ideas for gameplay
-improvements.
+Kornel Dabrowiecki - 为游戏玩法贡献了无数创意
+改进。
 
-Paul Onyschuk - Provided much feedback and ideas.
+Paul Onyschuk——提供了大量反馈与创意。
 
-Everyone who gave praise, ideas, and motivation on the Infra Arcana
-Discord channel, the Temple of the Roguelike forums, Reddit, 4chan,
-RPGCodex, Bay12 Games, Youtube, etc...
+感谢所有赞颂、提供创意并鼓励《Infra Arcana》的人
+Discord 频道、Temple of the Roguelike 论坛、Reddit、4chan，
+RPGCodex、Bay12 Games、YouTube 等网站……

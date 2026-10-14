@@ -1,0 +1,1278 @@
+[
+  {
+    "source": "Temple Gong",
+    "target": "神殿铜锣",
+    "locations": [
+      "src/terrain_gong.cpp:917"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "temple gong",
+    "target": "神殿铜锣",
+    "locations": [
+      "src/terrain_gong.cpp:900"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Temporarily lost consciousness, will wake up if any damage is taken or enough time passes.",
+    "target": "暂时失去意识；受到伤害或经过足够时间后会醒来。",
+    "locations": [
+      "src/property_data.cpp:379"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Temporary and permanent mental shock",
+    "target": "暂时性与永久性精神震慑",
+    "locations": [
+      "src/hints.cpp:139"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Terrified",
+    "target": "惊恐",
+    "locations": [
+      "src/property_data.cpp:459",
+      "src/property_data.cpp:460"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Terrify",
+    "target": "惊吓",
+    "locations": [
+      "include/spells.hpp:435"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "terrifying",
+    "target": "令人恐惧的",
+    "locations": [
+      "src/view_actor_descr.cpp:207"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "test",
+    "target": "test",
+    "locations": [
+      "src/paths.cpp:60"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Testimonies of a sage's journey to capture the essence of moonlit enchantment.",
+    "target": "记载智者踏上旅途，捕捉月光魔力精髓的证言。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_reveal_knowledge.txt:1"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Testimonies of celestial powers enticing mortals with the promise of enlightenment beyond comprehension.",
+    "target": "记载天界力量诱惑凡人，许诺超乎理解的启迪。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:75"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Testimonies of cosmic beings promising the revelation of ancient mysteries.",
+    "target": "记载宇宙存在许诺揭示古老奥秘。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Testimonies of extraplanetary colonies hidden deep within the Earth.",
+    "target": "记载深藏于地底的外星殖民地。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:59"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Testimonies of mortal ascensions into realms beyond perception.",
+    "target": "记载凡人升入感知之外的领域。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:51"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thanaroa",
+    "target": "塔纳罗阿",
+    "locations": [
+      "src/gods.cpp:86"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Thanks to the mercy of the mind, some past experiences are forgotten (-25% XP).",
+    "target": "得蒙心智庇护，过往的一些经历被遗忘（经验值-25%）。",
+    "locations": [
+      "src/insanity.cpp:102"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Tharapithia",
+    "target": "塔拉皮西亚",
+    "locations": [
+      "src/gods.cpp:87"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "That felt amazing!",
+    "target": "感觉真棒！",
+    "locations": [
+      "src/property_data.cpp:521"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "That is not dead which can eternal lie, and with strange aeons even death may die.",
+    "target": "那永恒长眠者并非死去；在奇异的万古之后，死亡也可能消逝。",
+    "locations": [
+      "installed_files/data/messages/menu_quotes.txt:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the",
+    "target": "这",
+    "locations": [
+      "include/terrain_trap.hpp:266",
+      "include/terrain_trap.hpp:302",
+      "include/terrain_trap.hpp:339",
+      "include/terrain_trap.hpp:367",
+      "include/terrain_trap.hpp:395",
+      "include/terrain_trap.hpp:423",
+      "include/terrain_trap.hpp:451",
+      "include/terrain_trap.hpp:486",
+      "include/terrain_trap.hpp:529",
+      "src/terrain.cpp:1107",
+      "src/terrain.cpp:1622",
+      "src/terrain.cpp:2129",
+      "src/terrain.cpp:4301",
+      "src/terrain.cpp:818",
+      "src/terrain.cpp:996",
+      "src/terrain_mob.cpp:288",
+      "src/terrain_mob.cpp:326",
+      "src/terrain_mob.cpp:386",
+      "src/terrain_pylon.cpp:246",
+      "src/terrain_pylon.cpp:287",
+      "src/terrain_pylon.cpp:327",
+      "src/terrain_pylon.cpp:367",
+      "src/terrain_pylon.cpp:430",
+      "src/terrain_pylon.cpp:475"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the ",
+    "target": "这 ",
+    "locations": [
+      "src/terrain.cpp:1169",
+      "src/terrain.cpp:1211",
+      "src/terrain.cpp:1250",
+      "src/terrain.cpp:1288",
+      "src/terrain.cpp:1336",
+      "src/terrain.cpp:1456",
+      "src/terrain.cpp:1693",
+      "src/terrain.cpp:1815",
+      "src/terrain.cpp:1873",
+      "src/terrain.cpp:2029",
+      "src/terrain.cpp:2099",
+      "src/terrain.cpp:2328",
+      "src/terrain.cpp:2389",
+      "src/terrain.cpp:2446",
+      "src/terrain.cpp:2533",
+      "src/terrain.cpp:2620",
+      "src/terrain.cpp:2651",
+      "src/terrain.cpp:2746",
+      "src/terrain.cpp:2838",
+      "src/terrain.cpp:2878",
+      "src/terrain.cpp:3395",
+      "src/terrain.cpp:4165",
+      "src/terrain.cpp:4802",
+      "src/terrain.cpp:4972",
+      "src/terrain.cpp:5140",
+      "src/terrain.cpp:5396",
+      "src/terrain.cpp:677",
+      "src/terrain_door.cpp:1115",
+      "src/terrain_door.cpp:1122",
+      "src/terrain_door.cpp:1134",
+      "src/terrain_door.cpp:1137",
+      "src/terrain_door.cpp:1537",
+      "src/terrain_gong.cpp:898",
+      "src/terrain_mirror.cpp:131",
+      "src/terrain_mob.cpp:186",
+      "src/terrain_mob.cpp:255",
+      "src/terrain_monolith.cpp:76",
+      "src/terrain_pylon.cpp:102"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "the \"hasted\" or \"slowed\" effects applied)",
+    "target": "施加“加速”或“减速”效果）",
+    "locations": [
+      "installed_files/manual.txt:140"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The \"k\" and \"j\" keys can be used to scroll up and down in menus, and \"l\" selects the currently marked entry (as an alternative to the enter key).",
+    "target": "菜单中可用“k”和“j”键上下滚动，“l”键选择当前标记的条目（也可按回车键）。",
+    "locations": [
+      "installed_files/manual.txt:73"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Abyssal Troglodyte",
+    "target": "深渊穴居者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Abyssal Troglodyte corpse",
+    "target": "深渊穴居者的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABYSSAL_TROGLODYTE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Air Beast",
+    "target": "风之巨兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_BEAST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Air Hound",
+    "target": "风之猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_AIR_HOUND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The air is heavy with a fetid, viscous odor.",
+    "target": "空气中弥漫着沉重黏稠的腐臭气味。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/smell_message"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The air suddenly feels colder.",
+    "target": "空气骤然变冷。",
+    "locations": [
+      "src/terrain.cpp:3827"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The alchemist's workbench burns down.",
+    "target": "炼金术士的工作台烧毁了。",
+    "locations": [
+      "src/terrain.cpp:5059"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The alchemist's workbench is destroyed.",
+    "target": "炼金术士的工作台被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:5038"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The alchemist's workbench is empty.",
+    "target": "炼金术士的工作台是空的。",
+    "locations": [
+      "src/terrain.cpp:5095"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The alchemist's workbench is on fire.",
+    "target": "炼金术士的工作台着火了。",
+    "locations": [
+      "src/terrain.cpp:5089"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The All-Consuming Fog",
+    "target": "吞噬一切的浓雾",
+    "locations": [
+      "src/gods.cpp:107"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The altar is destroyed.",
+    "target": "祭坛被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:2264"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Ape corpse",
+    "target": "猿尸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Arch Wizard",
+    "target": "大法师",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Arch Wizard corpse",
+    "target": "大法师的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_ARCH_WIZARD]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Black Lord of Whirling Vortices",
+    "target": "漩涡黑主",
+    "locations": [
+      "src/gods.cpp:108"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Black Mamba",
+    "target": "黑曼巴蛇",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Black Mamba corpse",
+    "target": "黑曼巴蛇的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_MAMBA]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Black One",
+    "target": "黑色之主",
+    "locations": [
+      "src/gods.cpp:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Blind God of the Moon",
+    "target": "盲目月神",
+    "locations": [
+      "src/gods.cpp:40"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Blinded Zealot",
+    "target": "失明的狂信者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZEALOT]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Bloated Corpse",
+    "target": "肿胀的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLOATED_ZOMBIE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Bog Tcher",
+    "target": "沼泽切尔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Bog Tcher corpse",
+    "target": "沼泽切尔的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BOG_TCHER]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bookshelf burns down.",
+    "target": "书架烧毁了。",
+    "locations": [
+      "src/terrain.cpp:4891"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bookshelf is destroyed.",
+    "target": "书架被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:4870"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bookshelf is empty.",
+    "target": "书架是空的。",
+    "locations": [
+      "src/terrain.cpp:4927"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The bookshelf is on fire.",
+    "target": "书架着火了。",
+    "locations": [
+      "src/terrain.cpp:4921"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Bringer of Pestilence",
+    "target": "瘟疫使者",
+    "locations": [
+      "src/gods.cpp:25"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the broken Sentry Drone",
+    "target": "损坏的哨戒无人机",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_SENTRY_DRONE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Burrower Beneath",
+    "target": "地底掘行者",
+    "locations": [
+      "src/gods.cpp:82"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Byakhee",
+    "target": "拜亚基",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Byakhee corpse",
+    "target": "拜亚基的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BYAKHEE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cabinet burns down.",
+    "target": "柜子烧毁了。",
+    "locations": [
+      "src/terrain.cpp:4696"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cabinet is destroyed.",
+    "target": "柜子被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:4676"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cabinet is empty.",
+    "target": "柜子是空的。",
+    "locations": [
+      "src/terrain.cpp:4731"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cabinet is on fire.",
+    "target": "柜子着火了。",
+    "locations": [
+      "src/terrain.cpp:4725"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cabinet opens.",
+    "target": "柜子打开了。",
+    "locations": [
+      "src/terrain.cpp:4793"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the carcass of Black Phillip",
+    "target": "黑菲利普的尸骸",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BLACK_PHILLIP]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Carnivorous Ape",
+    "target": "食肉猿",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_APE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The celestial map of a distant galaxy.",
+    "target": "遥远星系的天体星图。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:29"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chains rattle.",
+    "target": "锁链哗啦作响。",
+    "locations": [
+      "src/terrain.cpp:2669"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chance to hit ",
+    "target": "命中几率 ",
+    "locations": [
+      "src/view_actor_descr.cpp:320",
+      "src/view_actor_descr.cpp:328"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The chance to remain undetected by ",
+    "target": "未被……发现的几率 ",
+    "locations": [
+      "src/view_actor_descr.cpp:358"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "The chances of one creature detecting another are affected by:",
+    "target": "生物之间相互发现的几率受以下因素影响：",
+    "locations": [
+      "installed_files/manual.txt:232"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chest is empty.",
+    "target": "箱子是空的。",
+    "locations": [
+      "src/terrain.cpp:3959"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chest is locked.",
+    "target": "箱子锁着。",
+    "locations": [
+      "src/terrain.cpp:3965"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chest is on fire.",
+    "target": "箱子着火了。",
+    "locations": [
+      "src/terrain.cpp:3953"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chest opens.",
+    "target": "箱子打开了。",
+    "locations": [
+      "src/terrain.cpp:4010"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The chronicles of an interstellar war.",
+    "target": "星际战争的编年史。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:5"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Chthonian",
+    "target": "穴居者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Chthonian corpse",
+    "target": "穴居者的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CHTHONIAN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The church bench is destroyed.",
+    "target": "教堂长椅被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:1318"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Clear Mold",
+    "target": "透明霉菌",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CLEAR_MOLD]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cocoon burns down.",
+    "target": "茧烧毁了。",
+    "locations": [
+      "src/terrain.cpp:5236"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cocoon is destroyed.",
+    "target": "茧被摧毁了。",
+    "locations": [
+      "src/terrain.cpp:5216"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cocoon is empty.",
+    "target": "茧是空的。",
+    "locations": [
+      "src/terrain.cpp:5272"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cocoon is on fire.",
+    "target": "茧着火了。",
+    "locations": [
+      "src/terrain.cpp:5266"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The cocoon opens.",
+    "target": "茧打开了。",
+    "locations": [
+      "src/terrain.cpp:5385"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Cold Flame",
+    "target": "冷焰",
+    "locations": [
+      "src/gods.cpp:20"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Corpse Mound",
+    "target": "尸堆",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CORPSE_MOUND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of a Deep One",
+    "target": "深潜者的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Abaxu",
+    "target": "阿巴修的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ABAXU]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Balastha",
+    "target": "巴拉斯塔的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_WAR_VET]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Brown Jenkin",
+    "target": "布朗·詹金的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_BROWN_JENKIN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Dean Halsey",
+    "target": "迪恩·霍尔西的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEAN_HALSEY]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Keziah Mason",
+    "target": "凯西亚·梅森的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_KEZIAH_MASON]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Leviathan",
+    "target": "利维坦的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Major Clapham-Lee",
+    "target": "克拉珀姆-李少校的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_MAJOR_CLAPHAM_LEE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Niduza",
+    "target": "尼杜扎的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_NIDUZA]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Richard Upton Pickman",
+    "target": "理查德·厄普顿·皮克曼的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PICKMAN]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Uraga",
+    "target": "乌拉加的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_ROGUE]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Vrka",
+    "target": "弗尔卡的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_HIGH_PRIEST_GUARD_GHOUL]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the corpse of Zuul the Gatekeeper",
+    "target": "守门人祖尔的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/corpse_name_a",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ZUUL]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Corrupter of Flesh",
+    "target": "血肉腐蚀者",
+    "locations": [
+      "src/gods.cpp:41"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The crash resonates through the air!",
+    "target": "撞击声在空中回荡！",
+    "locations": [
+      "src/terrain_gong.cpp:822"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Crawling Hand",
+    "target": "爬行之手",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_HAND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Crawling Intestines",
+    "target": "爬行肠道",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CRAWLING_INTESTINES]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The creation myth of a forgotten race of cosmic beings.",
+    "target": "被遗忘的宇宙存在种族创世神话。",
+    "locations": [
+      "installed_files/data/messages/terrain_inscription_messages_generic.txt:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Crocodile God",
+    "target": "鳄鱼神",
+    "locations": [
+      "src/gods.cpp:76"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Crocodile Head Mummy",
+    "target": "鳄首木乃伊",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CROC_HEAD_MUMMY]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Cultist",
+    "target": "邪教徒",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Cultist corpse",
+    "target": "邪教徒的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Cultist Priest",
+    "target": "邪教祭司",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Cultist Priest corpse",
+    "target": "邪教祭司的尸体",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_CULTIST_PRIEST]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dark One",
+    "target": "黑暗之主",
+    "locations": [
+      "src/gods.cpp:46"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dark Silent One",
+    "target": "沉默的黑暗之主",
+    "locations": [
+      "src/gods.cpp:110"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dark Stalker",
+    "target": "黑暗潜行者",
+    "locations": [
+      "src/gods.cpp:103"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dark Water God",
+    "target": "黑暗水神",
+    "locations": [
+      "src/gods.cpp:30"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the dead Polyp",
+    "target": "死去的瘟孢",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FLYING_POLYP]/text/corpse_name_the",
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_GREATER_POLYP]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the dead Primordial Worm",
+    "target": "死去的原初巨虫",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_PRIMORDIAL_WORM]/text/corpse_name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The dead suddenly seem far more terrifying.",
+    "target": "死者骤然显得更加可怖。",
+    "locations": [
+      "include/insanity.hpp:626"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Death Fiend",
+    "target": "死亡恶魔",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEATH_FIEND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The decay subsides.",
+    "target": "腐朽逐渐消退。",
+    "locations": [
+      "src/property_data.cpp:1071"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Deep One",
+    "target": "深潜者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DEEP_ONE]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Defiler",
+    "target": "亵渎者",
+    "locations": [
+      "src/gods.cpp:101"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Demon Bird-God",
+    "target": "恶魔鸟神",
+    "locations": [
+      "src/gods.cpp:44"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Demon-God of Xuthal",
+    "target": "苏萨尔恶魔神",
+    "locations": [
+      "src/gods.cpp:88"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Destroyer",
+    "target": "毁灭者",
+    "locations": [
+      "src/gods.cpp:112"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Destroying Eye",
+    "target": "毁灭之眼",
+    "locations": [
+      "src/gods.cpp:34"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Devourer in the Earth",
+    "target": "地底吞噬者",
+    "locations": [
+      "src/gods.cpp:83"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Devourer in the Mist",
+    "target": "迷雾吞噬者",
+    "locations": [
+      "src/gods.cpp:17"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Devourer of Souls",
+    "target": "灵魂吞噬者",
+    "locations": [
+      "src/gods.cpp:80"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Devourer of Stars",
+    "target": "群星吞噬者",
+    "locations": [
+      "src/gods.cpp:19"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The distance is too great.",
+    "target": "距离太远。",
+    "locations": [
+      "src/marker.cpp:1556"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The distance is too small.",
+    "target": "距离太近。",
+    "locations": [
+      "src/marker.cpp:1555"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Doom-Walker",
+    "target": "末日行者",
+    "locations": [
+      "src/gods.cpp:70"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The door burns down.",
+    "target": "门烧毁了。",
+    "locations": [
+      "src/terrain_door.cpp:970"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The door is currently being opened, and cannot be closed.",
+    "target": "门正在打开，目前无法关上。",
+    "locations": [
+      "src/terrain_door.cpp:1589"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dread One",
+    "target": "可怖之主",
+    "locations": [
+      "src/gods.cpp:95"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dream-Daemon",
+    "target": "梦魇恶魔",
+    "locations": [
+      "src/gods.cpp:33"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Dust Vortex",
+    "target": "尘埃漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_DUST_VORTEX]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Dweller in the Depths",
+    "target": "深渊居者",
+    "locations": [
+      "src/gods.cpp:104"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Earth Beast",
+    "target": "大地巨兽",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_BEAST]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Earth Hound",
+    "target": "大地猎犬",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_EARTH_HOUND]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The earth is solid once more.",
+    "target": "大地再次坚实起来。",
+    "locations": [
+      "src/property_data.cpp:1217"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Eater of Dreams",
+    "target": "梦境吞噬者",
+    "locations": [
+      "src/gods.cpp:45"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Eater on the Insane",
+    "target": "疯狂吞噬者",
+    "locations": [
+      "src/gods.cpp:42"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Elder One",
+    "target": "古老之主",
+    "locations": [
+      "src/gods.cpp:71"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Elder Void Traveler",
+    "target": "远古虚空旅者",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ELDER_VOID_TRAVELER]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The embodiment of chaos and terror. Its colossal body drags sickly through the vast hollows of the earth, corrupting the air with a hateful stench. By its breath it conjures the crushing waters of the deepest oceans and the wrathful thunder of the blackest storms.",
+    "target": "混沌与恐怖的化身。它庞大的身躯病恹恹地拖行于地底无垠的空洞中，散发着令人憎恶的恶臭，污染周围空气。它能呼出深海的滔天巨浪，以及最黑暗风暴中的怒雷。",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_LEVIATHAN]/text/description"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Energy Vortex",
+    "target": "能量漩涡",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_ENERGY_VORTEX]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Ever-Consuming",
+    "target": "永噬者",
+    "locations": [
+      "src/gods.cpp:97"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Eye of Wicked Sight",
+    "target": "邪恶视界之眼",
+    "locations": [
+      "src/gods.cpp:79"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Faceless One",
+    "target": "无面者",
+    "locations": [
+      "src/gods.cpp:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The factors contributing to a higher score value are:",
+    "target": "提高分数的因素包括：",
+    "locations": [
+      "installed_files/manual.txt:253"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "the Failed Reanimation",
+    "target": "失败的复活",
+    "locations": [
+      "installed_files/data/monsters.xml:/monsters/monster[@id=MON_FAILED_REANIMATION]/text/name_the"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "The Fallen Wisdom",
+    "target": "堕落的智慧",
+    "locations": [
+      "src/gods.cpp:78"
+    ],
+    "kind": "ui"
+  }
+]

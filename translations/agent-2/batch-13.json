@@ -1,0 +1,34 @@
+[
+  {
+    "source": "Ctrl  + left  = down left",
+    "target": "Ctrl  + 左  = 左下",
+    "locations": [
+      "installed_files/manual.txt:62"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Ctrl  + right = down right",
+    "target": "Ctrl  + 右  = 右下",
+    "locations": [
+      "installed_files/manual.txt:63"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "Current shock level (including temporary sources) is ",
+    "target": "当前震慑等级（包括临时来源）为 ",
+    "locations": [
+      "src/character_descr.cpp:101"
+    ],
+    "kind": "fragment"
+  },
+  {
+    "source": "Current status effects",
+    "target": "当前状态效果",
+    "locations": [
+      "src/character_descr.cpp:39"
+    ],
+    "kind": "ui"
+  }
+]

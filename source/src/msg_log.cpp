@@ -745,7 +745,7 @@ std::string MsgHistoryState::title() const
         std::string title;
 
         if (m_history.empty()) {
-                title = "No message history";
+                title = "没有消息记录";
         }
         else {
                 // History has content
@@ -753,10 +753,10 @@ std::string MsgHistoryState::title() const
                 const std::string msg_nr_str_last = std::to_string(m_btm_idx + 1);
 
                 title =
-                        "Messages " +
+                        "消息 " +
                         msg_nr_str_first + "-" +
                         msg_nr_str_last +
-                        " of " + std::to_string(m_history.size());
+                        " 的 " + std::to_string(m_history.size());
         }
 
         return title;

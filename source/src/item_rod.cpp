@@ -61,23 +61,23 @@ void init()
         // Init possible rod colors and fake names
         s_rod_looks.clear();
 
-        s_rod_looks.push_back({"Iron", "an Iron", colors::gray()});
-        s_rod_looks.push_back({"Zinc", "a Zinc", colors::light_white()});
-        s_rod_looks.push_back({"Chromium", "a Chromium", colors::light_white()});
-        s_rod_looks.push_back({"Tin", "a Tin", colors::light_white()});
-        s_rod_looks.push_back({"Silver", "a Silver", colors::light_white()});
-        s_rod_looks.push_back({"Golden", "a Golden", colors::yellow()});
-        s_rod_looks.push_back({"Nickel", "a Nickel", colors::light_white()});
-        s_rod_looks.push_back({"Copper", "a Copper", colors::brown()});
-        s_rod_looks.push_back({"Lead", "a Lead", colors::gray()});
-        s_rod_looks.push_back({"Tungsten", "a Tungsten", colors::white()});
-        s_rod_looks.push_back({"Platinum", "a Platinum", colors::light_white()});
-        s_rod_looks.push_back({"Lithium", "a Lithium", colors::white()});
-        s_rod_looks.push_back({"Zirconium", "a Zirconium", colors::white()});
-        s_rod_looks.push_back({"Gallium", "a Gallium", colors::light_white()});
-        s_rod_looks.push_back({"Cobalt", "a Cobalt", colors::light_blue()});
-        s_rod_looks.push_back({"Titanium", "a Titanium", colors::light_white()});
-        s_rod_looks.push_back({"Magnesium", "a Magnesium", colors::white()});
+        s_rod_looks.push_back({"铁", "一个熨斗", colors::gray()});
+        s_rod_looks.push_back({"锌", "锌", colors::light_white()});
+        s_rod_looks.push_back({"铬", "铬", colors::light_white()});
+        s_rod_looks.push_back({"锡", "一罐", colors::light_white()});
+        s_rod_looks.push_back({"银", "银牌", colors::light_white()});
+        s_rod_looks.push_back({"金的", "一个金色的", colors::yellow()});
+        s_rod_looks.push_back({"镍", "镍", colors::light_white()});
+        s_rod_looks.push_back({"铜", "一个铜", colors::brown()});
+        s_rod_looks.push_back({"带领", "一个线索", colors::gray()});
+        s_rod_looks.push_back({"钨", "钨", colors::white()});
+        s_rod_looks.push_back({"铂", "白金级", colors::light_white()});
+        s_rod_looks.push_back({"锂", "锂", colors::white()});
+        s_rod_looks.push_back({"锆", "锆", colors::white()});
+        s_rod_looks.push_back({"镓", "镓", colors::light_white()});
+        s_rod_looks.push_back({"钴", "钴", colors::light_blue()});
+        s_rod_looks.push_back({"钛", "钛", colors::light_white()});
+        s_rod_looks.push_back({"镁", "镁", colors::white()});
 
         for (item::ItemData& d : item::g_data) {
                 if (d.type != ItemType::rod) {
@@ -89,9 +89,9 @@ void init()
 
                 RodLook& look = s_rod_looks[idx];
 
-                d.base_name_un_id.names[(size_t)ItemNameType::plain] = look.name_plain + " Rod";
-                d.base_name_un_id.names[(size_t)ItemNameType::plural] = look.name_plain + " Rods";
-                d.base_name_un_id.names[(size_t)ItemNameType::a] = look.name_a + " Rod";
+                d.base_name_un_id.names[(size_t)ItemNameType::plain] = look.name_plain + " 魔棒";
+                d.base_name_un_id.names[(size_t)ItemNameType::plural] = look.name_plain + " 魔棒";
+                d.base_name_un_id.names[(size_t)ItemNameType::a] = look.name_a + " 魔棒";
 
                 d.color = look.color;
 
@@ -104,9 +104,9 @@ void init()
 
                 const std::string real_type_name = tmp_rod->real_name();
 
-                const std::string real_name = "Rod of " + real_type_name;
-                const std::string real_name_plural = "Rods of " + real_type_name;
-                const std::string real_name_a = "a Rod of " + real_type_name;
+                const std::string real_name = "魔棒： " + real_type_name;
+                const std::string real_name_plural = "魔棒： " + real_type_name;
+                const std::string real_name_a = "一根魔棒： " + real_type_name;
 
                 d.base_name.names[(size_t)ItemNameType::plain] = real_name;
                 d.base_name.names[(size_t)ItemNameType::plural] = real_name_plural;
@@ -186,7 +186,7 @@ ConsumeItem Rod::activate(actor::Actor* const actor)
         if ((m_nr_charge_turns_left > 0) && m_data->is_identified) {
                 const std::string rod_name = name(ItemNameType::plain, ItemNameInfo::none);
 
-                msg_log::add("The " + rod_name + " is still charging.");
+                msg_log::add("这 " + rod_name + " 仍在充电。");
 
                 return ConsumeItem::no;
         }
@@ -197,7 +197,7 @@ ConsumeItem Rod::activate(actor::Actor* const actor)
 
         const std::string rod_name_a = name(ItemNameType::a, ItemNameInfo::none);
 
-        msg_log::add("I activate " + rod_name_a + "...");
+        msg_log::add("我激活 " + rod_name_a + "...");
 
         if (m_nr_charge_turns_left == 0) {
                 run_effect();
@@ -210,7 +210,7 @@ ConsumeItem Rod::activate(actor::Actor* const actor)
         }
         else {
                 // Not identified
-                msg_log::add("Nothing happens.");
+                msg_log::add("什么也没发生。");
         }
 
         if (actor::is_alive(*map::g_player)) {
@@ -238,7 +238,7 @@ void Rod::on_std_turn_in_inv_hook(const InvType inv_type)
         if ((m_nr_charge_turns_left == 0) && m_data->is_identified) {
                 const std::string my_name = name(ItemNameType::plain, ItemNameInfo::none);
 
-                msg_log::add("The " + my_name + " has finished charging.");
+                msg_log::add("这 " + my_name + " 已完成充电。");
         }
 }
 
@@ -264,9 +264,9 @@ void Rod::identify(const Verbose verbose)
         if (verbose == Verbose::yes) {
                 const std::string name_after = name(ItemNameType::a, ItemNameInfo::none);
 
-                msg_log::add("I have identified " + name_after + ".");
+                msg_log::add("我已确定 " + name_after + ".");
 
-                game::add_history_event("Identified " + name_after);
+                game::add_history_event("已鉴定 " + name_after);
         }
 }
 
@@ -276,7 +276,7 @@ std::string Rod::name_info_str(const ItemNameIdentified id_type) const
                 if (m_nr_charge_turns_left > 0) {
                         const std::string turns_left_str = std::to_string(m_nr_charge_turns_left);
 
-                        return "(" + turns_left_str + " turns)";
+                        return "(" + turns_left_str + " 转）";
                 }
                 else {
                         return "";
@@ -284,21 +284,19 @@ std::string Rod::name_info_str(const ItemNameIdentified id_type) const
         }
         else {
                 // Not identified
-                return m_data->is_tried ? "(Tried)" : "";
+                return m_data->is_tried ? "（尝试过）" : "";
         }
 }
 
 std::string Opening::real_name() const
 {
-        return "Opening";
+        return "开幕";
 }
 
 std::string Opening::descr_identified() const
 {
         return (
-                "When activated, this device opens all locks, lids and "
-                "doors in the surrounding area (except heavy doors "
-                "operated externally by a switch).");
+                "激活后，该设备会打开周围区域的所有锁、盖子和门（通过开关从外部操作的重型门除外）。");
 }
 
 void Opening::run_effect()
@@ -327,15 +325,13 @@ void Opening::run_effect()
 
 std::string CloudMinds::real_name() const
 {
-        return "Cloud Minds";
+        return "云心";
 }
 
 std::string CloudMinds::descr_identified() const
 {
         return (
-                "When activated, this device clouds the memories of "
-                "all creatures in the area, causing them to forget "
-                "the presence of the user.");
+                "当激活时，该装置会掩盖该区域所有生物的记忆，导致它们忘记用户的存在。");
 }
 
 int CloudMinds::nr_turns_to_recharge() const
@@ -345,7 +341,7 @@ int CloudMinds::nr_turns_to_recharge() const
 
 void CloudMinds::run_effect()
 {
-        msg_log::add("I vanish from the minds of my enemies.");
+        msg_log::add("我从敌人的脑海中消失了。");
 
         for (actor::Actor* actor : game_time::g_actors) {
                 if (actor::is_player(actor)) {
@@ -361,20 +357,18 @@ void CloudMinds::run_effect()
 
 std::string Shockwave::real_name() const
 {
-        return "Shockwave";
+        return "冲击波";
 }
 
 std::string Shockwave::descr_identified() const
 {
         return (
-                "When activated, this device generates a shock wave "
-                "which violently pushes away any adjacent creatures "
-                "and destroys structures.");
+                "当激活时，该装置会产生冲击波，猛烈地推开任何相邻的生物并摧毁建筑物。");
 }
 
 void Shockwave::run_effect()
 {
-        msg_log::add("It triggers a shock wave around me.");
+        msg_log::add("它在我周围引发了冲击波。");
 
         const P& player_pos = map::g_player->m_pos;
 
@@ -406,7 +400,7 @@ void Shockwave::run_effect()
                 if (actor::can_player_see_actor(*actor)) {
                         std::string msg =
                                 text_format::first_to_upper(actor::name_the(*actor)) +
-                                " is hit!";
+                                " 被击中了！";
 
                         msg = text_format::first_to_upper(msg);
 
@@ -445,14 +439,13 @@ void Shockwave::run_effect()
 
 std::string Deafening::real_name() const
 {
-        return "Deafening";
+        return "震耳欲聋";
 }
 
 std::string Deafening::descr_identified() const
 {
         return (
-                "When activated, this device causes temporary deafness in "
-                "all creatures in a large area, except for the user.");
+                "激活后，该装置会导致大范围内除使用者外的所有生物暂时失聪。");
 }
 
 void Deafening::run_effect()
@@ -482,14 +475,13 @@ void Deafening::run_effect()
 
 std::string DoorCreation::real_name() const
 {
-        return "Gateways";
+        return "网关";
 }
 
 std::string DoorCreation::descr_identified() const
 {
         return (
-                "When activated, this device materializes an entryway somewhere "
-                "in an adjacent surface.");
+                "当激活时，该装置会在相邻表面的某处实体化入口。");
 }
 
 void DoorCreation::run_effect()
@@ -519,7 +511,7 @@ void DoorCreation::run_effect()
         const bool is_seen = map::g_seen.at(pos);
 
         if (is_seen) {
-                msg_log::add("A door appears!");
+                msg_log::add("一扇门出现了！");
         }
 
         auto* const door =
@@ -537,14 +529,13 @@ void DoorCreation::run_effect()
 
 std::string Unbinding::real_name() const
 {
-        return "Unbinding";
+        return "解绑";
 }
 
 std::string Unbinding::descr_identified() const
 {
         return (
-                "When activated, this device breaks the user free from any bonds "
-                "(entangled, stuck, nailed), and ends slowing.");
+                "当激活时，该装置使用户摆脱任何束缚（纠缠、卡住、钉住），并结束减速。");
 }
 
 void Unbinding::run_effect()
@@ -578,20 +569,18 @@ void Unbinding::run_effect()
 
 std::string Mist::real_name() const
 {
-        return "Mist";
+        return "薄雾";
 }
 
 std::string Mist::descr_identified() const
 {
         return (
-                "When activated, this device alters the atmosphere in order to "
-                "cover the user in a dense mist. "
-                "The mist is also strangely soothing (-10% temporary shock).");
+                "启动后，装置会改变周围气氛，以浓雾笼罩使用者。雾气还会带来奇异的舒缓效果（临时震慑 -10%）。");
 }
 
 void Mist::run_effect()
 {
-        msg_log::add("A shroud of vapor envelops me.");
+        msg_log::add("一层水蒸气笼罩着我。");
 
         explosion::run_mist_explosion_at(map::g_player->m_pos);
 
@@ -600,15 +589,13 @@ void Mist::run_effect()
 
 std::string MiGoHypno::real_name() const
 {
-        return "Sleep";
+        return "睡觉";
 }
 
 std::string MiGoHypno::descr_identified() const
 {
         return (
-                "When activated, this device selects a single nearby seen creature, "
-                "and attempts to hypnotize it, putting them to sleep if susceptible. "
-                "It is unknown how the target selection works.");
+                "激活后，该设备会选择附近看到的一个生物，并尝试对其进行催眠，如果易受影响，则将其置于睡眠状态。目前尚不清楚目标选择是如何进行的。");
 }
 
 void MiGoHypno::run_effect()
@@ -644,12 +631,12 @@ void MiGoHypno::run_effect()
 
 std::string Displacement::real_name() const
 {
-        return "Displacement";
+        return "排量";
 }
 
 std::string Displacement::descr_identified() const
 {
-        return "When activated, this device moves the user a short distance.";
+        return "激活后，该设备会将用户移动一小段距离。";
 }
 
 void Displacement::run_effect()

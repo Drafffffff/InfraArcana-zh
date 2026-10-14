@@ -256,7 +256,7 @@ public:
 
         std::string name() const override
         {
-                return "Curse";
+                return "诅咒";
         }
 
         SpellId id() const override
@@ -316,7 +316,7 @@ public:
 
         std::string name() const override
         {
-                return "Enfeeble";
+                return "削弱";
         }
 
         SpellId id() const override
@@ -374,7 +374,7 @@ public:
 
         std::string name() const override
         {
-                return "Slow";
+                return "减速";
         }
 
         SpellId id() const override
@@ -432,7 +432,7 @@ public:
 
         std::string name() const override
         {
-                return "Terrify";
+                return "惊吓";
         }
 
         SpellId id() const override
@@ -495,7 +495,7 @@ public:
 
         std::string name() const override
         {
-                return "Aura of Decay";
+                return "腐朽光环";
         }
 
         SpellId id() const override
@@ -589,7 +589,7 @@ public:
 
         std::string hit_msg_ending() const override
         {
-                return "struck by a bolt!";
+                return "被一道闪电击中！";
         }
 
         int mon_cooldown() const override
@@ -604,7 +604,7 @@ public:
 
         std::string name() const override
         {
-                return "Force Bolt";
+                return "强力魔弹";
         }
 
         SpellId id() const override
@@ -641,7 +641,7 @@ public:
 
         std::string hit_msg_ending() const override
         {
-                return "struck by a blast!";
+                return "被一股冲击击中！";
         }
 
         int mon_cooldown() const override
@@ -656,7 +656,7 @@ public:
 
         std::string name() const override
         {
-                return "Darkbolt";
+                return "暗影箭";
         }
 
         SpellId id() const override
@@ -772,7 +772,7 @@ public:
 
         std::string name() const override
         {
-                return "Azathoth's Gaze";
+                return "阿撒托斯之凝视";
         }
 
         SpellId id() const override
@@ -852,7 +852,7 @@ public:
 
         std::string name() const override
         {
-                return "Cataclysm";
+                return "大灾变";
         }
 
         SpellId id() const override
@@ -917,7 +917,7 @@ public:
 
         std::string name() const override
         {
-                return "Pestilence";
+                return "瘟疫";
         }
 
         SpellId id() const override
@@ -973,7 +973,7 @@ public:
 
         std::string name() const override
         {
-                return "Spectral Weapons";
+                return "幽灵武器";
         }
 
         SpellId id() const override
@@ -1032,7 +1032,7 @@ public:
 
         std::string name() const override
         {
-                return "Control Object";
+                return "控制物体";
         }
 
         SpellId id() const override
@@ -1079,7 +1079,7 @@ public:
 
         std::string name() const override
         {
-                return "Cleansing Fire";
+                return "净化之火";
         }
 
         SpellId id() const override
@@ -1142,7 +1142,7 @@ public:
 
         std::string name() const override
         {
-                return "Sanctuary";
+                return "庇护所";
         }
 
         SpellId id() const override
@@ -1205,7 +1205,7 @@ public:
 
         std::string name() const override
         {
-                return "Purge";
+                return "净化";
         }
 
         SpellId id() const override
@@ -1270,7 +1270,7 @@ public:
 
         std::string name() const override
         {
-                return "Incite Frenzy";
+                return "煽动狂乱";
         }
 
         SpellId id() const override
@@ -1331,7 +1331,7 @@ public:
 
         std::string name() const override
         {
-                return "Bless";
+                return "祝福";
         }
 
         SpellId id() const override
@@ -1386,7 +1386,7 @@ public:
 
         std::string name() const override
         {
-                return "Transmutation";
+                return "嬗变";
         }
 
         SpellId id() const override
@@ -1454,7 +1454,7 @@ public:
 
         std::string name() const override
         {
-                return "Light";
+                return "光照";
         }
 
         SpellId id() const override
@@ -1525,7 +1525,7 @@ public:
 
         std::string name() const override
         {
-                return "Knockback";
+                return "击退";
         }
 
         SpellId id() const override
@@ -1595,7 +1595,7 @@ public:
 
         std::string name() const override
         {
-                return "Teleport";
+                return "传送";
         }
 
         SpellId id() const override
@@ -1655,7 +1655,7 @@ public:
 
         std::string name() const override
         {
-                return "Invisibility";
+                return "隐形";
         }
 
         SpellId id() const override
@@ -1716,7 +1716,7 @@ public:
 
         std::string name() const override
         {
-                return "See Invisible";
+                return "看见隐形之物";
         }
 
         SpellId id() const override
@@ -1777,7 +1777,7 @@ public:
 
         std::string name() const override
         {
-                return "Spell Shield";
+                return "法术护盾";
         }
 
         SpellId id() const override
@@ -1833,7 +1833,7 @@ public:
 
         std::string name() const override
         {
-                return "Haste";
+                return "加速";
         }
 
         SpellId id() const override
@@ -1885,7 +1885,7 @@ public:
 
         std::string name() const override
         {
-                return "Premonition";
+                return "预兆";
         }
 
         SpellId id() const override
@@ -1941,7 +1941,7 @@ public:
 
         std::string name() const override
         {
-                return "Erudition";
+                return "博学";
         }
 
         SpellId id() const override
@@ -1993,7 +1993,7 @@ public:
 
         std::string name() const override
         {
-                return "Identify";
+                return "鉴定";
         }
 
         SpellId id() const override
@@ -2048,7 +2048,7 @@ public:
 
         std::string name() const override
         {
-                return "Blood Tempering";
+                return "血之淬炼";
         }
 
         SpellId id() const override
@@ -2110,7 +2110,7 @@ public:
 
         std::string name() const override
         {
-                return "Thorns";
+                return "荆棘";
         }
 
         SpellId id() const override
@@ -2174,7 +2174,7 @@ public:
 
         std::string name() const override
         {
-                return "Crimson Passage";
+                return "绯红通道";
         }
 
         SpellId id() const override
@@ -2223,7 +2223,7 @@ public:
 
         std::string name() const override
         {
-                return "Sacrifice Life";
+                return "牺牲生命";
         }
 
         SpellId id() const override
@@ -2286,7 +2286,7 @@ public:
 
         std::string name() const override
         {
-                return "Shed Impurity";
+                return "驱除污秽";
         }
 
         SpellId id() const override
@@ -2357,7 +2357,7 @@ public:
 
         std::string name() const override
         {
-                return "Disease";
+                return "疾病";
         }
 
         SpellId id() const override
@@ -2424,7 +2424,7 @@ public:
 
         std::string name() const override
         {
-                return "Blind";
+                return "失明";
         }
 
         SpellId id() const override
@@ -2655,7 +2655,7 @@ public:
 
         std::string name() const override
         {
-                return "Healing";
+                return "治疗";
         }
 
         SpellId id() const override
@@ -2718,7 +2718,7 @@ public:
 
         std::string name() const override
         {
-                return "MiGo Hypnosis";
+                return "MiGo催眠";
         }
 
         SpellId id() const override
@@ -2788,7 +2788,7 @@ public:
 
         std::string name() const override
         {
-                return "Immolation";
+                return "自焚";
         }
 
         SpellId id() const override
@@ -2858,7 +2858,7 @@ public:
 
         std::string name() const override
         {
-                return "Deafen";
+                return "致聋";
         }
 
         SpellId id() const override
@@ -2920,7 +2920,7 @@ public:
 
         std::string name() const override
         {
-                return "Heal Others";
+                return "治疗他人";
         }
 
         SpellId id() const override

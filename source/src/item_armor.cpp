@@ -64,7 +64,7 @@ void Armor::hit(const int dmg)
                 const std::string armor_name = name(ItemNameType::plain);
 
                 msg_log::add(
-                        "My " + armor_name + " is damaged!",
+                        "我的 " + armor_name + " 已损坏！",
                         colors::msg_note());
         }
 }
@@ -77,7 +77,7 @@ std::string Armor::name_info_str(const ItemNameIdentified id_type) const
 
         const std::string ap_str = std::to_string(std::max(1, ap));
 
-        return "(" + ap_str + " armor)";
+        return "(" + ap_str + " 盔甲）";
 }
 
 void ArmorAsbSuit::on_equip_hook(const Verbose verbose)
@@ -103,7 +103,7 @@ void ArmorMiGo::on_equip_hook(const Verbose verbose)
 {
         if (verbose == Verbose::yes) {
                 msg_log::add(
-                        "The armor joins with my skin!",
+                        "铠甲与我的皮肤融为一体！",
                         colors::text(),
                         MsgInterruptPlayer::no,
                         MorePromptOnMsg::yes);

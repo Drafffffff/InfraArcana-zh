@@ -34,7 +34,7 @@ public:
 private:
         std::string title() const override
         {
-                return "Character description";
+                return "角色说明";
         }
 
         InfoScreenType type() const override

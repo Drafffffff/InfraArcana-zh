@@ -1,0 +1,98 @@
+[
+  {
+    "source": "- Added sound effects for opening/closing/bashing metal doors.",
+    "target": "- 新增金属门开启、关闭和撞击时的音效。"
+  },
+  {
+    "source": "- Changed Control Object max distance from 2/4/6 to 3/4/5 (for basic/exptert/master).",
+    "target": "- “控制物体”法术的最大距离由 2/4/6 格调整为 3/4/5 格（基础/专家/大师级）。"
+  },
+  {
+    "source": "- Fixed a problem with the game time system, that caused slow creatures to act slightly more often and fast/very fast creatures to act slightly less often than they were supposed to (especially noticeable when kiting a slow monster, since it would occasionally get unexpected extra moves).",
+    "target": "- 修复了游戏时间系统的问题：慢速生物行动次数略多于预期，而快速或极快速生物的行动次数略少于预期；追逐慢速怪物时尤其明显，因为它偶尔会意外多行动几次。"
+  },
+  {
+    "source": "- Ghoul player characters now receive -50% shock from darkness and blood/gore, but also -50% shock reduction from light.",
+    "target": "- 食尸鬼玩家角色从黑暗和血腥场面受到的震慑减少 50%，但从光照获得的震慑减免也减少 50%。"
+  },
+  {
+    "source": "- Instead of metal/doors levers there are now warded doors that can be unwarded by crystals. The difference is that warded doors can be opened at any time like regular doors, but if the player does so without unwarding it first they will receive a penalty, and miss out on a reward (XP bonus for using the crystal).",
+    "target": "- 现在以结界门取代带拉杆的金属门，玩家可以用水晶解除结界。结界门像普通门一样随时可以打开，但若未先解除结界就开门，玩家会受到惩罚，并失去使用水晶开门可获得的 XP 奖励。"
+  },
+  {
+    "source": "- Many screens such as the background/trait screens and character info screen use a nicer positioning for drawing, and they handle window resizing better",
+    "target": "- 许多界面（如背景、特质和角色信息界面）现在采用更美观的绘制布局，也能更好地适应窗口尺寸变化。"
+  },
+  {
+    "source": "- The blessed/cursed status effects no longer affect spell casting, and instead give +/- 10% to to melee hit chance, ranged hit chance, evasion, stealth, and searching - their descriptions now also say explicitly what they do (instead of \"is generally more lucky\")",
+    "target": "- 受祝福或诅咒不再影响施法，而会使近战命中率、远程命中率、闪避、潜行和搜索能力各提高或降低 10%。相关说明现在也会明确说明具体效果，不再笼统地说“通常更幸运”。"
+  },
+  {
+    "source": "- The Occultist traits to improve spells (such as Lesser/Greater Invocation, Summoning, etc) have been removed - instead there are now multiple Occultist domains to choose from at character creation, which get free upgrades at certain levels for spells belonging to their respective domains",
+    "target": "- 移除了用于强化法术的秘学者特质（例如低阶/高阶祈唤、召唤等）。现在创建角色时可从多个秘学者法术领域中选择；达到特定等级后，所属领域的法术会免费升级。"
+  },
+  {
+    "source": "- Removed the phobias for open/confined places (they were too annoying from a gameplay perspective)",
+    "target": "- 移除了开阔空间恐惧症和狭窄空间恐惧症（从玩法角度看，它们过于烦人）。"
+  },
+  {
+    "source": "- Removed PgUp/PgDn/Home/End as alternative keys for diagonal movement",
+    "target": "- 移除了 PgUp/PgDn/Home/End 作为斜向移动替代按键的用法。"
+  },
+  {
+    "source": "- User data (such as save file and highscore list) is no longer stored in the game directory, instead the user data location is based on SDL_GetPrefPath() and the current version/checksum of the game (e.g. \"~/.local/share/infra_arcana/873f2d0e/\") - the Infra Arcana game directory is now treated as read-only.",
+    "target": "- 用户数据（如存档和高分列表）不再保存在游戏目录中，而会根据 SDL_GetPrefPath() 以及游戏当前版本和校验和存放（例如 \"~/.local/share/infra_arcana/873f2d0e/\"）。Infra Arcana 游戏目录现在按只读方式处理。"
+  },
+  {
+    "source": "- Removed the \"Sacrifice Life\"/\"Spirit\" spells",
+    "target": "- 移除了“牺牲生命”和“牺牲精神”法术。"
+  },
+  {
+    "source": "- Removed Armor Points bonus from Tough/Rugged traits",
+    "target": "- 移除了“坚韧”和“强健”特质提供的护甲点数加成。"
+  },
+  {
+    "source": "- Items are more likely to spawn behind hidden/stuck/metal doors, and in areas away from the path to the stairs",
+    "target": "- 物品现在更可能生成在隐藏门、卡住的门或金属门后方，以及远离通往楼梯路径的区域。"
+  },
+  {
+    "source": "- Removed cold damage, and all items/monsters related to it",
+    "target": "- 移除了冰冷伤害，以及所有与之相关的物品和怪物。"
+  },
+  {
+    "source": "- The names of some ambient sound clip files were calculated incorrectly, resulting in a few ambient sounds not being loaded/used.",
+    "target": "- 部分环境音效文件的名称计算有误，导致一些环境音效未能加载或播放。"
+  },
+  {
+    "source": "- Items which in the previous version raised your shock when carried/equiped (such as Jewelry or the Mi-go armor) now raise your insanity instead (as long as you keep the item).",
+    "target": "- 上一版本中，携带或装备某些物品（如珠宝或米戈护甲）会增加震慑；现在这些物品改为增加精神错乱值，只要继续携带该物品，效果就会持续。"
+  },
+  {
+    "source": "- Only a monster that is alive can now be discovered with an XP reward. This fixes a bug where killing an invisible monster (e.g. a Ghost) would discover it.",
+    "target": "- 现在只有发现仍存活的怪物才能获得 XP 奖励。这修复了一个错误：杀死隐形怪物（例如幽灵）时，原本也会发现它并获得奖励。"
+  },
+  {
+    "source": "- Completely removed the concept of dice rolls from the game, weapon damage is now specified as a range (e.g. 1-4) instead of dice rolls and sides (e.g. 1d4)",
+    "target": "- 游戏中已完全移除掷骰子的概念。武器伤害现在以范围表示（例如 1–4），不再用骰子数量和面数表示（例如 1d4）。"
+  },
+  {
+    "source": "- The user config/options is now handled as an ini file (instead of just lines in a text file written and read in a specific order).",
+    "target": "- 用户配置和选项现在通过 ini 文件处理（此前只是按特定顺序写入和读取文本文件中的各行）。"
+  },
+  {
+    "source": "- Numpad 0 can also be used for opening and closing the minimap.",
+    "target": "- 数字键盘 0 也可用于打开和关闭小地图。"
+  },
+  {
+    "source": "- In the item knowledge section of the character screen (\"C\" or \"@\"), the real names of all identifiable items in the game are shown, so it is now possible to know exactly which effects an unidentified benign potion may possibly have, for example.",
+    "target": "- 角色界面（按“C”或“@”）的物品知识部分会列出游戏中所有可鉴定物品的真实名称，因此现在可以准确了解未鉴定的无害药剂可能具有什么效果。"
+  },
+  {
+    "source": "- When carry weight is high enough that becoming weakened would cause the weight to go over 100% (i.e. at 85%) the current carry weight percentage is drawn with (tinted) yellow color, orange at 100% or above (staggering), and red at 125% and above (immobile).",
+    "target": "- 当携带重量很高，以致陷入虚弱后负重会超过 100%（也就是当前负重达到 85%）时，当前负重百分比会以黄色（带色调）显示；达到 100% 或以上（步履蹒跚）时显示为橙色，达到 125% 或以上（无法移动）时显示为红色。"
+  },
+  {
+    "source": "- Weapons now merely display their own hit chance modifier (e.g. +5% or -10%), instead of your skill plus the weapon modifier (the old way was misleading, since more factors are involved when calculating actual hit chances during attacks)",
+    "target": "- 武器现在只显示自身的命中率修正值（例如 +5% 或 -10%），不再显示角色技能与武器修正值之和（旧显示方式容易误导，因为攻击时计算实际命中率还会考虑更多因素）。"
+  }
+]

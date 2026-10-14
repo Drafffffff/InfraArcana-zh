@@ -21,7 +21,7 @@ static const std::unordered_map<std::string, prop::Id> s_str_to_prop_id_map = {
         {"PROP_ALLIES_GHOUL_PLAYER", prop::Id::allies_ghoul_player},
         {"PROP_ALTERS_ENVIRONMENT", prop::Id::alters_env},
         {"PROP_ALWAYS_AWARE", prop::Id::always_aware},
-        {"PROP_AURA OF DECAY", prop::Id::aura_of_decay},
+        {"腐朽光环", prop::Id::aura_of_decay},
         {"PROP_BLESSED", prop::Id::blessed},
         {"PROP_BLIND", prop::Id::blind},
         {"PROP_BREEDS", prop::Id::breeds},
@@ -146,13 +146,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_phys;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Physical Resistance";
-        d.name_short = "Phys Res";
-        d.descr = "Cannot be harmed by physical attacks.";
-        d.msg_start_player = "I feel impervious to physical attacks.";
-        d.msg_start_mon = "looks tough as steel.";
-        d.msg_end_player = "I feel vulnerable to physical attacks.";
-        d.msg_end_mon = "looks less tough.";
+        d.name = "物理抗性";
+        d.name_short = "物抗";
+        d.descr = "不会受到物理攻击伤害。";
+        d.msg_start_player = "我觉得自己能抵御物理攻击。";
+        d.msg_start_mon = "看起来坚如钢铁。";
+        d.msg_end_player = "我觉得自己容易受到物理攻击伤害。";
+        d.msg_end_mon = "看起来没那么强壮了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -160,13 +160,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_fire;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Fire Resistance";
-        d.name_short = "Fire Res";
-        d.descr = "Cannot be harmed by fire.";
-        d.msg_start_player = "I feel resistant to fire.";
-        d.msg_start_mon = "is resistant to fire.";
-        d.msg_end_player = "I feel vulnerable to fire.";
-        d.msg_end_mon = "is vulnerable to fire.";
+        d.name = "火焰抗性";
+        d.name_short = "火抗";
+        d.descr = "不会受到火焰伤害。";
+        d.msg_start_player = "我觉得自己对火焰有了抗性。";
+        d.msg_start_mon = "对火焰有抗性。";
+        d.msg_end_player = "我觉得自己容易被火焰伤害。";
+        d.msg_end_mon = "容易被火焰伤害。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -174,13 +174,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_poison;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Poison Resistance";
-        d.name_short = "Poison Res";
-        d.descr = "Cannot be harmed by poison.";
-        d.msg_start_player = "I feel resistant to poison.";
-        d.msg_start_mon = "is resistant to poison.";
-        d.msg_end_player = "I feel vulnerable to poison.";
-        d.msg_end_mon = "is vulnerable to poison.";
+        d.name = "毒素抗性";
+        d.name_short = "毒抗";
+        d.descr = "不会受到毒素伤害。";
+        d.msg_start_player = "我觉得自己对毒素有了抗性。";
+        d.msg_start_mon = "对毒素有抗性。";
+        d.msg_end_player = "我觉得自己容易受到毒素伤害。";
+        d.msg_end_mon = "容易受到毒素伤害。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -188,13 +188,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_elec;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Electric Resistance";
-        d.name_short = "Elec Res";
-        d.descr = "Cannot be harmed by electricity.";
-        d.msg_start_player = "I feel resistant to electricity.";
-        d.msg_start_mon = "is resistant to electricity.";
-        d.msg_end_player = "I feel vulnerable to electricity.";
-        d.msg_end_mon = "is vulnerable to electricity.";
+        d.name = "电击抗性";
+        d.name_short = "电抗";
+        d.descr = "不会受到电击伤害。";
+        d.msg_start_player = "我觉得自己对电击有了抗性。";
+        d.msg_start_mon = "对电击有抗性。";
+        d.msg_end_player = "我觉得自己容易受到电击伤害。";
+        d.msg_end_mon = "容易受到电击伤害。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -202,13 +202,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_sleep;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Sleep Resistance";
-        d.name_short = "Sleep Res";
-        d.descr = "Cannot faint or become hypnotized.";
-        d.msg_start_player = "I feel wide awake.";
-        d.msg_start_mon = "is wide awake.";
-        d.msg_end_player = "I feel less awake.";
-        d.msg_end_mon = "is less awake.";
+        d.name = "睡眠抗性";
+        d.name_short = "睡抗";
+        d.descr = "不会昏厥或被催眠。";
+        d.msg_start_player = "我精神抖擞。";
+        d.msg_start_mon = "精神抖擞。";
+        d.msg_end_player = "我没那么清醒了。";
+        d.msg_end_mon = "没那么清醒了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -216,13 +216,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_fear;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Fear Resistance";
-        d.name_short = "Fear Res";
-        d.descr = "Unaffected by fear.";
-        d.msg_start_player = "I cannot be swayed by fear.";
-        d.msg_start_mon = "is resistant to fear.";
-        d.msg_end_player = "I feel vulnerable to fear.";
-        d.msg_end_mon = "is vulnerable to fear.";
+        d.name = "恐惧抗性";
+        d.name_short = "恐抗";
+        d.descr = "不受恐惧影响。";
+        d.msg_start_player = "我不会被恐惧动摇。";
+        d.msg_start_mon = "对恐惧有抗性。";
+        d.msg_end_player = "我觉得自己容易受到恐惧影响。";
+        d.msg_end_mon = "容易受到恐惧影响。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -230,11 +230,11 @@ static void init_data_list()
 
         d.id = prop::Id::r_slow;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Slow Resistance";
-        d.name_short = "Slow Res";
-        d.descr = "Cannot be magically slowed.";
-        d.msg_start_player = "I feel steadfast.";
-        d.msg_end_player = "I feel more susceptible to time.";
+        d.name = "减速抗性";
+        d.name_short = "缓抗";
+        d.descr = "不会被魔法减速。";
+        d.msg_start_player = "我觉得自己坚定不移。";
+        d.msg_end_player = "我觉得自己更容易受到时间影响。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -242,13 +242,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_conf;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Confusion Resistance";
-        d.name_short = "Conf Res";
-        d.descr = "Cannot become confused.";
-        d.msg_start_player = "I feel resistant to confusion.";
-        d.msg_start_mon = "is resistant to confusion.";
-        d.msg_end_player = "I feel vulnerable to confusion.";
-        d.msg_end_mon = "is vulnerable to confusion.";
+        d.name = "困惑抗性";
+        d.name_short = "困抗";
+        d.descr = "不会陷入困惑。";
+        d.msg_start_player = "我觉得自己对困惑有了抗性。";
+        d.msg_start_mon = "对困惑有抗性。";
+        d.msg_end_player = "我觉得自己容易陷入困惑。";
+        d.msg_end_mon = "容易陷入困惑。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -256,22 +256,22 @@ static void init_data_list()
 
         d.id = prop::Id::r_disease;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Disease Resistance";
-        d.name_short = "Disease Res";
-        d.descr = "Cannot become diseased.";
-        d.msg_start_player = "I feel resistant to disease.";
-        d.msg_start_mon = "is resistant to disease.";
-        d.msg_end_player = "I feel vulnerable to disease.";
-        d.msg_end_mon = "is vulnerable to disease.";
+        d.name = "疾病抗性";
+        d.name_short = "病抗";
+        d.descr = "不会感染疾病。";
+        d.msg_start_player = "我觉得自己对疾病有了抗性。";
+        d.msg_start_mon = "对疾病有抗性。";
+        d.msg_end_player = "我觉得自己容易感染疾病。";
+        d.msg_end_mon = "容易感染疾病。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::r_blind;
-        d.name = "Blindness Resistance";
-        d.name_short = "Blind Res";
-        d.descr = "Cannot be blinded.";
+        d.name = "失明抗性";
+        d.name_short = "盲抗";
+        d.descr = "不会失明。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
@@ -279,13 +279,13 @@ static void init_data_list()
 
         d.id = prop::Id::r_para;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Paralysis Resistance";
-        d.name_short = "Paralys Res";
-        d.descr = "Cannot be paralyzed.";
-        d.msg_start_player = "I feel more steady.";
-        d.msg_start_mon = "looks more steady.";
-        d.msg_end_player = "I feel less steady.";
-        d.msg_end_mon = "looks less steady.";
+        d.name = "麻痹抗性";
+        d.name_short = "麻抗";
+        d.descr = "不会陷入麻痹。";
+        d.msg_start_player = "我觉得更稳了。";
+        d.msg_start_mon = "看起来更稳了。";
+        d.msg_end_player = "我觉得没那么稳了。";
+        d.msg_end_mon = "看起来没那么稳了。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
@@ -293,34 +293,34 @@ static void init_data_list()
 
         d.id = prop::Id::r_breath;
         d.std_rnd_turns = Range(50, 100);
-        d.descr = "Cannot be harmed by constricted breathing.";
-        d.msg_start_player = "I can breath without harm.";
-        d.msg_start_mon = "can breath without harm.";
+        d.descr = "不会因呼吸受阻而受伤。";
+        d.msg_start_player = "我可以安然呼吸。";
+        d.msg_start_mon = "可以安然呼吸。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::r_spell;
-        d.name = "Spell Resistance";
-        d.name_short = "Spell Res";
-        d.descr = "Cannot be affected by harmful spells.";
-        d.msg_start_player = "I defy harmful spells!";
-        d.msg_start_mon = "is defying harmful spells.";
-        d.msg_end_player = "I feel vulnerable to spells.";
-        d.msg_end_mon = "is vulnerable to spells.";
+        d.name = "法术抗性";
+        d.name_short = "法抗";
+        d.descr = "不会受到有害法术影响。";
+        d.msg_start_player = "我能抵御有害法术！";
+        d.msg_start_mon = "正在抵御有害法术。";
+        d.msg_end_player = "我觉得自己容易受到法术影响。";
+        d.msg_end_mon = "容易受到法术影响。";
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::r_shock;
         d.std_rnd_turns = Range(8, 12);
-        d.name = "Shock Resistance";
-        d.name_short = "Shock Res";
-        d.descr = "Unaffected by shocking events.";
-        d.msg_start_player = "Nothing can disturb my mind!";
+        d.name = "震慑抗性";
+        d.name_short = "震抗";
+        d.descr = "不受震慑事件影响。";
+        d.msg_start_player = "没有什么能扰乱我的心智！";
         d.msg_start_mon = "";
-        d.msg_end_player = "I feel susceptible to the horrors of this place again.";
+        d.msg_end_player = "我又开始感受到此地的恐怖。";
         d.msg_end_mon = "";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
@@ -329,28 +329,28 @@ static void init_data_list()
 
         d.id = prop::Id::light_sensitive;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Light Sensitive";
-        d.name_short = "Lgt Sens";
-        d.descr = "Is vulnerable to light.";
-        d.msg_start_player = "I feel vulnerable to light!";
-        d.msg_start_mon = "is vulnerable to light.";
-        d.msg_end_player = "I no longer feel vulnerable to light.";
-        d.msg_end_mon = "no longer is vulnerable to light.";
+        d.name = "光敏感";
+        d.name_short = "光敏";
+        d.descr = "容易受到光线影响。";
+        d.msg_start_player = "我觉得自己容易受到光线影响！";
+        d.msg_start_mon = "容易受到光线影响。";
+        d.msg_end_player = "我不再觉得自己容易受到光线影响。";
+        d.msg_end_mon = "不再容易受到光线影响。";
         d.allow_display_turns = true;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::blind;
         d.std_rnd_turns = Range(6, 12);
-        d.name = "Blind";
-        d.name_short = "Blind";
-        d.descr = "Cannot see, -20% hit chance, -50% chance to evade attacks.";
-        d.msg_start_player = "I am blinded!";
-        d.msg_start_mon = "is blinded.";
-        d.msg_end_player = "I can see again!";
-        d.msg_end_mon = "can see again.";
-        d.historic_msg_start_permanent = "Became permanently blind";
-        d.historic_msg_end_permanent = "My sight came back";
+        d.name = "失明";
+        d.name_short = "失明";
+        d.descr = "无法视物，命中率 -20%，闪避攻击的几率 -50%。";
+        d.msg_start_player = "我失明了！";
+        d.msg_start_mon = "失明了。";
+        d.msg_end_player = "我又能看见了！";
+        d.msg_end_mon = "可以重新看见。";
+        d.historic_msg_start_permanent = "永久失明";
+        d.historic_msg_end_permanent = "我恢复视力了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -358,15 +358,15 @@ static void init_data_list()
 
         d.id = prop::Id::deaf;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Deaf";
-        d.name_short = "Deaf";
-        d.descr = "Cannot hear sounds.";
-        d.msg_start_player = "I am deaf!";
-        d.msg_start_mon = "stops reacting to any noise";
-        d.msg_end_player = "I can hear again.";
-        d.msg_end_mon = "is reacting to noise again";
-        d.historic_msg_start_permanent = "Became permanently deaf";
-        d.historic_msg_end_permanent = "My hearing came back";
+        d.name = "失聪";
+        d.name_short = "失聪";
+        d.descr = "听不见声音。";
+        d.msg_start_player = "我失聪了！";
+        d.msg_start_mon = "不再对任何声音作出反应";
+        d.msg_end_player = "我又能听见了。";
+        d.msg_end_mon = "又能对声音作出反应了。";
+        d.historic_msg_start_permanent = "永久失聪";
+        d.historic_msg_end_permanent = "我恢复听力了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -374,17 +374,16 @@ static void init_data_list()
 
         d.id = prop::Id::fainted;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Fainted";
-        d.name_short = "Fainted";
+        d.name = "昏厥";
+        d.name_short = "昏厥";
         d.descr =
-                "Temporarily lost consciousness, will wake up if any damage "
-                "is taken or enough time passes.";
-        d.msg_start_player = "I faint!";
-        d.msg_start_mon = "faints.";
-        d.msg_end_player = "I am awake.";
-        d.msg_end_mon = "wakes up.";
-        d.msg_res_player = "I resist fainting.";
-        d.msg_res_mon = "resists fainting.";
+                "暂时失去意识；受到任何伤害或经过足够时间后就会醒来。";
+        d.msg_start_player = "我昏厥了！";
+        d.msg_start_mon = "昏厥。";
+        d.msg_end_player = "我醒着。";
+        d.msg_end_mon = "醒来了。";
+        d.msg_res_player = "我抵抗住了昏厥。";
+        d.msg_res_mon = "抵抗昏厥。";
         d.allow_display_turns = true;
         d.force_interrupt_player_on_start = true;
         d.allow_test_on_bot = true;
@@ -393,17 +392,16 @@ static void init_data_list()
 
         d.id = prop::Id::burning;
         d.std_rnd_turns = Range(6, 8);
-        d.name = "Burning";
-        d.name_short = "Burning";
+        d.name = "燃烧";
+        d.name_short = "燃烧";
         d.descr =
-                "Takes damage each turn, 50% chance to fail when attempting to "
-                "read or cast spells.";
-        d.msg_start_player = "I am Burning!";
-        d.msg_start_mon = "is burning.";
-        d.msg_end_player = "The flames are put out.";
-        d.msg_end_mon = "is no longer burning.";
-        d.msg_res_player = "I resist burning.";
-        d.msg_res_mon = "resists burning.";
+                "每回合受到伤害；尝试阅读或施放法术时有 50% 几率失败。";
+        d.msg_start_player = "我着火了！";
+        d.msg_start_mon = "着火了。";
+        d.msg_end_player = "火焰熄灭了。";
+        d.msg_end_mon = "不再燃烧了。";
+        d.msg_res_player = "我抵抗住了燃烧。";
+        d.msg_res_mon = "抵抗燃烧。";
         d.allow_display_turns = true;
         d.force_interrupt_player_on_start = true;
         d.update_vision_on_toggled = true;
@@ -413,19 +411,16 @@ static void init_data_list()
 
         d.id = prop::Id::poisoned;
         d.std_rnd_turns = Range(40, 80);
-        d.name = "Poisoned";
-        d.name_short = "Poisoned";
+        d.name = "中毒";
+        d.name_short = "中毒";
         d.descr =
-                "Slowly takes damage while health is above 50% of maximum hit points, "
-                "hit points do not regenerate naturally, "
-                "-25% melee damage, -10% melee hit chance, -10% evasion. "
-                "Poison duration stacks if more is applied.";
-        d.msg_start_player = "I am poisoned!";
-        d.msg_start_mon = "is poisoned.";
-        d.msg_end_player = "My body is cleansed from poisoning!";
-        d.msg_end_mon = "is cleansed from poisoning.";
-        d.msg_res_player = "I resist poisoning.";
-        d.msg_res_mon = "resists poisoning.";
+                "生命值高于最大生命值的 50% 时，会缓慢受到伤害；生命值不会自然恢复；近战伤害 -25%，近战命中率 -10%，闪避 -10%。再次施加毒素时，毒素持续时间会叠加。";
+        d.msg_start_player = "我中毒了！";
+        d.msg_start_mon = "中毒了。";
+        d.msg_end_player = "我的身体已从毒素中净化！";
+        d.msg_end_mon = "毒性已被清除。";
+        d.msg_res_player = "我抵抗住了中毒。";
+        d.msg_res_mon = "抵抗中毒。";
         d.allow_display_turns = true;
         d.duration_on_more = prop::DurationOnMoreBehavior::stacked;
         d.allow_test_on_bot = true;
@@ -434,15 +429,15 @@ static void init_data_list()
 
         d.id = prop::Id::paralyzed;
         d.std_rnd_turns = Range(3, 5);
-        d.name = "Paralyzed";
-        d.name_short = "Paralyzed";
-        d.descr = "Cannot move.";
-        d.msg_start_player = "I am paralyzed!";
-        d.msg_start_mon = "is paralyzed.";
-        d.msg_end_player = "I can move again!";
-        d.msg_end_mon = "can move again.";
-        d.msg_res_player = "I resist paralyzation.";
-        d.msg_res_mon = "resists paralyzation.";
+        d.name = "麻痹";
+        d.name_short = "麻痹";
+        d.descr = "无法移动。";
+        d.msg_start_player = "我陷入麻痹了！";
+        d.msg_start_mon = "陷入麻痹了。";
+        d.msg_end_player = "我又能动了！";
+        d.msg_end_mon = "可以重新移动。";
+        d.msg_res_player = "我抵抗住了麻痹。";
+        d.msg_res_mon = "抵抗麻痹。";
         d.allow_display_turns = true;
         d.force_interrupt_player_on_start = true;
         d.allow_test_on_bot = true;
@@ -457,17 +452,16 @@ static void init_data_list()
 
         d.id = prop::Id::terrified;
         d.std_rnd_turns = Range(20, 30);
-        d.name = "Terrified";
-        d.name_short = "Terrified";
+        d.name = "恐惧";
+        d.name_short = "恐惧";
         d.descr =
-                "Cannot perform melee attacks, -20% ranged hit chance, +20% "
-                "chance to evade attacks.";
-        d.msg_start_player = "I am terrified!";
-        d.msg_start_mon = "looks terrified.";
-        d.msg_end_player = "I am no longer terrified!";
-        d.msg_end_mon = "is no longer terrified.";
-        d.msg_res_player = "I resist fear.";
-        d.msg_res_mon = "resists fear.";
+                "无法进行近战攻击，远程命中率 -20%，闪避攻击的几率 +20%。";
+        d.msg_start_player = "我吓坏了！";
+        d.msg_start_mon = "看起来很恐惧。";
+        d.msg_end_player = "我不再恐惧了！";
+        d.msg_end_mon = "不再恐惧了。";
+        d.msg_res_player = "我抵抗住了恐惧。";
+        d.msg_res_mon = "抵抗恐惧。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -475,17 +469,16 @@ static void init_data_list()
 
         d.id = prop::Id::confused;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Confused";
-        d.name_short = "Confused";
+        d.name = "困惑";
+        d.name_short = "困惑";
         d.descr =
-                "Occasionally moving in random directions, cannot read or "
-                "cast spells, cannot search for hidden doors or traps.";
-        d.msg_start_player = "I am confused!";
-        d.msg_start_mon = "looks confused.";
-        d.msg_end_player = "I come to my senses.";
-        d.msg_end_mon = "is no longer confused.";
-        d.msg_res_player = "I manage to keep my head together.";
-        d.msg_res_mon = "resists confusion.";
+                "偶尔会朝随机方向移动，无法阅读或施放法术，也无法搜寻隐藏门或陷阱。";
+        d.msg_start_player = "我困惑了！";
+        d.msg_start_mon = "看起来很困惑。";
+        d.msg_end_player = "我恢复清醒了。";
+        d.msg_end_mon = "不再困惑了。";
+        d.msg_res_player = "我设法保持头脑清醒。";
+        d.msg_res_mon = "抵抗困惑。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -493,14 +486,14 @@ static void init_data_list()
 
         d.id = prop::Id::hallucinating;
         d.std_rnd_turns = Range(75, 150);
-        d.name = "Hallucinating";
-        d.name_short = "Halluc";
-        d.descr = "The senses cannot always be trusted.";
-        d.msg_start_player = "I am starting to doubt my senses.";
+        d.name = "产生幻觉";
+        d.name_short = "幻觉";
+        d.descr = "感官并不总是可信。";
+        d.msg_start_player = "我开始怀疑自己的感官。";
         d.msg_start_mon = "";
-        d.msg_end_player = "I feel more sure of my senses.";
+        d.msg_end_player = "我觉得自己的感官更可靠了。";
         d.msg_end_mon = "";
-        d.msg_res_player = "I manage to maintain a grip on what is real.";
+        d.msg_res_player = "我设法分清现实与幻象。";
         d.msg_res_mon = "";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
@@ -510,19 +503,14 @@ static void init_data_list()
         d.id = prop::Id::astral_opium_addiction;
         d.std_rnd_turns = Range(100, 200);
         d.std_rnd_dlvls = Range(3, 6);
-        d.name = "Astral Opium Addiction";
-        d.name_short = "Addict";
+        d.name = "星界鸦片成瘾";
+        d.name_short = "成瘾者";
         d.descr =
-                "Addicted to Astral Opium - the addiction will cease "
-                "eventually if Astral Opium is not used again, however the "
-                "abstinence will soon cause withdrawal symptoms "
-                "(increased minimum shock). "
-                "The addiction is too powerful and otherwordly to be cured by a "
-                "Potion of Fortitude.";
-        d.msg_start_player = "That felt amazing!";
+                "沉溺于星界鸦片——若不再使用星界鸦片，成瘾最终会消退；但戒断很快会引发症状（最低震慑值上升）。这种成瘾力量过于强大、过于异界，坚毅药水也无法治愈。";
+        d.msg_start_player = "那感觉太棒了！";
         d.msg_start_mon = "";
         d.msg_end_player =
-                "I suddenly realize that I no longer crave Astral Opium.";
+                "我突然意识到自己不再渴求星界鸦片。";
         d.msg_end_mon = "";
         d.msg_res_player = "";
         d.msg_res_mon = "";
@@ -532,56 +520,48 @@ static void init_data_list()
         add(d);
 
         d.id = prop::Id::meditative_focused;
-        d.name = "Focused";
-        d.name_short = "Focused";
+        d.name = "专注";
+        d.name_short = "专注";
         d.descr =
-                "The next spell is cast without spending a turn, "
-                "and the cost is reduced by 1 point.";
-        d.msg_start_player = "I feel very focused.";
-        d.msg_end_player = "I feel less focused.";
+                "下一个法术无需消耗一个回合即可施放，且消耗减少 1 点。";
+        d.msg_start_player = "我感到十分专注。";
+        d.msg_end_player = "我不再那么专注了。";
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::thorns;
-        d.name = "Thorns";
-        d.name_short = "Thorns";
+        d.name = "荆棘";
+        d.name_short = "荆棘";
         d.descr =
-                "Any time the caster is harmed by a melee attack, "
-                "ranged attack or damaging spell, the attacker is "
-                "struck by an irresistible force.";
-        d.msg_start_player = "Reprisal is sealed!";
-        d.msg_end_player = "I cease to return harm.";
+                "施法者每次受到近战、远程或伤害性法术攻击时，攻击者都会遭到一股不可抗拒的力量反击。";
+        d.msg_start_player = "反击效果被封印了！";
+        d.msg_end_player = "我不再反击伤害。";
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::crimson_passage;
-        d.name = "Crimson Passage";
-        d.name_short = "Crims Psg";
+        d.name = "绯红通道";
+        d.name_short = "绯红通道";
         d.descr =
-                "Walking does not spend any time, "
-                "but every step taken drains 2 hit points "
-                "(waiting in place can still be done as normal). "
-                "The effect ends after a certain number of steps have "
-                "been taken, "
-                "or if there is not enough hit points to drain.";
-        d.msg_start_player = "A gruesome path lies ahead.";
-        d.msg_end_player = "My movement is normal again.";
+                "行走不消耗时间，但每走一步都会消耗 2 点生命值（原地等待仍照常进行）。走过一定步数后，或生命值不足以继续扣除时，效果结束。";
+        d.msg_start_player = "前方有一条骇人的道路。";
+        d.msg_end_player = "我的行动恢复正常了。";
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::stunned;
         d.std_rnd_turns = Range(5, 9);
-        d.name = "Stunned";
-        d.name_short = "Stunned";
-        d.msg_start_player = "I am stunned!";
-        d.msg_start_mon = "is stunned.";
-        d.msg_end_player = "I am no longer stunned.";
-        d.msg_end_mon = "is no longer stunned.";
-        d.msg_res_player = "I resist stunning.";
-        d.msg_res_mon = "resists stunning.";
+        d.name = "眩晕";
+        d.name_short = "眩晕";
+        d.msg_start_player = "我眩晕了！";
+        d.msg_start_mon = "眩晕了。";
+        d.msg_end_player = "我不再眩晕了。";
+        d.msg_end_mon = "不再眩晕了。";
+        d.msg_res_player = "我抵抗住了眩晕。";
+        d.msg_res_mon = "抵抗眩晕。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -589,17 +569,17 @@ static void init_data_list()
 
         d.id = prop::Id::slowed;
         d.std_rnd_turns = Range(16, 24);
-        d.name = "Slowed";
-        d.name_short = "Slowed";
-        d.descr = "Moves slower.";
-        d.msg_start_player = "Everything around me seems to speed up.";
-        d.msg_start_mon = "slows down.";
-        d.msg_end_player = "Everything around me seems to slow down.";
-        d.msg_end_mon = "speeds up.";
-        d.msg_res_player = "I resist slowing.";
-        d.msg_res_mon = "resists slowing.";
-        d.historic_msg_start_permanent = "Became perpetually slowed";
-        d.historic_msg_end_permanent = "My slowness ceased";
+        d.name = "减速";
+        d.name_short = "减速";
+        d.descr = "移动速度减慢。";
+        d.msg_start_player = "周围的一切似乎都快了起来。";
+        d.msg_start_mon = "速度减慢了。";
+        d.msg_end_player = "周围的一切似乎都慢了下来。";
+        d.msg_end_mon = "速度加快了。";
+        d.msg_res_player = "我抵抗住了减速。";
+        d.msg_res_mon = "抵抗减速。";
+        d.historic_msg_start_permanent = "永久减速";
+        d.historic_msg_end_permanent = "我的减速效果消退了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -607,15 +587,15 @@ static void init_data_list()
 
         d.id = prop::Id::hasted;
         d.std_rnd_turns = Range(12, 16);
-        d.name = "Hasted";
-        d.name_short = "Hasted";
-        d.descr = "Moves faster.";
-        d.msg_start_player = "Everything around me seems to slow down.";
-        d.msg_start_mon = "speeds up.";
-        d.msg_end_player = "Everything around me seems to speed up.";
-        d.msg_end_mon = "slows down.";
-        d.historic_msg_start_permanent = "Became perpetually hasted";
-        d.historic_msg_end_permanent = "My hastiness ceased";
+        d.name = "加速";
+        d.name_short = "加速";
+        d.descr = "移动速度加快。";
+        d.msg_start_player = "周围的一切似乎都慢了下来。";
+        d.msg_start_mon = "速度加快了。";
+        d.msg_end_player = "周围的一切似乎都快了起来。";
+        d.msg_end_mon = "速度减慢了。";
+        d.historic_msg_start_permanent = "永久获得加速";
+        d.historic_msg_end_permanent = "我的加速效果消退了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -623,11 +603,11 @@ static void init_data_list()
 
         d.id = prop::Id::extra_hasted;
         d.std_rnd_turns = Range(7, 11);
-        d.name = "Extra Hasted";
-        d.name_short = "Extra Hasted";
-        d.descr = "Moves very fast.";
-        d.msg_start_player = "Everything around me suddenly seems very still.";
-        d.msg_end_player = "Everything around me seems to speed up a lot.";
+        d.name = "极度加速";
+        d.name_short = "极度加速";
+        d.descr = "移动速度极快。";
+        d.msg_start_player = "周围的一切突然静止不动了。";
+        d.msg_end_player = "周围的一切似乎都快了许多。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -635,75 +615,69 @@ static void init_data_list()
 
         d.id = prop::Id::summoned;
         d.std_rnd_turns = Range(80, 120);
-        d.msg_end_mon = "suddenly disappears.";
-        d.name = "Summoned";
-        d.descr = "Was magically summoned here.";
+        d.msg_end_mon = "突然消失了。";
+        d.name = "被召唤";
+        d.descr = "曾被魔法召唤至此。";
         d.alignment = prop::PropAlignment::neutral;
         add(d);
 
         d.id = prop::Id::nailed;
-        d.name = "Nailed";
+        d.name = "被钉住";
         d.descr =
-                "Fastened by a spike. Tearing it out will be rather painful.";
-        d.msg_start_player = "I am fastened by a spike!";
-        d.msg_start_mon = "is fastened by a spike.";
-        d.msg_end_player = "I tear free!";
-        d.msg_end_mon = "tears free!";
+                "被尖刺钉住了。拔出来会相当痛苦。";
+        d.msg_start_player = "我被尖刺钉住了！";
+        d.msg_start_mon = "被尖刺钉住了。";
+        d.msg_end_player = "我挣脱了！";
+        d.msg_end_mon = "挣脱了！";
         d.allow_display_turns = false;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::wound;
-        d.name = "Wounded";
+        d.name = "受伤";
         d.descr =
-                "For each wound: "
-                "-5% melee hit chance, "
-                "-5% chance to evade attacks, "
-                "-10% hit points, "
-                "and reduced hit point generation rate. "
-                "With three concurrent wounds, walking takes extra turns. "
-                "Five concurrent wounds is fatal.";
-        d.msg_start_player = "I am wounded!";
-        d.msg_res_player = "I resist wounding!";
+                "每处创伤：近战命中率 -5%、闪避攻击的几率 -5%、生命值 -10%，并减慢生命值恢复速度。身上同时有 3 处创伤时，行走会额外消耗回合；同时有 5 处创伤会致命。";
+        d.msg_start_player = "我受伤了！";
+        d.msg_res_player = "我抵抗创伤！";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::hp_sap;
-        d.name = "Life Sapped";
-        d.descr = "Fewer hit points.";
-        d.msg_start_player = "My life force is sapped!";
-        d.msg_start_mon = "is sapped of life.";
-        d.msg_end_player = "My life force returns.";
-        d.msg_end_mon = "looks restored.";
-        d.msg_res_player = "I resist sapping.";
-        d.msg_res_mon = "resists sapping.";
+        d.name = "生命力被汲取";
+        d.descr = "生命值减少。";
+        d.msg_start_player = "我的生命力被汲取了！";
+        d.msg_start_mon = "生命力被汲取。";
+        d.msg_end_player = "我的生命力恢复了。";
+        d.msg_end_mon = "看起来恢复了。";
+        d.msg_res_player = "我抵抗生命汲取。";
+        d.msg_res_mon = "抵抗生命汲取。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::spi_sap;
-        d.name = "Spirit Sapped";
-        d.descr = "Fewer spirit points.";
-        d.msg_start_player = "My spirit is sapped!";
-        d.msg_start_mon = "is sapped of spirit.";
-        d.msg_end_player = "My spirit returns.";
-        d.msg_end_mon = "looks restored.";
-        d.msg_res_player = "I resist sapping.";
-        d.msg_res_mon = "resists sapping.";
+        d.name = "精神值被汲取";
+        d.descr = "精神值减少。";
+        d.msg_start_player = "我的精神值被汲取了！";
+        d.msg_start_mon = "精神值被汲取。";
+        d.msg_end_player = "我的精神值恢复了。";
+        d.msg_end_mon = "看起来恢复了。";
+        d.msg_res_player = "我抵抗生命汲取。";
+        d.msg_res_mon = "抵抗生命汲取。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::mind_sap;
-        d.name = "Mind Sapped";
-        d.descr = "Increased Shock.";
-        d.msg_start_player = "My mind is sapped!";
-        d.msg_end_player = "My mind returns.";
-        d.msg_res_player = "I resist sapping.";
+        d.name = "心智受到汲取";
+        d.descr = "震慑增加。";
+        d.msg_start_player = "我的心智被汲取了！";
+        d.msg_end_player = "我的心智恢复了。";
+        d.msg_res_player = "我抵抗生命汲取。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::bad;
@@ -711,13 +685,13 @@ static void init_data_list()
 
         d.id = prop::Id::infected;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Infected";
-        d.name_short = "Infected";
-        d.descr = "A nasty infection that will get worse if left untreated.";
-        d.msg_start_player = "I am infected!";
-        d.msg_start_mon = "is infected.";
-        d.msg_end_player = "My infection is cured!";
-        d.msg_end_mon = "is no longer infected.";
+        d.name = "已感染";
+        d.name_short = "已感染";
+        d.descr = "一种可怕的感染，若不治疗，病情会不断恶化。";
+        d.msg_start_player = "我感染了！";
+        d.msg_start_mon = "感染了。";
+        d.msg_end_player = "我的感染痊愈了！";
+        d.msg_end_mon = "感染已治愈。";
         d.allow_display_turns = false;
         // Never increase duration if more infection is applied:
         d.duration_on_more = prop::DurationOnMoreBehavior::shortest;
@@ -727,17 +701,17 @@ static void init_data_list()
 
         d.id = prop::Id::diseased;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Diseased";
-        d.name_short = "Diseased";
-        d.descr = "-50% maximum hit points.";
-        d.msg_start_player = "I am diseased!";
-        d.msg_start_mon = "is diseased.";
-        d.msg_end_player = "My disease is cured!";
-        d.msg_end_mon = "is no longer diseased.";
-        d.msg_res_player = "I resist disease.";
-        d.msg_res_mon = "resists disease.";
-        d.historic_msg_start_permanent = "Caught a horrible disease";
-        d.historic_msg_end_permanent = "Was cured from a horrible disease";
+        d.name = "患病";
+        d.name_short = "患病";
+        d.descr = "最大生命值 -50%。";
+        d.msg_start_player = "我患病了！";
+        d.msg_start_mon = "患病了。";
+        d.msg_end_player = "我的疾病痊愈了！";
+        d.msg_end_mon = "疾病已痊愈。";
+        d.msg_res_player = "我抵抗疾病。";
+        d.msg_res_mon = "抵抗疾病。";
+        d.historic_msg_start_permanent = "染上了可怕的疾病";
+        d.historic_msg_end_permanent = "从可怕的疾病中痊愈";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -745,10 +719,10 @@ static void init_data_list()
 
         d.id = prop::Id::descend;
         d.std_rnd_turns = Range(20, 30);
-        d.name = "Descending";
-        d.name_short = "Descending";
-        d.descr = "Soon moved to a deeper level.";
-        d.msg_start_player = "I feel a sinking sensation.";
+        d.name = "正在下楼";
+        d.name_short = "正在下楼";
+        d.descr = "很快就会前往更深一层。";
+        d.msg_start_player = "我感到一阵下坠。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::neutral;
@@ -756,18 +730,16 @@ static void init_data_list()
 
         d.id = prop::Id::weakened;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Weakened";
-        d.name_short = "Weakened";
+        d.name = "虚弱";
+        d.name_short = "虚弱";
         d.descr =
-                "-50% melee damage, cannot do backstab attacks, "
-                "cannot bash doors or chests open, "
-                "knock heavy objects over, etc.";
-        d.msg_start_player = "I feel weaker.";
-        d.msg_start_mon = "looks weaker.";
-        d.msg_end_player = "I feel stronger!";
-        d.msg_end_mon = "looks stronger!";
-        d.msg_res_player = "I resist weakness.";
-        d.msg_res_mon = "resists weakness.";
+                "近战伤害 -50%，无法发动背刺攻击，无法撞开门或箱子、撞倒重物等。";
+        d.msg_start_player = "我感觉变弱了。";
+        d.msg_start_mon = "看起来变弱了。";
+        d.msg_end_player = "我感觉更强壮了！";
+        d.msg_end_mon = "看起来更强壮了！";
+        d.msg_res_player = "我抵抗虚弱。";
+        d.msg_res_mon = "抵抗虚弱。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -775,17 +747,14 @@ static void init_data_list()
 
         d.id = prop::Id::frenzied;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Frenzied";
-        d.name_short = "Frenzied";
+        d.name = "狂乱";
+        d.name_short = "狂乱";
         d.descr =
-                "Cannot move away from seen enemies, moves faster, +1 melee "
-                "damage, +10% melee hit chance, immune to confusion, fainting, "
-                "fear, and weakening, cannot read or cast spells, becomes "
-                "weakened when the frenzy ends.";
-        d.msg_start_player = "I feel ferocious!!!";
-        d.msg_start_mon = "looks ferocious!";
-        d.msg_end_player = "I calm down.";
-        d.msg_end_mon = "calms down a little.";
+                "无法远离已发现的敌人，移动速度提高，近战伤害 +1、近战命中率 +10%；免疫困惑、昏厥、恐惧和虚弱；无法阅读或施法；狂乱结束后会陷入虚弱。";
+        d.msg_start_player = "我感觉凶猛无比！！！";
+        d.msg_start_mon = "看起来凶猛无比！";
+        d.msg_end_player = "我平静下来。";
+        d.msg_end_mon = "稍稍平静下来。";
         d.allow_display_turns = true;
         d.force_interrupt_player_on_start = true;
         d.allow_test_on_bot = true;
@@ -794,13 +763,13 @@ static void init_data_list()
 
         d.id = prop::Id::blessed;
         d.std_rnd_turns = Range(400, 600);
-        d.name = "Blessed";
-        d.name_short = "Blessed";
-        d.descr = "+10% to hit chance, evasion, stealth, and searching.";
-        d.msg_start_player = "I feel luckier.";
-        d.msg_end_player = "I have normal luck.";
-        d.historic_msg_start_permanent = "Received an everlasting blessing";
-        d.historic_msg_end_permanent = "My great blessing ceased";
+        d.name = "受祝福";
+        d.name_short = "受祝福";
+        d.descr = "命中率、闪避、潜行和搜索能力 +10%。";
+        d.msg_start_player = "我感觉运气变好了。";
+        d.msg_end_player = "我的运气恢复正常。";
+        d.historic_msg_start_permanent = "获得永恒的祝福";
+        d.historic_msg_end_permanent = "我的大福泽消失了";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -808,17 +777,17 @@ static void init_data_list()
 
         d.id = prop::Id::cursed;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Cursed";
-        d.name_short = "Cursed";
-        d.descr = "-10% to hit chance, evasion, stealth, and searching.";
-        d.msg_start_player = "I feel misfortunate.";
-        d.msg_start_mon = "is cursed.";
-        d.msg_end_player = "I feel more fortunate.";
-        d.msg_end_mon = "is no longer cursed.";
-        d.msg_res_player = "I resist misfortune.";
-        d.msg_res_mon = "resists misfortune.";
-        d.historic_msg_start_permanent = "A perpetual curse was put upon me";
-        d.historic_msg_end_permanent = "A terrible curse was lifted from me";
+        d.name = "被诅咒";
+        d.name_short = "被诅咒";
+        d.descr = "命中率、闪避、潜行和搜索能力 -10%。";
+        d.msg_start_player = "我感觉时运不济。";
+        d.msg_start_mon = "被诅咒了。";
+        d.msg_end_player = "我感觉运气更好了。";
+        d.msg_end_mon = "诅咒已解除。";
+        d.msg_res_player = "我抵挡住了厄运。";
+        d.msg_res_mon = "抵挡厄运。";
+        d.historic_msg_start_permanent = "我被施加了一个永恒的诅咒";
+        d.historic_msg_end_permanent = "一个可怕的诅咒从我身上解除";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -826,18 +795,17 @@ static void init_data_list()
 
         d.id = prop::Id::doomed;
         d.std_rnd_turns = Range(30, 60);
-        d.name = "Doomed";
-        d.name_short = "Doomed";
+        d.name = "命定厄运";
+        d.name_short = "命定厄运";
         d.descr =
-                "-20% to hit chance, evasion, stealth, and searching, "
-                "10% chance to fail when attempting to read or cast spells.";
-        d.msg_start_player = "I feel doomed!";
-        d.msg_start_mon = "is doomed!";
-        d.msg_end_player = "My doom does not feel so certain anymore.";
-        d.msg_end_mon = "is no longer doomed.";
-        d.msg_res_player = "I resist a great misfortune.";
-        d.historic_msg_start_permanent = "My doom was written";
-        d.historic_msg_end_permanent = "Hope returned again";
+                "命中率、闪避、潜行和搜索能力 -20%；阅读或施放法术时有 10% 的失败几率。";
+        d.msg_start_player = "我感觉厄运将至！";
+        d.msg_start_mon = "厄运降临！";
+        d.msg_end_player = "我的厄运似乎不再那么确定。";
+        d.msg_end_mon = "厄运已解除。";
+        d.msg_res_player = "我抵挡住了一场大灾厄。";
+        d.historic_msg_start_permanent = "我的厄运早已注定";
+        d.historic_msg_end_permanent = "希望再次回归";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -845,13 +813,13 @@ static void init_data_list()
 
         d.id = prop::Id::extra_skill;
         d.std_rnd_turns = Range(200, 300);
-        d.name = "Extra Skill";
-        d.name_short = "Skill";
-        d.descr = "+10% to hit chance, evasion, stealth, and searching.";
-        d.msg_start_player = "I feel more skillful.";
-        d.msg_start_mon = "looks more skillful.";
-        d.msg_end_player = "I feel less skillful.";
-        d.msg_end_player = "looks less skillful.";
+        d.name = "额外技能";
+        d.name_short = "技能";
+        d.descr = "命中率、闪避、潜行和搜索能力 +10%。";
+        d.msg_start_player = "我感觉技巧更娴熟了。";
+        d.msg_start_mon = "看起来更加娴熟。";
+        d.msg_end_player = "我感觉技巧变差了。";
+        d.msg_end_player = "看起来不那么娴熟了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -859,13 +827,13 @@ static void init_data_list()
 
         d.id = prop::Id::magic_carapace;
         d.std_rnd_turns = Range(25, 50);
-        d.name = "Carapace";
-        d.name_short = "Carapace";
-        d.descr = "+3 armor points, +25% chance to resist burning.";
-        d.msg_start_player = "A protective carapace forms around me.";
-        d.msg_start_mon = "is enveloped by a protective carapace.";
-        d.msg_end_player = "My carapace cracks and crumbles away.";
-        d.msg_end_player = "sheds a carapace.";
+        d.name = "甲壳";
+        d.name_short = "甲壳";
+        d.descr = "护甲值 +3，抵抗燃烧的几率 +25%。";
+        d.msg_start_player = "一层保护性甲壳在我周围形成。";
+        d.msg_start_mon = "被保护性甲壳包裹。";
+        d.msg_end_player = "我的甲壳裂开并崩落。";
+        d.msg_end_player = "脱落了一层甲壳。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -873,24 +841,24 @@ static void init_data_list()
 
         d.id = prop::Id::premonition;
         d.std_rnd_turns = Range(5, 9);
-        d.name = "Premonition";
-        d.name_short = "Premonition";
-        d.descr = "+75% chance to evade attacks.";
-        d.msg_start_player = "I feel unassailable.";
-        d.msg_start_mon = "looks unassailable.";
-        d.msg_end_player = "I feel more vulnerable.";
-        d.msg_end_mon = "looks like an easier target now.";
+        d.name = "预兆";
+        d.name_short = "预兆";
+        d.descr = "闪避攻击的几率 +75%。";
+        d.msg_start_player = "我感觉坚不可摧。";
+        d.msg_start_mon = "看起来坚不可摧。";
+        d.msg_end_player = "我感觉自己更脆弱了。";
+        d.msg_end_mon = "现在看起来更容易击中。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::erudition;
-        d.name = "Erudition";
-        d.name_short = "Erudition";
-        d.descr = "Spell skill is improved by one level.";
-        d.msg_start_player = "Mystic secrets are revealed to me!";
-        d.msg_end_player = "I feel ignorant.";
+        d.name = "博学";
+        d.name_short = "博学";
+        d.descr = "法术技能提升了一级。";
+        d.msg_start_player = "神秘的秘密向我显现！";
+        d.msg_end_player = "我感到愚昧无知。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -898,39 +866,38 @@ static void init_data_list()
 
         d.id = prop::Id::magic_searching;
         d.std_rnd_turns = Range(20, 60);
-        d.name = "Magic Searching";
-        d.name_short = "Magic Search";
+        d.name = "魔法探查";
+        d.name_short = "魔法搜寻";
         d.descr =
-                "Magically detects objects and creatures in the surrounding "
-                "area.";
-        d.msg_start_player = "Hidden secrets are revealed to me.";
-        d.msg_end_player = "I can no longer see hidden things.";
+                "可以用魔法探测周围区域内的物品和生物。";
+        d.msg_start_player = "隐藏的秘密向我显现。";
+        d.msg_end_player = "我再也看不见隐藏之物了。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::entangled;
-        d.name = "Entangled";
-        d.name_short = "Entangled";
-        d.descr = "Entangled in something.";
-        d.msg_start_player = "I am entangled!";
-        d.msg_start_mon = "is entangled.";
-        d.msg_end_player = "I tear free!";
-        d.msg_end_mon = "tears free!";
+        d.name = "被缠住";
+        d.name_short = "被缠住";
+        d.descr = "被什么东西缠住了。";
+        d.msg_start_player = "我被缠住了！";
+        d.msg_start_mon = "被缠住了。";
+        d.msg_end_player = "我挣脱了！";
+        d.msg_end_mon = "挣脱了！";
         d.allow_display_turns = false;
         d.force_interrupt_player_on_start = true;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::stuck;
-        d.name = "Stuck";
-        d.name_short = "Stuck";
-        d.descr = "Stuck in something.";
-        d.msg_start_player = "I am stuck!";
-        d.msg_start_mon = "is stuck.";
-        d.msg_end_player = "I pull myself free!";
-        d.msg_end_mon = "pulls free!";
+        d.name = "受困";
+        d.name_short = "受困";
+        d.descr = "被什么东西困住了。";
+        d.msg_start_player = "我被困住了！";
+        d.msg_start_mon = "被困住了。";
+        d.msg_end_player = "我挣脱了！";
+        d.msg_end_mon = "挣脱了！";
         d.allow_display_turns = false;
         d.force_interrupt_player_on_start = true;
         d.alignment = prop::PropAlignment::bad;
@@ -954,11 +921,11 @@ static void init_data_list()
 
         d.id = prop::Id::radiant_fov;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Radiant";
-        d.name_short = "Radiant";
-        d.descr = "Emanating a bright light.";
-        d.msg_start_player = "A bright light shines around me.";
-        d.msg_end_player = "It suddenly gets darker.";
+        d.name = "辉耀";
+        d.name_short = "辉耀";
+        d.descr = "散发着明亮的光芒。";
+        d.msg_start_player = "一道明亮的光芒在我周围闪耀。";
+        d.msg_end_player = "周围骤然变暗。";
         d.allow_display_turns = true;
         d.update_vision_on_toggled = true;
         d.allow_test_on_bot = true;
@@ -967,12 +934,12 @@ static void init_data_list()
 
         d.id = prop::Id::invis;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Invisible";
-        d.name_short = "Invisible";
-        d.descr = "Cannot be detected by normal sight.";
-        d.msg_start_player = "I am out of sight!";
-        d.msg_start_mon = "is out of sight!";
-        d.msg_end_player = "I am no longer invisible.";
+        d.name = "隐形";
+        d.name_short = "隐形";
+        d.descr = "无法被肉眼发现。";
+        d.msg_start_player = "我消失在视野之外！";
+        d.msg_start_mon = "消失在视野之外！";
+        d.msg_end_player = "我不再隐形了。";
         d.msg_end_mon = "";
         d.allow_display_turns = true;
         d.update_vision_on_toggled = true;
@@ -982,14 +949,13 @@ static void init_data_list()
 
         d.id = prop::Id::cloaked;
         d.std_rnd_turns = Range(5, 7);
-        d.name = "Cloaked";
-        d.name_short = "Cloaked";
+        d.name = "隐身";
+        d.name_short = "隐身";
         d.descr =
-                "Cannot be detected by normal sight, ends if attacking or "
-                "casting spells.";
-        d.msg_start_player = "I am cloaked!";
-        d.msg_start_mon = "is cloaked!";
-        d.msg_end_player = "My cloak fades.";
+                "无法被肉眼发现；攻击或施法会使效果结束。";
+        d.msg_start_player = "我隐去了身形！";
+        d.msg_start_mon = "隐去了身形！";
+        d.msg_end_player = "我的隐身效果正在消退。";
         d.msg_end_mon = "";
         d.allow_display_turns = true;
         d.update_vision_on_toggled = true;
@@ -1002,13 +968,13 @@ static void init_data_list()
 
         d.id = prop::Id::see_invis;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "See Invisible";
-        d.name_short = "See Invis";
-        d.descr = "Can see invisible creatures, cannot be blinded.";
-        d.msg_start_player = "My eyes perceive the invisible.";
-        d.msg_start_mon = "seems very keen.";
-        d.msg_end_player = "My eyes can no longer perceive the invisible.";
-        d.msg_end_mon = "seems less keen.";
+        d.name = "看见隐形之物";
+        d.name_short = "看见隐形之物";
+        d.descr = "可以看见隐形生物，且不会失明。";
+        d.msg_start_player = "我的双眼看见了隐形之物。";
+        d.msg_start_mon = "似乎格外警觉。";
+        d.msg_end_player = "我的双眼再也看不见隐形之物。";
+        d.msg_end_mon = "似乎没那么警觉了。";
         d.allow_display_turns = true;
         d.update_vision_on_toggled = true;
         d.allow_test_on_bot = true;
@@ -1025,11 +991,11 @@ static void init_data_list()
 
         d.id = prop::Id::tele_ctrl;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Teleport control";
-        d.name_short = "Tele Ctrl";
-        d.descr = "Can control teleport destination.";
-        d.msg_start_player = "I feel in control.";
-        d.msg_end_player = "I feel less in control.";
+        d.name = "传送控制";
+        d.name_short = "传送控制";
+        d.descr = "可以控制传送目的地。";
+        d.msg_start_player = "我感觉一切尽在掌控。";
+        d.msg_end_player = "我感觉不再那么有把握。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
@@ -1044,33 +1010,33 @@ static void init_data_list()
 
         d.id = prop::Id::aiming;
         d.std_rnd_turns = Range(1, 1);
-        d.name = "Aiming";
-        d.name_short = "Aiming";
-        d.descr = "Increased range attack effectiveness.";
+        d.name = "瞄准";
+        d.name_short = "瞄准";
+        d.descr = "远程攻击效果提高。";
         d.allow_display_turns = false;
         d.alignment = prop::PropAlignment::good;
         add(d);
 
         d.id = prop::Id::conflict;
-        d.name = "Conflicted";
-        d.name_short = "Conflicted";
-        d.descr = "Considers every creature as an enemy.";
+        d.name = "心神冲突";
+        d.name_short = "心神冲突";
+        d.descr = "将所有生物都视为敌人。";
         d.std_rnd_turns = Range(10, 20);
-        d.msg_start_mon = "Looks conflicted.";
-        d.msg_end_mon = "Looks more determined.";
+        d.msg_start_mon = "看起来心神不宁。";
+        d.msg_end_mon = "看起来更加坚定。";
         d.allow_display_turns = false;
         d.alignment = prop::PropAlignment::bad;
         add(d);
 
         d.id = prop::Id::aura_of_decay;
         d.std_rnd_turns = Range(6, 12);
-        d.name = "Aura of Decay";
-        d.name_short = "Decay Aura";
-        d.descr = "Creatures within a distance of two moves take damage each standard turn.";
-        d.msg_start_player = "Withering surrounds me.";
-        d.msg_start_mon = "appears to exude death and decay.";
-        d.msg_end_player = "The decay subsides.";
-        d.msg_end_mon = "no longer exudes decay.";
+        d.name = "腐朽光环";
+        d.name_short = "腐朽光环";
+        d.descr = "两步距离内的生物每个标准回合都会受到伤害。";
+        d.msg_start_player = "凋零之力笼罩着我。";
+        d.msg_start_mon = "散发着死亡与腐朽的气息。";
+        d.msg_end_player = "腐朽之力平息了。";
+        d.msg_end_mon = "不再散发腐朽气息。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -1111,13 +1077,13 @@ static void init_data_list()
 
         d.id = prop::Id::regenerating;
         d.std_rnd_turns = Range(50, 100);
-        d.name = "Regenerating";
-        d.name_short = "Regenerating";
-        d.descr = "+1 extra hit point regenerated per turn.";
-        d.msg_start_player = "My body starts healing itself much faster.";
-        d.msg_start_mon = "starts regenerating damage very quickly.";
-        d.msg_end_player = "My body heals itself slower now.";
-        d.msg_end_mon = "stops regenerating damage quickly.";
+        d.name = "正在再生";
+        d.name_short = "正在再生";
+        d.descr = "每回合额外恢复 +1 点生命值。";
+        d.msg_start_player = "我的身体开始快速自愈。";
+        d.msg_start_mon = "开始快速恢复伤势。";
+        d.msg_end_player = "我的身体恢复得更慢了。";
+        d.msg_end_mon = "不再快速恢复伤势。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;
@@ -1190,9 +1156,9 @@ static void init_data_list()
         add(d);
 
         d.id = prop::Id::ethereal;
-        d.name = "Ethereal";
-        d.name_short = "Ethereal";
-        d.descr = "Can pass through solid objects, +50% chance to evade attacks.";
+        d.name = "以太化";
+        d.name_short = "以太化";
+        d.descr = "可以穿过实体，闪避攻击的几率 +50%。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::neutral;
@@ -1210,13 +1176,13 @@ static void init_data_list()
 
         d.id = prop::Id::burrowing;
         d.std_rnd_turns = Range(4, 8);
-        d.name = "Burrowing";
-        d.name_short = "Burrowing";
-        d.descr = "Can burrow through walls and rubble.";
-        d.msg_start_player = "Earth and stone crumble away before me.";
-        d.msg_start_mon = "can move through earth.";
-        d.msg_end_player = "The earth is solid once more.";
-        d.msg_end_mon = "can no longer move through earth.";
+        d.name = "掘地";
+        d.name_short = "掘地";
+        d.descr = "可以穿过墙壁和瓦砾掘地。";
+        d.msg_start_player = "土石在我面前崩解消散。";
+        d.msg_start_mon = "可以穿行于土层中。";
+        d.msg_end_player = "大地再次坚实如初。";
+        d.msg_end_mon = "不再能穿行于土层中。";
         d.allow_display_turns = true;
         d.allow_test_on_bot = false;
         d.alignment = prop::PropAlignment::good;
@@ -1263,8 +1229,8 @@ static void init_data_list()
         d.name = "";
         d.name_short = "";
         d.descr = "";
-        d.msg_start_player = "My aiming feels worse.";
-        d.msg_end_player = "My aiming feels better.";
+        d.msg_start_player = "我的瞄准似乎更差了。";
+        d.msg_end_player = "我的瞄准似乎更准了。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -1275,8 +1241,8 @@ static void init_data_list()
         d.name = "";
         d.name_short = "";
         d.descr = "";
-        d.msg_start_player = "I feel more anxious!";
-        d.msg_end_player = "I feel less anxious.";
+        d.msg_start_player = "我更加焦虑了！";
+        d.msg_end_player = "我不再那么焦虑了。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -1287,8 +1253,8 @@ static void init_data_list()
         d.name = "";
         d.name_short = "";
         d.descr = "";
-        d.msg_start_player = "I feel illiterate!";
-        d.msg_end_player = "I can read again.";
+        d.msg_start_player = "我觉得自己目不识丁！";
+        d.msg_end_player = "我又能阅读了。";
         d.allow_display_turns = false;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::bad;
@@ -1324,13 +1290,12 @@ static void init_data_list()
 
         d.id = prop::Id::sanctuary;
         d.std_rnd_turns = Range(5, 7);
-        d.name = "Sanctuary";
-        d.name_short = "Sanctuary";
+        d.name = "庇护所";
+        d.name_short = "庇护所";
         d.descr =
-                "Is ignored by all hostile creatures. The effect ends if "
-                "moving or performing a melee or ranged attack.";
-        d.msg_start_player = "I feel very secure.";
-        d.msg_end_player = "I feel much less secure.";
+                "所有敌对生物都会忽视它。移动或进行近战、远程攻击会使效果结束。";
+        d.msg_start_player = "我感到非常安心。";
+        d.msg_end_player = "我感觉安全感大减。";
         d.allow_display_turns = true;
         d.update_vision_on_toggled = false;
         d.allow_test_on_bot = true;
@@ -1344,9 +1309,9 @@ static void init_data_list()
         add(d);
 
         d.id = prop::Id::moribund;
-        d.descr = "+3 melee damage, +30% melee hit chance, +3 armor points.";
-        d.name = "Moribund";
-        d.name_short = "Moribund";
+        d.descr = "近战伤害 +3，近战命中率 +30%，护甲值 +3。";
+        d.name = "濒死";
+        d.name_short = "濒死";
         d.allow_display_turns = true;
         d.allow_test_on_bot = true;
         d.alignment = prop::PropAlignment::good;

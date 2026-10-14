@@ -1,0 +1,1209 @@
+[
+  {
+    "source": "- A player with darkvision (i.e. Ghouls) can now read manuscripts in darkness.",
+    "target": "-拥有黑暗视觉的玩家（如食尸鬼）现在可以在黑暗中阅读手稿。",
+    "locations": [
+      "installed_files/release_history.txt:348"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A user_data.ini file is placed inside the game directory, where it is possible to specify the directory where user data (highscores, options, etc) shall be stored. If left blank, the default locations will be used.",
+    "target": "- 游戏目录中会放置 user_data.ini 文件，可在其中指定用户数据（高分记录、选项等）的存储目录。若留空，则使用默认位置。",
+    "locations": [
+      "installed_files/release_history.txt:127"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A vast majority of the common fountains are now \"refreshing\" (restores HP, SPI and shock), many of the beneficial properties (RFire, RFear, etc) granted from fountains lasts twice as long. Golden fountains are much rarer than before and gives three effects (always beneficial).",
+    "target": "-绝大多数常见喷泉现在都有“清新”效果（恢复生命值、精神值并降低震慑）；喷泉赋予的许多有益效果（火焰抗性、恐惧抗性等）持续时间翻倍。金色喷泉比以前稀有得多，并会提供三种效果（始终有益）。",
+    "locations": [
+      "installed_files/release_history.txt:1036"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A wait command can also be made with the period (.) key (as well as the '5'-key)",
+    "target": "-现在也可按句点（.）键等待（原有的“5”键仍可使用）",
+    "locations": [
+      "installed_files/release_history.txt:1760"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- A warning is printed when going over 100% carry weight.",
+    "target": "-负重超过 100% 时会显示警告。",
+    "locations": [
+      "installed_files/release_history.txt:195"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \",\" (comma) as an alternative pick up command",
+    "target": "-新增“,”（逗号）作为拾取物品的备用按键",
+    "locations": [
+      "installed_files/release_history.txt:463"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"b\" as a shortcut command for using the Medical Bag directly from the normal game mode.",
+    "target": "-新增“b”快捷键，可在普通游戏模式中直接使用医疗包。",
+    "locations": [
+      "installed_files/release_history.txt:94"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"clean\" 16x24 font for tiles and ASCII mode, and made it default",
+    "target": "-新增适用于图块和 ASCII 模式的“clean”16x24 字体，并设为默认字体",
+    "locations": [
+      "installed_files/release_history.txt:1353"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Electric Lantern\" - lights up darkness while activate, but may flicker, malfunction or break",
+    "target": "-新增“电灯笼”——启用后可照亮黑暗，但可能闪烁、故障或损坏",
+    "locations": [
+      "installed_files/release_history.txt:1319"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"l\" or \"e\" as a shortcut command for toggling the Electric Lantern",
+    "target": "-新增“l”或“e”快捷键，用于切换电灯笼",
+    "locations": [
+      "installed_files/release_history.txt:462"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Azathoth's Blast\" - damages and paralyzes all visible creatures",
+    "target": "-新增“阿撒托斯之爆”手稿——对所有可见生物造成伤害并使其麻痹",
+    "locations": [
+      "installed_files/release_history.txt:1322"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Darkbolt\", this is similar to \"Azathoths Wrath\", but targets only one monster and costs less spirit to cast intrinsically - selecting the background \"Occultist\" guarantees starting with this spell",
+    "target": "-新增“暗箭”手稿，类似“阿撒托斯之怒”，但只以一个怪物为目标，且基础施法耗费的精神值更少——选择“秘术师”背景可确保开局获得此法术",
+    "locations": [
+      "installed_files/release_history.txt:1130"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Detect Monsters\", which marks all unseen monsters on the map with an exclamation mark for a number of turns (no shock taken from these detected monsters)",
+    "target": "-新增“侦测怪物”手稿，可在地图上用感叹号标记所有未见怪物，持续若干回合（被侦测到的怪物不会造成震慑）",
+    "locations": [
+      "installed_files/release_history.txt:1134"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Elemental Resistance\", which gives you temporary resistance to fire, cold, and electricity",
+    "target": "-新增“元素抗性”手稿，赋予你暂时的火焰、寒冷和电击抗性",
+    "locations": [
+      "installed_files/release_history.txt:1135"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Identify\" - identifies a random unknown item in your inventory",
+    "target": "-新增“鉴定”手稿——随机鉴定物品栏中的一件未知物品",
+    "locations": [
+      "installed_files/release_history.txt:1323"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Opening\" - opens all doors, chests etc around you",
+    "target": "-新增“开门”手稿——打开你周围所有门、箱子等",
+    "locations": [
+      "installed_files/release_history.txt:1324"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Sacrifice Life Force\" - Convert remaining Hit Points to Spirit points",
+    "target": "-新增“献祭生命力”手稿——将剩余生命值转化为精神值",
+    "locations": [
+      "installed_files/release_history.txt:1214"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Manuscript of Sacrifice Spirit\" - Convert remaining Spirit points to Hit Points",
+    "target": "-新增“献祭精神”手稿——将剩余精神值转化为生命值",
+    "locations": [
+      "installed_files/release_history.txt:1215"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"New journey\" option to postmortem menu, to immediately start a new game",
+    "target": "-死后菜单新增“新的旅程”选项，可立即开始新游戏",
+    "locations": [
+      "installed_files/release_history.txt:858"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Antidote\" - Cures poisoning",
+    "target": "-新增“解毒药水”——治愈中毒",
+    "locations": [
+      "installed_files/release_history.txt:1210"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Fire Resistance\"",
+    "target": "-新增“火焰抗性药水”",
+    "locations": [
+      "installed_files/release_history.txt:1208"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Insulation\" - Electricity resistance",
+    "target": "-新增“绝缘药水”——电击抗性",
+    "locations": [
+      "installed_files/release_history.txt:1209"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Knowledge\" - increases Mythos knowledge",
+    "target": "-新增“知识药水”——提升神话学识",
+    "locations": [
+      "installed_files/release_history.txt:1321"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Sorcery\" - sets casting chance for all learned spells to 100%",
+    "target": "-新增“巫术药水”——使所有已学法术的施法几率变为 100%",
+    "locations": [
+      "installed_files/release_history.txt:1320"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Potion of Spirit\" - Restores spirit",
+    "target": "-新增“精神药水”——恢复精神值",
+    "locations": [
+      "installed_files/release_history.txt:1207"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"pylons\" - can be activated with a lever for various effects (most commonly burning the area around them)",
+    "target": "-新增“尖塔”——可用拉杆激活并产生各种效果（最常见的是点燃周围区域）",
+    "locations": [
+      "installed_files/release_history.txt:801"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Strange devices\" - a new item type which causes various positive effects to occur while active, but may malfunction or break",
+    "target": "-新增“奇异装置”——一种全新物品类型，启用时会产生各种正面效果，但也可能故障或损坏",
+    "locations": [
+      "installed_files/release_history.txt:1318"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added \"Temple Gongs\" - striking a Gong gives a significant bonus and penalty",
+    "target": "-新增“神殿铜锣”——敲响铜锣会带来显著的奖励与惩罚",
+    "locations": [
+      "installed_files/release_history.txt:515"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added (rare) magic Amulets and Rings",
+    "target": "-新增（稀有）魔法护身符和戒指",
+    "locations": [
+      "installed_files/release_history.txt:1029"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added 15 more quotes to the main menu",
+    "target": "-主菜单新增 15 条引言",
+    "locations": [
+      "installed_files/release_history.txt:1249"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a 16x24 DOS font",
+    "target": "-新增 DOS 16x24 字体",
+    "locations": [
+      "installed_files/release_history.txt:1170"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a brightness setting.",
+    "target": "-新增亮度设置。",
+    "locations": [
+      "installed_files/release_history.txt:100"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a bunch of new monsters",
+    "target": "-新增许多怪物",
+    "locations": [
+      "installed_files/release_history.txt:1053"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a bunch of unique artifacts, and removed the old (relatively bland) randomized amulets",
+    "target": "-新增许多独特神器，并移除旧的（相对平淡的）随机护身符",
+    "locations": [
+      "installed_files/release_history.txt:805"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a command in the trait selection menu to show information about the current game, such as character information or inventory (intended to help in choosing trait to pick).",
+    "target": "-特质选择菜单新增命令，可查看当前游戏的信息，例如角色信息或物品栏（方便选择特质）。",
+    "locations": [
+      "installed_files/release_history.txt:279"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a few cold based monsters that does cold damage",
+    "target": "-新增几种会造成寒冷伤害的寒冷系怪物",
+    "locations": [
+      "installed_files/release_history.txt:1221"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a Flare Gun",
+    "target": "-新增信号枪",
+    "locations": [
+      "installed_files/release_history.txt:1503"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a flashing animation when a creature is hit by a melee attack.",
+    "target": "-生物受到近战攻击时新增闪烁动画。",
+    "locations": [
+      "installed_files/release_history.txt:301"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a flashing animation when bashing stuff (doors, corpses, ...).",
+    "target": "-撞击物体（门、尸体等）时新增闪烁动画。",
+    "locations": [
+      "installed_files/release_history.txt:81"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a legend for the minimap screen that explains what the different colors represent.",
+    "target": "-小地图界面新增图例，说明各种颜色的含义。",
+    "locations": [
+      "installed_files/release_history.txt:90"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a low HP warning",
+    "target": "-新增生命值偏低警告",
+    "locations": [
+      "installed_files/release_history.txt:855"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a master volume percent option",
+    "target": "-新增主音量百分比选项",
+    "locations": [
+      "installed_files/release_history.txt:489"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a message that tells you when a monster spots you and becomes aware of you",
+    "target": "-新增消息：怪物发现你并开始警戒时会通知你",
+    "locations": [
+      "installed_files/release_history.txt:1145"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a message when spells are upgraded (e.g. by a Gong)",
+    "target": "-新增消息：法术升级时会通知你（例如被铜锣升级）",
+    "locations": [
+      "installed_files/release_history.txt:421"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a minimap, accessed with \"m\"",
+    "target": "-新增小地图，可按“m”打开",
+    "locations": [
+      "installed_files/release_history.txt:571"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a missing message (related to jamming doors)",
+    "target": "-补上了一条缺失的消息（与卡住的门有关）",
+    "locations": [
+      "installed_files/release_history.txt:1584"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a monster summoning trap",
+    "target": "-新增召唤怪物陷阱",
+    "locations": [
+      "installed_files/release_history.txt:1328"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new \"Strange Device\"",
+    "target": "-新增一种“奇异装置”",
+    "locations": [
+      "installed_files/release_history.txt:531"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new artifact.",
+    "target": "-新增一种神器。",
+    "locations": [
+      "installed_files/release_history.txt:169"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new background (class) \"Exorcist\"",
+    "target": "-新增“驱魔师”背景（职业）",
+    "locations": [
+      "installed_files/release_history.txt:377"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new background (class) \"Flagellant\"",
+    "target": "-新增“苦修者”背景（职业）",
+    "locations": [
+      "installed_files/release_history.txt:231"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new cave wall tile and general trap tile (thanks to Christopher Barrett, aka Oryx)",
+    "target": "-新增洞穴墙壁图块和通用陷阱图块（感谢 Christopher Barrett，又名 Oryx）",
+    "locations": [
+      "installed_files/release_history.txt:1356"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new special level",
+    "target": "-新增特殊关卡",
+    "locations": [
+      "installed_files/release_history.txt:150"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new spell domain \"Blood\" (with some new spells).",
+    "target": "-新增“血”法术领域（含若干新法术）。",
+    "locations": [
+      "installed_files/release_history.txt:234"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new spell that heals other creatures, available only to monsters.",
+    "target": "-新增一种仅怪物可用的治疗其他生物的法术",
+    "locations": [
+      "installed_files/release_history.txt:160"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a new trait called \"Mythos knowledge\" (MTH) - this determines your insight about the mystical and hidden forces - increases damage dealt to all bizarre, alien, mystical and shocking creatures - raises spell casting chance - at a certain level of MTH, you gain a powerful spell",
+    "target": "-新增名为“神话学识”（MTH）的特质——决定你对神秘隐秘力量的洞察力；提高对所有怪诞、异界、神秘和令人震慑的生物造成的伤害；提高施法几率；达到一定 MTH 等级后可获得强力法术",
+    "locations": [
+      "installed_files/release_history.txt:1311"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a quick move command [e], to automatically move in some direction until interrupted",
+    "target": "-新增快速移动命令 [e]，可自动朝某个方向移动，直到受到中断",
+    "locations": [
+      "installed_files/release_history.txt:1067"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a secondary wall tile occasionally used as alternative (purely aesthetical)",
+    "target": "-新增一种偶尔用作替代的墙壁图块（纯粹用于美观）",
+    "locations": [
+      "installed_files/release_history.txt:1360"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a section in the manual about inventory handling",
+    "target": "-手册新增物品栏操作章节",
+    "locations": [
+      "installed_files/release_history.txt:899"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a shortcut key [a] to quickly activate the two most common items - Medical bag and Electric Lantern. When you press [a] the game asks if you want to use [a] Medical Bag or [e] Electric Lantern (perhaps in the future, shortcuts like these could be customized by the player).",
+    "target": "-新增快捷键 [a]，可快速使用最常见的两种物品——医疗包和电灯笼。按下 [a] 后，游戏会询问你要使用 [a] 医疗包还是 [e] 电灯笼（未来或许可以让玩家自定义此类快捷键）。",
+    "locations": [
+      "installed_files/release_history.txt:1070"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a simple animated effect for summoned monsters and for creatures hit by spells",
+    "target": "-召唤怪物和被法术击中的生物新增简单动画效果",
+    "locations": [
+      "installed_files/release_history.txt:1233"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a sound effect for walls collapsing (\"Suddenly, the walls collapse!\").",
+    "target": "-新增墙壁倒塌音效（“墙壁突然倒塌了！”）。",
+    "locations": [
+      "installed_files/release_history.txt:206"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a spell available only for monsters, which causes the player to burn for a few turns",
+    "target": "-新增一种仅怪物可用的法术，可使玩家燃烧数回合",
+    "locations": [
+      "installed_files/release_history.txt:1132"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a tile for unarmed player",
+    "target": "-新增徒手玩家图块",
+    "locations": [
+      "installed_files/release_history.txt:471"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added a tiny 7x13 font, intended for use with scaled up graphics.",
+    "target": "-新增极小的 7x13 字体，适合搭配放大的图像使用。",
+    "locations": [
+      "installed_files/release_history.txt:299"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an additional Medical Bag action called \"quick patch-up\", which restores some hit points.",
+    "target": "-医疗包新增“快速包扎”操作，可恢复一些生命值。",
+    "locations": [
+      "installed_files/release_history.txt:26"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an alarm trap",
+    "target": "-新增警报陷阱",
+    "locations": [
+      "installed_files/release_history.txt:1327"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an atmospheric fade effect to the field of view - further cells are rendered darker (monsters are always drawn at full brightness though)",
+    "target": "-视野新增氛围渐暗效果——越远的格子显示得越暗（怪物始终以全亮度绘制）",
+    "locations": [
+      "installed_files/release_history.txt:1361"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an in-game menu opened with [Esc], where you can select Options, Manual, Quit, or Cancel",
+    "target": "- 新增游戏内菜单，按 [退出键] 打开，可选择选项、手册、退出或取消。",
+    "locations": [
+      "installed_files/release_history.txt:1177"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option for if ambient sounds should be preloaded at game startup (otherwise each sound is loaded the first time it's played)",
+    "target": "-新增选项，可设置是否在游戏启动时预加载环境音效（否则每种音效会在首次播放时加载）",
+    "locations": [
+      "installed_files/release_history.txt:584"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option for using symbols such as a heart for Hit Points, and a brain for Insanity in the interface (the old text based way is the default option)",
+    "target": "-新增界面符号选项，例如用心形表示生命值，用大脑表示疯狂值（旧的文字显示方式仍为默认选项）",
+    "locations": [
+      "installed_files/release_history.txt:998"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option to always warn when a new monster is seen (and no other monster was already seen)",
+    "target": "-新增选项：看到新怪物时始终发出警告（且视野内没有其他已出现的怪物）",
+    "locations": [
+      "installed_files/release_history.txt:580"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option to ask for confirmation before lighting explosives",
+    "target": "-新增选项：点燃爆炸物前确认",
+    "locations": [
+      "installed_files/release_history.txt:854"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option to build and link SDL statically into the game binary (the source code is included in the Git repo), with this method there is no need to install SDL dependencies to play the game (or when building the game). By the default the installed system version of SDL is found and used on Linux, and the prebuilt SDL version is used on Windows. Building and linking SDL statically is enabled via the CMake option \"IA_BUILD_STATIC_SDL\" (use -DIA_BUILD_STATIC_SDL=ON when running cmake to configure this mode). \"Official\" releases of the game are built with a statically linked SDL, so there is no need to install SDL dependencies to play these versions.",
+    "target": "- 新增选项，可将 SDL 静态编译并链接到游戏二进制文件中（源代码包含在 Git 仓库中）。这样游玩或构建游戏都无需安装 SDL 依赖。默认情况下，Linux 会查找并使用系统安装的 SDL，Windows 则使用预编译版本。可通过 CMake 选项 \"IA_BUILD_STATIC_SDL\" 启用静态编译和链接（配置此模式时运行 cmake 并传入 -DIA_BUILD_STATIC_SDL=ON）。游戏的“官方”发行版均以静态链接 SDL 的方式构建，因此游玩这些版本无需安装 SDL 依赖。",
+    "locations": [
+      "installed_files/release_history.txt:124"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option to toggle if the view should always be centered on the player, only move when near the edge of the screen (default is to always center)",
+    "target": "-新增选项：始终将视角置于玩家居中，或仅在玩家接近屏幕边缘时移动（默认始终居中）",
+    "locations": [
+      "installed_files/release_history.txt:484"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added an option to warn when throwing \"valuable\" items - i.e. potions or equipped items (enabled by default)",
+    "target": "-新增选项：投掷“贵重”物品（即药水或已装备物品）时发出警告（默认启用）",
+    "locations": [
+      "installed_files/release_history.txt:456"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added another typewriter font",
+    "target": "-新增另一种打字机字体",
+    "locations": [
+      "installed_files/release_history.txt:1002"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added armor \"Heavy Coat\" - Wearing this gives you resistance to cold. It has 1 armor point",
+    "target": "-新增护甲“厚外套”——穿上后可获得寒冷抗性。护甲值为 1",
+    "locations": [
+      "installed_files/release_history.txt:1219"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added barred gates - doors that can be seen and shot through",
+    "target": "-新增栅栏门——可以看见并穿过它们射击",
+    "locations": [
+      "installed_files/release_history.txt:799"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added blindness as a spell available to some monsters (this also existed in the game a very long time ago).",
+    "target": "-新增部分怪物可用的致盲法术（很久以前的游戏版本中也曾有此法术）。",
+    "locations": [
+      "installed_files/release_history.txt:38"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added bookshelves - can contain Manuscripts",
+    "target": "-新增书架——可找到手稿",
+    "locations": [
+      "installed_files/release_history.txt:798"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added command [N] to make noise (for luring monsters)",
+    "target": "-新增命令 [N]，用于制造噪音（引诱怪物）",
+    "locations": [
+      "installed_files/release_history.txt:960"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added command [R] for organizing Colt magazines (the game will reload your wielded or readied Colt, or move single rounds between magazines, whichever is better)",
+    "target": "-新增命令 [R]，用于整理柯尔特弹匣（游戏会为手持或备用的柯尔特装填，或在弹匣间转移单发子弹，并选择更合适的操作）",
+    "locations": [
+      "installed_files/release_history.txt:959"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added completely new descriptions for all Ooze monsters, removed Black Ooze, changed Putrid Ooze to be weaker and spawn earlier, renamed Clear Ooze to Lurking Ooze",
+    "target": "-为所有软泥怪编写全新描述；移除黑软泥，将腐臭软泥改得更弱并提前出现，将透明软泥更名为潜伏软泥",
+    "locations": [
+      "installed_files/release_history.txt:396"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Curse as a spell available to monsters (Floating Skulls cast this now instead of applying the property directly, and mummies cast Curse instead of applying it on melee attacks, for example) - also added a stronger version of Cursed called \"Doomed\" which is applied instead when Curse is cast at master level",
+    "target": "-新增怪物可用的诅咒法术（例如浮空头骨现在会施放此法术，而非直接施加效果；木乃伊也会施放诅咒，而非通过近战攻击施加）。另新增更强的“被诅咒”效果“厄运缠身”，施放大师级诅咒时会改为施加此效果",
+    "locations": [
+      "installed_files/release_history.txt:418"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added forest rooms",
+    "target": "-新增森林房间",
+    "locations": [
+      "installed_files/release_history.txt:1031"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added fountains that you can drink from for various effects",
+    "target": "-新增可饮用并产生各种效果的喷泉",
+    "locations": [
+      "installed_files/release_history.txt:1231"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Frenzy as an insanity symptom",
+    "target": "-新增疯狂症状“狂乱”",
+    "locations": [
+      "installed_files/release_history.txt:980"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Gas mask (the war veteran starts with one)",
+    "target": "-新增防毒面具（战争老兵开局携带）",
+    "locations": [
+      "installed_files/release_history.txt:1039"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Golden Fountains, which are guaranteed to have a positive effect",
+    "target": "-新增金色喷泉，保证会产生正面效果",
+    "locations": [
+      "installed_files/release_history.txt:1140"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added gratings - walls that can seen and shot through",
+    "target": "-新增栅格墙——可以看见并穿过它们射击",
+    "locations": [
+      "installed_files/release_history.txt:800"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added hanging vines - can be walked through, but blocks line of sight",
+    "target": "-新增垂挂藤蔓——可以穿过，但会阻挡视线",
+    "locations": [
+      "installed_files/release_history.txt:802"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added hint popups with info about status effects, shock level, kicking braziers, and kicking statues.",
+    "target": "-新增提示弹窗，介绍状态效果、震慑等级、踢火盆和踢雕像等信息。",
+    "locations": [
+      "installed_files/release_history.txt:193"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added in-game descriptions for all items and spells",
+    "target": "-为所有物品和法术新增游戏内说明",
+    "locations": [
+      "installed_files/release_history.txt:1034"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added in-game hints for some basic concepts such as treating infections or unloading firearms",
+    "target": "-新增一些基本概念的游戏内提示，例如治疗感染或卸下枪械弹药",
+    "locations": [
+      "installed_files/release_history.txt:595"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added info about kick hit chance in the monster descriptions.",
+    "target": "-怪物说明中新增踢击命中率信息。",
+    "locations": [
+      "installed_files/release_history.txt:197"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added information on high scores and memorial files in the manual",
+    "target": "-手册新增高分和纪念文件相关说明",
+    "locations": [
+      "installed_files/release_history.txt:663"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added intro message popups for some special levels.",
+    "target": "-部分特殊关卡新增开场提示弹窗。",
+    "locations": [
+      "installed_files/release_history.txt:68"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added invisibility property",
+    "target": "-新增隐形属性",
+    "locations": [
+      "installed_files/release_history.txt:952"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added item \"Bone Charm\" that grants spell resistance for a few turns when activated, and dispels all seen magic traps.",
+    "target": "-新增物品“骨护符”，启用后可在数回合内获得法术抗性，并驱散所有已看到的魔法陷阱。",
+    "locations": [
+      "installed_files/release_history.txt:259"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added item \"Medical Bag\". This has a number of different uses, the main purpose is to heal wounds.",
+    "target": "-新增物品“医疗包”。它有多种用途，主要用于治疗创伤。",
+    "locations": [
+      "installed_files/release_history.txt:1223"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added map feature \"Alchemist's workbench\", similar to bookshelf but may contain potions",
+    "target": "-新增地图设施“炼金术士工作台”，类似书架，但可能装有药水",
+    "locations": [
+      "installed_files/release_history.txt:634"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added messages when your Spirit is being drained (e.g. by Ghosts)",
+    "target": "-新增消息，提示你的精神值正在被吸取（例如被幽灵吸取）",
+    "locations": [
+      "installed_files/release_history.txt:1155"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added metal doors - can only be opened with levers",
+    "target": "-新增金属门——只能用拉杆打开",
+    "locations": [
+      "installed_files/release_history.txt:797"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Mi-go Biological Armor - this can be used by the player",
+    "target": "-新增米戈生化护甲——玩家可以使用",
+    "locations": [
+      "installed_files/release_history.txt:1055"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added miscellaneous rare items and artifacts",
+    "target": "-新增若干稀有杂项物品和神器",
+    "locations": [
+      "installed_files/release_history.txt:405"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added missing messages for wielding and wearing things",
+    "target": "-补上了手持和穿戴物品时缺失的消息",
+    "locations": [
+      "installed_files/release_history.txt:1563"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more elaborate border graphics (used for example around the player information panel), instead of only simple lines (these graphics existed in older versions of the game)",
+    "target": "-新增更精细的边框图像（例如角色信息面板周围），替代原先的简单线条（旧版游戏曾使用过这些图像）",
+    "locations": [
+      "installed_files/release_history.txt:478"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more Insanity symptoms",
+    "target": "-新增更多疯狂症状",
+    "locations": [
+      "installed_files/release_history.txt:985"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more magic trap types.",
+    "target": "-新增更多魔法陷阱类型。",
+    "locations": [
+      "installed_files/release_history.txt:262"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more monsters",
+    "target": "-新增更多怪物",
+    "locations": [
+      "installed_files/release_history.txt:1317",
+      "installed_files/release_history.txt:183",
+      "installed_files/release_history.txt:275",
+      "installed_files/release_history.txt:388",
+      "installed_files/release_history.txt:838",
+      "installed_files/release_history.txt:951"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more monsters, and removed some redundant monsters",
+    "target": "-新增更多怪物，并移除一些重复的怪物",
+    "locations": [
+      "installed_files/release_history.txt:534"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more monsters.",
+    "target": "-新增更多怪物。",
+    "locations": [
+      "installed_files/release_history.txt:57"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more potions.",
+    "target": "-新增更多药水。",
+    "locations": [
+      "installed_files/release_history.txt:31"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more room templates",
+    "target": "-新增更多房间模板",
+    "locations": [
+      "installed_files/release_history.txt:442"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more sound effects",
+    "target": "-新增更多音效",
+    "locations": [
+      "installed_files/release_history.txt:1081",
+      "installed_files/release_history.txt:487",
+      "installed_files/release_history.txt:586"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more sound effects (events and ambient sounds)",
+    "target": "-新增更多音效（事件音效和环境音效）",
+    "locations": [
+      "installed_files/release_history.txt:1006"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more sound effects (thanks Andy Walker for various gate sounds, item container opening sounds, and a horn sound).",
+    "target": "- 新增更多音效，感谢 Andy Walker 提供多种闸门声、物品容器开启声和号角声。",
+    "locations": [
+      "installed_files/release_history.txt:308"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more special levels",
+    "target": "-新增更多特殊关卡",
+    "locations": [
+      "installed_files/release_history.txt:511"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more spells",
+    "target": "-新增更多法术",
+    "locations": [
+      "installed_files/release_history.txt:523"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more traits",
+    "target": "-新增更多特质",
+    "locations": [
+      "installed_files/release_history.txt:972"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added more trap types",
+    "target": "-新增更多陷阱类型",
+    "locations": [
+      "installed_files/release_history.txt:550"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added natural fear and confusion resistance for various monsters (e.g. Ooze-types, Spirit-types)",
+    "target": "-为各种怪物（如软泥类、灵体类）新增自然恐惧抗性和困惑抗性",
+    "locations": [
+      "installed_files/release_history.txt:1143"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added new 16x24 font (typewriter)",
+    "target": "-新增 16x24 字体（打字机风格）",
+    "locations": [
+      "installed_files/release_history.txt:1422"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added new item class \"Rods\" - these are similar to Devices, except they never break or malfunction, and instead have a cooldown time before they can be used again",
+    "target": "- 新增“法杖”物品类别：它们类似装置，但不会损坏或故障，而是在使用后进入冷却，冷却结束才能再次使用。",
+    "locations": [
+      "installed_files/release_history.txt:969"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added new magical trap tile (thanks to Agata Skrzypczyk)",
+    "target": "-新增魔法陷阱图块（感谢 Agata Skrzypczyk）",
+    "locations": [
+      "installed_files/release_history.txt:1357"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option for confirming \"-More-\" prompts with any key (off by default)",
+    "target": "-新增选项，可用任意键确认“-更多-”提示（默认关闭）",
+    "locations": [
+      "installed_files/release_history.txt:895"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option for disabling ambient sound effects",
+    "target": "-新增关闭环境音效的选项",
+    "locations": [
+      "installed_files/release_history.txt:667"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option for how tiles mode should render walls - full square or pseudo-3D",
+    "target": "-新增图块模式下的墙壁绘制方式选项——实心方块或伪 3D",
+    "locations": [
+      "installed_files/release_history.txt:1171"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option to ask for confirmation before drinking malign potions",
+    "target": "-新增选项：饮用有害药水前确认",
+    "locations": [
+      "installed_files/release_history.txt:668"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option to scale the font to 2x size (so you can for example use the small DOS-like font scaled up to a nice readable size) - if tiles mode is enabled, the scaled font must match the tile size",
+    "target": "-新增选项：将字体缩放至 2 倍（例如可放大类似 DOS 的小字体，使其更易阅读）——若启用图块模式，放大后的字体必须与图块尺寸匹配",
+    "locations": [
+      "installed_files/release_history.txt:1289"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added option to skip the intro level popup message",
+    "target": "-新增跳过序章关卡弹窗的选项",
+    "locations": [
+      "installed_files/release_history.txt:585"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added phobia for darkness",
+    "target": "-新增黑暗恐惧症",
+    "locations": [
+      "installed_files/release_history.txt:1062"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added phrases for many monsters (\"I hear the flapping of great wings\", \"I hear a gurgling noise\", etc)",
+    "target": "-为许多怪物新增台词（“我听到巨大的翅膀拍动声”“我听到咕噜声”等）",
+    "locations": [
+      "installed_files/release_history.txt:1341"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added property \"Deaf\", deafening traps, and a deafening spell (for monsters)",
+    "target": "-新增“失聪”属性、震耳陷阱和一种怪物可用的震耳法术",
+    "locations": [
+      "installed_files/release_history.txt:840"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added rusty chains - makes a noise when someone walks through them",
+    "target": "-新增生锈铁链——有人穿过时会发出声响",
+    "locations": [
+      "installed_files/release_history.txt:803"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added several log messages related to throwing, dynamite fuse, death screams from explosions and other things.",
+    "target": "-新增若干日志消息，涉及投掷、炸药引信、爆炸后的死亡尖叫等。",
+    "locations": [
+      "installed_files/release_history.txt:1909"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Smoke grenades (the war veteran starts with some)",
+    "target": "-新增烟雾弹（战争老兵开局携带若干）",
+    "locations": [
+      "installed_files/release_history.txt:1040"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added some nice things to the forest-level",
+    "target": "-为森林关卡新增一些精彩内容",
+    "locations": [
+      "installed_files/release_history.txt:1936"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added sound effects for melee attacks, spellcasting, dying, and opening tombs - also added more ambient sounds",
+    "target": "-新增近战攻击、施法、死亡和打开陵墓的音效——并加入更多环境音效",
+    "locations": [
+      "installed_files/release_history.txt:1125"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Erudition\" - the next spell is cast at a higher skill level",
+    "target": "-新增法术“博学”——下一个法术会以更高技能等级施放",
+    "locations": [
+      "installed_files/release_history.txt:414"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Mi-Go hypnosis\", available for all monsters (but not the player) - all Mi-Go (Fungi from Yuggoth) know this spell - when this is cast, there is a chance that you will faint for a few turns",
+    "target": "-新增法术“米戈催眠”，所有怪物都可使用（玩家除外）——所有米戈（犹格斯真菌）都会此法术；施放后有几率让你昏厥数回合",
+    "locations": [
+      "installed_files/release_history.txt:1131"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Shed Impurity\" - a unique spell for the Flagellant background, that they start with. The spell lowers hit points to the limit where the Flagellant receives bonuses for having low hit points, and if enough hit points are lost, then some status effects such as poisoning are cured.",
+    "target": "-新增法术“涤除污秽”——苦修者背景的专属开局法术。此法术会降低生命值，使苦修者达到低生命值奖励的触发条件；若损失足够多的生命值，还会治愈中毒等部分状态效果。",
+    "locations": [
+      "installed_files/release_history.txt:159"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Spell Shield\" - grants spell resistance until a spell is blocked (same effect as the spirit traits)",
+    "target": "-新增法术“法术护盾”——在法术被抵挡前赋予法术抗性（效果与精神特质相同）",
+    "locations": [
+      "installed_files/release_history.txt:697"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Subdue Weapons\" - learned simultaneously as \"Animate Weapons\" (very cheap spell which drops all visible Animated Weapons)",
+    "target": "-新增法术“压制武器”——与“武器活化”同时学会（消耗极低，可放下所有可见的活化武器）",
+    "locations": [
+      "installed_files/release_history.txt:696"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell \"Transmutation\" (convert items)",
+    "target": "-新增法术“变形术”（转化物品）",
+    "locations": [
+      "installed_files/release_history.txt:695"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added spell (and manuscript) of \"Light\" (illuminates the area around the caster for a number of turns)",
+    "target": "-新增“光明”法术（及其手稿），可照亮施法者周围区域若干回合",
+    "locations": [
+      "installed_files/release_history.txt:1030"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added Spiked Maces - a weapon with a weight between medium and heavy, and with a chance to stun the victim",
+    "target": "-新增尖刺钉头锤——重量介于中型和重型武器之间，有几率击昏受害者",
+    "locations": [
+      "installed_files/release_history.txt:842"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added status effect \"Weak\" - melee attacks does minimum damage, decreased carry weight limit, cannot bash doors, lower physical status resistance, and other effects",
+    "target": "-新增状态效果“虚弱”——近战攻击只造成最低伤害、负重上限降低、无法撞门、物理状态抗性降低等",
+    "locations": [
+      "installed_files/release_history.txt:1329"
+    ],
+    "kind": "ui"
+  },
+  {
+    "source": "- Added swimming",
+    "target": "-新增游泳",
+    "locations": [
+      "installed_files/release_history.txt:514"
+    ],
+    "kind": "ui"
+  }
+]
