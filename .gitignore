@@ -12,3 +12,6 @@ installation-records/
 /install_steam.py
 /qa_ui.py
 /qa-start.sh
+/source/installed_files/config.ini
+/source/installed_files/save
+/source/installed_files/highscores
