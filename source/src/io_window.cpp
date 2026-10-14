@@ -151,7 +151,7 @@ static SDL_Window* init_window_fullscreen()
 
         panels::init(io::px_to_gui_coords(window_size));
 
-        auto* const window = create_sdl_window(window_size, IsFullscreen::yes);
+        auto* const window = create_sdl_window(native_resolution, IsFullscreen::yes);
 
         return window;
 }

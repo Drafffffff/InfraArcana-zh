@@ -296,7 +296,7 @@ static void set_default_variables()
         s_is_double_click_toggle_fullscreen = true;
 
         // Use the smallest font
-        s_font_name = s_font_image_names[0];
+        s_font_name = "6x12_fusion.png";
 
         s_always_center_view_on_player = true;
 
@@ -388,7 +388,7 @@ static bool read_config_file()
                            "(removed from disk?), reverting to smallest font"
                         << std::endl;
 
-                s_font_name = s_font_image_names[0];
+                s_font_name = "6x12_fusion.png";
         }
 
         update_render_dims();

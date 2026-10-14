@@ -1,3 +1,4 @@
+#include "utf8.hpp"
 // =============================================================================
 // Copyright Martin Törnqvist <m.tornq@gmail.com>
 //
@@ -315,7 +316,7 @@ static int draw_legend()
                         entry.color,
                         io::DrawBg::no);
 
-                longest_text_w = std::max(longest_text_w, (int)entry.legend_text.length());
+                longest_text_w = std::max(longest_text_w, (int)utf8::width(entry.legend_text));
 
                 ++y;
         }

@@ -1,3 +1,4 @@
+#include "utf8.hpp"
 // =============================================================================
 // Copyright Martin Törnqvist <m.tornq@gmail.com>
 //
@@ -45,7 +46,7 @@ static const int s_max_nr_repeats = 9;
 // "(xN)" where N is guaranteed to be a single digit, see above.
 static const int s_repeat_str_len = 4;
 
-static const int s_space_reserved_for_more_prompt = (int)msg_log::g_more_str.size() + 1;
+static const int s_space_reserved_for_more_prompt = (int)utf8::width(msg_log::g_more_str) + 1;
 
 static bool s_is_waiting_more_pompt = false;
 
@@ -121,7 +122,7 @@ static int x_after_msg(const Msg* const msg)
 
         const std::string str = msg->text_with_repeats();
 
-        return msg->x_pos() + (int)str.size() + 1;
+        return msg->x_pos() + (int)utf8::width(str) + 1;
 }
 
 static int worst_case_msg_w_for_line_nr(
@@ -134,7 +135,7 @@ static int worst_case_msg_w_for_line_nr(
                 : 0;
 
         const int max_w =
-                (int)text.size() +
+                (int)utf8::width(text) +
                 s_repeat_str_len +
                 space_reserved_for_more_prompt_this_line;
 
@@ -228,7 +229,7 @@ static void draw_more_prompt()
                 // line however, the "more" text MUST fit on the line (handled when adding
                 // messages).
                 if (line_nr != (msg_log::g_nr_log_lines - 1)) {
-                        const int more_x1 = more_x0 + (int)msg_log::g_more_str.size() - 1;
+                        const int more_x1 = more_x0 + (int)utf8::width(msg_log::g_more_str) - 1;
 
                         if (more_x1 >= panels::w(Panel::log)) {
                                 more_x0 = 0;
@@ -237,7 +238,7 @@ static void draw_more_prompt()
                 }
         }
 
-        ASSERT((more_x0 + (int)msg_log::g_more_str.size()) <= (panels::w(Panel::log)));
+        ASSERT((more_x0 + (int)utf8::width(msg_log::g_more_str)) <= (panels::w(Panel::log)));
 
         io::draw_text(
                 msg_log::g_more_str,

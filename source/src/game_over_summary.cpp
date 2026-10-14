@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <cstddef>
+#include "utf8.hpp"
 #include <fstream>
 #include <iterator>
 #include <utility>
@@ -264,7 +265,7 @@ static void add_player_history(
         for (const HistoryEvent& event : data.player_history) {
                 std::string ev_str = std::to_string(event.turn);
 
-                const int turn_w = (int)ev_str.size();
+                const int turn_w = (int)utf8::width(ev_str);
 
                 ev_str.append(longest_turn_w - turn_w, ' ');
 

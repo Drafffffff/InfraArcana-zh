@@ -466,6 +466,7 @@ namespace io
 {
 SDL_Texture* g_font_texture_with_contours = nullptr;
 SDL_Texture* g_font_texture = nullptr;
+SDL_Texture* g_unicode_texture = nullptr;
 SDL_Texture* g_tile_textures[(size_t)gfx::TileId::END] = {};
 SDL_Texture* g_tile_textures_with_contours[(size_t)gfx::TileId::END] = {};
 SDL_Texture* g_logo_texture = nullptr;
@@ -569,6 +570,7 @@ void init_other()
         SDL_SetRenderDrawBlendMode(io::g_sdl_renderer, SDL_BLENDMODE_BLEND);
 
         load_font();
+        g_unicode_texture = load_texture(paths::images_dir() + "unicode-atlas.png");
 
         if (config::is_tiles_mode()) {
                 load_tiles();
@@ -588,6 +590,7 @@ void cleanup_other()
         if (g_sdl_renderer) {
                 SDL_DestroyRenderer(g_sdl_renderer);
                 g_sdl_renderer = nullptr;
+                g_unicode_texture = nullptr;
         }
 
         if (g_sdl_window) {
@@ -884,7 +887,7 @@ std::string sdl_pref_dir()
         char* const path_ptr =
                 // NOTE: This is somewhat of a hack, see the function arguments.
                 SDL_GetPrefPath(
-                        "infra_arcana",       // "Organization"
+                        "infra_arcana_zh",    // "Organization"
                         subdir_str.c_str());  // "Application"
 
         std::string path_str = path_ptr;

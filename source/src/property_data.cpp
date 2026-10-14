@@ -1,3 +1,4 @@
+#include "utf8.hpp"
 // =============================================================================
 // Copyright Martin Törnqvist <m.tornq@gmail.com>
 //
@@ -114,7 +115,7 @@ static void add(prop::PropData& d)
 #ifndef NDEBUG
         const std::string worst_case_str = d.name_short + prop::g_property_ending_suffix;
 
-        const size_t worst_case_w = worst_case_str.length();
+        const size_t worst_case_w = utf8::width(worst_case_str);
 
         const size_t panel_w = panels::w(Panel::map_gui_stats);
 

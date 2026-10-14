@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <cstddef>
+#include "utf8.hpp"
 #include <memory>
 #include <optional>
 #include <string>
@@ -178,7 +179,7 @@ void MainMenuState::draw()
 
                 // Is the length of the current last line at least as long as
                 // the minimum required?
-                if (last_line.length() >= min_str_w_last_line) {
+                if (utf8::width(last_line) >= min_str_w_last_line) {
                         break;
                 }
 

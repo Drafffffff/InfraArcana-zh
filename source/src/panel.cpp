@@ -50,7 +50,7 @@ static void finalize_screen_dims()
 
 static void set_game_state_panels(const P& max_gui_dims)
 {
-        constexpr int map_gui_stats_border_w = 23;
+        constexpr int map_gui_stats_border_w = 32;
 
         const int map_gui_border_x0 = max_gui_dims.x - map_gui_stats_border_w;
         const int map_gui_border_y0 = 0;

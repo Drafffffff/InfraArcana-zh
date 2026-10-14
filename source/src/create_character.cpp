@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <cstddef>
+#include "utf8.hpp"
 #include <iterator>
 #include <memory>
 
@@ -240,7 +241,7 @@ void PickBgState::draw()
                 io::draw_text(
                         bg_name,
                         Panel::create_char_menu,
-                        {(int)key_str.length() + 1, y},
+                        {(int)utf8::width(key_str) + 1, y},
                         color);
 
                 ++y;
@@ -663,7 +664,7 @@ void PickTraitState::draw()
                         {x, y},
                         colors::text());
 
-                x += (int)label.length() + 1;
+                x += (int)utf8::width(label) + 1;
 
                 draw_trait_prereq_info(prereq_data, x, y);
         }
@@ -718,7 +719,7 @@ void PickTraitState::draw_trait_menu_item(
         io::draw_text(
                 trait_name,
                 Panel::create_char_menu,
-                {(int)key_str.length() + 1, y},
+                {(int)utf8::width(key_str) + 1, y},
                 color);
 }
 
@@ -772,7 +773,7 @@ void PickTraitState::draw_trait_prereq_info(
                         {x, y},
                         prereq_title.color);
 
-                x += prereq_title.str.length();
+                x += utf8::width(prereq_title.str);
 
                 if (prereq_idx < (nr_prereq_titles - 1)) {
                         io::draw_text(
@@ -989,7 +990,7 @@ void RemoveTraitState::draw_trait_menu_item(
         io::draw_text(
                 trait_name,
                 Panel::create_char_menu,
-                {(int)key_str.length() + 1, y},
+                {(int)utf8::width(key_str) + 1, y},
                 color);
 }
 

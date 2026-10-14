@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <cstddef>
+#include "utf8.hpp"
 #include <iterator>
 #include <ostream>
 #include <utility>
@@ -264,12 +265,12 @@ void MsgPopupState::draw()
         {
                 const auto msg_line_w =
                         (msg_lines.size() == 1)
-                        ? (int)msg_lines[0].size()
+                        ? (int)utf8::width(msg_lines[0])
                         : text_max_w;
 
-                const auto title_w = (int)m_title.size();
+                const auto title_w = (int)utf8::width(m_title);
 
-                const auto confirm_line_w = (int)common_text::g_confirm_hint.size();
+                const auto confirm_line_w = (int)utf8::width(common_text::g_confirm_hint);
 
                 const int padding = 12;
 
@@ -424,7 +425,7 @@ void MenuPopupState::draw()
                         choice_lines_max_w =
                                 std::max(
                                         choice_lines_max_w,
-                                        (int)choice_str.length());
+                                        (int)utf8::width(choice_str));
                 });
 
         int horizontal_line_w = 0;
@@ -433,13 +434,13 @@ void MenuPopupState::draw()
                 const auto msg_line_w =
                         (nr_msg_lines == 0)
                         ? 0
-                        : (int)msg_lines[0].size();
+                        : (int)utf8::width(msg_lines[0]);
 
-                const auto title_w = (int)m_title.size();
+                const auto title_w = (int)utf8::width(m_title);
 
                 const auto cancel_line_w =
                         (m_show_cancel_hint == MenuModeShowCancelHint::yes)
-                        ? (int)common_text::g_cancel_hint.size()
+                        ? (int)utf8::width(common_text::g_cancel_hint)
                         : 0;
 
                 const int padding = 12;
@@ -673,19 +674,19 @@ void NumberQueryPopupState::draw()
         {
                 const auto msg_line_w =
                         (msg_lines.size() == 1)
-                        ? (int)msg_lines[0].size()
+                        ? (int)utf8::width(msg_lines[0])
                         : text_max_w;
 
                 const auto confirm_line_w =
-                        (int)common_text::g_confirm_hint.size() +
-                        (int)common_text::g_cancel_hint.size() +
+                        (int)utf8::width(common_text::g_confirm_hint) +
+                        (int)utf8::width(common_text::g_cancel_hint) +
                         1;
 
                 const int padding = 12;
 
                 horizontal_line_w =
                         std::max(
-                                {(int)m_title.size() + padding,
+                                {(int)utf8::width(m_title) + padding,
                                  msg_line_w,
                                  nr_str_max_w + padding,
                                  confirm_line_w + padding});

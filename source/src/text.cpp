@@ -5,6 +5,7 @@
 // =============================================================================
 
 #include "text.hpp"
+#include "utf8.hpp"
 
 #include <algorithm>
 #include <cctype>
@@ -117,7 +118,7 @@ std::vector<TextAction> TextCompiler::compile()
                 actions.push_back(action);
 
                 if (action.id == TextActionId::write_str) {
-                        m_line_w += action.str.size();
+                        m_line_w += utf8::width(action.str);
                 }
                 else if (action.id == TextActionId::done) {
                         break;
@@ -132,9 +133,9 @@ bool TextCompiler::should_add_newline_before_write_action(
 {
         size_t new_line_w =
                 m_line_w +
-                current_action.str.size();
+                utf8::width(current_action.str);
 
-        if (current_action.str != " ") {
+        if (current_action.str != " " && !utf8::has_unicode(current_action.str)) {
                 auto fwd_pos = m_raw_str_pos;
 
                 while (true) {
@@ -157,8 +158,9 @@ bool TextCompiler::should_add_newline_before_write_action(
                                 break;
                         }
 
+                        if (utf8::has_unicode(fwd_action.str)) break;
                         if (fwd_action.id == TextActionId::write_str) {
-                                new_line_w += fwd_action.str.size();
+                                new_line_w += utf8::width(fwd_action.str);
                         }
                 }
         }
@@ -229,6 +231,11 @@ std::pair<std::string, size_t> TextCompiler::next_token(size_t pos) const
 
         const auto starting_c = m_raw_str[pos];
 
+        if (static_cast<unsigned char>(starting_c) >= 0x80) {
+                const auto g = utf8::next(m_raw_str, pos);
+                return {m_raw_str.substr(pos, g.end-pos), g.end};
+        }
+
         if (starting_c == '\n') {
                 // Newline
                 token = starting_c;
@@ -278,7 +285,8 @@ std::pair<std::string, size_t> TextCompiler::next_token(size_t pos) const
 
                 const auto next_c = m_raw_str[pos];
 
-                if ((next_c == ' ') || (next_c == '\n') || (next_c == '{')) {
+                if ((next_c == ' ') || (next_c == '\n') || (next_c == '{') ||
+                    (static_cast<unsigned char>(next_c) >= 0x80 && starting_c != '{')) {
                         // Next character is the start of a new token
                         break;
                 }

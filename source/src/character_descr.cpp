@@ -1,3 +1,4 @@
+#include "utf8.hpp"
 // =============================================================================
 // Copyright Martin Törnqvist <m.tornq@gmail.com>
 //
@@ -224,7 +225,7 @@ static void add_history_descr(
         for (const HistoryEvent& event : data.player_history) {
                 std::string ev_str = std::to_string(event.turn);
 
-                const int turn_w = (int)ev_str.size();
+                const int turn_w = (int)utf8::width(ev_str);
 
                 ev_str.append(longest_turn_w - turn_w, ' ');
 

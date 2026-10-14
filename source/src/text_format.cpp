@@ -5,6 +5,7 @@
 // =============================================================================
 
 #include "text_format.hpp"
+#include "utf8.hpp"
 
 #include <algorithm>
 #include <cctype>
@@ -40,7 +41,7 @@ static bool is_word_fit(
         const std::string& word_to_fit,
         const size_t max_w)
 {
-        return (current_string.size() + word_to_fit.size() + 1) <= max_w;
+        return (utf8::width(current_string) + utf8::width(word_to_fit) + 1) <= max_w;
 }
 
 // -----------------------------------------------------------------------------
@@ -50,6 +51,22 @@ namespace text_format
 {
 std::vector<std::string> split(std::string line, const int max_w)
 {
+        if (utf8::has_unicode(line)) {
+                std::vector<std::string> out;
+                std::string row;
+                size_t w = 0;
+                for (size_t p = 0; p < line.size();) {
+                        const auto g = utf8::next(line, p);
+                        if (g.cp == '\n') { out.push_back(row); row.clear(); w = 0; p = g.end; continue; }
+                        if (w + utf8::columns(g.cp) > static_cast<size_t>(std::max(1, max_w))) {
+                                out.push_back(row); row.clear(); w = 0;
+                                if (g.cp == ' ') { p = g.end; continue; }
+                        }
+                        row += line.substr(p, g.end-p); w += utf8::columns(g.cp); p = g.end;
+                }
+                if (!row.empty()) out.push_back(row);
+                return out;
+        }
         if (line.empty()) {
                 return {};
         }
@@ -153,8 +170,8 @@ std::string pad_before(
 {
         std::string result = str;
 
-        if (tot_w > str.size()) {
-                result.insert(0, tot_w - str.size(), c);
+        if (tot_w > utf8::width(str)) {
+                result.insert(0, tot_w - utf8::width(str), c);
         }
 
         return result;
@@ -167,8 +184,8 @@ std::string pad_after(
 {
         std::string result = str;
 
-        if (tot_w > str.size()) {
-                result.insert(result.size(), tot_w - str.size(), c);
+        if (tot_w > utf8::width(str)) {
+                result.insert(result.size(), tot_w - utf8::width(str), c);
         }
 
         return result;
@@ -179,7 +196,7 @@ std::string first_to_lower(const std::string& str)
         std::string result = str;
 
         if (!result.empty()) {
-                result[0] = tolower(result[0]);
+                result[0] = static_cast<unsigned char>(result[0]) < 128 ? tolower(result[0]) : result[0];
         }
 
         return result;
@@ -190,7 +207,7 @@ std::string first_to_upper(const std::string& str)
         std::string result = str;
 
         if (!result.empty()) {
-                result[0] = toupper(result[0]);
+                result[0] = static_cast<unsigned char>(result[0]) < 128 ? toupper(result[0]) : result[0];
         }
 
         return result;
@@ -204,7 +221,7 @@ std::string to_upper(const std::string& str)
                 std::begin(result),
                 std::end(result),
                 std::begin(result),
-                ::toupper);
+                [](unsigned char c) { return c < 128 ? std::toupper(c) : c; });
 
         return result;
 }
@@ -233,8 +250,8 @@ void append_as_comma_list(
 
 std::string trim_leading_and_trailing_spaces(const std::string& str)
 {
-        auto start = std::find_if_not(std::begin(str), std::end(str), ::isspace);
-        auto end = std::find_if_not(std::rbegin(str), std::rend(str), ::isspace).base();
+        auto start = std::find_if_not(std::begin(str), std::end(str), [](unsigned char c) { return c < 128 && std::isspace(c); });
+        auto end = std::find_if_not(std::rbegin(str), std::rend(str), [](unsigned char c) { return c < 128 && std::isspace(c); }).base();
 
         if (start >= end) {
                 // The string contains only spaces - return an empty string.

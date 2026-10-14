@@ -44,6 +44,7 @@ extern SDL_Window* g_sdl_window;
 extern SDL_Renderer* g_sdl_renderer;
 extern SDL_Texture* g_font_texture_with_contours;
 extern SDL_Texture* g_font_texture;
+extern SDL_Texture* g_unicode_texture;
 extern SDL_Texture* g_tile_textures_with_contours[(size_t)gfx::TileId::END];
 extern SDL_Texture* g_tile_textures[(size_t)gfx::TileId::END];
 extern SDL_Texture* g_logo_texture;

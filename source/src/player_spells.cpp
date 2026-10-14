@@ -1,3 +1,4 @@
+#include "utf8.hpp"
 // =============================================================================
 // Copyright Martin Törnqvist <m.tornq@gmail.com>
 //
@@ -191,7 +192,7 @@ static void draw_spell_menu_line(
 
         io::draw_text(key_str, Panel::inventory_menu, {x, y}, color);
 
-        x = (int)key_str.size() + 1;
+        x = (int)utf8::width(key_str) + 1;
 
         if (s_is_forgotten[(size_t)spell->id()]) {
                 color =
@@ -214,7 +215,7 @@ static void draw_spell_menu_line(
 
         std::string fill_str;
 
-        const size_t fill_size = cost_label_x - x - name.size();
+        const size_t fill_size = std::max(0, cost_label_x - x - static_cast<int>(utf8::width(name)));
 
         for (size_t ii = 0; ii < fill_size; ++ii) {
                 fill_str.push_back('.');
@@ -230,7 +231,7 @@ static void draw_spell_menu_line(
                 io::draw_text(
                         fill_str,
                         Panel::inventory_menu,
-                        {x + (int)name.size(), y},
+                        {x + (int)utf8::width(name), y},
                         fill_color);
 
                 x = cost_label_x;
@@ -246,7 +247,7 @@ static void draw_spell_menu_line(
                         {x, y},
                         colors::dark_gray());
 
-                x += (int)cost_label.size();
+                x += (int)utf8::width(cost_label);
 
                 const Color cost_color =
                         (spell->cost_type() == SpellCostType::spirit)
@@ -271,7 +272,7 @@ static void draw_spell_menu_line(
                         {x, y},
                         colors::dark_gray());
 
-                x += (int)str.size();
+                x += (int)utf8::width(str);
 
                 switch (skill) {
                 case SpellSkill::basic:
